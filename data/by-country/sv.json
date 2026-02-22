@@ -4,8 +4,8 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-02-22T06:22:18Z",
-    "total_servers": 4
+    "generated_at": "2026-02-22T18:04:31Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -24,69 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 77.78,
-        "30d": 83.89,
-        "90d": 80.28,
-        "1y": 80.62
-      }
-    },
-    {
-      "ip": "168.243.48.33",
-      "version": 4,
-      "country_code": "sv",
-      "country": "El Salvador",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "SVNet",
-      "domain": "ns.telcom.com.sv",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.33,
-        "90d": 99.0,
-        "1y": 99.09
-      }
-    },
-    {
-      "ip": "190.86.205.194",
-      "version": 4,
-      "country_code": "sv",
-      "country": "El Salvador",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Sociedad Cooperativa EX Banco Cuscatlan. De R.L",
-      "domain": "mail.coopex.com.sv",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 83.7,
-        "90d": 81.32,
-        "1y": 83.37
+        "24h": 87.5,
+        "30d": 84.43,
+        "90d": 80.22,
+        "1y": 80.64
       }
     },
     {
@@ -105,15 +51,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.63,
-        "90d": 98.14,
+        "30d": 99.62,
+        "90d": 98.13,
         "1y": 98.47
+      }
+    },
+    {
+      "ip": "168.243.48.33",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "SVNet",
+      "domain": "ns.telcom.com.sv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.3,
+        "90d": 99.0,
+        "1y": 99.09
       }
     }
   ]

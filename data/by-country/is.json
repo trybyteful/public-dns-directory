@@ -4,37 +4,10 @@
     "country_name": "Iceland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-22T06:22:18Z",
+    "generated_at": "2026-02-22T18:04:31Z",
     "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "46.22.99.226",
-      "version": 4,
-      "country_code": "is",
-      "country": "Iceland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Hringdu",
-      "domain": "226-99-22-46.business.hringdu.is",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.74,
-        "90d": 97.12,
-        "1y": 97.48
-      }
-    },
     {
       "ip": "157.157.138.227",
       "version": 4,
@@ -52,14 +25,41 @@
       },
       "blocking": {
         "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 82.37,
+        "90d": 87.65,
+        "1y": 87.89
+      }
+    },
+    {
+      "ip": "46.22.99.226",
+      "version": 4,
+      "country_code": "is",
+      "country": "Iceland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Hringdu",
+      "domain": "226-99-22-46.business.hringdu.is",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 82.78,
-        "90d": 87.26,
-        "1y": 87.87
+        "30d": 95.66,
+        "90d": 97.13,
+        "1y": 97.49
       }
     },
     {
@@ -78,14 +78,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 98.01,
+        "90d": 97.99,
         "1y": 98.36
       }
     }

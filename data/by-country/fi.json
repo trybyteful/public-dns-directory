@@ -4,7 +4,7 @@
     "country_name": "Finland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-22T06:22:18Z",
+    "generated_at": "2026-02-22T18:04:31Z",
     "total_servers": 12
   },
   "resolvers": [
@@ -30,8 +30,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.49,
-        "90d": 98.19,
+        "30d": 96.43,
+        "90d": 98.18,
         "1y": 98.36
       }
     },
@@ -52,7 +52,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -83,10 +83,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 91.85,
-        "90d": 90.6,
-        "1y": 91.25
+        "24h": 87.5,
+        "30d": 91.53,
+        "90d": 90.51,
+        "1y": 91.23
       }
     },
     {
@@ -110,10 +110,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 86.48,
-        "90d": 71.42,
-        "1y": 75.94
+        "24h": 100.0,
+        "30d": 86.25,
+        "90d": 71.25,
+        "1y": 75.96
       }
     },
     {
@@ -133,7 +133,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -141,33 +141,6 @@
         "30d": 99.81,
         "90d": 99.89,
         "1y": 99.91
-      }
-    },
-    {
-      "ip": "84.249.85.95",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TeliaSonera Finland Oyj",
-      "domain": "dsl-tkubng12-54f955-95.dhcp.inet.fi",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 61.55,
-        "90d": 43.15,
-        "1y": 40.94
       }
     },
     {
@@ -187,68 +160,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 77.78,
-        "30d": 79.11,
-        "90d": 87.07,
-        "1y": 86.23
-      }
-    },
-    {
-      "ip": "95.216.72.9",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "HETZNER-DC",
-      "domain": "static.9.72.216.95.clients.your-server.de",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 99.65
-      }
-    },
-    {
-      "ip": "65.108.81.207",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Hetzner Online GmbH",
-      "domain": "static.207.81.108.65.clients.your-server.de",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.44,
-        "90d": 99.75,
-        "1y": 99.77
+        "24h": 87.5,
+        "30d": 78.95,
+        "90d": 86.99,
+        "1y": 86.25
       }
     },
     {
@@ -268,7 +187,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -306,6 +225,60 @@
       }
     },
     {
+      "ip": "95.216.72.9",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "HETZNER-DC",
+      "domain": "static.9.72.216.95.clients.your-server.de",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 99.65
+      }
+    },
+    {
+      "ip": "65.108.81.207",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Hetzner Online GmbH",
+      "domain": "static.207.81.108.65.clients.your-server.de",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.44,
+        "90d": 99.79,
+        "1y": 99.77
+      }
+    },
+    {
       "ip": "80.220.131.128",
       "version": 4,
       "country_code": "fi",
@@ -321,15 +294,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 62.85,
-        "90d": 60.29,
-        "1y": 60.09
+        "24h": 75.0,
+        "30d": 62.22,
+        "90d": 60.27,
+        "1y": 60.1
+      }
+    },
+    {
+      "ip": "84.249.85.95",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TeliaSonera Finland Oyj",
+      "domain": "dsl-tkubng12-54f955-95.dhcp.inet.fi",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 61.02,
+        "90d": 43.52,
+        "1y": 40.99
       }
     }
   ]

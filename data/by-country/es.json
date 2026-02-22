@@ -4,8 +4,8 @@
     "country_name": "Spain",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-22T06:22:18Z",
-    "total_servers": 84
+    "generated_at": "2026-02-22T18:04:31Z",
+    "total_servers": 103
   },
   "resolvers": [
     {
@@ -21,6 +21,33 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 55.75,
+        "90d": 53.44,
+        "1y": 51.63
+      }
+    },
+    {
+      "ip": "85.58.120.134",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UNI2",
+      "domain": "134.pool85-58-120.static.orange.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
         "validating": true
       },
       "blocking": {
@@ -29,10 +56,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 56.51,
-        "90d": 53.44,
-        "1y": 51.6
+        "24h": 87.5,
+        "30d": 76.13,
+        "90d": 72.45,
+        "1y": 71.89
       }
     },
     {
@@ -51,15 +78,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 78.41,
-        "90d": 75.47,
-        "1y": 74.2
+        "30d": 78.95,
+        "90d": 76.0,
+        "1y": 74.23
       }
     },
     {
@@ -78,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 68.39,
-        "90d": 42.05,
-        "1y": 44.66
+        "24h": 87.5,
+        "30d": 67.86,
+        "90d": 42.31,
+        "1y": 44.69
       }
     },
     {
@@ -133,7 +160,7 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -159,15 +186,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 52.78,
+        "24h": 87.5,
+        "30d": 52.92,
         "90d": 60.43,
-        "1y": 58.11
+        "1y": 58.13
       }
     },
     {
@@ -186,15 +213,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 87.59,
-        "90d": 90.82,
-        "1y": 88.85
+        "24h": 75.0,
+        "30d": 86.98,
+        "90d": 90.87,
+        "1y": 88.8
+      }
+    },
+    {
+      "ip": "80.27.2.221",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TME",
+      "domain": "221.red-80-27-2.staticip.rima-tde.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 75.56,
+        "90d": 53.06,
+        "1y": 55.13
       }
     },
     {
@@ -218,10 +272,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 91.87,
-        "90d": 96.51,
-        "1y": 96.98
+        "24h": 87.5,
+        "30d": 91.54,
+        "90d": 96.49,
+        "1y": 96.96
       }
     },
     {
@@ -237,18 +291,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "ads": true,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 81.11,
-        "90d": 64.02,
-        "1y": 61.45
+        "24h": 100.0,
+        "30d": 80.98,
+        "90d": 64.16,
+        "1y": 61.49
       }
     },
     {
@@ -269,13 +323,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.07,
+        "30d": 99.06,
         "90d": 99.18,
         "1y": 99.27
+      }
+    },
+    {
+      "ip": "80.27.2.226",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TME",
+      "domain": "226.red-80-27-2.staticip.rima-tde.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 62.5,
+        "30d": 78.11,
+        "90d": 65.42,
+        "1y": 63.97
       }
     },
     {
@@ -294,15 +375,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 85.56,
-        "90d": 84.83,
-        "1y": 86.48
+        "24h": 100.0,
+        "30d": 85.47,
+        "90d": 84.85,
+        "1y": 86.49
       }
     },
     {
@@ -322,14 +403,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.28,
-        "90d": 92.14,
-        "1y": 92.12
+        "30d": 89.29,
+        "90d": 92.2,
+        "1y": 92.13
+      }
+    },
+    {
+      "ip": "80.27.3.5",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TME",
+      "domain": "5.red-80-27-3.staticip.rima-tde.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 69.92,
+        "90d": 73.27,
+        "1y": 75.22
       }
     },
     {
@@ -345,45 +453,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 77.78,
-        "30d": 65.58,
-        "90d": 87.92,
-        "1y": 89.96
-      }
-    },
-    {
-      "ip": "81.45.174.150",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "RIMA (Red IP Multi Acceso)",
-      "domain": "150.red-81-45-174.staticip.rima-tde.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 93.7,
-        "90d": 94.59,
-        "1y": 95.26
+        "24h": 87.5,
+        "30d": 65.1,
+        "90d": 87.8,
+        "1y": 89.94
       }
     },
     {
@@ -430,14 +511,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 79.44,
-        "90d": 80.53,
-        "1y": 79.19
+        "24h": 75.0,
+        "30d": 78.68,
+        "90d": 80.91,
+        "1y": 79.15
       }
     },
     {
@@ -456,42 +537,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
+        "ads": true,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.82,
-        "90d": 96.05,
-        "1y": 96.19
+        "30d": 94.74,
+        "90d": 96.03,
+        "1y": 96.2
       }
     },
     {
-      "ip": "85.62.89.32",
+      "ip": "88.30.53.40",
       "version": 4,
       "country_code": "es",
       "country": "Spain",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "UNI2",
-      "domain": "32.pool85-62-89.dynamic.orange.es",
+      "organization": "RIMA (Red IP Multi Acceso)",
+      "domain": "40.red-88-30-53.staticip.rima-tde.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 54.44,
-        "90d": 62.46,
-        "1y": 62.21
+        "24h": 62.5,
+        "30d": 55.47,
+        "90d": 49.96,
+        "1y": 46.65
       }
     },
     {
@@ -511,241 +592,52 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 81.52,
-        "90d": 86.77,
-        "1y": 86.71
-      }
-    },
-    {
-      "ip": "80.67.98.226",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "CLARA",
-      "domain": "ns1.infoselva.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 78.23,
-        "90d": 39.11,
-        "1y": 65.94
+        "30d": 81.2,
+        "90d": 86.77,
+        "1y": 86.72
       }
     },
     {
-      "ip": "95.61.156.70",
+      "ip": "78.136.96.96",
       "version": 4,
       "country_code": "es",
       "country": "Spain",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Ajuntamentdellicadevall",
-      "domain": "static-70-156-61-95.ipcom.comunitel.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 55.56,
-        "30d": 54.34,
-        "90d": 68.3,
-        "1y": 68.06
-      }
-    },
-    {
-      "ip": "92.43.224.1",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OmniAccess SL",
-      "domain": "ext-rec-01.omniaccess.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 93.9,
-        "90d": 98.08,
-        "1y": 98.42
-      }
-    },
-    {
-      "ip": "82.223.43.222",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "arsys.es",
+      "organization": "Tele Condado S.L.",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.82,
-        "90d": 99.96,
-        "1y": 99.97
-      }
-    },
-    {
-      "ip": "81.9.198.217",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Euskaltel S.A.",
-      "domain": "cm-81-9-198-217.telecable.es",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 97.41,
-        "90d": 98.58,
-        "1y": 98.74
-      }
-    },
-    {
-      "ip": "81.45.138.117",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "RIMA (Red IP Multi Acceso)",
-      "domain": "117.red-81-45-138.staticip.rima-tde.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
         "aware": false,
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 0.0,
-        "30d": 42.01,
-        "90d": 60.12,
-        "1y": 58.87
-      }
-    },
-    {
-      "ip": "81.43.68.191",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "RIMA (Red IP Multi Acceso)",
-      "domain": "191.red-81-43-68.staticip.rima-tde.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.15,
-        "90d": 77.13,
-        "1y": 79.57
+        "24h": 75.0,
+        "30d": 96.24,
+        "90d": 91.55,
+        "1y": 89.76
       }
     },
     {
-      "ip": "85.51.202.225",
+      "ip": "85.62.34.221",
       "version": 4,
       "country_code": "es",
       "country": "Spain",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "UNI2",
-      "domain": "225.pool85-51-202.static.orange.es",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 77.78,
-        "30d": 73.89,
-        "90d": 67.3,
-        "1y": 71.63
-      }
-    },
-    {
-      "ip": "212.225.218.80",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Procono, S.A.",
-      "domain": "80.red.218.225.212.procono.es",
+      "domain": "221.pool85-62-34.dynamic.orange.es",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -754,68 +646,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 63.07,
-        "90d": 54.87,
-        "1y": 56.37
-      }
-    },
-    {
-      "ip": "85.51.224.115",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "UNI2",
-      "domain": "115.pool85-51-224.static.orange.es",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 96.67,
-        "90d": 97.54,
-        "1y": 97.83
-      }
-    },
-    {
-      "ip": "85.62.110.170",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "UNI2",
-      "domain": "170.pool85-62-110.static.orange.es",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 90.93,
-        "90d": 94.84,
-        "1y": 95.37
+        "24h": 37.5,
+        "30d": 39.02,
+        "90d": 42.6,
+        "1y": 46.91
       }
     },
     {
@@ -839,91 +677,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 85.74,
-        "90d": 85.2,
-        "1y": 83.11
+        "24h": 75.0,
+        "30d": 85.09,
+        "90d": 85.46,
+        "1y": 83.07
       }
     },
     {
-      "ip": "90.160.105.117",
+      "ip": "92.43.224.1",
       "version": 4,
       "country_code": "es",
       "country": "Spain",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "UNI2",
-      "domain": "117.pool90-160-105.dynamic.orange.es",
+      "organization": "OmniAccess SL",
+      "domain": "ext-rec-01.omniaccess.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.08,
-        "90d": 90.82,
-        "1y": 92.17
-      }
-    },
-    {
-      "ip": "81.9.198.118",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Euskaltel S.A.",
-      "domain": "cm-81-9-198-118.telecable.es",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.78,
-        "90d": 98.35,
-        "1y": 98.53
-      }
-    },
-    {
-      "ip": "195.219.98.49",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Nexis Tecnologias",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": true
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 73.38,
-        "90d": 73.05,
-        "1y": 73.05
+        "24h": 100.0,
+        "30d": 94.92,
+        "90d": 98.07,
+        "1y": 98.42
       }
     },
     {
@@ -942,15 +726,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 64.33,
-        "90d": 61.8,
-        "1y": 63.04
+        "24h": 100.0,
+        "30d": 63.84,
+        "90d": 61.82,
+        "1y": 63.08
       }
     },
     {
@@ -975,495 +759,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 69.21,
-        "90d": 56.81,
-        "1y": 53.33
-      }
-    },
-    {
-      "ip": "85.50.124.34",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "UNI2",
-      "domain": "34.pool85-50-124.static.orange.es",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 70.24,
-        "90d": 70.76,
-        "1y": 69.69
-      }
-    },
-    {
-      "ip": "81.45.78.156",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "RIMA (Red IP Multi Acceso)",
-      "domain": "156.red-81-45-78.staticip.rima-tde.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 77.78,
-        "30d": 53.6,
-        "90d": 49.91,
-        "1y": 51.85
-      }
-    },
-    {
-      "ip": "90.160.60.154",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "UNI2",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 44.44,
-        "30d": 40.65,
-        "90d": 27.5,
-        "1y": 26.82
-      }
-    },
-    {
-      "ip": "178.33.164.91",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH Hispano",
-      "domain": "hosting-978-8225-sd.lineagrafica.es",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.81,
-        "90d": 99.93,
-        "1y": 99.94
-      }
-    },
-    {
-      "ip": "5.1.38.155",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Prisco",
-      "domain": "pn-38.155.prisconetworks.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.7,
-        "90d": 98.47,
-        "1y": 98.59
-      }
-    },
-    {
-      "ip": "5.154.120.75",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Airenetworks",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 63.33,
-        "90d": 53.56,
-        "1y": 56.18
-      }
-    },
-    {
-      "ip": "95.60.233.192",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Comunitel Global",
-      "domain": "static-192-233-60-95.ipcom.comunitel.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 77.78,
-        "30d": 79.44,
-        "90d": 80.32,
-        "1y": 80.14
-      }
-    },
-    {
-      "ip": "217.76.139.35",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "arsys.es",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.1,
-        "90d": 96.1,
-        "1y": 96.1
-      }
-    },
-    {
-      "ip": "79.98.222.23",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Ibred",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 77.12,
-        "90d": 62.28,
-        "1y": 63.34
-      }
-    },
-    {
-      "ip": "194.48.151.234",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OLVERA CA.T.V., S. COOP",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 55.56,
-        "30d": 50.19,
-        "90d": 70.54,
-        "1y": 68.45
-      }
-    },
-    {
-      "ip": "88.87.139.12",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Zertia Telecomunicaciones S.L.",
-      "domain": "gto.ecua.es",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 77.63,
-        "90d": 86.37,
-        "1y": 85.71
-      }
-    },
-    {
-      "ip": "81.0.56.180",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Masmovil Ibercom, SA",
-      "domain": "static.180.56.0.81.ibercom.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 22.22,
-        "30d": 49.63,
-        "90d": 57.69,
-        "1y": 62.0
-      }
-    },
-    {
-      "ip": "194.48.151.130",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OLVERA CA.T.V., S. COOP",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 70.0,
-        "90d": 87.94,
-        "1y": 87.59
-      }
-    },
-    {
-      "ip": "81.45.43.133",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "RIMA (Red IP Multi Acceso)",
-      "domain": "@arvitec.es",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 11.11,
-        "30d": 56.13,
-        "90d": 80.84,
-        "1y": 81.95
-      }
-    },
-    {
-      "ip": "90.170.174.67",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Uni2",
-      "domain": "67.pool90-170-174.dynamic.orange.es",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 56.13,
-        "90d": 74.7,
-        "1y": 74.55
-      }
-    },
-    {
-      "ip": "188.26.217.1",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Digi Spain Telecom S.L.U.",
-      "domain": "static-188-26-217-1.digimobil.es",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "88.30.12.135",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "RIMA (Red IP Multi Acceso)",
-      "domain": "135.red-88-30-12.staticip.rima-tde.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 81.7,
-        "90d": 89.08,
-        "1y": 87.67
-      }
-    },
-    {
-      "ip": "89.140.186.3",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "MASBYTES",
-      "domain": "dns4.masbytes.es",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.04,
-        "90d": 98.33,
-        "1y": 98.01
+        "30d": 68.34,
+        "90d": 57.25,
+        "1y": 53.67
       }
     },
     {
@@ -1487,10 +785,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 81.7,
-        "90d": 82.08,
-        "1y": 81.02
+        "24h": 100.0,
+        "30d": 81.39,
+        "90d": 82.37,
+        "1y": 81.05
       }
     },
     {
@@ -1506,18 +804,72 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 75.38,
+        "90d": 80.15,
+        "1y": 83.04
+      }
+    },
+    {
+      "ip": "85.50.124.34",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UNI2",
+      "domain": "34.pool85-50-124.static.orange.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 75.79,
-        "90d": 80.23,
-        "1y": 83.02
+        "30d": 69.87,
+        "90d": 70.64,
+        "1y": 69.72
+      }
+    },
+    {
+      "ip": "85.53.144.232",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UNI2",
+      "domain": "232.pool85-53-144.dynamic.orange.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 58.0,
+        "90d": 50.7,
+        "1y": 52.67
       }
     },
     {
@@ -1538,78 +890,24 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 78.19,
-        "90d": 66.43,
-        "1y": 67.03
-      }
-    },
-    {
-      "ip": "88.28.201.36",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "RIMA (Red IP Multi Acceso)",
-      "domain": "36.red-88-28-201.staticip.rima-tde.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 48.98,
-        "90d": 32.73,
-        "1y": 31.92
+        "24h": 87.5,
+        "30d": 77.82,
+        "90d": 66.6,
+        "1y": 67.04
       }
     },
     {
-      "ip": "85.217.158.4",
+      "ip": "81.9.198.118",
       "version": 4,
       "country_code": "es",
       "country": "Spain",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Avatel & Wikiker Telecom, S.L.",
-      "domain": "4.158.217.85-avatel.es",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 77.78,
-        "30d": 81.11,
-        "90d": 69.32,
-        "1y": 67.18
-      }
-    },
-    {
-      "ip": "77.26.196.60",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "R Cable y Telecomunicaciones Galicia S.A.",
-      "domain": "60.196.26.77.dynamic.reverse-mundo-r.com",
+      "organization": "Euskaltel S.A.",
+      "domain": "cm-81-9-198-118.telecable.es",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1623,127 +921,19 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.33,
-        "90d": 99.0,
-        "1y": 99.15
+        "30d": 95.9,
+        "90d": 98.34,
+        "1y": 98.53
       }
     },
     {
-      "ip": "77.230.66.172",
+      "ip": "195.219.98.49",
       "version": 4,
       "country_code": "es",
       "country": "Spain",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Tecsa Com.serv. De Automocion S.A.",
-      "domain": "static-172-66-230-77.ipcom.comunitel.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 77.78,
-        "30d": 77.41,
-        "90d": 79.81,
-        "1y": 76.9
-      }
-    },
-    {
-      "ip": "91.126.187.228",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Adamo Telecom Iberia S.A.U",
-      "domain": "cli-5b7ebbe4.bcn.adamo.es",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.67,
-        "90d": 98.29,
-        "1y": 97.83
-      }
-    },
-    {
-      "ip": "91.117.205.251",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "R Cable y Telecomunicaciones Galicia S.A.",
-      "domain": "251.205.117.91.static.reverse-mundo-r.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.15,
-        "90d": 99.61,
-        "1y": 99.68
-      }
-    },
-    {
-      "ip": "89.29.229.12",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "CABLEWORLD SL",
-      "domain": "89.29.229.12.murcia.cableworld.es",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 44.44,
-        "30d": 45.74,
-        "90d": 37.62,
-        "1y": 35.98
-      }
-    },
-    {
-      "ip": "185.130.153.92",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Aire Networks Del Mediterraneo SL Unipersonal",
+      "organization": "Nexis Tecnologias",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -1757,10 +947,172 @@
         "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 69.26,
-        "90d": 58.22,
-        "1y": 62.44
+        "24h": 100.0,
+        "30d": 73.12,
+        "90d": 73.11,
+        "1y": 73.11
+      }
+    },
+    {
+      "ip": "80.67.98.227",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "CLARA",
+      "domain": "ns2.infoselva.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 78.12,
+        "90d": 39.68,
+        "1y": 66.15
+      }
+    },
+    {
+      "ip": "188.227.135.6",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Least Cost Telecom S.l. Unipersonal",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 63.65,
+        "90d": 60.06,
+        "1y": 61.11
+      }
+    },
+    {
+      "ip": "5.1.38.155",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Prisco",
+      "domain": "pn-38.155.prisconetworks.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.68,
+        "90d": 98.46,
+        "1y": 98.6
+      }
+    },
+    {
+      "ip": "95.60.233.192",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Comunitel Global",
+      "domain": "static-192-233-60-95.ipcom.comunitel.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 79.28,
+        "90d": 80.3,
+        "1y": 80.16
+      }
+    },
+    {
+      "ip": "188.26.217.1",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Digi Spain Telecom S.L.U.",
+      "domain": "static-188-26-217-1.digimobil.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
+      }
+    },
+    {
+      "ip": "178.33.164.91",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH Hispano",
+      "domain": "hosting-978-8225-sd.lineagrafica.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.81,
+        "90d": 99.93,
+        "1y": 99.94
       }
     },
     {
@@ -1780,14 +1132,716 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 88.01,
-        "90d": 85.92,
-        "1y": 85.56
+        "24h": 100.0,
+        "30d": 87.97,
+        "90d": 86.34,
+        "1y": 85.58
+      }
+    },
+    {
+      "ip": "188.165.135.209",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH Hispano",
+      "domain": "ip209.ip-188-165-135.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 62.5,
+        "30d": 59.65,
+        "90d": 84.15,
+        "1y": 83.09
+      }
+    },
+    {
+      "ip": "88.30.12.135",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "RIMA (Red IP Multi Acceso)",
+      "domain": "135.red-88-30-12.staticip.rima-tde.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 81.58,
+        "90d": 89.23,
+        "1y": 87.69
+      }
+    },
+    {
+      "ip": "194.48.151.200",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OLVERA CA.T.V., S. COOP",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 52.91,
+        "90d": 77.52,
+        "1y": 84.64
+      }
+    },
+    {
+      "ip": "80.27.3.17",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TME",
+      "domain": "17.red-80-27-3.staticip.rima-tde.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 88.49,
+        "90d": 86.26,
+        "1y": 88.41
+      }
+    },
+    {
+      "ip": "89.140.186.3",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "MASBYTES",
+      "domain": "dns4.masbytes.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.99,
+        "90d": 98.32,
+        "1y": 98.01
+      }
+    },
+    {
+      "ip": "91.117.205.251",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "R Cable y Telecomunicaciones Galicia S.A.",
+      "domain": "251.205.117.91.static.reverse-mundo-r.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.12,
+        "90d": 99.61,
+        "1y": 99.68
+      }
+    },
+    {
+      "ip": "88.87.139.12",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Zertia Telecomunicaciones S.L.",
+      "domain": "gto.ecua.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 77.63,
+        "90d": 86.29,
+        "1y": 85.73
+      }
+    },
+    {
+      "ip": "194.48.151.234",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OLVERA CA.T.V., S. COOP",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 49.32,
+        "90d": 70.39,
+        "1y": 68.49
+      }
+    },
+    {
+      "ip": "81.45.43.133",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "RIMA (Red IP Multi Acceso)",
+      "domain": "@arvitec.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 25.0,
+        "30d": 55.08,
+        "90d": 80.9,
+        "1y": 81.91
+      }
+    },
+    {
+      "ip": "91.117.227.187",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "R Cable y Telecomunicaciones Galicia S.A.",
+      "domain": "187.227.117.91.static.reverse-mundo-r.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 60.49,
+        "1y": 70.59
+      }
+    },
+    {
+      "ip": "212.4.121.10",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Grupalia",
+      "domain": "var010-121.gnet.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 80.45,
+        "90d": 72.01,
+        "1y": 75.52
+      }
+    },
+    {
+      "ip": "213.4.82.7",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TDETIC",
+      "domain": "7.red-213-4-82.customer.static.ccgg.telefonica.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 84.77,
+        "90d": 84.61,
+        "1y": 85.61
+      }
+    },
+    {
+      "ip": "212.230.255.1",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Global ISP by PriorityTelecom Spain, S.A.",
+      "domain": "ns2.xtratelecom.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.81,
+        "90d": 99.57,
+        "1y": 99.65
+      }
+    },
+    {
+      "ip": "213.201.78.48",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ONO",
+      "domain": "mx2.estunube.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.81,
+        "90d": 99.64,
+        "1y": 99.71
+      }
+    },
+    {
+      "ip": "80.67.98.226",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "CLARA",
+      "domain": "ns1.infoselva.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 78.74,
+        "90d": 39.84,
+        "1y": 66.0
+      }
+    },
+    {
+      "ip": "91.126.187.228",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Adamo Telecom Iberia S.A.U",
+      "domain": "cli-5b7ebbe4.bcn.adamo.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.61,
+        "90d": 98.28,
+        "1y": 97.84
+      }
+    },
+    {
+      "ip": "89.29.229.12",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "CABLEWORLD SL",
+      "domain": "89.29.229.12.murcia.cableworld.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 62.5,
+        "30d": 45.39,
+        "90d": 37.52,
+        "1y": 35.99
+      }
+    },
+    {
+      "ip": "185.130.153.92",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Aire Networks Del Mediterraneo SL Unipersonal",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 69.3,
+        "90d": 58.22,
+        "1y": 62.46
+      }
+    },
+    {
+      "ip": "90.160.60.166",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UNI2",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 42.86,
+        "30d": 41.57,
+        "90d": 27.25,
+        "1y": 26.34
+      }
+    },
+    {
+      "ip": "81.0.56.180",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Masmovil Ibercom, SA",
+      "domain": "static.180.56.0.81.ibercom.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 48.59,
+        "90d": 57.5,
+        "1y": 62.02
+      }
+    },
+    {
+      "ip": "194.48.151.130",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OLVERA CA.T.V., S. COOP",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 69.68,
+        "90d": 87.9,
+        "1y": 87.6
+      }
+    },
+    {
+      "ip": "185.44.24.27",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Emartinez1",
+      "domain": "genuine.electronicamartinez.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.87,
+        "90d": 99.46,
+        "1y": 99.56
+      }
+    },
+    {
+      "ip": "90.161.140.133",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UNI2-ABI",
+      "domain": "133.pool90-161-140.static.orange.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 99.24
+      }
+    },
+    {
+      "ip": "85.217.158.4",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Avatel & Wikiker Telecom, S.L.",
+      "domain": "4.158.217.85-avatel.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 80.98,
+        "90d": 69.89,
+        "1y": 67.22
+      }
+    },
+    {
+      "ip": "79.98.222.23",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Ibred",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 76.74,
+        "90d": 62.34,
+        "1y": 63.35
+      }
+    },
+    {
+      "ip": "77.73.41.121",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "First assignment Lorca T.V. Sol S.L.",
+      "domain": "77-73-41-121-static.telelorca.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 37.5,
+        "30d": 39.65,
+        "90d": 28.23,
+        "1y": 30.03
       }
     },
     {
@@ -1818,57 +1872,30 @@
       }
     },
     {
-      "ip": "77.230.19.121",
+      "ip": "85.62.5.74",
       "version": 4,
       "country_code": "es",
       "country": "Spain",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Iprosur Proyectos Informaticos S.L.",
-      "domain": "iprosur.com",
+      "organization": "UNI2",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 72.78,
-        "90d": 65.86,
-        "1y": 66.42
-      }
-    },
-    {
-      "ip": "62.36.9.107",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Uni2 1",
-      "domain": "62.36.9.107.static.abi.uni2.es",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": true
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 55.56,
-        "90d": 58.67,
-        "1y": 58.58
+        "24h": 87.5,
+        "30d": 84.4,
+        "90d": 87.83,
+        "1y": 89.18
       }
     },
     {
@@ -1893,74 +1920,20 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.22,
-        "90d": 98.58,
-        "1y": 97.72
+        "30d": 97.18,
+        "90d": 98.57,
+        "1y": 97.73
       }
     },
     {
-      "ip": "185.44.24.27",
+      "ip": "77.230.66.172",
       "version": 4,
       "country_code": "es",
       "country": "Spain",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Emartinez1",
-      "domain": "genuine.electronicamartinez.es",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.89,
-        "90d": 99.47,
-        "1y": 99.56
-      }
-    },
-    {
-      "ip": "90.161.140.133",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "UNI2-ABI",
-      "domain": "133.pool90-161-140.static.orange.es",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.89,
-        "1y": 99.24
-      }
-    },
-    {
-      "ip": "194.48.151.200",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OLVERA CA.T.V., S. COOP",
-      "domain": null,
+      "organization": "Tecsa Com.serv. De Automocion S.A.",
+      "domain": "static-172-66-230-77.ipcom.comunitel.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1968,15 +1941,42 @@
         "validating": true
       },
       "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 77.11,
+        "90d": 79.79,
+        "1y": 76.89
+      }
+    },
+    {
+      "ip": "77.26.196.60",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "R Cable y Telecomunicaciones Galicia S.A.",
+      "domain": "60.196.26.77.dynamic.reverse-mundo-r.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
         "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 52.05,
-        "90d": 77.82,
-        "1y": 84.61
+        "30d": 98.31,
+        "90d": 99.0,
+        "1y": 99.15
       }
     },
     {
@@ -1995,15 +1995,258 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.28,
-        "90d": 85.92,
-        "1y": 87.55
+        "30d": 89.29,
+        "90d": 85.87,
+        "1y": 87.57
+      }
+    },
+    {
+      "ip": "82.223.43.222",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "arsys.es",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.81,
+        "90d": 99.96,
+        "1y": 99.97
+      }
+    },
+    {
+      "ip": "77.230.19.121",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Iprosur Proyectos Informaticos S.L.",
+      "domain": "iprosur.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 72.61,
+        "90d": 65.81,
+        "1y": 66.45
+      }
+    },
+    {
+      "ip": "85.62.190.161",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UNI2",
+      "domain": "161.pool85-62-190.dynamic.orange.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 75.75,
+        "90d": 74.17,
+        "1y": 71.98
+      }
+    },
+    {
+      "ip": "85.61.75.220",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UNI2",
+      "domain": "220.pool85-61-75.dynamic.orange.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 74.06,
+        "90d": 68.66,
+        "1y": 69.58
+      }
+    },
+    {
+      "ip": "84.236.142.130",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ServiHosting Networks S.L",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 65.41,
+        "90d": 64.9,
+        "1y": 69.11
+      }
+    },
+    {
+      "ip": "83.48.48.80",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "RIMA (Red IP Multi Acceso)",
+      "domain": "80.red-83-48-48.staticip.rima-tde.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 67.86,
+        "90d": 69.91,
+        "1y": 68.62
+      }
+    },
+    {
+      "ip": "81.9.198.12",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Euskaltel S.A.",
+      "domain": "cm-81-9-198-12.telecable.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 95.11,
+        "90d": 98.03,
+        "1y": 98.22
+      }
+    },
+    {
+      "ip": "81.9.198.217",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Euskaltel S.A.",
+      "domain": "cm-81-9-198-217.telecable.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.37,
+        "90d": 98.57,
+        "1y": 98.74
+      }
+    },
+    {
+      "ip": "85.60.12.49",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UNI2",
+      "domain": "49.pool85-60-12.dynamic.orange.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 82.18,
+        "90d": 78.13,
+        "1y": 77.1
       }
     },
     {
@@ -2019,11 +2262,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -2031,114 +2274,6 @@
         "30d": 100.0,
         "90d": 99.96,
         "1y": 99.97
-      }
-    },
-    {
-      "ip": "91.117.227.187",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "R Cable y Telecomunicaciones Galicia S.A.",
-      "domain": "187.227.117.91.static.reverse-mundo-r.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 60.41,
-        "1y": 70.54
-      }
-    },
-    {
-      "ip": "213.4.82.7",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TDETIC",
-      "domain": "7.red-213-4-82.customer.static.ccgg.telefonica.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 85.21,
-        "90d": 84.67,
-        "1y": 85.62
-      }
-    },
-    {
-      "ip": "212.230.255.1",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Global ISP by PriorityTelecom Spain, S.A.",
-      "domain": "ns2.xtratelecom.es",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.82,
-        "90d": 99.57,
-        "1y": 99.65
-      }
-    },
-    {
-      "ip": "213.201.78.48",
-      "version": 4,
-      "country_code": "es",
-      "country": "Spain",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ONO",
-      "domain": "mx2.estunube.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.82,
-        "90d": 99.64,
-        "1y": 99.71
       }
     },
     {
@@ -2158,25 +2293,52 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 84.63,
-        "90d": 75.93,
-        "1y": 74.67
+        "24h": 62.5,
+        "30d": 84.15,
+        "90d": 75.92,
+        "1y": 74.64
       }
     },
     {
-      "ip": "85.60.12.49",
+      "ip": "85.51.202.225",
       "version": 4,
       "country_code": "es",
       "country": "Spain",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "UNI2",
-      "domain": "49.pool85-60-12.dynamic.orange.es",
+      "domain": "225.pool85-51-202.static.orange.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 73.4,
+        "90d": 67.12,
+        "1y": 71.61
+      }
+    },
+    {
+      "ip": "81.45.138.117",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "RIMA (Red IP Multi Acceso)",
+      "domain": "117.red-81-45-138.staticip.rima-tde.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2185,14 +2347,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 82.22,
-        "90d": 78.05,
-        "1y": 77.08
+        "24h": 50.0,
+        "30d": 41.26,
+        "90d": 60.56,
+        "1y": 58.86
+      }
+    },
+    {
+      "ip": "90.161.38.35",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UNI2-ABI",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 25.0,
+        "30d": 18.88,
+        "90d": 12.13,
+        "1y": 12.25
       }
     },
     {
@@ -2218,7 +2407,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.22,
+        "90d": 99.21,
         "1y": 99.36
       }
     },
@@ -2238,15 +2427,123 @@
         "validating": true
       },
       "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.62,
+        "90d": 98.21,
+        "1y": 97.75
+      }
+    },
+    {
+      "ip": "212.225.218.80",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Procono, S.A.",
+      "domain": "80.red.218.225.212.procono.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 62.12,
+        "90d": 55.16,
+        "1y": 56.36
+      }
+    },
+    {
+      "ip": "88.28.198.59",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "RIMA (Red IP Multi Acceso)",
+      "domain": "59.red-88-28-198.staticip.rima-tde.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 62.5,
+        "30d": 58.26,
+        "90d": 70.47,
+        "1y": 70.08
+      }
+    },
+    {
+      "ip": "85.51.224.115",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UNI2",
+      "domain": "115.pool85-51-224.static.orange.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
         "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.63,
-        "90d": 98.22,
-        "1y": 97.75
+        "30d": 96.6,
+        "90d": 97.53,
+        "1y": 97.84
+      }
+    },
+    {
+      "ip": "85.62.110.170",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UNI2",
+      "domain": "170.pool85-62-110.static.orange.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 90.38,
+        "90d": 94.77,
+        "1y": 95.32
       }
     },
     {
@@ -2266,14 +2563,230 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 85.37,
+        "90d": 71.35,
+        "1y": 73.62
+      }
+    },
+    {
+      "ip": "90.160.105.117",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UNI2",
+      "domain": "117.pool90-160-105.dynamic.orange.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.06,
+        "90d": 90.95,
+        "1y": 92.18
+      }
+    },
+    {
+      "ip": "62.14.234.233",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Orange Spain",
+      "domain": "233.234.14.62.static.jazztel.es",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 82.3,
+        "90d": 91.89,
+        "1y": 93.18
+      }
+    },
+    {
+      "ip": "81.43.68.191",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "RIMA (Red IP Multi Acceso)",
+      "domain": "191.red-81-43-68.staticip.rima-tde.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 85.37,
-        "90d": 71.45,
-        "1y": 73.59
+        "24h": 100.0,
+        "30d": 98.12,
+        "90d": 77.27,
+        "1y": 79.6
+      }
+    },
+    {
+      "ip": "77.231.171.44",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Redegal SL",
+      "domain": "din-44-171-231-77.ipcom.comunitel.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 37.5,
+        "30d": 44.17,
+        "90d": 24.85,
+        "1y": 23.54
+      }
+    },
+    {
+      "ip": "95.124.242.189",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TME",
+      "domain": "189.red-95-124-242.staticip.rima-tde.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 62.5,
+        "30d": 77.59,
+        "90d": 87.97,
+        "1y": 89.01
+      }
+    },
+    {
+      "ip": "80.27.2.222",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TME",
+      "domain": "222.red-80-27-2.staticip.rima-tde.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 62.5,
+        "30d": 61.69,
+        "90d": 54.0,
+        "1y": 54.25
+      }
+    },
+    {
+      "ip": "5.154.120.75",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Airenetworks",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 62.34,
+        "90d": 53.47,
+        "1y": 56.17
+      }
+    },
+    {
+      "ip": "217.76.139.35",
+      "version": 4,
+      "country_code": "es",
+      "country": "Spain",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "arsys.es",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.3,
+        "90d": 96.3,
+        "1y": 96.3
       }
     }
   ]
