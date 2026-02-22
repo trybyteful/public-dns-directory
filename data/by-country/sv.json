@@ -4,7 +4,7 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-02-21T18:04:17Z",
+    "generated_at": "2026-02-22T06:22:18Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 77.78,
+        "30d": 83.89,
+        "90d": 80.28,
+        "1y": 80.62
+      }
+    },
+    {
+      "ip": "168.243.48.33",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "SVNet",
+      "domain": "ns.telcom.com.sv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 84.36,
-        "90d": 80.23,
-        "1y": 80.62
+        "24h": 100.0,
+        "30d": 98.33,
+        "90d": 99.0,
+        "1y": 99.09
       }
     },
     {
@@ -51,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 84.0,
-        "90d": 81.47,
-        "1y": 83.38
+        "24h": 66.67,
+        "30d": 83.7,
+        "90d": 81.32,
+        "1y": 83.37
       }
     },
     {
@@ -78,42 +105,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.64,
-        "90d": 98.15,
+        "30d": 99.63,
+        "90d": 98.14,
         "1y": 98.47
-      }
-    },
-    {
-      "ip": "168.243.48.33",
-      "version": 4,
-      "country_code": "sv",
-      "country": "El Salvador",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "SVNet",
-      "domain": "ns.telcom.com.sv",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 81.82,
-        "30d": 98.36,
-        "90d": 99.01,
-        "1y": 99.09
       }
     }
   ]

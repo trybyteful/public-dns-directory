@@ -4,7 +4,7 @@
     "country_name": "Kuwait",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-21T18:04:17Z",
+    "generated_at": "2026-02-22T06:22:18Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -24,42 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.82,
-        "90d": 86.8,
-        "1y": 87.01
-      }
-    },
-    {
-      "ip": "62.150.232.120",
-      "version": 4,
-      "country_code": "kw",
-      "country": "Kuwait",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Qualitynet Co.",
-      "domain": "xdsl-62-150-232-120.qualitynet.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.73,
-        "90d": 92.43,
-        "1y": 87.25
+        "30d": 97.96,
+        "90d": 86.86,
+        "1y": 87.03
       }
     },
     {
@@ -79,13 +52,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.14,
-        "90d": 98.41,
+        "30d": 94.02,
+        "90d": 98.4,
         "1y": 98.69
       }
     },
@@ -106,14 +79,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 98.18,
-        "90d": 96.83,
-        "1y": 96.99
+        "24h": 88.89,
+        "30d": 98.15,
+        "90d": 96.8,
+        "1y": 97.0
+      }
+    },
+    {
+      "ip": "62.150.232.120",
+      "version": 4,
+      "country_code": "kw",
+      "country": "Kuwait",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Qualitynet Co.",
+      "domain": "xdsl-62-150-232-120.qualitynet.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 88.89,
+        "30d": 98.52,
+        "90d": 92.35,
+        "1y": 87.24
       }
     }
   ]
