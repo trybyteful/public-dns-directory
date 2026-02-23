@@ -4,12 +4,39 @@
     "country_name": "Cambodia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-23T06:33:22Z",
-    "total_servers": 3
+    "generated_at": "2026-02-23T18:18:58Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
       "ip": "103.242.58.167",
+      "version": 4,
+      "country_code": "kh",
+      "country": "Cambodia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "SOUTH EAST ASIA TELECOM (Cambodia) Co., LTD",
+      "domain": "SEATEL-CACHE-1",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 81.06,
+        "90d": 92.91,
+        "1y": 87.2
+      }
+    },
+    {
+      "ip": "103.242.58.166",
       "version": 4,
       "country_code": "kh",
       "country": "Cambodia",
@@ -29,10 +56,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 81.84,
-        "90d": 93.03,
-        "1y": 87.24
+        "24h": 50.0,
+        "30d": 81.53,
+        "90d": 93.0,
+        "1y": 86.59
       }
     },
     {
@@ -57,9 +84,9 @@
       },
       "uptime": {
         "24h": 85.71,
-        "30d": 59.31,
-        "90d": 50.13,
-        "1y": 49.58
+        "30d": 59.45,
+        "90d": 49.91,
+        "1y": 49.6
       }
     },
     {
@@ -79,14 +106,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.23,
+        "30d": 99.22,
         "90d": 99.78,
         "1y": 99.82
+      }
+    },
+    {
+      "ip": "124.248.191.83",
+      "version": 4,
+      "country_code": "kh",
+      "country": "Cambodia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Cogetel Ltd",
+      "domain": "fiber-191-83.online.com.kh",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 28.57,
+        "30d": 48.05,
+        "90d": 39.73,
+        "1y": 42.16
       }
     }
   ]

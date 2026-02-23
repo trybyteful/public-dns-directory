@@ -4,35 +4,35 @@
     "country_name": "Iceland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-23T06:33:22Z",
+    "generated_at": "2026-02-23T18:18:58Z",
     "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "82.148.69.71",
+      "ip": "157.157.138.227",
       "version": 4,
       "country_code": "is",
       "country": "Iceland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Fsnet",
-      "domain": "kvenno-7.fsnet.is",
+      "organization": "ICENET",
+      "domain": "gss-postur.stykk.is",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 100.0,
-        "90d": 97.98,
-        "1y": 98.36
+        "30d": 86.15,
+        "90d": 87.82,
+        "1y": 87.92
       }
     },
     {
@@ -52,29 +52,29 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.98,
-        "90d": 97.12,
+        "30d": 96.09,
+        "90d": 97.13,
         "1y": 97.49
       }
     },
     {
-      "ip": "157.157.138.227",
+      "ip": "82.148.69.71",
       "version": 4,
       "country_code": "is",
       "country": "Iceland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "ICENET",
-      "domain": "gss-postur.stykk.is",
+      "organization": "Fsnet",
+      "domain": "kvenno-7.fsnet.is",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -84,9 +84,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 83.47,
-        "90d": 87.76,
-        "1y": 87.91
+        "30d": 100.0,
+        "90d": 97.97,
+        "1y": 98.37
       }
     }
   ]
