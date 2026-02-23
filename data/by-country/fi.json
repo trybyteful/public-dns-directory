@@ -4,8 +4,8 @@
     "country_name": "Finland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-22T18:04:31Z",
-    "total_servers": 12
+    "generated_at": "2026-02-23T06:33:22Z",
+    "total_servers": 11
   },
   "resolvers": [
     {
@@ -21,7 +21,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -30,8 +30,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.43,
-        "90d": 98.18,
+        "30d": 96.35,
+        "90d": 98.16,
         "1y": 98.36
       }
     },
@@ -83,10 +83,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 91.53,
-        "90d": 90.51,
-        "1y": 91.23
+        "24h": 85.71,
+        "30d": 91.35,
+        "90d": 90.44,
+        "1y": 91.24
       }
     },
     {
@@ -111,9 +111,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 86.25,
-        "90d": 71.25,
-        "1y": 75.96
+        "30d": 86.18,
+        "90d": 71.04,
+        "1y": 75.99
       }
     },
     {
@@ -159,42 +159,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 78.95,
-        "90d": 86.99,
-        "1y": 86.25
-      }
-    },
-    {
-      "ip": "91.197.209.222",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ZDC-NETWORK",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
+        "30d": 78.93,
+        "90d": 86.89,
+        "1y": 86.26
+      }
+    },
+    {
+      "ip": "65.108.81.207",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Hetzner Online GmbH",
+      "domain": "static.207.81.108.65.clients.your-server.de",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.43,
+        "90d": 99.78,
+        "1y": 99.77
       }
     },
     {
@@ -240,7 +240,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -252,19 +252,19 @@
       }
     },
     {
-      "ip": "65.108.81.207",
+      "ip": "91.197.209.222",
       "version": 4,
       "country_code": "fi",
       "country": "Finland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Hetzner Online GmbH",
-      "domain": "static.207.81.108.65.clients.your-server.de",
+      "organization": "ZDC-NETWORK",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -273,36 +273,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.44,
-        "90d": 99.79,
-        "1y": 99.77
-      }
-    },
-    {
-      "ip": "80.220.131.128",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TeliaSonera Finland Oyj",
-      "domain": "dsl-roibng12-50dc83-128.dhcp.inet.fi",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 62.22,
-        "90d": 60.27,
-        "1y": 60.1
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
       }
     },
     {
@@ -321,15 +294,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 61.02,
-        "90d": 43.52,
-        "1y": 40.99
+        "24h": 71.43,
+        "30d": 61.61,
+        "90d": 43.9,
+        "1y": 41.03
       }
     }
   ]

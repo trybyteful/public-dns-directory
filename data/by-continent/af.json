@@ -2,8 +2,8 @@
   "metadata": {
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-22T18:04:31Z",
-    "total_servers": 186
+    "generated_at": "2026-02-23T06:33:22Z",
+    "total_servers": 202
   },
   "resolvers": [
     {
@@ -18,19 +18,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 83.3,
-        "90d": 88.84,
-        "1y": 89.4
+        "24h": 100.0,
+        "30d": 84.1,
+        "90d": 89.41,
+        "1y": 89.41
       }
     },
     {
@@ -45,19 +45,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.86,
-        "90d": 89.32,
-        "1y": 90.81
+        "30d": 95.98,
+        "90d": 89.24,
+        "1y": 90.83
       }
     },
     {
@@ -105,12 +105,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 83.43,
-        "90d": 84.32,
+        "24h": 85.71,
+        "30d": 83.46,
+        "90d": 84.35,
         "1y": 78.48
       }
     },
@@ -136,8 +136,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.66,
-        "90d": 95.38,
+        "30d": 89.85,
+        "90d": 95.35,
         "1y": 95.73
       }
     },
@@ -158,12 +158,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.44,
+        "30d": 99.42,
         "90d": 99.03,
         "1y": 99.09
       }
@@ -184,15 +184,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 61.46,
-        "90d": 55.16,
-        "1y": 59.98
+        "24h": 80.0,
+        "30d": 61.94,
+        "90d": 54.97,
+        "1y": 59.99
       }
     },
     {
@@ -212,14 +212,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 89.66,
-        "90d": 84.65,
-        "1y": 86.69
+        "24h": 100.0,
+        "30d": 90.21,
+        "90d": 84.58,
+        "1y": 86.71
       }
     },
     {
@@ -235,29 +235,29 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 81.54,
-        "90d": 90.6,
-        "1y": 90.74
+        "24h": 85.71,
+        "30d": 82.19,
+        "90d": 90.72,
+        "1y": 90.75
       }
     },
     {
-      "ip": "41.23.114.29",
+      "ip": "102.22.81.43",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-114-29.umts.vodacom.co.za",
+      "organization": "DataKeepers",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -270,10 +270,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 73.77,
-        "90d": 72.61,
-        "1y": 71.52
+        "24h": 28.57,
+        "30d": 75.67,
+        "90d": 76.93,
+        "1y": 78.34
+      }
+    },
+    {
+      "ip": "197.91.174.198",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Dimension Data",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 81.61,
+        "90d": 89.16,
+        "1y": 87.47
       }
     },
     {
@@ -292,15 +319,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.64,
-        "90d": 94.99,
+        "30d": 90.44,
+        "90d": 94.96,
         "1y": 95.53
+      }
+    },
+    {
+      "ip": "105.247.182.102",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom ENS",
+      "domain": "vc-vb-105-247-182-102.ens.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 28.57,
+        "30d": 39.27,
+        "90d": 27.65,
+        "1y": 26.59
       }
     },
     {
@@ -320,14 +374,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.79,
-        "90d": 91.69,
-        "1y": 92.95
+        "30d": 93.65,
+        "90d": 91.63,
+        "1y": 92.96
       }
     },
     {
@@ -352,9 +406,90 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.89,
-        "90d": 90.29,
-        "1y": 90.99
+        "30d": 91.95,
+        "90d": 90.24,
+        "1y": 91.0
+      }
+    },
+    {
+      "ip": "196.216.134.71",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Herotel",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 42.86,
+        "30d": 75.0,
+        "90d": 64.28,
+        "1y": 67.88
+      }
+    },
+    {
+      "ip": "105.242.63.54",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom ENS",
+      "domain": "vc-gp-n-105-242-63-54.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 77.34,
+        "90d": 84.71,
+        "1y": 84.57
+      }
+    },
+    {
+      "ip": "165.73.224.83",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "WAN 4 U cc",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 57.14,
+        "30d": 67.33,
+        "90d": 52.79,
+        "1y": 49.67
       }
     },
     {
@@ -374,13 +509,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.03,
-        "90d": 96.92,
+        "30d": 92.9,
+        "90d": 96.9,
         "1y": 97.37
       }
     },
@@ -402,13 +537,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 79.22,
-        "90d": 92.97,
-        "1y": 93.67
+        "30d": 78.8,
+        "90d": 92.92,
+        "1y": 93.68
       }
     },
     {
@@ -428,14 +563,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 95.1,
-        "90d": 94.2,
-        "1y": 94.85
+        "24h": 71.43,
+        "30d": 94.63,
+        "90d": 94.09,
+        "1y": 94.8
       }
     },
     {
@@ -460,9 +595,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 47.34,
-        "90d": 66.96,
-        "1y": 69.54
+        "30d": 51.27,
+        "90d": 67.06,
+        "1y": 69.59
       }
     },
     {
@@ -486,10 +621,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 62.5,
-        "30d": 55.66,
-        "90d": 37.82,
-        "1y": 35.2
+        "24h": 57.14,
+        "30d": 56.9,
+        "90d": 38.0,
+        "1y": 35.25
       }
     },
     {
@@ -509,24 +644,24 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 86.68,
-        "90d": 89.95,
-        "1y": 90.69
+        "30d": 86.88,
+        "90d": 89.93,
+        "1y": 90.7
       }
     },
     {
-      "ip": "102.22.72.24",
+      "ip": "41.203.62.146",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "VodSession72",
+      "organization": "42 James Crescent",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -535,42 +670,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 77.97,
-        "90d": 81.1,
-        "1y": 81.55
+        "24h": 42.86,
+        "30d": 40.04,
+        "90d": 31.74,
+        "1y": 32.85
       }
     },
     {
-      "ip": "41.23.216.154",
+      "ip": "196.33.103.134",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-216-154.umts.vodacom.co.za",
+      "organization": "Dimension Data",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 92.66,
-        "90d": 94.81,
-        "1y": 95.53
+        "24h": 85.71,
+        "30d": 72.12,
+        "90d": 64.88,
+        "1y": 66.53
       }
     },
     {
@@ -591,13 +726,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 82.49,
-        "90d": 74.27,
-        "1y": 76.43
+        "30d": 82.73,
+        "90d": 74.08,
+        "1y": 76.45
       }
     },
     {
@@ -616,8 +751,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
@@ -628,14 +763,14 @@
       }
     },
     {
-      "ip": "41.23.253.80",
+      "ip": "41.23.184.111",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
       "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-253-80.umts.vodacom.co.za",
+      "domain": "vc-41-23-184-111.umts.vodacom.co.za",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -648,64 +783,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 91.15,
-        "90d": 94.49,
-        "1y": 95.09
+        "24h": 85.71,
+        "30d": 79.85,
+        "90d": 86.05,
+        "1y": 86.94
       }
     },
     {
-      "ip": "41.23.184.40",
+      "ip": "196.61.20.249",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-184-40.umts.vodacom.co.za",
+      "organization": "Huge Networks (Pty) Ltd",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 87.57,
-        "90d": 90.2,
-        "1y": 91.46
-      }
-    },
-    {
-      "ip": "41.23.114.42",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-114-42.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 90.4,
-        "90d": 80.17,
-        "1y": 83.27
+        "24h": 85.71,
+        "30d": 79.23,
+        "90d": 76.42,
+        "1y": 75.82
       }
     },
     {
@@ -724,107 +832,26 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 83.27,
-        "90d": 83.84,
-        "1y": 84.59
+        "24h": 85.71,
+        "30d": 85.22,
+        "90d": 83.72,
+        "1y": 84.61
       }
     },
     {
-      "ip": "41.23.98.218",
+      "ip": "41.23.184.193",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
       "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-98-218.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 69.34,
-        "90d": 87.89,
-        "1y": 89.26
-      }
-    },
-    {
-      "ip": "154.117.151.154",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "BitCo",
-      "domain": "154-151-117-154.bitcointernet.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 0.0,
-        "30d": 22.22,
-        "90d": 16.57,
-        "1y": 17.66
-      }
-    },
-    {
-      "ip": "102.133.139.27",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Microsoft Azure Cloud (southafricanorth)",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 58.87,
-        "90d": 41.84,
-        "1y": 45.74
-      }
-    },
-    {
-      "ip": "105.243.179.28",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom ENS",
-      "domain": "vc-gp-n-105-243-179-28.umts.vodacom.co.za",
+      "domain": "vc-41-23-184-193.umts.vodacom.co.za",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -837,91 +864,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 69.47,
-        "90d": 61.91,
-        "1y": 63.81
-      }
-    },
-    {
-      "ip": "41.23.240.123",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-240-123.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 88.72,
-        "90d": 95.03,
-        "1y": 94.8
-      }
-    },
-    {
-      "ip": "196.13.158.51",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Gijima Holdings (PTY) Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 73.89,
-        "90d": 75.1,
-        "1y": 76.68
-      }
-    },
-    {
-      "ip": "105.243.206.41",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom ENS",
-      "domain": "vc-gp-n-105-243-206-41.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 81.95,
-        "90d": 60.45,
-        "1y": 65.16
+        "24h": 85.71,
+        "30d": 80.28,
+        "90d": 82.52,
+        "1y": 84.05
       }
     },
     {
@@ -946,51 +892,51 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.73,
-        "90d": 81.82,
-        "1y": 83.9
+        "30d": 91.75,
+        "90d": 81.68,
+        "1y": 83.92
       }
     },
     {
-      "ip": "196.33.103.134",
+      "ip": "41.23.216.154",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Dimension Data",
-      "domain": null,
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-216-154.umts.vodacom.co.za",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 71.37,
-        "90d": 64.91,
-        "1y": 66.52
+        "24h": 100.0,
+        "30d": 92.51,
+        "90d": 94.77,
+        "1y": 95.53
       }
     },
     {
-      "ip": "154.126.209.249",
+      "ip": "102.33.47.78",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "JENNY Network",
+      "organization": "MFN-IP",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -999,10 +945,118 @@
         "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 90.6,
-        "90d": 92.63,
-        "1y": 93.39
+        "24h": 100.0,
+        "30d": 91.38,
+        "90d": 92.87,
+        "1y": 93.57
+      }
+    },
+    {
+      "ip": "41.23.216.150",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-216-150.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 42.86,
+        "30d": 64.34,
+        "90d": 63.41,
+        "1y": 63.16
+      }
+    },
+    {
+      "ip": "41.23.240.123",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-240-123.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 88.89,
+        "90d": 95.0,
+        "1y": 94.8
+      }
+    },
+    {
+      "ip": "41.23.98.218",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-98-218.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 70.45,
+        "90d": 87.8,
+        "1y": 89.27
+      }
+    },
+    {
+      "ip": "63.218.191.114",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "PCCW Global, Inc.",
+      "domain": "63-218-191-114.static.as3491.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 88.65,
+        "90d": 83.44,
+        "1y": 86.16
       }
     },
     {
@@ -1023,12 +1077,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 71.56,
-        "90d": 72.0,
+        "24h": 85.71,
+        "30d": 72.31,
+        "90d": 72.12,
         "1y": 73.54
       }
     },
@@ -1050,24 +1104,105 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.23,
-        "90d": 92.58,
-        "1y": 92.56
+        "30d": 96.35,
+        "90d": 92.56,
+        "1y": 92.57
       }
     },
     {
-      "ip": "41.23.113.130",
+      "ip": "102.133.139.27",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-113-130.umts.vodacom.co.za",
+      "organization": "Microsoft Azure Cloud (southafricanorth)",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 59.84,
+        "90d": 42.22,
+        "1y": 45.74
+      }
+    },
+    {
+      "ip": "105.243.178.76",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom ENS",
+      "domain": "vc-gp-n-105-243-178-76.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 79.68,
+        "90d": 55.14,
+        "1y": 55.08
+      }
+    },
+    {
+      "ip": "197.90.203.50",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Dimension Data",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 40.42,
+        "90d": 37.06,
+        "1y": 35.1
+      }
+    },
+    {
+      "ip": "105.243.206.41",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom ENS",
+      "domain": "vc-gp-n-105-243-206-41.umts.vodacom.co.za",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1077,13 +1212,67 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 82.53,
+        "90d": 60.79,
+        "1y": 65.21
+      }
+    },
+    {
+      "ip": "105.243.179.28",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom ENS",
+      "domain": "vc-gp-n-105-243-179-28.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 70.26,
+        "90d": 61.49,
+        "1y": 63.87
+      }
+    },
+    {
+      "ip": "196.13.158.51",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Gijima Holdings (PTY) Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 54.2,
-        "90d": 90.89,
-        "1y": 91.79
+        "30d": 74.84,
+        "90d": 75.1,
+        "1y": 76.71
       }
     },
     {
@@ -1108,9 +1297,333 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.37,
-        "90d": 96.68,
+        "30d": 97.31,
+        "90d": 96.66,
         "1y": 97.18
+      }
+    },
+    {
+      "ip": "41.23.184.235",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-184-235.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 94.63,
+        "90d": 70.75,
+        "1y": 76.47
+      }
+    },
+    {
+      "ip": "41.23.184.151",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-184-151.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 85.44,
+        "90d": 91.52,
+        "1y": 92.63
+      }
+    },
+    {
+      "ip": "105.243.201.46",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom ENS",
+      "domain": "vc-gp-n-105-243-201-46.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 93.28,
+        "90d": 90.7,
+        "1y": 91.47
+      }
+    },
+    {
+      "ip": "41.23.113.130",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-113-130.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 51.67,
+        "90d": 90.81,
+        "1y": 91.8
+      }
+    },
+    {
+      "ip": "41.23.253.80",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-253-80.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 90.98,
+        "90d": 94.45,
+        "1y": 95.09
+      }
+    },
+    {
+      "ip": "41.23.114.42",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-114-42.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 90.21,
+        "90d": 80.03,
+        "1y": 83.29
+      }
+    },
+    {
+      "ip": "41.23.184.250",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-184-250.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.82,
+        "90d": 95.71,
+        "1y": 95.3
+      }
+    },
+    {
+      "ip": "105.29.89.225",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "SEACOM Limited Networks",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 69.92,
+        "90d": 63.57,
+        "1y": 62.46
+      }
+    },
+    {
+      "ip": "41.23.234.114",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-234-114.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 57.14,
+        "30d": 86.95,
+        "90d": 84.2,
+        "1y": 87.03
+      }
+    },
+    {
+      "ip": "102.221.12.46",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Techwood Trading (Pty) Ltd",
+      "domain": "102-221-12-46.techwoodtrading.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 28.57,
+        "30d": 66.97,
+        "90d": 56.47,
+        "1y": 58.55
+      }
+    },
+    {
+      "ip": "77.246.57.132",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Econet Carrier Services",
+      "domain": "reserved.liquidtelecom.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.43,
+        "90d": 99.86,
+        "1y": 99.85
+      }
+    },
+    {
+      "ip": "169.239.80.214",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "United Europe Travel Services",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 75.24,
+        "90d": 69.39,
+        "1y": 70.98
       }
     },
     {
@@ -1135,144 +1648,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 76.79,
-        "90d": 72.5,
-        "1y": 70.19
-      }
-    },
-    {
-      "ip": "41.23.184.151",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-184-151.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 85.74,
-        "90d": 91.58,
-        "1y": 92.62
-      }
-    },
-    {
-      "ip": "77.246.57.132",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Econet Carrier Services",
-      "domain": "reserved.liquidtelecom.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.44,
-        "90d": 99.86,
-        "1y": 99.85
-      }
-    },
-    {
-      "ip": "41.23.234.114",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-234-114.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 87.22,
-        "90d": 84.39,
-        "1y": 87.07
-      }
-    },
-    {
-      "ip": "169.239.80.214",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "United Europe Travel Services",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 75.33,
-        "90d": 69.53,
-        "1y": 70.94
-      }
-    },
-    {
-      "ip": "105.243.201.46",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom ENS",
-      "domain": "vc-gp-n-105-243-201-46.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 92.84,
-        "90d": 90.76,
-        "1y": 91.46
+        "30d": 76.29,
+        "90d": 72.67,
+        "1y": 70.29
       }
     },
     {
@@ -1291,26 +1669,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.61,
-        "90d": 95.99,
+        "30d": 96.93,
+        "90d": 96.0,
         "1y": 96.35
       }
     },
     {
-      "ip": "41.23.234.88",
+      "ip": "41.23.114.62",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
       "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-234-88.umts.vodacom.co.za",
+      "domain": "vc-41-23-114-62.umts.vodacom.co.za",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1319,203 +1697,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 83.75,
-        "90d": 87.7,
-        "1y": 88.19
-      }
-    },
-    {
-      "ip": "41.23.184.235",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-184-235.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 94.55,
-        "90d": 70.98,
-        "1y": 76.44
-      }
-    },
-    {
-      "ip": "105.243.201.129",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom ENS",
-      "domain": "vc-gp-n-105-243-201-129.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 85.83,
-        "90d": 84.05,
-        "1y": 86.11
-      }
-    },
-    {
-      "ip": "41.23.114.41",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-114-41.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 93.48,
-        "90d": 93.71,
-        "1y": 93.73
-      }
-    },
-    {
-      "ip": "105.255.121.94",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom NSA",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 92.26,
-        "90d": 92.66,
-        "1y": 93.42
-      }
-    },
-    {
-      "ip": "41.23.99.247",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-99-247.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.47,
-        "90d": 93.15,
-        "1y": 93.03
-      }
-    },
-    {
-      "ip": "105.243.178.76",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom ENS",
-      "domain": "vc-gp-n-105-243-178-76.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 80.4,
-        "90d": 54.8,
-        "1y": 55.06
-      }
-    },
-    {
-      "ip": "105.244.179.225",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom ENS",
-      "domain": "vc-gp-n-105-244-179-225.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 89.81,
-        "90d": 92.62,
-        "1y": 89.01
+        "24h": 71.43,
+        "30d": 94.64,
+        "90d": 94.24,
+        "1y": 92.89
       }
     },
     {
@@ -1540,20 +1729,20 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 78.53,
-        "90d": 79.95,
-        "1y": 80.99
+        "30d": 79.08,
+        "90d": 79.96,
+        "1y": 81.02
       }
     },
     {
-      "ip": "41.23.184.250",
+      "ip": "41.23.114.41",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
       "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-184-250.umts.vodacom.co.za",
+      "domain": "vc-41-23-114-41.umts.vodacom.co.za",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1567,9 +1756,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.92,
-        "90d": 95.74,
-        "1y": 95.3
+        "30d": 93.36,
+        "90d": 93.68,
+        "1y": 93.73
+      }
+    },
+    {
+      "ip": "102.22.72.24",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "VodSession72",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 78.5,
+        "90d": 81.0,
+        "1y": 81.57
       }
     },
     {
@@ -1590,40 +1806,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 91.92,
-        "90d": 88.34,
-        "1y": 88.51
-      }
-    },
-    {
-      "ip": "105.29.89.225",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "SEACOM Limited Networks",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 68.03,
-        "90d": 63.54,
-        "1y": 62.41
+        "24h": 100.0,
+        "30d": 91.76,
+        "90d": 88.43,
+        "1y": 88.52
       }
     },
     {
@@ -1643,25 +1832,52 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 90.41,
-        "90d": 93.63,
-        "1y": 92.08
+        "24h": 100.0,
+        "30d": 90.4,
+        "90d": 93.66,
+        "1y": 92.09
       }
     },
     {
-      "ip": "41.23.234.37",
+      "ip": "105.243.201.129",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-234-37.umts.vodacom.co.za",
+      "organization": "Vodacom ENS",
+      "domain": "vc-gp-n-105-243-201-129.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 85.51,
+        "90d": 83.91,
+        "1y": 86.13
+      }
+    },
+    {
+      "ip": "105.255.121.94",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom NSA",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1671,13 +1887,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 83.62,
-        "90d": 90.03,
-        "1y": 91.58
+        "24h": 100.0,
+        "30d": 94.25,
+        "90d": 92.62,
+        "1y": 93.43
+      }
+    },
+    {
+      "ip": "41.23.99.247",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-99-247.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.4,
+        "90d": 93.11,
+        "1y": 93.04
       }
     },
     {
@@ -1702,9 +1945,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.68,
-        "90d": 94.88,
+        "30d": 96.17,
+        "90d": 94.85,
         "1y": 95.47
+      }
+    },
+    {
+      "ip": "105.244.179.225",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom ENS",
+      "domain": "vc-gp-n-105-244-179-225.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 89.66,
+        "90d": 92.58,
+        "1y": 89.02
       }
     },
     {
@@ -1724,13 +1994,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.23,
-        "90d": 95.67,
+        "30d": 93.1,
+        "90d": 95.64,
         "1y": 96.11
       }
     },
@@ -1756,101 +2026,20 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.11,
-        "90d": 95.71,
-        "1y": 95.32
+        "30d": 91.94,
+        "90d": 95.68,
+        "1y": 95.33
       }
     },
     {
-      "ip": "102.33.47.78",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "MFN-IP",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 91.32,
-        "90d": 92.91,
-        "1y": 93.57
-      }
-    },
-    {
-      "ip": "63.218.191.114",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "PCCW Global, Inc.",
-      "domain": "63-218-191-114.static.as3491.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 87.92,
-        "90d": 83.56,
-        "1y": 86.14
-      }
-    },
-    {
-      "ip": "102.33.45.152",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "MFN-IP",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 62.5,
-        "30d": 77.17,
-        "90d": 72.03,
-        "1y": 74.24
-      }
-    },
-    {
-      "ip": "41.23.114.62",
+      "ip": "41.23.234.37",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
       "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-114-62.umts.vodacom.co.za",
+      "domain": "vc-41-23-234-37.umts.vodacom.co.za",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1858,15 +2047,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 94.15,
-        "90d": 94.27,
-        "1y": 92.88
+        "24h": 100.0,
+        "30d": 83.3,
+        "90d": 89.95,
+        "1y": 91.59
       }
     },
     {
@@ -1892,8 +2081,35 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 98.67,
+        "90d": 98.66,
         "1y": 98.86
+      }
+    },
+    {
+      "ip": "81.199.137.188",
+      "version": 4,
+      "country_code": "ug",
+      "country": "Uganda",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Gilat Telecom Ltd",
+      "domain": "81.199.137.188.gilat.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 57.14,
+        "30d": 70.69,
+        "90d": 63.65,
+        "1y": 64.97
       }
     },
     {
@@ -1918,8 +2134,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.44,
-        "90d": 98.89,
+        "30d": 99.62,
+        "90d": 98.88,
         "1y": 99.01
       }
     },
@@ -1936,7 +2152,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -1967,14 +2183,95 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.91,
-        "90d": 88.43,
-        "1y": 89.58
+        "30d": 88.68,
+        "90d": 88.34,
+        "1y": 89.59
+      }
+    },
+    {
+      "ip": "196.179.250.10",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ooredoo TN",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 42.86,
+        "30d": 39.55,
+        "90d": 33.75,
+        "1y": 33.74
+      }
+    },
+    {
+      "ip": "196.179.196.177",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ooredoo TN",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.81,
+        "90d": 99.6,
+        "1y": 98.48
+      }
+    },
+    {
+      "ip": "196.203.125.131",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ATI - Agence Tunisienne Internet",
+      "domain": "ns1.cck.rnu.tn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 99.42,
+        "90d": 99.68,
+        "1y": 99.68
       }
     },
     {
@@ -1998,64 +2295,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 41.7,
-        "90d": 38.06,
-        "1y": 39.06
-      }
-    },
-    {
-      "ip": "196.179.196.177",
-      "version": 4,
-      "country_code": "tn",
-      "country": "Tunisia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "ooredoo TN",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.81,
-        "90d": 99.61,
-        "1y": 98.48
-      }
-    },
-    {
-      "ip": "196.203.125.131",
-      "version": 4,
-      "country_code": "tn",
-      "country": "Tunisia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "ATI - Agence Tunisienne Internet",
-      "domain": "ns1.cck.rnu.tn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 99.44,
-        "90d": 99.68,
-        "1y": 99.68
+        "24h": 71.43,
+        "30d": 42.17,
+        "90d": 38.22,
+        "1y": 39.11
       }
     },
     {
@@ -2079,10 +2322,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 44.81,
-        "90d": 38.43,
-        "1y": 39.17
+        "24h": 71.43,
+        "30d": 45.32,
+        "90d": 38.71,
+        "1y": 39.21
       }
     },
     {
@@ -2106,10 +2349,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.44,
-        "90d": 99.86,
-        "1y": 99.88
+        "24h": 85.71,
+        "30d": 99.23,
+        "90d": 99.82,
+        "1y": 99.85
       }
     },
     {
@@ -2134,13 +2377,13 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 78.47,
-        "90d": 78.78,
-        "1y": 78.04
+        "30d": 78.13,
+        "90d": 78.67,
+        "1y": 78.06
       }
     },
     {
-      "ip": "196.179.250.95",
+      "ip": "196.179.250.93",
       "version": 4,
       "country_code": "tn",
       "country": "Tunisia",
@@ -2151,7 +2394,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -2160,10 +2403,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 42.75,
-        "90d": 40.82,
-        "1y": 42.13
+        "24h": 57.14,
+        "30d": 40.75,
+        "90d": 39.47,
+        "1y": 40.01
       }
     },
     {
@@ -2189,8 +2432,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.81,
-        "90d": 84.07,
-        "1y": 85.61
+        "90d": 83.94,
+        "1y": 85.63
       }
     },
     {
@@ -2210,14 +2453,41 @@
       },
       "blocking": {
         "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 83.91,
+        "90d": 90.6,
+        "1y": 90.6
+      }
+    },
+    {
+      "ip": "69.63.64.12",
+      "version": 4,
+      "country_code": "sz",
+      "country": "Eswatini",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Eswatini PTC - corporate",
+      "domain": "ns1.swazi.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 83.46,
-        "90d": 90.63,
-        "1y": 90.63
+        "24h": 57.14,
+        "30d": 89.08,
+        "90d": 96.97,
+        "1y": 97.37
       }
     },
     {
@@ -2236,14 +2506,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.47,
-        "90d": 98.7,
+        "30d": 96.4,
+        "90d": 98.69,
         "1y": 98.82
       }
     },
@@ -2269,8 +2539,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.12,
-        "90d": 98.82,
+        "30d": 98.08,
+        "90d": 98.81,
         "1y": 98.86
       }
     },
@@ -2291,14 +2561,41 @@
       },
       "blocking": {
         "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 73.76,
+        "90d": 55.1,
+        "1y": 52.98
+      }
+    },
+    {
+      "ip": "197.243.90.62",
+      "version": 4,
+      "country_code": "rw",
+      "country": "Rwanda",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "BSC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 74.65,
-        "90d": 54.71,
-        "1y": 52.95
+        "24h": 14.29,
+        "30d": 32.87,
+        "90d": 50.14,
+        "1y": 54.86
       }
     },
     {
@@ -2317,15 +2614,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.49,
-        "90d": 74.55,
-        "1y": 67.77
+        "30d": 89.79,
+        "90d": 74.78,
+        "1y": 67.86
       }
     },
     {
@@ -2349,10 +2646,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 90.57,
-        "90d": 84.13,
-        "1y": 85.99
+        "24h": 71.43,
+        "30d": 90.61,
+        "90d": 84.05,
+        "1y": 86.01
+      }
+    },
+    {
+      "ip": "41.184.148.152",
+      "version": 4,
+      "country_code": "ng",
+      "country": "Nigeria",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ipNX NIGERIA LIMITED",
+      "domain": "41-184-148-152.rv.ipnxtelecoms.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 42.86,
+        "30d": 38.27,
+        "90d": 39.17,
+        "1y": 40.74
       }
     },
     {
@@ -2372,14 +2696,41 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.11,
-        "90d": 99.36,
+        "30d": 98.08,
+        "90d": 99.35,
         "1y": 99.42
+      }
+    },
+    {
+      "ip": "169.239.236.101",
+      "version": 4,
+      "country_code": "ng",
+      "country": "Nigeria",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Gutti Global Networks",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 34.88,
+        "90d": 46.31,
+        "1y": 48.74
       }
     },
     {
@@ -2400,94 +2751,13 @@
       "blocking": {
         "ads": true,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 40.17,
-        "90d": 28.04,
-        "1y": 29.62
-      }
-    },
-    {
-      "ip": "41.184.151.186",
-      "version": 4,
-      "country_code": "ng",
-      "country": "Nigeria",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "ipNX NIGERIA LIMITED",
-      "domain": "41-184-151-186.rv.ipnxtelecoms.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 54.11,
-        "90d": 59.6,
-        "1y": 62.28
-      }
-    },
-    {
-      "ip": "41.184.149.1",
-      "version": 4,
-      "country_code": "ng",
-      "country": "Nigeria",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "ipNX NIGERIA LIMITED",
-      "domain": "41-184-149-1.rv.ipnxtelecoms.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 55.28,
-        "90d": 40.39,
-        "1y": 36.19
-      }
-    },
-    {
-      "ip": "41.184.168.92",
-      "version": 4,
-      "country_code": "ng",
-      "country": "Nigeria",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "ipNX NIGERIA LIMITED",
-      "domain": "41-184-168-92.rv.ipnxtelecoms.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 79.1,
-        "90d": 82.03,
-        "1y": 82.03
+        "24h": 71.43,
+        "30d": 41.13,
+        "90d": 28.14,
+        "1y": 29.67
       }
     },
     {
@@ -2508,13 +2778,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 71.94,
-        "90d": 55.14,
-        "1y": 58.19
+        "24h": 85.71,
+        "30d": 72.12,
+        "90d": 55.1,
+        "1y": 58.21
       }
     },
     {
@@ -2534,30 +2804,30 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 62.5,
-        "30d": 34.37,
-        "90d": 21.73,
-        "1y": 20.75
+        "24h": 28.57,
+        "30d": 34.47,
+        "90d": 21.89,
+        "1y": 20.76
       }
     },
     {
-      "ip": "102.135.217.69",
+      "ip": "41.184.254.94",
       "version": 4,
       "country_code": "ng",
       "country": "Nigeria",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "VDT COMMUNICATIONS LIMITED",
-      "domain": null,
+      "organization": "ipNX NIGERIA LIMITED",
+      "domain": "41-184-254-94.rv.ipnxtelecoms.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -2565,10 +2835,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 70.81,
-        "90d": 41.44,
-        "1y": 39.58
+        "24h": 100.0,
+        "30d": 79.14,
+        "90d": 89.34,
+        "1y": 90.29
       }
     },
     {
@@ -2593,9 +2863,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.93,
-        "90d": 95.81,
+        "30d": 97.89,
+        "90d": 95.78,
         "1y": 95.53
+      }
+    },
+    {
+      "ip": "41.184.168.92",
+      "version": 4,
+      "country_code": "ng",
+      "country": "Nigeria",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ipNX NIGERIA LIMITED",
+      "domain": "41-184-168-92.rv.ipnxtelecoms.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 78.64,
+        "90d": 82.1,
+        "1y": 82.1
       }
     },
     {
@@ -2620,36 +2917,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.06,
+        "30d": 99.04,
         "90d": 99.46,
         "1y": 99.44
-      }
-    },
-    {
-      "ip": "41.184.254.94",
-      "version": 4,
-      "country_code": "ng",
-      "country": "Nigeria",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "ipNX NIGERIA LIMITED",
-      "domain": "41-184-254-94.rv.ipnxtelecoms.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 78.06,
-        "90d": 89.43,
-        "1y": 90.27
       }
     },
     {
@@ -2668,42 +2938,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.06,
-        "90d": 92.88,
-        "1y": 93.71
-      }
-    },
-    {
-      "ip": "41.63.244.89",
-      "version": 4,
-      "country_code": "na",
-      "country": "Namibia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "DIA",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 83.8,
-        "90d": 85.72,
-        "1y": 86.78
+        "30d": 99.04,
+        "90d": 92.83,
+        "1y": 93.72
       }
     },
     {
@@ -2722,19 +2965,73 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 83.99,
-        "90d": 92.38,
+        "30d": 83.88,
+        "90d": 92.36,
         "1y": 93.57
       }
     },
     {
+      "ip": "41.63.240.79",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "MTC Netman",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 42.86,
+        "30d": 63.46,
+        "90d": 61.93,
+        "1y": 62.49
+      }
+    },
+    {
       "ip": "41.63.244.146",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "DIA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 61.88,
+        "90d": 63.5,
+        "1y": 61.54
+      }
+    },
+    {
+      "ip": "41.63.244.89",
       "version": 4,
       "country_code": "na",
       "country": "Namibia",
@@ -2754,10 +3051,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 62.11,
-        "90d": 63.59,
-        "1y": 61.52
+        "24h": 71.43,
+        "30d": 84.07,
+        "90d": 85.54,
+        "1y": 86.74
       }
     },
     {
@@ -2777,14 +3074,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.93,
-        "90d": 97.89,
-        "1y": 97.95
+        "30d": 98.08,
+        "90d": 97.87,
+        "1y": 97.96
       }
     },
     {
@@ -2800,7 +3097,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -2809,9 +3106,9 @@
       },
       "uptime": {
         "24h": 75.0,
-        "30d": 86.23,
-        "90d": 68.91,
-        "1y": 73.65
+        "30d": 87.36,
+        "90d": 68.85,
+        "1y": 73.68
       }
     },
     {
@@ -2832,23 +3129,50 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 53.76,
-        "90d": 69.43,
-        "1y": 67.1
+        "24h": 85.71,
+        "30d": 54.7,
+        "90d": 69.46,
+        "1y": 67.11
       }
     },
     {
-      "ip": "41.174.104.223",
+      "ip": "197.155.92.21",
       "version": 4,
       "country_code": "mu",
       "country": "Mauritius",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Neotel CDMA",
+      "organization": "Liquid Telecommunications Operations Limited",
+      "domain": "197.155.92.21.liquidtelecom.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.89,
+        "1y": 99.88
+      }
+    },
+    {
+      "ip": "41.173.23.150",
+      "version": 4,
+      "country_code": "mu",
+      "country": "Mauritius",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Liquid Telecommunications Operations Limited",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -2857,15 +3181,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
+        "24h": 28.57,
+        "30d": 58.16,
+        "90d": 31.6,
+        "1y": 28.94
+      }
+    },
+    {
+      "ip": "197.155.92.20",
+      "version": 4,
+      "country_code": "mu",
+      "country": "Mauritius",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Liquid Telecommunications Operations Limited",
+      "domain": "197.155.92.20.liquidtelecom.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
         "24h": 100.0,
-        "30d": 70.86,
-        "90d": 59.03,
-        "1y": 61.66
+        "30d": 100.0,
+        "90d": 99.96,
+        "1y": 99.97
       }
     },
     {
@@ -2884,14 +3235,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.77,
-        "90d": 98.07,
+        "30d": 93.87,
+        "90d": 98.06,
         "1y": 98.42
       }
     },
@@ -2917,9 +3268,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 74.29,
-        "90d": 85.47,
-        "1y": 88.04
+        "30d": 73.75,
+        "90d": 85.36,
+        "1y": 88.06
       }
     },
     {
@@ -2944,8 +3295,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.43,
-        "90d": 99.61,
+        "30d": 100.0,
+        "90d": 99.6,
         "1y": 99.65
       }
     },
@@ -2966,14 +3317,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 70.11,
-        "90d": 76.06,
-        "1y": 76.1
+        "30d": 71.21,
+        "90d": 75.93,
+        "1y": 76.13
       }
     },
     {
@@ -2993,14 +3344,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 81.17,
-        "90d": 86.9,
-        "1y": 88.19
+        "24h": 85.71,
+        "30d": 81.15,
+        "90d": 86.8,
+        "1y": 88.17
       }
     },
     {
@@ -3020,14 +3371,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 84.75,
-        "90d": 83.46,
-        "1y": 81.5
+        "30d": 84.64,
+        "90d": 83.74,
+        "1y": 81.52
       }
     },
     {
@@ -3052,8 +3403,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.27,
-        "90d": 96.53,
+        "30d": 89.64,
+        "90d": 96.5,
         "1y": 96.96
       }
     },
@@ -3074,13 +3425,13 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 92.28,
-        "90d": 96.74,
+        "24h": 85.71,
+        "30d": 92.13,
+        "90d": 96.72,
         "1y": 97.03
       }
     },
@@ -3100,15 +3451,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 80.08,
-        "90d": 85.49,
-        "1y": 88.04
+        "24h": 85.71,
+        "30d": 79.85,
+        "90d": 85.35,
+        "1y": 88.02
+      }
+    },
+    {
+      "ip": "41.137.170.250",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Provider 36884 Wana Corporate",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 57.14,
+        "30d": 45.3,
+        "90d": 35.86,
+        "1y": 32.71
       }
     },
     {
@@ -3127,15 +3505,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 62.5,
-        "30d": 70.17,
-        "90d": 82.9,
-        "1y": 85.76
+        "24h": 57.14,
+        "30d": 70.31,
+        "90d": 82.75,
+        "1y": 85.71
       }
     },
     {
@@ -3154,15 +3532,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 83.99,
-        "90d": 87.62,
-        "1y": 89.73
+        "24h": 85.71,
+        "30d": 84.26,
+        "90d": 87.53,
+        "1y": 89.72
       }
     },
     {
@@ -3183,67 +3561,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 80.0,
-        "90d": 90.13,
-        "1y": 91.01
-      }
-    },
-    {
-      "ip": "41.87.158.170",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Fixed",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 72.13,
-        "90d": 85.36,
-        "1y": 87.39
-      }
-    },
-    {
-      "ip": "41.214.150.122",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Fixed",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 84.18,
-        "90d": 90.69,
-        "1y": 92.13
+        "24h": 71.43,
+        "30d": 80.15,
+        "90d": 90.01,
+        "1y": 90.99
       }
     },
     {
@@ -3267,10 +3591,280 @@
         "adult": false
       },
       "uptime": {
+        "24h": 71.43,
+        "30d": 91.94,
+        "90d": 90.7,
+        "1y": 91.5
+      }
+    },
+    {
+      "ip": "41.87.158.170",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Fixed",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 71.4,
+        "90d": 85.22,
+        "1y": 87.38
+      }
+    },
+    {
+      "ip": "41.214.150.122",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Fixed",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 83.88,
+        "90d": 90.63,
+        "1y": 92.14
+      }
+    },
+    {
+      "ip": "197.230.92.90",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Schindler",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 95.96,
+        "90d": 96.65,
+        "1y": 96.7
+      }
+    },
+    {
+      "ip": "194.204.223.244",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Casa Americain school",
+      "domain": "dns.cas.ac.ma",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
         "24h": 100.0,
-        "30d": 92.28,
-        "90d": 90.85,
-        "1y": 91.55
+        "30d": 98.85,
+        "90d": 98.85,
+        "1y": 98.95
+      }
+    },
+    {
+      "ip": "197.230.161.193",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "MEDITELECOM",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 78.65,
+        "90d": 90.88,
+        "1y": 92.29
+      }
+    },
+    {
+      "ip": "197.230.250.150",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Fixed",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 94.04,
+        "90d": 96.47,
+        "1y": 96.76
+      }
+    },
+    {
+      "ip": "197.230.189.218",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Recticel Mousse Maghreb",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 83.46,
+        "90d": 78.0,
+        "1y": 82.04
+      }
+    },
+    {
+      "ip": "197.230.15.206",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "OS Meditel",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 87.88,
+        "90d": 90.77,
+        "1y": 92.17
+      }
+    },
+    {
+      "ip": "197.230.174.153",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Fixed",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.42,
+        "90d": 96.0,
+        "1y": 96.32
+      }
+    },
+    {
+      "ip": "197.230.103.202",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Fixed",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 82.12,
+        "90d": 86.44,
+        "1y": 88.55
       }
     },
     {
@@ -3296,35 +3890,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 72.85,
-        "90d": 50.97,
-        "1y": 55.69
-      }
-    },
-    {
-      "ip": "81.192.193.134",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "IAM",
-      "domain": "adsl-134-193-192-81.adsl.iam.net.ma",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 71.43,
-        "30d": 43.31,
-        "90d": 41.13,
-        "1y": 39.1
+        "90d": 50.84,
+        "1y": 55.74
       }
     },
     {
@@ -3348,118 +3915,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 93.79,
-        "90d": 90.73,
-        "1y": 91.75
-      }
-    },
-    {
-      "ip": "194.204.223.244",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Casa Americain school",
-      "domain": "dns.cas.ac.ma",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.87,
-        "90d": 98.85,
-        "1y": 98.95
-      }
-    },
-    {
-      "ip": "197.230.189.218",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Recticel Mousse Maghreb",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 83.43,
-        "90d": 78.12,
-        "1y": 82.02
-      }
-    },
-    {
-      "ip": "197.230.15.206",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "OS Meditel",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 87.57,
-        "90d": 90.83,
-        "1y": 92.16
-      }
-    },
-    {
-      "ip": "197.230.174.153",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Fixed",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 94.35,
-        "90d": 96.03,
-        "1y": 96.32
+        "24h": 85.71,
+        "30d": 93.46,
+        "90d": 90.66,
+        "1y": 91.73
       }
     },
     {
@@ -3480,13 +3939,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 86.68,
-        "90d": 91.38,
-        "1y": 92.75
+        "24h": 57.14,
+        "30d": 86.59,
+        "90d": 91.25,
+        "1y": 92.7
       }
     },
     {
@@ -3505,15 +3964,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 78.42,
-        "90d": 78.93,
-        "1y": 82.39
+        "24h": 57.14,
+        "30d": 77.97,
+        "90d": 78.75,
+        "1y": 82.35
       }
     },
     {
@@ -3534,13 +3993,40 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 86.87,
-        "90d": 92.67,
-        "1y": 93.77
+        "24h": 57.14,
+        "30d": 86.4,
+        "90d": 92.55,
+        "1y": 93.72
+      }
+    },
+    {
+      "ip": "102.50.253.95",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Maroc telecom static ip adress",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.96,
+        "1y": 99.97
       }
     },
     {
@@ -3571,30 +4057,30 @@
       }
     },
     {
-      "ip": "102.50.253.95",
+      "ip": "41.205.195.162",
       "version": 4,
       "country_code": "ma",
       "country": "Morocco",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Maroc telecom static ip adress",
+      "organization": "Sews_Bir Rami",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.96,
-        "1y": 99.97
+        "24h": 71.43,
+        "30d": 83.72,
+        "90d": 91.14,
+        "1y": 92.52
       }
     },
     {
@@ -3610,7 +4096,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -3618,10 +4104,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 25.0,
-        "30d": 48.68,
-        "90d": 56.19,
-        "1y": 55.6
+        "24h": 71.43,
+        "30d": 47.62,
+        "90d": 56.07,
+        "1y": 55.65
       }
     },
     {
@@ -3641,68 +4127,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 87.5,
-        "30d": 88.87,
-        "90d": 89.51,
-        "1y": 88.3
-      }
-    },
-    {
-      "ip": "102.218.172.222",
-      "version": 4,
-      "country_code": "ly",
-      "country": "Libya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "AWAL TELECOM & TECHNOLOGY",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 62.5,
-        "30d": 58.09,
-        "90d": 45.27,
-        "1y": 43.5
-      }
-    },
-    {
-      "ip": "160.19.99.98",
-      "version": 4,
-      "country_code": "ly",
-      "country": "Libya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "AWAL TELECOM & TECHNOLOGY",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 68.98,
-        "90d": 68.59,
-        "1y": 67.18
+        "30d": 89.66,
+        "90d": 89.56,
+        "1y": 88.31
       }
     },
     {
@@ -3727,9 +4159,63 @@
       },
       "uptime": {
         "24h": 75.0,
-        "30d": 88.68,
-        "90d": 77.22,
-        "1y": 77.37
+        "30d": 88.7,
+        "90d": 77.39,
+        "1y": 77.39
+      }
+    },
+    {
+      "ip": "102.218.172.222",
+      "version": 4,
+      "country_code": "ly",
+      "country": "Libya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "AWAL TELECOM & TECHNOLOGY",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 58.76,
+        "90d": 45.57,
+        "1y": 43.56
+      }
+    },
+    {
+      "ip": "160.19.99.98",
+      "version": 4,
+      "country_code": "ly",
+      "country": "Libya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "AWAL TELECOM & TECHNOLOGY",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 69.29,
+        "90d": 68.97,
+        "1y": 67.22
       }
     },
     {
@@ -3753,47 +4239,20 @@
         "adult": true
       },
       "uptime": {
-        "24h": 62.5,
-        "30d": 66.98,
-        "90d": 60.8,
-        "1y": 63.67
+        "24h": 57.14,
+        "30d": 67.24,
+        "90d": 60.93,
+        "1y": 63.71
       }
     },
     {
-      "ip": "197.155.92.21",
+      "ip": "197.232.52.61",
       "version": 4,
       "country_code": "ke",
       "country": "Kenya",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Liquid Telecommunications Operations Limited",
-      "domain": "197.155.92.21.liquidtelecom.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.86,
-        "1y": 99.88
-      }
-    },
-    {
-      "ip": "197.232.124.205",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "FAIBA",
+      "organization": "Faiba Enterprise",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -3802,69 +4261,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 48.34,
-        "90d": 36.38,
-        "1y": 35.05
-      }
-    },
-    {
-      "ip": "197.248.131.203",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Safaricom Limited",
-      "domain": "197-248-131-203.safaricombusiness.co.ke",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 63.67,
-        "90d": 46.9,
-        "1y": 49.02
-      }
-    },
-    {
-      "ip": "62.12.114.10",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Hosted Services",
-      "domain": "static-62-12-114-10.ips.angani.co",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 87.41,
-        "90d": 93.92,
-        "1y": 94.91
+        "24h": 71.43,
+        "30d": 65.07,
+        "90d": 74.33,
+        "1y": 72.72
       }
     },
     {
@@ -3895,6 +4300,33 @@
       }
     },
     {
+      "ip": "41.139.147.86",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Safaricom Limited",
+      "domain": "41-139-147-86.safaricombusiness.co.ke",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 42.06,
+        "90d": 60.58,
+        "1y": 61.74
+      }
+    },
+    {
       "ip": "41.84.143.206",
       "version": 4,
       "country_code": "ke",
@@ -3910,312 +4342,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 76.88,
-        "90d": 60.73,
-        "1y": 62.05
-      }
-    },
-    {
-      "ip": "41.84.143.137",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "SOHO-REGIONAL",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 76.69,
-        "90d": 50.92,
-        "1y": 49.15
-      }
-    },
-    {
-      "ip": "197.155.71.114",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Maintainer Liquid Telecommunications Operations Limited",
-      "domain": "197.155.71.114.liquidtelecom.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.61,
-        "90d": 97.67,
-        "1y": 97.89
-      }
-    },
-    {
-      "ip": "41.72.216.234",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Maintainer Liquid Telecommunications Operations Limited",
-      "domain": "41.72.216.234.liquidtelecom.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 76.88,
-        "90d": 61.12,
-        "1y": 64.98
-      }
-    },
-    {
-      "ip": "197.248.125.181",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Safaricom Limited",
-      "domain": "197-248-125-181.safaricombusiness.co.ke",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 86.82,
-        "90d": 91.41,
-        "1y": 92.05
-      }
-    },
-    {
-      "ip": "41.139.202.86",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "For Converged services",
-      "domain": "41-139-202-86.safaricombusiness.co.ke",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 25.0,
-        "30d": 57.44,
-        "90d": 49.34,
-        "1y": 52.03
-      }
-    },
-    {
-      "ip": "154.66.240.30",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Wiocc",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 77.4,
-        "90d": 66.38,
-        "1y": 64.49
-      }
-    },
-    {
-      "ip": "197.232.21.96",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Faiba Enterprise3",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 12.5,
-        "30d": 49.81,
-        "90d": 41.67,
-        "1y": 43.95
-      }
-    },
-    {
-      "ip": "102.216.69.18",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Airtel KE Mobile Broadband 4G & Fixed Enterprise Services",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 47.07,
-        "90d": 34.17,
-        "1y": 36.66
-      }
-    },
-    {
-      "ip": "197.155.92.20",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Liquid Telecommunications Operations Limited",
-      "domain": "197.155.92.20.liquidtelecom.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.96,
-        "1y": 99.97
-      }
-    },
-    {
-      "ip": "196.201.228.22",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Iphone Global (K) Ltd",
-      "domain": "196.201.228.22.liquidtelecom.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 78.05,
-        "90d": 52.86,
-        "1y": 52.97
-      }
-    },
-    {
-      "ip": "197.232.143.115",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Faiba Home",
-      "domain": "mail.wireprod.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.44,
-        "90d": 98.57,
-        "1y": 98.51
+        "24h": 71.43,
+        "30d": 76.97,
+        "90d": 60.85,
+        "1y": 62.07
       }
     },
     {
@@ -4235,14 +4370,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 62.5,
-        "30d": 40.59,
-        "90d": 41.34,
-        "1y": 43.34
+        "24h": 71.43,
+        "30d": 40.6,
+        "90d": 41.1,
+        "1y": 43.37
       }
     },
     {
@@ -4267,9 +4402,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.79,
-        "90d": 97.74,
+        "30d": 96.74,
+        "90d": 97.73,
         "1y": 97.87
+      }
+    },
+    {
+      "ip": "41.84.143.137",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "SOHO-REGIONAL",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 77.16,
+        "90d": 51.08,
+        "1y": 49.21
       }
     },
     {
@@ -4285,33 +4447,6 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.79,
-        "90d": 96.96,
-        "1y": 97.43
-      }
-    },
-    {
-      "ip": "41.79.237.84",
-      "version": 4,
-      "country_code": "gn",
-      "country": "Guinea",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "BCI",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
         "validating": true
       },
       "blocking": {
@@ -4321,9 +4456,279 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 37.92,
-        "90d": 33.41,
-        "1y": 33.41
+        "30d": 96.74,
+        "90d": 96.94,
+        "1y": 97.43
+      }
+    },
+    {
+      "ip": "197.155.71.114",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Maintainer Liquid Telecommunications Operations Limited",
+      "domain": "197.155.71.114.liquidtelecom.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.54,
+        "90d": 97.66,
+        "1y": 97.9
+      }
+    },
+    {
+      "ip": "41.72.216.234",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Maintainer Liquid Telecommunications Operations Limited",
+      "domain": "41.72.216.234.liquidtelecom.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 77.97,
+        "90d": 61.28,
+        "1y": 65.02
+      }
+    },
+    {
+      "ip": "41.139.202.86",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "For Converged services",
+      "domain": "41-139-202-86.safaricombusiness.co.ke",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 58.73,
+        "90d": 49.33,
+        "1y": 52.09
+      }
+    },
+    {
+      "ip": "154.66.240.30",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Wiocc",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 77.54,
+        "90d": 66.5,
+        "1y": 64.53
+      }
+    },
+    {
+      "ip": "196.201.228.22",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Iphone Global (K) Ltd",
+      "domain": "196.201.228.22.liquidtelecom.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 77.78,
+        "90d": 53.01,
+        "1y": 52.99
+      }
+    },
+    {
+      "ip": "102.216.69.18",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Airtel KE Mobile Broadband 4G & Fixed Enterprise Services",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 48.31,
+        "90d": 33.9,
+        "1y": 36.72
+      }
+    },
+    {
+      "ip": "197.232.143.115",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Faiba Home",
+      "domain": "mail.wireprod.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.42,
+        "90d": 98.56,
+        "1y": 98.51
+      }
+    },
+    {
+      "ip": "62.12.114.10",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Hosted Services",
+      "domain": "static-62-12-114-10.ips.angani.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 87.74,
+        "90d": 93.84,
+        "1y": 94.89
+      }
+    },
+    {
+      "ip": "197.231.180.83",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "FON SME",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 28.57,
+        "30d": 39.84,
+        "90d": 44.52,
+        "1y": 48.18
+      }
+    },
+    {
+      "ip": "41.191.220.77",
+      "version": 4,
+      "country_code": "gn",
+      "country": "Guinea",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ETI SA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 28.57,
+        "30d": 17.21,
+        "90d": 12.02,
+        "1y": 11.29
       }
     },
     {
@@ -4342,14 +4747,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.99,
-        "90d": 98.21,
+        "30d": 96.92,
+        "90d": 98.2,
         "1y": 98.39
       }
     },
@@ -4370,24 +4775,24 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.42,
-        "90d": 97.99,
-        "1y": 98.33
+        "30d": 96.35,
+        "90d": 97.98,
+        "1y": 98.34
       }
     },
     {
-      "ip": "197.221.82.2",
+      "ip": "197.251.204.34",
       "version": 4,
       "country_code": "gh",
       "country": "Ghana",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Internet Solutions",
+      "organization": "Ghana Telecommunications Company Limited",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -4397,14 +4802,41 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 62.5,
-        "30d": 41.57,
-        "90d": 40.66,
-        "1y": 41.41
+        "24h": 85.71,
+        "30d": 70.06,
+        "90d": 51.16,
+        "1y": 52.19
+      }
+    },
+    {
+      "ip": "102.176.81.182",
+      "version": 4,
+      "country_code": "gh",
+      "country": "Ghana",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodafone Ghana",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 83.98,
+        "90d": 63.54,
+        "1y": 69.63
       }
     },
     {
@@ -4425,12 +4857,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.66,
-        "90d": 93.16,
+        "30d": 94.81,
+        "90d": 93.11,
         "1y": 94.39
       }
     },
@@ -4450,15 +4882,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.5,
-        "1y": 99.06
+        "90d": 99.53,
+        "1y": 99.07
       }
     },
     {
@@ -4483,36 +4915,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.49,
-        "90d": 94.24,
+        "30d": 98.46,
+        "90d": 94.2,
         "1y": 95.03
-      }
-    },
-    {
-      "ip": "84.205.101.37",
-      "version": 4,
-      "country_code": "eg",
-      "country": "Egypt",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "City Stars",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.18,
-        "90d": 93.89,
-        "1y": 92.41
       }
     },
     {
@@ -4531,26 +4936,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 81.39,
-        "90d": 90.12,
-        "1y": 90.11
+        "24h": 71.43,
+        "30d": 81.96,
+        "90d": 90.05,
+        "1y": 90.13
       }
     },
     {
-      "ip": "196.216.252.65",
+      "ip": "45.240.35.147",
       "version": 4,
       "country_code": "eg",
       "country": "Egypt",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Xceed Contact Center",
-      "domain": "cpa.xceedcc.com",
+      "organization": "Link Egypt (Link.NET)",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -4559,14 +4964,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 82.94,
-        "90d": 87.73,
-        "1y": 89.03
+        "24h": 33.33,
+        "30d": 16.04,
+        "90d": 13.93,
+        "1y": 15.38
       }
     },
     {
@@ -4590,10 +4995,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 96.99,
-        "90d": 96.96,
+        "24h": 85.71,
+        "30d": 96.92,
+        "90d": 96.93,
         "1y": 97.08
+      }
+    },
+    {
+      "ip": "196.216.252.65",
+      "version": 4,
+      "country_code": "eg",
+      "country": "Egypt",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Xceed Contact Center",
+      "domain": "codiam.xceedcc.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 83.97,
+        "90d": 87.68,
+        "1y": 89.04
       }
     },
     {
@@ -4613,14 +5045,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 0.0,
-        "30d": 56.82,
-        "90d": 50.61,
-        "1y": 49.65
+        "24h": 100.0,
+        "30d": 58.21,
+        "90d": 50.78,
+        "1y": 49.76
       }
     },
     {
@@ -4641,13 +5073,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 85.34,
-        "90d": 87.73,
-        "1y": 86.4
+        "30d": 86.21,
+        "90d": 87.68,
+        "1y": 86.42
       }
     },
     {
@@ -4672,7 +5104,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.31,
+        "30d": 98.28,
         "90d": 99.39,
         "1y": 99.44
       }
@@ -4693,15 +5125,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 25.0,
-        "30d": 44.59,
-        "90d": 31.98,
-        "1y": 32.93
+        "24h": 28.57,
+        "30d": 43.17,
+        "90d": 31.75,
+        "1y": 32.92
       }
     },
     {
@@ -4722,7 +5154,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -4749,12 +5181,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.87,
-        "90d": 94.49,
+        "30d": 93.3,
+        "90d": 94.45,
         "1y": 95.35
       }
     },
@@ -4775,24 +5207,24 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 47.75,
-        "90d": 44.81,
-        "1y": 46.33
+        "30d": 48.6,
+        "90d": 44.87,
+        "1y": 46.39
       }
     },
     {
-      "ip": "102.68.154.33",
+      "ip": "41.76.241.135",
       "version": 4,
-      "country_code": "cd",
-      "country": "DR Congo",
+      "country_code": "bw",
+      "country": "Botswana",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Societe Datco",
+      "organization": "ADSL fixed IP services",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -4801,15 +5233,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 12.44,
-        "90d": 7.59,
-        "1y": 6.0
+        "24h": 100.0,
+        "30d": 70.89,
+        "90d": 77.77,
+        "1y": 77.35
       }
     },
     {
@@ -4830,40 +5262,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 79.32,
-        "90d": 82.04,
-        "1y": 80.9
+        "24h": 85.71,
+        "30d": 79.31,
+        "90d": 82.05,
+        "1y": 80.92
       }
     },
     {
-      "ip": "41.216.155.125",
+      "ip": "154.65.61.1",
       "version": 4,
       "country_code": "bf",
       "country": "Burkina Faso",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Internet Puissance Plus R4",
+      "organization": "Union Economique et Monetaire Ouest Africaine",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 58.83,
-        "90d": 55.51,
-        "1y": 55.99
+        "24h": 100.0,
+        "30d": 92.53,
+        "90d": 83.91,
+        "1y": 74.91
       }
     },
     {
@@ -4887,10 +5319,64 @@
         "adult": false
       },
       "uptime": {
-        "24h": 0.0,
-        "30d": 53.74,
-        "90d": 59.65,
-        "1y": 65.8
+        "24h": 100.0,
+        "30d": 52.6,
+        "90d": 59.59,
+        "1y": 65.85
+      }
+    },
+    {
+      "ip": "41.216.159.6",
+      "version": 4,
+      "country_code": "bf",
+      "country": "Burkina Faso",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Internet Puissance Plus R159",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 54.89,
+        "90d": 46.13,
+        "1y": 50.2
+      }
+    },
+    {
+      "ip": "41.216.155.125",
+      "version": 4,
+      "country_code": "bf",
+      "country": "Burkina Faso",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Internet Puissance Plus R4",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 59.58,
+        "90d": 55.7,
+        "1y": 56.02
       }
     },
     {
@@ -4910,68 +5396,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.81,
-        "90d": 99.79,
+        "90d": 99.78,
         "1y": 99.77
-      }
-    },
-    {
-      "ip": "41.216.159.6",
-      "version": 4,
-      "country_code": "bf",
-      "country": "Burkina Faso",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Internet Puissance Plus R159",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 53.67,
-        "90d": 46.04,
-        "1y": 50.14
-      }
-    },
-    {
-      "ip": "154.65.61.1",
-      "version": 4,
-      "country_code": "bf",
-      "country": "Burkina Faso",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Union Economique et Monetaire Ouest Africaine",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 92.67,
-        "90d": 83.99,
-        "1y": 74.87
       }
     },
     {
@@ -4991,12 +5423,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.87,
+        "30d": 98.85,
         "90d": 99.03,
         "1y": 99.04
       }
@@ -5018,14 +5450,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.86,
-        "90d": 84.25,
-        "1y": 83.96
+        "30d": 92.17,
+        "90d": 84.06,
+        "1y": 83.99
       }
     }
   ]
