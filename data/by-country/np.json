@@ -4,8 +4,8 @@
     "country_name": "Nepal",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-23T18:18:58Z",
-    "total_servers": 8
+    "generated_at": "2026-02-24T06:29:27Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -24,14 +24,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 89.45,
-        "90d": 75.2,
+        "24h": 83.33,
+        "30d": 89.46,
+        "90d": 75.17,
         "1y": 72.41
       }
     },
@@ -52,149 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 79.21,
-        "90d": 70.4,
-        "1y": 71.09
-      }
-    },
-    {
-      "ip": "182.93.84.123",
-      "version": 4,
-      "country_code": "np",
-      "country": "Nepal",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Subisu D17",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.12,
-        "90d": 96.66,
-        "1y": 96.91
-      }
-    },
-    {
-      "ip": "110.44.123.48",
-      "version": 4,
-      "country_code": "np",
-      "country": "Nepal",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vianet Communications Pvt. Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 42.86,
-        "30d": 47.07,
-        "90d": 42.36,
-        "1y": 43.74
-      }
-    },
-    {
-      "ip": "103.137.10.193",
-      "version": 4,
-      "country_code": "np",
-      "country": "Nepal",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Prime Network Pvt.ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 0.0,
-        "30d": 24.23,
-        "90d": 52.79,
-        "1y": 54.86
-      }
-    },
-    {
-      "ip": "110.44.123.114",
-      "version": 4,
-      "country_code": "np",
-      "country": "Nepal",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vianet Communications Pvt. Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 86.55,
-        "90d": 65.96,
-        "1y": 61.44
-      }
-    },
-    {
-      "ip": "110.44.112.19",
-      "version": 4,
-      "country_code": "np",
-      "country": "Nepal",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vianet Communications Pvt. Ltd",
-      "domain": "jmp.vianet.com.np",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.41,
-        "90d": 99.89,
-        "1y": 99.91
+        "24h": 83.33,
+        "30d": 78.86,
+        "90d": 70.54,
+        "1y": 71.13
       }
     },
     {
@@ -215,13 +80,94 @@
       "blocking": {
         "ads": false,
         "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 84.66,
+        "90d": 87.73,
+        "1y": 87.67
+      }
+    },
+    {
+      "ip": "110.44.123.114",
+      "version": 4,
+      "country_code": "np",
+      "country": "Nepal",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vianet Communications Pvt. Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 85.19,
-        "90d": 87.68,
-        "1y": 87.68
+        "30d": 86.87,
+        "90d": 66.41,
+        "1y": 61.65
+      }
+    },
+    {
+      "ip": "110.44.112.19",
+      "version": 4,
+      "country_code": "np",
+      "country": "Nepal",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vianet Communications Pvt. Ltd",
+      "domain": "jmp.vianet.com.np",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.4,
+        "90d": 99.89,
+        "1y": 99.91
+      }
+    },
+    {
+      "ip": "182.93.84.123",
+      "version": 4,
+      "country_code": "np",
+      "country": "Nepal",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Subisu D17",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.03,
+        "90d": 96.64,
+        "1y": 96.91
       }
     }
   ]
