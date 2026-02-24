@@ -4,8 +4,8 @@
     "country_name": "Iraq",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-24T06:29:27Z",
-    "total_servers": 6
+    "generated_at": "2026-02-24T18:17:07Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 89.44,
-        "90d": 76.16,
-        "1y": 79.83
+        "24h": 66.67,
+        "30d": 89.63,
+        "90d": 76.11,
+        "1y": 79.81
       }
     },
     {
@@ -53,13 +53,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 83.33,
         "30d": 79.88,
-        "90d": 66.96,
-        "1y": 69.1
+        "90d": 66.92,
+        "1y": 69.09
       }
     },
     {
@@ -78,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 74.16,
-        "90d": 78.15,
-        "1y": 80.38
+        "24h": 100.0,
+        "30d": 75.25,
+        "90d": 78.19,
+        "1y": 80.4
       }
     },
     {
@@ -105,7 +105,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -129,11 +129,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -141,33 +141,6 @@
         "30d": 99.8,
         "90d": 99.85,
         "1y": 99.83
-      }
-    },
-    {
-      "ip": "212.126.102.138",
-      "version": 4,
-      "country_code": "iq",
-      "country": "Iraq",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "ALSARD FIBER Co. Internet Fiber and Optical Cable Services /Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 72.06,
-        "90d": 59.19,
-        "1y": 61.88
       }
     }
   ]

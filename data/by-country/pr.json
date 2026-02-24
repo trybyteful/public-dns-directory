@@ -4,8 +4,8 @@
     "country_name": "Puerto Rico",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-02-24T06:29:27Z",
-    "total_servers": 4
+    "generated_at": "2026-02-24T18:17:07Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.01,
-        "90d": 97.85,
-        "1y": 98.1
+        "30d": 97.97,
+        "90d": 97.83,
+        "1y": 98.11
       }
     },
     {
@@ -51,15 +51,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.45,
-        "90d": 84.15,
-        "1y": 86.79
+        "30d": 88.21,
+        "90d": 84.08,
+        "1y": 86.8
       }
     },
     {
@@ -79,14 +79,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.84,
-        "90d": 95.36,
+        "30d": 93.71,
+        "90d": 95.33,
         "1y": 93.91
+      }
+    },
+    {
+      "ip": "38.50.64.189",
+      "version": 4,
+      "country_code": "pr",
+      "country": "Puerto Rico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Aeronet Broadband",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 90.48,
+        "90d": 90.48,
+        "1y": 90.48
       }
     },
     {
@@ -102,7 +129,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -110,10 +137,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 64.48,
-        "90d": 45.42,
-        "1y": 43.32
+        "24h": 83.33,
+        "30d": 64.57,
+        "90d": 45.7,
+        "1y": 43.37
       }
     }
   ]

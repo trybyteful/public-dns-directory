@@ -4,7 +4,7 @@
     "country_name": "Luxembourg",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-24T06:29:27Z",
+    "generated_at": "2026-02-24T18:17:07Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -24,42 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 83.93,
-        "90d": 86.91,
-        "1y": 88.92
-      }
-    },
-    {
-      "ip": "2.56.220.2",
-      "version": 4,
-      "country_code": "lu",
-      "country": "Luxembourg",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "G-Core Labs S.A",
-      "domain": null,
-      "trusted": false,
-      "anycast": true,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
+        "30d": 84.11,
+        "90d": 86.83,
+        "1y": 88.93
       }
     },
     {
@@ -84,9 +57,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.21,
-        "90d": 96.42,
-        "1y": 97.08
+        "30d": 99.19,
+        "90d": 96.38,
+        "1y": 97.09
       }
     },
     {
@@ -114,6 +87,33 @@
         "30d": 99.8,
         "90d": 99.93,
         "1y": 99.94
+      }
+    },
+    {
+      "ip": "2.56.220.2",
+      "version": 4,
+      "country_code": "lu",
+      "country": "Luxembourg",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "G-Core Labs S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": true,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
       }
     }
   ]
