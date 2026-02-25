@@ -4,8 +4,8 @@
     "country_name": "Saudi Arabia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-25T06:31:32Z",
-    "total_servers": 7
+    "generated_at": "2026-02-25T18:19:47Z",
+    "total_servers": 9
   },
   "resolvers": [
     {
@@ -26,7 +26,7 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -58,23 +58,23 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 98.15,
+        "90d": 98.14,
         "1y": 98.53
       }
     },
     {
-      "ip": "85.194.70.173",
+      "ip": "86.51.155.82",
       "version": 4,
       "country_code": "sa",
       "country": "Saudi Arabia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Mobily Corp.",
-      "domain": null,
+      "organization": "Etihad Etisalat, a joint stock company",
+      "domain": "static-86-51-155-82.mobily.com.sa",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": true
       },
       "blocking": {
@@ -83,10 +83,64 @@
         "adult": true
       },
       "uptime": {
+        "24h": 57.14,
+        "30d": 56.09,
+        "90d": 37.05,
+        "1y": 35.16
+      }
+    },
+    {
+      "ip": "85.208.52.73",
+      "version": 4,
+      "country_code": "sa",
+      "country": "Saudi Arabia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Inspire 52 Network",
+      "domain": "ns2.inspirenet.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
         "24h": 100.0,
-        "30d": 99.59,
-        "90d": 99.7,
-        "1y": 99.74
+        "30d": 99.37,
+        "90d": 98.41,
+        "1y": 96.67
+      }
+    },
+    {
+      "ip": "5.42.248.31",
+      "version": 4,
+      "country_code": "sa",
+      "country": "Saudi Arabia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Xenel Group",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 14.29,
+        "30d": 52.62,
+        "90d": 50.2,
+        "1y": 55.76
       }
     },
     {
@@ -106,7 +160,7 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -114,60 +168,6 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
-      }
-    },
-    {
-      "ip": "85.194.70.174",
-      "version": 4,
-      "country_code": "sa",
-      "country": "Saudi Arabia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Mobily Corp.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.79,
-        "90d": 99.74,
-        "1y": 99.71
-      }
-    },
-    {
-      "ip": "85.208.52.73",
-      "version": 4,
-      "country_code": "sa",
-      "country": "Saudi Arabia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Inspire 52 Network",
-      "domain": "ns2.inspirenet.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.38,
-        "90d": 98.36,
-        "1y": 96.66
       }
     },
     {
@@ -186,15 +186,69 @@
         "validating": false
       },
       "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.16,
+        "90d": 98.77,
+        "1y": 98.81
+      }
+    },
+    {
+      "ip": "85.194.70.173",
+      "version": 4,
+      "country_code": "sa",
+      "country": "Saudi Arabia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Mobily Corp.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
         "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.17,
-        "90d": 98.78,
-        "1y": 98.81
+        "30d": 99.58,
+        "90d": 99.7,
+        "1y": 99.74
+      }
+    },
+    {
+      "ip": "85.194.70.174",
+      "version": 4,
+      "country_code": "sa",
+      "country": "Saudi Arabia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Mobily Corp.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.79,
+        "90d": 99.74,
+        "1y": 99.71
       }
     }
   ]
