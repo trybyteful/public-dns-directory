@@ -4,10 +4,91 @@
     "country_name": "Estonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-24T18:17:07Z",
+    "generated_at": "2026-02-25T06:31:32Z",
     "total_servers": 5
   },
   "resolvers": [
+    {
+      "ip": "91.146.86.248",
+      "version": 4,
+      "country_code": "ee",
+      "country": "Estonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Fill Ltd",
+      "domain": "86248.fill.ee",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 86.51,
+        "90d": 91.11,
+        "1y": 92.0
+      }
+    },
+    {
+      "ip": "195.80.119.99",
+      "version": 4,
+      "country_code": "ee",
+      "country": "Estonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Estonia",
+      "domain": "ns2.rpz.cert.ee",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
+      }
+    },
+    {
+      "ip": "46.226.143.83",
+      "version": 4,
+      "country_code": "ee",
+      "country": "Estonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Cert",
+      "domain": "ns1.rpz.cert.ee",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.96,
+        "1y": 99.97
+      }
+    },
     {
       "ip": "46.226.143.86",
       "version": 4,
@@ -36,87 +117,6 @@
       }
     },
     {
-      "ip": "91.146.86.248",
-      "version": 4,
-      "country_code": "ee",
-      "country": "Estonia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Fill Ltd",
-      "domain": "86248.fill.ee",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 86.23,
-        "90d": 91.15,
-        "1y": 92.02
-      }
-    },
-    {
-      "ip": "195.80.119.99",
-      "version": 4,
-      "country_code": "ee",
-      "country": "Estonia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Estonia",
-      "domain": "ns2.rpz.cert.ee",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "46.226.143.83",
-      "version": 4,
-      "country_code": "ee",
-      "country": "Estonia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Cert",
-      "domain": "ns1.rpz.cert.ee",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.96,
-        "1y": 99.97
-      }
-    },
-    {
       "ip": "195.80.119.101",
       "version": 4,
       "country_code": "ee",
@@ -129,17 +129,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 98.36,
+        "90d": 98.35,
         "1y": 98.71
       }
     }

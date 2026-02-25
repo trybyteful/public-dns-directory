@@ -4,19 +4,19 @@
     "country_name": "Guatemala",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-02-24T18:17:07Z",
-    "total_servers": 7
+    "generated_at": "2026-02-25T06:31:32Z",
+    "total_servers": 8
   },
   "resolvers": [
     {
-      "ip": "181.119.105.29",
+      "ip": "181.78.105.127",
       "version": 4,
       "country_code": "gt",
       "country": "Guatemala",
       "continent_code": "na",
       "continent": "North America",
       "organization": "UFINET Guatemala S. A",
-      "domain": "29.105.119.181.ufinet.com.gt",
+      "domain": "127.105.78.181.ufinet.com.gt",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 71.86,
-        "90d": 59.82,
-        "1y": 61.17
+        "24h": 33.33,
+        "30d": 61.41,
+        "90d": 55.74,
+        "1y": 53.1
       }
     },
     {
@@ -57,9 +57,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 74.7,
-        "90d": 64.38,
-        "1y": 64.87
+        "30d": 74.07,
+        "90d": 64.37,
+        "1y": 64.91
       }
     },
     {
@@ -84,20 +84,20 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.19,
-        "90d": 98.4,
-        "1y": 98.7
+        "30d": 99.17,
+        "90d": 98.39,
+        "1y": 98.71
       }
     },
     {
-      "ip": "190.149.193.229",
+      "ip": "200.6.253.74",
       "version": 4,
       "country_code": "gt",
       "country": "Guatemala",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "Telgua",
-      "domain": null,
+      "organization": "TELECOMUNICACIONES DE GUATEMALA, SOCIEDAD ANONIMA",
+      "domain": "74.253.6.200.intelnet.net.gt",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -110,10 +110,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 16.67,
-        "30d": 87.45,
-        "90d": 91.3,
-        "1y": 92.69
+        "24h": 100.0,
+        "30d": 99.17,
+        "90d": 99.59,
+        "1y": 99.53
       }
     },
     {
@@ -134,13 +134,40 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.75,
-        "90d": 96.25,
+        "30d": 95.64,
+        "90d": 96.22,
         "1y": 96.8
+      }
+    },
+    {
+      "ip": "190.149.193.229",
+      "version": 4,
+      "country_code": "gt",
+      "country": "Guatemala",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Telgua",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 86.93,
+        "90d": 91.19,
+        "1y": 92.67
       }
     },
     {
@@ -159,31 +186,31 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 92.91,
-        "90d": 92.43,
-        "1y": 93.8
+        "24h": 83.33,
+        "30d": 92.53,
+        "90d": 92.33,
+        "1y": 93.77
       }
     },
     {
-      "ip": "200.6.253.74",
+      "ip": "186.151.152.210",
       "version": 4,
       "country_code": "gt",
       "country": "Guatemala",
       "continent_code": "na",
       "continent": "North America",
       "organization": "TELECOMUNICACIONES DE GUATEMALA, SOCIEDAD ANONIMA",
-      "domain": "74.253.6.200.intelnet.net.gt",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": false
+        "aware": false,
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -191,10 +218,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.19,
-        "90d": 99.6,
-        "1y": 99.53
+        "24h": 83.33,
+        "30d": 80.08,
+        "90d": 73.19,
+        "1y": 73.03
       }
     }
   ]
