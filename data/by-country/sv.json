@@ -4,8 +4,8 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-02-26T06:28:33Z",
-    "total_servers": 3
+    "generated_at": "2026-02-26T18:13:16Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -24,26 +24,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 62.5,
-        "30d": 83.73,
-        "90d": 79.63,
-        "1y": 80.55
+        "24h": 100.0,
+        "30d": 83.7,
+        "90d": 79.62,
+        "1y": 80.57
       }
     },
     {
-      "ip": "168.243.48.33",
+      "ip": "190.86.205.194",
       "version": 4,
       "country_code": "sv",
       "country": "El Salvador",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "SVNet",
-      "domain": "ns.telecam.net",
+      "organization": "Sociedad Cooperativa EX Banco Cuscatlan. De R.L",
+      "domain": "ns1.coopex.com.sv",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.5,
-        "90d": 98.95,
-        "1y": 99.1
+        "24h": 28.57,
+        "30d": 79.52,
+        "90d": 80.05,
+        "1y": 83.21
       }
     },
     {
@@ -78,15 +78,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.79,
-        "90d": 98.04,
-        "1y": 98.48
+        "30d": 99.78,
+        "90d": 98.02,
+        "1y": 98.49
+      }
+    },
+    {
+      "ip": "168.243.48.33",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "SVNet",
+      "domain": "ns.telecam.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.48,
+        "90d": 98.98,
+        "1y": 99.1
       }
     }
   ]

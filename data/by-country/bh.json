@@ -4,8 +4,8 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-26T06:28:33Z",
-    "total_servers": 3
+    "generated_at": "2026-02-26T18:13:16Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -30,9 +30,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.38,
-        "90d": 98.39,
-        "1y": 98.66
+        "30d": 96.3,
+        "90d": 98.38,
+        "1y": 98.67
+      }
+    },
+    {
+      "ip": "157.175.242.142",
+      "version": 4,
+      "country_code": "bh",
+      "country": "Bahrain",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "AWS EC2 (me-south-1)",
+      "domain": "ec2-157-175-242-142.me-south-1.compute.amazonaws.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 97.39,
+        "90d": 97.66,
+        "1y": 97.04
       }
     },
     {
@@ -48,18 +75,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 62.5,
-        "30d": 80.34,
-        "90d": 91.64,
-        "1y": 83.69
+        "24h": 57.14,
+        "30d": 79.74,
+        "90d": 91.58,
+        "1y": 83.68
       }
     },
     {
@@ -74,7 +101,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": true
       },
       "blocking": {
@@ -83,10 +110,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 69.02,
-        "90d": 63.84,
-        "1y": 69.77
+        "24h": 71.43,
+        "30d": 69.2,
+        "90d": 63.65,
+        "1y": 69.8
       }
     }
   ]
