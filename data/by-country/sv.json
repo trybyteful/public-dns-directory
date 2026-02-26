@@ -4,35 +4,35 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-02-25T18:19:47Z",
-    "total_servers": 2
+    "generated_at": "2026-02-26T06:28:33Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "200.85.7.28",
+      "ip": "201.247.112.236",
       "version": 4,
       "country_code": "sv",
       "country": "El Salvador",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "Telemovil El Salvador S.A",
-      "domain": "ftp.grupotropigas.com.sv",
+      "organization": "LAB. PAILL DIV. DE GRUPO PAILL, S.A. DE C.V",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.79,
-        "90d": 98.05,
-        "1y": 98.48
+        "24h": 62.5,
+        "30d": 83.73,
+        "90d": 79.63,
+        "1y": 80.55
       }
     },
     {
@@ -52,14 +52,41 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.53,
-        "90d": 98.96,
+        "30d": 98.5,
+        "90d": 98.95,
         "1y": 99.1
+      }
+    },
+    {
+      "ip": "200.85.7.28",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Telemovil El Salvador S.A",
+      "domain": "ftp.grupotropigas.com.sv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.79,
+        "90d": 98.04,
+        "1y": 98.48
       }
     }
   ]

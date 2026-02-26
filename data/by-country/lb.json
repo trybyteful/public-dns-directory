@@ -4,73 +4,19 @@
     "country_name": "Lebanon",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-25T18:19:47Z",
-    "total_servers": 4
+    "generated_at": "2026-02-26T06:28:33Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
-      "ip": "77.42.220.110",
+      "ip": "80.81.147.82",
       "version": 4,
       "country_code": "lb",
       "country": "Lebanon",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Ogeronet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 57.14,
-        "30d": 62.94,
-        "90d": 62.1,
-        "1y": 66.83
-      }
-    },
-    {
-      "ip": "91.151.226.102",
-      "version": 4,
-      "country_code": "lb",
-      "country": "Lebanon",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "bcdbbn-bloc1",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 89.29,
-        "90d": 91.25,
-        "1y": 89.48
-      }
-    },
-    {
-      "ip": "77.75.93.86",
-      "version": 4,
-      "country_code": "lb",
-      "country": "Lebanon",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Farah Net S.a.r.l.",
-      "domain": null,
+      "organization": "CYBERIA",
+      "domain": "ppp-03-82.cyberia.net.lb",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -80,13 +26,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 82.14,
-        "90d": 69.2,
-        "1y": 73.31
+        "24h": 75.0,
+        "30d": 50.57,
+        "90d": 10.05,
+        "1y": 8.24
       }
     },
     {
@@ -106,14 +52,95 @@
       },
       "blocking": {
         "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.29,
+        "90d": 99.17,
+        "1y": 99.33
+      }
+    },
+    {
+      "ip": "78.108.164.125",
+      "version": 4,
+      "country_code": "lb",
+      "country": "Lebanon",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TerraNet sal",
+      "domain": "dsl-78-108-164-125.terra.net.lb",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.32,
-        "90d": 99.18,
-        "1y": 99.33
+        "24h": 37.5,
+        "30d": 42.29,
+        "90d": 33.61,
+        "1y": 33.33
+      }
+    },
+    {
+      "ip": "91.151.226.102",
+      "version": 4,
+      "country_code": "lb",
+      "country": "Lebanon",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "bcdbbn-bloc1",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 88.87,
+        "90d": 91.67,
+        "1y": 89.46
+      }
+    },
+    {
+      "ip": "77.75.93.86",
+      "version": 4,
+      "country_code": "lb",
+      "country": "Lebanon",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Farah Net S.a.r.l.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 82.01,
+        "90d": 69.01,
+        "1y": 73.35
       }
     }
   ]

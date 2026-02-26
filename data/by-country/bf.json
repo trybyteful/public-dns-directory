@@ -4,10 +4,37 @@
     "country_name": "Burkina Faso",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-25T18:19:47Z",
-    "total_servers": 4
+    "generated_at": "2026-02-26T06:28:33Z",
+    "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "196.28.244.3",
+      "version": 4,
+      "country_code": "bf",
+      "country": "Burkina Faso",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ONATEL",
+      "domain": "ns2.sonabhy.bf",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 48.2,
+        "90d": 59.36,
+        "1y": 66.17
+      }
+    },
     {
       "ip": "41.216.159.6",
       "version": 4,
@@ -29,37 +56,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 54.11,
-        "90d": 46.16,
+        "24h": 62.5,
+        "30d": 52.99,
+        "90d": 45.98,
         "1y": 50.39
-      }
-    },
-    {
-      "ip": "196.28.244.3",
-      "version": 4,
-      "country_code": "bf",
-      "country": "Burkina Faso",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "ONATEL",
-      "domain": "ns2.sonabhy.bf",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 47.86,
-        "90d": 59.84,
-        "1y": 66.1
       }
     },
     {
@@ -78,7 +78,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -87,33 +87,6 @@
         "30d": 99.79,
         "90d": 99.81,
         "1y": 99.77
-      }
-    },
-    {
-      "ip": "154.65.61.1",
-      "version": 4,
-      "country_code": "bf",
-      "country": "Burkina Faso",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Union Economique et Monetaire Ouest Africaine",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 91.81,
-        "90d": 83.89,
-        "1y": 75.06
       }
     }
   ]
