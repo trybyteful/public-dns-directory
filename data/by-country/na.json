@@ -4,10 +4,37 @@
     "country_name": "Namibia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-27T06:24:54Z",
+    "generated_at": "2026-02-27T18:08:19Z",
     "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "41.218.90.154",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Paratus Regional - Namibia",
+      "domain": "ns1.methealth.com.na",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.76,
+        "90d": 97.82,
+        "1y": 97.97
+      }
+    },
     {
       "ip": "41.63.249.222",
       "version": 4,
@@ -25,45 +52,18 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 83.85,
-        "90d": 92.06,
-        "1y": 93.57
-      }
-    },
-    {
-      "ip": "41.218.90.154",
-      "version": 4,
-      "country_code": "na",
-      "country": "Namibia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Paratus Regional - Namibia",
-      "domain": "ns1.methealth.com.na",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.79,
-        "90d": 97.83,
-        "1y": 97.97
+        "30d": 83.67,
+        "90d": 92.05,
+        "1y": 93.57
       }
     },
     {
-      "ip": "41.63.244.146",
+      "ip": "41.63.244.89",
       "version": 4,
       "country_code": "na",
       "country": "Namibia",
@@ -78,15 +78,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 42.86,
-        "30d": 60.28,
-        "90d": 63.29,
-        "1y": 61.44
+        "30d": 81.66,
+        "90d": 85.59,
+        "1y": 86.69
       }
     }
   ]

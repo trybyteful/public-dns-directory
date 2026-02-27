@@ -4,24 +4,24 @@
     "country_name": "Lebanon",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-27T06:24:54Z",
-    "total_servers": 3
+    "generated_at": "2026-02-27T18:08:19Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "91.151.226.102",
+      "ip": "77.42.157.25",
       "version": 4,
       "country_code": "lb",
       "country": "Lebanon",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "bcdbbn-bloc1",
+      "organization": "LIBANTELECOM",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -29,10 +29,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 88.52,
-        "90d": 91.83,
-        "1y": 89.43
+        "24h": 0.0,
+        "30d": 77.38,
+        "90d": 81.36,
+        "1y": 81.36
       }
     },
     {
@@ -57,9 +57,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 81.82,
-        "90d": 68.61,
-        "1y": 73.41
+        "30d": 81.61,
+        "90d": 68.5,
+        "1y": 73.44
       }
     },
     {
@@ -79,14 +79,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.23,
-        "90d": 99.16,
+        "30d": 98.21,
+        "90d": 99.43,
         "1y": 99.33
+      }
+    },
+    {
+      "ip": "91.151.226.102",
+      "version": 4,
+      "country_code": "lb",
+      "country": "Lebanon",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "bcdbbn-bloc1",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 88.12,
+        "90d": 91.73,
+        "1y": 89.41
       }
     }
   ]
