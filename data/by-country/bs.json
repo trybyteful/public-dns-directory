@@ -4,10 +4,37 @@
     "country_name": "Bahamas",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-02-28T06:15:15Z",
+    "generated_at": "2026-02-28T18:03:35Z",
     "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "216.137.13.22",
+      "version": 4,
+      "country_code": "bs",
+      "country": "Bahamas",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "The Bahamas Telecommunications Company, Ltd.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 84.35,
+        "90d": 96.74,
+        "1y": 97.55
+      }
+    },
     {
       "ip": "65.75.74.123",
       "version": 4,
@@ -25,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 89.95,
-        "90d": 95.1,
-        "1y": 96.01
+        "24h": 100.0,
+        "30d": 89.74,
+        "90d": 95.11,
+        "1y": 96.02
       }
     },
     {
@@ -52,41 +79,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.36,
-        "90d": 94.95,
-        "1y": 95.92
-      }
-    },
-    {
-      "ip": "216.137.13.22",
-      "version": 4,
-      "country_code": "bs",
-      "country": "Bahamas",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "The Bahamas Telecommunications Company, Ltd.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 71.43,
-        "30d": 85.23,
-        "90d": 96.84,
-        "1y": 97.6
+        "30d": 88.11,
+        "90d": 94.96,
+        "1y": 95.93
       }
     },
     {
@@ -105,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 80.59,
-        "90d": 76.23,
-        "1y": 81.49
+        "30d": 80.11,
+        "90d": 75.99,
+        "1y": 81.51
       }
     }
   ]
