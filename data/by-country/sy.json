@@ -4,35 +4,35 @@
     "country_name": "Syria",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-01T06:22:06Z",
-    "total_servers": 3
+    "generated_at": "2026-03-01T18:03:38Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
-      "ip": "178.253.103.88",
+      "ip": "82.137.245.41",
       "version": 4,
       "country_code": "sy",
       "country": "Syria",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "190 Inetnet Service Provider",
+      "organization": "ISP-TARASSUL",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 79.0,
-        "90d": 71.1,
-        "1y": 66.71
+        "24h": 83.33,
+        "30d": 66.1,
+        "90d": 72.2,
+        "1y": 73.72
       }
     },
     {
@@ -51,42 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.57,
-        "90d": 98.59,
+        "30d": 98.54,
+        "90d": 98.58,
         "1y": 98.85
-      }
-    },
-    {
-      "ip": "82.137.245.41",
-      "version": 4,
-      "country_code": "sy",
-      "country": "Syria",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "ISP-TARASSUL",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 66.59,
-        "90d": 72.41,
-        "1y": 73.73
       }
     }
   ]

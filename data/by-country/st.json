@@ -4,37 +4,10 @@
     "country_name": "São Tomé and Príncipe",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-03-01T06:22:06Z",
+    "generated_at": "2026-03-01T18:03:38Z",
     "total_servers": 2
   },
   "resolvers": [
-    {
-      "ip": "197.159.180.2",
-      "version": 4,
-      "country_code": "st",
-      "country": "São Tomé and Príncipe",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "CST",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.52,
-        "90d": 98.79,
-        "1y": 98.88
-      }
-    },
     {
       "ip": "197.159.180.1",
       "version": 4,
@@ -53,13 +26,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.74,
-        "90d": 98.62,
+        "30d": 97.69,
+        "90d": 98.65,
         "1y": 98.84
+      }
+    },
+    {
+      "ip": "197.159.180.2",
+      "version": 4,
+      "country_code": "st",
+      "country": "São Tomé and Príncipe",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "CST",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.51,
+        "90d": 98.82,
+        "1y": 98.88
       }
     }
   ]

@@ -4,8 +4,8 @@
     "country_name": "Kuwait",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-01T06:22:06Z",
-    "total_servers": 4
+    "generated_at": "2026-03-01T18:03:38Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.56,
+        "30d": 98.54,
         "90d": 87.28,
-        "1y": 87.16
+        "1y": 87.17
       }
     },
     {
@@ -52,13 +52,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.85,
-        "90d": 96.76,
+        "30d": 98.29,
+        "90d": 96.74,
         "1y": 97.05
       }
     },
@@ -84,9 +84,36 @@
       },
       "uptime": {
         "24h": 83.33,
-        "30d": 41.53,
-        "90d": 29.7,
-        "1y": 28.16
+        "30d": 41.22,
+        "90d": 29.55,
+        "1y": 28.2
+      }
+    },
+    {
+      "ip": "195.88.223.73",
+      "version": 4,
+      "country_code": "kw",
+      "country": "Kuwait",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Kuwait Petroleum Corporation",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 98.6,
+        "90d": 98.19,
+        "1y": 98.68
       }
     },
     {
@@ -105,15 +132,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.81,
-        "90d": 91.82,
-        "1y": 87.44
+        "30d": 98.78,
+        "90d": 91.75,
+        "1y": 87.45
       }
     }
   ]

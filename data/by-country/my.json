@@ -4,7 +4,7 @@
     "country_name": "Malaysia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-01T06:22:06Z",
+    "generated_at": "2026-03-01T18:03:38Z",
     "total_servers": 31
   },
   "resolvers": [
@@ -48,7 +48,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -58,7 +58,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.77,
+        "90d": 99.8,
         "1y": 99.77
       }
     },
@@ -78,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 76.61,
-        "90d": 91.24,
-        "1y": 93.25
+        "24h": 100.0,
+        "30d": 77.56,
+        "90d": 91.19,
+        "1y": 93.26
       }
     },
     {
@@ -105,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 66.27,
-        "90d": 75.34,
-        "1y": 75.94
+        "24h": 50.0,
+        "30d": 65.04,
+        "90d": 75.14,
+        "1y": 75.88
       }
     },
     {
@@ -133,72 +133,18 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 93.03,
-        "90d": 95.01,
-        "1y": 94.91
-      }
-    },
-    {
-      "ip": "218.208.115.68",
-      "version": 4,
-      "country_code": "my",
-      "country": "Malaysia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TMnet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.29,
-        "90d": 99.84,
-        "1y": 99.8
+        "30d": 93.61,
+        "90d": 95.49,
+        "1y": 94.92
       }
     },
     {
-      "ip": "218.208.114.28",
-      "version": 4,
-      "country_code": "my",
-      "country": "Malaysia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TMnet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.05,
-        "90d": 99.69,
-        "1y": 99.57
-      }
-    },
-    {
-      "ip": "1.9.63.97",
+      "ip": "1.9.70.86",
       "version": 4,
       "country_code": "my",
       "country": "Malaysia",
@@ -213,15 +159,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 61.86,
+        "90d": 73.49,
+        "1y": 74.96
+      }
+    },
+    {
+      "ip": "103.78.35.229",
+      "version": 4,
+      "country_code": "my",
+      "country": "Malaysia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Sunway Digital Wave Sdn Bhd",
+      "domain": "dw1.sdwave.com.my",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 95.14,
-        "90d": 95.72,
-        "1y": 96.88
+        "24h": 66.67,
+        "30d": 86.34,
+        "90d": 84.53,
+        "1y": 84.78
       }
     },
     {
@@ -242,29 +215,56 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 86.6,
-        "90d": 80.21,
-        "1y": 74.19
+        "30d": 86.34,
+        "90d": 80.09,
+        "1y": 74.21
       }
     },
     {
-      "ip": "103.26.170.103",
+      "ip": "163.47.202.150",
       "version": 4,
       "country_code": "my",
       "country": "Malaysia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "CSF-Colo",
+      "organization": "Verizon Business",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 78.59,
+        "90d": 85.7,
+        "1y": 86.39
+      }
+    },
+    {
+      "ip": "218.208.115.68",
+      "version": 4,
+      "country_code": "my",
+      "country": "Malaysia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TMnet",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -273,9 +273,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.28,
-        "90d": 99.77,
-        "1y": 99.83
+        "30d": 99.27,
+        "90d": 99.84,
+        "1y": 99.8
+      }
+    },
+    {
+      "ip": "1.9.63.97",
+      "version": 4,
+      "country_code": "my",
+      "country": "Malaysia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Tmnet, Telekom Malaysia Bhd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.18,
+        "90d": 95.7,
+        "1y": 96.89
       }
     },
     {
@@ -300,8 +327,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.99,
-        "90d": 96.52,
+        "30d": 95.12,
+        "90d": 96.54,
         "1y": 97.06
       }
     },
@@ -327,7 +354,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.28,
+        "30d": 99.27,
         "90d": 99.65,
         "1y": 99.71
       }
@@ -350,67 +377,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 68.5,
-        "90d": 62.75,
+        "24h": 83.33,
+        "30d": 68.29,
+        "90d": 62.56,
         "1y": 58.75
-      }
-    },
-    {
-      "ip": "58.26.163.10",
-      "version": 4,
-      "country_code": "my",
-      "country": "Malaysia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TMnet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 98.63,
-        "1y": 98.76
-      }
-    },
-    {
-      "ip": "124.82.2.186",
-      "version": 4,
-      "country_code": "my",
-      "country": "Malaysia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Hsbb Home",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 67.46,
-        "90d": 60.2,
-        "1y": 64.51
       }
     },
     {
@@ -429,15 +402,69 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.77,
+        "90d": 99.76,
         "1y": 99.74
+      }
+    },
+    {
+      "ip": "103.26.170.103",
+      "version": 4,
+      "country_code": "my",
+      "country": "Malaysia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CSF-Colo",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.27,
+        "90d": 99.76,
+        "1y": 99.83
+      }
+    },
+    {
+      "ip": "58.26.163.10",
+      "version": 4,
+      "country_code": "my",
+      "country": "Malaysia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TMnet",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 98.62,
+        "1y": 98.76
       }
     },
     {
@@ -456,14 +483,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.76,
-        "90d": 99.84,
+        "90d": 99.88,
         "1y": 99.57
       }
     },
@@ -484,78 +511,24 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 66.67,
-        "30d": 62.0,
-        "90d": 72.51,
-        "1y": 73.76
+        "30d": 61.12,
+        "90d": 72.32,
+        "1y": 73.73
       }
     },
     {
-      "ip": "175.138.182.32",
+      "ip": "218.208.114.28",
       "version": 4,
       "country_code": "my",
       "country": "Malaysia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Adsl Streamyx",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 77.24,
-        "90d": 39.75,
-        "1y": 32.65
-      }
-    },
-    {
-      "ip": "110.4.40.214",
-      "version": 4,
-      "country_code": "my",
-      "country": "Malaysia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Exa Bytes Network Sdn.Bhd",
-      "domain": "WebkowaKowamas.mschosting.org",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.28,
-        "90d": 99.34,
-        "1y": 99.39
-      }
-    },
-    {
-      "ip": "211.25.80.182",
-      "version": 4,
-      "country_code": "my",
-      "country": "Malaysia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TT DOTCOM SDN BHD",
+      "organization": "TMnet",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -570,9 +543,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 37.15,
-        "90d": 34.23,
-        "1y": 31.07
+        "30d": 99.02,
+        "90d": 99.69,
+        "1y": 99.57
       }
     },
     {
@@ -588,33 +561,6 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 87.19,
-        "90d": 93.44,
-        "1y": 95.17
-      }
-    },
-    {
-      "ip": "1.9.161.179",
-      "version": 4,
-      "country_code": "my",
-      "country": "Malaysia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Tmnet, Telekom Malaysia Bhd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -624,9 +570,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.24,
-        "90d": 93.05,
-        "1y": 93.21
+        "30d": 87.3,
+        "90d": 93.44,
+        "1y": 95.17
       }
     },
     {
@@ -646,51 +592,24 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.33,
-        "90d": 99.34,
+        "30d": 98.3,
+        "90d": 99.33,
         "1y": 99.42
       }
     },
     {
-      "ip": "211.25.202.171",
+      "ip": "1.9.161.179",
       "version": 4,
       "country_code": "my",
       "country": "Malaysia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "TT DOTCOM SDN BHD",
-      "domain": "webmail.bonuslink.com.my",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 24.31,
-        "90d": 59.11,
-        "1y": 63.87
-      }
-    },
-    {
-      "ip": "202.186.1.57",
-      "version": 4,
-      "country_code": "my",
-      "country": "Malaysia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TT DOTCOM SDN BHD",
+      "organization": "Tmnet, Telekom Malaysia Bhd",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -704,47 +623,74 @@
         "adult": true
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 39.74,
-        "90d": 42.52,
-        "1y": 44.04
+        "24h": 66.67,
+        "30d": 90.75,
+        "90d": 92.96,
+        "1y": 93.16
       }
     },
     {
-      "ip": "122.0.23.59",
+      "ip": "175.138.182.32",
       "version": 4,
       "country_code": "my",
       "country": "Malaysia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Mykris Asia SDN BHD",
-      "domain": "static-122-0-23-59.mykris.net",
+      "organization": "Adsl Streamyx",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 92.02,
-        "90d": 95.24,
-        "1y": 95.01
+        "24h": 50.0,
+        "30d": 76.8,
+        "90d": 39.83,
+        "1y": 32.65
       }
     },
     {
-      "ip": "210.187.81.226",
+      "ip": "110.4.40.214",
       "version": 4,
       "country_code": "my",
       "country": "Malaysia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "ADSL Streamyx Telekom Malaysia",
+      "organization": "Exa Bytes Network Sdn.Bhd",
+      "domain": "WebkowaKowamas.mschosting.org",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.27,
+        "90d": 99.33,
+        "1y": 99.39
+      }
+    },
+    {
+      "ip": "211.25.80.182",
+      "version": 4,
+      "country_code": "my",
+      "country": "Malaysia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TT DOTCOM SDN BHD",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -753,42 +699,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.28,
-        "90d": 99.61,
-        "1y": 99.31
-      }
-    },
-    {
-      "ip": "202.133.101.116",
-      "version": 4,
-      "country_code": "my",
-      "country": "Malaysia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "MYKRIS",
-      "domain": "mail.nanyang.com.my",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.76,
-        "90d": 99.49,
-        "1y": 99.48
+        "30d": 37.58,
+        "90d": 34.83,
+        "1y": 31.23
       }
     },
     {
@@ -809,11 +728,11 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.28,
+        "30d": 99.27,
         "90d": 99.69,
         "1y": 99.68
       }
@@ -835,7 +754,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -843,6 +762,87 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 99.91
+      }
+    },
+    {
+      "ip": "122.0.23.59",
+      "version": 4,
+      "country_code": "my",
+      "country": "Malaysia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Mykris Asia SDN BHD",
+      "domain": "static-122-0-23-59.mykris.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 92.09,
+        "90d": 95.61,
+        "1y": 95.01
+      }
+    },
+    {
+      "ip": "210.187.81.226",
+      "version": 4,
+      "country_code": "my",
+      "country": "Malaysia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "ADSL Streamyx Telekom Malaysia",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.27,
+        "90d": 99.61,
+        "1y": 99.31
+      }
+    },
+    {
+      "ip": "202.133.101.116",
+      "version": 4,
+      "country_code": "my",
+      "country": "Malaysia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "MYKRIS",
+      "domain": "mail.nanyang.com.my",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.76,
+        "90d": 99.53,
+        "1y": 99.48
       }
     }
   ]
