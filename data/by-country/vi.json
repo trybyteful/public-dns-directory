@@ -4,7 +4,7 @@
     "country_name": "U.S. Virgin Islands",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-03-02T06:28:02Z",
+    "generated_at": "2026-03-02T18:10:44Z",
     "total_servers": 1
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 68.91,
-        "90d": 57.09,
-        "1y": 64.12
+        "24h": 60.0,
+        "30d": 68.29,
+        "90d": 56.8,
+        "1y": 64.13
       }
     }
   ]
