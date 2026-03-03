@@ -4,8 +4,8 @@
     "country_name": "Turkey",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-02T18:10:44Z",
-    "total_servers": 33
+    "generated_at": "2026-03-03T06:24:22Z",
+    "total_servers": 32
   },
   "resolvers": [
     {
@@ -25,13 +25,13 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 59.59,
-        "90d": 50.47,
+        "24h": 80.0,
+        "30d": 58.85,
+        "90d": 50.09,
         "1y": 59.94
       }
     },
@@ -51,14 +51,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.23,
-        "90d": 98.13,
+        "30d": 99.48,
+        "90d": 98.11,
         "1y": 98.62
       }
     },
@@ -105,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 87.97,
-        "90d": 82.81,
-        "1y": 83.55
+        "24h": 100.0,
+        "30d": 89.73,
+        "90d": 82.82,
+        "1y": 83.57
       }
     },
     {
@@ -129,7 +129,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -137,10 +137,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 62.82,
-        "90d": 75.23,
-        "1y": 81.59
+        "24h": 100.0,
+        "30d": 62.92,
+        "90d": 75.11,
+        "1y": 81.6
       }
     },
     {
@@ -159,14 +159,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.49,
-        "90d": 98.88,
+        "30d": 99.48,
+        "90d": 98.87,
         "1y": 97.21
       }
     },
@@ -186,15 +186,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 97.71,
-        "90d": 98.84,
-        "1y": 99.05
+        "24h": 80.0,
+        "30d": 98.17,
+        "90d": 98.79,
+        "1y": 99.02
       }
     },
     {
@@ -214,12 +214,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.23,
+        "30d": 99.21,
         "90d": 99.76,
         "1y": 99.77
       }
@@ -240,15 +240,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 87.33,
-        "90d": 80.48,
-        "1y": 82.21
+        "24h": 100.0,
+        "30d": 88.11,
+        "90d": 80.53,
+        "1y": 82.22
       }
     },
     {
@@ -272,102 +272,21 @@
         "adult": true
       },
       "uptime": {
-        "24h": 40.0,
-        "30d": 70.15,
-        "90d": 67.03,
-        "1y": 68.17
-      }
-    },
-    {
-      "ip": "92.45.23.168",
-      "version": 4,
-      "country_code": "tr",
-      "country": "Turkey",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Disekonomik",
-      "domain": "ns1.deik.org.tr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
         "24h": 100.0,
-        "30d": 98.47,
-        "90d": 98.8,
-        "1y": 98.82
+        "30d": 70.34,
+        "90d": 67.21,
+        "1y": 68.24
       }
     },
     {
-      "ip": "78.186.173.215",
+      "ip": "85.105.81.252",
       "version": 4,
       "country_code": "tr",
       "country": "Turkey",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "TurkTelecom",
-      "domain": "78.186.173.215.static.ttnet.com.tr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.72,
-        "90d": 93.85,
-        "1y": 95.64
-      }
-    },
-    {
-      "ip": "176.235.135.204",
-      "version": 4,
-      "country_code": "tr",
-      "country": "Turkey",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Superonline Iletisim Hizmetleri",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.47,
-        "90d": 99.2,
-        "1y": 99.17
-      }
-    },
-    {
-      "ip": "213.74.195.52",
-      "version": 4,
-      "country_code": "tr",
-      "country": "Turkey",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Superonline Iletisim Hizmetleri",
-      "domain": "host-213-74-195-52.superonline.net",
+      "domain": "85.105.81.252.static.ttnet.com.tr",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -375,26 +294,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 20.0,
-        "30d": 74.58,
-        "90d": 50.67,
-        "1y": 54.64
+        "24h": 80.0,
+        "30d": 78.01,
+        "90d": 62.83,
+        "1y": 61.86
       }
     },
     {
-      "ip": "212.58.12.245",
+      "ip": "185.226.160.76",
       "version": 4,
       "country_code": "tr",
       "country": "Turkey",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Acik Kart Teknolojileri ve Odeme Sistemleri San. Tic. A.S.",
-      "domain": "rev.245.12.58.212.doruk.net.tr",
+      "organization": "Pole Telekomunikasyon Sanayi ve Ticaret Anonim Sirketi",
+      "domain": "static-76-160-226-185.omurtech.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -403,68 +322,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 81.23,
-        "90d": 82.77,
-        "1y": 86.67
-      }
-    },
-    {
-      "ip": "31.7.36.36",
-      "version": 4,
-      "country_code": "tr",
-      "country": "Turkey",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Nuh Ahmet Firat trading as TEKNET YAZLIM VE BILGISAYAR TEKNOLOJILERI",
-      "domain": "resolve01.tek.net.tr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 77.04,
-        "90d": 83.49,
-        "1y": 86.82
-      }
-    },
-    {
-      "ip": "213.153.223.21",
-      "version": 4,
-      "country_code": "tr",
-      "country": "Turkey",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Superonline Iletisim Hizmetleri",
-      "domain": "host-213-153-223-21.reverse.superonline.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 82.44,
-        "90d": 76.57,
-        "1y": 81.55
+        "24h": 40.0,
+        "30d": 76.81,
+        "90d": 64.3,
+        "1y": 59.8
       }
     },
     {
@@ -484,41 +349,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 28.95,
-        "90d": 7.65,
-        "1y": 16.94
-      }
-    },
-    {
-      "ip": "89.19.14.82",
-      "version": 4,
-      "country_code": "tr",
-      "country": "Turkey",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Cizgi Telekomunikasyon Anonim Sirketi",
-      "domain": "mail.filozoft.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.49,
-        "90d": 99.32,
-        "1y": 99.48
+        "30d": 31.65,
+        "90d": 8.45,
+        "1y": 17.35
       }
     },
     {
@@ -549,18 +387,45 @@
       }
     },
     {
-      "ip": "31.210.69.163",
+      "ip": "78.186.173.215",
       "version": 4,
       "country_code": "tr",
       "country": "Turkey",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Radore Veri Merkezi Hizmetleri",
-      "domain": "news.superkuladebulten.com",
+      "organization": "TurkTelecom",
+      "domain": "78.186.173.215.static.ttnet.com.tr",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.69,
+        "90d": 93.81,
+        "1y": 95.65
+      }
+    },
+    {
+      "ip": "213.14.11.162",
+      "version": 4,
+      "country_code": "tr",
+      "country": "Turkey",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Guneydogu Telekom Internet Bilisim VE Iletisim HIZ TIC LTD",
+      "domain": "host-213-14-11-162.reverse.superonline.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -569,21 +434,48 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 62.15,
-        "90d": 52.49,
-        "1y": 61.16
+        "24h": 80.0,
+        "30d": 68.32,
+        "90d": 50.28,
+        "1y": 56.67
       }
     },
     {
-      "ip": "85.105.81.252",
+      "ip": "89.19.14.82",
       "version": 4,
       "country_code": "tr",
       "country": "Turkey",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "TurkTelecom",
-      "domain": "85.105.81.252.static.ttnet.com.tr",
+      "organization": "Cizgi Telekomunikasyon Anonim Sirketi",
+      "domain": "mail.filozoft.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.48,
+        "90d": 99.32,
+        "1y": 99.48
+      }
+    },
+    {
+      "ip": "213.153.223.21",
+      "version": 4,
+      "country_code": "tr",
+      "country": "Turkey",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Superonline Iletisim Hizmetleri",
+      "domain": "host-213-153-223-21.reverse.superonline.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -592,52 +484,25 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 40.0,
-        "30d": 78.45,
-        "90d": 62.53,
-        "1y": 61.84
-      }
-    },
-    {
-      "ip": "31.210.52.168",
-      "version": 4,
-      "country_code": "tr",
-      "country": "Turkey",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "SH ONLINE ILETISIM ANONIM SIRKETI",
-      "domain": "androidcanavari.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.59,
-        "90d": 88.83,
-        "1y": 85.52
+        "30d": 83.51,
+        "90d": 76.37,
+        "1y": 81.57
       }
     },
     {
-      "ip": "193.192.113.146",
+      "ip": "88.248.51.121",
       "version": 4,
       "country_code": "tr",
       "country": "Turkey",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "TurkNet Iletisim Hizmetleri",
-      "domain": "146.113.192.193.static.turk.net",
+      "organization": "TurkTelecom",
+      "domain": "88.248.51.121.static.ttnet.com.tr",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -647,13 +512,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 74.67,
-        "90d": 85.82,
-        "1y": 87.2
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.4,
+        "1y": 99.45
       }
     },
     {
@@ -679,46 +544,19 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 95.91,
+        "90d": 95.89,
         "1y": 96.19
       }
     },
     {
-      "ip": "195.21.58.113",
+      "ip": "195.112.128.222",
       "version": 4,
       "country_code": "tr",
       "country": "Turkey",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Network Public Direct Connect GTT Cloud Management",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 84.65,
-        "90d": 85.59,
-        "1y": 84.64
-      }
-    },
-    {
-      "ip": "185.226.160.76",
-      "version": 4,
-      "country_code": "tr",
-      "country": "Turkey",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Pole Telekomunikasyon Sanayi ve Ticaret Anonim Sirketi",
-      "domain": "static-76-160-226-185.omurtech.com",
+      "organization": "Ada-net",
+      "domain": "proxy.ada.net.tr",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -727,14 +565,95 @@
       },
       "blocking": {
         "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.22,
+        "90d": 96.55,
+        "1y": 97.24
+      }
+    },
+    {
+      "ip": "193.192.113.146",
+      "version": 4,
+      "country_code": "tr",
+      "country": "Turkey",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TurkNet Iletisim Hizmetleri",
+      "domain": "146.113.192.193.static.turk.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 75.0,
+        "90d": 85.69,
+        "1y": 87.18
+      }
+    },
+    {
+      "ip": "176.235.135.204",
+      "version": 4,
+      "country_code": "tr",
+      "country": "Turkey",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Superonline Iletisim Hizmetleri",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 40.0,
-        "30d": 75.0,
-        "90d": 63.92,
-        "1y": 59.81
+        "24h": 100.0,
+        "30d": 98.44,
+        "90d": 99.2,
+        "1y": 99.17
+      }
+    },
+    {
+      "ip": "31.210.52.168",
+      "version": 4,
+      "country_code": "tr",
+      "country": "Turkey",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "SH ONLINE ILETISIM ANONIM SIRKETI",
+      "domain": "androidcanavari.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.65,
+        "90d": 88.91,
+        "1y": 85.55
       }
     },
     {
@@ -753,15 +672,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 97.19,
-        "90d": 90.78,
-        "1y": 91.84
+        "24h": 80.0,
+        "30d": 96.85,
+        "90d": 90.66,
+        "1y": 91.82
       }
     },
     {
@@ -786,20 +705,20 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.98,
+        "30d": 98.95,
         "90d": 99.72,
         "1y": 99.56
       }
     },
     {
-      "ip": "88.248.51.121",
+      "ip": "85.102.10.64",
       "version": 4,
       "country_code": "tr",
       "country": "Turkey",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "TurkTelecom",
-      "domain": "88.248.51.121.static.ttnet.com.tr",
+      "organization": "Turk Telekomunikasyon A.S",
+      "domain": "85.102.10.64.dynamic.ttnet.com.tr",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -812,21 +731,21 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.4,
-        "1y": 99.45
+        "24h": 40.0,
+        "30d": 61.43,
+        "90d": 89.48,
+        "1y": 92.28
       }
     },
     {
-      "ip": "195.112.128.222",
+      "ip": "212.58.12.245",
       "version": 4,
       "country_code": "tr",
       "country": "Turkey",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Ada-net",
-      "domain": "proxy.ada.net.tr",
+      "organization": "Acik Kart Teknolojileri ve Odeme Sistemleri San. Tic. A.S.",
+      "domain": "rev.245.12.58.212.doruk.net.tr",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -834,26 +753,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.23,
-        "90d": 96.57,
-        "1y": 97.24
+        "24h": 60.0,
+        "30d": 82.78,
+        "90d": 82.75,
+        "1y": 86.64
       }
     },
     {
-      "ip": "46.221.14.44",
+      "ip": "213.74.195.52",
       "version": 4,
       "country_code": "tr",
       "country": "Turkey",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Borusan Telekom",
-      "domain": null,
+      "organization": "Superonline Iletisim Hizmetleri",
+      "domain": "host-213-74-195-52.superonline.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -866,26 +785,26 @@
         "adult": true
       },
       "uptime": {
-        "24h": 40.0,
-        "30d": 46.71,
-        "90d": 37.93,
-        "1y": 39.99
+        "24h": 80.0,
+        "30d": 76.5,
+        "90d": 50.49,
+        "1y": 54.68
       }
     },
     {
-      "ip": "212.98.251.126",
+      "ip": "92.45.23.168",
       "version": 4,
       "country_code": "tr",
       "country": "Turkey",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Borusan Telekom",
-      "domain": null,
+      "organization": "Disekonomik",
+      "domain": "ns1.deik.org.tr",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -893,10 +812,64 @@
         "adult": false
       },
       "uptime": {
-        "24h": 0.0,
-        "30d": 9.3,
-        "90d": 14.63,
-        "1y": 14.63
+        "24h": 100.0,
+        "30d": 98.69,
+        "90d": 98.79,
+        "1y": 98.82
+      }
+    },
+    {
+      "ip": "88.250.238.6",
+      "version": 4,
+      "country_code": "tr",
+      "country": "Turkey",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TurkTelecom",
+      "domain": "88.250.238.6.static.ttnet.com.tr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 86.55,
+        "90d": 93.74,
+        "1y": 93.5
+      }
+    },
+    {
+      "ip": "31.7.36.36",
+      "version": 4,
+      "country_code": "tr",
+      "country": "Turkey",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Nuh Ahmet Firat trading as TEKNET YAZLIM VE BILGISAYAR TEKNOLOJILERI",
+      "domain": "resolve01.tek.net.tr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 76.64,
+        "90d": 83.47,
+        "1y": 86.83
       }
     }
   ]
