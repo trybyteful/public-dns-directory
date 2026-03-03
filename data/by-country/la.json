@@ -4,7 +4,7 @@
     "country_name": "Laos",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-03T06:24:22Z",
+    "generated_at": "2026-03-03T18:12:54Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.22,
-        "90d": 90.09,
-        "1y": 90.09
+        "30d": 99.2,
+        "90d": 90.11,
+        "1y": 90.11
+      }
+    },
+    {
+      "ip": "43.252.244.118",
+      "version": 4,
+      "country_code": "la",
+      "country": "Laos",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Enterprise of Telecommunications Lao",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 85.03,
+        "90d": 87.85,
+        "1y": 88.86
       }
     },
     {
@@ -51,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.88,
-        "90d": 91.01,
-        "1y": 91.86
+        "30d": 96.79,
+        "90d": 90.98,
+        "1y": 91.87
       }
     },
     {
@@ -80,40 +107,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.08,
-        "90d": 65.61,
-        "1y": 68.8
-      }
-    },
-    {
-      "ip": "43.252.244.118",
-      "version": 4,
-      "country_code": "la",
-      "country": "Laos",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Enterprise of Telecommunications Lao",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 85.34,
-        "90d": 87.9,
-        "1y": 88.84
+        "30d": 95.99,
+        "90d": 65.52,
+        "1y": 68.84
       }
     }
   ]

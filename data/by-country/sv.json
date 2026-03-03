@@ -4,19 +4,19 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-03-03T06:24:22Z",
-    "total_servers": 4
+    "generated_at": "2026-03-03T18:12:54Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "201.247.112.236",
+      "ip": "190.86.205.194",
       "version": 4,
       "country_code": "sv",
       "country": "El Salvador",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "LAB. PAILL DIV. DE GRUPO PAILL, S.A. DE C.V",
-      "domain": null,
+      "organization": "Sociedad Cooperativa EX Banco Cuscatlan. De R.L",
+      "domain": "ns1.coopex.com.sv",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 82.72,
-        "90d": 79.11,
-        "1y": 80.59
+        "24h": 100.0,
+        "30d": 77.27,
+        "90d": 78.64,
+        "1y": 83.31
       }
     },
     {
@@ -52,41 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.48,
+        "30d": 99.47,
         "90d": 99.6,
         "1y": 98.47
-      }
-    },
-    {
-      "ip": "190.86.205.194",
-      "version": 4,
-      "country_code": "sv",
-      "country": "El Salvador",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Sociedad Cooperativa EX Banco Cuscatlan. De R.L",
-      "domain": "ns1.coopex.com.sv",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 77.02,
-        "90d": 78.72,
-        "1y": 83.29
       }
     },
     {
@@ -111,8 +84,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.17,
-        "90d": 98.92,
+        "30d": 98.13,
+        "90d": 98.91,
         "1y": 99.11
       }
     }
