@@ -4,7 +4,7 @@
     "country_name": "Kuwait",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-04T06:22:17Z",
+    "generated_at": "2026-03-04T18:10:34Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -29,9 +29,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.37,
-        "90d": 87.09,
+        "24h": 92.86,
+        "30d": 98.36,
+        "90d": 87.02,
         "1y": 87.24
       }
     },
@@ -48,18 +48,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.86,
+        "30d": 98.36,
+        "90d": 97.38,
+        "1y": 97.04
+      }
+    },
+    {
+      "ip": "62.150.232.120",
+      "version": 4,
+      "country_code": "kw",
+      "country": "Kuwait",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Qualitynet Co.",
+      "domain": "xdsl-62-150-232-120.qualitynet.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 97.83,
-        "90d": 96.62,
-        "1y": 97.04
+        "24h": 85.71,
+        "30d": 98.63,
+        "90d": 91.33,
+        "1y": 87.49
       }
     },
     {
@@ -83,37 +110,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 98.92,
-        "90d": 98.13,
-        "1y": 98.66
-      }
-    },
-    {
-      "ip": "62.150.232.120",
-      "version": 4,
-      "country_code": "kw",
-      "country": "Kuwait",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Qualitynet Co.",
-      "domain": "xdsl-62-150-232-120.qualitynet.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
         "24h": 100.0,
-        "30d": 98.92,
-        "90d": 91.46,
-        "1y": 87.53
+        "30d": 98.9,
+        "90d": 98.11,
+        "1y": 98.66
       }
     }
   ]
