@@ -4,8 +4,8 @@
     "country_name": "Iceland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-03T18:12:54Z",
-    "total_servers": 3
+    "generated_at": "2026-03-04T06:22:17Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -25,14 +25,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 85.87,
-        "90d": 88.64,
-        "1y": 88.15
+        "24h": 90.91,
+        "30d": 85.61,
+        "90d": 88.55,
+        "1y": 88.18
+      }
+    },
+    {
+      "ip": "157.157.166.191",
+      "version": 4,
+      "country_code": "is",
+      "country": "Iceland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ICENET",
+      "domain": "157-157-166-191.dsl.dynamic.simnet.is",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 46.77,
+        "90d": 56.93,
+        "1y": 60.1
       }
     },
     {
@@ -56,10 +83,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 96.52,
-        "90d": 97.17,
-        "1y": 97.53
+        "24h": 90.91,
+        "30d": 96.48,
+        "90d": 97.23,
+        "1y": 97.51
       }
     },
     {
@@ -85,8 +112,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 97.73,
-        "1y": 98.39
+        "90d": 97.72,
+        "1y": 98.4
       }
     }
   ]

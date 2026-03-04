@@ -4,8 +4,8 @@
     "country_name": "Sweden",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-03T18:12:54Z",
-    "total_servers": 41
+    "generated_at": "2026-03-04T06:22:17Z",
+    "total_servers": 43
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 90.64,
-        "90d": 91.57,
-        "1y": 91.23
+        "24h": 90.91,
+        "30d": 90.79,
+        "90d": 91.82,
+        "1y": 91.25
       }
     },
     {
@@ -51,7 +51,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -84,9 +84,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.47,
+        "30d": 95.4,
         "90d": 98.69,
-        "1y": 98.84
+        "1y": 98.85
       }
     },
     {
@@ -112,7 +112,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.73,
-        "90d": 99.68,
+        "90d": 99.67,
         "1y": 99.74
       }
     },
@@ -155,18 +155,18 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 97.86,
-        "90d": 97.57,
+        "24h": 100.0,
+        "30d": 97.83,
+        "90d": 97.55,
         "1y": 98.24
       }
     },
@@ -182,18 +182,18 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 91.98,
-        "90d": 83.77,
+        "24h": 81.82,
+        "30d": 92.41,
+        "90d": 83.88,
         "1y": 87.22
       }
     },
@@ -214,12 +214,12 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.47,
+        "30d": 99.46,
         "90d": 99.88,
         "1y": 99.89
       }
@@ -246,73 +246,19 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.33,
-        "90d": 83.28,
-        "1y": 82.48
+        "30d": 97.56,
+        "90d": 83.18,
+        "1y": 82.52
       }
     },
     {
-      "ip": "13.49.107.2",
+      "ip": "80.252.177.227",
       "version": 4,
       "country_code": "se",
       "country": "Sweden",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "AWS EC2 (eu-north-1)",
-      "domain": "ec2-13-49-107-2.eu-north-1.compute.amazonaws.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.96,
-        "1y": 99.94
-      }
-    },
-    {
-      "ip": "130.244.126.99",
-      "version": 4,
-      "country_code": "se",
-      "country": "Sweden",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Tele2 AB",
-      "domain": "firewall.lo.se",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 91.47,
-        "90d": 93.0,
-        "1y": 90.52
-      }
-    },
-    {
-      "ip": "212.105.78.6",
-      "version": 4,
-      "country_code": "se",
-      "country": "Sweden",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Microtec i Laholm AB",
+      "organization": "Availo Networks AB",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -321,53 +267,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.6,
-        "90d": 98.34,
-        "1y": 98.48
+        "30d": 99.46,
+        "90d": 99.76,
+        "1y": 99.77
       }
     },
     {
-      "ip": "212.112.180.131",
+      "ip": "5.180.1.52",
       "version": 4,
       "country_code": "se",
       "country": "Sweden",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Ittrenet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 92.0,
-        "90d": 98.22,
-        "1y": 98.62
-      }
-    },
-    {
-      "ip": "212.247.176.202",
-      "version": 4,
-      "country_code": "se",
-      "country": "Sweden",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Rezidor",
-      "domain": "static-212-247-176-202.cust.tele2.se",
+      "organization": "Teleservice Bredband Skane AB",
+      "domain": "host-5-180-1-52.sydskane.nu",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -377,13 +296,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
+        "24h": 0.0,
+        "30d": 37.88,
+        "90d": 36.95,
+        "1y": 40.79
       }
     },
     {
@@ -403,29 +322,56 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 84.49,
-        "90d": 87.3,
-        "1y": 87.11
+        "24h": 72.73,
+        "30d": 84.01,
+        "90d": 87.14,
+        "1y": 87.05
       }
     },
     {
-      "ip": "192.165.9.158",
+      "ip": "13.49.107.2",
       "version": 4,
       "country_code": "se",
       "country": "Sweden",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Yelles AB",
-      "domain": "dns02.prd.tallberg.ovpn.com",
+      "organization": "AWS EC2 (eu-north-1)",
+      "domain": "ec2-13-49-107-2.eu-north-1.compute.amazonaws.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.96,
+        "1y": 99.94
+      }
+    },
+    {
+      "ip": "212.105.78.3",
+      "version": 4,
+      "country_code": "se",
+      "country": "Sweden",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Microtec i Laholm AB",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -435,105 +381,24 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.45,
-        "90d": 98.18,
-        "1y": 98.45
+        "30d": 97.83,
+        "90d": 97.76,
+        "1y": 97.94
       }
     },
     {
-      "ip": "84.243.56.254",
+      "ip": "212.105.78.7",
       "version": 4,
       "country_code": "se",
       "country": "Sweden",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Treffo AB",
-      "domain": "static-254-56-243-84.bredbandsson.se",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 82.35,
-        "90d": 87.73,
-        "1y": 90.49
-      }
-    },
-    {
-      "ip": "195.216.58.16",
-      "version": 4,
-      "country_code": "se",
-      "country": "Sweden",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Thalamus Operations AB",
+      "organization": "Microtec i Laholm AB",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 89.3,
-        "90d": 84.26,
-        "1y": 87.54
-      }
-    },
-    {
-      "ip": "79.136.81.112",
-      "version": 4,
-      "country_code": "se",
-      "country": "Sweden",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "General Corporate NET A463",
-      "domain": "h-79-136-81-112.a463.corp.bahnhof.se",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
         "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 67.99,
-        "90d": 65.43,
-        "1y": 66.71
-      }
-    },
-    {
-      "ip": "195.189.24.132",
-      "version": 4,
-      "country_code": "se",
-      "country": "Sweden",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Transfer Networks Sweden AB",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -542,21 +407,48 @@
         "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 96.0,
-        "90d": 96.0,
-        "1y": 96.0
+        "24h": 100.0,
+        "30d": 97.83,
+        "90d": 97.93,
+        "1y": 98.05
       }
     },
     {
-      "ip": "89.32.32.32",
+      "ip": "212.247.102.181",
       "version": 4,
       "country_code": "se",
       "country": "Sweden",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Sunet Testbed",
-      "domain": "reslover.sunet.se",
+      "organization": "Andante AB",
+      "domain": "ns1.sindas.se",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.83,
+        "90d": 99.15,
+        "1y": 99.14
+      }
+    },
+    {
+      "ip": "212.247.176.202",
+      "version": 4,
+      "country_code": "se",
+      "country": "Sweden",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Rezidor",
+      "domain": "static-212-247-176-202.cust.tele2.se",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -576,14 +468,14 @@
       }
     },
     {
-      "ip": "212.247.102.181",
+      "ip": "217.119.160.99",
       "version": 4,
       "country_code": "se",
       "country": "Sweden",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Andante AB",
-      "domain": "ns1.sindas.se",
+      "organization": "Uniqlo Europe LTD",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -593,28 +485,55 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 97.87,
-        "90d": 99.15,
-        "1y": 99.14
+        "24h": 81.82,
+        "30d": 86.18,
+        "90d": 88.44,
+        "1y": 90.49
       }
     },
     {
-      "ip": "212.105.78.7",
+      "ip": "85.30.24.11",
       "version": 4,
       "country_code": "se",
       "country": "Sweden",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Microtec i Laholm AB",
-      "domain": null,
+      "organization": "Bredband2 AB",
+      "domain": "h85-30-24-11.cust.bredband2.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 45.45,
+        "30d": 93.5,
+        "90d": 92.19,
+        "1y": 89.93
+      }
+    },
+    {
+      "ip": "95.215.19.53",
+      "version": 4,
+      "country_code": "se",
+      "country": "Sweden",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ab stract ltd",
+      "domain": "dns.njal.la",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -624,36 +543,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.6,
-        "90d": 97.94,
-        "1y": 98.05
-      }
-    },
-    {
-      "ip": "212.105.78.3",
-      "version": 4,
-      "country_code": "se",
-      "country": "Sweden",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Microtec i Laholm AB",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.6,
-        "90d": 97.74,
-        "1y": 97.93
+        "30d": 97.56,
+        "90d": 99.51,
+        "1y": 99.57
       }
     },
     {
@@ -684,14 +576,365 @@
       }
     },
     {
-      "ip": "81.94.65.196",
+      "ip": "87.237.212.36",
       "version": 4,
       "country_code": "se",
       "country": "Sweden",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Soderhamn NARA AB",
-      "domain": "196-65.soderhamn.com",
+      "organization": "FSD Internet Tjanster AB",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.46,
+        "90d": 99.51,
+        "1y": 99.63
+      }
+    },
+    {
+      "ip": "212.112.180.131",
+      "version": 4,
+      "country_code": "se",
+      "country": "Sweden",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Ittrenet",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.39,
+        "90d": 98.21,
+        "1y": 98.62
+      }
+    },
+    {
+      "ip": "195.216.58.16",
+      "version": 4,
+      "country_code": "se",
+      "country": "Sweden",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Thalamus Operations AB",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 89.43,
+        "90d": 84.32,
+        "1y": 87.51
+      }
+    },
+    {
+      "ip": "195.189.24.132",
+      "version": 4,
+      "country_code": "se",
+      "country": "Sweden",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Transfer Networks Sweden AB",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 96.97,
+        "90d": 96.97,
+        "1y": 96.97
+      }
+    },
+    {
+      "ip": "91.190.142.200",
+      "version": 4,
+      "country_code": "se",
+      "country": "Sweden",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Kustbandet AB",
+      "domain": "200.142.190.91.in-addr.arpa",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 54.55,
+        "30d": 61.85,
+        "90d": 68.45,
+        "1y": 64.15
+      }
+    },
+    {
+      "ip": "81.94.164.237",
+      "version": 4,
+      "country_code": "se",
+      "country": "Sweden",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Visolit99 Network",
+      "domain": "81-94-164-237.customer.itmastaren.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 81.82,
+        "30d": 94.58,
+        "90d": 95.85,
+        "1y": 95.59
+      }
+    },
+    {
+      "ip": "84.243.56.254",
+      "version": 4,
+      "country_code": "se",
+      "country": "Sweden",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Treffo AB",
+      "domain": "static-254-56-243-84.bredbandsson.se",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 63.64,
+        "30d": 82.38,
+        "90d": 87.62,
+        "1y": 90.46
+      }
+    },
+    {
+      "ip": "62.20.83.209",
+      "version": 4,
+      "country_code": "se",
+      "country": "Sweden",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "KLTK Fastighets AB",
+      "domain": "62-20-83-209.customer.telia.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 45.45,
+        "30d": 62.33,
+        "90d": 69.74,
+        "1y": 72.29
+      }
+    },
+    {
+      "ip": "5.254.197.224",
+      "version": 4,
+      "country_code": "se",
+      "country": "Sweden",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Net1 Sverige AB",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 45.45,
+        "30d": 83.74,
+        "90d": 81.73,
+        "1y": 83.64
+      }
+    },
+    {
+      "ip": "89.32.32.32",
+      "version": 4,
+      "country_code": "se",
+      "country": "Sweden",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Sunet Testbed",
+      "domain": "reslover.sunet.se",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
+      }
+    },
+    {
+      "ip": "212.105.78.6",
+      "version": 4,
+      "country_code": "se",
+      "country": "Sweden",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Microtec i Laholm AB",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.83,
+        "90d": 98.33,
+        "1y": 98.48
+      }
+    },
+    {
+      "ip": "77.53.35.136",
+      "version": 4,
+      "country_code": "se",
+      "country": "Sweden",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Bredband2",
+      "domain": "h77-53-35-136.cust.bredband2.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 81.82,
+        "30d": 97.56,
+        "90d": 94.58,
+        "1y": 93.09
+      }
+    },
+    {
+      "ip": "213.115.174.71",
+      "version": 4,
+      "country_code": "se",
+      "country": "Sweden",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Sakerhetsintegrering I Tyreso AB",
+      "domain": "aptus.sakerhetsintegrering.se",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 54.55,
+        "30d": 80.76,
+        "90d": 92.88,
+        "1y": 91.77
+      }
+    },
+    {
+      "ip": "194.68.95.4",
+      "version": 4,
+      "country_code": "se",
+      "country": "Sweden",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "H2 Data AB",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -705,9 +948,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.11,
-        "90d": 86.3,
-        "1y": 88.43
+        "30d": 91.06,
+        "90d": 93.24,
+        "1y": 94.21
       }
     },
     {
@@ -731,10 +974,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 26.67,
-        "90d": 62.47,
-        "1y": 56.25
+        "24h": 63.64,
+        "30d": 37.84,
+        "90d": 60.7,
+        "1y": 56.54
+      }
+    },
+    {
+      "ip": "192.165.9.158",
+      "version": 4,
+      "country_code": "se",
+      "country": "Sweden",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Yelles AB",
+      "domain": "dns02.prd.tallberg.ovpn.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.39,
+        "90d": 98.17,
+        "1y": 98.45
       }
     },
     {
@@ -765,33 +1035,6 @@
       }
     },
     {
-      "ip": "213.115.174.71",
-      "version": 4,
-      "country_code": "se",
-      "country": "Sweden",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Sakerhetsintegrering I Tyreso AB",
-      "domain": "aptus.sakerhetsintegrering.se",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 81.6,
-        "90d": 93.01,
-        "1y": 91.87
-      }
-    },
-    {
       "ip": "192.165.252.20",
       "version": 4,
       "country_code": "se",
@@ -812,10 +1055,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 88.77,
-        "90d": 88.67,
-        "1y": 90.98
+        "24h": 72.73,
+        "30d": 87.8,
+        "90d": 88.73,
+        "1y": 90.92
       }
     },
     {
@@ -834,8 +1077,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -858,7 +1101,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -866,37 +1109,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 61.5,
-        "90d": 64.97,
-        "1y": 65.39
-      }
-    },
-    {
-      "ip": "194.68.95.4",
-      "version": 4,
-      "country_code": "se",
-      "country": "Sweden",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "H2 Data AB",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 91.18,
-        "90d": 93.28,
-        "1y": 94.2
+        "24h": 45.45,
+        "30d": 61.52,
+        "90d": 65.0,
+        "1y": 65.36
       }
     },
     {
@@ -915,161 +1131,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 72.99,
-        "90d": 61.17,
-        "1y": 67.32
-      }
-    },
-    {
-      "ip": "77.53.35.136",
-      "version": 4,
-      "country_code": "se",
-      "country": "Sweden",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Bredband2",
-      "domain": "h77-53-35-136.cust.bredband2.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.13,
-        "90d": 94.5,
-        "1y": 93.14
+        "24h": 36.36,
+        "30d": 71.82,
+        "90d": 61.05,
+        "1y": 67.25
       }
     },
     {
-      "ip": "80.252.177.227",
+      "ip": "130.244.126.99",
       "version": 4,
       "country_code": "se",
       "country": "Sweden",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Availo Networks AB",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.47,
-        "90d": 99.76,
-        "1y": 99.77
-      }
-    },
-    {
-      "ip": "87.237.212.36",
-      "version": 4,
-      "country_code": "se",
-      "country": "Sweden",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "FSD Internet Tjanster AB",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.47,
-        "90d": 99.51,
-        "1y": 99.63
-      }
-    },
-    {
-      "ip": "95.215.19.53",
-      "version": 4,
-      "country_code": "se",
-      "country": "Sweden",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ab stract ltd",
-      "domain": "dns.njal.la",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.6,
-        "90d": 99.51,
-        "1y": 99.57
-      }
-    },
-    {
-      "ip": "109.74.10.220",
-      "version": 4,
-      "country_code": "se",
-      "country": "Sweden",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Customer VPS services",
-      "domain": "109-74-10-220-static.serverhotell.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 80.43,
-        "90d": 53.56,
-        "1y": 56.53
-      }
-    },
-    {
-      "ip": "62.20.83.209",
-      "version": 4,
-      "country_code": "se",
-      "country": "Sweden",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "KLTK Fastighets AB",
-      "domain": "62-20-83-209.customer.telia.com",
+      "organization": "Tele2 AB",
+      "domain": "firewall.lo.se",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1078,41 +1159,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 62.57,
-        "90d": 70.13,
-        "1y": 72.37
-      }
-    },
-    {
-      "ip": "217.119.160.99",
-      "version": 4,
-      "country_code": "se",
-      "country": "Sweden",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Uniqlo Europe LTD",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 85.83,
-        "90d": 88.3,
-        "1y": 90.47
+        "24h": 100.0,
+        "30d": 91.33,
+        "90d": 92.96,
+        "1y": 90.54
       }
     }
   ]
