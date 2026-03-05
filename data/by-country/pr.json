@@ -4,8 +4,8 @@
     "country_name": "Puerto Rico",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-03-04T18:10:34Z",
-    "total_servers": 4
+    "generated_at": "2026-03-05T06:24:16Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -25,13 +25,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 98.08,
-        "90d": 97.75,
+        "24h": 100.0,
+        "30d": 98.05,
+        "90d": 97.73,
         "1y": 98.03
       }
     },
@@ -51,15 +51,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 78.57,
-        "30d": 86.3,
-        "90d": 82.56,
-        "1y": 86.87
+        "24h": 100.0,
+        "30d": 86.11,
+        "90d": 82.45,
+        "1y": 86.9
+      }
+    },
+    {
+      "ip": "74.85.157.195",
+      "version": 4,
+      "country_code": "pr",
+      "country": "Puerto Rico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Fuse Telecom LLC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 53.85,
+        "30d": 59.61,
+        "90d": 60.73,
+        "1y": 68.12
       }
     },
     {
@@ -79,29 +106,56 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 92.88,
-        "90d": 95.21,
-        "1y": 93.94
+        "24h": 92.31,
+        "30d": 92.76,
+        "90d": 95.18,
+        "1y": 93.95
       }
     },
     {
-      "ip": "198.52.242.90",
+      "ip": "38.50.64.81",
       "version": 4,
       "country_code": "pr",
       "country": "Puerto Rico",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "FIREFI LLC",
+      "organization": "Aeronet Broadband",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 15.79,
+        "90d": 2.31,
+        "1y": 58.02
+      }
+    },
+    {
+      "ip": "38.50.64.189",
+      "version": 4,
+      "country_code": "pr",
+      "country": "Puerto Rico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Aeronet Broadband",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
         "validating": true
       },
       "blocking": {
@@ -110,10 +164,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 64.01,
-        "90d": 49.3,
-        "1y": 43.92
+        "24h": 92.31,
+        "30d": 92.39,
+        "90d": 92.39,
+        "1y": 92.39
       }
     }
   ]
