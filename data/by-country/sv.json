@@ -4,7 +4,7 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-03-05T06:24:16Z",
+    "generated_at": "2026-03-05T18:33:18Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 76.92,
-        "30d": 82.17,
+        "30d": 82.54,
         "90d": 79.32,
         "1y": 80.57
+      }
+    },
+    {
+      "ip": "200.85.7.28",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Telemovil El Salvador S.A",
+      "domain": "ftp.grupotropigas.com.sv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.15,
+        "90d": 99.54,
+        "1y": 98.45
       }
     },
     {
@@ -53,13 +80,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 76.92,
-        "30d": 76.88,
-        "90d": 79.85,
-        "1y": 83.28
+        "24h": 84.62,
+        "30d": 76.9,
+        "90d": 80.52,
+        "1y": 83.3
       }
     },
     {
@@ -83,37 +110,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 98.33,
-        "90d": 98.85,
+        "24h": 100.0,
+        "30d": 98.31,
+        "90d": 98.88,
         "1y": 99.09
-      }
-    },
-    {
-      "ip": "200.85.7.28",
-      "version": 4,
-      "country_code": "sv",
-      "country": "El Salvador",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Telemovil El Salvador S.A",
-      "domain": "ftp.grupotropigas.com.sv",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 92.31,
-        "30d": 99.16,
-        "90d": 99.55,
-        "1y": 98.45
       }
     }
   ]
