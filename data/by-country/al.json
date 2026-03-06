@@ -4,8 +4,8 @@
     "country_name": "Albania",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-06T06:22:44Z",
-    "total_servers": 5
+    "generated_at": "2026-03-06T18:09:15Z",
+    "total_servers": 8
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 76.92,
-        "30d": 76.35,
-        "90d": 71.68,
-        "1y": 65.96
+        "24h": 69.23,
+        "30d": 77.08,
+        "90d": 71.66,
+        "1y": 65.88
       }
     },
     {
@@ -52,24 +52,24 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.44,
-        "90d": 93.95,
-        "1y": 93.62
+        "30d": 97.42,
+        "90d": 93.93,
+        "1y": 93.63
       }
     },
     {
-      "ip": "146.0.23.67",
+      "ip": "213.207.46.220",
       "version": 4,
       "country_code": "al",
       "country": "Albania",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "ITCOM PPPoE bussiness",
+      "organization": "Tibo Communications",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -83,10 +83,64 @@
         "adult": true
       },
       "uptime": {
-        "24h": 76.92,
-        "30d": 68.09,
-        "90d": 73.31,
-        "1y": 73.41
+        "24h": 46.15,
+        "30d": 37.54,
+        "90d": 47.2,
+        "1y": 50.39
+      }
+    },
+    {
+      "ip": "82.114.67.150",
+      "version": 4,
+      "country_code": "al",
+      "country": "Albania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "AlbaQeramika",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 84.62,
+        "30d": 71.35,
+        "90d": 54.25,
+        "1y": 61.63
+      }
+    },
+    {
+      "ip": "185.248.172.8",
+      "version": 4,
+      "country_code": "al",
+      "country": "Albania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ATI KOS P0",
+      "domain": "ns2.ati-kos.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 38.46,
+        "30d": 91.4,
+        "90d": 96.44,
+        "1y": 96.79
       }
     },
     {
@@ -111,25 +165,25 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 86.32,
-        "90d": 66.53,
-        "1y": 76.34
+        "30d": 87.97,
+        "90d": 66.39,
+        "1y": 76.37
       }
     },
     {
-      "ip": "82.114.67.150",
+      "ip": "84.22.43.113",
       "version": 4,
       "country_code": "al",
       "country": "Albania",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "AlbaQeramika",
+      "organization": "Artmotion",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -137,10 +191,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 70.66,
-        "90d": 54.38,
-        "1y": 61.62
+        "24h": 23.08,
+        "30d": 47.15,
+        "90d": 52.8,
+        "1y": 57.8
+      }
+    },
+    {
+      "ip": "146.0.23.67",
+      "version": 4,
+      "country_code": "al",
+      "country": "Albania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ITCOM PPPoE bussiness",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 61.54,
+        "30d": 68.48,
+        "90d": 73.25,
+        "1y": 73.39
       }
     }
   ]

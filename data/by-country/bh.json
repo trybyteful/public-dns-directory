@@ -4,35 +4,35 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-06T06:22:44Z",
-    "total_servers": 2
+    "generated_at": "2026-03-06T18:09:15Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "157.175.242.142",
+      "ip": "84.255.173.210",
       "version": 4,
       "country_code": "bh",
       "country": "Bahrain",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "AWS EC2 (me-south-1)",
-      "domain": "ec2-157-175-242-142.me-south-1.compute.amazonaws.com",
+      "organization": "Bahrain Telcommunication Company",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 97.15,
-        "90d": 98.58,
-        "1y": 97.07
+        "24h": 53.85,
+        "30d": 40.52,
+        "90d": 43.2,
+        "1y": 47.25
       }
     },
     {
@@ -57,9 +57,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.73,
-        "90d": 98.25,
+        "30d": 95.99,
+        "90d": 98.24,
         "1y": 98.69
+      }
+    },
+    {
+      "ip": "157.175.242.142",
+      "version": 4,
+      "country_code": "bh",
+      "country": "Bahrain",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "AWS EC2 (me-south-1)",
+      "domain": "ec2-157-175-242-142.me-south-1.compute.amazonaws.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.13,
+        "90d": 98.62,
+        "1y": 97.07
       }
     }
   ]
