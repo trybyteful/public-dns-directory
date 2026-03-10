@@ -4,35 +4,35 @@
     "country_name": "Mauritania",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-03-09T18:12:56Z",
+    "generated_at": "2026-03-10T06:22:53Z",
     "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "82.151.90.1",
+      "ip": "41.138.133.123",
       "version": 4,
       "country_code": "mr",
       "country": "Mauritania",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Mauritel Network",
-      "domain": "bow.mauritel.mr",
+      "organization": "Chinguitel SA",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.56,
-        "90d": 97.7,
-        "1y": 98.35
+        "30d": 62.46,
+        "90d": 82.24,
+        "1y": 87.76
       }
     },
     {
@@ -63,30 +63,30 @@
       }
     },
     {
-      "ip": "41.138.133.123",
+      "ip": "82.151.90.1",
       "version": 4,
       "country_code": "mr",
       "country": "Mauritania",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Chinguitel SA",
-      "domain": null,
+      "organization": "Mauritel Network",
+      "domain": "bow.mauritel.mr",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "ads": true,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 62.46,
-        "90d": 82.24,
-        "1y": 87.76
+        "30d": 94.56,
+        "90d": 97.7,
+        "1y": 98.35
       }
     }
   ]

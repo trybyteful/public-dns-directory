@@ -4,35 +4,35 @@
     "country_name": "Iceland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-09T18:12:56Z",
+    "generated_at": "2026-03-10T06:22:53Z",
     "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "157.157.166.191",
+      "ip": "82.148.69.71",
       "version": 4,
       "country_code": "is",
       "country": "Iceland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "ICENET",
-      "domain": "157-157-166-191.dsl.dynamic.simnet.is",
+      "organization": "Fsnet",
+      "domain": "kvenno-7.fsnet.is",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 84.62,
-        "30d": 48.2,
-        "90d": 58.33,
-        "1y": 60.29
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 98.2,
+        "1y": 98.41
       }
     },
     {
@@ -63,30 +63,30 @@
       }
     },
     {
-      "ip": "82.148.69.71",
+      "ip": "157.157.166.191",
       "version": 4,
       "country_code": "is",
       "country": "Iceland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Fsnet",
-      "domain": "kvenno-7.fsnet.is",
+      "organization": "ICENET",
+      "domain": "157-157-166-191.dsl.dynamic.simnet.is",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 98.2,
-        "1y": 98.41
+        "24h": 84.62,
+        "30d": 48.2,
+        "90d": 58.33,
+        "1y": 60.29
       }
     }
   ]
