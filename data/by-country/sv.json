@@ -4,10 +4,37 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-03-11T06:24:19Z",
-    "total_servers": 4
+    "generated_at": "2026-03-11T18:14:12Z",
+    "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "168.243.48.33",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "SVNet",
+      "domain": "distributions.telecam.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.07,
+        "90d": 98.76,
+        "1y": 99.09
+      }
+    },
     {
       "ip": "200.85.7.28",
       "version": 4,
@@ -30,8 +57,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.14,
-        "90d": 99.58,
+        "30d": 98.84,
+        "90d": 99.63,
         "1y": 98.46
       }
     },
@@ -43,7 +70,7 @@
       "continent_code": "na",
       "continent": "North America",
       "organization": "Sociedad Cooperativa EX Banco Cuscatlan. De R.L",
-      "domain": "ns1.coopex.com.sv",
+      "domain": "mail.coopex.com.sv",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -51,69 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 84.62,
-        "30d": 76.79,
-        "90d": 81.51,
-        "1y": 83.3
-      }
-    },
-    {
-      "ip": "168.243.48.33",
-      "version": 4,
-      "country_code": "sv",
-      "country": "El Salvador",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "SVNet",
-      "domain": "ns.symtek.com.sv",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
         "24h": 100.0,
-        "30d": 98.28,
-        "90d": 98.87,
-        "1y": 99.09
-      }
-    },
-    {
-      "ip": "201.247.112.236",
-      "version": 4,
-      "country_code": "sv",
-      "country": "El Salvador",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "LAB. PAILL DIV. DE GRUPO PAILL, S.A. DE C.V",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 84.62,
-        "30d": 83.38,
-        "90d": 79.57,
-        "1y": 80.6
+        "30d": 77.52,
+        "90d": 81.4,
+        "1y": 83.32
       }
     }
   ]

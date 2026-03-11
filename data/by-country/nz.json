@@ -4,35 +4,35 @@
     "country_name": "New Zealand",
     "continent_code": "oc",
     "continent_name": "Oceania",
-    "generated_at": "2026-03-11T06:24:19Z",
-    "total_servers": 3
+    "generated_at": "2026-03-11T18:14:12Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
-      "ip": "203.173.163.89",
+      "ip": "103.18.138.20",
       "version": 4,
       "country_code": "nz",
       "country": "New Zealand",
       "continent_code": "oc",
       "continent": "Oceania",
-      "organization": "VFNZ-DSL",
-      "domain": "203-173-163-89.static.ihug.co.nz",
+      "organization": "The Virus Centre Network",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.69,
-        "90d": 96.69,
-        "1y": 97.39
+        "30d": 98.45,
+        "90d": 93.61,
+        "1y": 95.75
       }
     },
     {
@@ -52,41 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 92.31,
-        "30d": 88.54,
-        "90d": 84.97,
-        "1y": 86.92
-      }
-    },
-    {
-      "ip": "103.18.138.20",
-      "version": 4,
-      "country_code": "nz",
-      "country": "New Zealand",
-      "continent_code": "oc",
-      "continent": "Oceania",
-      "organization": "The Virus Centre Network",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.28,
-        "90d": 94.1,
-        "1y": 95.74
+        "30d": 87.64,
+        "90d": 84.05,
+        "1y": 86.94
       }
     }
   ]
