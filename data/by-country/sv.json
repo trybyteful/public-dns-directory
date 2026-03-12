@@ -4,35 +4,35 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-03-11T18:14:12Z",
+    "generated_at": "2026-03-12T06:25:33Z",
     "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "168.243.48.33",
+      "ip": "190.86.205.194",
       "version": 4,
       "country_code": "sv",
       "country": "El Salvador",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "SVNet",
-      "domain": "distributions.telecam.net",
+      "organization": "Sociedad Cooperativa EX Banco Cuscatlan. De R.L",
+      "domain": "mail.coopex.com.sv",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.07,
-        "90d": 98.76,
-        "1y": 99.09
+        "30d": 78.79,
+        "90d": 81.39,
+        "1y": 83.38
       }
     },
     {
@@ -52,25 +52,25 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.84,
+        "30d": 98.86,
         "90d": 99.63,
-        "1y": 98.46
+        "1y": 98.47
       }
     },
     {
-      "ip": "190.86.205.194",
+      "ip": "168.243.48.33",
       "version": 4,
       "country_code": "sv",
       "country": "El Salvador",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "Sociedad Cooperativa EX Banco Cuscatlan. De R.L",
-      "domain": "mail.coopex.com.sv",
+      "organization": "SVNet",
+      "domain": "distributions.telecam.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 77.52,
-        "90d": 81.4,
-        "1y": 83.32
+        "30d": 98.11,
+        "90d": 98.75,
+        "1y": 99.1
       }
     }
   ]

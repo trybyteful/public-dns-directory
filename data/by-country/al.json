@@ -4,37 +4,10 @@
     "country_name": "Albania",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-11T18:14:12Z",
+    "generated_at": "2026-03-12T06:25:33Z",
     "total_servers": 5
   },
   "resolvers": [
-    {
-      "ip": "146.0.23.67",
-      "version": 4,
-      "country_code": "al",
-      "country": "Albania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ITCOM PPPoE bussiness",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 72.59,
-        "90d": 73.3,
-        "1y": 73.43
-      }
-    },
     {
       "ip": "82.114.67.150",
       "version": 4,
@@ -52,25 +25,25 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 78.76,
-        "90d": 52.57,
-        "1y": 61.68
+        "24h": 73.33,
+        "30d": 77.65,
+        "90d": 52.59,
+        "1y": 61.69
       }
     },
     {
-      "ip": "85.209.248.3",
+      "ip": "84.20.67.66",
       "version": 4,
       "country_code": "al",
       "country": "Albania",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Complete Shimaj",
-      "domain": null,
+      "organization": "ProNet Albania",
+      "domain": "66.67.20.84.in-addr.arpa",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -78,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 80.31,
-        "90d": 72.89,
-        "1y": 65.97
+        "24h": 100.0,
+        "30d": 98.48,
+        "90d": 93.35,
+        "1y": 93.66
+      }
+    },
+    {
+      "ip": "146.0.23.67",
+      "version": 4,
+      "country_code": "al",
+      "country": "Albania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ITCOM PPPoE bussiness",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 86.67,
+        "30d": 73.11,
+        "90d": 73.27,
+        "1y": 73.45
       }
     },
     {
@@ -111,20 +111,20 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 86.87,
-        "90d": 63.3,
-        "1y": 76.4
+        "30d": 87.07,
+        "90d": 63.11,
+        "1y": 76.48
       }
     },
     {
-      "ip": "84.20.67.66",
+      "ip": "85.209.248.3",
       "version": 4,
       "country_code": "al",
       "country": "Albania",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "ProNet Albania",
-      "domain": "66.67.20.84.in-addr.arpa",
+      "organization": "Complete Shimaj",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -133,14 +133,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.46,
-        "90d": 93.38,
-        "1y": 93.64
+        "24h": 93.33,
+        "30d": 81.06,
+        "90d": 73.49,
+        "1y": 66.42
       }
     }
   ]

@@ -4,10 +4,64 @@
     "country_name": "Uzbekistan",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-11T18:14:12Z",
-    "total_servers": 14
+    "generated_at": "2026-03-12T06:25:33Z",
+    "total_servers": 16
   },
   "resolvers": [
+    {
+      "ip": "213.230.111.191",
+      "version": 4,
+      "country_code": "uz",
+      "country": "Uzbekistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Uztelecom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 70.83,
+        "90d": 52.3,
+        "1y": 63.22
+      }
+    },
+    {
+      "ip": "213.230.90.54",
+      "version": 4,
+      "country_code": "uz",
+      "country": "Uzbekistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Uztelecom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 49.24,
+        "90d": 40.66,
+        "1y": 38.24
+      }
+    },
     {
       "ip": "91.90.216.190",
       "version": 4,
@@ -24,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 67.57,
-        "90d": 41.91,
-        "1y": 48.09
+        "24h": 87.5,
+        "30d": 68.56,
+        "90d": 41.96,
+        "1y": 48.22
       }
     },
     {
@@ -51,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.63,
-        "1y": 99.4
+        "90d": 99.68,
+        "1y": 99.41
       }
     },
     {
@@ -80,12 +134,12 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.68,
+        "90d": 99.72,
         "1y": 99.63
       }
     },
@@ -111,9 +165,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.06,
-        "90d": 98.33,
-        "1y": 94.99
+        "30d": 91.25,
+        "90d": 98.32,
+        "1y": 95.0
       }
     },
     {
@@ -129,7 +183,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -137,10 +191,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 90.35,
-        "90d": 93.7,
-        "1y": 91.89
+        "24h": 73.33,
+        "30d": 89.39,
+        "90d": 93.54,
+        "1y": 91.82
       }
     },
     {
@@ -160,14 +214,41 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 93.33,
+        "30d": 85.93,
+        "90d": 89.2,
+        "1y": 91.66
+      }
+    },
+    {
+      "ip": "89.104.102.252",
+      "version": 4,
+      "country_code": "uz",
+      "country": "Uzbekistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "\"Uzbektelekom\" Joint Stock Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 85.71,
-        "90d": 89.21,
-        "1y": 91.63
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.63,
+        "1y": 99.29
       }
     },
     {
@@ -191,10 +272,145 @@
         "adult": true
       },
       "uptime": {
+        "24h": 60.0,
+        "30d": 45.33,
+        "90d": 87.92,
+        "1y": 86.86
+      }
+    },
+    {
+      "ip": "84.54.64.35",
+      "version": 4,
+      "country_code": "uz",
+      "country": "Uzbekistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "JSC 28A Navoi str.",
+      "domain": "ns3.uzpak.uz",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
         "24h": 100.0,
-        "30d": 44.29,
-        "90d": 88.28,
-        "1y": 87.0
+        "30d": 100.0,
+        "90d": 99.95,
+        "1y": 99.97
+      }
+    },
+    {
+      "ip": "84.54.115.248",
+      "version": 4,
+      "country_code": "uz",
+      "country": "Uzbekistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Uztelecom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 73.33,
+        "30d": 79.25,
+        "90d": 49.09,
+        "1y": 57.26
+      }
+    },
+    {
+      "ip": "89.236.235.54",
+      "version": 4,
+      "country_code": "uz",
+      "country": "Uzbekistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "\"IST TELEKOM\" JV LLC",
+      "domain": "89.236.235.54.ip.tps.uz",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.86,
+        "90d": 97.48,
+        "1y": 97.7
+      }
+    },
+    {
+      "ip": "195.158.0.3",
+      "version": 4,
+      "country_code": "uz",
+      "country": "Uzbekistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Uztelecom",
+      "domain": "ns1.uzpak.uz",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.95,
+        "1y": 95.08
+      }
+    },
+    {
+      "ip": "213.230.67.186",
+      "version": 4,
+      "country_code": "uz",
+      "country": "Uzbekistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Uztelecom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.86,
+        "90d": 99.63,
+        "1y": 99.32
       }
     },
     {
@@ -221,169 +437,7 @@
         "24h": 100.0,
         "30d": 100.0,
         "90d": 99.86,
-        "1y": 99.91
-      }
-    },
-    {
-      "ip": "84.54.64.35",
-      "version": 4,
-      "country_code": "uz",
-      "country": "Uzbekistan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "JSC 28A Navoi str.",
-      "domain": "ns3.uzpak.uz",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.95,
-        "1y": 99.97
-      }
-    },
-    {
-      "ip": "217.30.163.159",
-      "version": 4,
-      "country_code": "uz",
-      "country": "Uzbekistan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "\"IST TELEKOM\" JV LLC",
-      "domain": "217.30.163.159.static.ip.etc.uz",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 81.47,
-        "90d": 85.94,
-        "1y": 88.12
-      }
-    },
-    {
-      "ip": "195.158.0.3",
-      "version": 4,
-      "country_code": "uz",
-      "country": "Uzbekistan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Uztelecom",
-      "domain": "ns1.uzpak.uz",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.95,
-        "1y": 95.06
-      }
-    },
-    {
-      "ip": "89.104.102.252",
-      "version": 4,
-      "country_code": "uz",
-      "country": "Uzbekistan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "\"Uzbektelekom\" Joint Stock Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.63,
-        "1y": 99.29
-      }
-    },
-    {
-      "ip": "213.230.67.186",
-      "version": 4,
-      "country_code": "uz",
-      "country": "Uzbekistan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Uztelecom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.84,
-        "90d": 99.63,
-        "1y": 99.32
-      }
-    },
-    {
-      "ip": "89.236.235.54",
-      "version": 4,
-      "country_code": "uz",
-      "country": "Uzbekistan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "\"IST TELEKOM\" JV LLC",
-      "domain": "89.236.235.54.ip.tps.uz",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.84,
-        "90d": 97.5,
-        "1y": 97.69
+        "1y": 99.92
       }
     }
   ]

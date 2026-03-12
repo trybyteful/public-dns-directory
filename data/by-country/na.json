@@ -4,7 +4,7 @@
     "country_name": "Namibia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-03-11T18:14:12Z",
+    "generated_at": "2026-03-12T06:25:33Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -30,9 +30,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 77.54,
-        "90d": 83.09,
-        "1y": 86.38
+        "30d": 78.75,
+        "90d": 83.01,
+        "1y": 86.43
       }
     },
     {
@@ -48,45 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.19,
+        "30d": 89.77,
         "90d": 91.13,
-        "1y": 93.62
-      }
-    },
-    {
-      "ip": "41.218.90.154",
-      "version": 4,
-      "country_code": "na",
-      "country": "Namibia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Paratus Regional - Namibia",
-      "domain": "ns1.methealth.com.na",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 94.59,
-        "90d": 97.15,
-        "1y": 97.76
+        "1y": 93.64
       }
     },
     {
@@ -105,15 +78,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 54.17,
-        "90d": 58.92,
-        "1y": 62.41
+        "30d": 55.84,
+        "90d": 58.96,
+        "1y": 62.53
+      }
+    },
+    {
+      "ip": "41.218.90.154",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Paratus Regional - Namibia",
+      "domain": "ns1.methealth.com.na",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.7,
+        "90d": 97.14,
+        "1y": 97.77
       }
     }
   ]
