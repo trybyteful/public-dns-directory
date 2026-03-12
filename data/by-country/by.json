@@ -4,10 +4,37 @@
     "country_name": "Belarus",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-12T06:25:33Z",
-    "total_servers": 15
+    "generated_at": "2026-03-12T18:14:07Z",
+    "total_servers": 12
   },
   "resolvers": [
+    {
+      "ip": "82.209.206.124",
+      "version": 4,
+      "country_code": "by",
+      "country": "Belarus",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Vitebsk Byfly",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 98.5
+      }
+    },
     {
       "ip": "194.158.218.229",
       "version": 4,
@@ -24,15 +51,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 97.79,
-        "1y": 98.06
+        "90d": 97.78,
+        "1y": 98.07
+      }
+    },
+    {
+      "ip": "93.85.92.173",
+      "version": 4,
+      "country_code": "by",
+      "country": "Belarus",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Biznescentrstolitsa Minsk",
+      "domain": "mm-173-92-85-93.static.mgts.by",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 82.61,
+        "30d": 94.44,
+        "90d": 60.07,
+        "1y": 58.9
       }
     },
     {
@@ -51,26 +105,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 93.78,
-        "90d": 59.07,
-        "1y": 57.04
+        "24h": 78.26,
+        "30d": 93.25,
+        "90d": 59.95,
+        "1y": 57.13
       }
     },
     {
-      "ip": "93.125.10.123",
+      "ip": "86.57.242.164",
       "version": 4,
       "country_code": "by",
       "country": "Belarus",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Unitary enterprise A1",
-      "domain": "leased-line-93-125-10-123.telecom.by",
+      "organization": "Salutem Minsk",
+      "domain": "mm-164-242-57-86.static.mgts.by",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -83,37 +137,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 33.33,
-        "30d": 63.12,
-        "90d": 80.19,
-        "1y": 79.08
-      }
-    },
-    {
-      "ip": "93.125.121.128",
-      "version": 4,
-      "country_code": "by",
-      "country": "Belarus",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Private services Unitary Enterprise \"Vash Internet\"",
-      "domain": "users.1net.by",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
         "24h": 100.0,
-        "30d": 90.91,
-        "90d": 77.78,
-        "1y": 84.77
+        "30d": 100.0,
+        "90d": 96.69,
+        "1y": 96.81
       }
     },
     {
@@ -133,25 +160,52 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 98.86,
+        "24h": 95.65,
+        "30d": 98.87,
         "90d": 99.68,
         "1y": 99.52
       }
     },
     {
-      "ip": "37.17.53.108",
+      "ip": "80.249.81.151",
       "version": 4,
       "country_code": "by",
       "country": "Belarus",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "A1 BLR",
-      "domain": "reserved.a1.by",
+      "organization": "Business network LTD",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 78.26,
+        "30d": 76.69,
+        "90d": 59.7,
+        "1y": 61.82
+      }
+    },
+    {
+      "ip": "93.125.3.22",
+      "version": 4,
+      "country_code": "by",
+      "country": "Belarus",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Unitary enterprise A1",
+      "domain": "leased-line-93-125-3-22.telecom.by",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -160,25 +214,25 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 67.3,
-        "90d": 64.15,
-        "1y": 71.52
+        "24h": 100.0,
+        "30d": 13.64,
+        "90d": 19.85,
+        "1y": 14.77
       }
     },
     {
-      "ip": "93.85.241.30",
+      "ip": "178.124.148.226",
       "version": 4,
       "country_code": "by",
       "country": "Belarus",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Republican Unitary Telecommunication Enterprise Beltelecom",
-      "domain": "grodnoreg.10g.net.belpak.by",
+      "organization": "OOO Polesejilstroy Brest",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -186,15 +240,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 95.44,
-        "90d": 94.92,
-        "1y": 96.04
+        "24h": 78.26,
+        "30d": 66.79,
+        "90d": 89.6,
+        "1y": 92.65
       }
     },
     {
@@ -215,132 +269,24 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 93.33,
-        "30d": 86.74,
-        "90d": 93.17,
-        "1y": 93.24
-      }
-    },
-    {
-      "ip": "178.124.148.226",
-      "version": 4,
-      "country_code": "by",
-      "country": "Belarus",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OOO Polesejilstroy Brest",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 67.05,
-        "90d": 89.79,
-        "1y": 92.71
+        "24h": 86.96,
+        "30d": 86.79,
+        "90d": 93.04,
+        "1y": 93.2
       }
     },
     {
-      "ip": "80.249.81.151",
+      "ip": "93.85.241.30",
       "version": 4,
       "country_code": "by",
       "country": "Belarus",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Business network LTD",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 76.05,
-        "90d": 59.0,
-        "1y": 61.72
-      }
-    },
-    {
-      "ip": "80.94.225.100",
-      "version": 4,
-      "country_code": "by",
-      "country": "Belarus",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "IP TELCOM Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 62.5,
-        "30d": 35.75,
-        "90d": 29.41,
-        "1y": 31.9
-      }
-    },
-    {
-      "ip": "93.85.92.173",
-      "version": 4,
-      "country_code": "by",
-      "country": "Belarus",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Biznescentrstolitsa Minsk",
-      "domain": "mm-173-92-85-93.static.mgts.by",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.33,
-        "30d": 95.02,
-        "90d": 59.07,
-        "1y": 58.81
-      }
-    },
-    {
-      "ip": "86.57.242.164",
-      "version": 4,
-      "country_code": "by",
-      "country": "Belarus",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Salutem Minsk",
-      "domain": "mm-164-242-57-86.static.mgts.by",
+      "organization": "Republican Unitary Telecommunication Enterprise Beltelecom",
+      "domain": "grodnoreg.10g.net.belpak.by",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -354,9 +300,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 100.0,
-        "90d": 96.71,
-        "1y": 96.8
+        "30d": 95.49,
+        "90d": 94.94,
+        "1y": 96.06
       }
     },
     {
@@ -375,42 +321,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.62,
-        "90d": 91.59,
-        "1y": 94.46
-      }
-    },
-    {
-      "ip": "82.209.206.124",
-      "version": 4,
-      "country_code": "by",
-      "country": "Belarus",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Vitebsk Byfly",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 98.49
+        "30d": 99.62,
+        "90d": 91.55,
+        "1y": 94.47
       }
     }
   ]

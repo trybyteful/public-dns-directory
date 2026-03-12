@@ -4,7 +4,7 @@
     "country_name": "Saudi Arabia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-12T06:25:33Z",
+    "generated_at": "2026-03-12T18:14:07Z",
     "total_servers": 6
   },
   "resolvers": [
@@ -24,8 +24,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -51,19 +51,46 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 97.67,
-        "1y": 98.57
+        "90d": 98.73,
+        "1y": 98.58
       }
     },
     {
-      "ip": "85.194.70.174",
+      "ip": "8.213.0.111",
+      "version": 4,
+      "country_code": "sa",
+      "country": "Saudi Arabia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Alibaba.com Singapore E-Commerce Private Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
+      }
+    },
+    {
+      "ip": "85.194.70.173",
       "version": 4,
       "country_code": "sa",
       "country": "Saudi Arabia",
@@ -75,18 +102,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.24,
-        "90d": 99.77,
-        "1y": 99.69
+        "30d": 98.87,
+        "90d": 99.68,
+        "1y": 99.72
       }
     },
     {
@@ -111,40 +138,13 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.86,
+        "30d": 98.87,
         "90d": 98.75,
-        "1y": 98.81
+        "1y": 98.82
       }
     },
     {
-      "ip": "8.213.0.111",
-      "version": 4,
-      "country_code": "sa",
-      "country": "Saudi Arabia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Alibaba.com Singapore E-Commerce Private Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "85.194.70.173",
+      "ip": "85.194.70.174",
       "version": 4,
       "country_code": "sa",
       "country": "Saudi Arabia",
@@ -156,7 +156,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -165,9 +165,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.86,
-        "90d": 99.68,
-        "1y": 99.72
+        "30d": 99.25,
+        "90d": 99.77,
+        "1y": 99.69
       }
     }
   ]
