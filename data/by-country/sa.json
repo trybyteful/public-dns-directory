@@ -4,8 +4,8 @@
     "country_name": "Saudi Arabia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-13T06:24:54Z",
-    "total_servers": 7
+    "generated_at": "2026-03-13T18:08:17Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -58,35 +58,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.71,
-        "1y": 98.58
-      }
-    },
-    {
-      "ip": "85.194.70.173",
-      "version": 4,
-      "country_code": "sa",
-      "country": "Saudi Arabia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Mobily Corp.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.89,
-        "90d": 99.67,
-        "1y": 99.72
+        "90d": 99.8,
+        "1y": 98.59
       }
     },
     {
@@ -117,6 +90,33 @@
       }
     },
     {
+      "ip": "85.194.70.173",
+      "version": 4,
+      "country_code": "sa",
+      "country": "Saudi Arabia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Mobily Corp.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.91,
+        "90d": 99.67,
+        "1y": 99.72
+      }
+    },
+    {
       "ip": "212.33.190.215",
       "version": 4,
       "country_code": "sa",
@@ -134,11 +134,11 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.89,
+        "30d": 98.91,
         "90d": 98.83,
         "1y": 98.82
       }
@@ -160,41 +160,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.26,
+        "30d": 99.27,
         "90d": 99.77,
         "1y": 99.69
-      }
-    },
-    {
-      "ip": "83.101.140.121",
-      "version": 4,
-      "country_code": "sa",
-      "country": "Saudi Arabia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Specific Class-C",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 48.48,
-        "90d": 9.7,
-        "1y": 23.89
       }
     }
   ]

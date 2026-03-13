@@ -4,37 +4,10 @@
     "country_name": "Cambodia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-13T06:24:54Z",
+    "generated_at": "2026-03-13T18:08:17Z",
     "total_servers": 2
   },
   "resolvers": [
-    {
-      "ip": "202.58.18.18",
-      "version": 4,
-      "country_code": "kh",
-      "country": "Cambodia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Xinwei (Cambodia) Telecom Co. Ltd",
-      "domain": "ns1.megatruenet.com.kh",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.89,
-        "90d": 99.72,
-        "1y": 99.8
-      }
-    },
     {
       "ip": "111.118.147.236",
       "version": 4,
@@ -52,14 +25,41 @@
       },
       "blocking": {
         "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 88.89,
+        "30d": 60.41,
+        "90d": 47.42,
+        "1y": 50.23
+      }
+    },
+    {
+      "ip": "202.58.18.18",
+      "version": 4,
+      "country_code": "kh",
+      "country": "Cambodia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Xinwei (Cambodia) Telecom Co. Ltd",
+      "domain": "ns1.megatruenet.com.kh",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 59.75,
-        "90d": 46.83,
-        "1y": 50.16
+        "30d": 98.91,
+        "90d": 99.72,
+        "1y": 99.8
       }
     }
   ]
