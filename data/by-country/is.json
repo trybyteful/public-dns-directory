@@ -4,8 +4,8 @@
     "country_name": "Iceland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-14T06:22:53Z",
-    "total_servers": 4
+    "generated_at": "2026-03-14T18:04:52Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -25,41 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 89.52,
-        "90d": 85.92,
-        "1y": 88.09
-      }
-    },
-    {
-      "ip": "82.148.69.71",
-      "version": 4,
-      "country_code": "is",
-      "country": "Iceland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Fsnet",
-      "domain": "kvenno-7.fsnet.is",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.28,
-        "90d": 98.96,
-        "1y": 98.38
+        "24h": 95.45,
+        "30d": 89.61,
+        "90d": 85.82,
+        "1y": 88.14
       }
     },
     {
@@ -78,26 +51,26 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 95.24,
-        "30d": 98.19,
-        "90d": 96.94,
-        "1y": 97.54
+        "24h": 95.45,
+        "30d": 98.21,
+        "90d": 96.92,
+        "1y": 97.55
       }
     },
     {
-      "ip": "157.157.166.191",
+      "ip": "82.148.69.71",
       "version": 4,
       "country_code": "is",
       "country": "Iceland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "ICENET",
-      "domain": "157-157-166-191.dsl.dynamic.simnet.is",
+      "organization": "Fsnet",
+      "domain": "kvenno-7.fsnet.is",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -107,13 +80,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 14.29,
-        "30d": 48.78,
-        "90d": 57.59,
-        "1y": 59.95
+        "24h": 100.0,
+        "30d": 99.28,
+        "90d": 99.05,
+        "1y": 98.39
       }
     }
   ]
