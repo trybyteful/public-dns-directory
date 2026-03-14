@@ -4,8 +4,8 @@
     "country_name": "Ireland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-13T18:08:17Z",
-    "total_servers": 6
+    "generated_at": "2026-03-14T06:22:53Z",
+    "total_servers": 7
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 62.2,
-        "90d": 41.5,
-        "1y": 48.83
+        "24h": 95.24,
+        "30d": 63.2,
+        "90d": 42.16,
+        "1y": 48.99
       }
     },
     {
@@ -51,15 +51,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.64,
-        "90d": 98.92,
-        "1y": 98.43
+        "90d": 99.1,
+        "1y": 98.44
       }
     },
     {
@@ -78,69 +78,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 63.1,
-        "90d": 55.04,
-        "1y": 67.28
+        "30d": 65.5,
+        "90d": 55.59,
+        "1y": 67.43
       }
     },
     {
-      "ip": "86.47.80.46",
+      "ip": "88.87.181.244",
       "version": 4,
       "country_code": "ie",
       "country": "Ireland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Eircom Limited",
+      "organization": "EOBO Ltd T/A BBnet",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 57.14,
-        "90d": 53.7,
-        "1y": 66.65
-      }
-    },
-    {
-      "ip": "95.45.222.78",
-      "version": 4,
-      "country_code": "ie",
-      "country": "Ireland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Eircom Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 58.11,
-        "90d": 53.65,
-        "1y": 66.28
+        "24h": 19.05,
+        "30d": 28.4,
+        "90d": 24.66,
+        "1y": 23.61
       }
     },
     {
@@ -168,6 +141,60 @@
         "30d": 100.0,
         "90d": 99.95,
         "1y": 99.94
+      }
+    },
+    {
+      "ip": "95.45.222.78",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Eircom Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 60.93,
+        "90d": 54.19,
+        "1y": 66.44
+      }
+    },
+    {
+      "ip": "86.47.80.46",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Eircom Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 60.26,
+        "90d": 54.28,
+        "1y": 66.82
       }
     }
   ]
