@@ -4,8 +4,8 @@
     "country_name": "Iceland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-14T18:04:52Z",
-    "total_servers": 3
+    "generated_at": "2026-03-15T06:28:08Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -25,14 +25,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 89.61,
-        "90d": 85.82,
-        "1y": 88.14
+        "24h": 100.0,
+        "30d": 89.74,
+        "90d": 85.72,
+        "1y": 88.18
+      }
+    },
+    {
+      "ip": "157.157.166.191",
+      "version": 4,
+      "country_code": "is",
+      "country": "Iceland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ICENET",
+      "domain": "157-157-166-191.dsl.dynamic.simnet.is",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 52.38,
+        "30d": 49.05,
+        "90d": 57.55,
+        "1y": 59.89
       }
     },
     {
@@ -51,15 +78,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 98.21,
-        "90d": 96.92,
-        "1y": 97.55
+        "24h": 100.0,
+        "30d": 98.23,
+        "90d": 96.9,
+        "1y": 97.56
       }
     },
     {
@@ -78,14 +105,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.28,
-        "90d": 99.05,
+        "30d": 99.29,
+        "90d": 99.24,
         "1y": 98.39
       }
     }
