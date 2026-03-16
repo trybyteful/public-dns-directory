@@ -4,7 +4,7 @@
     "country_name": "Ireland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-15T18:05:20Z",
+    "generated_at": "2026-03-16T06:41:15Z",
     "total_servers": 7
   },
   "resolvers": [
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 64.86,
-        "90d": 43.7,
-        "1y": 49.13
+        "24h": 47.37,
+        "30d": 65.13,
+        "90d": 44.17,
+        "1y": 49.12
       }
     },
     {
@@ -51,7 +51,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -84,9 +84,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 75.4,
-        "90d": 56.88,
-        "1y": 67.84
+        "30d": 76.53,
+        "90d": 57.27,
+        "1y": 67.96
       }
     },
     {
@@ -106,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 71.86,
-        "90d": 55.4,
-        "1y": 67.23
+        "30d": 73.3,
+        "90d": 56.35,
+        "1y": 67.35
       }
     },
     {
@@ -144,6 +144,33 @@
       }
     },
     {
+      "ip": "78.155.252.220",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "NWE Wireless Networks Ltd.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 94.74,
+        "30d": 75.43,
+        "90d": 90.55,
+        "1y": 93.62
+      }
+    },
+    {
       "ip": "95.45.222.78",
       "version": 4,
       "country_code": "ie",
@@ -165,36 +192,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 72.46,
-        "90d": 55.23,
-        "1y": 66.85
-      }
-    },
-    {
-      "ip": "78.155.252.220",
-      "version": 4,
-      "country_code": "ie",
-      "country": "Ireland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "NWE Wireless Networks Ltd.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 45.0,
-        "30d": 74.56,
-        "90d": 90.61,
-        "1y": 93.6
+        "30d": 73.86,
+        "90d": 56.12,
+        "1y": 66.98
       }
     }
   ]

@@ -4,8 +4,8 @@
     "country_name": "Namibia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-03-15T18:05:20Z",
-    "total_servers": 4
+    "generated_at": "2026-03-16T06:41:15Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -24,14 +24,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 65.0,
-        "30d": 79.92,
-        "90d": 82.55,
+        "24h": 57.89,
+        "30d": 81.2,
+        "90d": 82.4,
         "1y": 86.43
       }
     },
@@ -52,41 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 95.0,
-        "30d": 90.59,
-        "90d": 90.56,
-        "1y": 93.55
-      }
-    },
-    {
-      "ip": "41.63.240.79",
-      "version": 4,
-      "country_code": "na",
-      "country": "Namibia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "MTC Netman",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 55.0,
-        "30d": 58.37,
-        "90d": 58.64,
-        "1y": 62.47
+        "24h": 88.89,
+        "30d": 90.66,
+        "90d": 90.5,
+        "1y": 93.54
       }
     },
     {
@@ -106,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.82,
-        "90d": 97.08,
-        "1y": 97.81
+        "30d": 95.85,
+        "90d": 97.06,
+        "1y": 97.82
       }
     }
   ]
