@@ -4,19 +4,19 @@
     "country_name": "Thailand",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-16T06:41:15Z",
-    "total_servers": 117
+    "generated_at": "2026-03-16T18:16:54Z",
+    "total_servers": 118
   },
   "resolvers": [
     {
-      "ip": "202.44.52.1",
+      "ip": "203.150.167.19",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "World Internetwork Corporation Co., Ltd",
-      "domain": "www.worldinternetworkcorporation.com",
+      "organization": "INEXT Broadband Company Limited",
+      "domain": "19.167.150.203.sta.inet.co.th",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -25,7 +25,34 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 88.24,
+        "30d": 88.93,
+        "90d": 72.93,
+        "1y": 88.96
+      }
+    },
+    {
+      "ip": "202.44.52.1",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "World Internetwork Corporation Co., Ltd",
+      "domain": "worldinternetworkcorporation.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -33,6 +60,33 @@
         "30d": 99.31,
         "90d": 99.61,
         "1y": 99.59
+      }
+    },
+    {
+      "ip": "203.154.62.1",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Internet Thailand Company Ltd",
+      "domain": "203-154-62-1.northern.inet.co.th",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 76.47,
+        "30d": 68.16,
+        "90d": 60.62,
+        "1y": 61.29
       }
     },
     {
@@ -52,14 +106,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 94.74,
+        "24h": 100.0,
         "30d": 96.19,
-        "90d": 95.85,
-        "1y": 95.77
+        "90d": 95.83,
+        "1y": 95.78
+      }
+    },
+    {
+      "ip": "49.231.140.120",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "SanthiyaKohYaoYaiResortSpa",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 88.24,
+        "30d": 82.26,
+        "90d": 60.0,
+        "1y": 53.82
       }
     },
     {
@@ -83,9 +164,9 @@
         "adult": true
       },
       "uptime": {
-        "24h": 73.68,
-        "30d": 89.62,
-        "90d": 87.31,
+        "24h": 88.24,
+        "30d": 89.27,
+        "90d": 87.38,
         "1y": 88.18
       }
     },
@@ -112,7 +193,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 98.27,
-        "90d": 97.15,
+        "90d": 97.23,
         "1y": 98.04
       }
     },
@@ -133,7 +214,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -161,11 +242,11 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.31,
+        "30d": 99.65,
         "90d": 98.84,
         "1y": 98.7
       }
@@ -188,40 +269,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 98.26,
-        "1y": 98.34
-      }
-    },
-    {
-      "ip": "202.29.218.142",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Office of Info.Tech. Admin. Educational Development",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 73.68,
-        "30d": 84.43,
-        "90d": 69.8,
-        "1y": 76.88
+        "90d": 98.25,
+        "1y": 98.35
       }
     },
     {
@@ -240,15 +294,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 89.47,
-        "30d": 80.28,
-        "90d": 59.74,
-        "1y": 63.62
+        "24h": 88.24,
+        "30d": 79.93,
+        "90d": 60.18,
+        "1y": 63.64
       }
     },
     {
@@ -269,13 +323,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.65,
         "90d": 98.5,
-        "1y": 95.84
+        "1y": 95.85
       }
     },
     {
@@ -301,7 +355,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 98.96,
-        "90d": 96.0,
+        "90d": 95.97,
         "1y": 96.44
       }
     },
@@ -323,12 +377,12 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 98.99,
+        "90d": 98.98,
         "1y": 98.81
       }
     },
@@ -348,15 +402,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 98.96,
-        "90d": 97.15,
-        "1y": 95.31
+        "90d": 97.24,
+        "1y": 95.32
+      }
+    },
+    {
+      "ip": "1.179.150.229",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TOT Public Company Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 82.35,
+        "30d": 84.35,
+        "90d": 85.75,
+        "1y": 86.54
       }
     },
     {
@@ -372,7 +453,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -380,9 +461,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 68.42,
+        "24h": 82.35,
         "30d": 80.46,
-        "90d": 81.33,
+        "90d": 81.32,
         "1y": 84.19
       }
     },
@@ -404,13 +485,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.65,
-        "90d": 98.7,
-        "1y": 98.78
+        "90d": 98.69,
+        "1y": 98.79
       }
     },
     {
@@ -434,64 +515,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 73.68,
+        "24h": 88.24,
         "30d": 83.39,
-        "90d": 74.12,
-        "1y": 77.15
+        "90d": 74.32,
+        "1y": 77.17
       }
     },
     {
-      "ip": "83.118.104.184",
+      "ip": "202.183.195.162",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Symphony Communication Public Company Limited",
+      "organization": "BTS Group",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 17.19,
-        "90d": 30.88,
-        "1y": 37.1
-      }
-    },
-    {
-      "ip": "83.118.104.173",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Symphony Communication Public Company Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 17.19,
-        "90d": 30.73,
-        "1y": 36.99
+        "24h": 76.47,
+        "30d": 75.09,
+        "90d": 75.85,
+        "1y": 79.85
       }
     },
     {
@@ -507,28 +561,28 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 94.74,
-        "30d": 95.5,
-        "90d": 95.61,
-        "1y": 95.6
+        "24h": 88.24,
+        "30d": 95.85,
+        "90d": 95.49,
+        "1y": 95.56
       }
     },
     {
-      "ip": "117.121.215.99",
+      "ip": "161.82.184.70",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "United Information Highway Co., Ltd",
+      "organization": "Symphony Communication Public Company Limited",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -537,15 +591,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 63.16,
-        "30d": 57.3,
-        "90d": 56.36,
-        "1y": 55.88
+        "24h": 82.35,
+        "30d": 89.27,
+        "90d": 91.02,
+        "1y": 92.61
       }
     },
     {
@@ -564,123 +618,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 94.74,
-        "30d": 96.54,
-        "90d": 96.43,
-        "1y": 96.93
-      }
-    },
-    {
-      "ip": "83.118.104.177",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Symphony Communication Public Company Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 19.23,
-        "90d": 30.86,
-        "1y": 36.7
-      }
-    },
-    {
-      "ip": "83.118.104.183",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Symphony Communication Public Company Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 19.23,
-        "90d": 30.79,
-        "1y": 36.88
-      }
-    },
-    {
-      "ip": "83.118.104.154",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Symphony Communication Public Company Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 19.23,
-        "90d": 30.79,
-        "1y": 40.18
-      }
-    },
-    {
-      "ip": "83.118.104.189",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Symphony Communication Public Company Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 19.23,
-        "90d": 30.94,
-        "1y": 36.95
+        "24h": 94.12,
+        "30d": 96.19,
+        "90d": 96.41,
+        "1y": 96.91
       }
     },
     {
@@ -699,15 +645,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
+        "ads": false,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.16,
-        "90d": 96.09,
-        "1y": 96.96
+        "30d": 96.54,
+        "90d": 96.07,
+        "1y": 96.97
       }
     },
     {
@@ -727,14 +673,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.65,
         "90d": 99.08,
-        "1y": 99.25
+        "1y": 99.26
       }
     },
     {
@@ -755,13 +701,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 94.74,
+        "24h": 94.12,
         "30d": 95.5,
-        "90d": 97.78,
-        "1y": 97.78
+        "90d": 97.8,
+        "1y": 97.8
       }
     },
     {
@@ -781,41 +727,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.77,
-        "90d": 96.62,
-        "1y": 85.19
-      }
-    },
-    {
-      "ip": "203.150.37.11",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Internet Thailand Public Co., Ltd",
-      "domain": "203-150-37-11.inter.net.th",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 63.16,
-        "30d": 71.63,
-        "90d": 48.05,
-        "1y": 49.64
+        "24h": 100.0,
+        "30d": 95.79,
+        "90d": 96.61,
+        "1y": 85.22
       }
     },
     {
@@ -836,12 +755,12 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 97.92,
-        "90d": 99.28,
+        "90d": 99.32,
         "1y": 99.42
       }
     },
@@ -868,7 +787,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 98.75,
+        "90d": 98.74,
         "1y": 98.15
       }
     },
@@ -890,13 +809,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 78.95,
+        "24h": 88.24,
         "30d": 84.08,
-        "90d": 81.05,
-        "1y": 86.69
+        "90d": 81.09,
+        "1y": 86.71
       }
     },
     {
@@ -916,14 +835,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 97.58,
-        "90d": 94.5,
-        "1y": 94.89
+        "90d": 94.47,
+        "1y": 94.9
       }
     },
     {
@@ -947,10 +866,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 84.21,
-        "30d": 80.0,
-        "90d": 58.19,
-        "1y": 67.42
+        "24h": 82.35,
+        "30d": 79.69,
+        "90d": 58.7,
+        "1y": 67.44
       }
     },
     {
@@ -975,9 +894,9 @@
       },
       "uptime": {
         "24h": 88.24,
-        "30d": 70.0,
-        "90d": 71.4,
-        "1y": 76.25
+        "30d": 70.12,
+        "90d": 71.79,
+        "1y": 76.3
       }
     },
     {
@@ -1001,10 +920,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 94.74,
+        "24h": 94.12,
         "30d": 96.54,
-        "90d": 97.83,
-        "1y": 96.82
+        "90d": 97.82,
+        "1y": 96.83
+      }
+    },
+    {
+      "ip": "202.129.1.186",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CAT North",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 70.59,
+        "30d": 69.35,
+        "90d": 78.95,
+        "1y": 80.92
       }
     },
     {
@@ -1023,14 +969,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 91.7,
-        "90d": 98.46,
+        "90d": 98.45,
         "1y": 98.98
       }
     },
@@ -1074,18 +1020,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 68.42,
-        "30d": 90.66,
-        "90d": 95.14,
-        "1y": 95.14
+        "24h": 76.47,
+        "30d": 90.31,
+        "90d": 95.09,
+        "1y": 95.09
       }
     },
     {
@@ -1105,14 +1051,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 84.21,
-        "30d": 88.93,
-        "90d": 87.8,
-        "1y": 90.61
+        "24h": 94.12,
+        "30d": 89.97,
+        "90d": 88.07,
+        "1y": 90.63
+      }
+    },
+    {
+      "ip": "159.192.104.150",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CAT BB",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 94.12,
+        "30d": 85.12,
+        "90d": 63.29,
+        "1y": 67.42
       }
     },
     {
@@ -1136,10 +1109,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 68.42,
-        "30d": 52.78,
-        "90d": 56.15,
-        "1y": 42.33
+        "24h": 94.12,
+        "30d": 53.92,
+        "90d": 56.43,
+        "1y": 42.49
       }
     },
     {
@@ -1159,14 +1132,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.54,
-        "90d": 92.72,
-        "1y": 91.15
+        "30d": 97.23,
+        "90d": 92.68,
+        "1y": 91.17
       }
     },
     {
@@ -1185,15 +1158,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 72.22,
+        "24h": 88.24,
         "30d": 87.61,
-        "90d": 84.06,
-        "1y": 81.18
+        "90d": 84.02,
+        "1y": 81.19
       }
     },
     {
@@ -1213,41 +1186,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.16,
-        "90d": 84.04,
-        "1y": 88.34
-      }
-    },
-    {
-      "ip": "110.77.149.172",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "CAT BB",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.31,
-        "90d": 98.12,
-        "1y": 98.07
+        "30d": 95.16,
+        "90d": 84.09,
+        "1y": 88.37
       }
     },
     {
@@ -1266,73 +1212,100 @@
         "validating": false
       },
       "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 70.59,
+        "30d": 50.57,
+        "90d": 35.73,
+        "1y": 43.25
+      }
+    },
+    {
+      "ip": "58.137.148.83",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "HolidayInnExpress",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 86.51,
+        "90d": 82.68,
+        "1y": 86.41
+      }
+    },
+    {
+      "ip": "147.50.36.138",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Asset Pro Management Co.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 57.89,
-        "30d": 48.85,
-        "90d": 35.32,
-        "1y": 43.18
+        "24h": 82.35,
+        "30d": 81.66,
+        "90d": 74.54,
+        "1y": 74.83
       }
     },
     {
-      "ip": "61.7.197.1",
+      "ip": "1.0.173.104",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "CAT Telecom Public Company Limited",
-      "domain": null,
+      "organization": "TOT Public Company Limited",
+      "domain": "node-8yw.pool-1-0.dynamic.nt-isp.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.92,
-        "90d": 99.08,
-        "1y": 98.73
-      }
-    },
-    {
-      "ip": "43.249.65.207",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "BB BROADBAND CO., LTD",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 90.34,
-        "90d": 82.75,
-        "1y": 74.11
+        "24h": 83.33,
+        "30d": 27.78,
+        "90d": 4.5,
+        "1y": 2.5
       }
     },
     {
-      "ip": "202.29.225.26",
+      "ip": "202.29.51.130",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
@@ -1352,21 +1325,21 @@
         "adult": false
       },
       "uptime": {
-        "24h": 73.68,
-        "30d": 82.35,
-        "90d": 63.31,
-        "1y": 67.77
+        "24h": 82.35,
+        "30d": 90.31,
+        "90d": 90.49,
+        "1y": 89.39
       }
     },
     {
-      "ip": "119.110.212.115",
+      "ip": "110.164.241.236",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Symphony Communication Plc.",
-      "domain": "static-119-110-212-115.violin.co.th",
+      "organization": "Jasmine International Public Company Limited",
+      "domain": "mx-ll-110.164.241-236.static.3bb.co.th",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1374,30 +1347,30 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 68.42,
-        "30d": 86.85,
-        "90d": 75.46,
-        "1y": 80.64
+        "24h": 76.47,
+        "30d": 80.28,
+        "90d": 72.07,
+        "1y": 71.09
       }
     },
     {
-      "ip": "202.129.207.29",
+      "ip": "202.182.0.1",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Nipa Technology Co., LTD",
-      "domain": "ip207-029.ispio.com",
+      "organization": "FAR East Internet Co., ltd.",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -1407,9 +1380,144 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.31,
-        "90d": 99.71,
-        "1y": 99.7
+        "30d": 98.27,
+        "90d": 97.33,
+        "1y": 97.85
+      }
+    },
+    {
+      "ip": "202.125.84.197",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Office of the National Broadcasting and Telecommunication Commission",
+      "domain": "ns4.nbtc.go.th",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 94.12,
+        "30d": 96.19,
+        "90d": 95.83,
+        "1y": 96.8
+      }
+    },
+    {
+      "ip": "203.121.145.77",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Pacific Internet (Thailand) Pte Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 76.47,
+        "30d": 90.66,
+        "90d": 97.04,
+        "1y": 97.55
+      }
+    },
+    {
+      "ip": "110.49.144.179",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Advanced Wireless Network Company Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 94.12,
+        "30d": 90.8,
+        "90d": 58.21,
+        "1y": 70.66
+      }
+    },
+    {
+      "ip": "202.129.207.28",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Nipa Technology Co., LTD",
+      "domain": "ip207-028.ispio.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 94.12,
+        "30d": 98.27,
+        "90d": 99.32,
+        "1y": 99.53
+      }
+    },
+    {
+      "ip": "203.154.58.1",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Openland scape Company Limited",
+      "domain": "official.pacheti.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 70.59,
+        "30d": 78.89,
+        "90d": 59.26,
+        "1y": 66.01
       }
     },
     {
@@ -1436,142 +1544,7 @@
         "24h": 100.0,
         "30d": 99.65,
         "90d": 99.37,
-        "1y": 96.9
-      }
-    },
-    {
-      "ip": "122.154.136.56",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": ":: Corporate Internet NT Services",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 94.44,
-        "30d": 95.85,
-        "90d": 97.11,
-        "1y": 97.32
-      }
-    },
-    {
-      "ip": "125.254.55.66",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "United Information Highway Co., Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 63.16,
-        "30d": 55.65,
-        "90d": 40.56,
-        "1y": 34.62
-      }
-    },
-    {
-      "ip": "110.78.22.99",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "CAT Telecom public company Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 98.57,
-        "1y": 94.57
-      }
-    },
-    {
-      "ip": "1.0.220.111",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TOT Public Company Limited",
-      "domain": "node-i9b.pool-1-0.dynamic.nt-isp.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "96.30.79.13",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Symphony Communication Plc.",
-      "domain": "13.79.30.96.violin.co.th",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 68.42,
-        "30d": 79.69,
-        "90d": 63.86,
-        "1y": 68.97
+        "1y": 96.91
       }
     },
     {
@@ -1592,24 +1565,78 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.23,
-        "90d": 94.21,
-        "1y": 93.15
+        "30d": 97.58,
+        "90d": 94.18,
+        "1y": 93.16
       }
     },
     {
-      "ip": "110.49.78.20",
+      "ip": "61.91.28.86",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Advanced Wireless Network Company Limited",
+      "organization": "True Internet Corporation CO. LTD",
+      "domain": "61-91-28-86.static.asianet.co.th",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 23.53,
+        "30d": 75.84,
+        "90d": 87.69,
+        "1y": 89.56
+      }
+    },
+    {
+      "ip": "43.249.65.207",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "BB BROADBAND CO., LTD",
       "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 90.79,
+        "90d": 83.27,
+        "1y": 74.17
+      }
+    },
+    {
+      "ip": "96.30.79.13",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Symphony Communication Plc.",
+      "domain": "13.79.30.96.violin.co.th",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1619,24 +1646,24 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 99.89
+        "24h": 82.35,
+        "30d": 80.15,
+        "90d": 64.21,
+        "1y": 68.98
       }
     },
     {
-      "ip": "110.164.241.236",
+      "ip": "159.192.142.29",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Jasmine International Public Company Limited",
-      "domain": "mx-ll-110.164.241-236.static.3bb.co.th",
+      "organization": "CAT BB",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1645,24 +1672,105 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 73.68,
-        "30d": 80.28,
-        "90d": 71.84,
-        "1y": 71.05
+        "24h": 88.24,
+        "30d": 91.57,
+        "90d": 87.8,
+        "1y": 81.22
       }
     },
     {
-      "ip": "202.29.51.130",
+      "ip": "118.173.197.174",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Office of Info.Tech. Admin. Educational Development",
+      "organization": "TOT Public Company Limited",
+      "domain": "node-131q.pool-118-173.dynamic.nt-isp.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 93.43,
+        "90d": 91.57,
+        "1y": 92.88
+      }
+    },
+    {
+      "ip": "202.183.153.140",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "MTS Gold Co.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.5,
+        "90d": 98.16,
+        "1y": 98.4
+      }
+    },
+    {
+      "ip": "49.0.90.4",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "AIS-Fibre",
+      "domain": "49-0-90-0.24.fixed-public.nky2-mser.myaisfibre.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 35.29,
+        "30d": 65.52,
+        "90d": 61.73,
+        "1y": 62.6
+      }
+    },
+    {
+      "ip": "61.19.40.246",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Data Comm. Dept. National Telecom Public Company Limited",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -1676,21 +1784,48 @@
         "adult": false
       },
       "uptime": {
-        "24h": 84.21,
-        "30d": 90.66,
-        "90d": 90.35,
-        "1y": 89.39
+        "24h": 100.0,
+        "30d": 96.54,
+        "90d": 92.95,
+        "1y": 92.43
       }
     },
     {
-      "ip": "202.80.247.34",
+      "ip": "1.179.166.229",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "ChinnaratSDOColtdInternet by AWN",
+      "organization": "TOT Public Company Limited",
       "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 76.47,
+        "30d": 67.82,
+        "90d": 66.47,
+        "1y": 70.19
+      }
+    },
+    {
+      "ip": "1.0.160.69",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TOT Public Company Limited",
+      "domain": "node-6dh.pool-1-0.dynamic.nt-isp.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1700,13 +1835,67 @@
       "blocking": {
         "ads": true,
         "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 93.02,
+        "90d": 60.38,
+        "1y": 45.2
+      }
+    },
+    {
+      "ip": "110.164.139.66",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Triple T Broadband Public Company Limited",
+      "domain": "mx-ll-110.164.139-66.static.3bb.co.th",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.46,
+        "90d": 95.88,
+        "1y": 96.8
+      }
+    },
+    {
+      "ip": "159.192.102.145",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CAT BB",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 42.11,
-        "30d": 41.89,
-        "90d": 30.59,
-        "1y": 26.44
+        "24h": 70.59,
+        "30d": 90.04,
+        "90d": 89.92,
+        "1y": 87.75
       }
     },
     {
@@ -1727,24 +1916,78 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 97.92,
-        "90d": 96.77,
-        "1y": 97.43
+        "90d": 96.75,
+        "1y": 97.44
       }
     },
     {
-      "ip": "1.0.160.69",
+      "ip": "27.131.191.90",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "TOT Public Company Limited",
-      "domain": "node-6dh.pool-1-0.dynamic.nt-isp.net",
+      "organization": "KIRZ Company Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 52.94,
+        "30d": 58.48,
+        "90d": 65.89,
+        "1y": 66.65
+      }
+    },
+    {
+      "ip": "202.129.206.237",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Nipa Technology Co., LTD",
+      "domain": "host1.ns.co.th",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 94.12,
+        "30d": 94.81,
+        "90d": 93.55,
+        "1y": 94.58
+      }
+    },
+    {
+      "ip": "159.192.139.32",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CAT BB",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1754,13 +1997,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 94.74,
-        "30d": 92.68,
-        "90d": 58.91,
-        "1y": 43.93
+        "24h": 94.12,
+        "30d": 87.36,
+        "90d": 65.11,
+        "1y": 57.94
       }
     },
     {
@@ -1780,14 +2023,41 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 90.3,
+        "90d": 92.35,
+        "1y": 91.05
+      }
+    },
+    {
+      "ip": "61.7.143.128",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "National Telecom Public Company Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.51,
-        "90d": 92.39,
-        "1y": 91.03
+        "30d": 98.62,
+        "90d": 92.48,
+        "1y": 92.63
       }
     },
     {
@@ -1807,41 +2077,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 84.21,
-        "30d": 61.92,
-        "90d": 49.01,
-        "1y": 38.75
-      }
-    },
-    {
-      "ip": "49.0.90.4",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "AIS-Fibre",
-      "domain": "49-0-90-0.24.fixed-public.nky2-mser.myaisfibre.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 68.42,
-        "30d": 66.54,
-        "90d": 61.81,
-        "1y": 62.71
+        "24h": 88.24,
+        "30d": 62.07,
+        "90d": 49.56,
+        "1y": 38.84
       }
     },
     {
@@ -1866,24 +2109,24 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.14,
-        "90d": 70.51,
-        "1y": 70.51
+        "30d": 88.46,
+        "90d": 70.89,
+        "1y": 70.89
       }
     },
     {
-      "ip": "117.121.215.101",
+      "ip": "110.76.152.20",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "United Information Highway Co., Ltd",
-      "domain": "117.121.215.101.uih.co.th",
+      "organization": "Provincial Waterworks Authority",
+      "domain": "gold.pwa.co.th",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -1892,64 +2135,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 55.56,
-        "30d": 59.66,
-        "90d": 55.54,
-        "1y": 54.77
-      }
-    },
-    {
-      "ip": "43.249.112.98",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Corperate Customer Group",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 72.22,
-        "30d": 86.16,
-        "90d": 64.16,
-        "1y": 73.29
-      }
-    },
-    {
-      "ip": "110.164.139.66",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Triple T Broadband Public Company Limited",
-      "domain": "mx-ll-110.164.139-66.static.3bb.co.th",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 94.74,
-        "30d": 94.12,
-        "90d": 95.9,
-        "1y": 96.8
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.61,
+        "1y": 99.5
       }
     },
     {
@@ -1968,53 +2157,134 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 94.74,
-        "30d": 98.27,
-        "90d": 94.56,
-        "1y": 95.1
-      }
-    },
-    {
-      "ip": "122.155.213.7",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "CAT IDCnonthaburi Service",
-      "domain": "pcsiamgroup.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.31,
-        "90d": 98.75,
-        "1y": 96.3
+        "30d": 98.27,
+        "90d": 94.57,
+        "1y": 95.12
       }
     },
     {
-      "ip": "110.164.139.186",
+      "ip": "202.29.240.110",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Triple T Broadband Public Company Limited",
-      "domain": "mx-ll-110.164.139-186.static.3bb.co.th",
+      "organization": "Office of Info.Tech. Admin. Educational Development",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 58.82,
+        "30d": 63.22,
+        "90d": 49.56,
+        "1y": 51.69
+      }
+    },
+    {
+      "ip": "202.29.228.142",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Office of Info.Tech. Admin. Educational Development",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 70.59,
+        "30d": 66.41,
+        "90d": 51.28,
+        "1y": 54.48
+      }
+    },
+    {
+      "ip": "61.7.141.135",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "National Telecom Public Company Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 77.51,
+        "90d": 84.82,
+        "1y": 71.47
+      }
+    },
+    {
+      "ip": "27.131.162.193",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Leaseline",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 82.35,
+        "30d": 89.27,
+        "90d": 91.7,
+        "1y": 94.21
+      }
+    },
+    {
+      "ip": "202.29.236.57",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Office of Info.Tech. Admin. Educational Development",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2027,64 +2297,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 78.95,
-        "30d": 77.85,
-        "90d": 73.34,
-        "1y": 73.2
-      }
-    },
-    {
-      "ip": "1.1.188.104",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TOT Public Company Limited",
-      "domain": "node-bxk.pool-1-1.dynamic.nt-isp.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 94.74,
-        "30d": 94.81,
-        "90d": 94.93,
-        "1y": 95.03
-      }
-    },
-    {
-      "ip": "1.0.162.89",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TOT Public Company Limited",
-      "domain": "node-6s9.pool-1-0.dynamic.nt-isp.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 94.74,
-        "30d": 86.6,
-        "90d": 43.98,
-        "1y": 30.11
+        "24h": 82.35,
+        "30d": 86.16,
+        "90d": 88.22,
+        "1y": 89.17
       }
     },
     {
@@ -2115,14 +2331,14 @@
       }
     },
     {
-      "ip": "147.50.18.146",
+      "ip": "1.0.220.111",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Krungthep Namthip Co., Ltd.",
-      "domain": null,
+      "organization": "TOT Public Company Limited",
+      "domain": "node-i9b.pool-1-0.dynamic.nt-isp.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2132,104 +2348,23 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 31.58,
-        "30d": 83.39,
-        "90d": 88.47,
-        "1y": 92.38
-      }
-    },
-    {
-      "ip": "1.0.245.134",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TOT Public Company Limited",
-      "domain": "node-n7q.pool-1-0.dynamic.nt-isp.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 63.33,
-        "90d": 15.32,
-        "1y": 8.96
-      }
-    },
-    {
-      "ip": "118.173.197.174",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TOT Public Company Limited",
-      "domain": "node-131q.pool-118-173.dynamic.nt-isp.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 93.43,
-        "90d": 91.57,
-        "1y": 92.86
-      }
-    },
-    {
-      "ip": "203.159.77.77",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Thai Network Information Center Foundation",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 97.91,
-        "1y": 98.72
+        "90d": 100.0,
+        "1y": 100.0
       }
     },
     {
-      "ip": "202.182.0.2",
+      "ip": "180.180.244.53",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "FAR East Internet Co., ltd.",
+      "organization": "TOT Public Company Limited",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -2239,51 +2374,24 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.96,
-        "90d": 96.78,
-        "1y": 97.56
+        "24h": 76.47,
+        "30d": 90.66,
+        "90d": 74.59,
+        "1y": 80.1
       }
     },
     {
-      "ip": "202.29.240.110",
+      "ip": "110.78.22.99",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Office of Info.Tech. Admin. Educational Development",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 84.21,
-        "30d": 65.13,
-        "90d": 49.22,
-        "1y": 51.75
-      }
-    },
-    {
-      "ip": "83.118.104.132",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Symphony Communication Public Company Limited",
+      "organization": "CAT Telecom public company Ltd",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -2292,15 +2400,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 19.23,
-        "90d": 30.86,
-        "1y": 36.77
+        "30d": 100.0,
+        "90d": 98.67,
+        "1y": 94.59
       }
     },
     {
@@ -2319,15 +2427,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 94.74,
-        "30d": 69.82,
-        "90d": 68.56,
-        "1y": 60.49
+        "24h": 100.0,
+        "30d": 71.17,
+        "90d": 68.76,
+        "1y": 60.63
       }
     },
     {
@@ -2347,149 +2455,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.23,
-        "90d": 97.49,
-        "1y": 98.15
-      }
-    },
-    {
-      "ip": "110.76.152.20",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Provincial Waterworks Authority",
-      "domain": "gold.pwa.co.th",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.57,
-        "1y": 99.5
-      }
-    },
-    {
-      "ip": "203.131.211.181",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Thammasat University",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 89.97,
-        "90d": 86.78,
-        "1y": 84.45
-      }
-    },
-    {
-      "ip": "110.164.151.194",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Triple T Broadband Public Company Limited",
-      "domain": "mx-ll-110.164.151-194.static.3bb.co.th",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 94.74,
-        "30d": 95.16,
-        "90d": 94.65,
-        "1y": 96.13
-      }
-    },
-    {
-      "ip": "83.118.104.174",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Symphony Communication Public Company Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 19.23,
-        "90d": 30.79,
-        "1y": 36.62
-      }
-    },
-    {
-      "ip": "61.19.40.246",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Data Comm. Dept. National Telecom Public Company Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.19,
-        "90d": 92.89,
-        "1y": 92.41
+        "30d": 97.23,
+        "90d": 97.58,
+        "1y": 98.15
       }
     },
     {
@@ -2509,105 +2482,24 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 73.68,
-        "30d": 48.22,
-        "90d": 57.11,
-        "1y": 66.33
+        "24h": 58.82,
+        "30d": 47.72,
+        "90d": 57.36,
+        "1y": 66.26
       }
     },
     {
-      "ip": "202.125.84.197",
+      "ip": "203.131.211.181",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Office of the National Broadcasting and Telecommunication Commission",
-      "domain": "ns4.nbtc.go.th",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 94.74,
-        "30d": 96.19,
-        "90d": 95.85,
-        "1y": 96.8
-      }
-    },
-    {
-      "ip": "202.129.207.28",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Nipa Technology Co., LTD",
-      "domain": "ip207-028.ispio.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.62,
-        "90d": 99.37,
-        "1y": 99.56
-      }
-    },
-    {
-      "ip": "202.29.236.57",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Office of Info.Tech. Admin. Educational Development",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 84.21,
-        "30d": 86.85,
-        "90d": 88.28,
-        "1y": 89.2
-      }
-    },
-    {
-      "ip": "203.121.145.77",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Pacific Internet (Thailand) Pte Ltd",
+      "organization": "Thammasat University",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -2621,20 +2513,47 @@
         "adult": false
       },
       "uptime": {
-        "24h": 94.74,
-        "30d": 92.04,
-        "90d": 97.25,
-        "1y": 97.65
+        "24h": 100.0,
+        "30d": 90.31,
+        "90d": 86.71,
+        "1y": 84.48
       }
     },
     {
-      "ip": "58.137.148.83",
+      "ip": "110.164.151.194",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "HolidayInnExpress",
+      "organization": "Triple T Broadband Public Company Limited",
+      "domain": "mx-ll-110.164.151-194.static.3bb.co.th",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.16,
+        "90d": 94.62,
+        "1y": 96.14
+      }
+    },
+    {
+      "ip": "110.78.18.44",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CAT Telecom public company Ltd",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -2644,18 +2563,18 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 89.47,
-        "30d": 85.81,
-        "90d": 82.78,
-        "1y": 86.38
+        "24h": 76.47,
+        "30d": 81.66,
+        "90d": 71.04,
+        "1y": 72.15
       }
     },
     {
-      "ip": "110.49.144.179",
+      "ip": "110.49.78.20",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
@@ -2666,154 +2585,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 94.74,
-        "30d": 90.38,
-        "90d": 57.6,
-        "1y": 70.59
-      }
-    },
-    {
-      "ip": "61.7.143.71",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "National Telecom Public Company Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
         "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 94.74,
-        "30d": 94.81,
-        "90d": 97.2,
-        "1y": 94.23
-      }
-    },
-    {
-      "ip": "1.179.166.229",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TOT Public Company Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 73.68,
-        "30d": 68.58,
-        "90d": 66.26,
-        "1y": 70.18
-      }
-    },
-    {
-      "ip": "61.7.143.128",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "National Telecom Public Company Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.62,
-        "90d": 92.52,
-        "1y": 92.62
-      }
-    },
-    {
-      "ip": "83.118.104.182",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Symphony Communication Public Company Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 18.18,
-        "90d": 33.09,
-        "1y": 41.65
-      }
-    },
-    {
-      "ip": "96.30.79.84",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Symphony Communication Plc.",
-      "domain": "bb-96-30-79-84.symphony.net.th",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 61.11,
-        "30d": 69.55,
-        "90d": 65.35,
-        "1y": 58.2
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 99.89
       }
     },
     {
@@ -2834,229 +2618,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 67.07,
-        "90d": 85.28,
-        "1y": 87.57
-      }
-    },
-    {
-      "ip": "61.7.141.135",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "National Telecom Public Company Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 73.68,
-        "30d": 76.12,
-        "90d": 84.86,
-        "1y": 71.41
-      }
-    },
-    {
-      "ip": "110.49.146.151",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TH AIS Mobile Internet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 90.62,
-        "90d": 84.98,
-        "1y": 80.94
-      }
-    },
-    {
-      "ip": "202.183.153.140",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "MTS Gold Co.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 89.47,
-        "30d": 95.5,
-        "90d": 98.17,
-        "1y": 98.4
-      }
-    },
-    {
-      "ip": "159.192.142.29",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "CAT BB",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 84.21,
-        "30d": 91.92,
-        "90d": 87.87,
-        "1y": 81.2
-      }
-    },
-    {
-      "ip": "202.182.0.1",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "FAR East Internet Co., ltd.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.27,
-        "90d": 97.2,
-        "1y": 97.85
-      }
-    },
-    {
-      "ip": "83.118.104.172",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Symphony Communication Public Company Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 19.05,
-        "90d": 33.99,
-        "1y": 42.74
-      }
-    },
-    {
-      "ip": "159.192.139.32",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "CAT BB",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 89.47,
-        "30d": 87.69,
-        "90d": 64.77,
-        "1y": 57.87
-      }
-    },
-    {
-      "ip": "203.144.139.244",
-      "version": 4,
-      "country_code": "th",
-      "country": "Thailand",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "True Internet Corporation CO. LTD",
-      "domain": "203-144-139-244.static.asianet.co.th",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 57.89,
-        "30d": 77.99,
-        "90d": 78.26,
-        "1y": 78.44
+        "24h": 88.24,
+        "30d": 67.42,
+        "90d": 85.08,
+        "1y": 87.54
       }
     },
     {
@@ -3076,24 +2644,105 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 94.81,
-        "90d": 95.41,
-        "1y": 95.41
+        "90d": 95.43,
+        "1y": 95.43
       }
     },
     {
-      "ip": "202.129.59.69",
+      "ip": "203.159.77.77",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "BOI office",
+      "organization": "Thai Network Information Center Foundation",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 97.9,
+        "1y": 98.73
+      }
+    },
+    {
+      "ip": "122.154.136.56",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": ":: Corporate Internet NT Services",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 94.12,
+        "30d": 96.19,
+        "90d": 97.09,
+        "1y": 97.33
+      }
+    },
+    {
+      "ip": "96.30.79.84",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Symphony Communication Plc.",
+      "domain": "bb-96-30-79-84.symphony.net.th",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 76.47,
+        "30d": 70.24,
+        "90d": 65.64,
+        "1y": 58.27
+      }
+    },
+    {
+      "ip": "43.249.112.98",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Corperate Customer Group",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -3107,21 +2756,129 @@
         "adult": true
       },
       "uptime": {
-        "24h": 57.89,
-        "30d": 82.01,
-        "90d": 82.88,
-        "1y": 86.81
+        "24h": 88.24,
+        "30d": 86.85,
+        "90d": 64.73,
+        "1y": 73.35
       }
     },
     {
-      "ip": "202.29.239.134",
+      "ip": "122.155.213.7",
       "version": 4,
       "country_code": "th",
       "country": "Thailand",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Office of Info.Tech. Admin. Educational Development",
+      "organization": "CAT IDCnonthaburi Service",
+      "domain": "pcsiamgroup.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.31,
+        "90d": 98.74,
+        "1y": 96.31
+      }
+    },
+    {
+      "ip": "110.77.149.172",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CAT BB",
       "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.31,
+        "90d": 98.11,
+        "1y": 98.07
+      }
+    },
+    {
+      "ip": "61.7.143.71",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "National Telecom Public Company Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.85,
+        "90d": 97.19,
+        "1y": 94.24
+      }
+    },
+    {
+      "ip": "1.0.245.134",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TOT Public Company Limited",
+      "domain": "node-n7q.pool-1-0.dynamic.nt-isp.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 71.05,
+        "90d": 20.61,
+        "1y": 12.27
+      }
+    },
+    {
+      "ip": "202.129.0.27",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CAT North",
+      "domain": "ns.cmi.cat.net.th",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -3134,10 +2891,172 @@
         "adult": true
       },
       "uptime": {
-        "24h": 89.47,
-        "30d": 75.43,
-        "90d": 53.16,
-        "1y": 58.62
+        "24h": 52.94,
+        "30d": 71.25,
+        "90d": 67.86,
+        "1y": 71.98
+      }
+    },
+    {
+      "ip": "202.182.0.2",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "FAR East Internet Co., ltd.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.96,
+        "90d": 96.76,
+        "1y": 97.57
+      }
+    },
+    {
+      "ip": "110.49.146.151",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TH AIS Mobile Internet",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 91.35,
+        "90d": 85.17,
+        "1y": 81.04
+      }
+    },
+    {
+      "ip": "61.7.197.1",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CAT Telecom Public Company Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.92,
+        "90d": 99.08,
+        "1y": 98.73
+      }
+    },
+    {
+      "ip": "1.1.188.104",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TOT Public Company Limited",
+      "domain": "node-bxk.pool-1-1.dynamic.nt-isp.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.81,
+        "90d": 94.91,
+        "1y": 95.05
+      }
+    },
+    {
+      "ip": "1.0.162.89",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TOT Public Company Limited",
+      "domain": "node-6s9.pool-1-0.dynamic.nt-isp.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 88.24,
+        "30d": 85.71,
+        "90d": 45.45,
+        "1y": 31.36
+      }
+    },
+    {
+      "ip": "147.50.18.146",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Krungthep Namthip Co., Ltd.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 64.71,
+        "30d": 83.39,
+        "90d": 88.5,
+        "1y": 92.36
       }
     },
     {
@@ -3163,8 +3082,116 @@
       "uptime": {
         "24h": 100.0,
         "30d": 96.89,
-        "90d": 98.75,
-        "1y": 98.31
+        "90d": 98.74,
+        "1y": 98.32
+      }
+    },
+    {
+      "ip": "202.29.225.26",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Office of Info.Tech. Admin. Educational Development",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 88.24,
+        "30d": 82.35,
+        "90d": 63.34,
+        "1y": 67.82
+      }
+    },
+    {
+      "ip": "146.88.38.231",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Symphony Communication Public Company Limited",
+      "domain": "bb_dyn_pb-146-88-38-231.violin.co.th",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 64.71,
+        "30d": 73.41,
+        "90d": 55.93,
+        "1y": 63.72
+      }
+    },
+    {
+      "ip": "119.110.212.115",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Symphony Communication Plc.",
+      "domain": "static-119-110-212-115.violin.co.th",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 76.47,
+        "30d": 86.16,
+        "90d": 75.9,
+        "1y": 80.62
+      }
+    },
+    {
+      "ip": "202.129.207.29",
+      "version": 4,
+      "country_code": "th",
+      "country": "Thailand",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Nipa Technology Co., LTD",
+      "domain": "ip207-029.ispio.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.31,
+        "90d": 99.71,
+        "1y": 99.7
       }
     }
   ]
