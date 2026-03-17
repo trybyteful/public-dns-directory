@@ -4,7 +4,7 @@
     "country_name": "Kuwait",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-16T18:16:54Z",
+    "generated_at": "2026-03-17T06:30:45Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -24,15 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 94.12,
-        "30d": 98.62,
-        "90d": 91.03,
-        "1y": 87.68
+        "30d": 98.63,
+        "90d": 91.13,
+        "1y": 87.7
       }
     },
     {
@@ -51,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.92,
-        "90d": 95.05,
-        "1y": 87.89
+        "30d": 97.95,
+        "90d": 95.02,
+        "1y": 87.91
+      }
+    },
+    {
+      "ip": "62.150.77.106",
+      "version": 4,
+      "country_code": "kw",
+      "country": "Kuwait",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "QualityNet Kuwait",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.6,
+        "90d": 98.73,
+        "1y": 97.05
       }
     },
     {
@@ -78,42 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.96,
-        "90d": 97.91,
-        "1y": 98.71
-      }
-    },
-    {
-      "ip": "62.150.77.106",
-      "version": 4,
-      "country_code": "kw",
-      "country": "Kuwait",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "QualityNet Kuwait",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.58,
-        "90d": 98.74,
-        "1y": 97.04
+        "30d": 98.97,
+        "90d": 97.89,
+        "1y": 98.72
       }
     }
   ]
