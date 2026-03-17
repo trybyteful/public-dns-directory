@@ -4,8 +4,8 @@
     "country_name": "Puerto Rico",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-03-17T06:30:45Z",
-    "total_servers": 3
+    "generated_at": "2026-03-17T18:16:06Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 98.63,
-        "90d": 97.66,
-        "1y": 98.1
+        "90d": 97.64,
+        "1y": 98.11
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 88.24,
+        "24h": 100.0,
         "30d": 93.15,
-        "90d": 81.02,
-        "1y": 87.13
+        "90d": 81.78,
+        "1y": 87.15
       }
     },
     {
@@ -78,15 +78,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 95.83,
-        "90d": 94.27,
-        "1y": 93.96
+        "90d": 94.23,
+        "1y": 93.97
+      }
+    },
+    {
+      "ip": "198.52.242.90",
+      "version": 4,
+      "country_code": "pr",
+      "country": "Puerto Rico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "FIREFI LLC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 46.67,
+        "30d": 59.25,
+        "90d": 52.8,
+        "1y": 44.22
       }
     }
   ]
