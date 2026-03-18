@@ -4,46 +4,19 @@
     "country_name": "Andorra",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-18T06:31:43Z",
-    "total_servers": 7
+    "generated_at": "2026-03-18T18:17:20Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
-      "ip": "194.158.78.137",
-      "version": 4,
-      "country_code": "ad",
-      "country": "Andorra",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ANDORRA TELECOM, S.A.U.",
-      "domain": "ns1.xena.ad",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.7,
-        "1y": 96.84
-      }
-    },
-    {
-      "ip": "85.94.179.20",
+      "ip": "85.94.179.243",
       "version": 4,
       "country_code": "ad",
       "country": "Andorra",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "Andorra Telecom SAU",
-      "domain": "m85-94-179-20.andorpac.ad",
+      "domain": "m85-94-179-243.andorpac.ad",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -51,15 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 73.96,
-        "90d": 60.69,
-        "1y": 53.91
+        "24h": 93.75,
+        "30d": 73.28,
+        "90d": 74.45,
+        "1y": 64.86
       }
     },
     {
@@ -75,45 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 73.33,
-        "30d": 81.63,
-        "90d": 66.39,
-        "1y": 70.12
-      }
-    },
-    {
-      "ip": "85.94.179.243",
-      "version": 4,
-      "country_code": "ad",
-      "country": "Andorra",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Andorra Telecom SAU",
-      "domain": "m85-94-179-243.andorpac.ad",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 72.95,
-        "90d": 74.23,
-        "1y": 64.81
+        "24h": 87.5,
+        "30d": 82.15,
+        "90d": 66.8,
+        "1y": 70.17
       }
     },
     {
@@ -132,26 +78,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 98.98,
-        "90d": 99.21,
-        "1y": 96.42
+        "24h": 87.5,
+        "30d": 98.65,
+        "90d": 99.15,
+        "1y": 96.39
       }
     },
     {
-      "ip": "109.111.117.212",
+      "ip": "194.158.78.137",
       "version": 4,
       "country_code": "ad",
       "country": "Andorra",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "ANDORRA TELECOM, S.A.U",
-      "domain": "correu.m31estudi.com",
+      "organization": "ANDORRA TELECOM, S.A.U.",
+      "domain": "ns1.xena.ad",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -159,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.76,
-        "90d": 77.85,
-        "1y": 85.05
+        "30d": 100.0,
+        "90d": 99.7,
+        "1y": 96.85
       }
     },
     {
@@ -187,14 +133,41 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 87.76,
-        "90d": 67.42,
-        "1y": 70.97
+        "24h": 93.75,
+        "30d": 87.88,
+        "90d": 67.79,
+        "1y": 71.02
+      }
+    },
+    {
+      "ip": "109.111.117.212",
+      "version": 4,
+      "country_code": "ad",
+      "country": "Andorra",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ANDORRA TELECOM, S.A.U",
+      "domain": "correu.m31estudi.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 88.22,
+        "90d": 77.83,
+        "1y": 85.08
       }
     }
   ]
