@@ -4,37 +4,10 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-17T18:16:06Z",
+    "generated_at": "2026-03-18T06:31:43Z",
     "total_servers": 4
   },
   "resolvers": [
-    {
-      "ip": "157.175.242.142",
-      "version": 4,
-      "country_code": "bh",
-      "country": "Bahrain",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "AWS EC2 (me-south-1)",
-      "domain": "ec2-157-175-242-142.me-south-1.compute.amazonaws.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.33,
-        "30d": 95.55,
-        "90d": 98.33,
-        "1y": 96.98
-      }
-    },
     {
       "ip": "89.148.55.251",
       "version": 4,
@@ -56,10 +29,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 26.67,
-        "30d": 65.66,
-        "90d": 55.37,
-        "1y": 69.34
+        "24h": 46.67,
+        "30d": 66.29,
+        "90d": 55.68,
+        "1y": 69.32
       }
     },
     {
@@ -80,13 +53,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.26,
-        "90d": 97.84,
-        "1y": 98.65
+        "30d": 97.28,
+        "90d": 97.83,
+        "1y": 98.66
       }
     },
     {
@@ -107,13 +80,40 @@
       "blocking": {
         "ads": true,
         "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 73.31,
+        "90d": 91.53,
+        "1y": 83.39
+      }
+    },
+    {
+      "ip": "157.175.242.142",
+      "version": 4,
+      "country_code": "bh",
+      "country": "Bahrain",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "AWS EC2 (me-south-1)",
+      "domain": "ec2-157-175-242-142.me-south-1.compute.amazonaws.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 73.86,
-        "90d": 91.68,
-        "1y": 83.41
+        "24h": 93.33,
+        "30d": 95.58,
+        "90d": 98.32,
+        "1y": 96.99
       }
     }
   ]
