@@ -4,8 +4,8 @@
     "country_name": "Egypt",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-03-18T18:17:20Z",
-    "total_servers": 7
+    "generated_at": "2026-03-19T06:28:44Z",
+    "total_servers": 8
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 98.99,
-        "90d": 90.6,
-        "1y": 94.67
+        "90d": 90.55,
+        "1y": 94.68
       }
     },
     {
@@ -51,7 +51,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -85,7 +85,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.66,
-        "90d": 93.68,
+        "90d": 93.85,
         "1y": 95.33
       }
     },
@@ -106,68 +106,41 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 84.42,
-        "90d": 59.97,
-        "1y": 53.95
+        "24h": 92.86,
+        "30d": 84.36,
+        "90d": 60.13,
+        "1y": 54.08
       }
     },
     {
-      "ip": "195.246.42.210",
+      "ip": "154.236.179.226",
       "version": 4,
       "country_code": "eg",
       "country": "Egypt",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Egyptian Universities Network",
-      "domain": null,
+      "organization": "Nile Online",
+      "domain": "HOST-226-179.236.154.nile-online.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.32,
-        "90d": 96.57,
-        "1y": 97.16
-      }
-    },
-    {
-      "ip": "84.205.101.37",
-      "version": 4,
-      "country_code": "eg",
-      "country": "Egypt",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "City Stars",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 81.25,
-        "30d": 81.48,
-        "90d": 94.81,
-        "1y": 91.3
+        "24h": 86.67,
+        "30d": 86.87,
+        "90d": 89.0,
+        "1y": 89.87
       }
     },
     {
@@ -191,10 +164,64 @@
         "adult": false
       },
       "uptime": {
-        "24h": 81.25,
-        "30d": 78.71,
-        "90d": 86.3,
-        "1y": 88.59
+        "24h": 85.71,
+        "30d": 79.44,
+        "90d": 86.24,
+        "1y": 88.61
+      }
+    },
+    {
+      "ip": "84.205.101.37",
+      "version": 4,
+      "country_code": "eg",
+      "country": "Egypt",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "City Stars",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.86,
+        "30d": 82.16,
+        "90d": 94.77,
+        "1y": 91.32
+      }
+    },
+    {
+      "ip": "195.246.42.210",
+      "version": 4,
+      "country_code": "eg",
+      "country": "Egypt",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Egyptian Universities Network",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.31,
+        "90d": 96.55,
+        "1y": 97.16
       }
     }
   ]

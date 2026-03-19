@@ -4,8 +4,8 @@
     "country_name": "India",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-18T18:17:20Z",
-    "total_servers": 113
+    "generated_at": "2026-03-19T06:28:44Z",
+    "total_servers": 116
   },
   "resolvers": [
     {
@@ -26,13 +26,13 @@
       "blocking": {
         "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 52.63,
-        "90d": 38.4,
-        "1y": 39.02
+        "24h": 64.29,
+        "30d": 53.25,
+        "90d": 38.64,
+        "1y": 39.04
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 93.75,
+        "24h": 92.86,
         "30d": 80.97,
-        "90d": 62.78,
-        "1y": 71.34
+        "90d": 63.27,
+        "1y": 71.38
       }
     },
     {
@@ -78,7 +78,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -86,7 +86,7 @@
         "24h": 100.0,
         "30d": 99.66,
         "90d": 99.9,
-        "1y": 99.64
+        "1y": 99.65
       }
     },
     {
@@ -102,18 +102,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 76.99,
-        "90d": 73.87,
-        "1y": 69.68
+        "30d": 77.97,
+        "90d": 73.64,
+        "1y": 69.75
       }
     },
     {
@@ -137,10 +137,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 90.57,
-        "90d": 70.83,
-        "1y": 74.41
+        "24h": 100.0,
+        "30d": 90.54,
+        "90d": 71.21,
+        "1y": 74.45
       }
     },
     {
@@ -166,8 +166,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 98.99,
-        "90d": 97.61,
-        "1y": 93.65
+        "90d": 97.6,
+        "1y": 93.66
       }
     },
     {
@@ -187,12 +187,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.33,
+        "30d": 99.32,
         "90d": 99.75,
         "1y": 99.81
       }
@@ -215,13 +215,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 94.2,
-        "90d": 54.91,
-        "1y": 60.81
+        "24h": 100.0,
+        "30d": 94.44,
+        "90d": 55.73,
+        "1y": 60.93
       }
     },
     {
@@ -237,18 +237,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 81.48,
-        "90d": 66.2,
-        "1y": 75.78
+        "30d": 81.82,
+        "90d": 66.62,
+        "1y": 75.82
       }
     },
     {
@@ -273,9 +273,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.25,
-        "90d": 62.85,
-        "1y": 71.07
+        "30d": 91.22,
+        "90d": 63.49,
+        "1y": 71.12
       }
     },
     {
@@ -294,15 +294,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.33,
-        "90d": 44.4,
-        "1y": 43.2
+        "30d": 94.35,
+        "90d": 44.47,
+        "1y": 43.49
       }
     },
     {
@@ -321,15 +321,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 76.49,
-        "90d": 79.83,
-        "1y": 81.74
+        "90d": 79.71,
+        "1y": 81.76
+      }
+    },
+    {
+      "ip": "103.228.35.43",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Infonet online solutions private limited",
+      "domain": "static-103-228-35-43.pol.net.in",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 55.61,
+        "90d": 42.2,
+        "1y": 47.89
       }
     },
     {
@@ -348,7 +375,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
@@ -375,15 +402,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 89.23,
-        "90d": 75.35,
-        "1y": 80.15
+        "24h": 85.71,
+        "30d": 88.89,
+        "90d": 75.43,
+        "1y": 80.16
       }
     },
     {
@@ -407,10 +434,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 66.67,
-        "90d": 95.43,
-        "1y": 97.14
+        "24h": 92.86,
+        "30d": 68.75,
+        "90d": 95.39,
+        "1y": 97.12
       }
     },
     {
@@ -436,8 +463,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 88.89,
-        "90d": 65.31,
-        "1y": 71.16
+        "90d": 65.58,
+        "1y": 71.21
       }
     },
     {
@@ -456,9 +483,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
+        "ads": false,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -468,30 +495,30 @@
       }
     },
     {
-      "ip": "103.125.163.241",
+      "ip": "203.201.60.5",
       "version": 4,
       "country_code": "in",
       "country": "India",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Tshah Networks Private Limited",
-      "domain": "static-103-125-163-241.pol.net.in",
+      "organization": "Belltele",
+      "domain": "mx.belltele.in",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 61.13,
-        "90d": 81.39,
-        "1y": 85.56
+        "24h": 71.43,
+        "30d": 91.92,
+        "90d": 96.4,
+        "1y": 95.33
       }
     },
     {
@@ -515,10 +542,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 94.95,
-        "90d": 96.92,
-        "1y": 97.32
+        "24h": 92.86,
+        "30d": 94.61,
+        "90d": 97.0,
+        "1y": 97.3
       }
     },
     {
@@ -537,14 +564,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 93.75,
+        "24h": 100.0,
         "30d": 94.95,
-        "90d": 98.36,
+        "90d": 98.35,
         "1y": 98.58
       }
     },
@@ -569,10 +596,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 56.67,
-        "90d": 67.37,
-        "1y": 73.46
+        "24h": 57.14,
+        "30d": 56.51,
+        "90d": 67.44,
+        "1y": 73.47
       }
     },
     {
@@ -588,7 +615,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -624,9 +651,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.15,
-        "90d": 95.69,
-        "1y": 96.52
+        "30d": 98.55,
+        "90d": 95.66,
+        "1y": 96.53
       }
     },
     {
@@ -646,7 +673,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
@@ -677,10 +704,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 88.15,
-        "90d": 93.15,
-        "1y": 95.07
+        "24h": 92.86,
+        "30d": 88.1,
+        "90d": 93.1,
+        "1y": 95.08
+      }
+    },
+    {
+      "ip": "182.76.239.237",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Bharti Airtel Limited",
+      "domain": "nsg-static-237.239.76.182-airtel.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 28.57,
+        "30d": 31.11,
+        "90d": 29.92,
+        "1y": 26.58
       }
     },
     {
@@ -701,13 +755,67 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
         "90d": 99.95,
         "1y": 99.43
+      }
+    },
+    {
+      "ip": "123.252.254.22",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TTML",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 46.15,
+        "30d": 34.15,
+        "90d": 27.83,
+        "1y": 30.05
+      }
+    },
+    {
+      "ip": "103.57.71.140",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Sheng Li Telecom India Private Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 21.43,
+        "30d": 32.7,
+        "90d": 42.75,
+        "1y": 40.23
       }
     },
     {
@@ -723,7 +831,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -731,10 +839,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 62.68,
-        "90d": 50.91,
-        "1y": 53.88
+        "24h": 57.14,
+        "30d": 63.08,
+        "90d": 51.5,
+        "1y": 53.91
       }
     },
     {
@@ -754,13 +862,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 94.61,
-        "90d": 98.26,
+        "90d": 98.25,
         "1y": 98.8
       }
     },
@@ -786,9 +894,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 40.0,
-        "90d": 36.88,
-        "1y": 36.88
+        "30d": 53.85,
+        "90d": 38.11,
+        "1y": 38.11
       }
     },
     {
@@ -808,41 +916,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 62.5,
-        "30d": 79.35,
-        "90d": 70.97,
-        "1y": 78.3
+        "24h": 78.57,
+        "30d": 79.27,
+        "90d": 70.64,
+        "1y": 78.31
       }
     },
     {
-      "ip": "143.244.136.178",
+      "ip": "103.149.165.83",
       "version": 4,
       "country_code": "in",
       "country": "India",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "DigitalOcean, LLC",
+      "organization": "The Pinnacle Group Inc",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 93.6,
-        "90d": 92.24,
-        "1y": 94.12
+        "24h": 92.86,
+        "30d": 89.73,
+        "90d": 94.91,
+        "1y": 95.5
       }
     },
     {
@@ -861,15 +969,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 92.86,
+        "30d": 90.91,
+        "90d": 84.19,
+        "1y": 87.72
+      }
+    },
+    {
+      "ip": "122.187.48.102",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Bharti Telenet Ltd.",
+      "domain": "nsg-corporate-102.48.187.122.airtel.in",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 91.25,
-        "90d": 83.94,
-        "1y": 87.73
+        "24h": 35.71,
+        "30d": 42.54,
+        "90d": 52.28,
+        "1y": 54.5
       }
     },
     {
@@ -888,7 +1023,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
@@ -915,15 +1050,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 89.56,
-        "90d": 74.79,
-        "1y": 81.01
+        "90d": 74.84,
+        "1y": 81.03
       }
     },
     {
@@ -942,25 +1077,25 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 80.67,
-        "90d": 72.37,
-        "1y": 65.32
+        "30d": 80.51,
+        "90d": 72.65,
+        "1y": 65.5
       }
     },
     {
-      "ip": "125.23.227.44",
+      "ip": "182.78.166.110",
       "version": 4,
       "country_code": "in",
       "country": "India",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Devyani International Limited",
+      "organization": "Bharti Airtel Ltd",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -969,15 +1104,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 81.25,
-        "30d": 67.68,
-        "90d": 81.2,
-        "1y": 86.58
+        "24h": 35.71,
+        "30d": 26.57,
+        "90d": 29.59,
+        "1y": 27.95
       }
     },
     {
@@ -998,13 +1133,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 37.5,
-        "30d": 27.78,
-        "90d": 25.58,
-        "1y": 23.48
+        "24h": 57.14,
+        "30d": 27.22,
+        "90d": 25.84,
+        "1y": 23.5
       }
     },
     {
@@ -1052,13 +1187,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 89.9,
-        "90d": 76.99,
-        "1y": 82.48
+        "90d": 77.03,
+        "1y": 82.51
       }
     },
     {
@@ -1083,478 +1218,19 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 81.41,
-        "90d": 85.17,
-        "1y": 79.13
+        "30d": 81.99,
+        "90d": 85.04,
+        "1y": 79.18
       }
     },
     {
-      "ip": "182.156.155.26",
+      "ip": "103.161.31.137",
       "version": 4,
       "country_code": "in",
       "country": "India",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "GSM TUNNEL MUMBAI HYDERBAD",
-      "domain": "mail.tataidc.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 43.75,
-        "30d": 54.05,
-        "90d": 50.98,
-        "1y": 65.02
-      }
-    },
-    {
-      "ip": "49.248.102.209",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TTML BB",
-      "domain": "static-209.102.248.49-tataidc.co.in",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 89.56,
-        "90d": 71.41,
-        "1y": 78.68
-      }
-    },
-    {
-      "ip": "49.50.70.170",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Cyfuture India Pvt. Ltd.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 62.5,
-        "30d": 84.85,
-        "90d": 88.71,
-        "1y": 91.35
-      }
-    },
-    {
-      "ip": "115.240.14.242",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Reliance Jio Infocomm Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 81.25,
-        "30d": 94.28,
-        "90d": 89.07,
-        "1y": 85.57
-      }
-    },
-    {
-      "ip": "103.152.180.122",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Goodlink Communication Pvt. Ltd.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 93.75,
-        "30d": 85.27,
-        "90d": 60.83,
-        "1y": 46.93
-      }
-    },
-    {
-      "ip": "103.157.152.6",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Rnet Gigafiber Pvt Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 37.5,
-        "30d": 40.33,
-        "90d": 38.31,
-        "1y": 34.16
-      }
-    },
-    {
-      "ip": "103.213.202.166",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Digital Cable Broadband P Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 62.5,
-        "30d": 68.15,
-        "90d": 59.29,
-        "1y": 62.89
-      }
-    },
-    {
-      "ip": "182.156.154.12",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "GSM TUNNEL MUMBAI HYDERBAD",
-      "domain": "mail.tataidc.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.75,
-        "30d": 64.93,
-        "90d": 56.01,
-        "1y": 65.53
-      }
-    },
-    {
-      "ip": "182.156.154.193",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "GSM TUNNEL MUMBAI HYDERBAD",
-      "domain": "mail.tataidc.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 62.5,
-        "30d": 72.02,
-        "90d": 35.23,
-        "1y": 44.77
-      }
-    },
-    {
-      "ip": "103.183.141.233",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "MBSM",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.66,
-        "90d": 97.96,
-        "1y": 97.96
-      }
-    },
-    {
-      "ip": "182.156.155.14",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "GSM TUNNEL MUMBAI HYDERBAD",
-      "domain": "mail.tataidc.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 80.29,
-        "90d": 74.09,
-        "1y": 70.71
-      }
-    },
-    {
-      "ip": "103.171.180.48",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "edigitech",
-      "domain": "dedi.acwits.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.3,
-        "90d": 98.81,
-        "1y": 99.26
-      }
-    },
-    {
-      "ip": "116.72.131.189",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Hathway Cable and Datacom Limited",
-      "domain": "131.72.116.189.hathway.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "120.59.24.157",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "MTNL Delhi",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "182.75.174.228",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Bharti Airtel Ltd",
-      "domain": "nsg-static-228.174.75.182-airtel.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 90.74,
-        "90d": 93.75,
-        "1y": 94.31
-      }
-    },
-    {
-      "ip": "116.68.126.100",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Asianet Satellite Communications Pvt Ltd",
-      "domain": "100.126.68.116.asianet.co.in",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.75,
-        "30d": 85.52,
-        "90d": 79.92,
-        "1y": 85.68
-      }
-    },
-    {
-      "ip": "202.149.204.207",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TTML",
-      "domain": "static-207.204.149.202-tataidc.co.in",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.97,
-        "90d": 73.46,
-        "1y": 79.52
-      }
-    },
-    {
-      "ip": "112.196.19.243",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Delhi Public School",
+      "organization": "Venkata Sai Internet Pvt Ltd",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -1568,523 +1244,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.66,
-        "90d": 70.38,
-        "1y": 69.63
-      }
-    },
-    {
-      "ip": "103.84.96.6",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Stackbit Internet Services Private Limited",
-      "domain": "undefined.hostname.localhost",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.95,
-        "1y": 99.95
-      }
-    },
-    {
-      "ip": "103.177.234.10",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Coastal Live Channel",
-      "domain": "103.177.234.10.fastcablenet.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.95,
-        "1y": 99.97
-      }
-    },
-    {
-      "ip": "49.248.155.86",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Tata Teleservices (Maharashtra) Ltd",
-      "domain": "static-86.155.248.49-tataidc.co.in",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.75,
-        "30d": 90.71,
-        "90d": 75.29,
-        "1y": 81.26
-      }
-    },
-    {
-      "ip": "43.249.227.14",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Pioneer Elabs Ltd.",
-      "domain": "static-43-254-40-14.ctrls.in",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.75,
-        "30d": 87.54,
-        "90d": 72.7,
-        "1y": 79.17
-      }
-    },
-    {
-      "ip": "103.145.37.105",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Srshta Tech Solutions Private Limited",
-      "domain": "105.37.145.103.srshta.in",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 31.25,
-        "30d": 73.74,
-        "90d": 90.47,
-        "1y": 84.72
-      }
-    },
-    {
-      "ip": "202.149.205.15",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TTML",
-      "domain": "static-15.205.149.202-tataidc.co.in",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.75,
-        "30d": 88.55,
-        "90d": 71.62,
-        "1y": 78.59
-      }
-    },
-    {
-      "ip": "182.19.95.34",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vodafone Idea Ltd.",
-      "domain": "mumvfdns.vodafone.ind.in",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.0,
-        "90d": 70.19,
-        "1y": 54.33
-      }
-    },
-    {
-      "ip": "103.132.242.59",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Ishan Netsol Pvt Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 81.25,
-        "30d": 78.79,
-        "90d": 89.61,
-        "1y": 90.74
-      }
-    },
-    {
-      "ip": "120.57.113.146",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "MTNL Delhi",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 86.96,
-        "90d": 87.24,
-        "1y": 83.76
-      }
-    },
-    {
-      "ip": "115.243.147.169",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Reliance Jio Infocomm Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 93.75,
-        "30d": 93.94,
-        "90d": 96.72,
-        "1y": 95.12
-      }
-    },
-    {
-      "ip": "122.200.22.181",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "ICAN Solution Private Limited",
-      "domain": "24/0.22.200.122.static.in-as38310.icanconnect.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 56.25,
-        "30d": 46.75,
-        "90d": 45.99,
-        "1y": 36.51
-      }
-    },
-    {
-      "ip": "43.228.229.130",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vihaan Telecommunication Pvt. Ltd.",
-      "domain": "229-228-43.vihaantelecom.com.229.228.43.in-addr.arpa",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.75,
-        "30d": 91.58,
-        "90d": 78.18,
-        "1y": 83.98
-      }
-    },
-    {
-      "ip": "122.185.99.78",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Bharti Airtel Limited",
-      "domain": "nsg-corporate-78.99.185.122.airtel.in",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 25.0,
-        "30d": 23.73,
-        "90d": 24.94,
-        "1y": 22.38
-      }
-    },
-    {
-      "ip": "103.174.102.61",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Idigitalcamp Web Services",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 81.25,
-        "30d": 84.18,
-        "90d": 97.17,
-        "1y": 97.92
-      }
-    },
-    {
-      "ip": "112.133.198.54",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Railwire",
-      "domain": "ws54-198-133-112.rcil.gov.in",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 84.51,
-        "90d": 83.85,
-        "1y": 84.64
-      }
-    },
-    {
-      "ip": "103.99.150.10",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Skylink Fibernet Private Limited",
-      "domain": "ns1.skylinkfibernet.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.66,
-        "90d": 99.7,
-        "1y": 99.75
-      }
-    },
-    {
-      "ip": "103.183.141.12",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "MBSM",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.99,
-        "90d": 97.61,
-        "1y": 93.65
-      }
-    },
-    {
-      "ip": "103.51.139.51",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Nirav Infotech",
-      "domain": "103.51.139.51.cust.vnpl.co.in",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 93.75,
-        "30d": 86.2,
-        "90d": 64.21,
-        "1y": 69.46
-      }
-    },
-    {
-      "ip": "203.201.60.12",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Belltele",
-      "domain": "ns.belltele.in",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 74.19,
-        "90d": 31.24,
-        "1y": 57.06
+        "24h": 64.29,
+        "30d": 68.66,
+        "90d": 54.69,
+        "1y": 56.34
       }
     },
     {
@@ -2103,26 +1266,53 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 62.5,
-        "30d": 51.42,
-        "90d": 42.89,
-        "1y": 40.52
+        "24h": 57.14,
+        "30d": 52.63,
+        "90d": 43.38,
+        "1y": 40.6
       }
     },
     {
-      "ip": "203.88.155.222",
+      "ip": "103.57.70.98",
       "version": 4,
       "country_code": "in",
       "country": "India",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "YOU Telecom India Pvt Ltd",
-      "domain": "ice.155.client222.youtele.com",
+      "organization": "Sheng Li Telecom India Private Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 14.29,
+        "30d": 33.61,
+        "90d": 43.64,
+        "1y": 39.75
+      }
+    },
+    {
+      "ip": "103.99.110.113",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "S R Fibernet",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2132,229 +1322,67 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 57.14,
+        "30d": 82.84,
+        "90d": 78.69,
+        "1y": 80.96
+      }
+    },
+    {
+      "ip": "103.57.71.120",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Sheng Li Telecom India Private Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 14.29,
+        "30d": 29.17,
+        "90d": 44.28,
+        "1y": 42.22
+      }
+    },
+    {
+      "ip": "49.248.155.86",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Tata Teleservices (Maharashtra) Ltd",
+      "domain": "static-86.155.248.49-tataidc.co.in",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.89,
-        "90d": 74.76,
-        "1y": 75.74
-      }
-    },
-    {
-      "ip": "182.156.152.2",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Tata Teleservices Limited -GSM Division",
-      "domain": "mail.tataidc.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 48.72,
-        "90d": 34.07,
-        "1y": 50.83
-      }
-    },
-    {
-      "ip": "103.155.42.130",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Afruaz Begum",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.37,
-        "90d": 66.31,
-        "1y": 86.42
-      }
-    },
-    {
-      "ip": "103.152.79.229",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Cloudtechtiq Technologies Pvt Ltd",
-      "domain": "redrig.pro",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.32,
-        "90d": 98.6,
-        "1y": 98.6
-      }
-    },
-    {
-      "ip": "123.252.254.26",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TTML",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 56.25,
-        "30d": 57.43,
-        "90d": 44.8,
-        "1y": 56.23
-      }
-    },
-    {
-      "ip": "103.155.42.204",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Afruaz Begum",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.38,
-        "90d": 66.43,
-        "1y": 86.1
-      }
-    },
-    {
-      "ip": "103.155.42.150",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Afruaz Begum",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.38,
-        "90d": 66.43,
-        "1y": 86.17
-      }
-    },
-    {
-      "ip": "27.54.166.204",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "INPL's",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.33,
-        "90d": 98.51,
-        "1y": 96.83
-      }
-    },
-    {
-      "ip": "103.165.118.179",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Keep Secure Cloud Services PVT LTD",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.26,
-        "90d": 99.6,
-        "1y": 99.61
+        "30d": 90.67,
+        "90d": 75.98,
+        "1y": 81.29
       }
     },
     {
@@ -2373,15 +1401,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 87.54,
-        "90d": 92.94,
-        "1y": 95.41
+        "24h": 92.86,
+        "30d": 87.5,
+        "90d": 92.84,
+        "1y": 95.39
       }
     },
     {
@@ -2400,9 +1428,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -2424,7 +1452,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -2434,8 +1462,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 98.65,
-        "90d": 99.06,
-        "1y": 98.41
+        "90d": 99.05,
+        "1y": 98.42
       }
     },
     {
@@ -2460,47 +1488,20 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.91,
-        "90d": 61.63,
-        "1y": 72.91
+        "30d": 91.22,
+        "90d": 61.89,
+        "1y": 72.95
       }
     },
     {
-      "ip": "203.153.41.205",
+      "ip": "182.156.155.26",
       "version": 4,
       "country_code": "in",
       "country": "India",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "RailTel Corporation Of India Ltd",
-      "domain": "ws205-41-153-203.rcil.gov.in",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 56.25,
-        "30d": 72.36,
-        "90d": 57.16,
-        "1y": 61.64
-      }
-    },
-    {
-      "ip": "103.23.150.88",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Directorate of Information Technology",
-      "domain": "ns8.maharashtra.gov.in",
+      "organization": "GSM TUNNEL MUMBAI HYDERBAD",
+      "domain": "mail.tataidc.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2513,64 +1514,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.33,
-        "90d": 99.75,
-        "1y": 97.14
-      }
-    },
-    {
-      "ip": "111.92.96.51",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Asianet Satellite Communications Pvt Ltd",
-      "domain": "111092dynamic096051.asianet.co.in",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.53,
-        "90d": 38.33,
-        "1y": 34.42
-      }
-    },
-    {
-      "ip": "1.38.3.167",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vodafone Essar Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.85,
-        "1y": 99.37
+        "24h": 78.57,
+        "30d": 56.96,
+        "90d": 51.91,
+        "1y": 65.06
       }
     },
     {
@@ -2596,46 +1543,73 @@
       "uptime": {
         "24h": 100.0,
         "30d": 93.6,
-        "90d": 94.48,
+        "90d": 94.44,
         "1y": 95.74
       }
     },
     {
-      "ip": "111.92.85.233",
+      "ip": "103.84.96.6",
       "version": 4,
       "country_code": "in",
       "country": "India",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Asianet Satellite Communications Pvt Ltd",
-      "domain": "111092dynamic085233.asianet.co.in",
+      "organization": "Stackbit Internet Services Private Limited",
+      "domain": "undefined.hostname.localhost",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.24,
-        "90d": 79.54,
-        "1y": 81.43
+        "30d": 100.0,
+        "90d": 99.95,
+        "1y": 99.95
       }
     },
     {
-      "ip": "103.50.215.236",
+      "ip": "103.165.118.179",
       "version": 4,
       "country_code": "in",
       "country": "India",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Softech Infosol Pvt. Ltd.",
+      "organization": "Keep Secure Cloud Services PVT LTD",
       "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.26,
+        "90d": 99.59,
+        "1y": 99.62
+      }
+    },
+    {
+      "ip": "112.133.198.54",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Railwire",
+      "domain": "ws54-198-133-112.rcil.gov.in",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2644,25 +1618,25 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 68.75,
-        "30d": 57.04,
-        "90d": 48.02,
-        "1y": 42.95
+        "24h": 100.0,
+        "30d": 84.51,
+        "90d": 83.83,
+        "1y": 84.66
       }
     },
     {
-      "ip": "103.123.225.10",
+      "ip": "103.145.37.105",
       "version": 4,
       "country_code": "in",
       "country": "India",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Juweriyah Networks Private Limited",
-      "domain": "ns1.jeebr.net",
+      "organization": "Srshta Tech Solutions Private Limited",
+      "domain": "105.37.145.103.srshta.in",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2671,14 +1645,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.65,
-        "1y": 99.78
+        "24h": 64.29,
+        "30d": 73.06,
+        "90d": 90.43,
+        "1y": 84.65
       }
     },
     {
@@ -2694,29 +1668,29 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 84.52,
-        "90d": 66.73,
-        "1y": 70.94
+        "30d": 88.1,
+        "90d": 66.97,
+        "1y": 71.02
       }
     },
     {
-      "ip": "103.175.2.235",
+      "ip": "103.99.150.10",
       "version": 4,
       "country_code": "in",
       "country": "India",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Metro 7 News And Networks Private Limited",
-      "domain": null,
+      "organization": "Skylink Fibernet Private Limited",
+      "domain": "ns1.skylinkfibernet.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2730,9 +1704,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 99.97
+        "30d": 99.66,
+        "90d": 99.7,
+        "1y": 99.75
       }
     },
     {
@@ -2752,14 +1726,473 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 91.58,
-        "90d": 92.79,
-        "1y": 91.53
+        "90d": 92.75,
+        "1y": 91.55
+      }
+    },
+    {
+      "ip": "1.10.10.10",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "NIXI-Public DNS Project",
+      "domain": "dns.nic.in",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.32,
+        "90d": 99.85,
+        "1y": 99.89
+      }
+    },
+    {
+      "ip": "112.196.19.243",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Delhi Public School",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.66,
+        "90d": 70.97,
+        "1y": 69.68
+      }
+    },
+    {
+      "ip": "103.183.141.15",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "MBSM",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.32,
+        "90d": 97.65,
+        "1y": 97.72
+      }
+    },
+    {
+      "ip": "203.88.155.222",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "YOU Telecom India Pvt Ltd",
+      "domain": "ice.155.client222.youtele.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 89.23,
+        "90d": 74.82,
+        "1y": 75.78
+      }
+    },
+    {
+      "ip": "103.152.180.122",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Goodlink Communication Pvt. Ltd.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 73.33,
+        "30d": 84.28,
+        "90d": 60.69,
+        "1y": 46.84
+      }
+    },
+    {
+      "ip": "182.19.95.34",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vodafone Idea Ltd.",
+      "domain": "mumvfdns.vodafone.ind.in",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.48,
+        "90d": 70.95,
+        "1y": 54.98
+      }
+    },
+    {
+      "ip": "202.149.204.207",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TTML",
+      "domain": "static-207.204.149.202-tataidc.co.in",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.97,
+        "90d": 73.77,
+        "1y": 79.56
+      }
+    },
+    {
+      "ip": "202.149.205.15",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TTML",
+      "domain": "static-15.205.149.202-tataidc.co.in",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 88.55,
+        "90d": 72.02,
+        "1y": 78.63
+      }
+    },
+    {
+      "ip": "49.248.102.209",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TTML BB",
+      "domain": "static-209.102.248.49-tataidc.co.in",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 89.56,
+        "90d": 71.79,
+        "1y": 78.71
+      }
+    },
+    {
+      "ip": "103.157.152.6",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Rnet Gigafiber Pvt Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 42.86,
+        "30d": 39.23,
+        "90d": 38.43,
+        "1y": 34.16
+      }
+    },
+    {
+      "ip": "103.132.242.59",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Ishan Netsol Pvt Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 78.11,
+        "90d": 89.54,
+        "1y": 90.69
+      }
+    },
+    {
+      "ip": "103.50.215.236",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Softech Infosol Pvt. Ltd.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 56.88,
+        "90d": 48.49,
+        "1y": 43.03
+      }
+    },
+    {
+      "ip": "120.59.24.157",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "MTNL Delhi",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
+      }
+    },
+    {
+      "ip": "115.240.14.242",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Reliance Jio Infocomm Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.28,
+        "90d": 89.09,
+        "1y": 85.59
+      }
+    },
+    {
+      "ip": "49.50.70.170",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Cyfuture India Pvt. Ltd.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 84.51,
+        "90d": 88.62,
+        "1y": 91.33
+      }
+    },
+    {
+      "ip": "103.155.42.204",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Afruaz Begum",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.96,
+        "90d": 67.37,
+        "1y": 86.16
+      }
+    },
+    {
+      "ip": "103.213.202.166",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Digital Cable Broadband P Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 57.14,
+        "30d": 67.61,
+        "90d": 59.29,
+        "1y": 62.89
       }
     },
     {
@@ -2780,40 +2213,283 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.93,
-        "90d": 78.5,
-        "1y": 71.1
+        "30d": 92.91,
+        "90d": 78.73,
+        "1y": 71.27
       }
     },
     {
-      "ip": "115.243.102.142",
+      "ip": "203.201.60.12",
       "version": 4,
       "country_code": "in",
       "country": "India",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Reliance Jio Infocomm Limited",
+      "organization": "Belltele",
+      "domain": "ns.belltele.in",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 75.19,
+        "90d": 31.16,
+        "1y": 57.13
+      }
+    },
+    {
+      "ip": "103.155.42.130",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Afruaz Begum",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.94,
+        "90d": 67.14,
+        "1y": 86.47
+      }
+    },
+    {
+      "ip": "182.156.152.2",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Tata Teleservices Limited -GSM Division",
+      "domain": "mail.tataidc.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.99,
-        "90d": 99.29,
-        "1y": 94.81
+        "30d": 51.22,
+        "90d": 34.66,
+        "1y": 50.99
+      }
+    },
+    {
+      "ip": "182.75.174.228",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Bharti Airtel Ltd",
+      "domain": "nsg-static-228.174.75.182-airtel.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 91.08,
+        "90d": 93.7,
+        "1y": 94.32
+      }
+    },
+    {
+      "ip": "27.54.166.204",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "INPL's",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.32,
+        "90d": 98.55,
+        "1y": 96.83
+      }
+    },
+    {
+      "ip": "103.152.79.229",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Cloudtechtiq Technologies Pvt Ltd",
+      "domain": "redrig.pro",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.32,
+        "90d": 98.62,
+        "1y": 98.62
+      }
+    },
+    {
+      "ip": "43.230.201.109",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "T4C",
+      "domain": "mx.quickpost.app",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.32,
+        "90d": 98.85,
+        "1y": 99.04
+      }
+    },
+    {
+      "ip": "103.123.225.10",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Juweriyah Networks Private Limited",
+      "domain": "ns1.jeebr.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.65,
+        "1y": 99.78
+      }
+    },
+    {
+      "ip": "120.57.113.146",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "MTNL Delhi",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 87.32,
+        "90d": 87.51,
+        "1y": 83.79
+      }
+    },
+    {
+      "ip": "103.171.180.48",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "edigitech",
+      "domain": "dedi.acwits.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.28,
+        "90d": 98.8,
+        "1y": 99.26
       }
     },
     {
@@ -2837,91 +2513,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 80.17,
-        "90d": 68.6,
-        "1y": 66.94
-      }
-    },
-    {
-      "ip": "14.96.97.162",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Tata Teleservices LTD",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.75,
-        "30d": 85.59,
-        "90d": 71.94,
-        "1y": 78.48
-      }
-    },
-    {
-      "ip": "122.15.192.21",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "VODAFONE-STATIC",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
         "24h": 100.0,
-        "30d": 97.98,
-        "90d": 98.31,
-        "1y": 98.25
-      }
-    },
-    {
-      "ip": "122.160.254.158",
-      "version": 4,
-      "country_code": "in",
-      "country": "India",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Bharti Airtel Ltd.",
-      "domain": "abts-north-static-158.254.160.122.airtelbroadband.in",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 91.25,
-        "90d": 92.64,
-        "1y": 94.56
+        "30d": 80.09,
+        "90d": 68.76,
+        "1y": 67.0
       }
     },
     {
@@ -2940,8 +2535,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
@@ -2952,14 +2547,95 @@
       }
     },
     {
-      "ip": "1.10.10.10",
+      "ip": "103.175.2.235",
       "version": 4,
       "country_code": "in",
       "country": "India",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "NIXI-Public DNS Project",
-      "domain": "dns.nic.in",
+      "organization": "Metro 7 News And Networks Private Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 99.97
+      }
+    },
+    {
+      "ip": "103.57.71.156",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Sheng Li Telecom India Private Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 14.29,
+        "30d": 30.25,
+        "90d": 42.45,
+        "1y": 39.1
+      }
+    },
+    {
+      "ip": "103.51.139.51",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Nirav Infotech",
+      "domain": "103.51.139.51.cust.vnpl.co.in",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 78.57,
+        "30d": 85.19,
+        "90d": 64.26,
+        "1y": 69.43
+      }
+    },
+    {
+      "ip": "1.38.3.167",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vodafone Essar Limited",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2969,44 +2645,179 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.33,
+        "30d": 100.0,
         "90d": 99.85,
-        "1y": 99.89
+        "1y": 99.37
       }
     },
     {
-      "ip": "43.230.201.109",
+      "ip": "111.92.85.233",
       "version": 4,
       "country_code": "in",
       "country": "India",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "T4C",
-      "domain": "mx.quickpost.app",
+      "organization": "Asianet Satellite Communications Pvt Ltd",
+      "domain": "111092dynamic085233.asianet.co.in",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 90.24,
+        "90d": 79.72,
+        "1y": 81.46
+      }
+    },
+    {
+      "ip": "116.68.126.100",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Asianet Satellite Communications Pvt Ltd",
+      "domain": "100.126.68.116.asianet.co.in",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 92.86,
+        "30d": 85.19,
+        "90d": 80.18,
+        "1y": 85.67
+      }
+    },
+    {
+      "ip": "203.153.41.205",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "RailTel Corporation Of India Ltd",
+      "domain": "ws205-41-153-203.rcil.gov.in",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 71.9,
+        "90d": 57.62,
+        "1y": 61.68
+      }
+    },
+    {
+      "ip": "115.243.102.142",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Reliance Jio Infocomm Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.32,
-        "90d": 98.86,
-        "1y": 99.04
+        "30d": 98.99,
+        "90d": 99.34,
+        "1y": 94.83
       }
     },
     {
-      "ip": "103.183.141.15",
+      "ip": "122.185.99.78",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Bharti Airtel Limited",
+      "domain": "nsg-corporate-78.99.185.122.airtel.in",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 35.71,
+        "30d": 23.93,
+        "90d": 25.23,
+        "1y": 22.4
+      }
+    },
+    {
+      "ip": "103.155.42.150",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Afruaz Begum",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.96,
+        "90d": 67.37,
+        "1y": 86.24
+      }
+    },
+    {
+      "ip": "103.183.141.233",
       "version": 4,
       "country_code": "in",
       "country": "India",
@@ -3027,20 +2838,182 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.33,
-        "90d": 97.66,
-        "1y": 97.71
+        "30d": 99.66,
+        "90d": 97.95,
+        "1y": 97.97
       }
     },
     {
-      "ip": "125.19.19.84",
+      "ip": "43.249.227.14",
       "version": 4,
       "country_code": "in",
       "country": "India",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Bharti Airtel Limited",
-      "domain": "mail.incometax.gov.in",
+      "organization": "Pioneer Elabs Ltd.",
+      "domain": "static-43-254-40-14.ctrls.in",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 92.86,
+        "30d": 87.54,
+        "90d": 72.7,
+        "1y": 79.2
+      }
+    },
+    {
+      "ip": "14.96.97.162",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Tata Teleservices LTD",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.86,
+        "30d": 85.53,
+        "90d": 72.08,
+        "1y": 78.51
+      }
+    },
+    {
+      "ip": "103.23.150.88",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Directorate of Information Technology",
+      "domain": "ns8.maharashtra.gov.in",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.33,
+        "90d": 99.75,
+        "1y": 97.14
+      }
+    },
+    {
+      "ip": "122.15.192.21",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "VODAFONE-STATIC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.98,
+        "90d": 98.3,
+        "1y": 98.25
+      }
+    },
+    {
+      "ip": "122.160.254.158",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Bharti Airtel Ltd.",
+      "domain": "abts-north-static-158.254.160.122.airtelbroadband.in",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.86,
+        "30d": 91.25,
+        "90d": 92.6,
+        "1y": 94.57
+      }
+    },
+    {
+      "ip": "103.57.70.34",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Sheng Li Telecom India Private Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 14.29,
+        "30d": 28.57,
+        "90d": 42.39,
+        "1y": 39.23
+      }
+    },
+    {
+      "ip": "111.92.96.51",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Asianet Satellite Communications Pvt Ltd",
+      "domain": "111092dynamic096051.asianet.co.in",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -3053,10 +3026,118 @@
         "adult": true
       },
       "uptime": {
-        "24h": 56.25,
-        "30d": 64.13,
-        "90d": 64.64,
-        "1y": 64.38
+        "24h": 100.0,
+        "30d": 96.63,
+        "90d": 38.82,
+        "1y": 34.84
+      }
+    },
+    {
+      "ip": "103.183.141.12",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "MBSM",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.99,
+        "90d": 97.6,
+        "1y": 93.66
+      }
+    },
+    {
+      "ip": "103.57.71.2",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Sheng Li Telecom India Private Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 14.29,
+        "30d": 30.21,
+        "90d": 44.28,
+        "1y": 40.18
+      }
+    },
+    {
+      "ip": "103.177.234.10",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Coastal Live Channel",
+      "domain": "103.177.234.10.fastcablenet.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.95,
+        "1y": 99.97
+      }
+    },
+    {
+      "ip": "43.228.229.130",
+      "version": 4,
+      "country_code": "in",
+      "country": "India",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vihaan Telecommunication Pvt. Ltd.",
+      "domain": "229-228-43.vihaantelecom.com.229.228.43.in-addr.arpa",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 91.22,
+        "90d": 78.32,
+        "1y": 83.98
       }
     }
   ]

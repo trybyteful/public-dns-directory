@@ -4,8 +4,8 @@
     "country_name": "Finland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-18T18:17:20Z",
-    "total_servers": 10
+    "generated_at": "2026-03-19T06:28:44Z",
+    "total_servers": 9
   },
   "resolvers": [
     {
@@ -29,9 +29,9 @@
         "adult": true
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 97.98,
-        "90d": 98.06,
+        "24h": 92.86,
+        "30d": 97.97,
+        "90d": 98.05,
         "1y": 98.36
       }
     },
@@ -51,8 +51,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -78,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 68.75,
-        "30d": 47.17,
-        "90d": 50.96,
-        "1y": 65.12
+        "24h": 78.57,
+        "30d": 48.78,
+        "90d": 51.22,
+        "1y": 65.15
       }
     },
     {
@@ -110,10 +110,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 93.27,
+        "24h": 92.86,
+        "30d": 92.93,
         "90d": 90.55,
-        "1y": 91.34
+        "1y": 91.32
       }
     },
     {
@@ -144,60 +144,6 @@
       }
     },
     {
-      "ip": "89.236.106.156",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TNNet Oy",
-      "domain": "59ec6a9c.adsl.tnnet.fi",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.75,
-        "30d": 84.51,
-        "90d": 64.76,
-        "1y": 76.46
-      }
-    },
-    {
-      "ip": "80.220.131.128",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TeliaSonera Finland Oyj",
-      "domain": "dsl-roibng12-50dc83-128.dhcp.inet.fi",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 60.18,
-        "90d": 58.41,
-        "1y": 59.99
-      }
-    },
-    {
       "ip": "95.216.141.159",
       "version": 4,
       "country_code": "fi",
@@ -214,7 +160,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -241,13 +187,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.46,
-        "90d": 99.28,
+        "30d": 96.44,
+        "90d": 99.27,
         "1y": 99.55
       }
     },
@@ -276,6 +222,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "80.186.145.164",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Elisa Oyj",
+      "domain": "80-186-145-164.elisa-mobile.fi",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 57.14,
+        "30d": 78.73,
+        "90d": 82.04,
+        "1y": 85.84
       }
     }
   ]
