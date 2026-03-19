@@ -4,37 +4,10 @@
     "country_name": "Namibia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-03-19T06:28:44Z",
-    "total_servers": 5
+    "generated_at": "2026-03-19T18:13:45Z",
+    "total_servers": 2
   },
   "resolvers": [
-    {
-      "ip": "41.63.244.89",
-      "version": 4,
-      "country_code": "na",
-      "country": "Namibia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "DIA",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 42.86,
-        "30d": 74.82,
-        "90d": 80.67,
-        "1y": 85.85
-      }
-    },
     {
       "ip": "41.63.249.222",
       "version": 4,
@@ -48,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.93,
-        "90d": 90.25,
-        "1y": 93.58
+        "30d": 93.29,
+        "90d": 90.22,
+        "1y": 93.6
       }
     },
     {
@@ -78,69 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 50.0,
-        "30d": 59.57,
-        "90d": 60.69,
-        "1y": 62.58
-      }
-    },
-    {
-      "ip": "41.218.90.154",
-      "version": 4,
-      "country_code": "na",
-      "country": "Namibia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Paratus Regional - Namibia",
-      "domain": "ns1.methealth.com.na",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 92.86,
-        "30d": 95.61,
-        "90d": 96.9,
-        "1y": 97.79
-      }
-    },
-    {
-      "ip": "41.63.244.146",
-      "version": 4,
-      "country_code": "na",
-      "country": "Namibia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "DIA",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 35.71,
-        "30d": 55.97,
-        "90d": 59.62,
-        "1y": 61.13
+        "30d": 60.17,
+        "90d": 60.86,
+        "1y": 62.54
       }
     }
   ]

@@ -4,8 +4,8 @@
     "country_name": "Lebanon",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-19T06:28:44Z",
-    "total_servers": 5
+    "generated_at": "2026-03-19T18:13:45Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 63.84,
+        "24h": 42.86,
+        "30d": 62.77,
         "90d": 28.67,
-        "1y": 14.42
+        "1y": 14.48
+      }
+    },
+    {
+      "ip": "78.108.164.125",
+      "version": 4,
+      "country_code": "lb",
+      "country": "Lebanon",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TerraNet sal",
+      "domain": "dsl-78-108-164-125.terra.net.lb",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 28.57,
+        "30d": 34.33,
+        "90d": 34.42,
+        "1y": 33.19
       }
     },
     {
@@ -51,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 85.71,
-        "30d": 89.19,
-        "90d": 90.84,
-        "1y": 89.33
+        "30d": 89.26,
+        "90d": 90.73,
+        "1y": 89.32
       }
     },
     {
@@ -78,8 +105,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -105,15 +132,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 92.86,
-        "30d": 83.84,
-        "90d": 78.13,
-        "1y": 74.18
+        "30d": 83.56,
+        "90d": 78.58,
+        "1y": 74.2
       }
     },
     {
@@ -133,14 +160,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 70.71,
-        "90d": 58.05,
-        "1y": 67.02
+        "24h": 71.43,
+        "30d": 70.81,
+        "90d": 58.12,
+        "1y": 66.99
       }
     }
   ]

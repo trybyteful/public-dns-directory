@@ -4,62 +4,35 @@
     "country_name": "Nicaragua",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-03-19T06:28:44Z",
-    "total_servers": 2
+    "generated_at": "2026-03-19T18:13:45Z",
+    "total_servers": 1
   },
   "resolvers": [
     {
-      "ip": "190.124.39.34",
+      "ip": "161.0.62.217",
       "version": 4,
       "country_code": "ni",
       "country": "Nicaragua",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "Telefonia Celular de Nicaragua SA",
-      "domain": "static.navega.com.ni",
+      "organization": "IBW Communications",
+      "domain": "host-217-62-0-161.ibw.com.ni",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 92.86,
-        "30d": 89.9,
-        "90d": 87.04,
-        "1y": 90.97
-      }
-    },
-    {
-      "ip": "45.170.224.187",
-      "version": 4,
-      "country_code": "ni",
-      "country": "Nicaragua",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "EMPRESA NACIONAL DE TRANSMISIÓN ELÉCTRICA",
-      "domain": "dns1.energias-renovables.gob.ni",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 53.47,
-        "90d": 48.21,
-        "1y": 73.16
+        "24h": 35.71,
+        "30d": 52.23,
+        "90d": 39.75,
+        "1y": 30.64
       }
     }
   ]
