@@ -4,7 +4,7 @@
     "country_name": "Denmark",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-20T06:25:48Z",
+    "generated_at": "2026-03-20T18:09:09Z",
     "total_servers": 24
   },
   "resolvers": [
@@ -48,18 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 90.67,
-        "90d": 71.39,
-        "1y": 76.35
+        "24h": 93.33,
+        "30d": 90.4,
+        "90d": 71.38,
+        "1y": 76.37
       }
     },
     {
@@ -80,12 +80,12 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.6,
-        "90d": 99.18,
+        "30d": 94.66,
+        "90d": 99.17,
         "1y": 98.41
       }
     },
@@ -105,13 +105,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.0,
+        "30d": 99.01,
         "90d": 99.54,
         "1y": 99.67
       }
@@ -132,14 +132,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 93.67,
-        "90d": 96.15,
+        "24h": 93.33,
+        "30d": 93.71,
+        "90d": 96.12,
         "1y": 97.31
       }
     },
@@ -161,12 +161,12 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.53,
-        "90d": 98.67,
+        "30d": 93.59,
+        "90d": 98.66,
         "1y": 99.29
       }
     },
@@ -186,14 +186,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.67,
-        "90d": 99.7,
+        "90d": 99.69,
         "1y": 99.81
       }
     },
@@ -210,7 +210,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -222,87 +222,6 @@
         "30d": 99.67,
         "90d": 99.49,
         "1y": 99.43
-      }
-    },
-    {
-      "ip": "87.49.54.222",
-      "version": 4,
-      "country_code": "dk",
-      "country": "Denmark",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Toejgaarden A-S",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 81.55,
-        "90d": 73.61,
-        "1y": 79.04
-      }
-    },
-    {
-      "ip": "185.221.30.35",
-      "version": 4,
-      "country_code": "dk",
-      "country": "Denmark",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Vestnet Server IP",
-      "domain": "ip185221030035.vest.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 86.67,
-        "30d": 78.68,
-        "90d": 88.07,
-        "1y": 88.91
-      }
-    },
-    {
-      "ip": "94.138.81.162",
-      "version": 4,
-      "country_code": "dk",
-      "country": "Denmark",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Norlys Fibernet",
-      "domain": "94-138-81-162.norlyscustomer.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.24,
-        "1y": 99.54
       }
     },
     {
@@ -322,14 +241,68 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.7,
+        "90d": 99.69,
         "1y": 99.78
+      }
+    },
+    {
+      "ip": "89.23.231.31",
+      "version": 4,
+      "country_code": "dk",
+      "country": "Denmark",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Fiberby ApS",
+      "domain": "89-23-231-31.ip4.fiberby.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 73.72,
+        "90d": 81.1,
+        "1y": 79.19
+      }
+    },
+    {
+      "ip": "81.27.217.7",
+      "version": 4,
+      "country_code": "dk",
+      "country": "Denmark",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Pharmakon a/s",
+      "domain": "ns7.pharmakon.dk",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.64,
+        "90d": 93.87,
+        "1y": 96.42
       }
     },
     {
@@ -354,9 +327,90 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.0,
+        "30d": 99.01,
         "90d": 99.54,
         "1y": 99.48
+      }
+    },
+    {
+      "ip": "87.49.54.222",
+      "version": 4,
+      "country_code": "dk",
+      "country": "Denmark",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Toejgaarden A-S",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 82.48,
+        "90d": 73.8,
+        "1y": 79.09
+      }
+    },
+    {
+      "ip": "185.221.30.35",
+      "version": 4,
+      "country_code": "dk",
+      "country": "Denmark",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Vestnet Server IP",
+      "domain": "ip185221030035.vest.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 78.91,
+        "90d": 88.15,
+        "1y": 88.93
+      }
+    },
+    {
+      "ip": "87.62.97.71",
+      "version": 4,
+      "country_code": "dk",
+      "country": "Denmark",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TDC Holding A/S",
+      "domain": "0x573e6147.static.cust.fastspeed.dk",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 91.72,
+        "90d": 91.74,
+        "1y": 93.16
       }
     },
     {
@@ -375,15 +429,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 93.33,
-        "30d": 93.67,
+        "30d": 93.38,
         "90d": 91.43,
-        "1y": 89.51
+        "1y": 89.5
       }
     },
     {
@@ -408,7 +462,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.06,
+        "30d": 96.8,
         "90d": 99.23,
         "1y": 99.54
       }
@@ -430,57 +484,30 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.67,
-        "90d": 81.25,
-        "1y": 84.54
+        "30d": 90.76,
+        "90d": 82.02,
+        "1y": 84.58
       }
     },
     {
-      "ip": "87.62.97.71",
+      "ip": "94.138.81.162",
       "version": 4,
       "country_code": "dk",
       "country": "Denmark",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "TDC Holding A/S",
-      "domain": "0x573e6147.static.cust.fastspeed.dk",
+      "organization": "Norlys Fibernet",
+      "domain": "94-138-81-162.norlyscustomer.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 91.67,
-        "90d": 91.58,
-        "1y": 93.15
-      }
-    },
-    {
-      "ip": "85.27.252.136",
-      "version": 4,
-      "country_code": "dk",
-      "country": "Denmark",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Stofa A/S",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -489,36 +516,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.33,
-        "90d": 92.75,
-        "1y": 92.5
-      }
-    },
-    {
-      "ip": "87.54.6.134",
-      "version": 4,
-      "country_code": "dk",
-      "country": "Denmark",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TDC Holding",
-      "domain": "cpe.ge-5-1-2-100.hgnqe10.dk.customer.tdc.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.67,
-        "90d": 99.44,
-        "1y": 99.57
+        "30d": 100.0,
+        "90d": 99.23,
+        "1y": 99.54
       }
     },
     {
@@ -538,30 +538,30 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.67,
-        "90d": 96.6,
+        "30d": 98.68,
+        "90d": 96.58,
         "1y": 98.02
       }
     },
     {
-      "ip": "81.27.217.7",
+      "ip": "87.54.6.134",
       "version": 4,
       "country_code": "dk",
       "country": "Denmark",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Pharmakon a/s",
-      "domain": "ns7.pharmakon.dk",
+      "organization": "TDC Holding",
+      "domain": "cpe.ge-5-1-2-100.hgnqe10.dk.customer.tdc.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -569,10 +569,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 94.58,
-        "90d": 93.91,
-        "1y": 96.41
+        "24h": 100.0,
+        "30d": 99.67,
+        "90d": 99.44,
+        "1y": 99.57
       }
     },
     {
@@ -591,14 +591,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.0,
-        "90d": 97.11,
+        "30d": 97.02,
+        "90d": 97.09,
         "1y": 98.18
       }
     },
@@ -618,26 +618,26 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.0,
-        "90d": 97.51,
-        "1y": 98.31
+        "30d": 97.02,
+        "90d": 97.5,
+        "1y": 98.32
       }
     },
     {
-      "ip": "89.23.231.31",
+      "ip": "85.27.252.136",
       "version": 4,
       "country_code": "dk",
       "country": "Denmark",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Fiberby ApS",
-      "domain": "89-23-231-31.ip4.fiberby.net",
+      "organization": "Stofa A/S",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -646,14 +646,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 73.43,
-        "90d": 81.23,
-        "1y": 79.14
+        "24h": 100.0,
+        "30d": 92.41,
+        "90d": 92.75,
+        "1y": 92.52
       }
     }
   ]

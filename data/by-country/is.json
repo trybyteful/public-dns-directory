@@ -4,10 +4,37 @@
     "country_name": "Iceland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-20T06:25:48Z",
+    "generated_at": "2026-03-20T18:09:09Z",
     "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "157.157.166.191",
+      "version": 4,
+      "country_code": "is",
+      "country": "Iceland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ICENET",
+      "domain": "157-157-166-191.dsl.dynamic.simnet.is",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 53.33,
+        "30d": 50.43,
+        "90d": 58.88,
+        "1y": 59.64
+      }
+    },
     {
       "ip": "46.22.99.226",
       "version": 4,
@@ -24,42 +51,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.33,
-        "90d": 96.91,
+        "30d": 98.35,
+        "90d": 96.89,
         "1y": 97.61
-      }
-    },
-    {
-      "ip": "82.148.69.71",
-      "version": 4,
-      "country_code": "is",
-      "country": "Iceland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Fsnet",
-      "domain": "kvenno-7.fsnet.is",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.0,
-        "90d": 99.8,
-        "1y": 98.4
       }
     }
   ]
