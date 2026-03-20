@@ -4,8 +4,8 @@
     "country_name": "Saudi Arabia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-19T18:13:45Z",
-    "total_servers": 7
+    "generated_at": "2026-03-20T06:25:48Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -20,17 +20,17 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.66,
+        "30d": 99.67,
         "90d": 99.9,
         "1y": 99.81
       }
@@ -79,68 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.33,
-        "90d": 98.79,
+        "90d": 98.78,
         "1y": 98.83
-      }
-    },
-    {
-      "ip": "85.194.70.173",
-      "version": 4,
-      "country_code": "sa",
-      "country": "Saudi Arabia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Mobily Corp.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.66,
-        "90d": 99.7,
-        "1y": 99.73
-      }
-    },
-    {
-      "ip": "85.194.70.174",
-      "version": 4,
-      "country_code": "sa",
-      "country": "Saudi Arabia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Mobily Corp.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.33,
-        "90d": 99.75,
-        "1y": 99.7
       }
     },
     {
@@ -171,14 +117,14 @@
       }
     },
     {
-      "ip": "212.26.7.10",
+      "ip": "85.194.70.174",
       "version": 4,
       "country_code": "sa",
       "country": "Saudi Arabia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Security Forces Hospital",
-      "domain": "dns3.sfh.med.sa",
+      "organization": "Mobily Corp.",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -186,15 +132,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 21.43,
-        "30d": 31.47,
-        "90d": 27.52,
-        "1y": 27.45
+        "24h": 100.0,
+        "30d": 99.33,
+        "90d": 99.75,
+        "1y": 99.7
+      }
+    },
+    {
+      "ip": "85.194.70.173",
+      "version": 4,
+      "country_code": "sa",
+      "country": "Saudi Arabia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Mobily Corp.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.67,
+        "90d": 99.7,
+        "1y": 99.73
       }
     }
   ]

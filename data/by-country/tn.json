@@ -4,7 +4,7 @@
     "country_name": "Tunisia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-03-19T18:13:45Z",
+    "generated_at": "2026-03-20T06:25:48Z",
     "total_servers": 5
   },
   "resolvers": [
@@ -30,7 +30,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.66,
+        "30d": 99.67,
         "90d": 99.75,
         "1y": 99.84
       }
@@ -48,7 +48,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -60,6 +60,33 @@
         "30d": 99.33,
         "90d": 99.7,
         "1y": 99.84
+      }
+    },
+    {
+      "ip": "41.225.62.114",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ATI - Agence Tunisienne Internet",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 59.41,
+        "90d": 59.41,
+        "1y": 59.41
       }
     },
     {
@@ -78,14 +105,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.99,
-        "90d": 99.5,
+        "30d": 98.33,
+        "90d": 99.49,
         "1y": 99.59
       }
     },
@@ -112,35 +139,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.5,
-        "1y": 98.58
-      }
-    },
-    {
-      "ip": "41.231.62.166",
-      "version": 4,
-      "country_code": "tn",
-      "country": "Tunisia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "OrangeTunisie",
-      "domain": "MAIL.NAFSHIP.COM",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 77.85,
-        "90d": 79.78,
-        "1y": 77.88
+        "90d": 99.49,
+        "1y": 98.59
       }
     }
   ]
