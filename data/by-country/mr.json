@@ -4,35 +4,35 @@
     "country_name": "Mauritania",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-03-20T18:09:09Z",
-    "total_servers": 3
+    "generated_at": "2026-03-21T06:19:39Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "82.151.70.84",
+      "ip": "82.151.90.1",
       "version": 4,
       "country_code": "mr",
       "country": "Mauritania",
       "continent_code": "af",
       "continent": "Africa",
       "organization": "Mauritel Network",
-      "domain": "82.151.70.84",
+      "domain": "bow.mauritel.mr",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": false
+        "aware": false,
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 91.49,
-        "90d": 98.2,
-        "1y": 99.02
+        "24h": 80.0,
+        "30d": 90.58,
+        "90d": 96.09,
+        "1y": 97.84
       }
     },
     {
@@ -53,13 +53,40 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 71.07,
-        "90d": 79.59,
-        "1y": 86.7
+        "30d": 71.63,
+        "90d": 79.47,
+        "1y": 86.72
+      }
+    },
+    {
+      "ip": "82.151.70.84",
+      "version": 4,
+      "country_code": "mr",
+      "country": "Mauritania",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Mauritel Network",
+      "domain": "82.151.70.84",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 91.55,
+        "90d": 98.19,
+        "1y": 99.02
       }
     },
     {
@@ -79,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 76.6,
-        "90d": 26.87,
-        "1y": 89.23
+        "30d": 80.0,
+        "90d": 31.21,
+        "1y": 89.28
       }
     }
   ]
