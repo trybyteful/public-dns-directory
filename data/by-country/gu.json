@@ -4,7 +4,7 @@
     "country_name": "Guam",
     "continent_code": "oc",
     "continent_name": "Oceania",
-    "generated_at": "2026-03-21T06:19:39Z",
+    "generated_at": "2026-03-21T18:04:45Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
+        "ads": false,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 55.63,
-        "90d": 67.22,
-        "1y": 71.06
+        "24h": 100.0,
+        "30d": 56.29,
+        "90d": 67.17,
+        "1y": 71.11
       }
     },
     {
@@ -48,18 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 93.33,
-        "30d": 89.53,
-        "90d": 88.49,
-        "1y": 86.63
+        "30d": 89.61,
+        "90d": 88.53,
+        "1y": 86.66
       }
     },
     {
@@ -75,18 +75,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 73.33,
-        "30d": 74.55,
-        "90d": 72.71,
-        "1y": 68.26
+        "24h": 93.33,
+        "30d": 75.09,
+        "90d": 72.77,
+        "1y": 68.29
       }
     }
   ]
