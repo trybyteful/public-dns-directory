@@ -4,8 +4,8 @@
     "country_name": "Egypt",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-03-22T06:24:32Z",
-    "total_servers": 7
+    "generated_at": "2026-03-22T18:05:04Z",
+    "total_servers": 8
   },
   "resolvers": [
     {
@@ -30,9 +30,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.04,
-        "90d": 90.6,
-        "1y": 94.74
+        "30d": 99.06,
+        "90d": 90.57,
+        "1y": 94.76
       }
     },
     {
@@ -51,9 +51,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "ads": true,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -78,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.68,
-        "90d": 93.93,
-        "1y": 95.39
+        "30d": 99.69,
+        "90d": 93.9,
+        "1y": 95.4
       }
     },
     {
@@ -105,15 +105,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 86.64,
-        "90d": 60.82,
-        "1y": 54.77
+        "24h": 94.44,
+        "30d": 87.58,
+        "90d": 60.7,
+        "1y": 54.94
+      }
+    },
+    {
+      "ip": "195.246.42.210",
+      "version": 4,
+      "country_code": "eg",
+      "country": "Egypt",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Egyptian Universities Network",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.42,
+        "90d": 96.51,
+        "1y": 97.2
       }
     },
     {
@@ -138,36 +165,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.82,
-        "90d": 88.64,
-        "1y": 90.0
-      }
-    },
-    {
-      "ip": "195.246.42.210",
-      "version": 4,
-      "country_code": "eg",
-      "country": "Egypt",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Egyptian Universities Network",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.4,
-        "90d": 96.52,
-        "1y": 97.2
+        "30d": 88.99,
+        "90d": 88.59,
+        "1y": 90.02
       }
     },
     {
@@ -187,14 +187,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 81.12,
-        "90d": 94.16,
-        "1y": 91.12
+        "24h": 88.89,
+        "30d": 81.44,
+        "90d": 94.13,
+        "1y": 91.15
+      }
+    },
+    {
+      "ip": "62.193.72.151",
+      "version": 4,
+      "country_code": "eg",
+      "country": "Egypt",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Etisalat",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 22.22,
+        "30d": 13.95,
+        "90d": 26.11,
+        "1y": 17.66
       }
     }
   ]
