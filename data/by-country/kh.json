@@ -4,10 +4,37 @@
     "country_name": "Cambodia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-23T06:35:27Z",
+    "generated_at": "2026-03-23T18:14:17Z",
     "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "202.58.18.18",
+      "version": 4,
+      "country_code": "kh",
+      "country": "Cambodia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Xinwei (Cambodia) Telecom Co. Ltd",
+      "domain": "ns1.megatruenet.com.kh",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.69,
+        "90d": 99.68,
+        "1y": 99.81
+      }
+    },
     {
       "ip": "111.118.147.236",
       "version": 4,
@@ -26,40 +53,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 88.24,
-        "30d": 63.57,
-        "90d": 51.73,
-        "1y": 50.53
-      }
-    },
-    {
-      "ip": "202.58.18.18",
-      "version": 4,
-      "country_code": "kh",
-      "country": "Cambodia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Xinwei (Cambodia) Telecom Co. Ltd",
-      "domain": "ns1.megatruenet.com.kh",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.69,
-        "90d": 99.69,
-        "1y": 99.81
+        "24h": 86.67,
+        "30d": 63.82,
+        "90d": 51.91,
+        "1y": 50.59
       }
     },
     {
@@ -78,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 82.35,
-        "30d": 36.61,
-        "90d": 34.73,
-        "1y": 41.93
+        "24h": 62.5,
+        "30d": 37.5,
+        "90d": 35.11,
+        "1y": 41.95
       }
     }
   ]
