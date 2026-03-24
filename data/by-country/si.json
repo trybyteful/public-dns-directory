@@ -4,7 +4,7 @@
     "country_name": "Slovenia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-23T18:14:17Z",
+    "generated_at": "2026-03-24T06:31:33Z",
     "total_servers": 14
   },
   "resolvers": [
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 42.98,
-        "90d": 52.27,
-        "1y": 56.1
+        "24h": 100.0,
+        "30d": 44.59,
+        "90d": 52.37,
+        "1y": 56.18
       }
     },
     {
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 86.29,
-        "90d": 68.21,
-        "1y": 67.96
+        "30d": 86.73,
+        "90d": 68.4,
+        "1y": 68.03
       }
     },
     {
@@ -78,9 +78,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "ads": true,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -105,15 +105,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.99,
-        "90d": 92.73,
-        "1y": 90.13
+        "30d": 98.01,
+        "90d": 92.69,
+        "1y": 90.16
+      }
+    },
+    {
+      "ip": "89.143.12.246",
+      "version": 4,
+      "country_code": "si",
+      "country": "Slovenia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "SiOL.SI",
+      "domain": "mail.sds.si",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 13.33,
+        "30d": 27.49,
+        "90d": 50.0,
+        "1y": 58.71
       }
     },
     {
@@ -132,15 +159,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.39,
-        "90d": 80.74,
-        "1y": 82.69
+        "30d": 94.75,
+        "90d": 80.89,
+        "1y": 82.73
       }
     },
     {
@@ -159,96 +186,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.75,
-        "30d": 85.67,
-        "90d": 67.05,
-        "1y": 70.5
-      }
-    },
-    {
-      "ip": "86.58.64.173",
-      "version": 4,
-      "country_code": "si",
-      "country": "Slovenia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Broadband Network Services",
-      "domain": "86-58-64-173.dynamic.telemach.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 56.25,
-        "30d": 56.72,
-        "90d": 57.03,
-        "1y": 45.75
-      }
-    },
-    {
-      "ip": "89.143.244.210",
-      "version": 4,
-      "country_code": "si",
-      "country": "Slovenia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telekom Slovenije d.d",
-      "domain": "bsn-143-244-210.static.siol.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 76.95,
-        "90d": 61.21,
-        "1y": 59.07
-      }
-    },
-    {
-      "ip": "84.255.244.10",
-      "version": 4,
-      "country_code": "si",
-      "country": "Slovenia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "T-2 d.o.o.",
-      "domain": "84-255-244-10.static.t-2.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
         "24h": 93.33,
-        "30d": 86.92,
-        "90d": 74.38,
-        "1y": 75.04
+        "30d": 86.11,
+        "90d": 67.35,
+        "1y": 70.53
       }
     },
     {
@@ -272,10 +218,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 86.92,
-        "90d": 86.37,
-        "1y": 91.32
+        "24h": 93.33,
+        "30d": 87.65,
+        "90d": 86.29,
+        "1y": 91.34
       }
     },
     {
@@ -294,15 +240,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 68.75,
-        "30d": 55.08,
-        "90d": 54.98,
-        "1y": 46.16
+        "24h": 66.67,
+        "30d": 55.68,
+        "90d": 55.01,
+        "1y": 46.22
+      }
+    },
+    {
+      "ip": "89.143.244.210",
+      "version": 4,
+      "country_code": "si",
+      "country": "Slovenia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Telekom Slovenije d.d",
+      "domain": "bsn-143-244-210.static.siol.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 73.33,
+        "30d": 76.85,
+        "90d": 61.62,
+        "1y": 59.11
       }
     },
     {
@@ -323,13 +296,67 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.33,
-        "90d": 86.99,
-        "1y": 87.84
+        "30d": 95.37,
+        "90d": 87.14,
+        "1y": 87.86
+      }
+    },
+    {
+      "ip": "84.255.244.10",
+      "version": 4,
+      "country_code": "si",
+      "country": "Slovenia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "T-2 d.o.o.",
+      "domain": "84-255-244-10.static.t-2.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 73.33,
+        "30d": 86.42,
+        "90d": 74.15,
+        "1y": 75.01
+      }
+    },
+    {
+      "ip": "89.233.118.207",
+      "version": 4,
+      "country_code": "si",
+      "country": "Slovenia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "T 2 Access Network BRO",
+      "domain": "89-233-118-207.static.t-2.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.75,
+        "90d": 81.59,
+        "1y": 82.65
       }
     },
     {
@@ -349,41 +376,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 67.89,
-        "90d": 68.66,
-        "1y": 70.55
-      }
-    },
-    {
-      "ip": "89.233.118.207",
-      "version": 4,
-      "country_code": "si",
-      "country": "Slovenia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "T 2 Access Network BRO",
-      "domain": "89-233-118-207.static.t-2.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.7,
-        "90d": 81.41,
-        "1y": 82.61
+        "30d": 68.11,
+        "90d": 68.93,
+        "1y": 70.6
       }
     }
   ]

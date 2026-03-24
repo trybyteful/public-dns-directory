@@ -4,8 +4,8 @@
     "country_name": "Finland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-23T18:14:17Z",
-    "total_servers": 10
+    "generated_at": "2026-03-24T06:31:33Z",
+    "total_servers": 12
   },
   "resolvers": [
     {
@@ -21,7 +21,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -29,9 +29,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 98.14,
-        "90d": 97.84,
+        "24h": 93.33,
+        "30d": 98.15,
+        "90d": 97.83,
         "1y": 98.34
       }
     },
@@ -51,7 +51,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -84,9 +84,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.83,
-        "90d": 91.0,
-        "1y": 91.37
+        "30d": 92.9,
+        "90d": 90.95,
+        "1y": 91.39
       }
     },
     {
@@ -105,8 +105,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -114,6 +114,87 @@
         "30d": 99.69,
         "90d": 99.79,
         "1y": 99.89
+      }
+    },
+    {
+      "ip": "80.186.145.164",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Elisa Oyj",
+      "domain": "80-186-145-164.elisa-mobile.fi",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.33,
+        "30d": 81.76,
+        "90d": 80.99,
+        "1y": 85.86
+      }
+    },
+    {
+      "ip": "65.108.81.207",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Hetzner Online GmbH",
+      "domain": "static.207.81.108.65.clients.your-server.de",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.84,
+        "90d": 99.23,
+        "1y": 99.56
+      }
+    },
+    {
+      "ip": "91.197.209.222",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ZDC-NETWORK",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
       }
     },
     {
@@ -144,41 +225,14 @@
       }
     },
     {
-      "ip": "91.197.209.222",
+      "ip": "80.220.131.128",
       "version": 4,
       "country_code": "fi",
       "country": "Finland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "ZDC-NETWORK",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "65.108.81.207",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Hetzner Online GmbH",
-      "domain": "static.207.81.108.65.clients.your-server.de",
+      "organization": "TeliaSonera Finland Oyj",
+      "domain": "dsl-roibng12-50dc83-128.dhcp.inet.fi",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -186,15 +240,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 86.67,
+        "30d": 64.82,
+        "90d": 59.14,
+        "1y": 60.44
+      }
+    },
+    {
+      "ip": "84.249.85.95",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TeliaSonera Finland Oyj",
+      "domain": "dsl-tkubng12-54f955-95.dhcp.inet.fi",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 96.8,
-        "90d": 99.23,
-        "1y": 99.56
+        "24h": 80.0,
+        "30d": 57.64,
+        "90d": 48.86,
+        "1y": 42.11
       }
     },
     {
@@ -213,53 +294,26 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
+        "ads": false,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.23,
-        "90d": 67.56,
-        "1y": 76.88
+        "30d": 87.35,
+        "90d": 67.94,
+        "1y": 76.93
       }
     },
     {
-      "ip": "84.249.85.95",
+      "ip": "84.251.14.40",
       "version": 4,
       "country_code": "fi",
       "country": "Finland",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "TeliaSonera Finland Oyj",
-      "domain": "dsl-tkubng12-54f955-95.dhcp.inet.fi",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 68.75,
-        "30d": 57.71,
-        "90d": 48.78,
-        "1y": 42.01
-      }
-    },
-    {
-      "ip": "80.186.145.164",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Elisa Oyj",
-      "domain": "80-186-145-164.elisa-mobile.fi",
+      "domain": "dsl-tkubng12-54fb0e-40.dhcp.inet.fi",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -267,15 +321,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 81.23,
-        "90d": 81.03,
-        "1y": 85.83
+        "24h": 53.33,
+        "30d": 30.83,
+        "90d": 36.94,
+        "1y": 34.05
       }
     }
   ]

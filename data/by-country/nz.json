@@ -4,7 +4,7 @@
     "country_name": "New Zealand",
     "continent_code": "oc",
     "continent_name": "Oceania",
-    "generated_at": "2026-03-23T18:14:17Z",
+    "generated_at": "2026-03-24T06:31:33Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -24,42 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 79.13,
-        "90d": 93.52,
-        "1y": 96.01
-      }
-    },
-    {
-      "ip": "103.18.138.20",
-      "version": 4,
-      "country_code": "nz",
-      "country": "New Zealand",
-      "continent_code": "oc",
-      "continent": "Oceania",
-      "organization": "The Virus Centre Network",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 88.47,
-        "90d": 91.15,
-        "1y": 95.1
+        "24h": 93.33,
+        "30d": 79.32,
+        "90d": 93.49,
+        "1y": 96.02
       }
     },
     {
@@ -79,14 +52,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.79,
-        "90d": 87.47,
-        "1y": 87.64
+        "30d": 93.83,
+        "90d": 87.51,
+        "1y": 87.67
+      }
+    },
+    {
+      "ip": "103.18.138.20",
+      "version": 4,
+      "country_code": "nz",
+      "country": "New Zealand",
+      "continent_code": "oc",
+      "continent": "Oceania",
+      "organization": "The Virus Centre Network",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 88.58,
+        "90d": 91.11,
+        "1y": 95.11
       }
     }
   ]

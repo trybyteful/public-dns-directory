@@ -4,10 +4,37 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-23T18:14:17Z",
-    "total_servers": 3
+    "generated_at": "2026-03-24T06:31:33Z",
+    "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "77.69.141.243",
+      "version": 4,
+      "country_code": "bh",
+      "country": "Bahrain",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Bahrain Telcommunication Company",
+      "domain": "static.ip.77.69.141.243.batelco.com.bh",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 76.61,
+        "90d": 90.28,
+        "1y": 83.38
+      }
+    },
     {
       "ip": "89.148.55.251",
       "version": 4,
@@ -24,15 +51,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "ads": true,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 56.25,
-        "30d": 62.12,
-        "90d": 59.44,
-        "1y": 68.97
+        "24h": 60.0,
+        "30d": 61.82,
+        "90d": 59.92,
+        "1y": 68.99
       }
     },
     {
@@ -52,41 +79,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.2,
+        "30d": 97.53,
         "90d": 98.1,
         "1y": 98.66
       }
     },
     {
-      "ip": "77.69.141.243",
+      "ip": "157.175.242.142",
       "version": 4,
       "country_code": "bh",
       "country": "Bahrain",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Bahrain Telcommunication Company",
-      "domain": "static.ip.77.69.141.243.batelco.com.bh",
+      "organization": "AWS EC2 (me-south-1)",
+      "domain": "ec2-157-175-242-142.me-south-1.compute.amazonaws.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 75.09,
-        "90d": 90.33,
-        "1y": 83.35
+        "24h": 93.33,
+        "30d": 95.68,
+        "90d": 98.1,
+        "1y": 96.95
       }
     }
   ]
