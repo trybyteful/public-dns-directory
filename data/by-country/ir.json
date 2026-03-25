@@ -4,8 +4,8 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-24T18:16:04Z",
-    "total_servers": 4
+    "generated_at": "2026-03-25T06:31:16Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -20,19 +20,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.1,
-        "90d": 94.16,
-        "1y": 97.26
+        "30d": 94.14,
+        "90d": 94.11,
+        "1y": 97.27
       }
     },
     {
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.76,
-        "90d": 96.94,
-        "1y": 96.94
+        "30d": 91.83,
+        "90d": 96.97,
+        "1y": 96.97
       }
     },
     {
@@ -84,36 +84,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.43,
-        "90d": 94.28,
-        "1y": 97.32
-      }
-    },
-    {
-      "ip": "2.189.44.44",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Iran Information Technology Company PJSC",
-      "domain": "anycast.ticdns.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 57.14,
-        "30d": 85.23,
-        "90d": 94.26,
-        "1y": 97.09
+        "30d": 94.46,
+        "90d": 94.23,
+        "1y": 97.33
       }
     }
   ]
