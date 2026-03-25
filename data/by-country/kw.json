@@ -4,7 +4,7 @@
     "country_name": "Kuwait",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-25T06:31:16Z",
+    "generated_at": "2026-03-25T18:16:38Z",
     "total_servers": 5
   },
   "resolvers": [
@@ -20,8 +20,8 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -29,10 +29,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.47,
-        "90d": 92.71,
-        "1y": 88.06
+        "24h": 91.67,
+        "30d": 98.18,
+        "90d": 92.77,
+        "1y": 88.05
       }
     },
     {
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 96.64,
-        "90d": 95.66,
-        "1y": 88.14
+        "24h": 58.33,
+        "30d": 95.15,
+        "90d": 95.46,
+        "1y": 88.02
       }
     },
     {
@@ -79,13 +79,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.39,
-        "90d": 97.68,
+        "90d": 97.66,
         "1y": 98.76
       }
     },
@@ -110,10 +110,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 58.33,
-        "30d": 47.21,
-        "90d": 38.44,
-        "1y": 29.17
+        "24h": 50.0,
+        "30d": 46.81,
+        "90d": 38.82,
+        "1y": 29.21
       }
     },
     {
@@ -138,9 +138,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.17,
-        "90d": 98.61,
-        "1y": 97.11
+        "30d": 98.18,
+        "90d": 98.6,
+        "1y": 97.12
       }
     }
   ]

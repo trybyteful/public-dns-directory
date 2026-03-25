@@ -4,37 +4,10 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-25T06:31:16Z",
-    "total_servers": 3
+    "generated_at": "2026-03-25T18:16:38Z",
+    "total_servers": 2
   },
   "resolvers": [
-    {
-      "ip": "157.175.242.142",
-      "version": 4,
-      "country_code": "bh",
-      "country": "Bahrain",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "AWS EC2 (me-south-1)",
-      "domain": "ec2-157-175-242-142.me-south-1.compute.amazonaws.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.02,
-        "90d": 98.07,
-        "1y": 96.96
-      }
-    },
     {
       "ip": "77.69.141.243",
       "version": 4,
@@ -53,12 +26,12 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 78.6,
-        "90d": 90.15,
+        "24h": 91.67,
+        "30d": 79.4,
+        "90d": 90.08,
         "1y": 83.43
       }
     },
@@ -74,18 +47,18 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 98.78,
-        "90d": 98.07,
+        "90d": 98.06,
         "1y": 98.67
       }
     }

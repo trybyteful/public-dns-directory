@@ -4,37 +4,10 @@
     "country_name": "Puerto Rico",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-03-25T06:31:16Z",
+    "generated_at": "2026-03-25T18:16:38Z",
     "total_servers": 4
   },
   "resolvers": [
-    {
-      "ip": "70.35.134.178",
-      "version": 4,
-      "country_code": "pr",
-      "country": "Puerto Rico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Nustream Communications",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.25,
-        "90d": 97.21,
-        "1y": 98.03
-      }
-    },
     {
       "ip": "162.251.158.88",
       "version": 4,
@@ -51,15 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.41,
-        "90d": 84.99,
-        "1y": 87.52
+        "30d": 95.45,
+        "90d": 85.37,
+        "1y": 87.54
       }
     },
     {
@@ -84,9 +57,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.66,
-        "90d": 93.69,
-        "1y": 94.12
+        "30d": 96.69,
+        "90d": 93.7,
+        "1y": 94.13
       }
     },
     {
@@ -111,9 +84,36 @@
       },
       "uptime": {
         "24h": 91.67,
-        "30d": 60.86,
-        "90d": 57.13,
-        "1y": 44.81
+        "30d": 61.4,
+        "90d": 57.31,
+        "1y": 44.9
+      }
+    },
+    {
+      "ip": "74.120.24.129",
+      "version": 4,
+      "country_code": "pr",
+      "country": "Puerto Rico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "IP SOLUTIONS, INC.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 11.54,
+        "90d": 18.33,
+        "1y": 16.61
       }
     }
   ]

@@ -4,10 +4,37 @@
     "country_name": "Belgium",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-25T06:31:16Z",
-    "total_servers": 18
+    "generated_at": "2026-03-25T18:16:38Z",
+    "total_servers": 17
   },
   "resolvers": [
+    {
+      "ip": "81.95.121.214",
+      "version": 4,
+      "country_code": "be",
+      "country": "Belgium",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "LCP bvba.",
+      "domain": "poetcafe.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 93.64,
+        "90d": 89.58,
+        "1y": 91.67
+      }
+    },
     {
       "ip": "164.132.210.88",
       "version": 4,
@@ -51,14 +78,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.08,
-        "90d": 99.09,
+        "30d": 99.09,
+        "90d": 99.08,
         "1y": 99.23
       }
     },
@@ -78,7 +105,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
@@ -87,141 +114,6 @@
         "30d": 99.39,
         "90d": 99.73,
         "1y": 99.84
-      }
-    },
-    {
-      "ip": "81.82.250.182",
-      "version": 4,
-      "country_code": "be",
-      "country": "Belgium",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telenet",
-      "domain": "d5152fab6.static.telenet.be",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 6.67,
-        "90d": 13.98,
-        "1y": 13.49
-      }
-    },
-    {
-      "ip": "81.246.95.66",
-      "version": 4,
-      "country_code": "be",
-      "country": "Belgium",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Belgacom SA",
-      "domain": "66.95-246-81.adsl-static.isp.belgacom.be",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.91,
-        "30d": 86.54,
-        "90d": 70.62,
-        "1y": 71.77
-      }
-    },
-    {
-      "ip": "81.246.99.1",
-      "version": 4,
-      "country_code": "be",
-      "country": "Belgium",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Maris Technics BVBA",
-      "domain": "1.99-246-81.adsl-static.isp.belgacom.be",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.26,
-        "90d": 99.15,
-        "1y": 99.56
-      }
-    },
-    {
-      "ip": "194.6.227.180",
-      "version": 4,
-      "country_code": "be",
-      "country": "Belgium",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Open Products, Networks & Software S.A",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.69,
-        "90d": 99.79,
-        "1y": 99.87
-      }
-    },
-    {
-      "ip": "194.6.227.150",
-      "version": 4,
-      "country_code": "be",
-      "country": "Belgium",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Open Products, Networks & Software S.A",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.39,
-        "90d": 99.79,
-        "1y": 99.87
       }
     },
     {
@@ -242,13 +134,67 @@
       "blocking": {
         "ads": false,
         "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.7,
+        "90d": 83.22,
+        "1y": 73.44
+      }
+    },
+    {
+      "ip": "194.6.227.60",
+      "version": 4,
+      "country_code": "be",
+      "country": "Belgium",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Open Products, Networks & Software S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.69,
-        "90d": 82.48,
-        "1y": 73.39
+        "30d": 99.39,
+        "90d": 99.78,
+        "1y": 99.81
+      }
+    },
+    {
+      "ip": "34.76.9.111",
+      "version": 4,
+      "country_code": "be",
+      "country": "Belgium",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Google Cloud (europe-west1)",
+      "domain": "111.9.76.34.bc.googleusercontent.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 75.38,
+        "90d": 79.02,
+        "1y": 79.74
       }
     },
     {
@@ -268,41 +214,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.69,
-        "90d": 99.84,
-        "1y": 99.89
-      }
-    },
-    {
-      "ip": "81.95.121.214",
-      "version": 4,
-      "country_code": "be",
-      "country": "Belgium",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "LCP bvba.",
-      "domain": "poetcafe.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.58,
-        "90d": 89.55,
-        "1y": 91.66
+        "30d": 99.7,
+        "90d": 99.84,
+        "1y": 99.89
       }
     },
     {
@@ -349,95 +268,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.32,
-        "90d": 96.66,
-        "1y": 97.42
-      }
-    },
-    {
-      "ip": "34.76.9.111",
-      "version": 4,
-      "country_code": "be",
-      "country": "Belgium",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Google Cloud (europe-west1)",
-      "domain": "111.9.76.34.bc.googleusercontent.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 72.73,
-        "30d": 75.23,
-        "90d": 79.14,
-        "1y": 79.71
-      }
-    },
-    {
-      "ip": "84.199.93.50",
-      "version": 4,
-      "country_code": "be",
-      "country": "Belgium",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Carestel",
-      "domain": "84-199-93-50.iFiber.telenet-ops.be",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
         "24h": 100.0,
-        "30d": 99.08,
-        "90d": 99.79,
-        "1y": 99.2
-      }
-    },
-    {
-      "ip": "194.6.227.60",
-      "version": 4,
-      "country_code": "be",
-      "country": "Belgium",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Open Products, Networks & Software S.A",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.39,
-        "90d": 99.79,
-        "1y": 99.81
+        "30d": 96.35,
+        "90d": 96.64,
+        "1y": 97.43
       }
     },
     {
@@ -461,10 +299,64 @@
         "adult": true
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 96.94,
-        "90d": 95.61,
-        "1y": 97.13
+        "24h": 100.0,
+        "30d": 96.96,
+        "90d": 95.59,
+        "1y": 97.14
+      }
+    },
+    {
+      "ip": "194.6.227.150",
+      "version": 4,
+      "country_code": "be",
+      "country": "Belgium",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Open Products, Networks & Software S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.39,
+        "90d": 99.78,
+        "1y": 99.87
+      }
+    },
+    {
+      "ip": "81.246.99.1",
+      "version": 4,
+      "country_code": "be",
+      "country": "Belgium",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Maris Technics BVBA",
+      "domain": "1.99-246-81.adsl-static.isp.belgacom.be",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.3,
+        "90d": 99.15,
+        "1y": 99.56
       }
     },
     {
@@ -488,10 +380,91 @@
         "adult": true
       },
       "uptime": {
+        "24h": 83.33,
+        "30d": 71.12,
+        "90d": 78.47,
+        "1y": 73.12
+      }
+    },
+    {
+      "ip": "84.199.93.50",
+      "version": 4,
+      "country_code": "be",
+      "country": "Belgium",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Carestel",
+      "domain": "84-199-93-50.iFiber.telenet-ops.be",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
         "24h": 100.0,
-        "30d": 71.25,
-        "90d": 78.48,
-        "1y": 73.16
+        "30d": 99.09,
+        "90d": 99.78,
+        "1y": 99.2
+      }
+    },
+    {
+      "ip": "81.83.4.18",
+      "version": 4,
+      "country_code": "be",
+      "country": "Belgium",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Telenet",
+      "domain": "d51530412.static.telenet.be",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 91.67,
+        "30d": 86.36,
+        "90d": 89.48,
+        "1y": 93.24
+      }
+    },
+    {
+      "ip": "194.6.227.180",
+      "version": 4,
+      "country_code": "be",
+      "country": "Belgium",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Open Products, Networks & Software S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.7,
+        "90d": 99.78,
+        "1y": 99.87
       }
     }
   ]
