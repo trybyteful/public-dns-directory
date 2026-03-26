@@ -4,8 +4,8 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-25T18:16:38Z",
-    "total_servers": 1
+    "generated_at": "2026-03-26T06:34:30Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -21,6 +21,33 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 92.02,
+        "90d": 97.02,
+        "1y": 97.02
+      }
+    },
+    {
+      "ip": "2.189.44.44",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Iran Information Technology Company PJSC",
+      "domain": "anycast.ticdns.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
         "validating": true
       },
       "blocking": {
@@ -29,10 +56,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 91.92,
-        "90d": 96.99,
-        "1y": 96.99
+        "24h": 61.54,
+        "30d": 83.18,
+        "90d": 93.7,
+        "1y": 96.89
       }
     }
   ]
