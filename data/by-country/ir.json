@@ -4,10 +4,37 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-27T06:34:42Z",
-    "total_servers": 1
+    "generated_at": "2026-03-27T18:14:48Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "194.225.152.10",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "IPM/Iranet",
+      "domain": "ns1.iranet.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 93.75,
+        "30d": 92.0,
+        "90d": 96.97,
+        "1y": 96.97
+      }
+    },
     {
       "ip": "2.189.44.44",
       "version": 4,
@@ -26,13 +53,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 46.67,
-        "30d": 81.23,
-        "90d": 93.16,
-        "1y": 96.69
+        "24h": 50.0,
+        "30d": 80.29,
+        "90d": 92.89,
+        "1y": 96.59
       }
     }
   ]

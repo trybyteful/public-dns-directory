@@ -4,46 +4,19 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-03-27T06:34:42Z",
+    "generated_at": "2026-03-27T18:14:48Z",
     "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "201.247.112.236",
+      "ip": "190.86.205.194",
       "version": 4,
       "country_code": "sv",
       "country": "El Salvador",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "LAB. PAILL DIV. DE GRUPO PAILL, S.A. DE C.V",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 83.28,
-        "90d": 81.92,
-        "1y": 80.84
-      }
-    },
-    {
-      "ip": "168.243.48.33",
-      "version": 4,
-      "country_code": "sv",
-      "country": "El Salvador",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "SVNet",
-      "domain": "ns.telecam.com.sv",
+      "organization": "Sociedad Cooperativa EX Banco Cuscatlan. De R.L",
+      "domain": "ns1.coopex.com.sv",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -52,14 +25,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.53,
-        "90d": 98.51,
-        "1y": 99.05
+        "24h": 50.0,
+        "30d": 82.03,
+        "90d": 81.95,
+        "1y": 83.23
       }
     },
     {
@@ -84,9 +57,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.41,
+        "30d": 99.42,
         "90d": 99.72,
-        "1y": 98.56
+        "1y": 98.57
+      }
+    },
+    {
+      "ip": "168.243.48.33",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "SVNet",
+      "domain": "ns.telecam.com.sv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 97.97,
+        "90d": 98.39,
+        "1y": 99.0
       }
     }
   ]
