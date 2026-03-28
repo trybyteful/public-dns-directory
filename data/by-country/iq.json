@@ -4,7 +4,7 @@
     "country_name": "Iraq",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-28T06:28:24Z",
+    "generated_at": "2026-03-28T18:05:36Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 70.59,
-        "30d": 64.53,
-        "90d": 67.52,
-        "1y": 78.9
+        "24h": 52.94,
+        "30d": 64.46,
+        "90d": 67.82,
+        "1y": 78.84
       }
     },
     {
@@ -48,10 +48,10 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -79,12 +79,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.71,
+        "30d": 99.72,
         "90d": 99.83,
         "1y": 99.82
       }

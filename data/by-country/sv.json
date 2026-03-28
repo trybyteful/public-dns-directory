@@ -4,35 +4,62 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-03-28T06:28:24Z",
-    "total_servers": 2
+    "generated_at": "2026-03-28T18:05:36Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "200.85.7.28",
+      "ip": "201.247.112.236",
       "version": 4,
       "country_code": "sv",
       "country": "El Salvador",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "Telemovil El Salvador S.A",
-      "domain": "ftp.grupotropigas.com.sv",
+      "organization": "LAB. PAILL DIV. DE GRUPO PAILL, S.A. DE C.V",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 58.82,
+        "30d": 82.44,
+        "90d": 81.81,
+        "1y": 80.75
+      }
+    },
+    {
+      "ip": "190.86.205.194",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Sociedad Cooperativa EX Banco Cuscatlan. De R.L",
+      "domain": "ns1.coopex.com.sv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.43,
-        "90d": 99.72,
-        "1y": 98.57
+        "24h": 47.06,
+        "30d": 81.59,
+        "90d": 82.34,
+        "1y": 83.06
       }
     },
     {
@@ -52,14 +79,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 88.24,
+        "30d": 97.45,
+        "90d": 98.31,
+        "1y": 98.95
+      }
+    },
+    {
+      "ip": "200.85.7.28",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Telemovil El Salvador S.A",
+      "domain": "ftp.grupotropigas.com.sv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 76.47,
-        "30d": 97.42,
-        "90d": 98.27,
-        "1y": 98.95
+        "24h": 100.0,
+        "30d": 99.43,
+        "90d": 99.72,
+        "1y": 98.57
       }
     }
   ]
