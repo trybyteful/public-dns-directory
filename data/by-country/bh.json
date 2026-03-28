@@ -4,7 +4,7 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-27T18:14:48Z",
+    "generated_at": "2026-03-28T06:28:24Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -21,18 +21,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.94,
-        "90d": 98.0,
-        "1y": 96.96
+        "30d": 96.0,
+        "90d": 97.99,
+        "1y": 96.97
+      }
+    },
+    {
+      "ip": "77.69.141.243",
+      "version": 4,
+      "country_code": "bh",
+      "country": "Bahrain",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Bahrain Telcommunication Company",
+      "domain": "static.ip.77.69.141.243.batelco.com.bh",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 58.82,
+        "30d": 78.82,
+        "90d": 89.09,
+        "1y": 83.28
       }
     },
     {
@@ -57,8 +84,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.84,
-        "90d": 98.0,
+        "30d": 98.86,
+        "90d": 97.99,
         "1y": 98.68
       }
     },
@@ -83,37 +110,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 68.75,
-        "30d": 57.73,
-        "90d": 63.27,
+        "24h": 58.82,
+        "30d": 57.94,
+        "90d": 64.05,
         "1y": 68.77
-      }
-    },
-    {
-      "ip": "77.69.141.243",
-      "version": 4,
-      "country_code": "bh",
-      "country": "Bahrain",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Bahrain Telcommunication Company",
-      "domain": "static.ip.77.69.141.243.batelco.com.bh",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 79.11,
-        "90d": 89.39,
-        "1y": 83.35
       }
     }
   ]
