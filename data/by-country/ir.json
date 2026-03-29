@@ -4,10 +4,37 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-28T18:05:36Z",
-    "total_servers": 1
+    "generated_at": "2026-03-29T06:32:40Z",
+    "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "217.218.155.155",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "\"Telecommunication Intfrastructure Company\" IP range.",
+      "domain": "recursive2.dci.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 89.46,
+        "90d": 92.66,
+        "1y": 96.91
+      }
+    },
     {
       "ip": "194.225.152.10",
       "version": 4,
@@ -24,15 +51,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 94.12,
-        "30d": 91.87,
-        "90d": 96.9,
-        "1y": 96.9
+        "24h": 100.0,
+        "30d": 91.99,
+        "90d": 96.94,
+        "1y": 96.94
+      }
+    },
+    {
+      "ip": "217.218.127.127",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "\"Telecommunication Intfrastructure Company\" IP range.",
+      "domain": "recursive1.dci.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 37.5,
+        "30d": 80.95,
+        "90d": 90.77,
+        "1y": 96.05
       }
     }
   ]
