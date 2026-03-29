@@ -4,7 +4,7 @@
     "country_name": "Cambodia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-29T06:32:40Z",
+    "generated_at": "2026-03-29T18:06:34Z",
     "total_servers": 2
   },
   "resolvers": [
@@ -21,11 +21,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
@@ -36,14 +36,14 @@
       }
     },
     {
-      "ip": "124.248.191.83",
+      "ip": "111.118.147.236",
       "version": 4,
       "country_code": "kh",
       "country": "Cambodia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Cogetel Ltd",
-      "domain": "fiber-191-83.online.com.kh",
+      "organization": "Viettel (cambodia) Pte., Ltd.",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 37.5,
-        "30d": 40.0,
-        "90d": 39.43,
-        "1y": 42.01
+        "24h": 76.47,
+        "30d": 63.06,
+        "90d": 55.04,
+        "1y": 51.0
       }
     }
   ]

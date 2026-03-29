@@ -4,7 +4,7 @@
     "country_name": "Luxembourg",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-29T06:32:40Z",
+    "generated_at": "2026-03-29T18:06:34Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -24,15 +24,42 @@
         "validating": true
       },
       "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 93.35,
+        "90d": 87.39,
+        "1y": 89.37
+      }
+    },
+    {
+      "ip": "95.85.95.85",
+      "version": 4,
+      "country_code": "lu",
+      "country": "Luxembourg",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "G-Core Labs S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": true,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 93.28,
-        "90d": 87.29,
-        "1y": 89.35
+        "24h": 100.0,
+        "30d": 99.45,
+        "90d": 99.83,
+        "1y": 99.9
       }
     },
     {
@@ -79,41 +106,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.72,
         "90d": 99.26,
-        "1y": 97.35
-      }
-    },
-    {
-      "ip": "95.85.95.85",
-      "version": 4,
-      "country_code": "lu",
-      "country": "Luxembourg",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "G-Core Labs S.A",
-      "domain": null,
-      "trusted": false,
-      "anycast": true,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.44,
-        "90d": 99.83,
-        "1y": 99.9
+        "1y": 97.36
       }
     }
   ]

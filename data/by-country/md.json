@@ -4,7 +4,7 @@
     "country_name": "Moldova",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-29T06:32:40Z",
+    "generated_at": "2026-03-29T18:06:34Z",
     "total_servers": 9
   },
   "resolvers": [
@@ -24,15 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 94.68,
-        "90d": 93.99,
-        "1y": 96.09
+        "24h": 94.12,
+        "30d": 95.01,
+        "90d": 94.0,
+        "1y": 96.07
       }
     },
     {
@@ -78,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 81.25,
-        "30d": 82.91,
-        "90d": 61.73,
-        "1y": 51.47
+        "30d": 82.83,
+        "90d": 62.44,
+        "1y": 51.55
       }
     },
     {
@@ -105,69 +105,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.75,
+        "30d": 99.17,
+        "90d": 98.23,
+        "1y": 98.96
+      }
+    },
+    {
+      "ip": "95.65.9.66",
+      "version": 4,
+      "country_code": "md",
+      "country": "Moldova",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "StarNet Solutii SRL",
+      "domain": "95-65-9-66.starnet.md",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 99.16,
-        "90d": 98.24,
-        "1y": 98.96
-      }
-    },
-    {
-      "ip": "91.233.173.28",
-      "version": 4,
-      "country_code": "md",
-      "country": "Moldova",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Neapol Group LLC",
-      "domain": "173-28.pppoe.bel.net.ru",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 68.95,
-        "90d": 65.97,
-        "1y": 61.93
-      }
-    },
-    {
-      "ip": "91.233.173.30",
-      "version": 4,
-      "country_code": "md",
-      "country": "Moldova",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Neapol Group LLC",
-      "domain": "173-30.pppoe.bel.net.ru",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 12.5,
-        "30d": 58.97,
-        "90d": 56.51,
-        "1y": 49.59
+        "24h": 37.5,
+        "30d": 80.61,
+        "90d": 67.58,
+        "1y": 73.62
       }
     },
     {
@@ -187,41 +160,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 31.25,
-        "30d": 69.28,
-        "90d": 78.9,
+        "24h": 58.82,
+        "30d": 69.03,
+        "90d": 79.04,
         "1y": 78.14
       }
     },
     {
-      "ip": "188.237.108.128",
+      "ip": "89.28.65.201",
       "version": 4,
       "country_code": "md",
       "country": "Moldova",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "JSC Moldtelecom S.A.",
-      "domain": "host-static-188-237-108-128.moldtelecom.md",
+      "organization": "SC Starnet SRL",
+      "domain": "89-28-65-201.starnet.md",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 81.1,
-        "90d": 85.02,
-        "1y": 84.5
+        "24h": 52.94,
+        "30d": 75.68,
+        "90d": 66.57,
+        "1y": 58.36
       }
     },
     {
@@ -242,13 +215,40 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 50.0,
-        "30d": 67.79,
-        "90d": 55.67,
-        "1y": 45.88
+        "30d": 67.59,
+        "90d": 56.22,
+        "1y": 45.86
+      }
+    },
+    {
+      "ip": "188.237.108.128",
+      "version": 4,
+      "country_code": "md",
+      "country": "Moldova",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "JSC Moldtelecom S.A.",
+      "domain": "host-static-188-237-108-128.moldtelecom.md",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 82.35,
+        "30d": 81.98,
+        "90d": 84.97,
+        "1y": 84.55
       }
     }
   ]
