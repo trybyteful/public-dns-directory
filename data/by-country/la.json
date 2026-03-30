@@ -4,7 +4,7 @@
     "country_name": "Laos",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-30T06:46:49Z",
+    "generated_at": "2026-03-30T18:16:09Z",
     "total_servers": 5
   },
   "resolvers": [
@@ -26,13 +26,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.83,
+        "90d": 93.87,
+        "1y": 91.15
+      }
+    },
+    {
+      "ip": "202.123.179.205",
+      "version": 4,
+      "country_code": "la",
+      "country": "Laos",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Sky Telecom State Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 97.81,
-        "90d": 93.74,
-        "1y": 91.13
+        "24h": 100.0,
+        "30d": 98.1,
+        "90d": 94.51,
+        "1y": 92.43
       }
     },
     {
@@ -56,10 +83,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 75.81,
-        "90d": 35.61,
-        "1y": 85.7
+        "24h": 100.0,
+        "30d": 78.79,
+        "90d": 37.96,
+        "1y": 85.78
       }
     },
     {
@@ -78,42 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 62.5,
-        "30d": 86.94,
-        "90d": 88.14,
-        "1y": 88.68
-      }
-    },
-    {
-      "ip": "202.123.179.205",
-      "version": 4,
-      "country_code": "la",
-      "country": "Laos",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Sky Telecom State Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.08,
-        "90d": 94.54,
-        "1y": 92.42
+        "24h": 78.57,
+        "30d": 87.02,
+        "90d": 88.17,
+        "1y": 88.69
       }
     },
     {
@@ -134,13 +134,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 96.16,
-        "90d": 83.79,
-        "1y": 71.28
+        "24h": 92.86,
+        "30d": 96.2,
+        "90d": 84.09,
+        "1y": 71.32
       }
     }
   ]

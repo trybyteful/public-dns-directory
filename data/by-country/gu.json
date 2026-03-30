@@ -4,19 +4,19 @@
     "country_name": "Guam",
     "continent_code": "oc",
     "continent_name": "Oceania",
-    "generated_at": "2026-03-29T18:06:34Z",
-    "total_servers": 3
+    "generated_at": "2026-03-30T18:16:09Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
-      "ip": "209.164.189.54",
+      "ip": "202.151.81.209",
       "version": 4,
       "country_code": "gu",
       "country": "Guam",
       "continent_code": "oc",
       "continent": "Oceania",
-      "organization": "Level 3",
-      "domain": "209-164-189-54.biz.static.teleguam.net",
+      "organization": "TeleGuam Holdings",
+      "domain": "202-151-81-209.biz.static.teleguam.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -24,15 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 70.59,
-        "30d": 59.41,
-        "90d": 67.49,
-        "1y": 71.11
+        "24h": 71.43,
+        "30d": 89.12,
+        "90d": 87.53,
+        "1y": 86.75
       }
     },
     {
@@ -48,45 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 93.75,
-        "30d": 78.21,
-        "90d": 72.49,
-        "1y": 68.88
-      }
-    },
-    {
-      "ip": "202.151.81.209",
-      "version": 4,
-      "country_code": "gu",
-      "country": "Guam",
-      "continent_code": "oc",
-      "continent": "Oceania",
-      "organization": "TeleGuam Holdings",
-      "domain": "202-151-81-209.biz.static.teleguam.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 90.09,
-        "90d": 87.7,
-        "1y": 86.81
+        "24h": 57.14,
+        "30d": 77.49,
+        "90d": 72.05,
+        "1y": 68.83
       }
     }
   ]

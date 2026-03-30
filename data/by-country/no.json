@@ -4,37 +4,10 @@
     "country_name": "Norway",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-30T06:46:49Z",
-    "total_servers": 28
+    "generated_at": "2026-03-30T18:16:09Z",
+    "total_servers": 21
   },
   "resolvers": [
-    {
-      "ip": "195.159.253.130",
-      "version": 4,
-      "country_code": "no",
-      "country": "Norway",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "CENTERTEAM",
-      "domain": "195-159-253-130.customer.powertech.no",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 81.25,
-        "30d": 78.14,
-        "90d": 73.32,
-        "1y": 71.67
-      }
-    },
     {
       "ip": "217.18.206.22",
       "version": 4,
@@ -51,7 +24,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -60,6 +33,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 99.97
+      }
+    },
+    {
+      "ip": "217.170.128.27",
+      "version": 4,
+      "country_code": "no",
+      "country": "Norway",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Absnet",
+      "domain": "dns.absnet.no",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 78.57,
+        "30d": 74.18,
+        "90d": 66.38,
+        "1y": 67.77
       }
     },
     {
@@ -85,7 +85,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.18,
-        "90d": 99.66,
+        "90d": 99.65,
         "1y": 99.74
       }
     },
@@ -166,7 +166,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.73,
-        "90d": 99.89,
+        "90d": 99.88,
         "1y": 99.95
       }
     },
@@ -198,33 +198,6 @@
       }
     },
     {
-      "ip": "82.134.43.3",
-      "version": 4,
-      "country_code": "no",
-      "country": "Norway",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "BKKB",
-      "domain": "pop3.digitroll.no",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.75,
-        "30d": 98.08,
-        "90d": 97.93,
-        "1y": 98.77
-      }
-    },
-    {
       "ip": "185.181.61.24",
       "version": 4,
       "country_code": "no",
@@ -240,8 +213,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -268,14 +241,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 84.66,
-        "90d": 76.15,
-        "1y": 77.84
+        "24h": 92.86,
+        "30d": 85.33,
+        "90d": 76.62,
+        "1y": 77.87
       }
     },
     {
@@ -295,7 +268,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -322,7 +295,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -330,87 +303,6 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
-      }
-    },
-    {
-      "ip": "212.169.104.57",
-      "version": 4,
-      "country_code": "no",
-      "country": "Norway",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Netcom GSM",
-      "domain": "m2m-host-104-57.osl255.netcom.no",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 52.82,
-        "90d": 52.75,
-        "1y": 57.32
-      }
-    },
-    {
-      "ip": "89.191.31.6",
-      "version": 4,
-      "country_code": "no",
-      "country": "Norway",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Broadnet NO Buvik",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 68.75,
-        "30d": 78.65,
-        "90d": 42.67,
-        "1y": 35.57
-      }
-    },
-    {
-      "ip": "193.214.73.78",
-      "version": 4,
-      "country_code": "no",
-      "country": "Norway",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telenor Norge",
-      "domain": "78.73.214.193.static.cust.telenor.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.83,
-        "1y": 99.92
       }
     },
     {
@@ -441,6 +333,33 @@
       }
     },
     {
+      "ip": "94.127.59.12",
+      "version": 4,
+      "country_code": "no",
+      "country": "Norway",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Mnemonic OSL",
+      "domain": "osl-clouddns3.mnemonic.no",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
+      }
+    },
+    {
       "ip": "94.127.63.6",
       "version": 4,
       "country_code": "no",
@@ -457,7 +376,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -484,7 +403,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -495,19 +414,19 @@
       }
     },
     {
-      "ip": "78.31.85.18",
+      "ip": "141.0.102.130",
       "version": 4,
       "country_code": "no",
       "country": "Norway",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Rauma Energi Bredband",
-      "domain": null,
+      "organization": "Lyse Customer Corporate Linknets",
+      "domain": "141.0.102.130.static.lyse.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -517,62 +436,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.73,
-        "90d": 99.94,
-        "1y": 99.97
-      }
-    },
-    {
-      "ip": "193.19.64.88",
-      "version": 4,
-      "country_code": "no",
-      "country": "Norway",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Itera Norge",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 93.62,
-        "90d": 97.56,
+        "90d": 98.9,
         "1y": 98.9
-      }
-    },
-    {
-      "ip": "79.161.154.90",
-      "version": 4,
-      "country_code": "no",
-      "country": "Norway",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Altibox",
-      "domain": "90.79-161-154.customer.lyse.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 86.3,
-        "90d": 82.53,
-        "1y": 81.63
       }
     },
     {
@@ -603,114 +468,6 @@
       }
     },
     {
-      "ip": "85.200.209.58",
-      "version": 4,
-      "country_code": "no",
-      "country": "Norway",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "BKKB",
-      "domain": "58.85-200-209.bkkb.no",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 56.25,
-        "30d": 77.53,
-        "90d": 71.95,
-        "1y": 64.82
-      }
-    },
-    {
-      "ip": "141.0.102.130",
-      "version": 4,
-      "country_code": "no",
-      "country": "Norway",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Lyse Customer Corporate Linknets",
-      "domain": "141.0.102.130.static.lyse.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.73,
-        "90d": 98.91,
-        "1y": 98.9
-      }
-    },
-    {
-      "ip": "94.127.59.12",
-      "version": 4,
-      "country_code": "no",
-      "country": "Norway",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Mnemonic OSL",
-      "domain": "osl-clouddns3.mnemonic.no",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "79.161.9.164",
-      "version": 4,
-      "country_code": "no",
-      "country": "Norway",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Altibox",
-      "domain": "164.79-161-9.customer.lyse.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 88.77,
-        "90d": 80.57,
-        "1y": 71.62
-      }
-    },
-    {
       "ip": "94.127.59.11",
       "version": 4,
       "country_code": "no",
@@ -732,36 +489,90 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.45,
-        "90d": 99.6,
+        "30d": 99.46,
+        "90d": 99.59,
         "1y": 99.82
       }
     },
     {
-      "ip": "77.88.105.215",
+      "ip": "193.19.64.88",
       "version": 4,
       "country_code": "no",
       "country": "Norway",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "GLOBALCONNECT AS",
-      "domain": "cD769584D.static.as2116.net",
+      "organization": "Itera Norge",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 62.5,
-        "30d": 72.32,
-        "90d": 61.04,
-        "1y": 56.91
+        "24h": 100.0,
+        "30d": 93.68,
+        "90d": 97.54,
+        "1y": 98.9
+      }
+    },
+    {
+      "ip": "193.214.73.78",
+      "version": 4,
+      "country_code": "no",
+      "country": "Norway",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Telenor Norge",
+      "domain": "78.73.214.193.static.cust.telenor.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.83,
+        "1y": 99.92
+      }
+    },
+    {
+      "ip": "78.31.85.18",
+      "version": 4,
+      "country_code": "no",
+      "country": "Norway",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Rauma Energi Bredband",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.73,
+        "90d": 99.94,
+        "1y": 99.97
       }
     }
   ]
