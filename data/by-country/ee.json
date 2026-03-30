@@ -4,8 +4,8 @@
     "country_name": "Estonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-29T18:06:34Z",
-    "total_servers": 4
+    "generated_at": "2026-03-30T06:46:49Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -25,8 +25,8 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -57,7 +57,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.72,
+        "30d": 100.0,
         "90d": 99.89,
         "1y": 99.95
       }
@@ -78,7 +78,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -102,11 +102,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -114,6 +114,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 98.84
+      }
+    },
+    {
+      "ip": "91.146.86.248",
+      "version": 4,
+      "country_code": "ee",
+      "country": "Estonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Fill Ltd",
+      "domain": "86248.fill.ee",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 84.66,
+        "90d": 88.79,
+        "1y": 91.24
       }
     }
   ]
