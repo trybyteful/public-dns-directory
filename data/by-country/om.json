@@ -4,10 +4,37 @@
     "country_name": "Oman",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-30T18:16:09Z",
-    "total_servers": 2
+    "generated_at": "2026-03-31T06:37:33Z",
+    "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "5.21.242.103",
+      "version": 4,
+      "country_code": "om",
+      "country": "Oman",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Nawras ISP (Oman)",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 28.57,
+        "30d": 19.19,
+        "90d": 25.79,
+        "1y": 19.5
+      }
+    },
     {
       "ip": "5.21.242.111",
       "version": 4,
@@ -20,19 +47,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 35.71,
-        "30d": 59.42,
-        "90d": 63.76,
-        "1y": 75.28
+        "24h": 57.14,
+        "30d": 60.46,
+        "90d": 63.94,
+        "1y": 75.33
       }
     },
     {
@@ -56,10 +83,37 @@
         "adult": true
       },
       "uptime": {
+        "24h": 71.43,
+        "30d": 87.37,
+        "90d": 86.14,
+        "1y": 86.14
+      }
+    },
+    {
+      "ip": "46.40.215.42",
+      "version": 4,
+      "country_code": "om",
+      "country": "Oman",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Nawras (Oman)",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
         "24h": 64.29,
-        "30d": 87.23,
-        "90d": 86.0,
-        "1y": 86.0
+        "30d": 80.91,
+        "90d": 76.06,
+        "1y": 76.06
       }
     }
   ]
