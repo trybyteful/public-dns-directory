@@ -4,12 +4,12 @@
     "country_name": "Oman",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-31T06:37:33Z",
+    "generated_at": "2026-03-31T18:15:23Z",
     "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "5.21.242.103",
+      "ip": "5.21.241.87",
       "version": 4,
       "country_code": "om",
       "country": "Oman",
@@ -20,7 +20,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -29,37 +29,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 28.57,
-        "30d": 19.19,
-        "90d": 25.79,
-        "1y": 19.5
-      }
-    },
-    {
-      "ip": "5.21.242.111",
-      "version": 4,
-      "country_code": "om",
-      "country": "Oman",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Nawras ISP (Oman)",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 57.14,
-        "30d": 60.46,
-        "90d": 63.94,
-        "1y": 75.33
+        "24h": 42.86,
+        "30d": 38.02,
+        "90d": 45.0,
+        "1y": 42.38
       }
     },
     {
@@ -83,10 +56,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 87.37,
-        "90d": 86.14,
-        "1y": 86.14
+        "24h": 100.0,
+        "30d": 87.47,
+        "90d": 86.27,
+        "1y": 86.27
       }
     },
     {
@@ -105,15 +78,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 80.8,
+        "90d": 76.12,
+        "1y": 76.12
+      }
+    },
+    {
+      "ip": "188.135.12.158",
+      "version": 4,
+      "country_code": "om",
+      "country": "Oman",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Nawras",
+      "domain": "static.isp.ooredoo.om",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 64.29,
-        "30d": 80.91,
-        "90d": 76.06,
-        "1y": 76.06
+        "24h": 28.57,
+        "30d": 35.48,
+        "90d": 44.86,
+        "1y": 43.09
       }
     }
   ]

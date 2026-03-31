@@ -4,18 +4,18 @@
     "country_name": "Ireland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-31T06:37:33Z",
-    "total_servers": 5
+    "generated_at": "2026-03-31T18:15:23Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
-      "ip": "78.155.252.220",
+      "ip": "84.203.162.227",
       "version": 4,
       "country_code": "ie",
       "country": "Ireland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "NWE Wireless Networks Ltd.",
+      "organization": "Viatel Ltd",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -24,42 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 84.14,
-        "90d": 90.39,
-        "1y": 93.85
-      }
-    },
-    {
-      "ip": "95.45.222.78",
-      "version": 4,
-      "country_code": "ie",
-      "country": "Ireland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Eircom Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.05,
-        "90d": 69.07,
-        "1y": 69.73
+        "24h": 57.14,
+        "30d": 56.61,
+        "90d": 58.19,
+        "1y": 49.28
       }
     },
     {
@@ -84,24 +57,24 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.36,
-        "90d": 69.71,
-        "1y": 70.71
+        "30d": 96.43,
+        "90d": 69.92,
+        "1y": 70.78
       }
     },
     {
-      "ip": "194.125.133.10",
+      "ip": "78.155.252.220",
       "version": 4,
       "country_code": "ie",
       "country": "Ireland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "INDIGO",
-      "domain": "ann.indigo.ie",
+      "organization": "NWE Wireless Networks Ltd.",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -111,9 +84,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.94,
-        "1y": 99.95
+        "30d": 84.27,
+        "90d": 90.37,
+        "1y": 93.86
       }
     },
     {
@@ -138,9 +111,63 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.14,
-        "90d": 68.9,
-        "1y": 69.99
+        "30d": 95.24,
+        "90d": 69.2,
+        "1y": 70.07
+      }
+    },
+    {
+      "ip": "194.125.133.10",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "INDIGO",
+      "domain": "ann.indigo.ie",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.94,
+        "1y": 99.95
+      }
+    },
+    {
+      "ip": "95.45.222.78",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Eircom Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.12,
+        "90d": 69.23,
+        "1y": 69.8
       }
     }
   ]

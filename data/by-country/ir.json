@@ -4,7 +4,7 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-31T06:37:33Z",
+    "generated_at": "2026-03-31T18:15:23Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -20,7 +20,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -30,9 +30,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.29,
-        "90d": 92.43,
-        "1y": 96.94
+        "30d": 90.42,
+        "90d": 92.35,
+        "1y": 96.95
       }
     },
     {
@@ -48,18 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.38,
-        "90d": 97.05,
-        "1y": 97.05
+        "30d": 92.46,
+        "90d": 97.08,
+        "1y": 97.08
       }
     },
     {
@@ -75,7 +75,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -84,8 +84,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 81.77,
-        "90d": 90.48,
+        "30d": 81.97,
+        "90d": 90.38,
         "1y": 96.09
       }
     }
