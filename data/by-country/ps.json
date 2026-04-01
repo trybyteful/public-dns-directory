@@ -4,10 +4,37 @@
     "country_name": "Palestine",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-01T06:43:34Z",
-    "total_servers": 1
+    "generated_at": "2026-04-01T18:14:26Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "82.213.32.29",
+      "version": 4,
+      "country_code": "ps",
+      "country": "Palestine",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "PALTEL (Palestine Telecommunications Co.)",
+      "domain": "mail.sahem-inv.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 67.7,
+        "90d": 85.86,
+        "1y": 93.75
+      }
+    },
     {
       "ip": "213.6.20.57",
       "version": 4,
@@ -25,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 77.11,
-        "90d": 72.0,
-        "1y": 57.19
+        "24h": 68.75,
+        "30d": 77.4,
+        "90d": 72.79,
+        "1y": 57.24
       }
     }
   ]

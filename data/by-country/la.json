@@ -4,18 +4,18 @@
     "country_name": "Laos",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-01T06:43:34Z",
-    "total_servers": 3
+    "generated_at": "2026-04-01T18:14:26Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "115.84.79.71",
+      "ip": "115.84.91.78",
       "version": 4,
       "country_code": "la",
       "country": "Laos",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Lao Telecommunication Co Ltd",
+      "organization": "Lao Telecommunication Public Company",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -29,10 +29,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 96.32,
-        "90d": 85.73,
-        "1y": 71.48
+        "24h": 56.25,
+        "30d": 95.05,
+        "90d": 95.23,
+        "1y": 90.82
       }
     },
     {
@@ -51,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.03,
-        "90d": 88.56,
-        "1y": 88.76
+        "30d": 88.2,
+        "90d": 88.47,
+        "1y": 88.78
+      }
+    },
+    {
+      "ip": "115.84.79.71",
+      "version": 4,
+      "country_code": "la",
+      "country": "Laos",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Lao Telecommunication Co Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.36,
+        "90d": 86.64,
+        "1y": 71.54
       }
     },
     {
@@ -84,9 +111,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 84.27,
-        "90d": 48.08,
-        "1y": 86.12
+        "30d": 85.42,
+        "90d": 50.62,
+        "1y": 86.23
       }
     }
   ]
