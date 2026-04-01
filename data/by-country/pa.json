@@ -4,10 +4,37 @@
     "country_name": "Panama",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-03-31T06:37:33Z",
-    "total_servers": 1
+    "generated_at": "2026-04-01T06:43:34Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "186.75.32.30",
+      "version": 4,
+      "country_code": "pa",
+      "country": "Panama",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Cable & Wireless Panama",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 46.67,
+        "30d": 70.0,
+        "90d": 61.59,
+        "1y": 51.8
+      }
+    },
     {
       "ip": "201.218.125.251",
       "version": 4,
@@ -24,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 21.43,
-        "30d": 40.52,
-        "90d": 42.11,
-        "1y": 43.3
+        "24h": 46.67,
+        "30d": 40.62,
+        "90d": 42.64,
+        "1y": 43.32
       }
     }
   ]

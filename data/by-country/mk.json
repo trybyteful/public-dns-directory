@@ -4,7 +4,7 @@
     "country_name": "North Macedonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-31T18:15:23Z",
+    "generated_at": "2026-04-01T06:43:34Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 73.33,
+        "30d": 75.79,
+        "90d": 68.46,
+        "1y": 64.04
+      }
+    },
+    {
+      "ip": "79.125.163.149",
+      "version": 4,
+      "country_code": "mk",
+      "country": "North Macedonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "MPT",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 78.57,
-        "30d": 76.0,
-        "90d": 67.58,
-        "1y": 64.02
+        "24h": 73.33,
+        "30d": 53.25,
+        "90d": 58.03,
+        "1y": 48.14
       }
     },
     {
@@ -53,40 +80,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 91.35,
-        "90d": 89.98,
-        "1y": 92.64
-      }
-    },
-    {
-      "ip": "77.28.96.25",
-      "version": 4,
-      "country_code": "mk",
-      "country": "North Macedonia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "MT Adsl",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 61.56,
-        "90d": 67.44,
-        "1y": 68.43
+        "24h": 86.67,
+        "30d": 91.48,
+        "90d": 89.96,
+        "1y": 92.63
       }
     }
   ]

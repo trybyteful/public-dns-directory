@@ -4,7 +4,7 @@
     "country_name": "Andorra",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-03-31T18:15:23Z",
+    "generated_at": "2026-04-01T06:43:34Z",
     "total_servers": 1
   },
   "resolvers": [
@@ -20,19 +20,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 42.86,
-        "30d": 96.8,
-        "90d": 98.71,
-        "1y": 96.31
+        "24h": 80.0,
+        "30d": 96.32,
+        "90d": 98.58,
+        "1y": 96.24
       }
     }
   ]

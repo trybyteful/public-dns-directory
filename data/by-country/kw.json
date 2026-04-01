@@ -4,7 +4,7 @@
     "country_name": "Kuwait",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-03-31T18:15:23Z",
+    "generated_at": "2026-04-01T06:43:34Z",
     "total_servers": 5
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 98.4,
-        "90d": 94.01,
-        "1y": 88.27
+        "24h": 86.67,
+        "30d": 98.42,
+        "90d": 94.26,
+        "1y": 88.3
       }
     },
     {
@@ -56,9 +56,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 64.29,
-        "30d": 85.87,
-        "90d": 94.89,
+        "24h": 86.67,
+        "30d": 85.79,
+        "90d": 94.85,
         "1y": 87.29
       }
     },
@@ -80,12 +80,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.73,
-        "90d": 97.75,
+        "30d": 99.74,
+        "90d": 97.74,
         "1y": 98.79
       }
     },
@@ -102,17 +102,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.4,
-        "90d": 98.71,
+        "30d": 98.42,
+        "90d": 98.7,
         "1y": 97.19
       }
     },
@@ -132,15 +132,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 28.57,
-        "30d": 43.42,
-        "90d": 41.96,
-        "1y": 29.48
+        "24h": 46.67,
+        "30d": 43.01,
+        "90d": 42.46,
+        "1y": 29.52
       }
     }
   ]
