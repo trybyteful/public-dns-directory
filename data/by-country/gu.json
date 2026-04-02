@@ -4,7 +4,7 @@
     "country_name": "Guam",
     "continent_code": "oc",
     "continent_name": "Oceania",
-    "generated_at": "2026-04-01T18:14:26Z",
+    "generated_at": "2026-04-02T06:35:28Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -20,19 +20,46 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 31.25,
-        "30d": 54.12,
-        "90d": 67.83,
-        "1y": 70.59
+        "24h": 75.0,
+        "30d": 55.28,
+        "90d": 68.47,
+        "1y": 70.66
+      }
+    },
+    {
+      "ip": "209.164.189.56",
+      "version": 4,
+      "country_code": "gu",
+      "country": "Guam",
+      "continent_code": "oc",
+      "continent": "Oceania",
+      "organization": "Level 3",
+      "domain": "209-164-189-56.biz.static.teleguam.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 78.63,
+        "90d": 72.36,
+        "1y": 69.02
       }
     },
     {
@@ -52,41 +79,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.75,
-        "30d": 89.64,
-        "90d": 87.51,
-        "1y": 86.82
-      }
-    },
-    {
-      "ip": "209.164.189.56",
-      "version": 4,
-      "country_code": "gu",
-      "country": "Guam",
-      "continent_code": "oc",
-      "continent": "Oceania",
-      "organization": "Level 3",
-      "domain": "209-164-189-56.biz.static.teleguam.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 87.5,
-        "30d": 78.21,
-        "90d": 72.65,
-        "1y": 68.94
+        "30d": 89.81,
+        "90d": 87.4,
+        "1y": 86.83
       }
     }
   ]

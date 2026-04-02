@@ -4,8 +4,8 @@
     "country_name": "Myanmar",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-01T18:14:26Z",
-    "total_servers": 1
+    "generated_at": "2026-04-02T06:35:28Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -25,14 +25,68 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 93.75,
+        "30d": 96.68,
+        "90d": 98.32,
+        "1y": 97.86
+      }
+    },
+    {
+      "ip": "121.54.164.130",
+      "version": 4,
+      "country_code": "mm",
+      "country": "Myanmar",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "AGB Communication Co.Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 56.25,
-        "30d": 96.61,
-        "90d": 98.33,
-        "1y": 97.85
+        "24h": 37.5,
+        "30d": 26.94,
+        "90d": 32.62,
+        "1y": 28.79
+      }
+    },
+    {
+      "ip": "103.213.30.95",
+      "version": 4,
+      "country_code": "mm",
+      "country": "Myanmar",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Myanmar Broadband Telecom Co., Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 25.0,
+        "30d": 12.2,
+        "90d": 4.72,
+        "1y": 2.18
       }
     }
   ]
