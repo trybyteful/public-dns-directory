@@ -4,7 +4,7 @@
     "country_name": "Afghanistan",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-02T06:35:28Z",
+    "generated_at": "2026-04-02T18:13:47Z",
     "total_servers": 2
   },
   "resolvers": [
@@ -20,19 +20,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.23,
-        "90d": 98.02,
-        "1y": 96.87
+        "30d": 99.24,
+        "90d": 98.0,
+        "1y": 96.88
       }
     },
     {
@@ -47,18 +47,18 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 89.51,
-        "90d": 89.12,
+        "24h": 87.5,
+        "30d": 89.34,
+        "90d": 89.1,
         "1y": 90.28
       }
     }
