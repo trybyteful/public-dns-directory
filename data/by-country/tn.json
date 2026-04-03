@@ -4,8 +4,8 @@
     "country_name": "Tunisia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-03T06:34:38Z",
-    "total_servers": 5
+    "generated_at": "2026-04-03T18:09:00Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -48,7 +48,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -56,10 +56,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 47.06,
-        "30d": 31.4,
-        "90d": 39.78,
-        "1y": 39.53
+        "24h": 43.75,
+        "30d": 30.99,
+        "90d": 39.69,
+        "1y": 39.54
       }
     },
     {
@@ -78,7 +78,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -110,10 +110,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 94.12,
+        "24h": 93.75,
         "30d": 96.46,
-        "90d": 98.84,
+        "90d": 98.83,
         "1y": 99.33
+      }
+    },
+    {
+      "ip": "196.179.250.95",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ooredoo TN",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 31.25,
+        "30d": 30.93,
+        "90d": 39.6,
+        "1y": 41.29
       }
     },
     {
@@ -129,7 +156,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -137,10 +164,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 35.29,
-        "30d": 38.22,
-        "90d": 39.91,
-        "1y": 38.92
+        "24h": 31.25,
+        "30d": 38.11,
+        "90d": 39.76,
+        "1y": 38.91
       }
     }
   ]

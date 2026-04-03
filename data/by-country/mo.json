@@ -4,7 +4,7 @@
     "country_name": "Macao",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-03T06:34:38Z",
+    "generated_at": "2026-04-03T18:09:00Z",
     "total_servers": 9
   },
   "resolvers": [
@@ -29,10 +29,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 91.9,
-        "90d": 96.16,
-        "1y": 97.99
+        "24h": 87.5,
+        "30d": 91.39,
+        "90d": 96.01,
+        "1y": 97.94
       }
     },
     {
@@ -53,13 +53,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 83.29,
-        "90d": 77.22,
-        "1y": 66.33
+        "24h": 90.91,
+        "30d": 83.56,
+        "90d": 78.06,
+        "1y": 66.37
       }
     },
     {
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 83.29,
-        "90d": 91.71,
-        "1y": 94.57
+        "24h": 100.0,
+        "30d": 83.54,
+        "90d": 91.65,
+        "1y": 94.58
       }
     },
     {
@@ -106,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 94.88,
-        "1y": 97.09
+        "90d": 94.97,
+        "1y": 97.1
       }
     },
     {
@@ -129,18 +129,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 94.12,
-        "30d": 85.98,
-        "90d": 78.58,
-        "1y": 69.83
+        "24h": 93.75,
+        "30d": 86.25,
+        "90d": 78.66,
+        "1y": 69.87
       }
     },
     {
@@ -165,63 +165,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.95,
-        "90d": 96.16,
-        "1y": 87.3
-      }
-    },
-    {
-      "ip": "202.86.149.18",
-      "version": 4,
-      "country_code": "mo",
-      "country": "Macao",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "CTM",
-      "domain": "n20286z149l18.static.ctmip.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 94.12,
-        "30d": 86.76,
-        "90d": 81.92,
-        "1y": 68.77
-      }
-    },
-    {
-      "ip": "103.237.127.20",
-      "version": 4,
-      "country_code": "mo",
-      "country": "Macao",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "MTel telecommunication company ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 99.95
+        "30d": 96.2,
+        "90d": 96.19,
+        "1y": 87.32
       }
     },
     {
@@ -242,13 +188,67 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 94.12,
-        "30d": 84.91,
-        "90d": 81.93,
-        "1y": 70.09
+        "24h": 93.75,
+        "30d": 84.64,
+        "90d": 82.0,
+        "1y": 70.13
+      }
+    },
+    {
+      "ip": "103.237.127.20",
+      "version": 4,
+      "country_code": "mo",
+      "country": "Macao",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "MTel telecommunication company ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 99.95
+      }
+    },
+    {
+      "ip": "202.86.149.18",
+      "version": 4,
+      "country_code": "mo",
+      "country": "Macao",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CTM",
+      "domain": "n20286z149l18.static.ctmip.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.75,
+        "30d": 86.79,
+        "90d": 81.99,
+        "1y": 68.82
       }
     }
   ]
