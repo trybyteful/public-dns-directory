@@ -4,7 +4,7 @@
     "country_name": "Guatemala",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-04-04T06:29:22Z",
+    "generated_at": "2026-04-04T18:06:09Z",
     "total_servers": 6
   },
   "resolvers": [
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 86.15,
-        "90d": 91.33,
-        "1y": 93.18
+        "30d": 86.11,
+        "90d": 91.27,
+        "1y": 93.19
       }
     },
     {
@@ -51,42 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.33,
-        "30d": 96.21,
-        "90d": 96.23,
-        "1y": 96.67
-      }
-    },
-    {
-      "ip": "190.148.193.146",
-      "version": 4,
-      "country_code": "gt",
-      "country": "Guatemala",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "TELECOMUNICACIONES DE GUATEMALA, SOCIEDAD ANONIMA",
-      "domain": "146.193.148.190.static.intelnet.net.gt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 78.54,
-        "90d": 73.04,
-        "1y": 66.62
+        "24h": 100.0,
+        "30d": 96.2,
+        "90d": 96.2,
+        "1y": 96.67
       }
     },
     {
@@ -110,10 +83,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 73.33,
-        "30d": 83.08,
-        "90d": 78.6,
-        "1y": 74.15
+        "24h": 64.29,
+        "30d": 83.04,
+        "90d": 78.47,
+        "1y": 74.12
+      }
+    },
+    {
+      "ip": "190.148.193.146",
+      "version": 4,
+      "country_code": "gt",
+      "country": "Guatemala",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "TELECOMUNICACIONES DE GUATEMALA, SOCIEDAD ANONIMA",
+      "domain": "146.193.148.190.static.intelnet.net.gt",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 77.72,
+        "90d": 73.18,
+        "1y": 66.59
       }
     },
     {
@@ -139,7 +139,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.49,
-        "90d": 99.51,
+        "90d": 99.5,
         "1y": 99.54
       }
     },
@@ -160,14 +160,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 90.46,
-        "90d": 86.28,
-        "1y": 92.41
+        "90d": 86.18,
+        "1y": 92.42
       }
     }
   ]
