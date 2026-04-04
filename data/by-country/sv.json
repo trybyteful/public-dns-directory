@@ -4,8 +4,8 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-04-03T18:09:00Z",
-    "total_servers": 4
+    "generated_at": "2026-04-04T06:29:22Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -20,46 +20,46 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 82.78,
-        "90d": 82.45,
-        "1y": 80.81
+        "24h": 100.0,
+        "30d": 83.33,
+        "90d": 82.56,
+        "1y": 80.85
       }
     },
     {
-      "ip": "190.86.205.194",
+      "ip": "168.243.48.33",
       "version": 4,
       "country_code": "sv",
       "country": "El Salvador",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "Sociedad Cooperativa EX Banco Cuscatlan. De R.L",
-      "domain": "ns1.coopex.com.sv",
+      "organization": "SVNet",
+      "domain": "ns.telecam.com.sv",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 69.7,
-        "90d": 79.44,
-        "1y": 81.92
+        "24h": 93.33,
+        "30d": 90.66,
+        "90d": 96.54,
+        "1y": 98.23
       }
     },
     {
@@ -87,33 +87,6 @@
         "30d": 100.0,
         "90d": 99.69,
         "1y": 98.61
-      }
-    },
-    {
-      "ip": "168.243.48.33",
-      "version": 4,
-      "country_code": "sv",
-      "country": "El Salvador",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "SVNet",
-      "domain": "ns.telecam.com.sv",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 90.63,
-        "90d": 96.56,
-        "1y": 98.23
       }
     }
   ]
