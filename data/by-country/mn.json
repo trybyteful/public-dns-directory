@@ -4,8 +4,8 @@
     "country_name": "Mongolia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-04T18:06:09Z",
-    "total_servers": 20
+    "generated_at": "2026-04-05T06:34:15Z",
+    "total_servers": 21
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.92,
-        "90d": 97.14,
-        "1y": 98.74
+        "30d": 91.9,
+        "90d": 97.12,
+        "1y": 98.75
       }
     },
     {
@@ -53,12 +53,12 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.75,
-        "90d": 98.32,
+        "90d": 98.31,
         "1y": 97.97
       }
     },
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.82,
-        "90d": 92.37,
-        "1y": 88.75
+        "30d": 92.8,
+        "90d": 92.31,
+        "1y": 88.77
       }
     },
     {
@@ -105,14 +105,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.75,
-        "90d": 98.82,
+        "90d": 98.81,
         "1y": 99.46
       }
     },
@@ -137,10 +137,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 92.86,
+        "24h": 100.0,
         "30d": 96.46,
-        "90d": 89.17,
-        "1y": 95.08
+        "90d": 89.34,
+        "1y": 95.09
       }
     },
     {
@@ -160,14 +160,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 90.13,
-        "90d": 92.61,
-        "1y": 96.72
+        "90d": 92.55,
+        "1y": 96.73
       }
     },
     {
@@ -188,7 +188,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -214,14 +214,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 88.95,
-        "90d": 93.24,
-        "1y": 89.57
+        "24h": 84.62,
+        "30d": 88.38,
+        "90d": 93.25,
+        "1y": 89.54
       }
     },
     {
@@ -241,14 +241,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 72.0,
-        "90d": 66.46,
-        "1y": 51.61
+        "24h": 53.85,
+        "30d": 71.93,
+        "90d": 66.92,
+        "1y": 51.64
       }
     },
     {
@@ -267,15 +267,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 97.55,
-        "90d": 92.14,
-        "1y": 89.25
+        "90d": 92.08,
+        "1y": 89.29
       }
     },
     {
@@ -294,15 +294,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 92.86,
+        "24h": 100.0,
         "30d": 96.73,
-        "90d": 98.42,
+        "90d": 98.4,
         "1y": 98.94
+      }
+    },
+    {
+      "ip": "202.21.116.206",
+      "version": 4,
+      "country_code": "mn",
+      "country": "Mongolia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Mobinet LLC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 53.85,
+        "30d": 73.35,
+        "90d": 78.95,
+        "1y": 76.78
       }
     },
     {
@@ -322,14 +349,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 84.62,
+        "30d": 90.2,
+        "90d": 93.99,
+        "1y": 94.79
+      }
+    },
+    {
+      "ip": "64.119.29.199",
+      "version": 4,
+      "country_code": "mn",
+      "country": "Mongolia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Univision LLC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.52,
-        "90d": 94.16,
-        "1y": 94.87
+        "30d": 98.73,
+        "90d": 97.93,
+        "1y": 98.85
       }
     },
     {
@@ -348,42 +402,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 78.57,
-        "30d": 93.18,
-        "90d": 97.08,
-        "1y": 98.64
-      }
-    },
-    {
-      "ip": "64.119.29.199",
-      "version": 4,
-      "country_code": "mn",
-      "country": "Mongolia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Univision LLC",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.74,
-        "90d": 97.95,
-        "1y": 98.85
+        "24h": 92.31,
+        "30d": 93.42,
+        "90d": 97.05,
+        "1y": 98.65
       }
     },
     {
@@ -403,41 +430,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.96,
-        "90d": 96.46,
+        "30d": 95.95,
+        "90d": 96.44,
         "1y": 98.12
-      }
-    },
-    {
-      "ip": "203.98.77.50",
-      "version": 4,
-      "country_code": "mn",
-      "country": "Mongolia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Univision LLC",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.69,
-        "90d": 98.29,
-        "1y": 97.64
       }
     },
     {
@@ -458,13 +458,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.44,
-        "90d": 89.48,
-        "1y": 89.53
+        "30d": 94.68,
+        "90d": 89.4,
+        "1y": 89.55
       }
     },
     {
@@ -490,12 +490,12 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.49,
-        "90d": 99.32,
+        "90d": 99.31,
         "1y": 99.62
       }
     },
     {
-      "ip": "103.79.156.70",
+      "ip": "203.98.77.50",
       "version": 4,
       "country_code": "mn",
       "country": "Mongolia",
@@ -516,8 +516,35 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.44,
-        "90d": 97.76,
+        "30d": 95.68,
+        "90d": 98.28,
+        "1y": 97.65
+      }
+    },
+    {
+      "ip": "103.79.156.70",
+      "version": 4,
+      "country_code": "mn",
+      "country": "Mongolia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Univision LLC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.43,
+        "90d": 97.74,
         "1y": 98.82
       }
     },
@@ -538,13 +565,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 91.11,
-        "90d": 96.78,
+        "90d": 96.75,
         "1y": 97.76
       }
     }
