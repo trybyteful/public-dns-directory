@@ -4,8 +4,8 @@
     "country_name": "Nigeria",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-06T06:47:27Z",
-    "total_servers": 9
+    "generated_at": "2026-04-06T18:15:19Z",
+    "total_servers": 7
   },
   "resolvers": [
     {
@@ -24,7 +24,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -53,13 +53,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 47.15,
-        "90d": 41.97,
-        "1y": 48.63
+        "24h": 81.82,
+        "30d": 47.81,
+        "90d": 42.55,
+        "1y": 48.68
       }
     },
     {
@@ -75,7 +75,34 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.89,
+        "90d": 96.68,
+        "1y": 94.28
+      }
+    },
+    {
+      "ip": "102.214.14.1",
+      "version": 4,
+      "country_code": "ng",
+      "country": "Nigeria",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "WOW Networks Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -83,10 +110,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 97.86,
-        "90d": 96.05,
-        "1y": 94.28
+        "24h": 16.67,
+        "30d": 34.44,
+        "90d": 33.33,
+        "1y": 21.88
       }
     },
     {
@@ -117,60 +144,6 @@
       }
     },
     {
-      "ip": "41.184.212.17",
-      "version": 4,
-      "country_code": "ng",
-      "country": "Nigeria",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "ipNX NIGERIA LIMITED",
-      "domain": "41-184-212-17.rv.ipnxtelecoms.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 41.67,
-        "30d": 34.38,
-        "90d": 35.7,
-        "1y": 30.09
-      }
-    },
-    {
-      "ip": "41.184.115.52",
-      "version": 4,
-      "country_code": "ng",
-      "country": "Nigeria",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "ipNX NIGERIA LIMITED",
-      "domain": "41-184-115-52.rv.ipnxtelecoms.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 72.73,
-        "90d": 60.36,
-        "1y": 60.36
-      }
-    },
-    {
       "ip": "83.143.8.249",
       "version": 4,
       "country_code": "ng",
@@ -192,20 +165,20 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.25,
-        "90d": 98.1,
+        "30d": 99.26,
+        "90d": 98.08,
         "1y": 95.95
       }
     },
     {
-      "ip": "41.184.254.94",
+      "ip": "41.184.115.52",
       "version": 4,
       "country_code": "ng",
       "country": "Nigeria",
       "continent_code": "af",
       "continent": "Africa",
       "organization": "ipNX NIGERIA LIMITED",
-      "domain": "41-184-254-94.rv.ipnxtelecoms.com",
+      "domain": "41-184-115-52.rv.ipnxtelecoms.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -213,42 +186,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 79.75,
-        "90d": 80.06,
-        "1y": 89.47
-      }
-    },
-    {
-      "ip": "102.135.217.69",
-      "version": 4,
-      "country_code": "ng",
-      "country": "Nigeria",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "VDT COMMUNICATIONS LIMITED",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 58.33,
-        "30d": 37.72,
-        "90d": 67.07,
-        "1y": 39.99
+        "24h": 83.33,
+        "30d": 74.39,
+        "90d": 61.07,
+        "1y": 61.07
       }
     }
   ]

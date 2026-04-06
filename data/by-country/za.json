@@ -4,8 +4,8 @@
     "country_name": "South Africa",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-06T06:47:27Z",
-    "total_servers": 61
+    "generated_at": "2026-04-06T18:15:19Z",
+    "total_servers": 56
   },
   "resolvers": [
     {
@@ -25,13 +25,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 25.0,
-        "30d": 68.47,
-        "90d": 69.13,
+        "24h": 41.67,
+        "30d": 68.34,
+        "90d": 69.0,
         "1y": 61.17
       }
     },
@@ -56,10 +56,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 92.86,
-        "90d": 92.06,
-        "1y": 87.36
+        "24h": 90.91,
+        "30d": 92.95,
+        "90d": 92.15,
+        "1y": 87.38
       }
     },
     {
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 82.68,
-        "90d": 86.46,
-        "1y": 87.24
+        "24h": 81.82,
+        "30d": 82.2,
+        "90d": 86.44,
+        "1y": 87.2
       }
     },
     {
@@ -102,34 +102,34 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.78,
-        "90d": 94.34,
-        "1y": 95.52
+        "30d": 95.83,
+        "90d": 94.31,
+        "1y": 95.53
       }
     },
     {
-      "ip": "105.243.178.87",
+      "ip": "105.247.182.102",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
       "organization": "Vodacom ENS",
-      "domain": "vc-gp-n-105-243-178-87.umts.vodacom.co.za",
+      "domain": "vc-vb-105-247-182-102.ens.vodacom.co.za",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -137,10 +137,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 69.79,
-        "90d": 84.36,
-        "1y": 89.11
+        "24h": 33.33,
+        "30d": 37.63,
+        "90d": 39.83,
+        "1y": 27.82
       }
     },
     {
@@ -159,15 +159,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 78.04,
-        "90d": 71.61,
-        "1y": 68.86
+        "24h": 81.82,
+        "30d": 78.33,
+        "90d": 71.64,
+        "1y": 68.9
       }
     },
     {
@@ -191,10 +191,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 92.6,
-        "90d": 94.57,
-        "1y": 96.97
+        "24h": 90.91,
+        "30d": 92.42,
+        "90d": 94.6,
+        "1y": 96.95
       }
     },
     {
@@ -219,9 +219,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.01,
-        "90d": 90.28,
-        "1y": 94.16
+        "30d": 98.03,
+        "90d": 90.29,
+        "1y": 94.17
       }
     },
     {
@@ -240,15 +240,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 83.33,
-        "30d": 92.29,
-        "90d": 93.07,
-        "1y": 94.39
+        "30d": 92.38,
+        "90d": 93.1,
+        "1y": 94.4
       }
     },
     {
@@ -273,9 +273,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.78,
-        "90d": 77.12,
-        "1y": 71.9
+        "30d": 87.97,
+        "90d": 77.13,
+        "1y": 71.94
+      }
+    },
+    {
+      "ip": "41.165.19.186",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Neotel WCape",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 36.36,
+        "30d": 57.26,
+        "90d": 56.08,
+        "1y": 37.86
       }
     },
     {
@@ -295,14 +322,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.76,
-        "90d": 92.95,
-        "1y": 91.78
+        "30d": 98.77,
+        "90d": 93.04,
+        "1y": 91.79
       }
     },
     {
@@ -321,15 +348,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 41.67,
+        "30d": 50.3,
+        "90d": 43.25,
+        "1y": 34.78
+      }
+    },
+    {
+      "ip": "41.23.99.247",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-99-247.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 25.0,
-        "30d": 50.15,
-        "90d": 43.29,
-        "1y": 34.75
+        "24h": 100.0,
+        "30d": 90.65,
+        "90d": 92.96,
+        "1y": 92.72
       }
     },
     {
@@ -353,21 +407,21 @@
         "adult": false
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 77.67,
-        "90d": 75.86,
-        "1y": 74.6
+        "24h": 100.0,
+        "30d": 77.94,
+        "90d": 76.42,
+        "1y": 74.63
       }
     },
     {
-      "ip": "41.23.184.151",
+      "ip": "41.23.184.235",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
       "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-184-151.umts.vodacom.co.za",
+      "domain": "vc-41-23-184-235.umts.vodacom.co.za",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -380,10 +434,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 96.77,
-        "90d": 89.52,
-        "1y": 93.06
+        "24h": 25.0,
+        "30d": 48.4,
+        "90d": 81.96,
+        "1y": 73.69
       }
     },
     {
@@ -403,14 +457,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.53,
-        "90d": 82.26,
-        "1y": 79.21
+        "30d": 95.59,
+        "90d": 82.29,
+        "1y": 79.24
       }
     },
     {
@@ -426,7 +480,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -458,13 +512,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 78.22,
-        "90d": 82.49,
-        "1y": 82.81
+        "30d": 78.5,
+        "90d": 82.77,
+        "1y": 82.83
       }
     },
     {
@@ -485,67 +539,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 91.29,
-        "90d": 89.52,
-        "1y": 88.76
-      }
-    },
-    {
-      "ip": "41.0.170.154",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom ENS",
-      "domain": "vc-vb-41-0-170-154.ens.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 93.28,
-        "90d": 93.71,
-        "1y": 95.01
-      }
-    },
-    {
-      "ip": "102.133.139.27",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Microsoft Azure Cloud (southafricanorth)",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 62.37,
-        "90d": 62.9,
-        "1y": 48.16
+        "24h": 100.0,
+        "30d": 91.4,
+        "90d": 89.85,
+        "1y": 88.78
       }
     },
     {
@@ -570,9 +570,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.27,
-        "90d": 93.68,
-        "1y": 94.82
+        "30d": 91.38,
+        "90d": 93.77,
+        "1y": 94.83
       }
     },
     {
@@ -593,13 +593,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 92.8,
-        "90d": 95.31,
-        "1y": 93.69
+        "24h": 100.0,
+        "30d": 92.89,
+        "90d": 95.28,
+        "1y": 93.7
       }
     },
     {
@@ -624,8 +624,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.04,
-        "90d": 93.39,
+        "30d": 95.1,
+        "90d": 93.35,
         "1y": 93.66
       }
     },
@@ -646,13 +646,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 90.0,
-        "90d": 96.28,
+        "24h": 100.0,
+        "30d": 90.14,
+        "90d": 96.26,
         "1y": 96.58
       }
     },
@@ -672,150 +672,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 82.4,
-        "90d": 74.4,
-        "1y": 61.57
-      }
-    },
-    {
-      "ip": "105.243.179.28",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom ENS",
-      "domain": "vc-gp-n-105-243-179-28.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 84.8,
-        "90d": 75.08,
-        "1y": 67.53
-      }
-    },
-    {
-      "ip": "105.30.247.93",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "SEACOM Limited Networks",
-      "domain": "ns3.gns.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 95.99,
-        "90d": 95.86,
-        "1y": 96.3
-      }
-    },
-    {
-      "ip": "169.239.80.214",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "United Europe Travel Services",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 77.62,
-        "90d": 75.43,
-        "1y": 71.49
-      }
-    },
-    {
-      "ip": "41.23.114.186",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-114-186.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 95.27,
-        "90d": 94.73,
-        "1y": 96.02
-      }
-    },
-    {
-      "ip": "41.23.184.125",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-184-125.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 90.8,
-        "90d": 92.89,
-        "1y": 94.88
+        "24h": 72.73,
+        "30d": 82.37,
+        "90d": 74.93,
+        "1y": 61.59
       }
     },
     {
@@ -835,392 +700,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 91.67,
-        "30d": 93.53,
-        "90d": 98.22,
+        "30d": 93.61,
+        "90d": 98.21,
         "1y": 98.7
-      }
-    },
-    {
-      "ip": "41.23.113.130",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-113-130.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 58.33,
-        "30d": 74.19,
-        "90d": 81.33,
-        "1y": 89.76
-      }
-    },
-    {
-      "ip": "41.23.114.29",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-114-29.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 72.95,
-        "90d": 73.76,
-        "1y": 71.63
-      }
-    },
-    {
-      "ip": "41.23.240.123",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-240-123.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.02,
-        "90d": 93.38,
-        "1y": 94.98
-      }
-    },
-    {
-      "ip": "41.23.99.30",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-99-30.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.77,
-        "90d": 86.3,
-        "1y": 90.96
-      }
-    },
-    {
-      "ip": "102.216.223.14",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Krypton Web",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 82.01,
-        "90d": 82.5,
-        "1y": 81.21
-      }
-    },
-    {
-      "ip": "41.23.190.90",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-190-90.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 92.0,
-        "90d": 92.04,
-        "1y": 92.0
-      }
-    },
-    {
-      "ip": "105.243.201.46",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom ENS",
-      "domain": "vc-gp-n-105-243-201-46.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 96.77,
-        "90d": 94.28,
-        "1y": 92.08
-      }
-    },
-    {
-      "ip": "154.0.172.204",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Afrihost",
-      "domain": "nbk.dedicated.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 54.84,
-        "90d": 89.01,
-        "1y": 82.53
-      }
-    },
-    {
-      "ip": "41.23.253.80",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-253-80.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.02,
-        "90d": 93.01,
-        "1y": 94.98
-      }
-    },
-    {
-      "ip": "41.23.234.114",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-234-114.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 72.19,
-        "90d": 84.23,
-        "1y": 85.45
-      }
-    },
-    {
-      "ip": "41.203.13.124",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Xneelo Tscolo",
-      "domain": "pp-124.principalprimary.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 85.54,
-        "90d": 63.11,
-        "1y": 39.89
-      }
-    },
-    {
-      "ip": "102.33.47.78",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "MFN-IP",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 90.56,
-        "90d": 90.93,
-        "1y": 93.37
-      }
-    },
-    {
-      "ip": "196.61.20.249",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Huge Networks (Pty) Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 68.45,
-        "90d": 76.54,
-        "1y": 75.11
-      }
-    },
-    {
-      "ip": "105.29.89.225",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "SEACOM Limited Networks",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 65.61,
-        "90d": 67.53,
-        "1y": 62.66
       }
     },
     {
@@ -1244,199 +731,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 82.8,
-        "90d": 78.63,
-        "1y": 74.69
-      }
-    },
-    {
-      "ip": "41.23.98.218",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-98-218.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.44,
-        "90d": 80.87,
-        "1y": 89.62
-      }
-    },
-    {
-      "ip": "105.243.206.41",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom ENS",
-      "domain": "vc-gp-n-105-243-206-41.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 92.43,
-        "90d": 86.21,
-        "1y": 68.26
-      }
-    },
-    {
-      "ip": "105.244.179.225",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom ENS",
-      "domain": "vc-gp-n-105-244-179-225.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.03,
-        "90d": 91.49,
-        "1y": 89.94
-      }
-    },
-    {
-      "ip": "41.23.190.210",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-190-210.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.41,
-        "90d": 84.9,
-        "1y": 65.32
-      }
-    },
-    {
-      "ip": "41.23.253.31",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-253-31.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 50.52,
-        "90d": 80.86,
-        "1y": 89.4
-      }
-    },
-    {
-      "ip": "105.243.213.57",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom ENS",
-      "domain": "vc-gp-n-105-243-213-57.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 91.79,
-        "90d": 83.32,
-        "1y": 85.31
-      }
-    },
-    {
-      "ip": "154.126.209.249",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "JENNY Network",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 81.09,
-        "90d": 89.55,
-        "1y": 91.97
+        "24h": 72.73,
+        "30d": 83.03,
+        "90d": 78.72,
+        "1y": 74.72
       }
     },
     {
@@ -1461,9 +759,549 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.06,
-        "90d": 94.05,
-        "1y": 85.38
+        "30d": 97.1,
+        "90d": 94.01,
+        "1y": 85.4
+      }
+    },
+    {
+      "ip": "41.23.113.130",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-113-130.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 58.33,
+        "30d": 74.51,
+        "90d": 81.37,
+        "1y": 89.77
+      }
+    },
+    {
+      "ip": "41.23.184.111",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-184-111.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 90.61,
+        "90d": 83.13,
+        "1y": 86.57
+      }
+    },
+    {
+      "ip": "41.23.234.114",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-234-114.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 81.82,
+        "30d": 72.3,
+        "90d": 84.27,
+        "1y": 85.44
+      }
+    },
+    {
+      "ip": "77.246.57.132",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Econet Carrier Services",
+      "domain": "reserved.liquidtelecom.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.74,
+        "1y": 99.85
+      }
+    },
+    {
+      "ip": "105.243.201.46",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom ENS",
+      "domain": "vc-gp-n-105-243-201-46.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.81,
+        "90d": 94.38,
+        "1y": 92.09
+      }
+    },
+    {
+      "ip": "41.23.216.154",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-216-154.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 91.67,
+        "30d": 94.84,
+        "90d": 93.23,
+        "1y": 95.39
+      }
+    },
+    {
+      "ip": "41.23.253.80",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-253-80.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.09,
+        "90d": 93.1,
+        "1y": 94.99
+      }
+    },
+    {
+      "ip": "105.243.206.41",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom ENS",
+      "domain": "vc-gp-n-105-243-206-41.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 92.53,
+        "90d": 86.27,
+        "1y": 68.31
+      }
+    },
+    {
+      "ip": "105.243.179.28",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom ENS",
+      "domain": "vc-gp-n-105-243-179-28.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 84.74,
+        "90d": 74.95,
+        "1y": 67.55
+      }
+    },
+    {
+      "ip": "105.30.247.93",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "SEACOM Limited Networks",
+      "domain": "ns3.gns.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.04,
+        "90d": 95.9,
+        "1y": 96.31
+      }
+    },
+    {
+      "ip": "105.244.179.225",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom ENS",
+      "domain": "vc-gp-n-105-244-179-225.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.08,
+        "90d": 91.57,
+        "1y": 89.95
+      }
+    },
+    {
+      "ip": "41.203.13.124",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Xneelo Tscolo",
+      "domain": "pp-124.principalprimary.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 91.67,
+        "30d": 85.96,
+        "90d": 63.91,
+        "1y": 40.72
+      }
+    },
+    {
+      "ip": "41.23.190.90",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-190-90.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 92.11,
+        "90d": 92.06,
+        "1y": 92.01
+      }
+    },
+    {
+      "ip": "154.0.172.204",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Afrihost",
+      "domain": "nbk.dedicated.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 58.21,
+        "90d": 89.07,
+        "1y": 82.58
+      }
+    },
+    {
+      "ip": "41.23.253.31",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-253-31.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 51.35,
+        "90d": 80.81,
+        "1y": 89.42
+      }
+    },
+    {
+      "ip": "102.33.47.78",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "MFN-IP",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 90.7,
+        "90d": 90.88,
+        "1y": 93.38
+      }
+    },
+    {
+      "ip": "41.23.184.193",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-184-193.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 83.38,
+        "90d": 79.54,
+        "1y": 83.97
+      }
+    },
+    {
+      "ip": "105.29.89.225",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "SEACOM Limited Networks",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 65.54,
+        "90d": 67.77,
+        "1y": 62.66
+      }
+    },
+    {
+      "ip": "105.243.213.57",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom ENS",
+      "domain": "vc-gp-n-105-243-213-57.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 91.67,
+        "30d": 91.89,
+        "90d": 83.63,
+        "1y": 85.33
+      }
+    },
+    {
+      "ip": "41.23.184.40",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-184-40.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 91.67,
+        "30d": 76.58,
+        "90d": 84.84,
+        "1y": 89.72
       }
     },
     {
@@ -1484,51 +1322,105 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.52,
-        "90d": 87.91,
-        "1y": 91.87
-      }
-    },
-    {
-      "ip": "102.22.72.24",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "VodSession72",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 76.2,
-        "90d": 78.83,
-        "1y": 80.57
+        "24h": 100.0,
+        "30d": 96.56,
+        "90d": 88.12,
+        "1y": 91.88
       }
     },
     {
-      "ip": "41.23.184.111",
+      "ip": "41.23.190.210",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
       "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-184-111.umts.vodacom.co.za",
+      "domain": "vc-41-23-190-210.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.43,
+        "90d": 85.26,
+        "1y": 65.62
+      }
+    },
+    {
+      "ip": "41.23.240.123",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-240-123.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.06,
+        "90d": 93.41,
+        "1y": 94.99
+      }
+    },
+    {
+      "ip": "41.23.99.30",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-99-30.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.79,
+        "90d": 86.61,
+        "1y": 90.99
+      }
+    },
+    {
+      "ip": "41.23.98.218",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-98-218.umts.vodacom.co.za",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1542,25 +1434,25 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.76,
-        "90d": 83.09,
-        "1y": 86.58
+        "30d": 95.5,
+        "90d": 81.85,
+        "1y": 89.63
       }
     },
     {
-      "ip": "41.23.184.40",
+      "ip": "63.218.191.114",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-184-40.umts.vodacom.co.za",
+      "organization": "PCCW Global, Inc.",
+      "domain": "63-218-191-114.static.as3491.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -1568,48 +1460,48 @@
         "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 76.53,
-        "90d": 84.98,
-        "1y": 89.73
+        "24h": 50.0,
+        "30d": 88.48,
+        "90d": 86.59,
+        "1y": 86.59
       }
     },
     {
-      "ip": "77.246.57.132",
+      "ip": "41.23.184.125",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Econet Carrier Services",
-      "domain": "reserved.liquidtelecom.net",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-184-125.umts.vodacom.co.za",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.75,
-        "1y": 99.85
+        "24h": 83.33,
+        "30d": 90.66,
+        "90d": 92.78,
+        "1y": 94.86
       }
     },
     {
-      "ip": "41.23.216.154",
+      "ip": "41.23.114.186",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
       "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-216-154.umts.vodacom.co.za",
+      "domain": "vc-41-23-114-186.umts.vodacom.co.za",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1617,42 +1509,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.02,
-        "90d": 93.14,
-        "1y": 95.41
-      }
-    },
-    {
-      "ip": "41.23.185.218",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-185-218.umts.vodacom.co.za",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 91.67,
-        "30d": 81.84,
-        "90d": 82.53,
-        "1y": 77.01
+        "30d": 95.33,
+        "90d": 95.15,
+        "1y": 96.03
       }
     }
   ]
