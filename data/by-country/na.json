@@ -4,10 +4,37 @@
     "country_name": "Namibia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-06T18:15:19Z",
-    "total_servers": 3
+    "generated_at": "2026-04-07T06:39:54Z",
+    "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "41.63.240.79",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "MTC Netman",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 71.5,
+        "90d": 70.29,
+        "1y": 63.35
+      }
+    },
     {
       "ip": "41.63.244.89",
       "version": 4,
@@ -24,42 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 85.01,
-        "90d": 81.66,
-        "1y": 86.23
-      }
-    },
-    {
-      "ip": "41.63.249.222",
-      "version": 4,
-      "country_code": "na",
-      "country": "Namibia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Mobile Telecommunications LTD",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 91.67,
-        "30d": 93.61,
-        "90d": 89.46,
-        "1y": 93.61
+        "30d": 85.02,
+        "90d": 81.62,
+        "1y": 86.23
       }
     },
     {
@@ -79,14 +79,41 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 92.75,
+        "90d": 96.79,
+        "1y": 97.23
+      }
+    },
+    {
+      "ip": "41.63.249.222",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Mobile Telecommunications LTD",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 92.63,
-        "90d": 96.81,
-        "1y": 97.23
+        "24h": 83.33,
+        "30d": 93.24,
+        "90d": 89.27,
+        "1y": 93.57
       }
     }
   ]
