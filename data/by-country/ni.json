@@ -4,35 +4,35 @@
     "country_name": "Nicaragua",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-04-07T06:39:54Z",
+    "generated_at": "2026-04-07T18:16:07Z",
     "total_servers": 1
   },
   "resolvers": [
     {
-      "ip": "190.124.39.34",
+      "ip": "161.0.62.217",
       "version": 4,
       "country_code": "ni",
       "country": "Nicaragua",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "Telefonia Celular de Nicaragua SA",
-      "domain": "static.navega.com.ni",
+      "organization": "IBW Communications",
+      "domain": "host-217-62-0-161.ibw.com.ni",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 87.56,
-        "90d": 87.04,
-        "1y": 90.63
+        "24h": 30.77,
+        "30d": 53.2,
+        "90d": 49.21,
+        "1y": 32.17
       }
     }
   ]
