@@ -4,8 +4,8 @@
     "country_name": "Kosovo",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-04-07T18:16:07Z",
-    "total_servers": 8
+    "generated_at": "2026-04-08T06:41:22Z",
+    "total_servers": 10
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 76.01,
-        "90d": 64.84,
-        "1y": 66.25
+        "24h": 91.67,
+        "30d": 76.15,
+        "90d": 64.66,
+        "1y": 66.27
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.14,
-        "90d": 94.82,
-        "1y": 94.05
+        "30d": 97.18,
+        "90d": 94.86,
+        "1y": 94.06
       }
     },
     {
@@ -83,10 +83,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 84.3,
-        "90d": 83.59,
-        "1y": 83.86
+        "24h": 58.33,
+        "30d": 83.19,
+        "90d": 83.2,
+        "1y": 83.76
       }
     },
     {
@@ -106,12 +106,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.76,
+        "30d": 99.77,
         "90d": 99.87,
         "1y": 98.73
       }
@@ -129,33 +129,6 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 53.85,
-        "30d": 80.11,
-        "90d": 77.36,
-        "1y": 76.68
-      }
-    },
-    {
-      "ip": "213.163.120.82",
-      "version": 4,
-      "country_code": "xk",
-      "country": "Kosovo",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telekomi i Kosoves SH.A.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -164,10 +137,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.57,
-        "90d": 99.16,
-        "1y": 98.71
+        "24h": 50.0,
+        "30d": 79.63,
+        "90d": 77.01,
+        "1y": 76.64
       }
     },
     {
@@ -192,9 +165,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.96,
-        "90d": 95.96,
-        "1y": 95.96
+        "30d": 96.02,
+        "90d": 96.02,
+        "1y": 96.02
       }
     },
     {
@@ -218,10 +191,91 @@
         "adult": false
       },
       "uptime": {
+        "24h": 91.67,
+        "30d": 97.18,
+        "90d": 93.77,
+        "1y": 95.54
+      }
+    },
+    {
+      "ip": "84.22.46.238",
+      "version": 4,
+      "country_code": "xk",
+      "country": "Kosovo",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Artmotion",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 25.0,
+        "30d": 77.51,
+        "90d": 79.16,
+        "1y": 73.23
+      }
+    },
+    {
+      "ip": "213.163.120.82",
+      "version": 4,
+      "country_code": "xk",
+      "country": "Kosovo",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Telekomi i Kosoves SH.A.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
         "24h": 100.0,
-        "30d": 97.38,
-        "90d": 93.87,
-        "1y": 95.56
+        "30d": 98.59,
+        "90d": 99.16,
+        "1y": 98.71
+      }
+    },
+    {
+      "ip": "185.186.80.122",
+      "version": 4,
+      "country_code": "xk",
+      "country": "Kosovo",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Prizren-Broadband",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 58.33,
+        "30d": 90.23,
+        "90d": 90.21,
+        "1y": 92.45
       }
     }
   ]

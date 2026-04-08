@@ -4,8 +4,8 @@
     "country_name": "Nigeria",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-07T18:16:07Z",
-    "total_servers": 6
+    "generated_at": "2026-04-08T06:41:22Z",
+    "total_servers": 10
   },
   "resolvers": [
     {
@@ -25,14 +25,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.76,
-        "90d": 98.97,
+        "30d": 99.77,
+        "90d": 98.96,
         "1y": 99.44
+      }
+    },
+    {
+      "ip": "169.239.236.101",
+      "version": 4,
+      "country_code": "ng",
+      "country": "Nigeria",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Gutti Global Networks",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 50.74,
+        "90d": 41.94,
+        "1y": 48.9
       }
     },
     {
@@ -57,9 +84,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.29,
-        "90d": 98.13,
+        "30d": 99.3,
+        "90d": 98.18,
         "1y": 95.97
+      }
+    },
+    {
+      "ip": "41.217.204.165",
+      "version": 4,
+      "country_code": "ng",
+      "country": "Nigeria",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Layer3 ABJ Internal",
+      "domain": "ns1.layer3.ng",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 96.98,
+        "90d": 96.43,
+        "1y": 94.21
       }
     },
     {
@@ -110,21 +164,21 @@
         "adult": true
       },
       "uptime": {
-        "24h": 23.08,
-        "30d": 34.13,
-        "90d": 35.82,
-        "1y": 30.09
+        "24h": 25.0,
+        "30d": 33.82,
+        "90d": 35.98,
+        "1y": 30.07
       }
     },
     {
-      "ip": "41.184.115.52",
+      "ip": "41.184.153.133",
       "version": 4,
       "country_code": "ng",
       "country": "Nigeria",
       "continent_code": "af",
       "continent": "Africa",
       "organization": "ipNX NIGERIA LIMITED",
-      "domain": "41-184-115-52.rv.ipnxtelecoms.com",
+      "domain": "41-184-153-133.rv.ipnxtelecoms.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -134,13 +188,13 @@
       "blocking": {
         "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 69.23,
-        "30d": 73.68,
-        "90d": 61.43,
-        "1y": 61.43
+        "24h": 66.67,
+        "30d": 29.17,
+        "90d": 13.33,
+        "1y": 5.88
       }
     },
     {
@@ -165,9 +219,63 @@
       },
       "uptime": {
         "24h": 50.0,
-        "30d": 69.52,
-        "90d": 72.04,
-        "1y": 59.61
+        "30d": 69.23,
+        "90d": 71.65,
+        "1y": 59.59
+      }
+    },
+    {
+      "ip": "41.184.115.52",
+      "version": 4,
+      "country_code": "ng",
+      "country": "Nigeria",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ipNX NIGERIA LIMITED",
+      "domain": "41-184-115-52.rv.ipnxtelecoms.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 75.25,
+        "90d": 62.21,
+        "1y": 62.21
+      }
+    },
+    {
+      "ip": "41.184.254.94",
+      "version": 4,
+      "country_code": "ng",
+      "country": "Nigeria",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ipNX NIGERIA LIMITED",
+      "domain": "41-184-254-94.rv.ipnxtelecoms.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 79.12,
+        "90d": 81.94,
+        "1y": 89.36
       }
     }
   ]
