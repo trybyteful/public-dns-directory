@@ -4,7 +4,7 @@
     "country_name": "Belize",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-04-05T06:34:15Z",
+    "generated_at": "2026-04-08T18:22:27Z",
     "total_servers": 1
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 76.92,
-        "30d": 80.25,
-        "90d": 81.91,
-        "1y": 89.0
+        "24h": 41.67,
+        "30d": 76.57,
+        "90d": 79.62,
+        "1y": 88.39
       }
     }
   ]

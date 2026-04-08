@@ -4,46 +4,19 @@
     "country_name": "Andorra",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-04-08T06:41:22Z",
+    "generated_at": "2026-04-08T18:22:27Z",
     "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "194.158.78.137",
-      "version": 4,
-      "country_code": "ad",
-      "country": "Andorra",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ANDORRA TELECOM, S.A.U.",
-      "domain": "ns1.xena.ad",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 94.46,
-        "90d": 98.19,
-        "1y": 96.5
-      }
-    },
-    {
-      "ip": "109.111.117.212",
+      "ip": "91.187.93.98",
       "version": 4,
       "country_code": "ad",
       "country": "Andorra",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "ANDORRA TELECOM, S.A.U",
-      "domain": "mail.m31estudi.com",
+      "domain": "shibori.ftth.viamoda.ad",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -51,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 87.06,
-        "90d": 79.85,
-        "1y": 84.78
+        "24h": 100.0,
+        "30d": 95.59,
+        "90d": 98.04,
+        "1y": 96.16
       }
     },
     {
@@ -79,25 +52,52 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 41.67,
-        "30d": 39.2,
-        "90d": 39.72,
-        "1y": 28.7
+        "24h": 50.0,
+        "30d": 39.21,
+        "90d": 39.67,
+        "1y": 28.72
       }
     },
     {
-      "ip": "91.187.93.98",
+      "ip": "109.111.117.212",
       "version": 4,
       "country_code": "ad",
       "country": "Andorra",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "ANDORRA TELECOM, S.A.U",
-      "domain": "shibori.ftth.viamoda.ad",
+      "domain": "correu.m31estudi.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 86.98,
+        "90d": 79.88,
+        "1y": 84.78
+      }
+    },
+    {
+      "ip": "194.158.78.137",
+      "version": 4,
+      "country_code": "ad",
+      "country": "Andorra",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ANDORRA TELECOM, S.A.U.",
+      "domain": "ns1.xena.ad",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -106,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.54,
-        "90d": 98.05,
-        "1y": 96.16
+        "30d": 94.53,
+        "90d": 98.17,
+        "1y": 96.5
       }
     }
   ]
