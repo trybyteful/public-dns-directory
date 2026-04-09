@@ -4,7 +4,7 @@
     "country_name": "Iraq",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-09T06:41:47Z",
+    "generated_at": "2026-04-09T18:18:14Z",
     "total_servers": 5
   },
   "resolvers": [
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 72.69,
-        "90d": 74.78,
-        "1y": 69.26
+        "30d": 73.19,
+        "90d": 75.28,
+        "1y": 69.3
       }
     },
     {
@@ -52,13 +52,13 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 74.83,
-        "90d": 71.76,
+        "24h": 76.92,
+        "30d": 74.94,
+        "90d": 71.5,
         "1y": 79.18
       }
     },
@@ -83,10 +83,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 25.0,
-        "30d": 44.47,
-        "90d": 60.26,
-        "1y": 59.81
+        "24h": 46.15,
+        "30d": 45.13,
+        "90d": 60.25,
+        "1y": 59.87
+      }
+    },
+    {
+      "ip": "212.237.127.127",
+      "version": 4,
+      "country_code": "iq",
+      "country": "Iraq",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "KurDistanNetSubnet5",
+      "domain": "email.crystalcargo.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.77,
+        "90d": 99.87,
+        "1y": 99.82
       }
     },
     {
@@ -114,33 +141,6 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
-      }
-    },
-    {
-      "ip": "212.237.127.127",
-      "version": 4,
-      "country_code": "iq",
-      "country": "Iraq",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "KurDistanNetSubnet5",
-      "domain": "email.crystalcargo.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.77,
-        "90d": 99.87,
-        "1y": 99.82
       }
     }
   ]
