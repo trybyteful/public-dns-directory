@@ -4,8 +4,8 @@
     "country_name": "Saudi Arabia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-08T18:22:27Z",
-    "total_servers": 7
+    "generated_at": "2026-04-09T06:41:47Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -26,7 +26,7 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -52,7 +52,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -60,33 +60,6 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 98.73
-      }
-    },
-    {
-      "ip": "86.51.155.82",
-      "version": 4,
-      "country_code": "sa",
-      "country": "Saudi Arabia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Etihad Etisalat, a joint stock company",
-      "domain": "static-86-51-155-82.mobily.com.sa",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 40.28,
-        "90d": 49.93,
-        "1y": 36.0
       }
     },
     {
@@ -133,7 +106,7 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -159,8 +132,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -178,7 +151,7 @@
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Saudi Internet",
-      "domain": "*.soldnsdomian.com",
+      "domain": "ns1.sol.net.sa",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -191,10 +164,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 93.5,
-        "90d": 97.77,
-        "1y": 98.23
+        "24h": 91.67,
+        "30d": 93.38,
+        "90d": 97.68,
+        "1y": 98.21
       }
     }
   ]
