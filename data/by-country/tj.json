@@ -4,7 +4,7 @@
     "country_name": "Tajikistan",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-10T06:45:53Z",
+    "generated_at": "2026-04-10T18:13:34Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -24,42 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.33,
-        "90d": 98.52,
-        "1y": 99.22
-      }
-    },
-    {
-      "ip": "85.9.129.38",
-      "version": 4,
-      "country_code": "tj",
-      "country": "Tajikistan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Tacom Network",
-      "domain": "ns.tacom.tj",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.56,
-        "90d": 99.66,
-        "1y": 99.72
+        "30d": 99.34,
+        "90d": 98.5,
+        "1y": 99.22
       }
     },
     {
@@ -80,13 +53,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 42.86,
-        "30d": 56.26,
-        "90d": 59.14,
-        "1y": 40.99
+        "30d": 56.31,
+        "90d": 59.18,
+        "1y": 41.02
+      }
+    },
+    {
+      "ip": "85.9.129.38",
+      "version": 4,
+      "country_code": "tj",
+      "country": "Tajikistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Tacom Network",
+      "domain": "ns.tacom.tj",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.56,
+        "90d": 99.66,
+        "1y": 99.72
       }
     }
   ]

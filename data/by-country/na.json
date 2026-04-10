@@ -4,7 +4,7 @@
     "country_name": "Namibia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-10T06:45:53Z",
+    "generated_at": "2026-04-10T18:13:34Z",
     "total_servers": 5
   },
   "resolvers": [
@@ -26,13 +26,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 85.71,
-        "30d": 72.06,
-        "90d": 70.45,
-        "1y": 63.5
+        "30d": 71.96,
+        "90d": 70.63,
+        "1y": 63.52
       }
     },
     {
@@ -48,18 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 85.56,
-        "90d": 82.76,
-        "1y": 86.28
+        "24h": 100.0,
+        "30d": 85.65,
+        "90d": 83.08,
+        "1y": 86.3
       }
     },
     {
@@ -78,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "ads": true,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 93.35,
-        "90d": 96.63,
-        "1y": 97.26
+        "24h": 92.31,
+        "30d": 93.16,
+        "90d": 96.54,
+        "1y": 97.23
       }
     },
     {
@@ -105,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 93.35,
-        "90d": 89.89,
-        "1y": 93.58
+        "24h": 100.0,
+        "30d": 93.38,
+        "90d": 90.01,
+        "1y": 93.59
       }
     },
     {
@@ -129,7 +129,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -137,10 +137,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 42.86,
-        "30d": 56.22,
-        "90d": 59.46,
-        "1y": 60.8
+        "24h": 61.54,
+        "30d": 56.27,
+        "90d": 59.13,
+        "1y": 60.78
       }
     }
   ]

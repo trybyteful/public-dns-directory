@@ -4,35 +4,35 @@
     "country_name": "Laos",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-10T06:45:53Z",
-    "total_servers": 3
+    "generated_at": "2026-04-10T18:13:34Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
-      "ip": "115.84.91.78",
+      "ip": "202.123.179.205",
       "version": 4,
       "country_code": "la",
       "country": "Laos",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Lao Telecommunication Public Company",
+      "organization": "Sky Telecom State Company",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.89,
-        "90d": 96.7,
-        "1y": 91.02
+        "30d": 95.14,
+        "90d": 95.92,
+        "1y": 92.28
       }
     },
     {
@@ -51,42 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 84.83,
-        "90d": 87.09,
-        "1y": 88.51
-      }
-    },
-    {
-      "ip": "202.123.179.205",
-      "version": 4,
-      "country_code": "la",
-      "country": "Laos",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Sky Telecom State Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.11,
-        "90d": 95.69,
-        "1y": 92.27
+        "24h": 85.71,
+        "30d": 84.98,
+        "90d": 87.12,
+        "1y": 88.5
       }
     }
   ]
