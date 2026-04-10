@@ -4,8 +4,8 @@
     "country_name": "Venezuela",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-04-09T18:18:14Z",
-    "total_servers": 5
+    "generated_at": "2026-04-10T06:45:53Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 85.81,
-        "90d": 90.39,
-        "1y": 91.86
+        "24h": 92.86,
+        "30d": 86.03,
+        "90d": 90.3,
+        "1y": 91.88
       }
     },
     {
@@ -52,14 +52,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.55,
-        "90d": 98.33,
-        "1y": 98.71
+        "30d": 99.56,
+        "90d": 98.32,
+        "1y": 98.72
+      }
+    },
+    {
+      "ip": "190.202.135.58",
+      "version": 4,
+      "country_code": "ve",
+      "country": "Venezuela",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "CANTV Servicios, Venezuela",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.86,
+        "30d": 72.36,
+        "90d": 70.44,
+        "1y": 63.85
       }
     },
     {
@@ -84,36 +111,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.87,
-        "90d": 99.07,
+        "30d": 98.89,
+        "90d": 99.12,
         "1y": 99.22
-      }
-    },
-    {
-      "ip": "190.202.135.58",
-      "version": 4,
-      "country_code": "ve",
-      "country": "Venezuela",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "CANTV Servicios, Venezuela",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 72.05,
-        "90d": 69.69,
-        "1y": 63.8
       }
     },
     {
@@ -133,14 +133,41 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.32,
-        "90d": 98.13,
-        "1y": 97.89
+        "30d": 99.33,
+        "90d": 98.22,
+        "1y": 97.9
+      }
+    },
+    {
+      "ip": "190.6.31.100",
+      "version": 4,
+      "country_code": "ve",
+      "country": "Venezuela",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Net Uno, C.A",
+      "domain": "host-190-6-31-100.NET-UNO.NET",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 78.57,
+        "30d": 80.71,
+        "90d": 81.62,
+        "1y": 72.68
       }
     }
   ]
