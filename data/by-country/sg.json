@@ -4,8 +4,8 @@
     "country_name": "Singapore",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-11T06:30:10Z",
-    "total_servers": 64
+    "generated_at": "2026-04-11T18:06:58Z",
+    "total_servers": 60
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.32,
-        "90d": 92.29,
-        "1y": 89.31
+        "30d": 97.3,
+        "90d": 92.37,
+        "1y": 89.33
       }
     },
     {
@@ -48,34 +48,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.44,
-        "90d": 94.38,
-        "1y": 85.45
-      }
-    },
-    {
-      "ip": "119.73.138.17",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Singnet PTE LTD",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -83,10 +56,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 61.54,
-        "30d": 58.35,
-        "90d": 82.3,
-        "1y": 92.37
+        "24h": 100.0,
+        "30d": 98.42,
+        "90d": 94.32,
+        "1y": 85.47
       }
     },
     {
@@ -106,14 +79,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.52,
-        "90d": 95.81,
-        "1y": 96.08
+        "30d": 95.47,
+        "90d": 95.78,
+        "1y": 96.09
+      }
+    },
+    {
+      "ip": "192.221.176.0",
+      "version": 4,
+      "country_code": "sg",
+      "country": "Singapore",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Level 3, LLC",
+      "domain": "cns2.Singapore3.Level3.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 23.08,
+        "30d": 26.49,
+        "90d": 26.67,
+        "1y": 27.43
       }
     },
     {
@@ -137,10 +137,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 93.16,
-        "90d": 91.56,
-        "1y": 93.08
+        "24h": 92.31,
+        "30d": 92.84,
+        "90d": 91.7,
+        "1y": 93.07
       }
     },
     {
@@ -156,7 +156,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -165,8 +165,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.99,
-        "90d": 98.49,
+        "30d": 98.2,
+        "90d": 98.48,
         "1y": 96.99
       }
     },
@@ -183,18 +183,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.21,
-        "90d": 91.97,
-        "1y": 88.41
+        "30d": 96.62,
+        "90d": 92.25,
+        "1y": 88.42
       }
     },
     {
@@ -213,15 +213,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 53.85,
-        "30d": 77.23,
-        "90d": 82.65,
-        "1y": 75.29
+        "24h": 84.62,
+        "30d": 77.03,
+        "90d": 83.33,
+        "1y": 75.34
       }
     },
     {
@@ -241,13 +241,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 84.62,
-        "30d": 89.73,
-        "90d": 90.65,
+        "24h": 92.31,
+        "30d": 89.41,
+        "90d": 91.26,
         "1y": 85.16
       }
     },
@@ -273,9 +273,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.11,
-        "90d": 94.86,
-        "1y": 88.83
+        "30d": 99.1,
+        "90d": 94.81,
+        "1y": 88.85
       }
     },
     {
@@ -295,13 +295,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 92.43,
-        "90d": 86.9,
+        "24h": 76.92,
+        "30d": 91.89,
+        "90d": 86.72,
         "1y": 66.38
       }
     },
@@ -327,8 +327,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.88,
-        "90d": 99.66,
+        "30d": 98.87,
+        "90d": 99.65,
         "1y": 99.85
       }
     },
@@ -350,13 +350,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 92.31,
-        "30d": 96.44,
-        "90d": 92.73,
-        "1y": 92.15
+        "30d": 96.62,
+        "90d": 92.95,
+        "1y": 92.16
       }
     },
     {
@@ -375,15 +375,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.76,
-        "90d": 97.33,
-        "1y": 98.44
+        "30d": 93.68,
+        "90d": 97.3,
+        "1y": 98.45
       }
     },
     {
@@ -408,9 +408,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.33,
-        "90d": 97.67,
-        "1y": 94.83
+        "30d": 99.32,
+        "90d": 97.65,
+        "1y": 94.84
       }
     },
     {
@@ -429,14 +429,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.78,
-        "90d": 99.73,
+        "30d": 99.77,
+        "90d": 99.72,
         "1y": 99.75
       }
     },
@@ -457,13 +457,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 97.17,
+        "90d": 97.13,
         "1y": 99.01
       }
     },
@@ -489,8 +489,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.22,
-        "90d": 97.7,
+        "30d": 96.18,
+        "90d": 97.68,
         "1y": 96.31
       }
     },
@@ -510,13 +510,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 97.77,
+        "24h": 100.0,
+        "30d": 97.75,
         "90d": 91.56,
         "1y": 96.18
       }
@@ -534,7 +534,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -543,9 +543,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.29,
-        "90d": 94.24,
-        "1y": 95.76
+        "30d": 91.46,
+        "90d": 94.26,
+        "1y": 95.77
       }
     },
     {
@@ -561,18 +561,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.11,
-        "90d": 93.76,
-        "1y": 84.59
+        "30d": 99.1,
+        "90d": 93.98,
+        "1y": 84.62
       }
     },
     {
@@ -597,8 +597,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.33,
-        "90d": 98.56,
+        "30d": 99.32,
+        "90d": 98.62,
         "1y": 98.92
       }
     },
@@ -620,12 +620,12 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.44,
-        "90d": 98.83,
+        "30d": 98.42,
+        "90d": 98.82,
         "1y": 98.8
       }
     },
@@ -651,40 +651,13 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.11,
-        "90d": 94.79,
-        "1y": 87.5
+        "30d": 99.1,
+        "90d": 94.95,
+        "1y": 87.52
       }
     },
     {
       "ip": "103.200.218.77",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Readyserver",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.78,
-        "90d": 99.52,
-        "1y": 99.72
-      }
-    },
-    {
-      "ip": "103.200.218.78",
       "version": 4,
       "country_code": "sg",
       "country": "Singapore",
@@ -705,9 +678,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.89,
-        "90d": 97.26,
-        "1y": 95.96
+        "30d": 99.77,
+        "90d": 99.52,
+        "1y": 99.72
+      }
+    },
+    {
+      "ip": "103.200.218.78",
+      "version": 4,
+      "country_code": "sg",
+      "country": "Singapore",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Readyserver",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.1,
+        "90d": 97.3,
+        "1y": 95.97
       }
     },
     {
@@ -731,10 +731,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 97.32,
-        "90d": 97.6,
-        "1y": 98.39
+        "24h": 100.0,
+        "30d": 97.52,
+        "90d": 97.58,
+        "1y": 98.4
       }
     },
     {
@@ -750,18 +750,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.33,
-        "90d": 94.24,
-        "1y": 83.51
+        "30d": 99.32,
+        "90d": 94.18,
+        "1y": 83.54
       }
     },
     {
@@ -782,12 +782,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 98.21,
-        "90d": 99.25,
+        "24h": 100.0,
+        "30d": 98.2,
+        "90d": 99.24,
         "1y": 99.4
       }
     },
@@ -813,9 +813,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.16,
-        "90d": 91.95,
-        "1y": 50.87
+        "30d": 98.19,
+        "90d": 92.1,
+        "1y": 50.95
       }
     },
     {
@@ -836,13 +836,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.05,
-        "90d": 93.16,
-        "1y": 94.39
+        "30d": 94.99,
+        "90d": 93.24,
+        "1y": 94.4
       }
     },
     {
@@ -858,7 +858,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -867,8 +867,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.33,
-        "90d": 97.33,
+        "30d": 99.32,
+        "90d": 97.37,
         "1y": 94.76
       }
     },
@@ -885,18 +885,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.11,
-        "90d": 93.55,
-        "1y": 78.29
+        "30d": 99.1,
+        "90d": 93.56,
+        "1y": 78.33
       }
     },
     {
@@ -921,9 +921,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.07,
-        "90d": 93.89,
-        "1y": 94.0
+        "30d": 95.0,
+        "90d": 93.83,
+        "1y": 94.01
       }
     },
     {
@@ -944,29 +944,29 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.33,
-        "90d": 99.59,
+        "30d": 99.32,
+        "90d": 99.58,
         "1y": 99.82
       }
     },
     {
-      "ip": "116.12.172.241",
+      "ip": "119.75.28.242",
       "version": 4,
       "country_code": "sg",
       "country": "Singapore",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "NTS Components Singapore PTE LTD",
+      "organization": "SingNet Pte Ltd",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -975,20 +975,20 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.54,
-        "90d": 98.77,
-        "1y": 99.15
+        "30d": 98.65,
+        "90d": 90.32,
+        "1y": 77.86
       }
     },
     {
-      "ip": "8.0.40.16",
+      "ip": "20.212.94.189",
       "version": 4,
       "country_code": "sg",
       "country": "Singapore",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Level 3, LLC",
-      "domain": "cns3.Singapore3.Level3.net",
+      "organization": "Microsoft Azure Cloud (southeastasia)",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -996,123 +996,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 53.85,
-        "30d": 28.51,
-        "90d": 28.35,
-        "1y": 30.56
-      }
-    },
-    {
-      "ip": "118.201.56.26",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "SingNet Pte Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.78,
-        "90d": 99.79,
-        "1y": 94.15
-      }
-    },
-    {
-      "ip": "42.61.73.150",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "SingNet Pte Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 92.31,
-        "30d": 98.66,
-        "90d": 96.5,
-        "1y": 97.94
-      }
-    },
-    {
-      "ip": "42.61.19.26",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "SingNet Pte Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.66,
-        "90d": 94.72,
-        "1y": 90.94
-      }
-    },
-    {
-      "ip": "203.127.232.194",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Allied Technologies LTD",
-      "domain": "allied-tech.com.sg",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 76.92,
-        "30d": 79.02,
-        "90d": 80.35,
-        "1y": 80.35
+        "24h": 69.23,
+        "30d": 73.81,
+        "90d": 73.64,
+        "1y": 61.24
       }
     },
     {
@@ -1137,36 +1029,90 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.7,
-        "90d": 87.89,
-        "1y": 52.87
+        "30d": 94.77,
+        "90d": 87.78,
+        "1y": 52.94
       }
     },
     {
-      "ip": "129.126.119.238",
+      "ip": "121.4.4.41",
       "version": 4,
       "country_code": "sg",
       "country": "Singapore",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "M1 NET LTD",
+      "organization": "Tencent cloud computing (Beijing) Co., Ltd.",
       "domain": null,
       "trusted": false,
-      "anycast": false,
+      "anycast": true,
       "dnssec": {
         "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 98.66,
-        "90d": 98.56,
-        "1y": 98.54
+        "24h": 100.0,
+        "30d": 98.65,
+        "90d": 99.38,
+        "1y": 99.25
+      }
+    },
+    {
+      "ip": "172.104.57.181",
+      "version": 4,
+      "country_code": "sg",
+      "country": "Singapore",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Linode",
+      "domain": "li1637-181.members.linode.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.77,
+        "90d": 98.82,
+        "1y": 99.4
+      }
+    },
+    {
+      "ip": "97.74.86.124",
+      "version": 4,
+      "country_code": "sg",
+      "country": "Singapore",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "GoDaddy.com, LLC",
+      "domain": "124.86.74.97.host.secureserver.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 92.33,
+        "90d": 97.65,
+        "1y": 99.12
       }
     },
     {
@@ -1186,24 +1132,78 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.88,
-        "90d": 93.64,
-        "1y": 81.0
+        "30d": 98.87,
+        "90d": 93.87,
+        "1y": 81.03
       }
     },
     {
-      "ip": "129.126.84.102",
+      "ip": "121.4.4.222",
       "version": 4,
       "country_code": "sg",
       "country": "Singapore",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "M1 NET LTD",
+      "organization": "Tencent cloud computing (Beijing) Co., Ltd.",
+      "domain": null,
+      "trusted": false,
+      "anycast": true,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.1,
+        "90d": 99.24,
+        "1y": 98.92
+      }
+    },
+    {
+      "ip": "121.4.4.246",
+      "version": 4,
+      "country_code": "sg",
+      "country": "Singapore",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Tencent cloud computing (Beijing) Co., Ltd.",
+      "domain": null,
+      "trusted": false,
+      "anycast": true,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.65,
+        "90d": 99.38,
+        "1y": 98.77
+      }
+    },
+    {
+      "ip": "116.12.172.241",
+      "version": 4,
+      "country_code": "sg",
+      "country": "Singapore",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "NTS Components Singapore PTE LTD",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -1217,20 +1217,128 @@
         "adult": false
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 90.18,
-        "90d": 91.97,
-        "1y": 90.06
+        "24h": 100.0,
+        "30d": 97.52,
+        "90d": 98.76,
+        "1y": 99.15
       }
     },
     {
-      "ip": "58.185.71.113",
+      "ip": "192.221.176.16",
       "version": 4,
       "country_code": "sg",
       "country": "Singapore",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Beijing 101 Hair Consultants PTE LTD",
+      "organization": "Level 3, LLC",
+      "domain": "ans1.Singapore3.Level3.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 99.95
+      }
+    },
+    {
+      "ip": "139.162.33.25",
+      "version": 4,
+      "country_code": "sg",
+      "country": "Singapore",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Linode",
+      "domain": "li1446-25.members.linode.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.31,
+        "30d": 83.33,
+        "90d": 80.35,
+        "1y": 73.97
+      }
+    },
+    {
+      "ip": "118.201.56.26",
+      "version": 4,
+      "country_code": "sg",
+      "country": "Singapore",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "SingNet Pte Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.79,
+        "1y": 94.16
+      }
+    },
+    {
+      "ip": "129.126.119.238",
+      "version": 4,
+      "country_code": "sg",
+      "country": "Singapore",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "M1 NET LTD",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.65,
+        "90d": 98.55,
+        "1y": 98.55
+      }
+    },
+    {
+      "ip": "42.61.19.26",
+      "version": 4,
+      "country_code": "sg",
+      "country": "Singapore",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "SingNet Pte Ltd",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -1240,24 +1348,24 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 95.76,
-        "90d": 96.57,
-        "1y": 98.24
+        "24h": 100.0,
+        "30d": 98.65,
+        "90d": 94.81,
+        "1y": 90.95
       }
     },
     {
-      "ip": "119.75.28.242",
+      "ip": "116.12.206.109",
       "version": 4,
       "country_code": "sg",
       "country": "Singapore",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "SingNet Pte Ltd",
+      "organization": "Aastar Trading Pte. LTD",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -1272,25 +1380,25 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.66,
-        "90d": 90.19,
-        "1y": 77.82
+        "30d": 92.54,
+        "90d": 83.32,
+        "1y": 71.74
       }
     },
     {
-      "ip": "124.66.128.198",
+      "ip": "203.127.232.194",
       "version": 4,
       "country_code": "sg",
       "country": "Singapore",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "SingNet Pte Ltd",
-      "domain": null,
+      "organization": "Allied Technologies LTD",
+      "domain": "allied-tech.com.sg",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -1298,10 +1406,64 @@
         "adult": false
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 96.88,
-        "90d": 93.48,
-        "1y": 80.88
+        "24h": 84.62,
+        "30d": 78.83,
+        "90d": 80.39,
+        "1y": 80.39
+      }
+    },
+    {
+      "ip": "174.138.21.128",
+      "version": 4,
+      "country_code": "sg",
+      "country": "Singapore",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "DigitalOcean, LLC",
+      "domain": "resolver.tiar.app",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 99.9
+      }
+    },
+    {
+      "ip": "194.233.86.28",
+      "version": 4,
+      "country_code": "sg",
+      "country": "Singapore",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Contabo Asia Private Limited",
+      "domain": "vmi1219559.contaboserver.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 92.33,
+        "90d": 96.05,
+        "1y": 98.17
       }
     },
     {
@@ -1326,20 +1488,47 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.78,
-        "90d": 99.25,
+        "30d": 99.77,
+        "90d": 99.24,
         "1y": 99.25
       }
     },
     {
-      "ip": "97.74.86.124",
+      "ip": "42.61.73.150",
       "version": 4,
       "country_code": "sg",
       "country": "Singapore",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "GoDaddy.com, LLC",
-      "domain": "124.86.74.97.host.secureserver.net",
+      "organization": "SingNet Pte Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.87,
+        "90d": 96.47,
+        "1y": 97.95
+      }
+    },
+    {
+      "ip": "129.126.84.102",
+      "version": 4,
+      "country_code": "sg",
+      "country": "Singapore",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "M1 NET LTD",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1349,13 +1538,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.43,
-        "90d": 97.67,
-        "1y": 99.12
+        "30d": 90.32,
+        "90d": 91.97,
+        "1y": 90.08
+      }
+    },
+    {
+      "ip": "58.185.71.113",
+      "version": 4,
+      "country_code": "sg",
+      "country": "Singapore",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Beijing 101 Hair Consultants PTE LTD",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.95,
+        "90d": 96.54,
+        "1y": 98.25
       }
     },
     {
@@ -1379,209 +1595,20 @@
         "adult": false
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 98.66,
-        "90d": 95.81,
-        "1y": 84.29
-      }
-    },
-    {
-      "ip": "121.4.4.41",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Tencent cloud computing (Beijing) Co., Ltd.",
-      "domain": null,
-      "trusted": false,
-      "anycast": true,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
         "24h": 100.0,
-        "30d": 98.66,
-        "90d": 99.38,
-        "1y": 99.25
+        "30d": 98.87,
+        "90d": 95.78,
+        "1y": 84.31
       }
     },
     {
-      "ip": "121.4.4.222",
+      "ip": "124.66.128.198",
       "version": 4,
       "country_code": "sg",
       "country": "Singapore",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Tencent cloud computing (Beijing) Co., Ltd.",
-      "domain": null,
-      "trusted": false,
-      "anycast": true,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.88,
-        "90d": 99.24,
-        "1y": 98.92
-      }
-    },
-    {
-      "ip": "121.4.4.246",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Tencent cloud computing (Beijing) Co., Ltd.",
-      "domain": null,
-      "trusted": false,
-      "anycast": true,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.44,
-        "90d": 99.38,
-        "1y": 98.77
-      }
-    },
-    {
-      "ip": "172.104.57.181",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Linode",
-      "domain": "li1637-181.members.linode.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.78,
-        "90d": 98.83,
-        "1y": 99.4
-      }
-    },
-    {
-      "ip": "116.12.206.109",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Aastar Trading Pte. LTD",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 92.43,
-        "90d": 83.32,
-        "1y": 71.69
-      }
-    },
-    {
-      "ip": "174.138.21.128",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "DigitalOcean, LLC",
-      "domain": "resolver.tiar.app",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 99.9
-      }
-    },
-    {
-      "ip": "139.162.33.25",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Linode",
-      "domain": "li1446-25.members.linode.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 83.71,
-        "90d": 79.96,
-        "1y": 73.95
-      }
-    },
-    {
-      "ip": "58.185.177.165",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Singnet_mig3 (tds Technology (S) PTE LTD",
+      "organization": "SingNet Pte Ltd",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -1595,145 +1622,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 61.54,
-        "30d": 66.48,
-        "90d": 66.48,
-        "1y": 66.48
-      }
-    },
-    {
-      "ip": "124.155.197.234",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "StarHub Internet Pte Ltd",
-      "domain": "124.155.197-234.unknown.starhub.net.sg",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 84.62,
-        "30d": 50.31,
-        "90d": 53.98,
-        "1y": 44.94
-      }
-    },
-    {
-      "ip": "128.106.52.161",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Singnet PTE LTD",
-      "domain": "bb128-106-52-161.singnet.com.sg",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
         "24h": 100.0,
-        "30d": 98.88,
-        "90d": 90.67,
-        "1y": 86.15
-      }
-    },
-    {
-      "ip": "192.221.176.16",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Level 3, LLC",
-      "domain": "ans1.Singapore3.Level3.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 99.95
-      }
-    },
-    {
-      "ip": "194.233.86.28",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Contabo Asia Private Limited",
-      "domain": "vmi1219559.contaboserver.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 91.98,
-        "90d": 96.09,
-        "1y": 98.17
-      }
-    },
-    {
-      "ip": "20.212.94.189",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Microsoft Azure Cloud (southeastasia)",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 76.92,
-        "30d": 74.16,
-        "90d": 73.67,
-        "1y": 61.24
+        "30d": 97.07,
+        "90d": 93.49,
+        "1y": 80.91
       }
     }
   ]

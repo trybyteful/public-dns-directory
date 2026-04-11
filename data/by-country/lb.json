@@ -4,10 +4,37 @@
     "country_name": "Lebanon",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-11T06:30:10Z",
-    "total_servers": 3
+    "generated_at": "2026-04-11T18:06:58Z",
+    "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "78.108.160.207",
+      "version": 4,
+      "country_code": "lb",
+      "country": "Lebanon",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TerraNet sal",
+      "domain": "dsl-78-108-160-207.terra.net.lb",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 23.08,
+        "30d": 22.8,
+        "90d": 32.86,
+        "1y": 22.85
+      }
+    },
     {
       "ip": "77.42.253.91",
       "version": 4,
@@ -31,7 +58,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.25,
+        "90d": 99.24,
         "1y": 99.42
       }
     },
@@ -52,14 +79,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 38.46,
-        "30d": 66.07,
-        "90d": 67.87,
-        "1y": 66.65
+        "24h": 46.15,
+        "30d": 65.69,
+        "90d": 68.3,
+        "1y": 66.62
       }
     },
     {
@@ -79,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 86.16,
-        "90d": 88.33,
-        "1y": 88.98
+        "24h": 100.0,
+        "30d": 86.04,
+        "90d": 88.3,
+        "1y": 89.0
       }
     }
   ]
