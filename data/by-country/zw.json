@@ -4,8 +4,8 @@
     "country_name": "Zimbabwe",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-12T06:40:36Z",
-    "total_servers": 4
+    "generated_at": "2026-04-12T18:09:43Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 76.92,
-        "30d": 82.42,
-        "90d": 83.79,
-        "1y": 88.3
+        "24h": 84.62,
+        "30d": 82.49,
+        "90d": 84.49,
+        "1y": 88.32
       }
     },
     {
@@ -53,13 +53,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 76.92,
+        "30d": 76.96,
+        "90d": 69.66,
+        "1y": 69.62
+      }
+    },
+    {
+      "ip": "196.43.199.61",
+      "version": 4,
+      "country_code": "zw",
+      "country": "Zimbabwe",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Zimbabwe Open University",
+      "domain": "z0udns1.zou.ac.zw",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 61.54,
-        "30d": 77.17,
-        "90d": 69.55,
-        "1y": 69.57
+        "24h": 92.31,
+        "30d": 82.03,
+        "90d": 80.98,
+        "1y": 78.85
       }
     },
     {
@@ -79,8 +106,8 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -101,19 +128,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 46.15,
-        "30d": 46.37,
-        "90d": 84.22,
-        "1y": 87.99
+        "30d": 45.45,
+        "90d": 83.84,
+        "1y": 87.96
       }
     }
   ]
