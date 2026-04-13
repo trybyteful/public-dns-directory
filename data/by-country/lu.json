@@ -4,7 +4,7 @@
     "country_name": "Luxembourg",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-04-13T06:54:54Z",
+    "generated_at": "2026-04-13T18:22:02Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -29,10 +29,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 93.01,
-        "90d": 89.63,
-        "1y": 89.45
+        "24h": 100.0,
+        "30d": 92.94,
+        "90d": 89.65,
+        "1y": 89.47
       }
     },
     {
@@ -51,42 +51,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.77,
+        "30d": 99.76,
         "90d": 99.79,
         "1y": 99.9
-      }
-    },
-    {
-      "ip": "107.189.31.10",
-      "version": 4,
-      "country_code": "lu",
-      "country": "Luxembourg",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "BuyVM",
-      "domain": "mail.denshi.org",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.77,
-        "90d": 99.57,
-        "1y": 97.48
       }
     },
     {
@@ -114,6 +87,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "107.189.31.10",
+      "version": 4,
+      "country_code": "lu",
+      "country": "Luxembourg",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "BuyVM",
+      "domain": "mail.denshi.org",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.76,
+        "90d": 99.57,
+        "1y": 97.49
       }
     }
   ]
