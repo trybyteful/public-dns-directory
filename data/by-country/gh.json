@@ -4,8 +4,8 @@
     "country_name": "Ghana",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-12T18:09:43Z",
-    "total_servers": 1
+    "generated_at": "2026-04-13T06:54:54Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -20,7 +20,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -29,10 +29,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 53.85,
-        "30d": 77.42,
-        "90d": 79.82,
-        "1y": 76.53
+        "24h": 76.92,
+        "30d": 77.16,
+        "90d": 79.98,
+        "1y": 76.58
+      }
+    },
+    {
+      "ip": "197.221.82.2",
+      "version": 4,
+      "country_code": "gh",
+      "country": "Ghana",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Internet Solutions",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 69.23,
+        "30d": 48.4,
+        "90d": 44.72,
+        "1y": 41.78
       }
     }
   ]
