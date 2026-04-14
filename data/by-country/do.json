@@ -4,10 +4,37 @@
     "country_name": "Dominican Republic",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-04-13T18:22:02Z",
+    "generated_at": "2026-04-14T06:46:18Z",
     "total_servers": 6
   },
   "resolvers": [
+    {
+      "ip": "170.81.9.4",
+      "version": 4,
+      "country_code": "do",
+      "country": "Dominican Republic",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Refineria Dominicana De Petroleo PDV S.A",
+      "domain": "ns01.refidomsa.com.do",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 91.67,
+        "30d": 90.97,
+        "90d": 95.33,
+        "1y": 97.44
+      }
+    },
     {
       "ip": "190.93.189.30",
       "version": 4,
@@ -30,20 +57,20 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.56,
-        "90d": 97.15,
+        "30d": 93.69,
+        "90d": 97.13,
         "1y": 98.62
       }
     },
     {
-      "ip": "200.42.203.112",
+      "ip": "168.228.232.251",
       "version": 4,
       "country_code": "do",
       "country": "Dominican Republic",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "Altice Dominicana S.A",
-      "domain": "ip-203-112.tricom.net",
+      "organization": "COLUMBUS NETWORKS DOMINICANA, S.A",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -56,37 +83,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 76.92,
-        "30d": 80.69,
-        "90d": 77.02,
-        "1y": 67.89
-      }
-    },
-    {
-      "ip": "190.93.189.28",
-      "version": 4,
-      "country_code": "do",
-      "country": "Dominican Republic",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Jose Digital Media Dominicana SRL",
-      "domain": "fibra-a-la-casa-189-28.jdimax.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 91.56,
-        "90d": 97.22,
-        "1y": 98.54
+        "24h": 83.33,
+        "30d": 96.67,
+        "90d": 90.83,
+        "1y": 89.91
       }
     },
     {
@@ -117,33 +117,6 @@
       }
     },
     {
-      "ip": "170.81.9.4",
-      "version": 4,
-      "country_code": "do",
-      "country": "Dominican Republic",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Refineria Dominicana De Petroleo PDV S.A",
-      "domain": "ns01.refidomsa.com.do",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 92.31,
-        "30d": 90.82,
-        "90d": 95.36,
-        "1y": 97.44
-      }
-    },
-    {
       "ip": "190.167.220.185",
       "version": 4,
       "country_code": "do",
@@ -159,15 +132,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
+        "24h": 91.67,
+        "30d": 58.93,
+        "90d": 63.62,
+        "1y": 44.7
+      }
+    },
+    {
+      "ip": "190.93.189.28",
+      "version": 4,
+      "country_code": "do",
+      "country": "Dominican Republic",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Jose Digital Media Dominicana SRL",
+      "domain": "fibra-a-la-casa-189-28.jdimax.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
         "24h": 100.0,
-        "30d": 57.78,
-        "90d": 63.72,
-        "1y": 44.63
+        "30d": 93.69,
+        "90d": 97.2,
+        "1y": 98.55
       }
     }
   ]

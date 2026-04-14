@@ -4,23 +4,23 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-04-13T18:22:02Z",
-    "total_servers": 2
+    "generated_at": "2026-04-14T06:46:18Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "190.86.205.194",
+      "ip": "201.247.112.236",
       "version": 4,
       "country_code": "sv",
       "country": "El Salvador",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "Sociedad Cooperativa EX Banco Cuscatlan. De R.L",
-      "domain": "ns1.coopex.com.sv",
+      "organization": "LAB. PAILL DIV. DE GRUPO PAILL, S.A. DE C.V",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -29,10 +29,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 58.33,
-        "30d": 62.82,
-        "90d": 80.01,
-        "1y": 81.25
+        "24h": 50.0,
+        "30d": 78.86,
+        "90d": 81.98,
+        "1y": 80.51
       }
     },
     {
@@ -51,7 +51,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -60,6 +60,33 @@
         "30d": 100.0,
         "90d": 99.64,
         "1y": 98.65
+      }
+    },
+    {
+      "ip": "168.243.48.33",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "SVNet",
+      "domain": "ns.telcom.com.sv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 85.99,
+        "90d": 94.69,
+        "1y": 97.71
       }
     }
   ]
