@@ -4,8 +4,8 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-14T06:46:18Z",
-    "total_servers": 5
+    "generated_at": "2026-04-14T18:21:49Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -21,7 +21,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -30,8 +30,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.06,
-        "90d": 96.93,
+        "30d": 92.09,
+        "90d": 97.02,
         "1y": 97.04
       }
     },
@@ -57,9 +57,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.0,
-        "90d": 91.36,
-        "1y": 95.46
+        "30d": 88.46,
+        "90d": 91.53,
+        "1y": 95.47
       }
     },
     {
@@ -84,9 +84,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.99,
-        "90d": 97.61,
-        "1y": 97.61
+        "30d": 94.93,
+        "90d": 97.62,
+        "1y": 97.62
       }
     },
     {
@@ -102,18 +102,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 83.33,
-        "30d": 54.27,
-        "90d": 85.62,
-        "1y": 94.55
+        "30d": 54.01,
+        "90d": 85.6,
+        "1y": 94.56
       }
     },
     {
@@ -138,9 +138,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 84.0,
-        "90d": 94.62,
+        "30d": 84.6,
+        "90d": 94.71,
         "1y": 96.28
+      }
+    },
+    {
+      "ip": "178.22.122.100",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Asiatech Data Transmission company",
+      "domain": "free.shecan.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
       }
     }
   ]

@@ -4,8 +4,8 @@
     "country_name": "Panama",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-04-14T06:46:18Z",
-    "total_servers": 1
+    "generated_at": "2026-04-14T18:21:49Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 91.67,
+        "30d": 66.43,
+        "90d": 72.9,
+        "1y": 52.29
+      }
+    },
+    {
+      "ip": "201.218.125.251",
+      "version": 4,
+      "country_code": "pa",
+      "country": "Panama",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Cable Onda",
+      "domain": "cm-201-218-125-251.cpe-statics.cableonda.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 66.27,
-        "90d": 73.13,
-        "1y": 52.25
+        "24h": 58.33,
+        "30d": 42.46,
+        "90d": 46.36,
+        "1y": 43.16
       }
     }
   ]

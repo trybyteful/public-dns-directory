@@ -4,7 +4,7 @@
     "country_name": "Iraq",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-14T06:46:18Z",
+    "generated_at": "2026-04-14T18:21:49Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -24,15 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 73.52,
-        "90d": 77.31,
-        "1y": 69.62
+        "24h": 91.67,
+        "30d": 73.09,
+        "90d": 77.32,
+        "1y": 69.64
       }
     },
     {
@@ -52,14 +52,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 78.86,
-        "90d": 69.71,
-        "1y": 79.26
+        "30d": 80.1,
+        "90d": 69.75,
+        "1y": 79.28
+      }
+    },
+    {
+      "ip": "212.237.127.127",
+      "version": 4,
+      "country_code": "iq",
+      "country": "Iraq",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "KurDistanNetSubnet5",
+      "domain": "email.crystalcargo.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.76,
+        "90d": 99.86,
+        "1y": 99.83
       }
     },
     {
@@ -87,33 +114,6 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
-      }
-    },
-    {
-      "ip": "212.237.127.127",
-      "version": 4,
-      "country_code": "iq",
-      "country": "Iraq",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "KurDistanNetSubnet5",
-      "domain": "email.crystalcargo.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.76,
-        "90d": 99.86,
-        "1y": 99.83
       }
     }
   ]
