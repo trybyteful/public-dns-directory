@@ -4,35 +4,62 @@
     "country_name": "Azerbaijan",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-14T18:21:49Z",
-    "total_servers": 12
+    "generated_at": "2026-04-15T06:46:26Z",
+    "total_servers": 17
   },
   "resolvers": [
     {
-      "ip": "85.132.8.70",
+      "ip": "89.147.203.186",
       "version": 4,
       "country_code": "az",
       "country": "Azerbaijan",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Delta",
+      "organization": "AZSTARNET-ROUTE12",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 88.97,
+        "90d": 90.52,
+        "1y": 94.76
+      }
+    },
+    {
+      "ip": "85.132.110.152",
+      "version": 4,
+      "country_code": "az",
+      "country": "Azerbaijan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "AzerSat",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 72.45,
-        "90d": 72.61,
-        "1y": 60.68
+        "24h": 83.33,
+        "30d": 33.23,
+        "90d": 51.43,
+        "1y": 39.24
       }
     },
     {
@@ -63,13 +90,67 @@
       }
     },
     {
-      "ip": "82.194.19.99",
+      "ip": "37.32.79.106",
       "version": 4,
       "country_code": "az",
       "country": "Azerbaijan",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Enginet",
+      "organization": "iZone",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 66.67,
+        "90d": 60.76,
+        "1y": 43.5
+      }
+    },
+    {
+      "ip": "94.20.81.90",
+      "version": 4,
+      "country_code": "az",
+      "country": "Azerbaijan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "DELTA-CC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 84.3,
+        "90d": 91.93,
+        "1y": 95.96
+      }
+    },
+    {
+      "ip": "5.134.48.218",
+      "version": 4,
+      "country_code": "az",
+      "country": "Azerbaijan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Superonlayn LTD",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -83,10 +164,37 @@
         "adult": false
       },
       "uptime": {
+        "24h": 41.67,
+        "30d": 55.56,
+        "90d": 57.69,
+        "1y": 51.61
+      }
+    },
+    {
+      "ip": "185.220.182.179",
+      "version": 4,
+      "country_code": "az",
+      "country": "Azerbaijan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "NetPoint LLC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
         "24h": 83.33,
-        "30d": 69.3,
-        "90d": 71.14,
-        "1y": 55.09
+        "30d": 81.64,
+        "90d": 93.16,
+        "1y": 86.94
       }
     },
     {
@@ -105,69 +213,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 99.04,
-        "90d": 99.06,
-        "1y": 99.3
-      }
-    },
-    {
-      "ip": "85.132.110.243",
-      "version": 4,
-      "country_code": "az",
-      "country": "Azerbaijan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "AzerSat",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 67.09,
-        "90d": 72.95,
-        "1y": 60.0
-      }
-    },
-    {
-      "ip": "94.20.81.90",
-      "version": 4,
-      "country_code": "az",
-      "country": "Azerbaijan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "DELTA-CC",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 84.65,
-        "90d": 92.05,
-        "1y": 95.98
+        "24h": 100.0,
+        "30d": 99.03,
+        "90d": 99.05,
+        "1y": 99.31
       }
     },
     {
@@ -183,18 +237,126 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 91.67,
-        "30d": 73.62,
-        "90d": 65.09,
-        "1y": 64.05
+        "30d": 74.4,
+        "90d": 64.83,
+        "1y": 64.11
+      }
+    },
+    {
+      "ip": "89.147.204.226",
+      "version": 4,
+      "country_code": "az",
+      "country": "Azerbaijan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "AZSTARNET-ROUTE13",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 91.67,
+        "30d": 79.69,
+        "90d": 82.07,
+        "1y": 66.0
+      }
+    },
+    {
+      "ip": "85.132.8.70",
+      "version": 4,
+      "country_code": "az",
+      "country": "Azerbaijan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Delta",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 72.82,
+        "90d": 72.58,
+        "1y": 60.72
+      }
+    },
+    {
+      "ip": "89.147.252.172",
+      "version": 4,
+      "country_code": "az",
+      "country": "Azerbaijan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Az.StarNet LLC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 76.33,
+        "90d": 81.13,
+        "1y": 87.72
+      }
+    },
+    {
+      "ip": "82.194.19.99",
+      "version": 4,
+      "country_code": "az",
+      "country": "Azerbaijan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Enginet",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 68.84,
+        "90d": 70.94,
+        "1y": 55.13
       }
     },
     {
@@ -218,101 +380,20 @@
         "adult": true
       },
       "uptime": {
-        "24h": 58.33,
-        "30d": 75.54,
-        "90d": 81.85,
-        "1y": 83.8
+        "24h": 75.0,
+        "30d": 76.33,
+        "90d": 81.8,
+        "1y": 83.82
       }
     },
     {
-      "ip": "89.147.203.186",
+      "ip": "92.39.93.72",
       "version": 4,
       "country_code": "az",
       "country": "Azerbaijan",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "AZSTARNET-ROUTE12",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 88.52,
-        "90d": 90.58,
-        "1y": 94.75
-      }
-    },
-    {
-      "ip": "5.134.48.218",
-      "version": 4,
-      "country_code": "az",
-      "country": "Azerbaijan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Superonlayn LTD",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 58.33,
-        "30d": 56.35,
-        "90d": 57.83,
-        "1y": 51.61
-      }
-    },
-    {
-      "ip": "37.32.79.106",
-      "version": 4,
-      "country_code": "az",
-      "country": "Azerbaijan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "iZone",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 66.94,
-        "90d": 60.96,
-        "1y": 43.44
-      }
-    },
-    {
-      "ip": "89.147.204.226",
-      "version": 4,
-      "country_code": "az",
-      "country": "Azerbaijan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "AZSTARNET-ROUTE13",
+      "organization": "Aztelekom LLC",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -326,10 +407,64 @@
         "adult": true
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 79.85,
-        "90d": 82.12,
-        "1y": 65.95
+        "24h": 33.33,
+        "30d": 44.53,
+        "90d": 45.45,
+        "1y": 28.72
+      }
+    },
+    {
+      "ip": "85.132.110.243",
+      "version": 4,
+      "country_code": "az",
+      "country": "Azerbaijan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "AzerSat",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 91.67,
+        "30d": 66.84,
+        "90d": 72.77,
+        "1y": 60.06
+      }
+    },
+    {
+      "ip": "94.20.142.202",
+      "version": 4,
+      "country_code": "az",
+      "country": "Azerbaijan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Delta Telecom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 91.67,
+        "30d": 72.22,
+        "90d": 79.27,
+        "1y": 72.6
       }
     }
   ]

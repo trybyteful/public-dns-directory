@@ -4,19 +4,19 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-04-14T18:21:49Z",
-    "total_servers": 2
+    "generated_at": "2026-04-15T06:46:26Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "168.243.48.33",
+      "ip": "201.247.112.236",
       "version": 4,
       "country_code": "sv",
       "country": "El Salvador",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "SVNet",
-      "domain": "ns.telcom.com.sv",
+      "organization": "LAB. PAILL DIV. DE GRUPO PAILL, S.A. DE C.V",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -26,13 +26,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 85.61,
-        "90d": 94.58,
-        "1y": 97.69
+        "24h": 50.0,
+        "30d": 78.74,
+        "90d": 81.88,
+        "1y": 80.42
       }
     },
     {
@@ -59,7 +59,34 @@
         "24h": 100.0,
         "30d": 100.0,
         "90d": 99.64,
-        "1y": 98.65
+        "1y": 98.66
+      }
+    },
+    {
+      "ip": "168.243.48.33",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "SVNet",
+      "domain": "ns.telcom.com.sv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 85.02,
+        "90d": 94.4,
+        "1y": 97.65
       }
     }
   ]

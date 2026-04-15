@@ -4,19 +4,19 @@
     "country_name": "Hungary",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-04-14T18:21:49Z",
-    "total_servers": 34
+    "generated_at": "2026-04-15T06:46:26Z",
+    "total_servers": 36
   },
   "resolvers": [
     {
-      "ip": "94.21.228.198",
+      "ip": "86.101.76.1",
       "version": 4,
       "country_code": "hu",
       "country": "Hungary",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "HDSNET",
-      "domain": "94-21-228-198.pool.digikabel.hu",
+      "organization": "One Hungary Ltd",
+      "domain": "business-86-101-76-1.business.broadband.hu",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -29,10 +29,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 16.67,
-        "30d": 15.03,
-        "90d": 26.0,
-        "1y": 17.83
+        "24h": 50.0,
+        "30d": 61.49,
+        "90d": 59.55,
+        "1y": 51.1
       }
     },
     {
@@ -47,19 +47,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 84.41,
-        "90d": 87.07,
-        "1y": 80.7
+        "24h": 66.67,
+        "30d": 84.06,
+        "90d": 86.84,
+        "1y": 80.68
       }
     },
     {
@@ -90,6 +90,33 @@
       }
     },
     {
+      "ip": "94.21.91.28",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "HDSNET",
+      "domain": "94-21-91-28.static.digikabel.hu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 58.33,
+        "30d": 62.3,
+        "90d": 71.82,
+        "1y": 67.21
+      }
+    },
+    {
       "ip": "194.88.54.158",
       "version": 4,
       "country_code": "hu",
@@ -102,18 +129,72 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 91.67,
+        "30d": 92.29,
+        "90d": 95.93,
+        "1y": 96.98
+      }
+    },
+    {
+      "ip": "81.182.245.238",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Hungarian Telecom",
+      "domain": "51B6F5EE.dsl.pool.telekom.hu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 92.35,
-        "90d": 95.96,
-        "1y": 96.98
+        "24h": 75.0,
+        "30d": 79.03,
+        "90d": 77.74,
+        "1y": 76.55
+      }
+    },
+    {
+      "ip": "81.0.77.6",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Milenia-Systems Kft.",
+      "domain": "pbx2.milenia.hu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 76.35,
+        "90d": 78.61,
+        "1y": 85.48
       }
     },
     {
@@ -132,15 +213,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 59.95,
-        "90d": 66.25,
-        "1y": 57.65
+        "24h": 66.67,
+        "30d": 59.9,
+        "90d": 66.0,
+        "1y": 57.69
       }
     },
     {
@@ -165,9 +246,9 @@
       },
       "uptime": {
         "24h": 83.33,
-        "30d": 82.01,
-        "90d": 77.59,
-        "1y": 65.97
+        "30d": 81.88,
+        "90d": 77.37,
+        "1y": 65.99
       }
     },
     {
@@ -187,13 +268,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 91.67,
         "30d": 99.52,
-        "90d": 98.63,
+        "90d": 98.62,
         "1y": 98.77
       }
     },
@@ -220,7 +301,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.76,
-        "90d": 98.92,
+        "90d": 98.91,
         "1y": 99.23
       }
     },
@@ -240,15 +321,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 88.97,
-        "90d": 82.44,
-        "1y": 68.12
+        "24h": 83.33,
+        "30d": 88.41,
+        "90d": 82.18,
+        "1y": 68.11
       }
     },
     {
@@ -272,21 +353,21 @@
         "adult": true
       },
       "uptime": {
-        "24h": 41.67,
-        "30d": 68.59,
-        "90d": 77.46,
+        "24h": 58.33,
+        "30d": 68.12,
+        "90d": 77.15,
         "1y": 66.76
       }
     },
     {
-      "ip": "81.183.224.48",
+      "ip": "78.131.88.3",
       "version": 4,
       "country_code": "hu",
       "country": "Hungary",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Magyar Telekom",
-      "domain": "mail.teszt1.hu",
+      "organization": "DIGI",
+      "domain": "78-131-88-3.static.hdsnet.hu",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -295,14 +376,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 58.33,
+        "30d": 76.57,
+        "90d": 78.4,
+        "1y": 65.98
+      }
+    },
+    {
+      "ip": "188.6.165.9",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Magyar Telekom",
+      "domain": "dslBC06A509.fixip.t-online.hu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 41.67,
-        "30d": 27.14,
-        "90d": 42.08,
-        "1y": 31.34
+        "24h": 83.33,
+        "30d": 91.3,
+        "90d": 86.76,
+        "1y": 79.38
       }
     },
     {
@@ -321,15 +429,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 61.79,
-        "90d": 65.67,
-        "1y": 53.0
+        "24h": 91.67,
+        "30d": 61.58,
+        "90d": 65.44,
+        "1y": 53.07
       }
     },
     {
@@ -350,13 +458,310 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 66.3,
+        "90d": 71.64,
+        "1y": 57.1
+      }
+    },
+    {
+      "ip": "81.183.223.33",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "T-Online Co",
+      "domain": "dsl51B7DF21.fixip.t-online.hu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 65.77,
-        "90d": 71.75,
-        "1y": 57.06
+        "24h": 33.33,
+        "30d": 34.24,
+        "90d": 34.26,
+        "1y": 29.58
+      }
+    },
+    {
+      "ip": "87.229.85.250",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "SzerverPlex.hu Kft.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.28,
+        "90d": 99.78,
+        "1y": 99.9
+      }
+    },
+    {
+      "ip": "86.101.57.229",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "One Hungary Ltd",
+      "domain": "catv-86-101-57-229.catv.fixed.one.hu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 46.14,
+        "90d": 47.97,
+        "1y": 43.94
+      }
+    },
+    {
+      "ip": "81.183.232.240",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Magyar Telekom",
+      "domain": "dsl51B7E8F0.fixip.t-online.hu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 58.33,
+        "30d": 76.81,
+        "90d": 82.69,
+        "1y": 67.59
+      }
+    },
+    {
+      "ip": "81.183.227.40",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Hungarian Telecom",
+      "domain": "mail.tegevents.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 96.86,
+        "90d": 98.11,
+        "1y": 98.96
+      }
+    },
+    {
+      "ip": "85.90.160.69",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Opcnet Core",
+      "domain": "host-160-69.opticon.hu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 91.67,
+        "30d": 60.93,
+        "90d": 66.93,
+        "1y": 57.52
+      }
+    },
+    {
+      "ip": "195.228.230.148",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Hungarian Telecom",
+      "domain": "mail.bhe-mw.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 91.67,
+        "30d": 80.92,
+        "90d": 88.42,
+        "1y": 95.56
+      }
+    },
+    {
+      "ip": "81.182.244.148",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Magyar Telekom",
+      "domain": "newborn.scale.hu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 58.33,
+        "30d": 39.37,
+        "90d": 58.62,
+        "1y": 70.25
+      }
+    },
+    {
+      "ip": "78.131.11.248",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "DIGI",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 29.11,
+        "90d": 61.68,
+        "1y": 67.48
+      }
+    },
+    {
+      "ip": "87.97.60.141",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Digi - Invitel",
+      "domain": "87-97-60-141.static.digikabel.hu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 81.64,
+        "90d": 78.16,
+        "1y": 78.16
+      }
+    },
+    {
+      "ip": "94.21.91.189",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "HDSNET",
+      "domain": "94-21-91-189.static.digikabel.hu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 91.67,
+        "30d": 82.13,
+        "90d": 77.34,
+        "1y": 80.19
       }
     },
     {
@@ -381,9 +786,9 @@
       },
       "uptime": {
         "24h": 91.67,
-        "30d": 83.2,
-        "90d": 68.62,
-        "1y": 74.87
+        "30d": 83.33,
+        "90d": 69.17,
+        "1y": 74.91
       }
     },
     {
@@ -408,25 +813,25 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.56,
+        "30d": 98.55,
         "90d": 99.35,
         "1y": 99.63
       }
     },
     {
-      "ip": "195.250.39.16",
+      "ip": "89.134.183.229",
       "version": 4,
       "country_code": "hu",
       "country": "Hungary",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "PANNON-PIPICS",
-      "domain": "tinodi.airplanet.hu",
+      "organization": "Vodafone Hungary Ltd",
+      "domain": "catv-89-134-183-229.catv.fixed.one.hu",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -434,64 +839,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 73.38,
-        "90d": 74.66,
-        "1y": 66.8
+        "24h": 58.33,
+        "30d": 66.03,
+        "90d": 68.32,
+        "1y": 69.48
       }
     },
     {
-      "ip": "217.27.219.122",
+      "ip": "78.131.87.208",
       "version": 4,
       "country_code": "hu",
       "country": "Hungary",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Langaton Hungary Kft",
-      "domain": null,
+      "organization": "DIGI",
+      "domain": "holoiroda.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 78.03,
-        "90d": 85.01,
-        "1y": 76.19
-      }
-    },
-    {
-      "ip": "81.182.250.40",
-      "version": 4,
-      "country_code": "hu",
-      "country": "Hungary",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Hungarian Telecom",
-      "domain": "iroda.gylco.hu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 71.94,
-        "90d": 66.98,
-        "1y": 50.67
+        "24h": 91.67,
+        "30d": 84.78,
+        "90d": 84.22,
+        "1y": 72.15
       }
     },
     {
@@ -510,42 +888,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 91.67,
-        "30d": 94.24,
-        "90d": 87.39,
-        "1y": 72.36
-      }
-    },
-    {
-      "ip": "87.229.85.250",
-      "version": 4,
-      "country_code": "hu",
-      "country": "Hungary",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "SzerverPlex.hu Kft.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.28,
-        "90d": 99.78,
-        "1y": 99.9
+        "30d": 94.2,
+        "90d": 87.29,
+        "1y": 72.41
       }
     },
     {
@@ -564,312 +915,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 98.12,
-        "1y": 98.78
-      }
-    },
-    {
-      "ip": "87.97.60.141",
-      "version": 4,
-      "country_code": "hu",
-      "country": "Hungary",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Digi - Invitel",
-      "domain": "87-97-60-141.static.digikabel.hu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 82.01,
-        "90d": 78.22,
-        "1y": 78.22
-      }
-    },
-    {
-      "ip": "86.101.57.229",
-      "version": 4,
-      "country_code": "hu",
-      "country": "Hungary",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "One Hungary Ltd",
-      "domain": "catv-86-101-57-229.catv.fixed.one.hu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 58.33,
-        "30d": 45.32,
-        "90d": 47.48,
-        "1y": 43.88
-      }
-    },
-    {
-      "ip": "91.137.131.25",
-      "version": 4,
-      "country_code": "hu",
-      "country": "Hungary",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Opcnet Business CLI",
-      "domain": "91-137-131-25.opticon.hu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 75.26,
-        "90d": 80.79,
-        "1y": 68.05
-      }
-    },
-    {
-      "ip": "89.135.52.29",
-      "version": 4,
-      "country_code": "hu",
-      "country": "Hungary",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Vodafone Hungary Ltd",
-      "domain": "business-89-135-52-29.business.broadband.hu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 58.33,
-        "30d": 60.16,
-        "90d": 64.82,
-        "1y": 54.96
-      }
-    },
-    {
-      "ip": "188.6.165.9",
-      "version": 4,
-      "country_code": "hu",
-      "country": "Hungary",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Magyar Telekom",
-      "domain": "dslBC06A509.fixip.t-online.hu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 91.37,
-        "90d": 86.92,
-        "1y": 79.38
-      }
-    },
-    {
-      "ip": "85.90.160.69",
-      "version": 4,
-      "country_code": "hu",
-      "country": "Hungary",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Opcnet Core",
-      "domain": "host-160-69.opticon.hu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 60.98,
-        "90d": 67.0,
-        "1y": 57.48
-      }
-    },
-    {
-      "ip": "195.228.230.148",
-      "version": 4,
-      "country_code": "hu",
-      "country": "Hungary",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Hungarian Telecom",
-      "domain": "mail.bhe-mw.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 80.82,
-        "90d": 88.57,
-        "1y": 95.57
-      }
-    },
-    {
-      "ip": "81.183.232.240",
-      "version": 4,
-      "country_code": "hu",
-      "country": "Hungary",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Magyar Telekom",
-      "domain": "dsl51B7E8F0.fixip.t-online.hu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 77.22,
-        "90d": 82.82,
-        "1y": 67.57
-      }
-    },
-    {
-      "ip": "93.88.195.34",
-      "version": 4,
-      "country_code": "hu",
-      "country": "Hungary",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Dravanet Co Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 96.16,
-        "90d": 96.39,
-        "1y": 96.77
-      }
-    },
-    {
-      "ip": "94.21.91.189",
-      "version": 4,
-      "country_code": "hu",
-      "country": "Hungary",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "HDSNET",
-      "domain": "94-21-91-189.static.digikabel.hu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 82.01,
-        "90d": 77.49,
-        "1y": 80.16
-      }
-    },
-    {
-      "ip": "94.21.243.35",
-      "version": 4,
-      "country_code": "hu",
-      "country": "Hungary",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Digi",
-      "domain": "94-21-243-35.static.digikabel.hu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 35.04,
-        "90d": 58.93,
-        "1y": 56.21
+        "90d": 98.11,
+        "1y": 98.79
       }
     },
     {
@@ -889,25 +943,25 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 66.67,
-        "30d": 76.74,
-        "90d": 79.36,
-        "1y": 77.28
+        "30d": 76.81,
+        "90d": 79.15,
+        "1y": 77.29
       }
     },
     {
-      "ip": "81.183.216.211",
+      "ip": "195.250.39.16",
       "version": 4,
       "country_code": "hu",
       "country": "Hungary",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "T-Online Co",
-      "domain": "dsl51B7D8D3.fixip.t-online.hu",
+      "organization": "PANNON-PIPICS",
+      "domain": "tinodi.airplanet.hu",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -915,15 +969,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 33.33,
-        "30d": 64.78,
-        "90d": 76.58,
-        "1y": 63.23
+        "24h": 91.67,
+        "30d": 73.19,
+        "90d": 74.47,
+        "1y": 66.85
       }
     }
   ]
