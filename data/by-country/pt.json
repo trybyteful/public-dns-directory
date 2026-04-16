@@ -4,8 +4,8 @@
     "country_name": "Portugal",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-04-16T06:47:18Z",
-    "total_servers": 12
+    "generated_at": "2026-04-16T18:22:08Z",
+    "total_servers": 10
   },
   "resolvers": [
     {
@@ -21,18 +21,72 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 25.0,
+        "30d": 60.0,
+        "90d": 57.68,
+        "1y": 62.97
+      }
+    },
+    {
+      "ip": "195.23.236.90",
+      "version": 4,
+      "country_code": "pt",
+      "country": "Portugal",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "SSS",
+      "domain": "195-23-236-90.net.static.novis.pt",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 27.27,
-        "30d": 60.66,
-        "90d": 58.31,
-        "1y": 63.04
+        "24h": 91.67,
+        "30d": 80.64,
+        "90d": 85.84,
+        "1y": 92.75
+      }
+    },
+    {
+      "ip": "88.157.98.214",
+      "version": 4,
+      "country_code": "pt",
+      "country": "Portugal",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "NOS COMUNICACOES, S.A",
+      "domain": "a88-157-98-214.static.cpe.netcabo.pt",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 16.67,
+        "30d": 66.32,
+        "90d": 72.56,
+        "1y": 61.25
       }
     },
     {
@@ -52,41 +106,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 72.73,
-        "30d": 90.46,
-        "90d": 92.52,
-        "1y": 96.69
-      }
-    },
-    {
-      "ip": "161.230.203.238",
-      "version": 4,
-      "country_code": "pt",
-      "country": "Portugal",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Vodafone Portugal - Communicacoes Pessoais S.A",
-      "domain": "238.203.230.161.rev.vodafone.pt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 77.41,
-        "90d": 62.75,
-        "1y": 66.58
+        "24h": 100.0,
+        "30d": 90.44,
+        "90d": 92.48,
+        "1y": 96.7
       }
     },
     {
@@ -105,53 +132,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.33,
-        "90d": 90.63,
-        "1y": 91.16
-      }
-    },
-    {
-      "ip": "62.48.163.166",
-      "version": 4,
-      "country_code": "pt",
-      "country": "Portugal",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "PT Prime",
-      "domain": "static-wan-bl1-163-166.rev.webside.pt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 67.49,
-        "90d": 77.09,
-        "1y": 89.38
+        "24h": 100.0,
+        "30d": 96.32,
+        "90d": 90.81,
+        "1y": 91.17
       }
     },
     {
-      "ip": "88.157.148.18",
+      "ip": "88.157.103.191",
       "version": 4,
       "country_code": "pt",
       "country": "Portugal",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "NOS COMUNICACOES, S.A",
-      "domain": "a88-157-148-18.static.cpe.netcabo.pt",
+      "domain": "a88-157-103-191.static.cpe.netcabo.pt",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -159,123 +159,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 81.82,
-        "30d": 87.5,
-        "90d": 77.52,
-        "1y": 77.24
-      }
-    },
-    {
-      "ip": "62.28.68.66",
-      "version": 4,
-      "country_code": "pt",
-      "country": "Portugal",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Cibersur - Pesquisa e Desenvolvimento de Sistemas Unipessoal",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 51.34,
-        "90d": 52.99,
-        "1y": 43.73
-      }
-    },
-    {
-      "ip": "88.157.220.66",
-      "version": 4,
-      "country_code": "pt",
-      "country": "Portugal",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Decsis Sist de Inf Sa",
-      "domain": "a88-157-220-66.static.cpe.netcabo.pt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 58.33,
-        "30d": 87.53,
-        "90d": 87.62,
-        "1y": 90.69
-      }
-    },
-    {
-      "ip": "188.93.235.3",
-      "version": 4,
-      "country_code": "pt",
-      "country": "Portugal",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "SemCabo IT Solutions",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 72.73,
-        "30d": 92.42,
-        "90d": 89.82,
-        "1y": 93.94
-      }
-    },
-    {
-      "ip": "94.46.21.66",
-      "version": 4,
-      "country_code": "pt",
-      "country": "Portugal",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Almouroltec",
-      "domain": "sid126497.virtualservers.pt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.59,
-        "90d": 98.24,
-        "1y": 98.08
+        "24h": 91.67,
+        "30d": 93.51,
+        "90d": 88.83,
+        "1y": 90.84
       }
     },
     {
@@ -300,25 +192,25 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.07,
-        "90d": 95.28,
+        "30d": 97.06,
+        "90d": 95.25,
         "1y": 98.52
       }
     },
     {
-      "ip": "88.157.103.191",
+      "ip": "94.46.21.66",
       "version": 4,
       "country_code": "pt",
       "country": "Portugal",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "NOS COMUNICACOES, S.A",
-      "domain": "a88-157-103-191.static.cpe.netcabo.pt",
+      "organization": "Almouroltec",
+      "domain": "sid126497.virtualservers.pt",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -326,10 +218,64 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 93.52,
-        "90d": 88.9,
-        "1y": 90.82
+        "24h": 100.0,
+        "30d": 95.58,
+        "90d": 98.23,
+        "1y": 98.08
+      }
+    },
+    {
+      "ip": "78.130.64.95",
+      "version": 4,
+      "country_code": "pt",
+      "country": "Portugal",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "NOS Comunicacoes S.A.",
+      "domain": "78-130-64-95.static.net.novis.pt",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 40.0,
+        "30d": 29.97,
+        "90d": 37.15,
+        "1y": 32.75
+      }
+    },
+    {
+      "ip": "88.157.148.18",
+      "version": 4,
+      "country_code": "pt",
+      "country": "Portugal",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "NOS COMUNICACOES, S.A",
+      "domain": "a88-157-148-18.static.cpe.netcabo.pt",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 91.67,
+        "30d": 87.25,
+        "90d": 77.33,
+        "1y": 77.25
       }
     }
   ]

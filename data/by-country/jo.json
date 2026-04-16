@@ -4,7 +4,7 @@
     "country_name": "Jordan",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-16T06:47:18Z",
+    "generated_at": "2026-04-16T18:22:08Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 89.84,
-        "1y": 94.2
+        "90d": 90.09,
+        "1y": 94.21
       }
     },
     {
@@ -51,7 +51,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
@@ -60,33 +60,6 @@
         "30d": 98.53,
         "90d": 98.89,
         "1y": 98.69
-      }
-    },
-    {
-      "ip": "79.173.251.155",
-      "version": 4,
-      "country_code": "jo",
-      "country": "Jordan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Jordan Telecom Group ( Orange)",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 81.82,
-        "30d": 60.42,
-        "90d": 60.95,
-        "1y": 49.46
       }
     },
     {
@@ -114,6 +87,33 @@
         "30d": 100.0,
         "90d": 99.93,
         "1y": 99.85
+      }
+    },
+    {
+      "ip": "79.173.251.155",
+      "version": 4,
+      "country_code": "jo",
+      "country": "Jordan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Jordan Telecom Group ( Orange)",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 60.05,
+        "90d": 60.62,
+        "1y": 49.44
       }
     }
   ]

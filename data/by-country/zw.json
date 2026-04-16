@@ -4,10 +4,37 @@
     "country_name": "Zimbabwe",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-16T06:47:18Z",
-    "total_servers": 4
+    "generated_at": "2026-04-16T18:22:08Z",
+    "total_servers": 5
   },
   "resolvers": [
+    {
+      "ip": "196.27.106.21",
+      "version": 4,
+      "country_code": "zw",
+      "country": "Zimbabwe",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ZOL-AFRCOM",
+      "domain": "521243.customer.zol.co.zw",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 82.6,
+        "90d": 83.84,
+        "1y": 88.23
+      }
+    },
     {
       "ip": "41.174.182.214",
       "version": 4,
@@ -29,37 +56,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 76.28,
+        "24h": 100.0,
+        "30d": 76.47,
         "90d": 71.75,
-        "1y": 69.87
+        "1y": 69.91
       }
     },
     {
-      "ip": "41.216.125.179",
+      "ip": "196.43.199.61",
       "version": 4,
       "country_code": "zw",
       "country": "Zimbabwe",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Liquid Zimbabwe",
-      "domain": "41.216.125.179.liquidtelecom.net",
+      "organization": "Zimbabwe Open University",
+      "domain": "z0udns1.zou.ac.zw",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.93,
-        "1y": 99.85
+        "24h": 75.0,
+        "30d": 75.16,
+        "90d": 80.68,
+        "1y": 78.64
       }
     },
     {
@@ -79,29 +106,29 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 54.55,
-        "30d": 50.58,
-        "90d": 81.01,
-        "1y": 87.53
+        "24h": 58.33,
+        "30d": 50.56,
+        "90d": 80.67,
+        "1y": 87.47
       }
     },
     {
-      "ip": "196.43.199.61",
+      "ip": "41.216.125.179",
       "version": 4,
       "country_code": "zw",
       "country": "Zimbabwe",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Zimbabwe Open University",
-      "domain": "z0udns1.zou.ac.zw",
+      "organization": "Liquid Zimbabwe",
+      "domain": "41.216.125.179.liquidtelecom.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -110,10 +137,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 54.55,
-        "30d": 75.86,
-        "90d": 80.65,
-        "1y": 78.66
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.93,
+        "1y": 99.85
       }
     }
   ]
