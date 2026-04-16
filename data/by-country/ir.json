@@ -4,10 +4,37 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-15T18:21:07Z",
-    "total_servers": 4
+    "generated_at": "2026-04-16T06:47:18Z",
+    "total_servers": 5
   },
   "resolvers": [
+    {
+      "ip": "217.218.155.155",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "\"Telecommunication Intfrastructure Company\" IP range.",
+      "domain": "recursive2.dci.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 81.82,
+        "30d": 95.25,
+        "90d": 97.06,
+        "1y": 97.0
+      }
+    },
     {
       "ip": "194.225.62.80",
       "version": 4,
@@ -30,8 +57,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.0,
-        "90d": 91.78,
+        "30d": 90.41,
+        "90d": 91.96,
         "1y": 95.49
       }
     },
@@ -53,40 +80,40 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.92,
-        "90d": 97.65,
-        "1y": 97.65
+        "30d": 99.2,
+        "90d": 97.67,
+        "1y": 97.67
       }
     },
     {
-      "ip": "2.189.44.44",
+      "ip": "213.176.123.5",
       "version": 4,
       "country_code": "ir",
       "country": "Iran",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Iran Information Technology Company PJSC",
-      "domain": "anycast.ticdns.ir",
+      "organization": "Iranian Research Organization Science & Technology",
+      "domain": "dns.irost.ir",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 72.73,
-        "30d": 52.98,
-        "90d": 85.14,
-        "1y": 94.5
+        "24h": 100.0,
+        "30d": 20.0,
+        "90d": 87.29,
+        "1y": 66.16
       }
     },
     {
@@ -111,9 +138,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.82,
-        "90d": 94.9,
-        "1y": 96.29
+        "30d": 88.0,
+        "90d": 94.93,
+        "1y": 96.3
       }
     }
   ]
