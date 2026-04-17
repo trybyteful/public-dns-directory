@@ -4,7 +4,7 @@
     "country_name": "Cambodia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-17T06:47:16Z",
+    "generated_at": "2026-04-17T18:15:10Z",
     "total_servers": 2
   },
   "resolvers": [
@@ -21,11 +21,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
@@ -51,14 +51,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 59.26,
-        "90d": 62.22,
+        "24h": 54.55,
+        "30d": 60.2,
+        "90d": 62.18,
         "1y": 51.22
       }
     }
