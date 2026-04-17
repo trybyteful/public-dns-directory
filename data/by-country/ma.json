@@ -4,8 +4,8 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-16T18:22:08Z",
-    "total_servers": 6
+    "generated_at": "2026-04-17T06:47:16Z",
+    "total_servers": 7
   },
   "resolvers": [
     {
@@ -24,14 +24,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.81,
-        "90d": 93.77,
+        "30d": 97.04,
+        "90d": 93.96,
         "1y": 96.59
       }
     },
@@ -51,25 +51,25 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.42,
-        "90d": 86.65,
-        "1y": 88.42
+        "30d": 92.61,
+        "90d": 86.8,
+        "1y": 88.43
       }
     },
     {
-      "ip": "197.230.84.1",
+      "ip": "41.214.138.238",
       "version": 4,
       "country_code": "ma",
       "country": "Morocco",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Phone Assistance",
+      "organization": "Safilait Maroc Agence Fbs-1",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -78,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 96.81,
-        "90d": 95.11,
-        "1y": 92.3
+        "24h": 83.33,
+        "30d": 70.0,
+        "90d": 75.65,
+        "1y": 88.7
       }
     },
     {
@@ -106,8 +106,8 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -117,30 +117,30 @@
       }
     },
     {
-      "ip": "194.204.223.244",
+      "ip": "197.230.84.1",
       "version": 4,
       "country_code": "ma",
       "country": "Morocco",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Casa Americain school",
-      "domain": "dns.cas.ac.ma",
+      "organization": "Phone Assistance",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.34,
-        "90d": 98.41,
-        "1y": 98.73
+        "30d": 97.04,
+        "90d": 95.08,
+        "1y": 92.31
       }
     },
     {
@@ -160,14 +160,41 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 93.35,
+        "90d": 91.39,
+        "1y": 91.38
+      }
+    },
+    {
+      "ip": "194.204.223.244",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Casa Americain school",
+      "domain": "dns.cas.ac.ma",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.89,
-        "90d": 91.14,
-        "1y": 91.37
+        "30d": 96.33,
+        "90d": 98.41,
+        "1y": 98.73
       }
     }
   ]
