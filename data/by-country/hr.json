@@ -4,8 +4,8 @@
     "country_name": "Croatia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-04-18T06:34:38Z",
-    "total_servers": 24
+    "generated_at": "2026-04-18T18:09:43Z",
+    "total_servers": 25
   },
   "resolvers": [
     {
@@ -24,14 +24,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.27,
-        "90d": 97.58,
+        "30d": 92.21,
+        "90d": 97.57,
         "1y": 98.97
       }
     },
@@ -51,8 +51,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -105,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.53,
-        "90d": 96.53,
-        "1y": 98.79
+        "30d": 88.47,
+        "90d": 96.5,
+        "1y": 98.8
       }
     },
     {
@@ -132,14 +132,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 92.52,
-        "90d": 97.73,
+        "24h": 90.0,
+        "30d": 92.46,
+        "90d": 97.72,
         "1y": 99.16
       }
     },
@@ -159,14 +159,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.02,
-        "90d": 96.91,
+        "30d": 89.97,
+        "90d": 96.88,
         "1y": 98.77
       }
     },
@@ -186,13 +186,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.5,
+        "30d": 99.75,
         "90d": 99.85,
         "1y": 99.93
       }
@@ -210,17 +210,17 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.25,
-        "90d": 98.11,
+        "90d": 98.25,
         "1y": 96.85
       }
     },
@@ -240,7 +240,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -267,15 +267,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.01,
-        "90d": 96.86,
-        "1y": 97.87
+        "30d": 96.99,
+        "90d": 97.07,
+        "1y": 97.88
       }
     },
     {
@@ -294,13 +294,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.0,
+        "30d": 99.25,
         "90d": 99.7,
         "1y": 99.9
       }
@@ -321,26 +321,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 85.79,
-        "90d": 95.32,
-        "1y": 98.42
+        "24h": 90.0,
+        "30d": 85.93,
+        "90d": 95.21,
+        "1y": 98.4
       }
     },
     {
-      "ip": "31.45.234.58",
+      "ip": "89.201.145.26",
       "version": 4,
       "country_code": "hr",
       "country": "Croatia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Vipnet",
-      "domain": "signal.hr",
+      "organization": "OT - Optima Telekom d.d",
+      "domain": "89-201-145-26.static.optinet.hr",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -349,14 +349,68 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 88.89,
+        "30d": 69.51,
+        "90d": 78.68,
+        "1y": 80.5
+      }
+    },
+    {
+      "ip": "195.29.125.251",
+      "version": 4,
+      "country_code": "hr",
+      "country": "Croatia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "T HT",
+      "domain": "IPL584304.net.t-com.hr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 87.28,
-        "90d": 90.79,
-        "1y": 69.22
+        "24h": 100.0,
+        "30d": 99.75,
+        "90d": 99.47,
+        "1y": 99.83
+      }
+    },
+    {
+      "ip": "86.32.120.133",
+      "version": 4,
+      "country_code": "hr",
+      "country": "Croatia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Telemach Hrvatska d.o.o",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.77,
+        "1y": 99.9
       }
     },
     {
@@ -376,25 +430,106 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.75,
+        "30d": 98.74,
         "90d": 99.62,
         "1y": 99.88
       }
     },
     {
-      "ip": "195.29.34.149",
+      "ip": "85.114.45.74",
       "version": 4,
       "country_code": "hr",
       "country": "Croatia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Kelava",
-      "domain": "ao3-m149.net.t-com.hr",
+      "organization": "OT - OPTIMA TELEKOM d.d",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 71.39,
+        "90d": 79.49,
+        "1y": 79.29
+      }
+    },
+    {
+      "ip": "89.18.44.47",
+      "version": 4,
+      "country_code": "hr",
+      "country": "Croatia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Oktv",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 44.44,
+        "30d": 39.46,
+        "90d": 43.35,
+        "1y": 25.86
+      }
+    },
+    {
+      "ip": "86.32.3.225",
+      "version": 4,
+      "country_code": "hr",
+      "country": "Croatia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Telemach Hrvatska d.o.o",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.92,
+        "1y": 99.93
+      }
+    },
+    {
+      "ip": "86.32.120.134",
+      "version": 4,
+      "country_code": "hr",
+      "country": "Croatia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Telemach Hrvatska d.o.o",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -408,9 +543,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.25,
-        "90d": 99.77,
-        "1y": 99.9
+        "30d": 100.0,
+        "90d": 99.85,
+        "1y": 99.95
       }
     },
     {
@@ -430,14 +565,95 @@
       },
       "blocking": {
         "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 78.51,
+        "90d": 85.06,
+        "1y": 62.3
+      }
+    },
+    {
+      "ip": "195.29.34.149",
+      "version": 4,
+      "country_code": "hr",
+      "country": "Croatia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Kelava",
+      "domain": "ao3-m149.net.t-com.hr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 76.92,
-        "90d": 84.74,
-        "1y": 62.03
+        "24h": 100.0,
+        "30d": 99.5,
+        "90d": 99.77,
+        "1y": 99.9
+      }
+    },
+    {
+      "ip": "31.45.234.58",
+      "version": 4,
+      "country_code": "hr",
+      "country": "Croatia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Vipnet",
+      "domain": "signal.hr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 87.19,
+        "90d": 90.81,
+        "1y": 69.26
+      }
+    },
+    {
+      "ip": "37.48.236.65",
+      "version": 4,
+      "country_code": "hr",
+      "country": "Croatia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Synot Games, S.R.O.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.25,
+        "90d": 99.62,
+        "1y": 99.71
       }
     },
     {
@@ -465,195 +681,6 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
-      }
-    },
-    {
-      "ip": "37.48.236.65",
-      "version": 4,
-      "country_code": "hr",
-      "country": "Croatia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Synot Games, S.R.O.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.25,
-        "90d": 99.62,
-        "1y": 99.7
-      }
-    },
-    {
-      "ip": "89.201.145.26",
-      "version": 4,
-      "country_code": "hr",
-      "country": "Croatia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OT - Optima Telekom d.d",
-      "domain": "89-201-145-26.static.optinet.hr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 70.0,
-        "90d": 78.51,
-        "1y": 80.5
-      }
-    },
-    {
-      "ip": "85.114.45.74",
-      "version": 4,
-      "country_code": "hr",
-      "country": "Croatia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OT - OPTIMA TELEKOM d.d",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 71.54,
-        "90d": 79.17,
-        "1y": 79.27
-      }
-    },
-    {
-      "ip": "86.32.120.134",
-      "version": 4,
-      "country_code": "hr",
-      "country": "Croatia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telemach Hrvatska d.o.o",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.85,
-        "1y": 99.95
-      }
-    },
-    {
-      "ip": "86.32.3.225",
-      "version": 4,
-      "country_code": "hr",
-      "country": "Croatia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telemach Hrvatska d.o.o",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.92,
-        "1y": 99.93
-      }
-    },
-    {
-      "ip": "86.32.120.133",
-      "version": 4,
-      "country_code": "hr",
-      "country": "Croatia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telemach Hrvatska d.o.o",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.77,
-        "1y": 99.9
-      }
-    },
-    {
-      "ip": "195.29.125.251",
-      "version": 4,
-      "country_code": "hr",
-      "country": "Croatia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "T HT",
-      "domain": "IPL584304.net.t-com.hr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.5,
-        "90d": 99.47,
-        "1y": 99.83
       }
     }
   ]
