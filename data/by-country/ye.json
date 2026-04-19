@@ -4,35 +4,35 @@
     "country_name": "Yemen",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-18T18:09:43Z",
-    "total_servers": 2
+    "generated_at": "2026-04-19T06:43:23Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "134.35.16.15",
+      "ip": "178.130.74.156",
       "version": 4,
       "country_code": "ye",
       "country": "Yemen",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "YemenNet",
+      "organization": "Aljoraf area - Airport street",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 25.0,
-        "90d": 26.07,
-        "1y": 33.37
+        "30d": 5.56,
+        "90d": 1.61,
+        "1y": 13.29
       }
     },
     {
@@ -56,10 +56,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 14.29,
-        "90d": 20.48,
-        "1y": 15.12
+        "24h": 80.0,
+        "30d": 30.77,
+        "90d": 22.33,
+        "1y": 15.68
+      }
+    },
+    {
+      "ip": "178.130.83.51",
+      "version": 4,
+      "country_code": "ye",
+      "country": "Yemen",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Aljoraf area - Airport street",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 20.0,
+        "90d": 11.76,
+        "1y": 13.26
       }
     }
   ]

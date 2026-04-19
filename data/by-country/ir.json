@@ -4,8 +4,8 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-18T18:09:43Z",
-    "total_servers": 5
+    "generated_at": "2026-04-19T06:43:23Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -21,7 +21,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -30,9 +30,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.94,
-        "90d": 97.13,
-        "1y": 96.99
+        "30d": 94.93,
+        "90d": 97.11,
+        "1y": 97.0
       }
     },
     {
@@ -57,9 +57,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.9,
-        "90d": 92.68,
-        "1y": 95.53
+        "30d": 93.14,
+        "90d": 92.85,
+        "1y": 95.54
       }
     },
     {
@@ -78,15 +78,69 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.5,
-        "90d": 97.72,
-        "1y": 97.72
+        "90d": 97.74,
+        "1y": 97.74
+      }
+    },
+    {
+      "ip": "2.188.21.130",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Telecommunication Infrastructure Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 42.86,
+        "30d": 10.34,
+        "90d": 87.3,
+        "1y": 93.61
+      }
+    },
+    {
+      "ip": "213.176.123.5",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Iranian Research Organization Science & Technology",
+      "domain": "dns.irost.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 18.18,
+        "30d": 27.94,
+        "90d": 85.39,
+        "1y": 65.0
       }
     },
     {
@@ -111,36 +165,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.97,
-        "90d": 95.06,
-        "1y": 96.32
-      }
-    },
-    {
-      "ip": "2.188.21.130",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Telecommunication Infrastructure Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 7.69,
-        "90d": 87.67,
-        "1y": 93.72
+        "30d": 87.91,
+        "90d": 95.03,
+        "1y": 96.33
       }
     }
   ]

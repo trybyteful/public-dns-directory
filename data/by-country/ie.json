@@ -4,7 +4,7 @@
     "country_name": "Ireland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-04-18T18:09:43Z",
+    "generated_at": "2026-04-19T06:43:23Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -29,9 +29,9 @@
         "adult": true
       },
       "uptime": {
-        "24h": 40.0,
-        "30d": 45.61,
-        "90d": 57.95,
+        "24h": 45.45,
+        "30d": 45.59,
+        "90d": 57.92,
         "1y": 48.69
       }
     },
@@ -52,41 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 94.65,
-        "90d": 97.99,
-        "1y": 98.12
-      }
-    },
-    {
-      "ip": "194.125.133.10",
-      "version": 4,
-      "country_code": "ie",
-      "country": "Ireland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "INDIGO",
-      "domain": "ann.indigo.ie",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.92,
-        "1y": 99.95
+        "30d": 94.62,
+        "90d": 97.97,
+        "1y": 98.12
       }
     },
     {
@@ -111,9 +84,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.74,
-        "90d": 89.67,
-        "1y": 94.08
+        "30d": 97.73,
+        "90d": 89.6,
+        "1y": 94.09
+      }
+    },
+    {
+      "ip": "194.125.133.10",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "INDIGO",
+      "domain": "ann.indigo.ie",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.92,
+        "1y": 99.95
       }
     }
   ]
