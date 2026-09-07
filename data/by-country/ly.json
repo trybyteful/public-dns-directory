@@ -4,8 +4,8 @@
     "country_name": "Libya",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-09-06T18:03:48Z",
-    "total_servers": 3
+    "generated_at": "2026-09-07T06:34:58Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 84.04,
-        "90d": 86.66,
-        "1y": 83.49
+        "24h": 74.07,
+        "30d": 84.11,
+        "90d": 86.62,
+        "1y": 83.52
       }
     },
     {
@@ -51,19 +51,19 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 84.66,
-        "90d": 82.14,
-        "1y": 79.97
+        "24h": 85.19,
+        "30d": 84.55,
+        "90d": 82.09,
+        "1y": 79.96
       }
     },
     {
-      "ip": "160.19.99.98",
+      "ip": "102.218.172.222",
       "version": 4,
       "country_code": "ly",
       "country": "Libya",
@@ -78,15 +78,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 59.26,
+        "30d": 53.41,
+        "90d": 59.13,
+        "1y": 60.78
+      }
+    },
+    {
+      "ip": "165.16.116.172",
+      "version": 4,
+      "country_code": "ly",
+      "country": "Libya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ISP pool west",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 67.2,
-        "90d": 69.48,
-        "1y": 69.17
+        "24h": 85.19,
+        "30d": 86.99,
+        "90d": 76.11,
+        "1y": 75.11
       }
     }
   ]
