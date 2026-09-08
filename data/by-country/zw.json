@@ -4,10 +4,37 @@
     "country_name": "Zimbabwe",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-09-08T06:27:19Z",
+    "generated_at": "2026-09-08T18:04:28Z",
     "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "196.27.106.21",
+      "version": 4,
+      "country_code": "zw",
+      "country": "Zimbabwe",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ZOL-AFRCOM",
+      "domain": "521243.customer.zol.co.zw",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 81.82,
+        "30d": 82.2,
+        "90d": 87.54,
+        "1y": 85.44
+      }
+    },
     {
       "ip": "196.43.199.60",
       "version": 4,
@@ -20,46 +47,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 93.68,
-        "90d": 94.61,
-        "1y": 85.04
-      }
-    },
-    {
-      "ip": "41.174.182.214",
-      "version": 4,
-      "country_code": "zw",
-      "country": "Zimbabwe",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Liquid Telecommunications Operations Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
         "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 60.61,
-        "90d": 67.89,
-        "1y": 67.43
+        "24h": 100.0,
+        "30d": 93.75,
+        "90d": 94.66,
+        "1y": 85.08
       }
     }
   ]

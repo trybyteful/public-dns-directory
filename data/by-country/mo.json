@@ -4,8 +4,8 @@
     "country_name": "Macao",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-09-08T06:27:19Z",
-    "total_servers": 9
+    "generated_at": "2026-09-08T18:04:28Z",
+    "total_servers": 10
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 82.51,
-        "90d": 85.41,
-        "1y": 83.02
+        "30d": 82.81,
+        "90d": 85.43,
+        "1y": 83.06
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.18,
-        "90d": 94.99,
-        "1y": 95.66
+        "30d": 87.16,
+        "90d": 94.97,
+        "1y": 95.67
       }
     },
     {
@@ -79,7 +79,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -106,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 95.83,
-        "30d": 82.68,
-        "90d": 84.95,
-        "1y": 82.63
+        "24h": 95.45,
+        "30d": 82.83,
+        "90d": 84.96,
+        "1y": 82.66
       }
     },
     {
@@ -132,15 +132,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 62.5,
-        "30d": 84.5,
-        "90d": 84.45,
-        "1y": 86.07
+        "24h": 59.09,
+        "30d": 84.29,
+        "90d": 84.29,
+        "1y": 86.02
       }
     },
     {
@@ -166,8 +166,35 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.57,
-        "90d": 97.88,
-        "1y": 97.62
+        "90d": 97.87,
+        "1y": 97.63
+      }
+    },
+    {
+      "ip": "202.175.66.122",
+      "version": 4,
+      "country_code": "mo",
+      "country": "Macao",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CTM Internet Services",
+      "domain": "z66l122.static.ctm.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 27.27,
+        "30d": 73.18,
+        "90d": 82.24,
+        "1y": 85.93
       }
     },
     {
@@ -187,14 +214,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 80.24,
+        "30d": 80.4,
         "90d": 83.79,
-        "1y": 81.75
+        "1y": 81.78
       }
     },
     {
@@ -214,14 +241,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 80.33,
-        "90d": 83.74,
-        "1y": 81.79
+        "30d": 80.49,
+        "90d": 83.73,
+        "1y": 81.82
       }
     },
     {
@@ -240,15 +267,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 95.83,
-        "30d": 93.51,
-        "90d": 97.48,
-        "1y": 95.58
+        "24h": 100.0,
+        "30d": 93.66,
+        "90d": 97.47,
+        "1y": 95.59
       }
     }
   ]
