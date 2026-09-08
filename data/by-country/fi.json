@@ -4,8 +4,8 @@
     "country_name": "Finland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-09-07T18:04:14Z",
-    "total_servers": 9
+    "generated_at": "2026-09-08T06:27:19Z",
+    "total_servers": 11
   },
   "resolvers": [
     {
@@ -30,9 +30,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.91,
-        "90d": 98.1,
-        "1y": 97.88
+        "30d": 97.92,
+        "90d": 98.09,
+        "1y": 97.89
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 96.15,
-        "30d": 72.89,
-        "90d": 74.62,
-        "1y": 73.84
+        "24h": 95.83,
+        "30d": 73.07,
+        "90d": 74.66,
+        "1y": 73.89
       }
     },
     {
@@ -75,18 +75,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 65.38,
-        "30d": 54.32,
-        "90d": 55.07,
-        "1y": 54.26
+        "24h": 66.67,
+        "30d": 54.55,
+        "90d": 55.06,
+        "1y": 54.3
       }
     },
     {
@@ -106,8 +106,8 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -132,15 +132,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.39,
-        "90d": 96.84,
-        "1y": 96.51
+        "90d": 96.82,
+        "1y": 96.52
+      }
+    },
+    {
+      "ip": "80.186.145.164",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Elisa Oyj",
+      "domain": "80-186-145-164.elisa-mobile.fi",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 91.67,
+        "30d": 85.89,
+        "90d": 92.77,
+        "1y": 89.07
       }
     },
     {
@@ -159,7 +186,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
@@ -186,15 +213,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 85.7,
-        "90d": 88.78,
-        "1y": 85.63
+        "24h": 95.83,
+        "30d": 85.71,
+        "90d": 88.74,
+        "1y": 85.64
       }
     },
     {
@@ -225,6 +252,33 @@
       }
     },
     {
+      "ip": "195.140.195.21",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TREX Regional Exchanges Oy",
+      "domain": "resolver1.dns.trex.fi",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 91.67,
+        "30d": 89.78,
+        "90d": 91.42,
+        "1y": 92.76
+      }
+    },
+    {
       "ip": "65.108.195.182",
       "version": 4,
       "country_code": "fi",
@@ -240,8 +294,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
