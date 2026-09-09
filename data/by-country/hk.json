@@ -4,8 +4,8 @@
     "country_name": "Hong Kong",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-09-08T18:04:28Z",
-    "total_servers": 75
+    "generated_at": "2026-09-09T06:28:13Z",
+    "total_servers": 81
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.75,
-        "90d": 96.99,
-        "1y": 97.68
+        "30d": 97.72,
+        "90d": 97.0,
+        "1y": 97.69
       }
     },
     {
@@ -53,12 +53,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.14,
-        "90d": 98.11,
+        "30d": 97.11,
+        "90d": 98.1,
         "1y": 98.02
       }
     },
@@ -78,9 +78,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -102,7 +102,61 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.39,
+        "90d": 97.98,
+        "1y": 98.26
+      }
+    },
+    {
+      "ip": "203.198.161.89",
+      "version": 4,
+      "country_code": "hk",
+      "country": "Hong Kong",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Hong Kong Telecommunications (HKT) Limited",
+      "domain": "089.161.198.203.static.netvigator.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.95,
+        "30d": 89.4,
+        "90d": 86.44,
+        "1y": 88.77
+      }
+    },
+    {
+      "ip": "210.176.210.4",
+      "version": 4,
+      "country_code": "hk",
+      "country": "Hong Kong",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Chinah2o.com Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -110,10 +164,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.39,
-        "90d": 97.99,
-        "1y": 98.26
+        "24h": 76.19,
+        "30d": 54.39,
+        "90d": 47.84,
+        "1y": 42.21
       }
     },
     {
@@ -138,8 +192,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 81.12,
-        "90d": 97.53,
+        "30d": 82.24,
+        "90d": 97.52,
         "1y": 98.38
       }
     },
@@ -160,12 +214,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 99.13,
+        "24h": 100.0,
+        "30d": 99.12,
         "90d": 99.68,
         "1y": 99.78
       }
@@ -191,9 +245,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 95.84,
-        "90d": 98.4,
+        "24h": 100.0,
+        "30d": 95.79,
+        "90d": 98.42,
         "1y": 98.84
       }
     },
@@ -218,10 +272,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 82.47,
-        "90d": 84.34,
-        "1y": 82.05
+        "24h": 80.95,
+        "30d": 82.19,
+        "90d": 84.26,
+        "1y": 82.07
       }
     },
     {
@@ -246,9 +300,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.84,
-        "90d": 80.75,
-        "1y": 73.68
+        "30d": 89.74,
+        "90d": 80.94,
+        "1y": 73.73
       }
     },
     {
@@ -268,13 +322,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.18,
-        "90d": 99.1,
+        "30d": 98.16,
+        "90d": 99.09,
         "1y": 98.58
       }
     },
@@ -294,15 +348,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.48,
-        "90d": 91.11,
-        "1y": 93.76
+        "30d": 97.46,
+        "90d": 91.06,
+        "1y": 93.77
+      }
+    },
+    {
+      "ip": "113.28.71.243",
+      "version": 4,
+      "country_code": "hk",
+      "country": "Hong Kong",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Hong Kong Telecommunications (HKT) Limited",
+      "domain": "113-28-71-243.static.imsbiz.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 69.04,
+        "90d": 69.06,
+        "1y": 64.75
       }
     },
     {
@@ -322,14 +403,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 77.27,
-        "30d": 73.03,
-        "90d": 90.71,
-        "1y": 91.74
+        "24h": 66.67,
+        "30d": 72.37,
+        "90d": 90.58,
+        "1y": 91.69
       }
     },
     {
@@ -354,36 +435,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.35,
-        "90d": 96.41,
+        "30d": 98.33,
+        "90d": 96.39,
         "1y": 96.51
-      }
-    },
-    {
-      "ip": "113.28.67.147",
-      "version": 4,
-      "country_code": "hk",
-      "country": "Hong Kong",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "PCCW IMSBiz",
-      "domain": "113-28-67-147.static.imsbiz.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 22.73,
-        "30d": 72.16,
-        "90d": 87.81,
-        "1y": 89.16
       }
     },
     {
@@ -399,18 +453,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 93.93,
-        "90d": 79.74,
-        "1y": 73.52
+        "24h": 95.24,
+        "30d": 93.87,
+        "90d": 79.79,
+        "1y": 73.58
+      }
+    },
+    {
+      "ip": "103.247.156.200",
+      "version": 4,
+      "country_code": "hk",
+      "country": "Hong Kong",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "HKBN Enterprise Solutions HK Limited",
+      "domain": "outgoing.houstonhk.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 57.14,
+        "30d": 46.19,
+        "90d": 51.02,
+        "1y": 48.06
       }
     },
     {
@@ -434,10 +515,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 91.67,
-        "90d": 95.53,
-        "1y": 96.56
+        "24h": 95.24,
+        "30d": 91.93,
+        "90d": 95.5,
+        "1y": 96.57
       }
     },
     {
@@ -453,7 +534,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -462,9 +543,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.36,
-        "90d": 95.21,
-        "1y": 95.55
+        "30d": 94.3,
+        "90d": 95.18,
+        "1y": 95.56
       }
     },
     {
@@ -488,10 +569,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 85.95,
+        "24h": 95.24,
+        "30d": 85.8,
         "90d": 85.04,
-        "1y": 81.58
+        "1y": 81.6
       }
     },
     {
@@ -510,15 +591,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 86.81,
-        "90d": 90.52,
-        "1y": 88.72
+        "30d": 86.67,
+        "90d": 90.5,
+        "1y": 88.74
       }
     },
     {
@@ -539,13 +620,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.4,
-        "90d": 96.91,
+        "30d": 97.37,
+        "90d": 96.92,
         "1y": 97.63
+      }
+    },
+    {
+      "ip": "118.140.142.222",
+      "version": 4,
+      "country_code": "hk",
+      "country": "Hong Kong",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "HGC Global Communications Limited",
+      "domain": "static-bbs-222-142-140-118-on-nets.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 14.29,
+        "30d": 25.43,
+        "90d": 24.73,
+        "1y": 24.49
       }
     },
     {
@@ -564,13 +672,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.48,
+        "30d": 99.47,
         "90d": 99.65,
         "1y": 99.68
       }
@@ -592,12 +700,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.83,
+        "30d": 99.82,
         "90d": 99.92,
         "1y": 99.85
       }
@@ -618,7 +726,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": true
       },
@@ -645,15 +753,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.36,
-        "90d": 60.93,
-        "1y": 71.32
+        "30d": 90.7,
+        "90d": 60.75,
+        "1y": 71.38
       }
     },
     {
@@ -673,14 +781,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 72.16,
-        "90d": 70.29,
-        "1y": 70.22
+        "24h": 90.48,
+        "30d": 72.13,
+        "90d": 70.18,
+        "1y": 70.26
       }
     },
     {
@@ -701,24 +809,24 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 87.51,
-        "90d": 91.45,
-        "1y": 88.85
+        "24h": 100.0,
+        "30d": 87.46,
+        "90d": 91.43,
+        "1y": 88.87
       }
     },
     {
-      "ip": "210.0.128.250",
+      "ip": "123.176.98.140",
       "version": 4,
       "country_code": "hk",
       "country": "Hong Kong",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "HGC Global Communications Limited",
-      "domain": "ns250.on-nets.com",
+      "organization": "Layerstack Limited",
+      "domain": "123-176-98-140.layerdns.cloud",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -726,15 +834,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 72.73,
-        "30d": 63.49,
-        "90d": 49.83,
-        "1y": 39.61
+        "24h": 66.67,
+        "30d": 58.55,
+        "90d": 63.61,
+        "1y": 66.32
       }
     },
     {
@@ -755,7 +863,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -785,10 +893,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 27.27,
-        "30d": 94.18,
-        "90d": 97.5,
-        "1y": 97.91
+        "24h": 52.38,
+        "30d": 93.86,
+        "90d": 97.4,
+        "1y": 97.86
       }
     },
     {
@@ -808,14 +916,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.02,
-        "90d": 92.71,
-        "1y": 89.89
+        "30d": 91.94,
+        "90d": 92.72,
+        "1y": 89.91
       }
     },
     {
@@ -835,14 +943,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 90.03,
-        "90d": 90.02,
-        "1y": 88.06
+        "24h": 100.0,
+        "30d": 90.01,
+        "90d": 90.15,
+        "1y": 88.09
       }
     },
     {
@@ -857,7 +965,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -867,9 +975,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.66,
-        "90d": 95.87,
-        "1y": 94.21
+        "30d": 95.61,
+        "90d": 95.85,
+        "1y": 94.22
       }
     },
     {
@@ -894,9 +1002,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.18,
-        "90d": 97.31,
-        "1y": 97.57
+        "30d": 96.14,
+        "90d": 97.3,
+        "1y": 97.58
       }
     },
     {
@@ -917,13 +1025,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 75.55,
-        "90d": 83.71,
-        "1y": 82.83
+        "30d": 75.47,
+        "90d": 83.62,
+        "1y": 82.87
       }
     },
     {
@@ -942,15 +1050,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 64.12,
+        "90d": 71.33,
+        "1y": 74.87
+      }
+    },
+    {
+      "ip": "58.177.158.254",
+      "version": 4,
+      "country_code": "hk",
+      "country": "Hong Kong",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Hong Kong Broadband Network Ltd",
+      "domain": "058177158254.ctinets.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 64.24,
-        "90d": 71.24,
-        "1y": 74.82
+        "24h": 76.19,
+        "30d": 49.34,
+        "90d": 56.13,
+        "1y": 56.73
       }
     },
     {
@@ -975,9 +1110,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.55,
-        "90d": 96.22,
-        "1y": 94.85
+        "30d": 88.43,
+        "90d": 96.2,
+        "1y": 94.86
       }
     },
     {
@@ -998,13 +1133,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 72.73,
-        "30d": 83.25,
-        "90d": 79.33,
-        "1y": 82.42
+        "24h": 95.24,
+        "30d": 83.17,
+        "90d": 79.44,
+        "1y": 82.44
       }
     },
     {
@@ -1025,7 +1160,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -1074,18 +1209,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.91,
-        "90d": 99.15,
-        "1y": 98.54
+        "90d": 99.22,
+        "1y": 98.55
       }
     },
     {
@@ -1104,8 +1239,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
@@ -1132,14 +1267,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.38,
+        "30d": 88.26,
         "90d": 90.5,
-        "1y": 87.7
+        "1y": 87.72
       }
     },
     {
@@ -1160,13 +1295,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.45,
-        "90d": 79.77,
-        "1y": 69.9
+        "30d": 92.46,
+        "90d": 79.95,
+        "1y": 69.96
       }
     },
     {
@@ -1185,15 +1320,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 92.02,
-        "90d": 93.85,
-        "1y": 94.28
+        "24h": 95.24,
+        "30d": 91.94,
+        "90d": 93.82,
+        "1y": 94.29
       }
     },
     {
@@ -1213,13 +1348,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.77,
-        "90d": 97.37,
+        "30d": 94.71,
+        "90d": 97.36,
         "1y": 97.91
       }
     },
@@ -1240,14 +1375,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.92,
-        "90d": 80.22,
-        "1y": 75.04
+        "30d": 95.88,
+        "90d": 80.57,
+        "1y": 75.1
       }
     },
     {
@@ -1268,13 +1403,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 86.36,
-        "30d": 85.68,
-        "90d": 92.65,
-        "1y": 94.66
+        "24h": 85.71,
+        "30d": 85.53,
+        "90d": 92.58,
+        "1y": 94.65
       }
     },
     {
@@ -1299,9 +1434,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.22,
-        "90d": 96.22,
-        "1y": 94.6
+        "30d": 97.2,
+        "90d": 96.2,
+        "1y": 94.61
+      }
+    },
+    {
+      "ip": "94.190.214.173",
+      "version": 4,
+      "country_code": "hk",
+      "country": "Hong Kong",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "PCCW IMS Ltd (PCCW Business Internet Access)",
+      "domain": "94-190-214-173.static.imsbiz.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 95.24,
+        "30d": 98.16,
+        "90d": 98.53,
+        "1y": 98.49
       }
     },
     {
@@ -1320,12 +1482,12 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
+        "ads": true,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 95.45,
+        "24h": 100.0,
         "30d": 99.39,
         "90d": 99.79,
         "1y": 99.83
@@ -1348,14 +1510,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.48,
+        "30d": 97.46,
         "90d": 96.81,
-        "1y": 97.51
+        "1y": 97.52
       }
     },
     {
@@ -1375,41 +1537,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.91,
         "90d": 99.97,
         "1y": 99.94
-      }
-    },
-    {
-      "ip": "202.181.242.131",
-      "version": 4,
-      "country_code": "hk",
-      "country": "Hong Kong",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "IXTech Limited",
-      "domain": "ns1.apricot.com.hk",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 54.55,
-        "30d": 69.12,
-        "90d": 89.57,
-        "1y": 90.92
       }
     },
     {
@@ -1428,15 +1563,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 87.77,
-        "90d": 89.11,
-        "1y": 86.61
+        "24h": 95.24,
+        "30d": 87.64,
+        "90d": 89.08,
+        "1y": 86.63
       }
     },
     {
@@ -1461,9 +1596,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.22,
+        "30d": 99.21,
         "90d": 98.8,
-        "1y": 97.55
+        "1y": 97.56
+      }
+    },
+    {
+      "ip": "218.188.52.18",
+      "version": 4,
+      "country_code": "hk",
+      "country": "Hong Kong",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "HGC Global Communications Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 38.1,
+        "30d": 27.26,
+        "90d": 28.59,
+        "1y": 26.85
       }
     },
     {
@@ -1482,15 +1644,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 98.01,
-        "90d": 97.83,
-        "1y": 98.07
+        "24h": 90.48,
+        "30d": 97.9,
+        "90d": 97.79,
+        "1y": 98.05
       }
     },
     {
@@ -1509,15 +1671,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 68.18,
-        "30d": 84.74,
-        "90d": 86.08,
-        "1y": 76.47
+        "24h": 76.19,
+        "30d": 84.84,
+        "90d": 86.17,
+        "1y": 76.52
+      }
+    },
+    {
+      "ip": "43.251.159.2",
+      "version": 4,
+      "country_code": "hk",
+      "country": "Hong Kong",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Techavenue International Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 52.38,
+        "30d": 49.34,
+        "90d": 53.72,
+        "1y": 55.85
       }
     },
     {
@@ -1533,7 +1722,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -1541,10 +1730,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.39,
-        "90d": 99.55,
-        "1y": 99.57
+        "24h": 95.24,
+        "30d": 99.3,
+        "90d": 99.54,
+        "1y": 99.55
       }
     },
     {
@@ -1569,9 +1758,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.08,
-        "90d": 95.18,
-        "1y": 95.29
+        "30d": 86.94,
+        "90d": 95.16,
+        "1y": 95.3
       }
     },
     {
@@ -1592,12 +1781,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.45,
-        "90d": 96.27,
+        "30d": 94.39,
+        "90d": 96.25,
         "1y": 97.07
       }
     },
@@ -1622,10 +1811,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 86.36,
-        "30d": 99.57,
-        "90d": 97.31,
-        "1y": 96.84
+        "24h": 100.0,
+        "30d": 99.56,
+        "90d": 97.3,
+        "1y": 96.85
       }
     },
     {
@@ -1650,8 +1839,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.35,
-        "90d": 98.7,
+        "30d": 98.33,
+        "90d": 98.69,
         "1y": 97.65
       }
     },
@@ -1677,8 +1866,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.57,
-        "90d": 98.96,
+        "30d": 99.56,
+        "90d": 98.98,
         "1y": 98.97
       }
     },
@@ -1699,14 +1888,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 93.49,
+        "24h": 100.0,
+        "30d": 93.43,
         "90d": 96.17,
-        "1y": 95.24
+        "1y": 95.25
       }
     },
     {
@@ -1731,8 +1920,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.7,
-        "90d": 97.84,
+        "30d": 96.67,
+        "90d": 97.83,
         "1y": 97.65
       }
     },
@@ -1754,13 +1943,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 72.73,
-        "30d": 98.26,
-        "90d": 91.56,
-        "1y": 93.39
+        "24h": 95.24,
+        "30d": 98.16,
+        "90d": 91.91,
+        "1y": 93.38
       }
     },
     {
@@ -1779,9 +1968,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -1808,13 +1997,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.91,
-        "90d": 90.54,
-        "1y": 92.24
+        "90d": 90.52,
+        "1y": 92.26
       }
     },
     {
@@ -1835,11 +2024,11 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 98.87,
+        "24h": 100.0,
+        "30d": 98.86,
         "90d": 99.52,
         "1y": 99.61
       }
@@ -1860,8 +2049,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
@@ -1888,14 +2077,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.16,
-        "90d": 90.5,
-        "1y": 88.4
+        "30d": 89.04,
+        "90d": 90.47,
+        "1y": 88.42
       }
     },
     {
@@ -1919,9 +2108,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 98.96,
-        "90d": 95.87,
+        "24h": 90.48,
+        "30d": 98.86,
+        "90d": 95.93,
         "1y": 91.95
       }
     },
@@ -1938,7 +2127,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -1947,8 +2136,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.35,
-        "90d": 97.87,
+        "30d": 98.33,
+        "90d": 97.86,
         "1y": 97.33
       }
     },
@@ -1969,13 +2158,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 85.43,
-        "90d": 92.55,
+        "24h": 95.24,
+        "30d": 85.98,
+        "90d": 92.54,
         "1y": 90.99
       }
     },
@@ -1995,7 +2184,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -2004,33 +2193,6 @@
         "30d": 99.91,
         "90d": 99.89,
         "1y": 99.91
-      }
-    },
-    {
-      "ip": "218.188.215.94",
-      "version": 4,
-      "country_code": "hk",
-      "country": "Hong Kong",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "HGC Global Communications Limited",
-      "domain": "static-bbs-94-215-188-218-on-nets.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 13.64,
-        "30d": 13.56,
-        "90d": 12.77,
-        "1y": 12.11
       }
     }
   ]

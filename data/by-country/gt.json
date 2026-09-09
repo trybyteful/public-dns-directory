@@ -4,7 +4,7 @@
     "country_name": "Guatemala",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-09-08T18:04:28Z",
+    "generated_at": "2026-09-09T06:28:13Z",
     "total_servers": 6
   },
   "resolvers": [
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.77,
-        "90d": 92.89,
-        "1y": 92.12
+        "30d": 87.73,
+        "90d": 92.85,
+        "1y": 92.13
       }
     },
     {
@@ -48,18 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 73.98,
-        "90d": 64.92,
-        "1y": 64.95
+        "24h": 95.24,
+        "30d": 73.97,
+        "90d": 65.04,
+        "1y": 65.0
       }
     },
     {
@@ -84,8 +84,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.87,
-        "90d": 99.55,
+        "30d": 98.86,
+        "90d": 99.54,
         "1y": 98.77
       }
     },
@@ -102,18 +102,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 77.1,
-        "90d": 72.59,
-        "1y": 69.0
+        "24h": 90.48,
+        "30d": 77.13,
+        "90d": 72.79,
+        "1y": 69.16
       }
     },
     {
@@ -138,9 +138,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.03,
-        "90d": 89.43,
-        "1y": 87.05
+        "30d": 89.92,
+        "90d": 89.37,
+        "1y": 87.08
       }
     },
     {
@@ -156,7 +156,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -164,10 +164,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 67.04,
-        "90d": 71.47,
-        "1y": 71.64
+        "24h": 85.71,
+        "30d": 66.78,
+        "90d": 71.31,
+        "1y": 71.66
       }
     }
   ]
