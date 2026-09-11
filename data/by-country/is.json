@@ -4,10 +4,64 @@
     "country_name": "Iceland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-09-10T18:04:01Z",
-    "total_servers": 1
+    "generated_at": "2026-09-11T06:26:56Z",
+    "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "46.22.99.226",
+      "version": 4,
+      "country_code": "is",
+      "country": "Iceland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Hringdu",
+      "domain": "226-99-22-46.business.hringdu.is",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 74.07,
+        "30d": 94.49,
+        "90d": 94.02,
+        "1y": 89.8
+      }
+    },
+    {
+      "ip": "82.148.69.71",
+      "version": 4,
+      "country_code": "is",
+      "country": "Iceland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Fsnet",
+      "domain": "kvenno-7.fsnet.is",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 77.78,
+        "30d": 79.87,
+        "90d": 90.27,
+        "1y": 92.81
+      }
+    },
     {
       "ip": "93.95.224.28",
       "version": 4,
@@ -30,9 +84,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.73,
-        "90d": 96.98,
-        "1y": 93.77
+        "30d": 99.72,
+        "90d": 97.04,
+        "1y": 93.81
       }
     }
   ]

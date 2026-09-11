@@ -4,10 +4,37 @@
     "country_name": "Myanmar",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-09-10T06:27:26Z",
-    "total_servers": 3
+    "generated_at": "2026-09-11T06:26:56Z",
+    "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "103.85.107.99",
+      "version": 4,
+      "country_code": "mm",
+      "country": "Myanmar",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Telecom International Myanmar Company Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 2.13,
+        "90d": 25.6,
+        "1y": 62.7
+      }
+    },
     {
       "ip": "103.121.228.5",
       "version": 4,
@@ -20,7 +47,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -29,10 +56,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.29,
-        "90d": 98.87,
-        "1y": 98.96
+        "24h": 85.19,
+        "30d": 97.98,
+        "90d": 98.75,
+        "1y": 98.89
       }
     },
     {
@@ -51,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 72.0,
-        "30d": 65.5,
-        "90d": 68.24,
-        "1y": 67.33
+        "24h": 44.44,
+        "30d": 64.4,
+        "90d": 67.94,
+        "1y": 67.22
       }
     },
     {
@@ -79,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 37.5,
-        "30d": 25.22,
-        "90d": 32.96,
-        "1y": 32.93
+        "24h": 29.63,
+        "30d": 25.57,
+        "90d": 32.26,
+        "1y": 32.9
       }
     }
   ]
