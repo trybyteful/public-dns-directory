@@ -4,8 +4,8 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-09-11T18:04:05Z",
-    "total_servers": 10
+    "generated_at": "2026-09-12T06:24:20Z",
+    "total_servers": 9
   },
   "resolvers": [
     {
@@ -21,16 +21,16 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.63,
+        "30d": 99.62,
         "90d": 99.75,
         "1y": 99.69
       }
@@ -52,13 +52,13 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.91,
-        "90d": 99.65,
+        "90d": 99.64,
         "1y": 98.8
       }
     },
@@ -75,7 +75,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -83,10 +83,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 79.17,
-        "30d": 88.07,
-        "90d": 95.12,
-        "1y": 94.93
+        "24h": 81.82,
+        "30d": 87.69,
+        "90d": 95.05,
+        "1y": 94.9
       }
     },
     {
@@ -101,19 +101,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 81.16,
-        "90d": 84.28,
-        "1y": 84.28
+        "24h": 86.36,
+        "30d": 80.85,
+        "90d": 84.42,
+        "1y": 84.42
       }
     },
     {
@@ -134,13 +134,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.53,
         "90d": 99.45,
-        "1y": 96.75
+        "1y": 96.76
       }
     },
     {
@@ -186,8 +186,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -213,42 +213,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 87.12,
-        "90d": 95.58,
-        "1y": 95.47
-      }
-    },
-    {
-      "ip": "185.161.112.33",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Parvaz System Information Technology Company (Ltd)",
-      "domain": "fw1.parvazsys.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 79.17,
-        "30d": 83.88,
-        "90d": 87.68,
-        "1y": 89.93
+        "24h": 90.91,
+        "30d": 86.74,
+        "90d": 95.51,
+        "1y": 95.44
       }
     },
     {
@@ -268,7 +241,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {

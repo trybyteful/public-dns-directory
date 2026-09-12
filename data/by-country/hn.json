@@ -4,8 +4,8 @@
     "country_name": "Honduras",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-09-11T18:04:05Z",
-    "total_servers": 3
+    "generated_at": "2026-09-12T06:24:20Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 58.33,
-        "30d": 58.0,
-        "90d": 39.73,
-        "1y": 32.58
+        "24h": 90.91,
+        "30d": 60.15,
+        "90d": 41.76,
+        "1y": 34.35
+      }
+    },
+    {
+      "ip": "190.124.166.45",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "REYTEL",
+      "domain": "block166-static45.reytelhn.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 68.18,
+        "30d": 73.39,
+        "90d": 74.17,
+        "1y": 76.54
       }
     },
     {
@@ -53,13 +80,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 90.76,
-        "90d": 91.11,
-        "1y": 91.26
+        "24h": 100.0,
+        "30d": 90.91,
+        "90d": 91.16,
+        "1y": 91.28
       }
     },
     {
@@ -75,7 +102,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -83,10 +110,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 37.5,
-        "30d": 59.61,
-        "90d": 61.84,
-        "1y": 58.37
+        "24h": 50.0,
+        "30d": 59.47,
+        "90d": 61.74,
+        "1y": 58.33
+      }
+    },
+    {
+      "ip": "201.190.11.254",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "SERCOM de Honduras",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 63.64,
+        "30d": 61.84,
+        "90d": 68.04,
+        "1y": 67.76
       }
     }
   ]

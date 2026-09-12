@@ -4,7 +4,7 @@
     "country_name": "Egypt",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-09-11T18:04:05Z",
+    "generated_at": "2026-09-12T06:24:20Z",
     "total_servers": 5
   },
   "resolvers": [
@@ -20,19 +20,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 70.83,
-        "30d": 93.38,
-        "90d": 97.96,
-        "1y": 98.32
+        "24h": 72.73,
+        "30d": 93.09,
+        "90d": 97.89,
+        "1y": 98.29
       }
     },
     {
@@ -53,40 +53,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 85.54,
-        "90d": 86.75,
+        "24h": 81.82,
+        "30d": 85.42,
+        "90d": 86.84,
         "1y": 81.03
-      }
-    },
-    {
-      "ip": "196.216.252.65",
-      "version": 4,
-      "country_code": "eg",
-      "country": "Egypt",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Xceed Contact Center",
-      "domain": "xboxupload.xceedcc.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 88.71,
-        "90d": 84.74,
-        "1y": 82.98
       }
     },
     {
@@ -106,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 95.83,
-        "30d": 99.44,
-        "90d": 81.07,
-        "1y": 71.01
+        "24h": 95.45,
+        "30d": 99.43,
+        "90d": 81.68,
+        "1y": 71.07
       }
     },
     {
@@ -132,15 +105,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 69.99,
-        "90d": 75.61,
-        "1y": 73.8
+        "24h": 77.27,
+        "30d": 69.98,
+        "90d": 75.65,
+        "1y": 73.84
+      }
+    },
+    {
+      "ip": "156.200.116.74",
+      "version": 4,
+      "country_code": "eg",
+      "country": "Egypt",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "TE Data",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 77.27,
+        "30d": 70.27,
+        "90d": 73.07,
+        "1y": 72.08
       }
     }
   ]
