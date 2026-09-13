@@ -4,35 +4,62 @@
     "country_name": "Burkina Faso",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-09-13T06:28:23Z",
-    "total_servers": 2
+    "generated_at": "2026-09-13T18:03:37Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "196.28.244.3",
+      "ip": "41.216.155.125",
       "version": 4,
       "country_code": "bf",
       "country": "Burkina Faso",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "ONATEL",
-      "domain": "ns2.sonabhy.bf",
+      "organization": "Internet Puissance Plus Burkina",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 63.64,
+        "30d": 38.11,
+        "90d": 48.68,
+        "1y": 47.46
+      }
+    },
+    {
+      "ip": "41.216.159.6",
+      "version": 4,
+      "country_code": "bf",
+      "country": "Burkina Faso",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Internet Puissance Plus R159",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 54.55,
-        "30d": 52.81,
-        "90d": 64.06,
-        "1y": 61.05
+        "30d": 60.65,
+        "90d": 58.6,
+        "1y": 60.56
       }
     },
     {
@@ -52,8 +79,8 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 95.45,

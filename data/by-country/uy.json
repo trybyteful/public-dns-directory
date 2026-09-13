@@ -4,8 +4,8 @@
     "country_name": "Uruguay",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-09-13T06:28:23Z",
-    "total_servers": 2
+    "generated_at": "2026-09-13T18:03:37Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -26,13 +26,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 86.71,
-        "90d": 88.73,
-        "1y": 90.38
+        "24h": 100.0,
+        "30d": 87.22,
+        "90d": 88.9,
+        "1y": 90.4
       }
     },
     {
@@ -51,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 77.27,
-        "30d": 96.97,
-        "90d": 89.17,
-        "1y": 88.64
+        "24h": 81.82,
+        "30d": 97.03,
+        "90d": 89.14,
+        "1y": 88.66
+      }
+    },
+    {
+      "ip": "190.64.151.74",
+      "version": 4,
+      "country_code": "uy",
+      "country": "Uruguay",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Cliente Antel Uruguay",
+      "domain": "r190-64-151-74.su-static.adinet.com.uy",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 68.18,
+        "30d": 89.8,
+        "90d": 89.55,
+        "1y": 89.55
       }
     }
   ]
