@@ -4,7 +4,7 @@
     "country_name": "Saudi Arabia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-09-15T06:28:47Z",
+    "generated_at": "2026-09-15T18:03:58Z",
     "total_servers": 8
   },
   "resolvers": [
@@ -24,8 +24,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -51,9 +51,9 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -79,12 +79,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.55,
+        "30d": 98.53,
         "90d": 99.39,
         "1y": 99.55
       }
@@ -134,13 +134,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.17,
-        "90d": 53.18,
-        "1y": 52.45
+        "24h": 95.83,
+        "30d": 99.06,
+        "90d": 53.4,
+        "1y": 52.53
       }
     },
     {
@@ -156,7 +156,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -164,10 +164,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 65.22,
-        "30d": 44.88,
-        "90d": 43.94,
-        "1y": 45.1
+        "24h": 45.83,
+        "30d": 44.97,
+        "90d": 43.93,
+        "1y": 45.09
       }
     },
     {
@@ -187,14 +187,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.14,
-        "90d": 98.75,
-        "1y": 98.78
+        "24h": 95.83,
+        "30d": 98.01,
+        "90d": 98.72,
+        "1y": 98.77
       }
     },
     {
@@ -215,11 +215,11 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 95.65,
-        "30d": 99.59,
+        "24h": 100.0,
+        "30d": 99.58,
         "90d": 99.86,
         "1y": 99.87
       }

@@ -4,35 +4,35 @@
     "country_name": "North Macedonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-09-15T06:28:47Z",
-    "total_servers": 4
+    "generated_at": "2026-09-15T18:03:58Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "5.32.183.251",
+      "ip": "46.29.169.6",
       "version": 4,
       "country_code": "mk",
       "country": "North Macedonia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Telesmart Telekom DOO",
+      "organization": "Telesmart MK",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": false
+        "aware": false,
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 73.91,
-        "30d": 81.03,
-        "90d": 83.33,
-        "1y": 86.0
+        "24h": 37.5,
+        "30d": 74.63,
+        "90d": 64.43,
+        "1y": 55.22
       }
     },
     {
@@ -51,42 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 86.96,
-        "30d": 84.28,
-        "90d": 84.04,
-        "1y": 83.62
-      }
-    },
-    {
-      "ip": "95.180.218.10",
-      "version": 4,
-      "country_code": "mk",
-      "country": "North Macedonia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ISP-NEOTEL",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 52.17,
-        "30d": 33.02,
-        "90d": 30.87,
-        "1y": 27.98
+        "24h": 83.33,
+        "30d": 83.86,
+        "90d": 83.96,
+        "1y": 83.6
       }
     },
     {
@@ -105,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 86.96,
-        "30d": 69.08,
-        "90d": 69.12,
-        "1y": 68.99
+        "24h": 70.83,
+        "30d": 68.55,
+        "90d": 69.19,
+        "1y": 68.95
       }
     }
   ]
