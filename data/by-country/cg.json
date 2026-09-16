@@ -4,7 +4,7 @@
     "country_name": "Congo Republic",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-09-16T06:27:54Z",
+    "generated_at": "2026-09-16T18:03:55Z",
     "total_servers": 1
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.47,
-        "90d": 98.55,
-        "1y": 96.94
+        "30d": 99.46,
+        "90d": 98.54,
+        "1y": 96.95
       }
     }
   ]

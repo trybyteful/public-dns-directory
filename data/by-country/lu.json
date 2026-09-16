@@ -4,8 +4,8 @@
     "country_name": "Luxembourg",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-09-16T06:27:54Z",
-    "total_servers": 4
+    "generated_at": "2026-09-16T18:03:55Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -51,15 +51,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 95.83,
-        "30d": 95.86,
-        "90d": 90.01,
-        "1y": 92.77
+        "24h": 90.91,
+        "30d": 95.58,
+        "90d": 89.92,
+        "1y": 92.75
       }
     },
     {
@@ -79,41 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.79,
+        "30d": 99.78,
         "90d": 99.94,
         "1y": 99.96
-      }
-    },
-    {
-      "ip": "107.189.31.10",
-      "version": 4,
-      "country_code": "lu",
-      "country": "Luxembourg",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "BuyVM",
-      "domain": "mail.denshi.org",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 12.5,
-        "30d": 8.42,
-        "90d": 72.3,
-        "1y": 83.39
       }
     }
   ]
