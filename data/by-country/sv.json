@@ -4,8 +4,8 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-09-16T18:03:55Z",
-    "total_servers": 2
+    "generated_at": "2026-09-17T06:29:23Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -16,7 +16,7 @@
       "continent_code": "na",
       "continent": "North America",
       "organization": "SVNet",
-      "domain": "ns.telcom.com.sv",
+      "domain": "ns.telecam.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 89.21,
-        "90d": 96.83,
-        "1y": 96.59
+        "24h": 69.57,
+        "30d": 88.78,
+        "90d": 96.74,
+        "1y": 96.54
       }
     },
     {
@@ -58,8 +58,35 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.94,
+        "90d": 99.97,
         "1y": 99.95
+      }
+    },
+    {
+      "ip": "168.232.38.50",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Navega.com El Salvador",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 80.69,
+        "90d": 65.93,
+        "1y": 57.66
       }
     }
   ]
