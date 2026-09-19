@@ -4,8 +4,8 @@
     "country_name": "Venezuela",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-09-18T18:04:10Z",
-    "total_servers": 4
+    "generated_at": "2026-09-19T06:24:44Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -29,8 +29,8 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 97.87,
+        "24h": 88.46,
+        "30d": 97.84,
         "90d": 99.12,
         "1y": 99.36
       }
@@ -48,18 +48,45 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 65.38,
+        "30d": 77.41,
+        "90d": 78.39,
+        "1y": 78.16
+      }
+    },
+    {
+      "ip": "138.122.6.5",
+      "version": 4,
+      "country_code": "ve",
+      "country": "Venezuela",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Lan-online C.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 55.56,
-        "30d": 77.89,
-        "90d": 78.52,
-        "1y": 78.16
+        "24h": 38.46,
+        "30d": 83.77,
+        "90d": 83.5,
+        "1y": 83.5
       }
     },
     {
@@ -79,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.21,
         "90d": 99.04,
-        "1y": 99.28
+        "1y": 99.29
       }
     },
     {
@@ -110,9 +137,9 @@
         "adult": true
       },
       "uptime": {
-        "24h": 48.15,
-        "30d": 73.84,
-        "90d": 70.69,
+        "24h": 57.69,
+        "30d": 74.52,
+        "90d": 70.54,
         "1y": 69.26
       }
     }
