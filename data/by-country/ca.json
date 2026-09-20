@@ -4,8 +4,8 @@
     "country_name": "Canada",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-09-19T18:03:59Z",
-    "total_servers": 833
+    "generated_at": "2026-09-20T06:24:56Z",
+    "total_servers": 841
   },
   "resolvers": [
     {
@@ -102,17 +102,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 96.15,
-        "30d": 88.07,
-        "90d": 92.76,
+        "24h": 92.31,
+        "30d": 87.94,
+        "90d": 92.7,
         "1y": 92.43
       }
     },
@@ -321,7 +321,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -510,7 +510,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -591,15 +591,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.3,
-        "90d": 96.73,
-        "1y": 96.04
+        "30d": 95.24,
+        "90d": 96.72,
+        "1y": 96.05
       }
     },
     {
@@ -618,7 +618,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -738,6 +738,33 @@
       }
     },
     {
+      "ip": "76.76.10.33",
+      "version": 4,
+      "country_code": "ca",
+      "country": "Canada",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Controld Inc",
+      "domain": null,
+      "trusted": false,
+      "anycast": true,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 69.23,
+        "30d": 85.15,
+        "90d": 80.51,
+        "1y": 87.86
+      }
+    },
+    {
       "ip": "172.64.36.113",
       "version": 4,
       "country_code": "ca",
@@ -753,7 +780,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -861,7 +888,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -888,7 +915,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -969,7 +996,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -996,7 +1023,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -1023,7 +1050,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -1050,7 +1077,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -1104,7 +1131,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -1212,7 +1239,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -1320,7 +1347,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -1494,33 +1521,6 @@
       }
     },
     {
-      "ip": "198.245.51.147",
-      "version": 4,
-      "country_code": "ca",
-      "country": "Canada",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "OVH Hosting, Inc.",
-      "domain": "dns01.ivpn.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 49.83,
-        "90d": 50.11,
-        "1y": 65.47
-      }
-    },
-    {
       "ip": "172.64.47.242",
       "version": 4,
       "country_code": "ca",
@@ -1591,7 +1591,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -1644,15 +1644,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 93.69,
-        "90d": 94.55,
-        "1y": 93.89
+        "24h": 96.15,
+        "30d": 93.62,
+        "90d": 94.5,
+        "1y": 93.88
       }
     },
     {
@@ -1694,19 +1694,19 @@
       "trusted": false,
       "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 79.13,
-        "90d": 76.34,
-        "1y": 85.18
+        "24h": 61.54,
+        "30d": 79.58,
+        "90d": 76.23,
+        "1y": 85.2
       }
     },
     {
@@ -1725,7 +1725,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -1752,7 +1752,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -1775,19 +1775,19 @@
       "trusted": false,
       "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 79.36,
-        "90d": 76.29,
-        "1y": 85.14
+        "24h": 61.54,
+        "30d": 79.7,
+        "90d": 76.17,
+        "1y": 85.16
       }
     },
     {
@@ -1857,7 +1857,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -1866,9 +1866,9 @@
       },
       "uptime": {
         "24h": 61.54,
-        "30d": 79.82,
-        "90d": 75.99,
-        "1y": 72.59
+        "30d": 79.35,
+        "90d": 75.93,
+        "1y": 72.61
       }
     },
     {
@@ -1887,7 +1887,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -1995,7 +1995,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -2049,7 +2049,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -2076,7 +2076,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -2184,7 +2184,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -2265,15 +2265,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 88.91,
-        "1y": 81.39
+        "90d": 89.13,
+        "1y": 81.6
       }
     },
     {
@@ -2353,8 +2353,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 98.63,
-        "1y": 95.29
+        "90d": 98.68,
+        "1y": 95.32
       }
     },
     {
@@ -2369,19 +2369,19 @@
       "trusted": false,
       "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 79.7,
-        "90d": 76.29,
-        "1y": 85.14
+        "24h": 61.54,
+        "30d": 80.05,
+        "90d": 76.17,
+        "1y": 85.16
       }
     },
     {
@@ -2463,6 +2463,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "76.76.10.35",
+      "version": 4,
+      "country_code": "ca",
+      "country": "Canada",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Controld Inc",
+      "domain": null,
+      "trusted": false,
+      "anycast": true,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 69.23,
+        "30d": 85.27,
+        "90d": 80.53,
+        "1y": 87.88
       }
     },
     {
@@ -2571,6 +2598,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "76.76.10.2",
+      "version": 4,
+      "country_code": "ca",
+      "country": "Canada",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Controld Inc",
+      "domain": "s2.freedns.controld.com",
+      "trusted": false,
+      "anycast": true,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 69.23,
+        "30d": 85.03,
+        "90d": 80.53,
+        "1y": 87.88
       }
     },
     {
@@ -2697,7 +2751,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -2838,7 +2892,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.17,
+        "30d": 99.32,
         "90d": 98.5,
         "1y": 99.08
       }
@@ -2886,7 +2940,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -2913,7 +2967,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -2967,7 +3021,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -3108,7 +3162,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.89,
+        "30d": 99.88,
         "90d": 99.97,
         "1y": 99.98
       }
@@ -3162,9 +3216,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.05,
+        "30d": 98.03,
         "90d": 99.49,
-        "1y": 97.15
+        "1y": 97.16
       }
     },
     {
@@ -3183,7 +3237,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -3237,7 +3291,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -3345,7 +3399,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -3503,8 +3557,8 @@
       "trusted": false,
       "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -3512,10 +3566,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 78.78,
-        "90d": 76.49,
-        "1y": 85.27
+        "24h": 61.54,
+        "30d": 79.12,
+        "90d": 76.37,
+        "1y": 85.29
       }
     },
     {
@@ -3534,7 +3588,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -3615,7 +3669,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -3669,7 +3723,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -3730,8 +3784,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 89.84,
-        "1y": 82.66
+        "90d": 90.05,
+        "1y": 82.86
       }
     },
     {
@@ -3831,7 +3885,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -3912,7 +3966,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -3939,7 +3993,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -4074,15 +4128,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 94.15,
-        "90d": 89.92,
-        "1y": 84.87
+        "24h": 96.15,
+        "30d": 93.97,
+        "90d": 90.06,
+        "1y": 84.93
       }
     },
     {
@@ -4128,7 +4182,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -4302,33 +4356,6 @@
       }
     },
     {
-      "ip": "199.85.126.20",
-      "version": 4,
-      "country_code": "ca",
-      "country": "Canada",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Gen Digital Inc",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 57.69,
-        "30d": 59.17,
-        "90d": 84.03,
-        "1y": 89.59
-      }
-    },
-    {
       "ip": "172.64.37.98",
       "version": 4,
       "country_code": "ca",
@@ -4398,7 +4425,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -4512,9 +4539,9 @@
       },
       "uptime": {
         "24h": 57.69,
-        "30d": 48.39,
-        "90d": 40.94,
-        "1y": 44.79
+        "30d": 48.26,
+        "90d": 40.85,
+        "1y": 44.85
       }
     },
     {
@@ -4599,6 +4626,33 @@
       }
     },
     {
+      "ip": "76.76.10.3",
+      "version": 4,
+      "country_code": "ca",
+      "country": "Canada",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Controld Inc",
+      "domain": "s3.freedns.controld.com",
+      "trusted": false,
+      "anycast": true,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 69.23,
+        "30d": 85.03,
+        "90d": 80.19,
+        "1y": 87.66
+      }
+    },
+    {
       "ip": "172.64.36.106",
       "version": 4,
       "country_code": "ca",
@@ -4614,7 +4668,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -4857,7 +4911,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -5127,7 +5181,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -5177,8 +5231,8 @@
       "trusted": false,
       "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -5186,10 +5240,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 79.13,
-        "90d": 76.66,
-        "1y": 85.38
+        "24h": 61.54,
+        "30d": 79.35,
+        "90d": 76.54,
+        "1y": 85.4
       }
     },
     {
@@ -5235,7 +5289,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -5424,15 +5478,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 84.62,
-        "30d": 90.59,
-        "90d": 83.07,
-        "1y": 89.36
+        "24h": 88.46,
+        "30d": 90.49,
+        "90d": 83.01,
+        "1y": 89.39
       }
     },
     {
@@ -5451,13 +5505,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.89,
+        "30d": 99.88,
         "90d": 99.86,
         "1y": 99.77
       }
@@ -5478,7 +5532,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -5673,7 +5727,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.89,
+        "30d": 99.88,
         "90d": 99.97,
         "1y": 99.98
       }
@@ -5748,7 +5802,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -5964,7 +6018,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -5991,7 +6045,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -6018,8 +6072,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -6176,19 +6230,19 @@
       "trusted": false,
       "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 78.9,
-        "90d": 76.49,
-        "1y": 85.27
+        "24h": 61.54,
+        "30d": 79.23,
+        "90d": 76.37,
+        "1y": 85.29
       }
     },
     {
@@ -6234,7 +6288,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -6369,7 +6423,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -6396,7 +6450,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -6450,7 +6504,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -6531,7 +6585,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -6585,7 +6639,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -6936,7 +6990,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -6959,19 +7013,19 @@
       "trusted": false,
       "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 79.13,
-        "90d": 76.34,
-        "1y": 85.18
+        "24h": 61.54,
+        "30d": 79.47,
+        "90d": 76.23,
+        "1y": 85.2
       }
     },
     {
@@ -6990,7 +7044,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -7071,15 +7125,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 80.77,
-        "30d": 78.67,
-        "90d": 78.15,
-        "1y": 76.96
+        "30d": 79.12,
+        "90d": 78.33,
+        "1y": 77.0
       }
     },
     {
@@ -7098,7 +7152,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -7149,17 +7203,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 76.92,
-        "30d": 68.58,
-        "90d": 86.14,
+        "24h": 84.62,
+        "30d": 70.07,
+        "90d": 86.06,
         "1y": 90.93
       }
     },
@@ -7179,7 +7233,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -7206,15 +7260,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 73.08,
-        "30d": 69.27,
-        "90d": 86.31,
-        "1y": 91.05
+        "24h": 84.62,
+        "30d": 70.88,
+        "90d": 86.26,
+        "1y": 91.08
       }
     },
     {
@@ -7341,7 +7395,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -7364,8 +7418,8 @@
       "trusted": false,
       "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -7373,10 +7427,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 79.24,
-        "90d": 76.32,
-        "1y": 85.16
+        "24h": 61.54,
+        "30d": 79.47,
+        "90d": 76.2,
+        "1y": 85.18
       }
     },
     {
@@ -7445,19 +7499,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 84.62,
-        "30d": 90.48,
-        "90d": 97.16,
-        "1y": 97.84
+        "30d": 90.37,
+        "90d": 97.15,
+        "1y": 97.85
       }
     },
     {
@@ -7611,7 +7665,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -7697,10 +7751,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 78.78,
-        "90d": 80.71,
-        "1y": 86.87
+        "24h": 88.46,
+        "30d": 79.12,
+        "90d": 80.64,
+        "1y": 86.88
       }
     },
     {
@@ -7719,7 +7773,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -7827,7 +7881,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -7881,7 +7935,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -7935,7 +7989,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -8070,7 +8124,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -8178,7 +8232,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -8238,9 +8292,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.17,
-        "90d": 98.0,
-        "1y": 94.66
+        "30d": 98.14,
+        "90d": 98.04,
+        "1y": 94.69
       }
     },
     {
@@ -8475,15 +8529,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 84.62,
-        "30d": 90.82,
-        "90d": 91.02,
-        "1y": 94.37
+        "24h": 88.46,
+        "30d": 90.72,
+        "90d": 90.99,
+        "1y": 94.38
       }
     },
     {
@@ -8502,7 +8556,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -8697,7 +8751,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.89,
+        "30d": 99.88,
         "90d": 99.94,
         "1y": 99.66
       }
@@ -8715,11 +8769,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -8826,7 +8880,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -8853,7 +8907,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -8943,6 +8997,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "66.51.129.138",
+      "version": 4,
+      "country_code": "ca",
+      "country": "Canada",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Cipherkey Exchange Corp",
+      "domain": "zz6651129138.cipherkey.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 88.31,
+        "90d": 94.39,
+        "1y": 95.97
       }
     },
     {
@@ -9038,19 +9119,19 @@
       "trusted": false,
       "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 79.59,
-        "90d": 76.69,
-        "1y": 85.39
+        "24h": 61.54,
+        "30d": 79.81,
+        "90d": 76.57,
+        "1y": 85.41
       }
     },
     {
@@ -9150,8 +9231,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
@@ -9285,7 +9366,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -9339,7 +9420,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -9443,19 +9524,19 @@
       "trusted": false,
       "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 78.9,
-        "90d": 76.63,
-        "1y": 85.36
+        "24h": 61.54,
+        "30d": 79.23,
+        "90d": 76.51,
+        "1y": 85.38
       }
     },
     {
@@ -9474,7 +9555,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -9582,7 +9663,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -9717,7 +9798,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -9912,9 +9993,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 31.37,
-        "90d": 9.58,
-        "1y": 6.11
+        "30d": 46.03,
+        "90d": 16.2,
+        "1y": 10.55
       }
     },
     {
@@ -9987,7 +10068,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -10014,13 +10095,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.89,
+        "30d": 99.88,
         "90d": 99.97,
         "1y": 99.73
       }
@@ -10092,7 +10173,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -10100,10 +10181,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 96.15,
-        "30d": 80.25,
-        "90d": 86.42,
-        "1y": 85.09
+        "24h": 100.0,
+        "30d": 80.39,
+        "90d": 86.4,
+        "1y": 85.12
       }
     },
     {
@@ -10146,7 +10227,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -10154,10 +10235,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 96.15,
+        "24h": 88.46,
         "30d": 80.05,
-        "90d": 78.89,
-        "1y": 77.28
+        "90d": 79.1,
+        "1y": 77.3
       }
     },
     {
@@ -10203,8 +10284,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -10258,14 +10339,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 93.92,
-        "90d": 97.84,
-        "1y": 98.38
+        "24h": 96.15,
+        "30d": 93.97,
+        "90d": 97.8,
+        "1y": 98.36
       }
     },
     {
@@ -10320,6 +10401,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "76.76.10.37",
+      "version": 4,
+      "country_code": "ca",
+      "country": "Canada",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Controld Inc",
+      "domain": null,
+      "trusted": false,
+      "anycast": true,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 69.23,
+        "30d": 85.03,
+        "90d": 80.59,
+        "1y": 87.91
       }
     },
     {
@@ -10392,7 +10500,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -10581,7 +10689,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -10689,7 +10797,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -10878,7 +10986,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -10905,7 +11013,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -10938,7 +11046,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.89,
+        "30d": 99.88,
         "90d": 99.94,
         "1y": 99.64
       }
@@ -10986,7 +11094,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -11040,7 +11148,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -11121,7 +11229,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -11148,7 +11256,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -11312,13 +11420,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.83,
+        "30d": 94.78,
         "90d": 97.78,
-        "1y": 97.7
+        "1y": 97.71
       }
     },
     {
@@ -11661,7 +11769,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -11743,14 +11851,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.36,
-        "90d": 87.72,
-        "1y": 89.92
+        "30d": 90.37,
+        "90d": 87.65,
+        "1y": 89.95
       }
     },
     {
@@ -11796,7 +11904,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -11904,7 +12012,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -12093,7 +12201,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -12228,7 +12336,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -12268,33 +12376,6 @@
     },
     {
       "ip": "172.64.47.93",
-      "version": 4,
-      "country_code": "ca",
-      "country": "Canada",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Cloudflare, Inc.",
-      "domain": null,
-      "trusted": false,
-      "anycast": true,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "172.64.36.247",
       "version": 4,
       "country_code": "ca",
       "country": "Canada",
@@ -12390,7 +12471,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -12451,8 +12532,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 96.5,
-        "1y": 92.12
+        "90d": 96.57,
+        "1y": 92.18
       }
     },
     {
@@ -12471,7 +12552,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -12505,8 +12586,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 89.72,
-        "1y": 82.59
+        "90d": 90.0,
+        "1y": 82.78
       }
     },
     {
@@ -12591,6 +12672,33 @@
       }
     },
     {
+      "ip": "76.76.10.32",
+      "version": 4,
+      "country_code": "ca",
+      "country": "Canada",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Controld Inc",
+      "domain": null,
+      "trusted": false,
+      "anycast": true,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 69.23,
+        "30d": 85.27,
+        "90d": 80.3,
+        "1y": 87.73
+      }
+    },
+    {
       "ip": "162.159.46.56",
       "version": 4,
       "country_code": "ca",
@@ -12606,7 +12714,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -12684,18 +12792,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 88.46,
-        "30d": 79.93,
-        "90d": 78.12,
-        "1y": 76.64
+        "24h": 73.08,
+        "30d": 79.7,
+        "90d": 78.27,
+        "1y": 76.62
       }
     },
     {
@@ -12957,7 +13065,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -13146,7 +13254,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -13200,7 +13308,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -13281,7 +13389,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -13358,19 +13466,19 @@
       "trusted": false,
       "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 79.7,
-        "90d": 76.57,
-        "1y": 85.32
+        "24h": 61.54,
+        "30d": 80.05,
+        "90d": 76.46,
+        "1y": 85.34
       }
     },
     {
@@ -13470,7 +13578,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -13740,7 +13848,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -13767,7 +13875,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -13875,7 +13983,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -13902,7 +14010,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -13983,7 +14091,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -14114,19 +14222,19 @@
       "trusted": false,
       "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 79.01,
-        "90d": 76.03,
-        "1y": 84.98
+        "24h": 61.54,
+        "30d": 79.35,
+        "90d": 75.91,
+        "1y": 85.0
       }
     },
     {
@@ -14226,7 +14334,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -14280,7 +14388,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -14361,7 +14469,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -14442,7 +14550,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -14469,7 +14577,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -14658,7 +14766,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -14766,7 +14874,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -14775,6 +14883,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "76.76.10.36",
+      "version": 4,
+      "country_code": "ca",
+      "country": "Canada",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Controld Inc",
+      "domain": null,
+      "trusted": false,
+      "anycast": true,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 69.23,
+        "30d": 85.03,
+        "90d": 80.45,
+        "1y": 87.82
       }
     },
     {
@@ -14844,7 +14979,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -14853,9 +14988,9 @@
       },
       "uptime": {
         "24h": 80.77,
-        "30d": 78.1,
+        "30d": 78.07,
         "90d": 76.36,
-        "1y": 75.35
+        "1y": 75.34
       }
     },
     {
@@ -15117,7 +15252,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -15144,7 +15279,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -15171,7 +15306,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -15333,7 +15468,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -15414,7 +15549,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -15657,7 +15792,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -15684,7 +15819,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -15711,7 +15846,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -15819,7 +15954,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -15873,7 +16008,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -15960,7 +16095,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.89,
+        "30d": 99.88,
         "90d": 99.97,
         "1y": 99.98
       }
@@ -16008,7 +16143,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -16035,7 +16170,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -16096,8 +16231,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 89.84,
-        "1y": 82.66
+        "90d": 90.05,
+        "1y": 82.86
       }
     },
     {
@@ -16224,7 +16359,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -16359,7 +16494,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -16571,19 +16706,19 @@
       "trusted": false,
       "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 79.36,
-        "90d": 76.37,
-        "1y": 85.2
+        "24h": 61.54,
+        "30d": 79.47,
+        "90d": 76.26,
+        "1y": 85.22
       }
     },
     {
@@ -16603,7 +16738,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -16679,19 +16814,19 @@
       "trusted": false,
       "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 79.01,
-        "90d": 76.46,
-        "1y": 85.25
+        "24h": 61.54,
+        "30d": 79.47,
+        "90d": 76.34,
+        "1y": 85.27
       }
     },
     {
@@ -16710,7 +16845,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -16733,19 +16868,19 @@
       "trusted": false,
       "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 79.7,
-        "90d": 76.57,
-        "1y": 85.32
+        "24h": 61.54,
+        "30d": 80.05,
+        "90d": 76.46,
+        "1y": 85.34
       }
     },
     {
@@ -16764,7 +16899,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -16800,33 +16935,6 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
-      }
-    },
-    {
-      "ip": "204.225.44.3",
-      "version": 4,
-      "country_code": "ca",
-      "country": "Canada",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "CanWeb Internet Services Ltd.",
-      "domain": "altair.canweb.ca",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 20.45,
-        "90d": 11.21,
-        "1y": 7.4
       }
     },
     {
@@ -17034,7 +17142,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -17142,7 +17250,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -17250,7 +17358,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -17526,9 +17634,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.51,
+        "30d": 98.49,
         "90d": 99.63,
         "1y": 99.77
+      }
+    },
+    {
+      "ip": "76.76.10.34",
+      "version": 4,
+      "country_code": "ca",
+      "country": "Canada",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Controld Inc",
+      "domain": null,
+      "trusted": false,
+      "anycast": true,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 69.23,
+        "30d": 85.03,
+        "90d": 80.62,
+        "1y": 87.93
       }
     },
     {
@@ -17547,7 +17682,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -17790,7 +17925,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -17817,7 +17952,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -17871,7 +18006,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -17952,7 +18087,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -18006,7 +18141,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -18033,7 +18168,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -18138,18 +18273,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 96.15,
+        "24h": 88.46,
         "30d": 80.05,
-        "90d": 77.36,
-        "1y": 75.62
+        "90d": 77.53,
+        "1y": 75.63
       }
     },
     {
@@ -18201,67 +18336,13 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.82,
+        "30d": 97.8,
         "90d": 98.69,
         "1y": 99.18
       }
     },
     {
       "ip": "162.159.56.43",
-      "version": 4,
-      "country_code": "ca",
-      "country": "Canada",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Cloudflare, Inc.",
-      "domain": null,
-      "trusted": false,
-      "anycast": true,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "209.90.160.221",
-      "version": 4,
-      "country_code": "ca",
-      "country": "Canada",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Primus Telecommunications Canada Inc",
-      "domain": "ns4.primus.ca",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.89,
-        "90d": 99.97,
-        "1y": 99.98
-      }
-    },
-    {
-      "ip": "172.64.37.55",
       "version": 4,
       "country_code": "ca",
       "country": "Canada",
@@ -18288,7 +18369,34 @@
       }
     },
     {
-      "ip": "162.159.56.165",
+      "ip": "209.90.160.221",
+      "version": 4,
+      "country_code": "ca",
+      "country": "Canada",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Primus Telecommunications Canada Inc",
+      "domain": "ns4.primus.ca",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.88,
+        "90d": 99.97,
+        "1y": 99.98
+      }
+    },
+    {
+      "ip": "172.64.37.55",
       "version": 4,
       "country_code": "ca",
       "country": "Canada",
@@ -18310,8 +18418,35 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 98.64,
-        "1y": 95.3
+        "90d": 100.0,
+        "1y": 100.0
+      }
+    },
+    {
+      "ip": "162.159.56.165",
+      "version": 4,
+      "country_code": "ca",
+      "country": "Canada",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Cloudflare, Inc.",
+      "domain": null,
+      "trusted": false,
+      "anycast": true,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 98.68,
+        "1y": 95.32
       }
     },
     {
@@ -18531,6 +18666,33 @@
       }
     },
     {
+      "ip": "74.198.24.161",
+      "version": 4,
+      "country_code": "ca",
+      "country": "Canada",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Rogers Communications Canada Inc",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 53.85,
+        "30d": 76.45,
+        "90d": 86.0,
+        "1y": 85.07
+      }
+    },
+    {
       "ip": "172.64.37.22",
       "version": 4,
       "country_code": "ca",
@@ -18681,7 +18843,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -18708,7 +18870,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -18762,7 +18924,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -18897,7 +19059,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -19033,7 +19195,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -19059,8 +19221,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -19086,7 +19248,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -19113,7 +19275,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -19167,15 +19329,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 88.46,
-        "30d": 90.82,
-        "90d": 83.18,
-        "1y": 89.43
+        "24h": 92.31,
+        "30d": 90.72,
+        "90d": 83.12,
+        "1y": 89.46
       }
     },
     {
@@ -19329,7 +19491,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -19410,15 +19572,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 88.91,
-        "1y": 81.39
+        "90d": 89.13,
+        "1y": 81.6
       }
     },
     {
@@ -19515,18 +19677,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 65.38,
-        "30d": 86.7,
-        "90d": 84.15,
-        "1y": 83.61
+        "24h": 76.92,
+        "30d": 86.66,
+        "90d": 84.09,
+        "1y": 83.65
       }
     },
     {
@@ -19572,7 +19734,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -19680,7 +19842,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -19842,7 +20004,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -19869,7 +20031,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -19892,19 +20054,19 @@
       "trusted": false,
       "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 79.01,
-        "90d": 76.54,
-        "1y": 85.31
+        "24h": 61.54,
+        "30d": 79.23,
+        "90d": 76.43,
+        "1y": 85.32
       }
     },
     {
@@ -19950,7 +20112,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -19977,7 +20139,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -20031,7 +20193,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -20112,7 +20274,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -20220,7 +20382,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -20409,7 +20571,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -20443,8 +20605,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 96.68,
-        "1y": 92.39
+        "90d": 96.75,
+        "1y": 92.44
       }
     },
     {
@@ -20625,7 +20787,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -20760,7 +20922,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -20868,7 +21030,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -21165,7 +21327,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -21273,7 +21435,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -21300,7 +21462,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -21309,6 +21471,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "38.80.70.1",
+      "version": 4,
+      "country_code": "ca",
+      "country": "Canada",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Fleettel INC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 69.26,
+        "90d": 76.48,
+        "1y": 74.88
       }
     },
     {
@@ -21381,7 +21570,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -21436,8 +21625,8 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -21462,7 +21651,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -21489,7 +21678,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -21597,7 +21786,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -21624,13 +21813,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.66,
+        "30d": 99.65,
         "90d": 99.86,
         "1y": 99.63
       }
@@ -21821,7 +22010,7 @@
         "24h": 100.0,
         "30d": 100.0,
         "90d": 100.0,
-        "1y": 97.84
+        "1y": 97.85
       }
     },
     {
@@ -21863,8 +22052,8 @@
       "trusted": false,
       "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -21872,10 +22061,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 79.47,
-        "90d": 76.54,
-        "1y": 85.31
+        "24h": 61.54,
+        "30d": 79.81,
+        "90d": 76.43,
+        "1y": 85.32
       }
     },
     {
@@ -21921,7 +22110,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -22166,13 +22355,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.84,
-        "90d": 96.02,
-        "1y": 96.97
+        "30d": 88.05,
+        "90d": 96.01,
+        "1y": 96.98
       }
     },
     {
@@ -22191,7 +22380,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -22214,19 +22403,19 @@
       "trusted": false,
       "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 79.36,
-        "90d": 76.8,
-        "1y": 85.47
+        "24h": 61.54,
+        "30d": 79.7,
+        "90d": 76.69,
+        "1y": 85.48
       }
     },
     {
@@ -22245,7 +22434,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -22353,7 +22542,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -22416,6 +22605,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "104.245.144.98",
+      "version": 4,
+      "country_code": "ca",
+      "country": "Canada",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Amanah Tech Inc",
+      "domain": "R43.static.amanah.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 69.23,
+        "30d": 92.46,
+        "90d": 93.24,
+        "1y": 94.95
       }
     },
     {

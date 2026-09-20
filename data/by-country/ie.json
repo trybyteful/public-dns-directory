@@ -4,37 +4,10 @@
     "country_name": "Ireland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-09-19T18:03:59Z",
-    "total_servers": 4
+    "generated_at": "2026-09-20T06:24:56Z",
+    "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "86.47.80.46",
-      "version": 4,
-      "country_code": "ie",
-      "country": "Ireland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Eircom Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 7.69,
-        "30d": 69.64,
-        "90d": 64.18,
-        "1y": 63.84
-      }
-    },
     {
       "ip": "78.155.252.220",
       "version": 4,
@@ -51,14 +24,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.05,
-        "90d": 99.32,
+        "30d": 98.03,
+        "90d": 99.34,
         "1y": 99.02
       }
     },
@@ -79,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.62,
+        "30d": 98.61,
         "90d": 99.52,
-        "1y": 99.55
+        "1y": 99.56
       }
     },
     {
@@ -105,7 +78,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
