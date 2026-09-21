@@ -4,10 +4,37 @@
     "country_name": "Estonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-09-20T18:03:56Z",
-    "total_servers": 3
+    "generated_at": "2026-09-21T06:36:23Z",
+    "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "195.80.119.99",
+      "version": 4,
+      "country_code": "ee",
+      "country": "Estonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Estonia",
+      "domain": "ns2.rpz.cert.ee",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.34,
+        "90d": 98.38,
+        "1y": 98.76
+      }
+    },
     {
       "ip": "195.80.119.101",
       "version": 4,
@@ -30,9 +57,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.94,
-        "90d": 97.16,
-        "1y": 97.87
+        "30d": 98.93,
+        "90d": 97.18,
+        "1y": 97.88
       }
     },
     {
@@ -51,14 +78,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.88,
-        "90d": 96.28,
+        "90d": 96.26,
         "1y": 97.57
       }
     },
@@ -78,13 +105,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.36,
+        "30d": 98.34,
         "90d": 99.08,
         "1y": 99.27
       }

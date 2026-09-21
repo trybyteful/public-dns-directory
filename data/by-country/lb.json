@@ -4,10 +4,37 @@
     "country_name": "Lebanon",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-09-20T18:03:56Z",
-    "total_servers": 2
+    "generated_at": "2026-09-21T06:36:23Z",
+    "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "77.42.220.110",
+      "version": 4,
+      "country_code": "lb",
+      "country": "Lebanon",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Ogeronet",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 16.67,
+        "30d": 51.72,
+        "90d": 61.78,
+        "1y": 63.22
+      }
+    },
     {
       "ip": "91.151.226.102",
       "version": 4,
@@ -24,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 73.08,
-        "30d": 81.92,
-        "90d": 79.66,
-        "1y": 74.35
+        "24h": 75.0,
+        "30d": 81.81,
+        "90d": 79.9,
+        "1y": 74.47
+      }
+    },
+    {
+      "ip": "80.81.147.82",
+      "version": 4,
+      "country_code": "lb",
+      "country": "Lebanon",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CYBERIA",
+      "domain": "ppp-03-82.cyberia.net.lb",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 37.5,
+        "30d": 55.29,
+        "90d": 57.79,
+        "1y": 60.12
       }
     },
     {
@@ -47,19 +101,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 15.38,
-        "30d": 42.07,
-        "90d": 41.75,
-        "1y": 41.41
+        "24h": 25.0,
+        "30d": 42.09,
+        "90d": 41.6,
+        "1y": 41.39
       }
     }
   ]
