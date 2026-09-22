@@ -4,10 +4,37 @@
     "country_name": "Uganda",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-09-22T06:27:29Z",
-    "total_servers": 1
+    "generated_at": "2026-09-22T18:04:30Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "154.72.202.86",
+      "version": 4,
+      "country_code": "ug",
+      "country": "Uganda",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "National Information Technology Authority Uganda",
+      "domain": "h56.gou.go.ug",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 23.81,
+        "30d": 84.88,
+        "90d": 84.96,
+        "1y": 72.64
+      }
+    },
     {
       "ip": "81.199.16.1",
       "version": 4,
@@ -30,9 +57,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.78,
-        "90d": 99.54,
-        "1y": 99.66
+        "30d": 98.76,
+        "90d": 99.53,
+        "1y": 99.67
       }
     }
   ]

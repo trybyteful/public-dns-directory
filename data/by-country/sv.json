@@ -4,8 +4,8 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-09-22T06:27:29Z",
-    "total_servers": 3
+    "generated_at": "2026-09-22T18:04:30Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -25,14 +25,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 63.64,
-        "30d": 83.27,
-        "90d": 95.33,
+        "24h": 80.95,
+        "30d": 83.13,
+        "90d": 95.3,
         "1y": 95.79
+      }
+    },
+    {
+      "ip": "190.86.205.194",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Sociedad Cooperativa EX Banco Cuscatlan. De R.L",
+      "domain": "mail.coopex.com.sv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.95,
+        "30d": 68.03,
+        "90d": 72.79,
+        "1y": 71.06
       }
     },
     {
@@ -78,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 79.21,
-        "90d": 66.14,
-        "1y": 57.77
+        "30d": 79.66,
+        "90d": 66.67,
+        "1y": 58.24
       }
     }
   ]

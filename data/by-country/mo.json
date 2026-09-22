@@ -4,10 +4,37 @@
     "country_name": "Macao",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-09-22T06:27:29Z",
-    "total_servers": 6
+    "generated_at": "2026-09-22T18:04:30Z",
+    "total_servers": 7
   },
   "resolvers": [
+    {
+      "ip": "202.86.149.18",
+      "version": 4,
+      "country_code": "mo",
+      "country": "Macao",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CTM",
+      "domain": "n20286z149l18.static.ctmip.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 95.24,
+        "30d": 80.55,
+        "90d": 84.69,
+        "1y": 82.87
+      }
+    },
     {
       "ip": "45.123.201.235",
       "version": 4,
@@ -25,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 59.09,
-        "30d": 69.35,
-        "90d": 90.39,
-        "1y": 93.39
+        "24h": 57.14,
+        "30d": 69.39,
+        "90d": 90.32,
+        "1y": 93.36
       }
     },
     {
@@ -79,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 80.59,
-        "90d": 84.07,
-        "1y": 82.4
+        "24h": 90.48,
+        "30d": 80.27,
+        "90d": 84.17,
+        "1y": 82.41
       }
     },
     {
@@ -111,63 +138,63 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.51,
-        "90d": 97.79,
+        "30d": 99.5,
+        "90d": 97.78,
         "1y": 97.71
       }
     },
     {
-      "ip": "182.93.25.100",
+      "ip": "202.175.66.122",
+      "version": 4,
+      "country_code": "mo",
+      "country": "Macao",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CTM Internet Services",
+      "domain": "z66l122.static.ctm.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.48,
+        "30d": 54.89,
+        "90d": 78.63,
+        "1y": 83.45
+      }
+    },
+    {
+      "ip": "202.175.113.124",
       "version": 4,
       "country_code": "mo",
       "country": "Macao",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "CTM Internet Service",
-      "domain": "n18293z25l100.static.ctmip.net",
+      "domain": "z113l124.static.ctm.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 75.82,
-        "90d": 82.39,
-        "1y": 81.15
-      }
-    },
-    {
-      "ip": "202.86.149.20",
-      "version": 4,
-      "country_code": "mo",
-      "country": "Macao",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "CTM",
-      "domain": "n20286z149l20.static.ctmip.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 86.36,
-        "30d": 76.43,
-        "90d": 82.5,
-        "1y": 81.34
+        "24h": 80.95,
+        "30d": 89.1,
+        "90d": 95.89,
+        "1y": 95.02
       }
     }
   ]
