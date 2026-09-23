@@ -4,10 +4,37 @@
     "country_name": "Mozambique",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-09-22T18:04:30Z",
-    "total_servers": 1
+    "generated_at": "2026-09-23T06:28:43Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "197.235.15.47",
+      "version": 4,
+      "country_code": "mz",
+      "country": "Mozambique",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom Mocambique S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 25.0,
+        "30d": 25.88,
+        "90d": 30.11,
+        "1y": 29.84
+      }
+    },
     {
       "ip": "169.255.135.218",
       "version": 4,
@@ -21,7 +48,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -29,10 +56,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 80.95,
-        "30d": 49.23,
-        "90d": 50.66,
-        "1y": 50.2
+        "24h": 80.0,
+        "30d": 49.07,
+        "90d": 50.62,
+        "1y": 50.28
       }
     }
   ]

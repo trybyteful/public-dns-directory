@@ -4,8 +4,8 @@
     "country_name": "Denmark",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-09-22T18:04:30Z",
-    "total_servers": 18
+    "generated_at": "2026-09-23T06:28:43Z",
+    "total_servers": 20
   },
   "resolvers": [
     {
@@ -30,8 +30,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.03,
-        "90d": 98.98,
+        "30d": 96.98,
+        "90d": 98.97,
         "1y": 99.21
       }
     },
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 83.64,
-        "90d": 91.72,
-        "1y": 93.47
+        "24h": 95.0,
+        "30d": 84.26,
+        "90d": 91.67,
+        "1y": 93.48
       }
     },
     {
@@ -75,18 +75,45 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.67,
-        "90d": 97.46,
+        "30d": 94.58,
+        "90d": 97.45,
         "1y": 97.82
+      }
+    },
+    {
+      "ip": "80.251.198.207",
+      "version": 4,
+      "country_code": "dk",
+      "country": "Denmark",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Hi3G Access AB",
+      "domain": "80.251.198.207.bredband.3.dk",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 40.0,
+        "30d": 26.16,
+        "90d": 23.53,
+        "1y": 23.71
       }
     },
     {
@@ -105,15 +132,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 87.47,
-        "90d": 88.8,
-        "1y": 88.7
+        "24h": 85.0,
+        "30d": 87.41,
+        "90d": 88.77,
+        "1y": 88.72
       }
     },
     {
@@ -138,8 +165,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.92,
-        "90d": 98.22,
+        "30d": 94.84,
+        "90d": 98.21,
         "1y": 98.61
       }
     },
@@ -164,10 +191,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 95.24,
-        "30d": 92.53,
-        "90d": 88.47,
-        "1y": 90.97
+        "24h": 100.0,
+        "30d": 92.4,
+        "90d": 88.6,
+        "1y": 90.99
       }
     },
     {
@@ -191,10 +218,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 86.62,
-        "90d": 89.53,
-        "1y": 87.9
+        "24h": 80.0,
+        "30d": 86.27,
+        "90d": 89.41,
+        "1y": 87.89
       }
     },
     {
@@ -219,7 +246,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.88,
+        "30d": 99.87,
         "90d": 99.65,
         "1y": 98.12
       }
@@ -241,13 +268,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.8,
-        "90d": 97.38,
+        "30d": 93.71,
+        "90d": 97.36,
         "1y": 98.01
       }
     },
@@ -267,14 +294,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 90.71,
-        "90d": 97.78,
+        "24h": 95.0,
+        "30d": 90.55,
+        "90d": 97.77,
         "1y": 98.66
       }
     },
@@ -296,13 +323,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.4,
+        "30d": 96.35,
         "90d": 98.89,
         "1y": 99.21
+      }
+    },
+    {
+      "ip": "82.192.169.38",
+      "version": 4,
+      "country_code": "dk",
+      "country": "Denmark",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Globalconnect P2P",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 65.0,
+        "30d": 81.74,
+        "90d": 83.46,
+        "1y": 82.83
       }
     },
     {
@@ -318,18 +372,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.31,
-        "90d": 96.82,
-        "1y": 97.57
+        "30d": 93.2,
+        "90d": 96.8,
+        "1y": 97.58
       }
     },
     {
@@ -349,14 +403,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.71,
-        "90d": 87.17,
-        "1y": 85.49
+        "30d": 90.57,
+        "90d": 87.47,
+        "1y": 85.52
       }
     },
     {
@@ -375,14 +429,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 91.57,
-        "90d": 94.72,
+        "24h": 95.0,
+        "30d": 91.32,
+        "90d": 94.66,
         "1y": 89.49
       }
     },
@@ -408,7 +462,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.52,
+        "30d": 97.48,
         "90d": 99.33,
         "1y": 99.54
       }
@@ -430,13 +484,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.92,
-        "90d": 97.0,
+        "30d": 93.84,
+        "90d": 96.98,
         "1y": 97.38
       }
     },
@@ -453,18 +507,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.3,
-        "90d": 96.51,
-        "1y": 97.08
+        "30d": 94.21,
+        "90d": 97.35,
+        "1y": 97.09
       }
     },
     {
@@ -488,10 +542,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 76.33,
-        "90d": 59.8,
-        "1y": 46.25
+        "24h": 80.0,
+        "30d": 76.7,
+        "90d": 59.9,
+        "1y": 46.34
       }
     }
   ]
