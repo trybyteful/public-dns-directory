@@ -4,8 +4,8 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-09-24T06:28:29Z",
-    "total_servers": 5
+    "generated_at": "2026-09-24T18:04:16Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.87,
         "90d": 99.82,
-        "1y": 99.68
+        "1y": 99.69
       }
     },
     {
@@ -52,7 +52,7 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -78,15 +78,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.8,
+        "30d": 97.78,
         "90d": 99.05,
         "1y": 96.71
+      }
+    },
+    {
+      "ip": "178.22.122.100",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Asiatech Data Transmission company",
+      "domain": "free.shecan.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 18.13,
+        "90d": 58.06,
+        "1y": 62.85
       }
     },
     {
@@ -106,7 +133,7 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -129,10 +156,10 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -140,7 +167,7 @@
         "24h": 100.0,
         "30d": 100.0,
         "90d": 99.94,
-        "1y": 99.96
+        "1y": 99.97
       }
     }
   ]
