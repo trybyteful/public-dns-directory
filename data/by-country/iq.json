@@ -4,8 +4,8 @@
     "country_name": "Iraq",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-09-24T18:04:16Z",
-    "total_servers": 4
+    "generated_at": "2026-09-25T06:28:25Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 83.79,
-        "90d": 84.8,
-        "1y": 85.06
+        "24h": 95.45,
+        "30d": 83.66,
+        "90d": 85.06,
+        "1y": 85.08
       }
     },
     {
@@ -51,15 +51,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 79.71,
+        "90d": 80.81,
+        "1y": 78.53
+      }
+    },
+    {
+      "ip": "62.201.217.194",
+      "version": 4,
+      "country_code": "iq",
+      "country": "Iraq",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "BAG",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 79.48,
-        "90d": 80.84,
-        "1y": 78.49
+        "24h": 77.27,
+        "30d": 65.35,
+        "90d": 59.31,
+        "1y": 44.31
       }
     },
     {
@@ -75,18 +102,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 95.24,
-        "30d": 89.56,
-        "90d": 89.56,
-        "1y": 89.56
+        "24h": 90.91,
+        "30d": 89.62,
+        "90d": 89.62,
+        "1y": 89.62
       }
     },
     {

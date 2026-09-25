@@ -4,8 +4,8 @@
     "country_name": "Kosovo",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-09-24T18:04:16Z",
-    "total_servers": 8
+    "generated_at": "2026-09-25T06:28:25Z",
+    "total_servers": 10
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.41,
-        "90d": 95.19,
-        "1y": 95.03
+        "30d": 95.37,
+        "90d": 95.17,
+        "1y": 95.04
       }
     },
     {
@@ -52,7 +52,7 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -75,18 +75,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 95.24,
-        "30d": 87.06,
-        "90d": 88.96,
-        "1y": 87.67
+        "24h": 95.45,
+        "30d": 86.96,
+        "90d": 88.91,
+        "1y": 87.7
       }
     },
     {
@@ -105,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 90.48,
-        "30d": 80.52,
-        "90d": 81.61,
-        "1y": 80.83
+        "24h": 95.45,
+        "30d": 82.48,
+        "90d": 81.92,
+        "1y": 80.85
       }
     },
     {
@@ -133,14 +133,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 80.95,
-        "30d": 76.86,
-        "90d": 82.83,
-        "1y": 81.44
+        "24h": 90.91,
+        "30d": 77.47,
+        "90d": 82.82,
+        "1y": 81.48
       }
     },
     {
@@ -165,9 +165,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.07,
-        "90d": 92.5,
-        "1y": 91.82
+        "30d": 93.02,
+        "90d": 92.47,
+        "1y": 91.83
+      }
+    },
+    {
+      "ip": "5.206.235.55",
+      "version": 4,
+      "country_code": "xk",
+      "country": "Kosovo",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TelKos L.L.C",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 63.64,
+        "30d": 56.52,
+        "90d": 59.8,
+        "1y": 61.75
       }
     },
     {
@@ -183,18 +210,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 95.24,
-        "30d": 78.69,
-        "90d": 76.0,
-        "1y": 77.79
+        "24h": 90.91,
+        "30d": 78.66,
+        "90d": 76.1,
+        "1y": 77.82
       }
     },
     {
@@ -219,9 +246,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.34,
-        "90d": 97.05,
-        "1y": 97.69
+        "30d": 96.31,
+        "90d": 97.13,
+        "1y": 97.7
+      }
+    },
+    {
+      "ip": "94.100.56.157",
+      "version": 4,
+      "country_code": "xk",
+      "country": "Kosovo",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TEL COMMUNICATIONS L.L.C",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 66.14,
+        "90d": 73.11,
+        "1y": 72.84
       }
     }
   ]
