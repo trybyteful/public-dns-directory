@@ -4,7 +4,7 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-09-25T06:28:25Z",
+    "generated_at": "2026-09-25T18:03:57Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 84.06,
-        "90d": 95.16,
-        "1y": 95.81
+        "24h": 85.71,
+        "30d": 83.91,
+        "90d": 95.08,
+        "1y": 95.78
       }
     },
     {
@@ -47,19 +47,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 67.46,
-        "90d": 74.27,
-        "1y": 71.23
+        "24h": 85.71,
+        "30d": 67.42,
+        "90d": 74.31,
+        "1y": 71.24
       }
     },
     {
@@ -78,8 +78,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -105,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 80.0,
-        "90d": 69.43,
-        "1y": 60.68
+        "30d": 79.76,
+        "90d": 69.88,
+        "1y": 61.09
       }
     }
   ]

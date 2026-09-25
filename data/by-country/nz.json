@@ -4,7 +4,7 @@
     "country_name": "New Zealand",
     "continent_code": "oc",
     "continent_name": "Oceania",
-    "generated_at": "2026-09-25T06:28:25Z",
+    "generated_at": "2026-09-25T18:03:57Z",
     "total_servers": 2
   },
   "resolvers": [
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.99,
-        "90d": 88.65,
-        "1y": 93.16
+        "30d": 89.89,
+        "90d": 88.6,
+        "1y": 93.17
       }
     },
     {
@@ -48,18 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 95.45,
+        "24h": 90.48,
         "30d": 86.17,
-        "90d": 87.99,
-        "1y": 86.4
+        "90d": 88.0,
+        "1y": 86.41
       }
     }
   ]
