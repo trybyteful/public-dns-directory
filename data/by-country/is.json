@@ -4,7 +4,7 @@
     "country_name": "Iceland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-09-25T18:03:57Z",
+    "generated_at": "2026-09-26T06:25:58Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -24,15 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.29,
-        "90d": 94.12,
-        "1y": 89.68
+        "30d": 90.2,
+        "90d": 94.09,
+        "1y": 89.7
       }
     },
     {
@@ -47,18 +47,18 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 80.95,
-        "30d": 87.77,
-        "90d": 87.85,
+        "30d": 87.65,
+        "90d": 87.77,
         "1y": 92.37
       }
     },
@@ -78,15 +78,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.87,
-        "90d": 98.53,
-        "1y": 94.55
+        "90d": 98.58,
+        "1y": 94.57
       }
     }
   ]

@@ -4,12 +4,12 @@
     "country_name": "Puerto Rico",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-09-25T06:28:25Z",
-    "total_servers": 1
+    "generated_at": "2026-09-26T06:25:58Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
-      "ip": "74.120.24.129",
+      "ip": "74.120.24.81",
       "version": 4,
       "country_code": "pr",
       "country": "Puerto Rico",
@@ -25,14 +25,41 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 22.73,
-        "30d": 11.96,
-        "90d": 16.32,
-        "1y": 14.85
+        "24h": 14.29,
+        "30d": 11.62,
+        "90d": 21.62,
+        "1y": 17.07
+      }
+    },
+    {
+      "ip": "74.120.29.129",
+      "version": 4,
+      "country_code": "pr",
+      "country": "Puerto Rico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "IP SOLUTIONS, INC.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 14.29,
+        "30d": 10.65,
+        "90d": 17.44,
+        "1y": 15.37
       }
     }
   ]

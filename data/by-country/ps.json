@@ -4,8 +4,8 @@
     "country_name": "Palestine",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-09-25T18:03:57Z",
-    "total_servers": 3
+    "generated_at": "2026-09-26T06:25:58Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": true
       },
       "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 95.24,
+        "30d": 67.04,
+        "90d": 70.07,
+        "1y": 71.24
+      }
+    },
+    {
+      "ip": "82.213.32.29",
+      "version": 4,
+      "country_code": "ps",
+      "country": "Palestine",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "PALTEL (Palestine Telecommunications Co.)",
+      "domain": "mail.sahem-inv.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
         "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 95.0,
-        "30d": 66.67,
-        "90d": 70.15,
-        "1y": 71.19
+        "24h": 90.48,
+        "30d": 69.93,
+        "90d": 77.52,
+        "1y": 77.48
       }
     },
     {
@@ -51,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 85.71,
-        "30d": 60.9,
-        "90d": 70.39,
-        "1y": 70.78
+        "30d": 61.34,
+        "90d": 70.26,
+        "1y": 70.83
       }
     },
     {
@@ -79,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 90.48,
-        "30d": 55.19,
-        "90d": 62.6,
-        "1y": 60.0
+        "24h": 85.71,
+        "30d": 55.7,
+        "90d": 62.71,
+        "1y": 60.09
       }
     }
   ]
