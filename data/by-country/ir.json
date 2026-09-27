@@ -4,10 +4,37 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-09-27T06:27:06Z",
-    "total_servers": 4
+    "generated_at": "2026-09-27T18:03:53Z",
+    "total_servers": 6
   },
   "resolvers": [
+    {
+      "ip": "194.225.62.80",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TUMS Network",
+      "domain": "ourdns1.tums.ac.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 95.24,
+        "30d": 99.72,
+        "90d": 99.82,
+        "1y": 99.67
+      }
+    },
     {
       "ip": "217.218.155.155",
       "version": 4,
@@ -21,7 +48,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -30,8 +57,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.73,
-        "90d": 99.67,
+        "30d": 99.72,
+        "90d": 99.66,
         "1y": 98.84
       }
     },
@@ -52,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.67,
-        "90d": 99.33,
-        "1y": 96.74
+        "30d": 97.65,
+        "90d": 99.39,
+        "1y": 96.75
       }
     },
     {
@@ -79,14 +106,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 37.9,
-        "90d": 56.73,
-        "1y": 63.32
+        "30d": 40.79,
+        "90d": 56.53,
+        "1y": 63.4
       }
     },
     {
@@ -102,18 +129,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.73,
+        "30d": 99.72,
         "90d": 99.76,
         "1y": 99.57
+      }
+    },
+    {
+      "ip": "194.225.152.10",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "IPM/Iranet",
+      "domain": "ns1.iranet.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 95.24,
+        "30d": 99.86,
+        "90d": 99.91,
+        "1y": 99.95
       }
     }
   ]
