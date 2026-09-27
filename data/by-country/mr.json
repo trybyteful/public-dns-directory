@@ -4,8 +4,8 @@
     "country_name": "Mauritania",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-09-26T18:03:40Z",
-    "total_servers": 1
+    "generated_at": "2026-09-27T06:27:06Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.17,
-        "90d": 94.89,
-        "1y": 93.42
+        "30d": 94.12,
+        "90d": 94.93,
+        "1y": 93.43
+      }
+    },
+    {
+      "ip": "82.151.66.178",
+      "version": 4,
+      "country_code": "mr",
+      "country": "Mauritania",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Moov-mauritel #MVMY1-AFRINIC",
+      "domain": "cdisrv.cdi.mr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 63.91,
+        "90d": 34.69,
+        "1y": 23.81
       }
     }
   ]
