@@ -4,8 +4,8 @@
     "country_name": "Saudi Arabia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-09-28T06:39:10Z",
-    "total_servers": 8
+    "generated_at": "2026-09-28T18:04:46Z",
+    "total_servers": 9
   },
   "resolvers": [
     {
@@ -24,8 +24,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -51,12 +51,12 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 95.24,
+        "24h": 100.0,
         "30d": 98.88,
         "90d": 99.72,
         "1y": 99.81
@@ -75,7 +75,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -84,8 +84,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.47,
-        "90d": 99.36,
+        "30d": 98.46,
+        "90d": 99.35,
         "1y": 99.57
       }
     },
@@ -106,8 +106,8 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -133,25 +133,52 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.35,
-        "90d": 61.62,
-        "1y": 54.62
+        "30d": 97.34,
+        "90d": 61.99,
+        "1y": 54.68
       }
     },
     {
-      "ip": "83.101.140.121",
+      "ip": "5.42.248.31",
       "version": 4,
       "country_code": "sa",
       "country": "Saudi Arabia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Specific Class-C",
+      "organization": "Xenel Group",
       "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 33.33,
+        "30d": 6.35,
+        "90d": 47.06,
+        "1y": 53.29
+      }
+    },
+    {
+      "ip": "86.51.155.82",
+      "version": 4,
+      "country_code": "sa",
+      "country": "Saudi Arabia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Etihad Etisalat, a joint stock company",
+      "domain": "static-86-51-155-82.mobily.com.sa",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -164,10 +191,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 33.33,
-        "30d": 28.64,
-        "90d": 20.48,
-        "1y": 28.98
+        "24h": 57.89,
+        "30d": 44.18,
+        "90d": 42.5,
+        "1y": 44.78
       }
     },
     {
@@ -191,9 +218,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 95.24,
-        "30d": 96.38,
-        "90d": 98.41,
+        "24h": 100.0,
+        "30d": 96.35,
+        "90d": 98.4,
         "1y": 98.6
       }
     },
@@ -213,7 +240,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
