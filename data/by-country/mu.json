@@ -4,8 +4,8 @@
     "country_name": "Mauritius",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-09-27T18:03:53Z",
-    "total_servers": 1
+    "generated_at": "2026-09-28T06:39:10Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.95,
+        "30d": 65.69,
+        "90d": 62.12,
+        "1y": 63.69
+      }
+    },
+    {
+      "ip": "41.173.23.150",
+      "version": 4,
+      "country_code": "mu",
+      "country": "Mauritius",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Liquid Telecommunications Operations Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 66.16,
-        "90d": 62.32,
-        "1y": 63.65
+        "24h": 42.86,
+        "30d": 37.52,
+        "90d": 39.15,
+        "1y": 44.57
       }
     }
   ]

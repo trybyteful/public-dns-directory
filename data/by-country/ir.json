@@ -4,10 +4,37 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-09-27T18:03:53Z",
-    "total_servers": 6
+    "generated_at": "2026-09-28T06:39:10Z",
+    "total_servers": 7
   },
   "resolvers": [
+    {
+      "ip": "81.163.3.1",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Rasana Pishtaz Iranian Service Cooperative Co",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 61.18,
+        "90d": 56.4,
+        "1y": 56.4
+      }
+    },
     {
       "ip": "194.225.62.80",
       "version": 4,
@@ -29,7 +56,7 @@
         "adult": false
       },
       "uptime": {
-        "24h": 95.24,
+        "24h": 100.0,
         "30d": 99.72,
         "90d": 99.82,
         "1y": 99.67
@@ -48,17 +75,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.72,
-        "90d": 99.66,
+        "90d": 99.69,
         "1y": 98.84
       }
     },
@@ -78,13 +105,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.65,
+        "30d": 97.63,
         "90d": 99.39,
         "1y": 96.75
       }
@@ -106,14 +133,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 40.79,
-        "90d": 56.53,
-        "1y": 63.4
+        "30d": 43.51,
+        "90d": 56.26,
+        "1y": 63.5
       }
     },
     {
@@ -134,7 +161,7 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -156,11 +183,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {

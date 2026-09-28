@@ -4,7 +4,7 @@
     "country_name": "Uruguay",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-09-27T18:03:53Z",
+    "generated_at": "2026-09-28T06:39:10Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -25,13 +25,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 90.21,
-        "90d": 88.57,
+        "24h": 95.24,
+        "30d": 90.11,
+        "90d": 88.49,
         "1y": 90.52
       }
     },
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.69,
-        "90d": 94.97,
-        "1y": 88.78
+        "30d": 92.62,
+        "90d": 94.95,
+        "1y": 88.8
       }
     },
     {
@@ -75,18 +75,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 90.48,
-        "30d": 84.81,
-        "90d": 90.18,
-        "1y": 88.51
+        "30d": 84.52,
+        "90d": 90.21,
+        "1y": 88.52
       }
     }
   ]
