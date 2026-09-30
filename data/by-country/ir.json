@@ -4,7 +4,7 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-09-30T06:29:16Z",
+    "generated_at": "2026-09-30T18:04:11Z",
     "total_servers": 8
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 68.28,
-        "90d": 58.63,
-        "1y": 58.63
+        "30d": 70.37,
+        "90d": 59.26,
+        "1y": 59.26
       }
     },
     {
@@ -51,7 +51,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -75,11 +75,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -111,9 +111,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 64.75,
-        "90d": 84.93,
-        "1y": 84.93
+        "30d": 65.41,
+        "90d": 85.13,
+        "1y": 85.13
       }
     },
     {
@@ -134,13 +134,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.68,
+        "30d": 97.71,
         "90d": 99.38,
-        "1y": 96.8
+        "1y": 96.81
       }
     },
     {
@@ -160,14 +160,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 57.23,
-        "90d": 56.03,
-        "1y": 64.12
+        "30d": 60.18,
+        "90d": 56.06,
+        "1y": 64.32
       }
     },
     {
@@ -194,7 +194,7 @@
         "24h": 100.0,
         "30d": 99.73,
         "90d": 99.75,
-        "1y": 99.57
+        "1y": 99.58
       }
     },
     {
@@ -219,7 +219,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.86,
+        "30d": 99.87,
         "90d": 99.91,
         "1y": 99.95
       }
