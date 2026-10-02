@@ -4,7 +4,7 @@
     "country_name": "Syria",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-10-02T06:28:50Z",
+    "generated_at": "2026-10-02T18:04:20Z",
     "total_servers": 2
   },
   "resolvers": [
@@ -15,7 +15,7 @@
       "country": "Syria",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "ISP-TARASSUL",
+      "organization": "STE PDN Internal AS",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 56.76,
-        "30d": 63.42,
-        "90d": 65.41,
-        "1y": 65.36
+        "24h": 57.41,
+        "30d": 63.53,
+        "90d": 65.39,
+        "1y": 65.33
       }
     },
     {
@@ -52,12 +52,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.07,
+        "30d": 99.08,
         "90d": 98.51,
         "1y": 98.89
       }
