@@ -4,10 +4,64 @@
     "country_name": "North Macedonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-10-02T18:04:20Z",
-    "total_servers": 3
+    "generated_at": "2026-10-03T06:28:34Z",
+    "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "95.156.4.114",
+      "version": 4,
+      "country_code": "mk",
+      "country": "North Macedonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Makedonski Telekom AD-Skopje",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 51.43,
+        "30d": 20.8,
+        "90d": 37.08,
+        "1y": 42.56
+      }
+    },
+    {
+      "ip": "5.32.183.251",
+      "version": 4,
+      "country_code": "mk",
+      "country": "North Macedonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Telesmart Telekom DOO",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 78.33,
+        "30d": 64.05,
+        "90d": 83.58,
+        "1y": 84.2
+      }
+    },
     {
       "ip": "46.29.169.6",
       "version": 4,
@@ -25,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 77.23,
-        "90d": 63.1,
-        "1y": 57.12
+        "24h": 96.67,
+        "30d": 78.29,
+        "90d": 63.11,
+        "1y": 57.32
       }
     },
     {
@@ -52,41 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 79.63,
-        "30d": 86.8,
-        "90d": 85.48,
-        "1y": 84.04
-      }
-    },
-    {
-      "ip": "95.128.184.40",
-      "version": 4,
-      "country_code": "mk",
-      "country": "North Macedonia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telesmart services",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 23.08,
-        "30d": 36.9,
-        "90d": 57.24,
-        "1y": 72.54
+        "24h": 76.67,
+        "30d": 86.97,
+        "90d": 85.42,
+        "1y": 83.99
       }
     }
   ]
