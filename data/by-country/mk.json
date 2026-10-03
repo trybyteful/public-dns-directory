@@ -4,37 +4,10 @@
     "country_name": "North Macedonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-10-03T06:28:34Z",
+    "generated_at": "2026-10-03T18:35:25Z",
     "total_servers": 4
   },
   "resolvers": [
-    {
-      "ip": "95.156.4.114",
-      "version": 4,
-      "country_code": "mk",
-      "country": "North Macedonia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Makedonski Telekom AD-Skopje",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 51.43,
-        "30d": 20.8,
-        "90d": 37.08,
-        "1y": 42.56
-      }
-    },
     {
       "ip": "5.32.183.251",
       "version": 4,
@@ -52,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 78.33,
-        "30d": 64.05,
-        "90d": 83.58,
-        "1y": 84.2
+        "24h": 93.55,
+        "30d": 64.95,
+        "90d": 83.64,
+        "1y": 84.28
       }
     },
     {
@@ -83,10 +56,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 96.67,
-        "30d": 78.29,
-        "90d": 63.11,
-        "1y": 57.32
+        "24h": 96.77,
+        "30d": 79.12,
+        "90d": 63.31,
+        "1y": 57.55
       }
     },
     {
@@ -106,14 +79,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 76.67,
-        "30d": 86.97,
-        "90d": 85.42,
-        "1y": 83.99
+        "24h": 74.19,
+        "30d": 86.5,
+        "90d": 85.53,
+        "1y": 83.94
+      }
+    },
+    {
+      "ip": "95.180.218.10",
+      "version": 4,
+      "country_code": "mk",
+      "country": "North Macedonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ISP-NEOTEL",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 28.0,
+        "30d": 35.39,
+        "90d": 33.2,
+        "1y": 28.07
       }
     }
   ]
