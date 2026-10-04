@@ -4,37 +4,10 @@
     "country_name": "South Korea",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-10-04T08:08:21Z",
-    "total_servers": 306
+    "generated_at": "2026-10-04T18:25:23Z",
+    "total_servers": 269
   },
   "resolvers": [
-    {
-      "ip": "121.152.181.152",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kornet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 92.19,
-        "30d": 75.58,
-        "90d": 78.97,
-        "1y": 80.68
-      }
-    },
     {
       "ip": "211.232.158.254",
       "version": 4,
@@ -52,13 +25,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.73,
-        "90d": 97.61,
+        "30d": 93.77,
+        "90d": 97.6,
         "1y": 98.46
       }
     },
@@ -79,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 87.85,
-        "90d": 90.19,
-        "1y": 89.96
+        "24h": 98.18,
+        "30d": 88.29,
+        "90d": 90.27,
+        "1y": 89.98
       }
     },
     {
@@ -106,7 +79,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
@@ -114,6 +87,33 @@
         "30d": 100.0,
         "90d": 99.97,
         "1y": 99.8
+      }
+    },
+    {
+      "ip": "210.216.217.254",
+      "version": 4,
+      "country_code": "kr",
+      "country": "South Korea",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "LG Uplus",
+      "domain": "ns.samsong.co.kr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 62.5,
+        "30d": 59.71,
+        "90d": 59.52,
+        "1y": 66.11
       }
     },
     {
@@ -129,18 +129,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 85.3,
-        "90d": 92.45,
-        "1y": 94.25
+        "30d": 85.63,
+        "90d": 92.43,
+        "1y": 94.26
+      }
+    },
+    {
+      "ip": "211.47.188.226",
+      "version": 4,
+      "country_code": "kr",
+      "country": "South Korea",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Duruan",
+      "domain": "dahae.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 81.13,
+        "30d": 92.39,
+        "90d": 95.86,
+        "1y": 97.02
       }
     },
     {
@@ -156,12 +183,12 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -191,10 +218,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 84.57,
-        "90d": 87.3,
-        "1y": 83.51
+        "24h": 98.21,
+        "30d": 85.28,
+        "90d": 87.4,
+        "1y": 83.55
       }
     },
     {
@@ -214,12 +241,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 84.69,
+        "24h": 98.11,
+        "30d": 84.9,
         "90d": 88.04,
         "1y": 92.17
       }
@@ -240,42 +267,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.33,
-        "90d": 99.11,
-        "1y": 97.35
-      }
-    },
-    {
-      "ip": "220.83.87.2",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "chungbugdaehaggyobyungwon",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 59.38,
-        "30d": 34.71,
-        "90d": 37.5,
-        "1y": 29.94
+        "30d": 97.34,
+        "90d": 99.1,
+        "1y": 97.36
       }
     },
     {
@@ -294,15 +294,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
+        "ads": false,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 85.77,
-        "90d": 89.52,
-        "1y": 89.65
+        "30d": 86.47,
+        "90d": 89.56,
+        "1y": 89.67
       }
     },
     {
@@ -321,69 +321,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 95.31,
-        "30d": 85.78,
-        "90d": 84.86,
-        "1y": 85.08
-      }
-    },
-    {
-      "ip": "211.111.172.71",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "RayNet",
-      "domain": "a01.kuwoo.co.kr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 70.31,
-        "30d": 59.54,
-        "90d": 80.05,
-        "1y": 88.28
-      }
-    },
-    {
-      "ip": "61.99.238.200",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "dayounetworks",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 20.31,
-        "30d": 21.18,
-        "90d": 11.63,
-        "1y": 17.21
+        "24h": 94.44,
+        "30d": 86.11,
+        "90d": 84.92,
+        "1y": 85.1
       }
     },
     {
@@ -414,6 +360,33 @@
       }
     },
     {
+      "ip": "119.204.114.172",
+      "version": 4,
+      "country_code": "kr",
+      "country": "South Korea",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "KT Corporation",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 72.22,
+        "30d": 36.78,
+        "90d": 31.78,
+        "1y": 32.71
+      }
+    },
+    {
       "ip": "211.41.128.71",
       "version": 4,
       "country_code": "kr",
@@ -431,40 +404,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 62.5,
-        "30d": 51.64,
-        "90d": 77.3,
-        "1y": 86.27
-      }
-    },
-    {
-      "ip": "114.199.226.206",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "HYUNDAI COMMUNICATIONS & NETWORK",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 14.29,
-        "30d": 19.49,
-        "90d": 35.34,
-        "1y": 32.0
+        "24h": 64.81,
+        "30d": 51.93,
+        "90d": 77.2,
+        "1y": 86.23
       }
     },
     {
@@ -485,40 +431,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 76.56,
-        "30d": 72.05,
-        "90d": 86.25,
+        "24h": 82.14,
+        "30d": 72.5,
+        "90d": 86.32,
         "1y": 91.23
-      }
-    },
-    {
-      "ip": "121.136.211.107",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kornet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 17.19,
-        "30d": 12.82,
-        "90d": 14.48,
-        "1y": 14.31
       }
     },
     {
@@ -538,14 +457,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.75,
+        "30d": 90.94,
         "90d": 94.6,
-        "1y": 95.98
+        "1y": 95.99
       }
     },
     {
@@ -569,10 +488,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 85.54,
-        "90d": 88.04,
-        "1y": 88.57
+        "24h": 98.21,
+        "30d": 86.01,
+        "90d": 88.11,
+        "1y": 88.6
       }
     },
     {
@@ -596,10 +515,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 96.88,
-        "30d": 87.85,
-        "90d": 93.03,
-        "1y": 93.82
+        "24h": 98.15,
+        "30d": 88.16,
+        "90d": 93.05,
+        "1y": 93.83
       }
     },
     {
@@ -647,7 +566,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -673,14 +592,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.55,
+        "30d": 92.93,
         "90d": 97.05,
-        "1y": 98.42
+        "1y": 98.43
       }
     },
     {
@@ -701,12 +620,12 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.87,
-        "90d": 98.43,
+        "30d": 95.89,
+        "90d": 98.42,
         "1y": 99.08
       }
     },
@@ -726,15 +645,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 83.09,
-        "90d": 81.01,
-        "1y": 65.77
+        "30d": 83.35,
+        "90d": 81.29,
+        "1y": 65.86
       }
     },
     {
@@ -755,67 +674,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 82.87,
-        "90d": 92.51,
-        "1y": 94.25
-      }
-    },
-    {
-      "ip": "222.231.61.196",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "LG DACOM KIDC",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 48.44,
-        "30d": 31.49,
-        "90d": 47.29,
-        "1y": 45.05
-      }
-    },
-    {
-      "ip": "219.251.188.133",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "broadNnet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 5.13,
-        "30d": 21.04,
-        "90d": 11.56,
-        "1y": 10.79
+        "24h": 100.0,
+        "30d": 84.18,
+        "90d": 92.49,
+        "1y": 94.26
       }
     },
     {
@@ -839,10 +704,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 96.88,
-        "30d": 70.19,
-        "90d": 76.38,
-        "1y": 77.74
+        "24h": 98.21,
+        "30d": 71.01,
+        "90d": 76.44,
+        "1y": 77.8
       }
     },
     {
@@ -866,10 +731,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 73.44,
-        "30d": 83.35,
-        "90d": 84.09,
-        "1y": 86.14
+        "24h": 64.81,
+        "30d": 82.97,
+        "90d": 84.02,
+        "1y": 86.07
       }
     },
     {
@@ -893,9 +758,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 81.77,
-        "90d": 87.11,
+        "24h": 98.11,
+        "30d": 82.0,
+        "90d": 87.05,
         "1y": 91.48
       }
     },
@@ -911,7 +776,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -920,10 +785,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 60.94,
-        "30d": 60.15,
-        "90d": 77.58,
-        "1y": 81.17
+        "24h": 67.27,
+        "30d": 60.51,
+        "90d": 77.45,
+        "1y": 81.15
       }
     },
     {
@@ -944,13 +809,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.59,
+        "30d": 87.32,
+        "90d": 85.35,
+        "1y": 85.17
+      }
+    },
+    {
+      "ip": "180.69.214.252",
+      "version": 4,
+      "country_code": "kr",
+      "country": "South Korea",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "broadNnet",
+      "domain": "exch.ccickorea.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 92.19,
-        "30d": 87.0,
-        "90d": 85.2,
-        "1y": 85.13
+        "24h": 62.96,
+        "30d": 60.99,
+        "90d": 74.61,
+        "1y": 80.16
       }
     },
     {
@@ -970,8 +862,8 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -1002,9 +894,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.83,
-        "90d": 93.83,
-        "1y": 95.81
+        "30d": 88.04,
+        "90d": 93.82,
+        "1y": 95.82
       }
     },
     {
@@ -1020,18 +912,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 85.94,
-        "30d": 66.83,
-        "90d": 76.04,
-        "1y": 79.79
+        "24h": 81.13,
+        "30d": 66.79,
+        "90d": 76.05,
+        "1y": 79.77
       }
     },
     {
@@ -1050,15 +942,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 95.31,
-        "30d": 58.42,
-        "90d": 37.63,
-        "1y": 54.68
+        "24h": 94.44,
+        "30d": 60.98,
+        "90d": 40.45,
+        "1y": 55.02
       }
     },
     {
@@ -1073,7 +965,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -1082,10 +974,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 62.5,
-        "30d": 57.31,
-        "90d": 58.43,
-        "1y": 73.11
+        "24h": 71.43,
+        "30d": 58.04,
+        "90d": 58.55,
+        "1y": 73.16
+      }
+    },
+    {
+      "ip": "221.159.225.51",
+      "version": 4,
+      "country_code": "kr",
+      "country": "South Korea",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Korea Telecom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.98,
+        "30d": 66.22,
+        "90d": 69.25,
+        "1y": 71.55
       }
     },
     {
@@ -1106,13 +1025,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 57.92,
-        "90d": 70.78,
-        "1y": 74.36
+        "30d": 59.93,
+        "90d": 71.02,
+        "1y": 74.44
       }
     },
     {
@@ -1132,14 +1051,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 96.88,
-        "30d": 84.81,
-        "90d": 87.6,
-        "1y": 88.03
+        "24h": 98.15,
+        "30d": 85.02,
+        "90d": 87.61,
+        "1y": 88.06
       }
     },
     {
@@ -1186,7 +1105,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
@@ -1194,6 +1113,33 @@
         "30d": 99.88,
         "90d": 99.91,
         "1y": 99.92
+      }
+    },
+    {
+      "ip": "58.72.252.65",
+      "version": 4,
+      "country_code": "kr",
+      "country": "South Korea",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "BORANET",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 16.98,
+        "30d": 22.39,
+        "90d": 25.23,
+        "1y": 23.95
       }
     },
     {
@@ -1214,13 +1160,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 88.46,
-        "90d": 86.68,
-        "1y": 87.34
+        "24h": 96.36,
+        "30d": 88.77,
+        "90d": 86.75,
+        "1y": 87.35
       }
     },
     {
@@ -1244,10 +1190,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 96.88,
-        "30d": 88.34,
-        "90d": 86.46,
-        "1y": 86.97
+        "24h": 94.64,
+        "30d": 88.53,
+        "90d": 86.53,
+        "1y": 86.99
       }
     },
     {
@@ -1266,42 +1212,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 57.81,
-        "30d": 63.26,
-        "90d": 80.76,
-        "1y": 88.34
-      }
-    },
-    {
-      "ip": "211.63.16.5",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "HANAROINSCLUB",
-      "domain": "localhost",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 73.44,
-        "30d": 61.24,
-        "90d": 73.97,
-        "1y": 84.45
+        "24h": 62.5,
+        "30d": 63.29,
+        "90d": 80.64,
+        "1y": 88.29
       }
     },
     {
@@ -1322,13 +1241,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 84.81,
-        "90d": 85.88,
-        "1y": 85.13
+        "24h": 78.18,
+        "30d": 84.78,
+        "90d": 85.89,
+        "1y": 85.1
       }
     },
     {
@@ -1349,11 +1268,11 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.09,
+        "30d": 88.41,
         "90d": 95.71,
         "1y": 97.25
       }
@@ -1375,14 +1294,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.18,
+        "30d": 98.19,
         "90d": 96.05,
-        "1y": 95.52
+        "1y": 95.53
       }
     },
     {
@@ -1402,14 +1321,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.44,
-        "90d": 95.96,
-        "1y": 96.54
+        "30d": 93.84,
+        "90d": 95.95,
+        "1y": 96.55
       }
     },
     {
@@ -1429,14 +1348,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 91.01,
-        "90d": 96.58,
-        "1y": 98.07
+        "24h": 98.18,
+        "30d": 91.18,
+        "90d": 96.57,
+        "1y": 98.08
       }
     },
     {
@@ -1460,10 +1379,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 96.88,
-        "30d": 89.67,
-        "90d": 94.45,
-        "1y": 95.19
+        "24h": 96.3,
+        "30d": 89.98,
+        "90d": 94.41,
+        "1y": 95.18
       }
     },
     {
@@ -1479,18 +1398,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 68.47,
-        "90d": 87.97,
-        "1y": 93.13
+        "30d": 68.99,
+        "90d": 87.95,
+        "1y": 93.14
       }
     },
     {
@@ -1514,20 +1433,20 @@
         "adult": false
       },
       "uptime": {
-        "24h": 53.12,
-        "30d": 83.58,
-        "90d": 92.91,
-        "1y": 94.34
+        "24h": 85.96,
+        "30d": 83.96,
+        "90d": 92.93,
+        "1y": 94.36
       }
     },
     {
-      "ip": "1.237.46.97",
+      "ip": "175.199.73.192",
       "version": 4,
       "country_code": "kr",
       "country": "South Korea",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "SK Broadband Co Ltd",
+      "organization": "Kornet",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -1541,37 +1460,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 7.81,
-        "30d": 14.09,
-        "90d": 10.41,
-        "1y": 7.58
-      }
-    },
-    {
-      "ip": "1.226.38.112",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "broadNnet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 17.39,
-        "30d": 10.0,
-        "90d": 6.62,
-        "1y": 7.58
+        "24h": 20.37,
+        "30d": 18.0,
+        "90d": 17.48,
+        "1y": 18.01
       }
     },
     {
@@ -1591,14 +1483,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 70.31,
-        "30d": 64.43,
-        "90d": 65.69,
-        "1y": 54.61
+        "24h": 70.91,
+        "30d": 64.24,
+        "90d": 65.54,
+        "1y": 54.63
       }
     },
     {
@@ -1622,10 +1514,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 79.69,
-        "30d": 84.67,
+        "24h": 100.0,
+        "30d": 84.78,
         "90d": 95.34,
-        "1y": 96.27
+        "1y": 96.28
       }
     },
     {
@@ -1649,10 +1541,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 95.63,
-        "90d": 96.14,
-        "1y": 97.83
+        "24h": 91.07,
+        "30d": 95.42,
+        "90d": 96.04,
+        "1y": 97.78
       }
     },
     {
@@ -1676,37 +1568,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 95.38,
-        "90d": 98.58,
-        "1y": 99.14
-      }
-    },
-    {
-      "ip": "211.59.242.36",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "SK Broadband Co Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 59.38,
-        "30d": 41.33,
-        "90d": 71.61,
-        "1y": 76.7
+        "24h": 96.36,
+        "30d": 95.29,
+        "90d": 98.55,
+        "1y": 99.13
       }
     },
     {
@@ -1722,16 +1587,16 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.38,
+        "30d": 95.41,
         "90d": 98.67,
         "1y": 99.13
       }
@@ -1757,10 +1622,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 96.88,
-        "30d": 77.4,
-        "90d": 73.88,
-        "1y": 77.54
+        "24h": 98.21,
+        "30d": 77.78,
+        "90d": 73.93,
+        "1y": 77.6
       }
     },
     {
@@ -1780,14 +1645,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 93.56,
-        "90d": 92.9,
-        "1y": 95.53
+        "24h": 98.18,
+        "30d": 93.6,
+        "90d": 92.99,
+        "1y": 95.54
       }
     },
     {
@@ -1811,9 +1676,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 93.44,
-        "90d": 96.55,
+        "24h": 100.0,
+        "30d": 93.6,
+        "90d": 96.54,
         "1y": 96.97
       }
     },
@@ -1835,40 +1700,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 95.31,
-        "30d": 85.77,
-        "90d": 79.56,
-        "1y": 79.13
-      }
-    },
-    {
-      "ip": "1.236.11.121",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "broadNnet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 9.38,
-        "30d": 11.02,
-        "90d": 8.19,
-        "1y": 13.08
+        "24h": 94.64,
+        "30d": 85.87,
+        "90d": 79.62,
+        "1y": 79.16
       }
     },
     {
@@ -1893,9 +1731,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.34,
-        "90d": 94.08,
-        "1y": 94.94
+        "30d": 92.63,
+        "90d": 94.1,
+        "1y": 94.95
       }
     },
     {
@@ -1920,8 +1758,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.13,
-        "90d": 96.05,
+        "30d": 91.3,
+        "90d": 96.04,
         "1y": 97.81
       }
     },
@@ -1946,10 +1784,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 95.31,
-        "30d": 76.91,
-        "90d": 83.41,
-        "1y": 83.97
+        "24h": 98.18,
+        "30d": 77.66,
+        "90d": 83.47,
+        "1y": 84.01
       }
     },
     {
@@ -1968,42 +1806,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 43.86,
-        "90d": 59.7,
-        "1y": 71.39
-      }
-    },
-    {
-      "ip": "115.161.19.10",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "broadNnet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 8.33,
-        "30d": 20.03,
-        "90d": 14.79,
-        "1y": 11.73
+        "24h": 100.0,
+        "30d": 45.05,
+        "90d": 59.64,
+        "1y": 71.46
       }
     },
     {
@@ -2029,7 +1840,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.76,
-        "90d": 99.75,
+        "90d": 99.78,
         "1y": 99.74
       }
     },
@@ -2050,14 +1861,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.94,
-        "90d": 96.18,
+        "30d": 89.25,
+        "90d": 96.17,
         "1y": 97.91
+      }
+    },
+    {
+      "ip": "121.167.47.38",
+      "version": 4,
+      "country_code": "kr",
+      "country": "South Korea",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Kornet",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 11.11,
+        "30d": 12.87,
+        "90d": 13.65,
+        "1y": 14.0
       }
     },
     {
@@ -2078,13 +1916,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 91.37,
-        "90d": 96.95,
-        "1y": 97.97
+        "24h": 100.0,
+        "30d": 91.43,
+        "90d": 96.94,
+        "1y": 97.98
       }
     },
     {
@@ -2100,45 +1938,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 98.91,
         "90d": 99.63,
         "1y": 99.77
-      }
-    },
-    {
-      "ip": "113.52.197.14",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "HVSilla",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 14.29,
-        "30d": 35.41,
-        "90d": 34.75,
-        "1y": 34.09
       }
     },
     {
@@ -2158,29 +1969,29 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 82.75,
-        "90d": 83.66,
-        "1y": 89.88
+        "24h": 98.15,
+        "30d": 83.09,
+        "90d": 83.8,
+        "1y": 89.91
       }
     },
     {
-      "ip": "115.20.135.121",
+      "ip": "219.252.1.100",
       "version": 4,
       "country_code": "kr",
       "country": "South Korea",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Chungbukbonbujang",
-      "domain": null,
+      "organization": "SK-TELECOM",
+      "domain": "ns1.skline.co.kr",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -2189,10 +2000,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 31.28,
-        "90d": 33.55,
-        "1y": 33.4
+        "24h": 67.92,
+        "30d": 63.16,
+        "90d": 74.25,
+        "1y": 70.61
+      }
+    },
+    {
+      "ip": "221.164.178.115",
+      "version": 4,
+      "country_code": "kr",
+      "country": "South Korea",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Kornet",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 3.51,
+        "30d": 31.11,
+        "90d": 33.43,
+        "1y": 31.71
       }
     },
     {
@@ -2217,8 +2055,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.5,
-        "90d": 98.77,
+        "30d": 95.53,
+        "90d": 98.76,
         "1y": 99.14
       }
     },
@@ -2239,12 +2077,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.9,
+        "30d": 95.05,
         "90d": 98.04,
         "1y": 98.86
       }
@@ -2265,15 +2103,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.42,
+        "30d": 98.43,
         "90d": 98.86,
-        "1y": 98.99
+        "1y": 99.0
       }
     },
     {
@@ -2293,14 +2131,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 92.19,
-        "30d": 71.93,
-        "90d": 76.26,
-        "1y": 76.89
+        "24h": 94.34,
+        "30d": 72.71,
+        "90d": 76.33,
+        "1y": 76.94
       }
     },
     {
@@ -2325,7 +2163,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.51,
+        "30d": 99.52,
         "90d": 99.88,
         "1y": 99.84
       }
@@ -2378,10 +2216,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 73.44,
-        "30d": 65.37,
-        "90d": 75.82,
-        "1y": 76.59
+        "24h": 84.91,
+        "30d": 65.94,
+        "90d": 75.9,
+        "1y": 76.63
       }
     },
     {
@@ -2406,7 +2244,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.34,
+        "30d": 99.35,
         "90d": 97.54,
         "1y": 98.52
       }
@@ -2432,10 +2270,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 89.06,
-        "30d": 41.04,
-        "90d": 31.95,
-        "1y": 36.44
+        "24h": 87.72,
+        "30d": 43.02,
+        "90d": 32.09,
+        "1y": 36.58
       }
     },
     {
@@ -2456,13 +2294,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 81.65,
-        "90d": 87.11,
-        "1y": 92.14
+        "24h": 88.89,
+        "30d": 81.64,
+        "90d": 87.06,
+        "1y": 92.12
       }
     },
     {
@@ -2483,13 +2321,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 89.06,
-        "30d": 86.63,
-        "90d": 84.24,
-        "1y": 83.83
+        "24h": 88.89,
+        "30d": 86.96,
+        "90d": 84.46,
+        "1y": 83.87
       }
     },
     {
@@ -2508,15 +2346,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 53.12,
-        "30d": 57.72,
-        "90d": 78.94,
-        "1y": 87.35
+        "24h": 61.82,
+        "30d": 58.09,
+        "90d": 78.81,
+        "1y": 87.34
       }
     },
     {
@@ -2536,12 +2374,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.57,
+        "30d": 97.58,
         "90d": 98.86,
         "1y": 99.24
       }
@@ -2562,15 +2400,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.68,
+        "30d": 93.84,
         "90d": 97.93,
-        "1y": 98.81
+        "1y": 98.82
       }
     },
     {
@@ -2585,7 +2423,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -2595,36 +2433,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.5,
+        "30d": 95.53,
         "90d": 98.18,
         "1y": 98.65
-      }
-    },
-    {
-      "ip": "110.15.182.145",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "broadNnet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 73.44,
-        "30d": 50.79,
-        "90d": 70.92,
-        "1y": 75.75
       }
     },
     {
@@ -2645,13 +2456,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 73.44,
-        "30d": 77.07,
-        "90d": 73.99,
-        "1y": 77.42
+        "24h": 68.52,
+        "30d": 77.46,
+        "90d": 74.0,
+        "1y": 77.36
       }
     },
     {
@@ -2675,10 +2486,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 65.62,
-        "30d": 63.79,
-        "90d": 75.58,
-        "1y": 80.89
+        "24h": 69.09,
+        "30d": 63.65,
+        "90d": 75.47,
+        "1y": 80.84
+      }
+    },
+    {
+      "ip": "121.187.165.74",
+      "version": 4,
+      "country_code": "kr",
+      "country": "South Korea",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Kornet",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 17.86,
+        "30d": 15.66,
+        "90d": 18.24,
+        "1y": 17.26
       }
     },
     {
@@ -2697,15 +2535,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 96.88,
-        "30d": 89.43,
-        "90d": 86.96,
-        "1y": 84.22
+        "24h": 98.18,
+        "30d": 89.73,
+        "90d": 87.03,
+        "1y": 84.26
       }
     },
     {
@@ -2721,7 +2559,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -2730,7 +2568,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.39,
+        "30d": 99.4,
         "90d": 99.66,
         "1y": 99.42
       }
@@ -2753,13 +2591,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 73.44,
-        "30d": 57.59,
-        "90d": 78.91,
-        "1y": 87.32
+        "24h": 80.0,
+        "30d": 57.97,
+        "90d": 78.81,
+        "1y": 87.3
       }
     },
     {
@@ -2780,13 +2618,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 84.38,
-        "30d": 65.49,
-        "90d": 75.67,
-        "1y": 79.44
+        "24h": 79.25,
+        "30d": 65.58,
+        "90d": 75.71,
+        "1y": 79.43
       }
     },
     {
@@ -2807,40 +2645,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 84.08,
-        "90d": 87.42,
-        "1y": 87.86
-      }
-    },
-    {
-      "ip": "222.103.228.194",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kornet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.88,
-        "30d": 89.91,
-        "90d": 87.79,
-        "1y": 86.79
+        "30d": 84.68,
+        "90d": 87.53,
+        "1y": 87.89
       }
     },
     {
@@ -2861,40 +2672,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.93,
-        "90d": 99.48,
-        "1y": 99.67
-      }
-    },
-    {
-      "ip": "14.45.18.140",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kornet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 43.46,
-        "90d": 34.78,
-        "1y": 32.83
+        "24h": 100.0,
+        "30d": 97.95,
+        "90d": 99.47,
+        "1y": 99.67
       }
     },
     {
@@ -2914,68 +2698,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.39,
-        "90d": 98.74,
+        "30d": 99.4,
+        "90d": 98.73,
         "1y": 99.22
-      }
-    },
-    {
-      "ip": "27.174.13.166",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "SK-TELECOM",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 95.31,
-        "30d": 86.5,
-        "90d": 70.81,
-        "1y": 50.42
-      }
-    },
-    {
-      "ip": "1.224.253.99",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "broadNnet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 6.25,
-        "30d": 17.39,
-        "90d": 7.66,
-        "1y": 12.81
       }
     },
     {
@@ -2995,14 +2725,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 82.13,
-        "90d": 71.84,
-        "1y": 62.32
+        "24h": 98.15,
+        "30d": 82.49,
+        "90d": 72.42,
+        "1y": 62.9
       }
     },
     {
@@ -3022,14 +2752,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 84.08,
-        "90d": 90.19,
-        "1y": 90.74
+        "30d": 85.02,
+        "90d": 90.18,
+        "1y": 90.76
       }
     },
     {
@@ -3054,7 +2784,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.78,
+        "30d": 98.79,
         "90d": 99.17,
         "1y": 99.54
       }
@@ -3077,7 +2807,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -3104,67 +2834,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
         "90d": 99.91,
         "1y": 99.82
-      }
-    },
-    {
-      "ip": "58.124.34.235",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "broadNnet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 8.33,
-        "30d": 10.16,
-        "90d": 12.02,
-        "1y": 9.13
-      }
-    },
-    {
-      "ip": "211.116.138.5",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Korea National University of Arts",
-      "domain": "mail.knua.ac.kr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 76.56,
-        "30d": 62.45,
-        "90d": 74.82,
-        "1y": 84.62
       }
     },
     {
@@ -3184,12 +2860,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.78,
+        "30d": 94.81,
         "90d": 98.52,
         "1y": 99.14
       }
@@ -3266,13 +2942,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 78.14,
-        "90d": 36.29,
-        "1y": 75.83
+        "30d": 78.78,
+        "90d": 37.11,
+        "1y": 75.92
       }
     },
     {
@@ -3319,14 +2995,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 72.12,
-        "90d": 86.79,
-        "1y": 89.65
+        "24h": 95.45,
+        "30d": 72.74,
+        "90d": 86.84,
+        "1y": 89.68
       }
     },
     {
@@ -3368,7 +3044,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -3377,37 +3053,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 62.5,
-        "30d": 58.93,
-        "90d": 75.95,
-        "1y": 83.89
-      }
-    },
-    {
-      "ip": "211.188.180.21",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "SK Telecom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 95.31,
-        "30d": 84.93,
-        "90d": 85.87,
-        "1y": 90.87
+        "24h": 65.45,
+        "30d": 59.06,
+        "90d": 75.87,
+        "1y": 83.85
       }
     },
     {
@@ -3432,7 +3081,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.51,
+        "30d": 99.52,
         "90d": 99.75,
         "1y": 99.77
       }
@@ -3455,40 +3104,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.88,
-        "30d": 89.19,
-        "90d": 95.22,
-        "1y": 96.6
-      }
-    },
-    {
-      "ip": "119.204.65.93",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kornet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 81.58,
-        "30d": 22.46,
-        "90d": 29.62,
-        "1y": 29.9
+        "24h": 98.18,
+        "30d": 89.37,
+        "90d": 95.21,
+        "1y": 96.61
       }
     },
     {
@@ -3508,41 +3130,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 98.44,
-        "30d": 87.0,
-        "90d": 89.24,
-        "1y": 89.66
-      }
-    },
-    {
-      "ip": "112.186.103.96",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kornet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 76.56,
-        "30d": 41.46,
-        "90d": 37.77,
-        "1y": 34.22
+        "24h": 98.18,
+        "30d": 87.32,
+        "90d": 89.35,
+        "1y": 89.69
       }
     },
     {
@@ -3562,14 +3157,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 89.06,
-        "30d": 87.73,
-        "90d": 93.77,
-        "1y": 93.5
+        "24h": 94.55,
+        "30d": 88.16,
+        "90d": 93.76,
+        "1y": 93.52
       }
     },
     {
@@ -3584,7 +3179,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -3593,91 +3188,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 40.62,
-        "30d": 68.94,
-        "90d": 92.82,
-        "1y": 96.25
-      }
-    },
-    {
-      "ip": "58.79.26.85",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "LG POWERCOMM",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 89.74,
-        "30d": 34.33,
-        "90d": 32.45,
-        "1y": 31.9
-      }
-    },
-    {
-      "ip": "222.104.22.126",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Korea Telecom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 62.96,
-        "30d": 34.01,
-        "90d": 28.41,
-        "1y": 30.11
-      }
-    },
-    {
-      "ip": "211.250.103.182",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kornet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 89.06,
-        "30d": 49.6,
-        "90d": 56.67,
-        "1y": 59.57
+        "24h": 46.43,
+        "30d": 68.46,
+        "90d": 92.64,
+        "1y": 96.17
       }
     },
     {
@@ -3702,9 +3216,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.96,
+        "30d": 96.98,
         "90d": 97.81,
-        "1y": 96.93
+        "1y": 96.94
       }
     },
     {
@@ -3720,7 +3234,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -3728,10 +3242,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 91.25,
-        "90d": 89.79,
-        "1y": 89.35
+        "24h": 98.21,
+        "30d": 91.3,
+        "90d": 89.78,
+        "1y": 89.36
       }
     },
     {
@@ -3762,33 +3276,6 @@
       }
     },
     {
-      "ip": "183.107.20.90",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Korea Telecom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 7.14,
-        "30d": 27.01,
-        "90d": 37.51,
-        "1y": 34.29
-      }
-    },
-    {
       "ip": "222.231.63.77",
       "version": 4,
       "country_code": "kr",
@@ -3810,9 +3297,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.39,
-        "90d": 97.69,
-        "1y": 97.49
+        "30d": 99.4,
+        "90d": 97.71,
+        "1y": 97.5
       }
     },
     {
@@ -3837,9 +3324,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.84,
+        "30d": 96.86,
         "90d": 96.48,
-        "1y": 98.0
+        "1y": 98.01
       }
     },
     {
@@ -3860,13 +3347,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 80.96,
-        "90d": 84.91,
-        "1y": 88.35
+        "24h": 94.44,
+        "30d": 82.28,
+        "90d": 84.84,
+        "1y": 88.36
       }
     },
     {
@@ -3881,7 +3368,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -3890,10 +3377,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 70.31,
-        "30d": 55.77,
-        "90d": 77.98,
-        "1y": 86.84
+        "24h": 74.55,
+        "30d": 56.04,
+        "90d": 77.89,
+        "1y": 86.81
       }
     },
     {
@@ -3917,10 +3404,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 70.31,
-        "30d": 83.48,
-        "90d": 93.31,
-        "1y": 95.66
+        "24h": 83.33,
+        "30d": 83.57,
+        "90d": 93.3,
+        "1y": 95.68
       }
     },
     {
@@ -3948,33 +3435,6 @@
         "30d": 100.0,
         "90d": 99.81,
         "1y": 99.79
-      }
-    },
-    {
-      "ip": "218.235.251.2",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "SK Broadband Co Ltd",
-      "domain": "ns.greencross.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 73.44,
-        "30d": 56.62,
-        "90d": 77.55,
-        "1y": 86.18
       }
     },
     {
@@ -4021,13 +3481,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.96,
-        "90d": 98.76,
+        "30d": 95.99,
+        "90d": 98.75,
         "1y": 98.88
       }
     },
@@ -4049,13 +3509,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 75.33,
-        "90d": 79.34,
-        "1y": 80.51
+        "24h": 98.18,
+        "30d": 76.09,
+        "90d": 79.46,
+        "1y": 80.56
       }
     },
     {
@@ -4079,21 +3539,21 @@
         "adult": false
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 99.51,
-        "90d": 96.49,
-        "1y": 90.54
+        "24h": 96.3,
+        "30d": 99.4,
+        "90d": 96.51,
+        "1y": 90.56
       }
     },
     {
-      "ip": "121.166.237.204",
+      "ip": "219.252.0.1",
       "version": 4,
       "country_code": "kr",
       "country": "South Korea",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Kornet",
-      "domain": null,
+      "organization": "SK-TELECOM",
+      "domain": "ns.skline.co.kr",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -4101,15 +3561,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 82.26,
-        "90d": 82.58,
-        "1y": 69.48
+        "24h": 62.96,
+        "30d": 63.89,
+        "90d": 75.22,
+        "1y": 85.55
       }
     },
     {
@@ -4128,15 +3588,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.06,
-        "90d": 95.41,
-        "1y": 95.96
+        "30d": 89.49,
+        "90d": 95.4,
+        "1y": 95.97
       }
     },
     {
@@ -4156,14 +3616,41 @@
       },
       "blocking": {
         "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 69.64,
+        "30d": 61.59,
+        "90d": 77.08,
+        "1y": 78.91
+      }
+    },
+    {
+      "ip": "1.250.154.15",
+      "version": 4,
+      "country_code": "kr",
+      "country": "South Korea",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "SK Broadband Co Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 71.88,
-        "30d": 61.73,
-        "90d": 77.27,
-        "1y": 78.98
+        "24h": 18.52,
+        "30d": 19.87,
+        "90d": 12.29,
+        "1y": 11.32
       }
     },
     {
@@ -4187,10 +3674,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 96.88,
-        "30d": 91.74,
-        "90d": 90.91,
-        "1y": 94.69
+        "24h": 98.15,
+        "30d": 91.79,
+        "90d": 91.01,
+        "1y": 94.71
       }
     },
     {
@@ -4210,12 +3697,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.54,
+        "30d": 98.55,
         "90d": 98.86,
         "1y": 99.18
       }
@@ -4236,15 +3723,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 68.75,
-        "30d": 64.96,
-        "90d": 75.32,
-        "1y": 70.46
+        "24h": 64.91,
+        "30d": 64.9,
+        "90d": 75.14,
+        "1y": 70.32
       }
     },
     {
@@ -4265,13 +3752,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.15,
-        "90d": 96.97,
-        "1y": 91.31
+        "30d": 99.28,
+        "90d": 97.04,
+        "1y": 91.37
       }
     },
     {
@@ -4290,15 +3777,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 96.88,
-        "30d": 68.89,
-        "90d": 69.81,
-        "1y": 77.4
+        "24h": 96.3,
+        "30d": 69.44,
+        "90d": 69.75,
+        "1y": 77.42
       }
     },
     {
@@ -4318,14 +3805,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.42,
+        "30d": 98.43,
         "90d": 99.2,
-        "1y": 99.32
+        "1y": 99.33
       }
     },
     {
@@ -4350,9 +3837,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 83.7,
-        "90d": 90.5,
-        "1y": 79.49
+        "30d": 84.2,
+        "90d": 90.49,
+        "1y": 79.54
       }
     },
     {
@@ -4376,37 +3863,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 92.19,
-        "30d": 87.0,
-        "90d": 84.86,
-        "1y": 86.02
-      }
-    },
-    {
-      "ip": "125.132.233.32",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Korea Telecom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 48.72,
-        "30d": 33.63,
-        "90d": 28.76,
-        "1y": 29.65
+        "24h": 90.74,
+        "30d": 87.08,
+        "90d": 84.89,
+        "1y": 86.04
       }
     },
     {
@@ -4426,13 +3886,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.93,
-        "90d": 95.93,
+        "30d": 89.37,
+        "90d": 95.92,
         "1y": 97.71
       }
     },
@@ -4464,6 +3924,33 @@
       }
     },
     {
+      "ip": "14.43.82.31",
+      "version": 4,
+      "country_code": "kr",
+      "country": "South Korea",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Kornet",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 59.26,
+        "30d": 51.81,
+        "90d": 46.69,
+        "1y": 46.62
+      }
+    },
+    {
       "ip": "58.180.176.3",
       "version": 4,
       "country_code": "kr",
@@ -4480,13 +3967,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 84.57,
-        "90d": 89.45,
+        "24h": 94.55,
+        "30d": 84.9,
+        "90d": 89.4,
         "1y": 93.73
       }
     },
@@ -4506,42 +3993,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 81.25,
-        "30d": 90.52,
-        "90d": 97.56,
-        "1y": 98.62
-      }
-    },
-    {
-      "ip": "49.1.168.71",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "DLIVE Yongsan Cable TV",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 15.38,
-        "30d": 30.43,
-        "90d": 34.17,
-        "1y": 31.92
+        "24h": 80.0,
+        "30d": 90.1,
+        "90d": 97.44,
+        "1y": 98.55
       }
     },
     {
@@ -4560,15 +4020,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 96.88,
-        "30d": 89.43,
-        "90d": 86.89,
-        "1y": 81.8
+        "24h": 87.04,
+        "30d": 88.89,
+        "90d": 86.87,
+        "1y": 81.76
       }
     },
     {
@@ -4593,7 +4053,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.29,
+        "30d": 94.32,
         "90d": 98.52,
         "1y": 99.16
       }
@@ -4647,36 +4107,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.84,
+        "30d": 96.86,
         "90d": 98.55,
-        "1y": 99.04
-      }
-    },
-    {
-      "ip": "203.249.171.2",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Korea Telecom",
-      "domain": "ns1.nongshim.co.kr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 54.04,
-        "90d": 78.68,
-        "1y": 87.42
+        "1y": 99.05
       }
     },
     {
@@ -4692,7 +4125,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -4723,7 +4156,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
@@ -4756,8 +4189,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.64,
-        "90d": 98.1,
-        "1y": 97.58
+        "90d": 98.11,
+        "1y": 97.59
       }
     },
     {
@@ -4776,15 +4209,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "ads": true,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 96.88,
-        "30d": 86.76,
-        "90d": 90.13,
-        "1y": 90.06
+        "24h": 100.0,
+        "30d": 87.08,
+        "90d": 90.2,
+        "1y": 90.08
       }
     },
     {
@@ -4805,7 +4238,7 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -4832,40 +4265,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 68.75,
-        "30d": 62.7,
-        "90d": 76.23,
-        "1y": 79.54
-      }
-    },
-    {
-      "ip": "61.79.146.73",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Korea Telecom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 92.19,
-        "30d": 73.75,
-        "90d": 78.42,
-        "1y": 77.58
+        "24h": 69.64,
+        "30d": 62.68,
+        "90d": 76.07,
+        "1y": 79.49
       }
     },
     {
@@ -4886,11 +4292,11 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.39,
+        "30d": 99.4,
         "90d": 99.81,
         "1y": 99.88
       }
@@ -4912,13 +4318,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 79.2,
-        "90d": 94.78,
+        "30d": 79.33,
+        "90d": 94.77,
         "1y": 97.09
       }
     },
@@ -4940,11 +4346,11 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.15,
+        "30d": 99.16,
         "90d": 97.59,
         "1y": 98.57
       }
@@ -4970,10 +4376,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 95.31,
-        "30d": 87.23,
-        "90d": 86.15,
-        "1y": 86.25
+        "24h": 92.86,
+        "30d": 87.44,
+        "90d": 86.2,
+        "1y": 86.27
       }
     },
     {
@@ -4993,14 +4399,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.2,
+        "30d": 93.6,
         "90d": 97.16,
-        "1y": 97.84
+        "1y": 97.85
       }
     },
     {
@@ -5019,15 +4425,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 82.14,
-        "90d": 87.05,
-        "1y": 87.54
+        "24h": 98.21,
+        "30d": 82.39,
+        "90d": 87.13,
+        "1y": 87.57
       }
     },
     {
@@ -5047,14 +4453,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 82.62,
-        "90d": 85.11,
-        "1y": 85.46
+        "24h": 98.21,
+        "30d": 83.21,
+        "90d": 85.18,
+        "1y": 85.49
       }
     },
     {
@@ -5074,7 +4480,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -5097,16 +4503,16 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 92.59,
+        "24h": 100.0,
+        "30d": 92.75,
         "90d": 97.13,
         "1y": 98.37
       }
@@ -5128,14 +4534,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 84.38,
-        "30d": 67.44,
-        "90d": 82.76,
-        "1y": 89.65
+        "24h": 79.25,
+        "30d": 67.39,
+        "90d": 82.63,
+        "1y": 89.61
       }
     },
     {
@@ -5161,8 +4567,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.88,
-        "90d": 97.89,
-        "1y": 92.77
+        "90d": 97.94,
+        "1y": 92.81
       }
     },
     {
@@ -5178,18 +4584,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 96.88,
-        "30d": 88.7,
-        "90d": 88.3,
-        "1y": 83.44
+        "24h": 98.11,
+        "30d": 89.01,
+        "90d": 88.39,
+        "1y": 83.5
       }
     },
     {
@@ -5213,37 +4619,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 99.51,
+        "24h": 98.11,
+        "30d": 99.52,
         "90d": 99.78,
         "1y": 99.74
-      }
-    },
-    {
-      "ip": "210.205.247.4",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Seoyeong Engineering",
-      "domain": "symail.seoyeong.co.kr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 76.56,
-        "30d": 62.58,
-        "90d": 74.69,
-        "1y": 84.85
       }
     },
     {
@@ -5263,14 +4642,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 92.09,
+        "24h": 98.18,
+        "30d": 92.39,
         "90d": 95.99,
-        "1y": 92.0
+        "1y": 92.02
       }
     },
     {
@@ -5290,13 +4669,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 92.19,
-        "30d": 87.86,
-        "90d": 89.9,
+        "24h": 92.86,
+        "30d": 87.83,
+        "90d": 89.86,
         "1y": 93.81
       }
     },
@@ -5349,63 +4728,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.82,
-        "90d": 86.25,
-        "1y": 83.83
-      }
-    },
-    {
-      "ip": "221.150.72.183",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "KORNET",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 14.29,
-        "30d": 27.31,
-        "90d": 31.95,
-        "1y": 32.38
-      }
-    },
-    {
-      "ip": "223.171.73.110",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "LGTELECOM",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 53.12,
-        "30d": 36.36,
-        "90d": 45.87,
-        "1y": 49.09
+        "30d": 89.25,
+        "90d": 86.28,
+        "1y": 83.87
       }
     },
     {
@@ -5430,9 +4755,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.32,
+        "30d": 93.36,
         "90d": 97.22,
-        "1y": 98.25
+        "1y": 98.26
       }
     },
     {
@@ -5447,7 +4772,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -5456,10 +4781,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 22.05,
-        "90d": 28.26,
-        "1y": 29.09
+        "24h": 87.5,
+        "30d": 24.88,
+        "90d": 28.62,
+        "1y": 29.26
       }
     },
     {
@@ -5479,14 +4804,41 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 87.97,
-        "90d": 86.68,
-        "1y": 85.79
+        "24h": 94.64,
+        "30d": 88.3,
+        "90d": 86.79,
+        "1y": 85.82
+      }
+    },
+    {
+      "ip": "221.143.46.205",
+      "version": 4,
+      "country_code": "kr",
+      "country": "South Korea",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "SK Broadband Co Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.47,
+        "30d": 51.52,
+        "90d": 76.97,
+        "1y": 86.84
       }
     },
     {
@@ -5533,12 +4885,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.93,
+        "30d": 98.07,
         "90d": 98.7,
         "1y": 99.14
       }
@@ -5561,40 +4913,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.75,
-        "30d": 82.26,
-        "90d": 90.93,
-        "1y": 83.36
-      }
-    },
-    {
-      "ip": "121.185.49.175",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Korea Telecom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 18.75,
-        "30d": 18.81,
-        "90d": 18.85,
-        "1y": 19.28
+        "24h": 100.0,
+        "30d": 83.57,
+        "90d": 91.41,
+        "1y": 83.4
       }
     },
     {
@@ -5609,12 +4934,12 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
@@ -5642,77 +4967,23 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.67,
-        "90d": 88.56,
-        "1y": 93.69
+        "30d": 89.98,
+        "90d": 88.54,
+        "1y": 93.7
       }
     },
     {
-      "ip": "59.31.156.154",
+      "ip": "61.4.232.224",
       "version": 4,
       "country_code": "kr",
       "country": "South Korea",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Kornet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 12.5,
-        "30d": 29.57,
-        "90d": 34.19,
-        "1y": 32.88
-      }
-    },
-    {
-      "ip": "211.111.172.72",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "RayNet",
-      "domain": "a02.kuwoo.co.kr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 70.31,
-        "30d": 59.17,
-        "90d": 79.86,
-        "1y": 88.06
-      }
-    },
-    {
-      "ip": "121.191.40.185",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kornet",
+      "organization": "HVBuk-incheon",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -5726,10 +4997,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 40.62,
-        "30d": 31.8,
-        "90d": 37.53,
-        "1y": 31.6
+        "24h": 22.22,
+        "30d": 18.56,
+        "90d": 19.56,
+        "1y": 18.45
+      }
+    },
+    {
+      "ip": "59.17.120.241",
+      "version": 4,
+      "country_code": "kr",
+      "country": "South Korea",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Korea Telecom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 12.96,
+        "30d": 14.93,
+        "90d": 15.21,
+        "1y": 15.81
       }
     },
     {
@@ -5776,12 +5074,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.2,
+        "30d": 93.6,
         "90d": 97.16,
         "1y": 97.86
       }
@@ -5804,40 +5102,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 91.12,
-        "90d": 94.79,
-        "1y": 96.06
-      }
-    },
-    {
-      "ip": "203.236.120.80",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Jusikhoesa inet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 95.31,
-        "30d": 80.32,
-        "90d": 83.16,
-        "1y": 83.23
+        "24h": 100.0,
+        "30d": 91.3,
+        "90d": 94.78,
+        "1y": 96.07
       }
     },
     {
@@ -5862,9 +5133,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.22,
-        "90d": 93.43,
-        "1y": 92.98
+        "30d": 92.39,
+        "90d": 93.48,
+        "1y": 92.99
       }
     },
     {
@@ -5879,46 +5150,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 87.48,
-        "90d": 85.45,
-        "1y": 86.28
-      }
-    },
-    {
-      "ip": "14.49.201.40",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kornet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 90.62,
-        "30d": 48.39,
-        "90d": 36.61,
-        "1y": 34.68
+        "24h": 98.21,
+        "30d": 87.44,
+        "90d": 85.48,
+        "1y": 86.3
       }
     },
     {
@@ -5938,14 +5182,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 64.06,
-        "30d": 51.15,
-        "90d": 51.07,
-        "1y": 47.94
+        "24h": 70.37,
+        "30d": 51.81,
+        "90d": 51.21,
+        "1y": 48.07
       }
     },
     {
@@ -5966,11 +5210,11 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.42,
+        "30d": 98.43,
         "90d": 99.26,
         "1y": 99.21
       }
@@ -5996,37 +5240,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 82.81,
-        "30d": 67.8,
-        "90d": 76.1,
-        "1y": 77.77
-      }
-    },
-    {
-      "ip": "221.156.92.194",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kornet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 61.54,
-        "30d": 28.28,
-        "90d": 30.56,
-        "1y": 31.63
+        "24h": 87.5,
+        "30d": 68.15,
+        "90d": 76.51,
+        "1y": 77.81
       }
     },
     {
@@ -6050,10 +5267,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 85.66,
-        "90d": 87.42,
-        "1y": 88.05
+        "24h": 98.21,
+        "30d": 86.49,
+        "90d": 87.53,
+        "1y": 88.08
       }
     },
     {
@@ -6069,7 +5286,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -6077,10 +5294,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.15,
-        "90d": 99.52,
-        "1y": 99.52
+        "24h": 98.11,
+        "30d": 99.03,
+        "90d": 99.47,
+        "1y": 99.47
       }
     },
     {
@@ -6101,7 +5318,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -6131,64 +5348,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 37.5,
-        "30d": 34.83,
-        "90d": 31.6,
-        "1y": 31.46
-      }
-    },
-    {
-      "ip": "183.104.157.72",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kornet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 78.95,
-        "90d": 87.82,
-        "1y": 89.71
-      }
-    },
-    {
-      "ip": "1.245.143.189",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "broadNnet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 18.75,
-        "30d": 16.08,
-        "90d": 13.09,
-        "1y": 10.36
+        "24h": 64.29,
+        "30d": 36.72,
+        "90d": 32.1,
+        "1y": 31.68
       }
     },
     {
@@ -6209,11 +5372,11 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.51,
+        "30d": 99.52,
         "90d": 99.75,
         "1y": 99.74
       }
@@ -6239,10 +5402,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 96.88,
-        "30d": 90.02,
-        "90d": 96.15,
-        "1y": 97.38
+        "24h": 92.98,
+        "30d": 89.87,
+        "90d": 96.08,
+        "1y": 97.35
       }
     },
     {
@@ -6262,14 +5425,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 79.9,
-        "90d": 52.13,
-        "1y": 36.81
+        "24h": 96.36,
+        "30d": 81.31,
+        "90d": 54.55,
+        "1y": 38.93
       }
     },
     {
@@ -6294,9 +5457,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.8,
-        "90d": 95.5,
-        "1y": 96.6
+        "30d": 93.84,
+        "90d": 95.49,
+        "1y": 96.61
       }
     },
     {
@@ -6317,11 +5480,11 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.88,
+        "30d": 98.9,
         "90d": 98.84,
         "1y": 99.31
       }
@@ -6344,13 +5507,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 64.06,
-        "30d": 62.82,
-        "90d": 81.22,
-        "1y": 88.43
+        "24h": 68.52,
+        "30d": 62.92,
+        "90d": 81.12,
+        "1y": 88.39
       }
     },
     {
@@ -6371,13 +5534,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 65.62,
-        "30d": 62.09,
-        "90d": 80.88,
-        "1y": 88.44
+        "24h": 72.22,
+        "30d": 62.44,
+        "90d": 80.75,
+        "1y": 88.4
       }
     },
     {
@@ -6397,14 +5560,68 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 76.56,
-        "30d": 62.33,
-        "90d": 68.86,
-        "1y": 71.43
+        "24h": 74.55,
+        "30d": 62.92,
+        "90d": 68.89,
+        "1y": 71.45
+      }
+    },
+    {
+      "ip": "121.189.15.8",
+      "version": 4,
+      "country_code": "kr",
+      "country": "South Korea",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Kornet",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 94.74,
+        "30d": 85.64,
+        "90d": 84.19,
+        "1y": 75.64
+      }
+    },
+    {
+      "ip": "59.27.124.209",
+      "version": 4,
+      "country_code": "kr",
+      "country": "South Korea",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Korea Telecom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 79.83,
+        "90d": 68.95,
+        "1y": 65.28
       }
     },
     {
@@ -6429,8 +5646,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.25,
-        "90d": 96.67,
+        "30d": 91.79,
+        "90d": 96.66,
         "1y": 97.66
       }
     },
@@ -6455,10 +5672,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 60.15,
-        "90d": 79.9,
-        "1y": 87.86
+        "24h": 80.0,
+        "30d": 60.63,
+        "90d": 79.8,
+        "1y": 87.85
       }
     },
     {
@@ -6482,10 +5699,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 92.19,
-        "30d": 81.14,
-        "90d": 86.05,
-        "1y": 81.78
+        "24h": 90.74,
+        "30d": 81.27,
+        "90d": 86.18,
+        "1y": 81.81
       }
     },
     {
@@ -6506,12 +5723,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.62,
-        "90d": 97.07,
+        "30d": 91.79,
+        "90d": 97.06,
         "1y": 98.01
       }
     },
@@ -6537,9 +5754,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.04,
-        "90d": 96.92,
-        "1y": 97.69
+        "30d": 94.09,
+        "90d": 96.91,
+        "1y": 97.7
       }
     },
     {
@@ -6570,6 +5787,33 @@
       }
     },
     {
+      "ip": "203.239.130.3",
+      "version": 4,
+      "country_code": "kr",
+      "country": "South Korea",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "ELIMNET",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 48.39,
+        "30d": 60.09,
+        "90d": 89.16,
+        "1y": 93.17
+      }
+    },
+    {
       "ip": "211.60.96.137",
       "version": 4,
       "country_code": "kr",
@@ -6587,13 +5831,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 75.7,
-        "90d": 90.41,
-        "1y": 94.59
+        "24h": 98.11,
+        "30d": 77.05,
+        "90d": 90.39,
+        "1y": 94.61
       }
     },
     {
@@ -6613,14 +5857,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 65.62,
-        "30d": 63.79,
-        "90d": 76.07,
-        "1y": 80.35
+        "24h": 69.09,
+        "30d": 64.01,
+        "90d": 75.93,
+        "1y": 80.31
       }
     },
     {
@@ -6641,11 +5885,11 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.72,
+        "30d": 96.74,
         "90d": 99.01,
         "1y": 99.39
       }
@@ -6671,10 +5915,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 95.31,
-        "30d": 99.39,
-        "90d": 96.49,
-        "1y": 90.54
+        "24h": 98.15,
+        "30d": 99.28,
+        "90d": 96.51,
+        "1y": 90.56
       }
     },
     {
@@ -6698,10 +5942,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 82.81,
-        "30d": 65.25,
-        "90d": 82.27,
-        "1y": 89.19
+        "24h": 73.58,
+        "30d": 65.1,
+        "90d": 82.14,
+        "1y": 89.13
       }
     },
     {
@@ -6725,10 +5969,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.78,
-        "90d": 99.04,
-        "1y": 97.2
+        "24h": 98.15,
+        "30d": 98.67,
+        "90d": 99.01,
+        "1y": 97.19
       }
     },
     {
@@ -6752,10 +5996,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 85.94,
-        "30d": 69.95,
-        "90d": 67.78,
-        "1y": 69.17
+        "24h": 89.29,
+        "30d": 70.89,
+        "90d": 67.94,
+        "1y": 69.23
       }
     },
     {
@@ -6774,42 +6018,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 85.66,
-        "90d": 89.39,
-        "1y": 90.11
-      }
-    },
-    {
-      "ip": "121.184.236.110",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Korea Telecom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 96.88,
-        "30d": 86.39,
-        "90d": 89.33,
-        "1y": 90.04
+        "24h": 100.0,
+        "30d": 86.11,
+        "90d": 89.43,
+        "1y": 90.13
       }
     },
     {
@@ -6829,13 +6046,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 90.77,
-        "90d": 97.32,
+        "24h": 98.18,
+        "30d": 90.94,
+        "90d": 97.31,
         "1y": 98.45
       }
     },
@@ -6851,8 +6068,8 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": false
+        "aware": false,
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -6860,10 +6077,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 89.06,
-        "30d": 86.5,
-        "90d": 93.71,
-        "1y": 95.5
+        "24h": 92.98,
+        "30d": 86.73,
+        "90d": 93.7,
+        "1y": 95.51
       }
     },
     {
@@ -6882,15 +6099,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 73.44,
-        "30d": 66.1,
-        "90d": 59.3,
-        "1y": 58.93
+        "24h": 74.07,
+        "30d": 66.3,
+        "90d": 59.47,
+        "1y": 58.98
       }
     },
     {
@@ -6909,15 +6126,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.79,
-        "90d": 95.87,
-        "1y": 97.21
+        "30d": 90.22,
+        "90d": 95.86,
+        "1y": 97.22
       }
     },
     {
@@ -6937,12 +6154,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.27,
+        "30d": 99.28,
         "90d": 99.41,
         "1y": 99.51
       }
@@ -6969,7 +6186,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.8,
+        "30d": 93.84,
         "90d": 97.87,
         "1y": 97.43
       }
@@ -6995,9 +6212,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 78.12,
-        "30d": 88.58,
-        "90d": 97.04,
+        "24h": 81.48,
+        "30d": 88.65,
+        "90d": 97.03,
         "1y": 98.42
       }
     },
@@ -7018,7 +6235,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -7026,33 +6243,6 @@
         "30d": 100.0,
         "90d": 99.88,
         "1y": 99.93
-      }
-    },
-    {
-      "ip": "218.236.49.18",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "AMDPCBANG",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 56.25,
-        "30d": 58.57,
-        "90d": 72.28,
-        "1y": 71.67
       }
     },
     {
@@ -7077,8 +6267,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.67,
-        "90d": 95.25,
+        "30d": 95.9,
+        "90d": 95.24,
         "1y": 96.56
       }
     },
@@ -7104,9 +6294,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.64,
-        "90d": 91.37,
-        "1y": 92.85
+        "30d": 90.82,
+        "90d": 91.35,
+        "1y": 92.86
       }
     },
     {
@@ -7127,11 +6317,11 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.66,
+        "30d": 98.67,
         "90d": 99.54,
         "1y": 99.7
       }
@@ -7158,9 +6348,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 59.94,
-        "90d": 88.78,
-        "1y": 85.76
+        "30d": 60.88,
+        "90d": 88.87,
+        "1y": 85.82
       }
     },
     {
@@ -7181,11 +6371,11 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.93,
+        "30d": 97.95,
         "90d": 99.29,
         "1y": 99.31
       }
@@ -7212,63 +6402,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.08,
-        "90d": 98.77,
-        "1y": 98.99
-      }
-    },
-    {
-      "ip": "211.245.239.40",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "broadNnet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 60.87,
-        "90d": 79.77,
-        "1y": 87.85
-      }
-    },
-    {
-      "ip": "1.234.72.165",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "SK Broadband Co Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 3.12,
-        "30d": 15.46,
-        "90d": 9.54,
-        "1y": 7.98
+        "30d": 97.1,
+        "90d": 98.76,
+        "1y": 99.0
       }
     },
     {
@@ -7293,9 +6429,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.54,
-        "90d": 95.19,
-        "1y": 95.63
+        "30d": 89.86,
+        "90d": 95.18,
+        "1y": 95.64
       }
     },
     {
@@ -7311,7 +6447,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -7320,36 +6456,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.39,
+        "30d": 99.4,
         "90d": 99.75,
         "1y": 99.69
-      }
-    },
-    {
-      "ip": "211.254.92.254",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "BizForce",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 15.62,
-        "30d": 26.53,
-        "90d": 29.25,
-        "1y": 33.33
       }
     },
     {
@@ -7370,13 +6479,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.93,
-        "90d": 98.43,
-        "1y": 89.65
+        "30d": 97.95,
+        "90d": 98.49,
+        "1y": 89.68
       }
     },
     {
@@ -7400,10 +6509,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 95.31,
-        "30d": 83.23,
-        "90d": 91.09,
-        "1y": 82.34
+        "24h": 98.18,
+        "30d": 84.54,
+        "90d": 91.48,
+        "1y": 82.38
       }
     },
     {
@@ -7424,13 +6533,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 88.94,
-        "90d": 77.46,
-        "1y": 76.89
+        "24h": 92.59,
+        "30d": 89.01,
+        "90d": 77.6,
+        "1y": 76.93
       }
     },
     {
@@ -7451,13 +6560,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 84.38,
-        "30d": 67.56,
-        "90d": 65.06,
-        "1y": 45.92
+        "24h": 85.45,
+        "30d": 68.0,
+        "90d": 65.41,
+        "1y": 46.02
       }
     },
     {
@@ -7481,10 +6590,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 22.73,
-        "30d": 16.51,
+        "24h": 19.64,
+        "30d": 16.7,
         "90d": 17.3,
-        "1y": 17.76
+        "1y": 17.77
       }
     },
     {
@@ -7508,10 +6617,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 96.88,
-        "30d": 94.4,
-        "90d": 92.72,
-        "1y": 92.51
+        "24h": 100.0,
+        "30d": 94.57,
+        "90d": 92.74,
+        "1y": 92.53
       }
     },
     {
@@ -7532,7 +6641,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -7563,36 +6672,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.59,
+        "30d": 92.63,
         "90d": 97.07,
-        "1y": 98.33
-      }
-    },
-    {
-      "ip": "121.125.71.40",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "SK Broadband Co Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 59.38,
-        "30d": 63.06,
-        "90d": 81.1,
-        "1y": 88.59
+        "1y": 98.34
       }
     },
     {
@@ -7613,40 +6695,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 88.21,
-        "90d": 95.93,
-        "1y": 97.53
-      }
-    },
-    {
-      "ip": "112.173.44.139",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kornet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.44,
-        "30d": 89.55,
-        "90d": 86.96,
-        "1y": 86.89
+        "24h": 96.43,
+        "30d": 88.42,
+        "90d": 95.86,
+        "1y": 97.5
       }
     },
     {
@@ -7667,13 +6722,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 86.27,
-        "90d": 77.43,
-        "1y": 68.44
+        "30d": 86.85,
+        "90d": 77.86,
+        "1y": 68.86
       }
     },
     {
@@ -7694,11 +6749,11 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.23,
+        "30d": 96.26,
         "90d": 98.67,
         "1y": 99.16
       }
@@ -7719,15 +6774,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 96.88,
-        "30d": 82.21,
-        "90d": 86.54,
-        "1y": 87.42
+        "24h": 98.15,
+        "30d": 83.06,
+        "90d": 86.61,
+        "1y": 87.45
       }
     },
     {
@@ -7752,36 +6807,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.54,
+        "30d": 98.55,
         "90d": 99.23,
         "1y": 99.51
-      }
-    },
-    {
-      "ip": "59.9.198.232",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kornet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 85.66,
-        "90d": 87.97,
-        "1y": 85.14
       }
     },
     {
@@ -7801,7 +6829,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
@@ -7812,13 +6840,13 @@
       }
     },
     {
-      "ip": "1.220.153.139",
+      "ip": "1.246.201.9",
       "version": 4,
       "country_code": "kr",
       "country": "South Korea",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Boranet",
+      "organization": "SK Broadband Co Ltd",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -7832,10 +6860,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 25.0,
-        "30d": 27.57,
-        "90d": 32.49,
-        "1y": 29.21
+        "24h": 71.7,
+        "30d": 56.43,
+        "90d": 70.44,
+        "1y": 71.69
       }
     },
     {
@@ -7859,9 +6887,9 @@
         "adult": true
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 89.79,
-        "90d": 92.52,
+        "24h": 96.3,
+        "30d": 89.86,
+        "90d": 92.47,
         "1y": 95.23
       }
     },
@@ -7886,10 +6914,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 96.88,
-        "30d": 82.6,
-        "90d": 91.92,
-        "1y": 90.73
+        "24h": 96.43,
+        "30d": 83.09,
+        "90d": 92.0,
+        "1y": 90.76
       }
     },
     {
@@ -7913,10 +6941,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 89.06,
-        "30d": 63.79,
-        "90d": 77.4,
-        "1y": 83.33
+        "24h": 85.71,
+        "30d": 64.37,
+        "90d": 77.42,
+        "1y": 83.34
       }
     },
     {
@@ -7941,7 +6969,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.87,
+        "30d": 96.01,
         "90d": 98.61,
         "1y": 99.13
       }
@@ -7963,41 +6991,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 98.44,
-        "30d": 90.16,
-        "90d": 87.97,
-        "1y": 90.19
-      }
-    },
-    {
-      "ip": "1.235.89.75",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "broadNnet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 11.54,
-        "30d": 8.71,
-        "90d": 6.93,
-        "1y": 6.52
+        "24h": 96.43,
+        "30d": 90.34,
+        "90d": 87.99,
+        "1y": 90.2
       }
     },
     {
@@ -8044,41 +7045,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.88,
         "90d": 99.85,
         "1y": 99.69
-      }
-    },
-    {
-      "ip": "59.1.58.227",
-      "version": 4,
-      "country_code": "kr",
-      "country": "South Korea",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Korea Telecom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.44,
-        "30d": 86.51,
-        "90d": 89.61,
-        "1y": 90.01
       }
     },
     {
@@ -8153,13 +7127,40 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.46,
-        "90d": 92.45,
-        "1y": 95.02
+        "30d": 88.77,
+        "90d": 92.43,
+        "1y": 95.03
+      }
+    },
+    {
+      "ip": "121.180.117.234",
+      "version": 4,
+      "country_code": "kr",
+      "country": "South Korea",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "KT Corporation",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.43,
+        "30d": 83.72,
+        "90d": 93.86,
+        "1y": 91.91
       }
     },
     {
@@ -8233,14 +7234,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.21,
-        "90d": 89.64,
-        "1y": 89.99
+        "30d": 88.42,
+        "90d": 89.75,
+        "1y": 90.02
       }
     },
     {
@@ -8259,15 +7260,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.88,
-        "90d": 98.22,
-        "1y": 97.64
+        "90d": 98.23,
+        "1y": 97.65
       }
     }
   ]

@@ -4,7 +4,7 @@
     "country_name": "Kuwait",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-10-04T08:08:21Z",
+    "generated_at": "2026-10-04T18:25:23Z",
     "total_servers": 2
   },
   "resolvers": [
@@ -20,7 +20,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": true
       },
       "blocking": {
@@ -30,9 +30,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.3,
-        "90d": 96.95,
-        "1y": 97.69
+        "30d": 98.31,
+        "90d": 96.97,
+        "1y": 97.7
       }
     },
     {
@@ -51,13 +51,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.57,
+        "30d": 97.58,
         "90d": 99.2,
         "1y": 98.17
       }

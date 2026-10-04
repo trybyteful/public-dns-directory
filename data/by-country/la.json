@@ -4,8 +4,8 @@
     "country_name": "Laos",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-10-04T08:08:21Z",
-    "total_servers": 4
+    "generated_at": "2026-10-04T18:25:23Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.51,
+        "30d": 99.52,
         "90d": 96.39,
-        "1y": 97.82
+        "1y": 97.83
       }
     },
     {
@@ -57,9 +57,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.51,
+        "30d": 99.52,
         "90d": 98.55,
-        "1y": 94.92
+        "1y": 94.93
       }
     },
     {
@@ -79,41 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.3,
-        "90d": 96.89,
-        "1y": 95.76
-      }
-    },
-    {
-      "ip": "202.123.179.205",
-      "version": 4,
-      "country_code": "la",
-      "country": "Laos",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Skytelecom , Transit provider and ISP in Vientiene.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 95.31,
-        "30d": 96.72,
-        "90d": 98.21,
-        "1y": 98.42
+        "30d": 98.31,
+        "90d": 96.88,
+        "1y": 95.77
       }
     }
   ]
