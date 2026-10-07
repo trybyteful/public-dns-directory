@@ -4,8 +4,8 @@
     "country_name": "Colombia",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-10-06T18:04:44Z",
-    "total_servers": 70
+    "generated_at": "2026-10-07T06:28:47Z",
+    "total_servers": 108
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 61.67,
-        "30d": 71.43,
-        "90d": 70.7,
-        "1y": 71.77
+        "24h": 68.06,
+        "30d": 71.38,
+        "90d": 70.6,
+        "1y": 71.79
       }
     },
     {
@@ -48,7 +48,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -56,10 +56,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 76.67,
-        "30d": 61.03,
-        "90d": 54.11,
-        "1y": 47.14
+        "24h": 80.56,
+        "30d": 62.23,
+        "90d": 55.45,
+        "1y": 48.5
       }
     },
     {
@@ -75,18 +75,45 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 70.49,
-        "30d": 77.11,
-        "90d": 77.47,
-        "1y": 76.82
+        "24h": 59.72,
+        "30d": 75.52,
+        "90d": 77.45,
+        "1y": 76.65
+      }
+    },
+    {
+      "ip": "201.219.216.145",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Redes Integrales S.A",
+      "domain": "145-216-219-201.static.itelkom.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 81.94,
+        "30d": 82.76,
+        "90d": 83.3,
+        "1y": 82.11
       }
     },
     {
@@ -106,14 +133,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 73.33,
-        "30d": 50.06,
-        "90d": 46.38,
-        "1y": 45.4
+        "24h": 72.22,
+        "30d": 52.01,
+        "90d": 47.03,
+        "1y": 45.6
+      }
+    },
+    {
+      "ip": "181.204.36.42",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Colombia Móvil",
+      "domain": "static-ba-181-204-36-42.tigoune.com.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 48.61,
+        "30d": 66.67,
+        "90d": 79.39,
+        "1y": 79.69
       }
     },
     {
@@ -132,15 +186,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 18.33,
-        "30d": 54.31,
-        "90d": 63.07,
-        "1y": 65.07
+        "24h": 41.67,
+        "30d": 54.25,
+        "90d": 63.18,
+        "1y": 65.1
       }
     },
     {
@@ -159,15 +213,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 18.03,
-        "30d": 61.87,
-        "90d": 71.45,
-        "1y": 72.65
+        "24h": 38.89,
+        "30d": 61.61,
+        "90d": 71.23,
+        "1y": 72.63
       }
     },
     {
@@ -187,14 +241,122 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 91.6,
+        "90d": 96.9,
+        "1y": 98.25
+      }
+    },
+    {
+      "ip": "186.97.194.162",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Colombia Móvil",
+      "domain": "Dinamic-Tigo186-97-194-162.tigo.com.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 37.5,
+        "30d": 68.16,
+        "90d": 80.88,
+        "1y": 82.05
+      }
+    },
+    {
+      "ip": "201.184.167.2",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "UNE EPM TELECOMUNICACIONES S.A.",
+      "domain": "static-adsl201-184-167-2.une.net.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 36.11,
+        "30d": 30.34,
+        "90d": 36.66,
+        "1y": 40.96
+      }
+    },
+    {
+      "ip": "8.242.153.171",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Asociacion De Copropietarios De LA Antena Parabolica De Gachancipa APG",
+      "domain": "8-242-153-171.centurylink.com.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 72.22,
+        "30d": 77.13,
+        "90d": 75.77,
+        "1y": 76.94
+      }
+    },
+    {
+      "ip": "201.184.187.98",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "UNE EPM TELECOMUNICACIONES S.A.",
+      "domain": "static-adsl201-184-187-98.une.net.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 96.72,
-        "30d": 91.36,
-        "90d": 96.89,
-        "1y": 98.24
+        "24h": 41.67,
+        "30d": 67.01,
+        "90d": 78.58,
+        "1y": 79.26
       }
     },
     {
@@ -213,15 +375,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 21.67,
-        "30d": 74.73,
-        "90d": 87.02,
-        "1y": 86.54
+        "24h": 41.67,
+        "30d": 74.02,
+        "90d": 86.69,
+        "1y": 86.43
       }
     },
     {
@@ -240,15 +402,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 91.15,
-        "90d": 92.25,
-        "1y": 88.83
+        "24h": 95.83,
+        "30d": 91.72,
+        "90d": 92.68,
+        "1y": 88.9
       }
     },
     {
@@ -269,11 +431,11 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.53,
+        "30d": 99.54,
         "90d": 99.81,
         "1y": 99.9
       }
@@ -295,14 +457,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 85.25,
-        "30d": 80.05,
-        "90d": 82.34,
-        "1y": 84.02
+        "24h": 95.83,
+        "30d": 80.69,
+        "90d": 82.39,
+        "1y": 84.12
       }
     },
     {
@@ -326,37 +488,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 94.21,
-        "90d": 72.35,
-        "1y": 53.93
-      }
-    },
-    {
-      "ip": "8.242.153.162",
-      "version": 4,
-      "country_code": "co",
-      "country": "Colombia",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Asociacion De Copropietarios De LA Antena Parabolica De Gachancipa APG",
-      "domain": "8-242-153-162.centurylink.com.co",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 21.21,
-        "30d": 16.46,
-        "90d": 10.72,
-        "1y": 8.43
+        "24h": 97.22,
+        "30d": 94.25,
+        "90d": 73.01,
+        "1y": 54.27
       }
     },
     {
@@ -375,15 +510,69 @@
         "validating": false
       },
       "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 44.44,
+        "30d": 53.46,
+        "90d": 53.46,
+        "1y": 53.46
+      }
+    },
+    {
+      "ip": "200.116.231.27",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Distrito Especial Industrial Y Portuario De Barranquilla",
+      "domain": "static-200-116-231-27.une.net.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 48.61,
+        "30d": 59.77,
+        "90d": 69.52,
+        "1y": 68.48
+      }
+    },
+    {
+      "ip": "186.190.228.83",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "TV AZTECA SUCURSAL COLOMBIA",
+      "domain": "azteca-comunicaciones.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 22.95,
-        "30d": 47.15,
-        "90d": 47.15,
-        "1y": 47.15
+        "24h": 36.11,
+        "30d": 26.32,
+        "90d": 26.26,
+        "1y": 27.4
       }
     },
     {
@@ -402,15 +591,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.53,
-        "90d": 98.19,
-        "1y": 96.28
+        "30d": 99.66,
+        "90d": 98.29,
+        "1y": 96.3
       }
     },
     {
@@ -430,14 +619,68 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.88,
-        "90d": 97.85,
-        "1y": 97.95
+        "30d": 99.89,
+        "90d": 97.95,
+        "1y": 97.96
+      }
+    },
+    {
+      "ip": "181.129.74.58",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "EPM Telecomunicaciones S.A. E.S.P",
+      "domain": "static-181-129-74-58.une.net.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 48.61,
+        "30d": 71.84,
+        "90d": 82.93,
+        "1y": 83.45
+      }
+    },
+    {
+      "ip": "201.184.180.58",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "EPM Telecomunicaciones S.A. E.S.P.",
+      "domain": "static-adsl201-184-180-58.une.net.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 30.56,
+        "30d": 52.87,
+        "90d": 63.94,
+        "1y": 66.54
       }
     },
     {
@@ -456,15 +699,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 55.0,
-        "30d": 54.43,
-        "90d": 51.31,
-        "1y": 37.3
+        "24h": 77.78,
+        "30d": 55.63,
+        "90d": 51.83,
+        "1y": 37.61
       }
     },
     {
@@ -485,67 +728,13 @@
       "blocking": {
         "ads": true,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 27.87,
-        "30d": 30.61,
-        "90d": 26.99,
-        "1y": 27.81
-      }
-    },
-    {
-      "ip": "190.131.249.205",
-      "version": 4,
-      "country_code": "co",
-      "country": "Colombia",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Corporacion Universidad De Investigacion Y Desarrollo UDI - .CO",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 16.67,
-        "30d": 21.81,
-        "90d": 69.99,
-        "1y": 70.22
-      }
-    },
-    {
-      "ip": "191.102.82.83",
-      "version": 4,
-      "country_code": "co",
-      "country": "Colombia",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "TV AZTECA SUCURSAL COLOMBIA",
-      "domain": "azteca-comunicaciones.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 3.28,
-        "30d": 19.05,
-        "90d": 41.39,
-        "1y": 34.75
+        "24h": 30.56,
+        "30d": 30.47,
+        "90d": 27.05,
+        "1y": 27.83
       }
     },
     {
@@ -566,40 +755,67 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.65,
-        "90d": 94.51,
-        "1y": 87.08
+        "30d": 99.66,
+        "90d": 94.69,
+        "1y": 87.35
       }
     },
     {
-      "ip": "181.48.195.157",
+      "ip": "181.205.252.242",
       "version": 4,
       "country_code": "co",
       "country": "Colombia",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Telmex Colombia S.A.",
-      "domain": null,
+      "organization": "Colombia Móvil",
+      "domain": "Dinamic-Tigo-181-205-252-242.tigo.com.co",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 30.0,
-        "30d": 27.74,
-        "90d": 25.65,
-        "1y": 26.26
+        "24h": 36.11,
+        "30d": 58.62,
+        "90d": 64.21,
+        "1y": 67.67
+      }
+    },
+    {
+      "ip": "181.129.14.3",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "EPM Telecomunicaciones S.A. E.S.P",
+      "domain": "adsl-181-129-14-3.une.net.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 40.28,
+        "30d": 44.48,
+        "90d": 51.09,
+        "1y": 54.6
       }
     },
     {
@@ -623,10 +839,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 91.5,
-        "90d": 94.46,
-        "1y": 93.86
+        "24h": 98.61,
+        "30d": 91.61,
+        "90d": 94.6,
+        "1y": 93.88
       }
     },
     {
@@ -647,11 +863,11 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.17,
+        "30d": 99.2,
         "90d": 99.5,
         "1y": 99.42
       }
@@ -672,15 +888,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 95.83,
+        "30d": 77.28,
+        "90d": 72.76,
+        "1y": 68.91
+      }
+    },
+    {
+      "ip": "181.204.232.2",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Colombia Móvil",
+      "domain": "static-ba-181-204-232-2.tigoune.com.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 76.47,
-        "90d": 72.19,
-        "1y": 68.75
+        "24h": 45.83,
+        "30d": 70.8,
+        "90d": 86.16,
+        "1y": 86.96
       }
     },
     {
@@ -699,15 +942,96 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.61,
+        "30d": 98.28,
+        "90d": 98.79,
+        "1y": 97.32
+      }
+    },
+    {
+      "ip": "181.129.117.226",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "EPM Telecomunicaciones S.A. E.S.P",
+      "domain": "static-181-129-117-226.une.net.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.11,
-        "90d": 98.79,
-        "1y": 97.32
+        "24h": 43.06,
+        "30d": 65.75,
+        "90d": 78.12,
+        "1y": 80.36
+      }
+    },
+    {
+      "ip": "181.129.121.42",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "EPM Telecomunicaciones S.A. E.S.P",
+      "domain": "static-181-129-121-42.une.net.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 37.5,
+        "30d": 58.51,
+        "90d": 66.49,
+        "1y": 69.26
+      }
+    },
+    {
+      "ip": "190.90.121.181",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Servicios EN Comunicaciones Y Redes",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.56,
+        "30d": 79.66,
+        "90d": 55.94,
+        "1y": 48.36
       }
     },
     {
@@ -727,14 +1051,41 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 93.91,
+        "90d": 96.18,
+        "1y": 95.93
+      }
+    },
+    {
+      "ip": "186.97.130.130",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Colombia Móvil",
+      "domain": "dinamic-tigo186-97-130-130.tigo.com.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 98.36,
-        "30d": 93.74,
-        "90d": 96.17,
-        "1y": 95.9
+        "24h": 30.56,
+        "30d": 59.43,
+        "90d": 67.85,
+        "1y": 72.29
       }
     },
     {
@@ -758,10 +1109,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 73.33,
-        "30d": 73.44,
-        "90d": 73.79,
-        "1y": 74.78
+        "24h": 72.22,
+        "30d": 72.99,
+        "90d": 73.65,
+        "1y": 74.75
+      }
+    },
+    {
+      "ip": "181.143.196.83",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "EPM Telecomunicaciones S.A. E.S.P",
+      "domain": "static-181-143-196-83.une.net.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 29.17,
+        "30d": 49.54,
+        "90d": 58.51,
+        "1y": 57.81
       }
     },
     {
@@ -781,14 +1159,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.93,
-        "90d": 97.88,
-        "1y": 91.66
+        "30d": 97.13,
+        "90d": 97.98,
+        "1y": 91.71
       }
     },
     {
@@ -804,7 +1182,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -812,10 +1190,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 67.53,
-        "90d": 66.71,
-        "1y": 67.67
+        "24h": 65.28,
+        "30d": 66.21,
+        "90d": 66.32,
+        "1y": 67.4
       }
     },
     {
@@ -834,15 +1212,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.65,
+        "30d": 99.66,
         "90d": 98.01,
-        "1y": 98.63
+        "1y": 98.64
       }
     },
     {
@@ -862,25 +1240,133 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 73.77,
-        "30d": 83.23,
-        "90d": 92.84,
+        "24h": 83.33,
+        "30d": 83.45,
+        "90d": 92.8,
         "1y": 94.99
       }
     },
     {
-      "ip": "181.143.215.50",
+      "ip": "8.242.153.168",
       "version": 4,
       "country_code": "co",
       "country": "Colombia",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "EPM Telecomunicaciones S.A. E.S.P",
-      "domain": "static-181-143-215-50.une.net.co",
+      "organization": "Asociacion De Copropietarios De LA Antena Parabolica De Gachancipa APG",
+      "domain": "8-242-153-168.centurylink.com.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 23.61,
+        "30d": 16.55,
+        "90d": 10.62,
+        "1y": 7.86
+      }
+    },
+    {
+      "ip": "190.0.59.102",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "UNE EPM TELECOMUNICACIONES S.A",
+      "domain": "www.colegiolaanunciacion.edu.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 26.39,
+        "30d": 70.23,
+        "90d": 85.44,
+        "1y": 87.67
+      }
+    },
+    {
+      "ip": "181.205.65.194",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Colombia Móvil",
+      "domain": "Dinamic-Tigo-181-205-65-194.tigo.com.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 33.33,
+        "30d": 46.55,
+        "90d": 52.23,
+        "1y": 53.93
+      }
+    },
+    {
+      "ip": "190.71.49.122",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "IE P REDITOS EMPRESARIALES HELICONIA (CR 20 20-40) SW-ACC-HELI-01 G0/0/4",
+      "domain": "adsl190-71-49-122.epm.net.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 48.61,
+        "30d": 75.75,
+        "90d": 88.32,
+        "1y": 91.07
+      }
+    },
+    {
+      "ip": "200.29.108.64",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "EMCALI - RANGOS FIJOS PPPoE",
+      "domain": "dsl-emcali-200.29.108.64.emcali.net.co",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -890,13 +1376,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 30.0,
-        "30d": 68.45,
-        "90d": 85.84,
-        "1y": 86.88
+        "24h": 40.28,
+        "30d": 28.39,
+        "90d": 27.51,
+        "1y": 29.91
       }
     },
     {
@@ -920,10 +1406,64 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.76,
-        "90d": 99.81,
-        "1y": 99.41
+        "24h": 98.61,
+        "30d": 99.66,
+        "90d": 99.78,
+        "1y": 99.4
+      }
+    },
+    {
+      "ip": "201.184.237.218",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "EPM Telecomunicaciones S.A. E.S.P.",
+      "domain": "static-adsl201-184-237-218.une.net.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 44.44,
+        "30d": 73.68,
+        "90d": 83.18,
+        "1y": 85.6
+      }
+    },
+    {
+      "ip": "181.205.204.163",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Colombia Móvil",
+      "domain": "dinamic-tigo-181-205-204-163.tigo.com.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 38.89,
+        "30d": 66.67,
+        "90d": 80.73,
+        "1y": 80.45
       }
     },
     {
@@ -942,15 +1482,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 20.0,
-        "30d": 62.22,
-        "90d": 73.82,
-        "1y": 74.97
+        "24h": 41.67,
+        "30d": 62.18,
+        "90d": 73.65,
+        "1y": 74.96
       }
     },
     {
@@ -966,18 +1506,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 18.03,
-        "30d": 51.95,
-        "90d": 65.44,
-        "1y": 68.52
+        "24h": 43.06,
+        "30d": 53.51,
+        "90d": 65.45,
+        "1y": 68.58
       }
     },
     {
@@ -997,14 +1537,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 70.49,
-        "30d": 77.92,
-        "90d": 80.07,
-        "1y": 78.32
+        "24h": 75.0,
+        "30d": 77.59,
+        "90d": 79.89,
+        "1y": 78.27
       }
     },
     {
@@ -1020,7 +1560,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -1028,10 +1568,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 76.83,
-        "90d": 74.85,
-        "1y": 75.29
+        "24h": 79.17,
+        "30d": 76.6,
+        "90d": 74.71,
+        "1y": 75.31
       }
     },
     {
@@ -1055,10 +1595,64 @@
         "adult": true
       },
       "uptime": {
-        "24h": 26.23,
-        "30d": 71.19,
-        "90d": 82.57,
-        "1y": 82.12
+        "24h": 48.61,
+        "30d": 71.26,
+        "90d": 82.77,
+        "1y": 82.13
+      }
+    },
+    {
+      "ip": "201.184.175.242",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "EPM Telecomunicaciones S.A. E.S.P.",
+      "domain": "static-adsl201-184-175-242.une.net.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 38.89,
+        "30d": 47.47,
+        "90d": 55.28,
+        "1y": 60.5
+      }
+    },
+    {
+      "ip": "190.107.20.164",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "MOVISKALA",
+      "domain": "19010720164.ip61.static.mediacommerce.com.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 68.06,
+        "30d": 68.74,
+        "90d": 68.39,
+        "1y": 68.32
       }
     },
     {
@@ -1078,14 +1672,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 26.23,
-        "30d": 72.61,
-        "90d": 75.92,
-        "1y": 51.57
+        "24h": 50.0,
+        "30d": 72.76,
+        "90d": 76.52,
+        "1y": 51.83
       }
     },
     {
@@ -1104,15 +1698,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 19.67,
-        "30d": 51.0,
-        "90d": 58.13,
-        "1y": 59.17
+        "24h": 31.94,
+        "30d": 50.57,
+        "90d": 58.19,
+        "1y": 59.14
       }
     },
     {
@@ -1132,14 +1726,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.47,
-        "90d": 97.85,
-        "1y": 94.39
+        "30d": 98.51,
+        "90d": 98.11,
+        "1y": 94.43
+      }
+    },
+    {
+      "ip": "186.97.102.226",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Colombia Móvil",
+      "domain": "dinamic-tigo186-97-102-226.tigo.com.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 30.56,
+        "30d": 64.02,
+        "90d": 85.26,
+        "1y": 87.87
       }
     },
     {
@@ -1159,14 +1780,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 98.36,
-        "30d": 99.17,
-        "90d": 98.97,
-        "1y": 97.98
+        "24h": 98.61,
+        "30d": 99.2,
+        "90d": 98.98,
+        "1y": 98.0
       }
     },
     {
@@ -1185,15 +1806,150 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 44.44,
+        "30d": 60.8,
+        "90d": 62.04,
+        "1y": 67.63
+      }
+    },
+    {
+      "ip": "201.184.156.252",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "EPM Telecomunicaciones S.A. E.S.P.",
+      "domain": "static-adsl201-184-156-252.une.net.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 40.28,
+        "30d": 60.23,
+        "90d": 71.32,
+        "1y": 75.04
+      }
+    },
+    {
+      "ip": "181.129.42.138",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "EPM Telecomunicaciones S.A. E.S.P",
+      "domain": "adsl-181-129-42-138.une.net.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 44.44,
+        "30d": 73.45,
+        "90d": 78.83,
+        "1y": 53.45
+      }
+    },
+    {
+      "ip": "8.242.153.165",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Asociacion De Copropietarios De LA Antena Parabolica De Gachancipa APG",
+      "domain": "8-242-153-165.centurylink.com.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 27.78,
+        "30d": 17.67,
+        "90d": 12.45,
+        "1y": 9.26
+      }
+    },
+    {
+      "ip": "201.184.60.178",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "UNE EPM TELECOMUNICACIONES S.A.",
+      "domain": "static-adsl201-184-60-178.une.net.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 45.83,
+        "30d": 79.65,
+        "90d": 92.88,
+        "1y": 96.29
+      }
+    },
+    {
+      "ip": "186.159.15.86",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "UNE EPM TELECOMUNICACIONES S.A",
+      "domain": "adsl-186-159-15-86.edatel.net.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 18.33,
-        "30d": 60.57,
-        "90d": 61.61,
-        "1y": 67.59
+        "24h": 26.39,
+        "30d": 33.88,
+        "90d": 50.23,
+        "1y": 59.52
       }
     },
     {
@@ -1213,14 +1969,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 73.77,
-        "30d": 65.76,
-        "90d": 64.98,
-        "1y": 65.9
+        "24h": 79.17,
+        "30d": 66.67,
+        "90d": 65.18,
+        "1y": 66.04
       }
     },
     {
@@ -1241,13 +1997,67 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.61,
+        "30d": 86.67,
+        "90d": 89.79,
+        "1y": 89.9
+      }
+    },
+    {
+      "ip": "190.145.100.147",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Telmex Colombia S.A.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 86.3,
-        "90d": 89.41,
-        "1y": 89.86
+        "24h": 72.22,
+        "30d": 57.82,
+        "90d": 50.18,
+        "1y": 40.35
+      }
+    },
+    {
+      "ip": "181.205.28.162",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Colombia Móvil",
+      "domain": "Dinamic-Tigo-181-205-28-162.tigo.com.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 45.83,
+        "30d": 68.85,
+        "90d": 81.07,
+        "1y": 80.16
       }
     },
     {
@@ -1266,15 +2076,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 32.79,
-        "30d": 69.42,
-        "90d": 75.65,
-        "1y": 53.3
+        "24h": 44.44,
+        "30d": 68.97,
+        "90d": 76.1,
+        "1y": 53.42
       }
     },
     {
@@ -1293,15 +2103,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 81.67,
-        "30d": 82.29,
-        "90d": 85.71,
-        "1y": 85.65
+        "24h": 90.28,
+        "30d": 82.53,
+        "90d": 85.66,
+        "1y": 85.69
       }
     },
     {
@@ -1320,15 +2130,96 @@
         "validating": false
       },
       "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 38.89,
+        "30d": 65.52,
+        "90d": 82.0,
+        "1y": 78.15
+      }
+    },
+    {
+      "ip": "201.219.193.1",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "ITELKOM",
+      "domain": "1-193-219-201.static.itelkom.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 19.67,
-        "30d": 65.53,
-        "90d": 82.07,
-        "1y": 78.21
+        "24h": 84.72,
+        "30d": 83.22,
+        "90d": 85.69,
+        "1y": 82.68
+      }
+    },
+    {
+      "ip": "181.205.206.162",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Colombia Móvil",
+      "domain": "dinamic-tigo-181-205-206-162.tigo.com.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 45.83,
+        "30d": 71.61,
+        "90d": 86.78,
+        "1y": 88.98
+      }
+    },
+    {
+      "ip": "181.143.27.98",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "EPM Telecomunicaciones S.A. E.S.P",
+      "domain": "static-181-143-27-98.une.net.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 41.67,
+        "30d": 61.15,
+        "90d": 73.62,
+        "1y": 75.59
       }
     },
     {
@@ -1348,14 +2239,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.65,
+        "30d": 99.77,
         "90d": 99.38,
-        "1y": 97.71
+        "1y": 97.72
       }
     },
     {
@@ -1374,15 +2265,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 56.67,
-        "30d": 49.11,
-        "90d": 46.54,
-        "1y": 34.73
+        "24h": 69.44,
+        "30d": 49.66,
+        "90d": 46.93,
+        "1y": 34.98
       }
     },
     {
@@ -1406,10 +2297,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 22.95,
-        "30d": 50.77,
-        "90d": 60.06,
-        "1y": 62.02
+        "24h": 38.89,
+        "30d": 50.69,
+        "90d": 60.09,
+        "1y": 62.01
       }
     },
     {
@@ -1433,10 +2324,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 11.48,
-        "30d": 41.14,
-        "90d": 37.29,
-        "1y": 33.84
+        "24h": 13.89,
+        "30d": 39.92,
+        "90d": 37.13,
+        "1y": 33.72
       }
     },
     {
@@ -1457,13 +2348,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.04,
-        "90d": 97.17,
-        "1y": 93.66
+        "30d": 95.29,
+        "90d": 97.27,
+        "1y": 93.7
       }
     },
     {
@@ -1483,14 +2374,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 74.97,
-        "90d": 71.67,
+        "24h": 88.89,
+        "30d": 75.17,
+        "90d": 71.73,
         "1y": 83.59
+      }
+    },
+    {
+      "ip": "190.144.90.226",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Telmex Colombia S.A.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.56,
+        "30d": 66.9,
+        "90d": 66.5,
+        "1y": 68.68
       }
     },
     {
@@ -1509,42 +2427,69 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 56.67,
-        "30d": 57.85,
-        "90d": 62.42,
-        "1y": 62.2
-      }
-    },
-    {
-      "ip": "45.172.222.69",
-      "version": 4,
-      "country_code": "co",
-      "country": "Colombia",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Atenea Telecomunicaciones",
-      "domain": "edgeisp-45-172-222-69.ateneatelecomunicaciones.xyz",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 88.78,
-        "90d": 90.8,
-        "1y": 85.62
+        "24h": 68.06,
+        "30d": 58.39,
+        "90d": 62.48,
+        "1y": 62.28
+      }
+    },
+    {
+      "ip": "181.204.80.106",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Colombia Móvil",
+      "domain": "static-ba-181-204-80-106.tigoune.com.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 44.44,
+        "30d": 68.62,
+        "90d": 84.02,
+        "1y": 86.51
+      }
+    },
+    {
+      "ip": "45.175.139.12",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Servycom Colombia",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 11.11,
+        "30d": 8.41,
+        "90d": 12.55,
+        "1y": 11.42
       }
     },
     {
@@ -1565,40 +2510,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 98.36,
-        "30d": 99.65,
+        "24h": 100.0,
+        "30d": 99.66,
         "90d": 99.41,
         "1y": 99.63
-      }
-    },
-    {
-      "ip": "181.48.92.218",
-      "version": 4,
-      "country_code": "co",
-      "country": "Colombia",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Telmex Colombia S.A.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 63.93,
-        "30d": 67.65,
-        "90d": 69.21,
-        "1y": 69.9
       }
     },
     {
@@ -1617,15 +2535,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 25.0,
-        "30d": 71.31,
-        "90d": 84.9,
-        "1y": 86.17
+        "24h": 45.83,
+        "30d": 70.92,
+        "90d": 84.92,
+        "1y": 86.06
       }
     },
     {
@@ -1649,10 +2567,64 @@
         "adult": true
       },
       "uptime": {
-        "24h": 26.23,
-        "30d": 72.61,
-        "90d": 79.98,
-        "1y": 56.09
+        "24h": 47.22,
+        "30d": 72.53,
+        "90d": 80.48,
+        "1y": 56.25
+      }
+    },
+    {
+      "ip": "190.249.170.32",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "UNE EPM TELECOMUNICACIONES S.A",
+      "domain": "cable190-249-170-32.epm.net.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 43.06,
+        "30d": 71.17,
+        "90d": 80.08,
+        "1y": 77.06
+      }
+    },
+    {
+      "ip": "181.205.60.162",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Colombia Móvil",
+      "domain": "Dinamic-Tigo-181-205-60-162.tigo.com.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 11.11,
+        "30d": 8.72,
+        "90d": 10.09,
+        "1y": 11.37
       }
     },
     {
@@ -1672,13 +2644,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 96.72,
-        "30d": 99.41,
-        "90d": 99.38,
+        "24h": 98.61,
+        "30d": 99.43,
+        "90d": 99.41,
         "1y": 99.01
       }
     },
@@ -1695,7 +2667,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -1703,10 +2675,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 56.67,
-        "30d": 60.92,
-        "90d": 55.95,
-        "1y": 37.06
+        "24h": 68.06,
+        "30d": 61.26,
+        "90d": 56.33,
+        "1y": 37.33
       }
     },
     {
@@ -1725,15 +2697,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 73.61,
+        "30d": 77.24,
+        "90d": 55.81,
+        "1y": 48.53
+      }
+    },
+    {
+      "ip": "181.204.15.250",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Colombia Móvil",
+      "domain": "Static-BA-181-204-15-250.tigoune.com.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
         "ads": false,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 63.33,
-        "30d": 76.74,
-        "90d": 55.15,
-        "1y": 48.27
+        "24h": 45.83,
+        "30d": 63.91,
+        "90d": 78.8,
+        "1y": 79.6
       }
     },
     {
@@ -1754,40 +2753,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 30.0,
-        "30d": 79.57,
-        "90d": 83.84,
-        "1y": 85.1
+        "24h": 36.11,
+        "30d": 78.51,
+        "90d": 83.95,
+        "1y": 84.93
       }
     },
     {
-      "ip": "190.248.143.210",
+      "ip": "181.205.142.178",
       "version": 4,
       "country_code": "co",
       "country": "Colombia",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "UNE EPM TELECOMUNICACIONES S.A",
-      "domain": "static-190-248-143-210.une.net.co",
+      "organization": "Colombia Móvil",
+      "domain": "Dinamic-Tigo-181-205-142-178.tigo.com.co",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
+        "ads": false,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 26.67,
-        "30d": 66.0,
-        "90d": 72.51,
-        "1y": 52.32
+        "24h": 38.81,
+        "30d": 50.48,
+        "90d": 58.2,
+        "1y": 61.96
       }
     },
     {
@@ -1811,10 +2810,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.41,
-        "90d": 91.66,
-        "1y": 55.42
+        "24h": 98.61,
+        "30d": 99.31,
+        "90d": 92.18,
+        "1y": 55.67
       }
     },
     {
@@ -1830,18 +2829,45 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 16.67,
-        "30d": 69.89,
-        "90d": 84.5,
-        "1y": 84.51
+        "24h": 36.11,
+        "30d": 69.31,
+        "90d": 84.2,
+        "1y": 84.39
+      }
+    },
+    {
+      "ip": "190.121.144.48",
+      "version": 4,
+      "country_code": "co",
+      "country": "Colombia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Bioclinico Del SUR",
+      "domain": "19012114448.ip14.static.mediacommerce.com.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 37.5,
+        "30d": 19.42,
+        "90d": 42.96,
+        "1y": 43.12
       }
     },
     {
@@ -1861,14 +2887,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 65.0,
-        "30d": 58.09,
-        "90d": 58.16,
-        "1y": 56.28
+        "24h": 77.78,
+        "30d": 59.08,
+        "90d": 58.63,
+        "1y": 56.45
       }
     },
     {
@@ -1884,18 +2910,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 63.28,
-        "90d": 62.86,
-        "1y": 65.45
+        "24h": 69.44,
+        "30d": 63.1,
+        "90d": 62.82,
+        "1y": 65.46
       }
     }
   ]
