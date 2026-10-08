@@ -4,7 +4,7 @@
     "country_name": "San Marino",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-10-08T06:30:37Z",
+    "generated_at": "2026-10-08T18:03:50Z",
     "total_servers": 1
   },
   "resolvers": [
@@ -18,21 +18,21 @@
       "organization": "OpenTLD BV",
       "domain": null,
       "trusted": false,
-      "anycast": false,
+      "anycast": true,
       "dnssec": {
         "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.83,
-        "90d": 89.43,
-        "1y": 90.26
+        "30d": 90.13,
+        "90d": 89.6,
+        "1y": 90.32
       }
     }
   ]
