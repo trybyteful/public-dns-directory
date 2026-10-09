@@ -4,8 +4,8 @@
     "country_name": "Costa Rica",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-10-09T06:29:25Z",
-    "total_servers": 6
+    "generated_at": "2026-10-09T18:03:50Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -30,9 +30,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.41,
+        "30d": 97.47,
         "90d": 99.05,
-        "1y": 97.6
+        "1y": 97.61
+      }
+    },
+    {
+      "ip": "168.228.51.197",
+      "version": 4,
+      "country_code": "cr",
+      "country": "Costa Rica",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Cooperativa de Electrificación Rural de San Carlos R.L. (Coopelesca R.L.)",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 38.81,
+        "30d": 31.62,
+        "90d": 41.51,
+        "1y": 45.93
       }
     },
     {
@@ -51,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.86,
+        "30d": 98.89,
         "90d": 99.42,
-        "1y": 90.57
+        "1y": 90.62
       }
     },
     {
@@ -75,18 +102,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 72.46,
-        "30d": 69.53,
-        "90d": 67.89,
-        "1y": 47.52
+        "24h": 86.57,
+        "30d": 70.39,
+        "90d": 68.44,
+        "1y": 47.76
       }
     },
     {
@@ -107,67 +134,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 84.06,
-        "30d": 90.78,
-        "90d": 92.92,
-        "1y": 89.13
-      }
-    },
-    {
-      "ip": "181.193.94.94",
-      "version": 4,
-      "country_code": "cr",
-      "country": "Costa Rica",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "ALAJUELA",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 24.64,
-        "30d": 27.96,
-        "90d": 41.16,
-        "1y": 46.16
-      }
-    },
-    {
-      "ip": "190.113.125.182",
-      "version": 4,
-      "country_code": "cr",
-      "country": "Costa Rica",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Twin Engines",
-      "domain": "rev182.125.nstelecablecr.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 71.01,
-        "30d": 60.93,
-        "90d": 62.12,
-        "1y": 63.04
+        "24h": 95.52,
+        "30d": 90.98,
+        "90d": 92.97,
+        "1y": 89.18
       }
     }
   ]

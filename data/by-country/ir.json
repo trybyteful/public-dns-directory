@@ -4,7 +4,7 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-10-09T06:29:25Z",
+    "generated_at": "2026-10-09T18:03:50Z",
     "total_servers": 9
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 82.38,
-        "90d": 63.48,
-        "1y": 63.48
+        "30d": 84.28,
+        "90d": 64.09,
+        "1y": 64.09
       }
     },
     {
@@ -51,13 +51,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.79,
+        "30d": 99.8,
         "90d": 99.82,
         "1y": 99.7
       }
@@ -75,18 +75,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.79,
+        "30d": 99.8,
         "90d": 99.79,
-        "1y": 98.94
+        "1y": 98.95
       }
     },
     {
@@ -102,7 +102,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -111,9 +111,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 82.63,
-        "90d": 84.36,
-        "1y": 84.36
+        "30d": 83.98,
+        "90d": 84.6,
+        "1y": 84.6
       }
     },
     {
@@ -133,14 +133,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.55,
+        "30d": 98.78,
         "90d": 99.39,
-        "1y": 97.03
+        "1y": 97.04
       }
     },
     {
@@ -165,9 +165,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 83.12,
-        "90d": 56.53,
-        "1y": 67.54
+        "30d": 83.9,
+        "90d": 56.75,
+        "1y": 67.76
       }
     },
     {
@@ -186,15 +186,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.79,
+        "30d": 99.8,
         "90d": 99.79,
-        "1y": 99.6
+        "1y": 99.61
       }
     },
     {
@@ -204,7 +204,7 @@
       "country": "Iran",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Institute for Research in Fundamental Sciences",
+      "organization": "IPM/Iranet",
       "domain": "ns1.iranet.ir",
       "trusted": false,
       "anycast": false,
@@ -213,9 +213,9 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -240,15 +240,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 82.72,
-        "90d": 95.56,
-        "1y": 96.03
+        "30d": 83.26,
+        "90d": 95.58,
+        "1y": 96.05
       }
     }
   ]
