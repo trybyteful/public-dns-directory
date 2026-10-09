@@ -4,10 +4,37 @@
     "country_name": "San Marino",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-10-08T18:03:50Z",
-    "total_servers": 1
+    "generated_at": "2026-10-09T06:29:25Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "80.80.80.80",
+      "version": 4,
+      "country_code": "sm",
+      "country": "San Marino",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "CheckMe S.r.l",
+      "domain": null,
+      "trusted": false,
+      "anycast": true,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 42.03,
+        "30d": 78.31,
+        "90d": 87.52,
+        "1y": 85.34
+      }
+    },
     {
       "ip": "80.80.81.81",
       "version": 4,
@@ -30,9 +57,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.13,
-        "90d": 89.6,
-        "1y": 90.32
+        "30d": 90.39,
+        "90d": 89.72,
+        "1y": 90.37
       }
     }
   ]

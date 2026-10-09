@@ -4,37 +4,10 @@
     "country_name": "Ireland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-10-08T18:03:50Z",
+    "generated_at": "2026-10-09T06:29:25Z",
     "total_servers": 4
   },
   "resolvers": [
-    {
-      "ip": "86.47.80.46",
-      "version": 4,
-      "country_code": "ie",
-      "country": "Ireland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Eircom Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 97.14,
-        "30d": 54.31,
-        "90d": 66.96,
-        "1y": 63.61
-      }
-    },
     {
       "ip": "78.155.252.220",
       "version": 4,
@@ -51,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 93.42,
-        "90d": 97.91,
-        "1y": 98.36
+        "24h": 89.86,
+        "30d": 93.58,
+        "90d": 97.92,
+        "1y": 98.37
       }
     },
     {
@@ -78,15 +51,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 96.18,
+        "24h": 92.75,
+        "30d": 96.27,
         "90d": 98.71,
-        "1y": 99.17
+        "1y": 99.18
+      }
+    },
+    {
+      "ip": "86.43.125.181",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Eircom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.01,
+        "30d": 50.79,
+        "90d": 44.29,
+        "1y": 47.6
       }
     },
     {
@@ -105,8 +105,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
