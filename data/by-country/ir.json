@@ -4,37 +4,10 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-10-09T18:03:50Z",
-    "total_servers": 9
+    "generated_at": "2026-10-10T06:26:44Z",
+    "total_servers": 6
   },
   "resolvers": [
-    {
-      "ip": "81.163.3.1",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Rasana Pishtaz Iranian Service Cooperative Co",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 84.28,
-        "90d": 64.09,
-        "1y": 64.09
-      }
-    },
     {
       "ip": "194.225.62.80",
       "version": 4,
@@ -48,12 +21,12 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -79,7 +52,7 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -87,33 +60,6 @@
         "30d": 99.8,
         "90d": 99.79,
         "1y": 98.95
-      }
-    },
-    {
-      "ip": "81.163.3.2",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Rasana Pishtaz Iranian Service Cooperative Co",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 83.98,
-        "90d": 84.6,
-        "1y": 84.6
       }
     },
     {
@@ -132,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.78,
+        "30d": 98.81,
         "90d": 99.39,
-        "1y": 97.04
+        "1y": 97.06
       }
     },
     {
@@ -165,9 +111,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 83.9,
-        "90d": 56.75,
-        "1y": 67.76
+        "30d": 84.58,
+        "90d": 57.02,
+        "1y": 67.99
       }
     },
     {
@@ -187,7 +133,7 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -213,7 +159,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
@@ -222,33 +168,6 @@
         "30d": 99.9,
         "90d": 99.91,
         "1y": 99.95
-      }
-    },
-    {
-      "ip": "91.245.229.1",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kish Cell Pars Co.",
-      "domain": "ns1.kcpcloud.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 83.26,
-        "90d": 95.58,
-        "1y": 96.05
       }
     }
   ]
