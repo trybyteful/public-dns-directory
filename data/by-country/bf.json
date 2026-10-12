@@ -4,10 +4,37 @@
     "country_name": "Burkina Faso",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-10-12T06:42:06Z",
-    "total_servers": 2
+    "generated_at": "2026-10-12T18:04:06Z",
+    "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "196.28.244.3",
+      "version": 4,
+      "country_code": "bf",
+      "country": "Burkina Faso",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ONATEL",
+      "domain": "ns2.sonabhy.bf",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 30.18,
+        "90d": 60.02,
+        "1y": 56.16
+      }
+    },
     {
       "ip": "41.216.155.125",
       "version": 4,
@@ -24,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 66.29,
-        "90d": 54.83,
-        "1y": 49.55
+        "24h": 83.1,
+        "30d": 67.72,
+        "90d": 55.66,
+        "1y": 49.88
       }
     },
     {

@@ -4,35 +4,62 @@
     "country_name": "Japan",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-10-12T06:42:06Z",
-    "total_servers": 77
+    "generated_at": "2026-10-12T18:04:06Z",
+    "total_servers": 76
   },
   "resolvers": [
     {
-      "ip": "1.33.199.57",
+      "ip": "58.138.143.62",
       "version": 4,
       "country_code": "jp",
       "country": "Japan",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "SANKO INDUSTRIES CO., LTD.",
+      "organization": "Internet Initiative Japan Inc.",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 76.06,
+        "30d": 82.46,
+        "90d": 86.36,
+        "1y": 86.3
+      }
+    },
+    {
+      "ip": "117.102.214.93",
+      "version": 4,
+      "country_code": "jp",
+      "country": "Japan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "INTERLINK Co., LTD.",
+      "domain": "ns.starlite-jp.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 97.14,
-        "30d": 93.18,
-        "90d": 92.92,
-        "1y": 87.83
+        "24h": 77.46,
+        "30d": 85.4,
+        "90d": 87.52,
+        "1y": 85.43
       }
     },
     {
@@ -56,10 +83,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 97.14,
-        "30d": 96.99,
-        "90d": 95.56,
-        "1y": 94.61
+        "24h": 98.59,
+        "30d": 97.06,
+        "90d": 95.67,
+        "1y": 94.64
       }
     },
     {
@@ -83,10 +110,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 98.57,
-        "30d": 98.82,
-        "90d": 98.5,
-        "1y": 98.21
+        "24h": 98.59,
+        "30d": 98.84,
+        "90d": 98.54,
+        "1y": 98.22
       }
     },
     {
@@ -111,20 +138,20 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.91,
-        "90d": 96.19,
-        "1y": 95.04
+        "30d": 95.99,
+        "90d": 96.21,
+        "1y": 95.07
       }
     },
     {
-      "ip": "180.43.164.18",
+      "ip": "180.42.15.9",
       "version": 4,
       "country_code": "jp",
       "country": "Japan",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "NTT Communications Corporation",
-      "domain": "dns.nnw.co.jp",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -132,15 +159,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 97.14,
-        "30d": 89.72,
-        "90d": 93.76,
-        "1y": 95.59
+        "24h": 84.51,
+        "30d": 89.81,
+        "90d": 89.67,
+        "1y": 93.25
       }
     },
     {
@@ -164,26 +191,26 @@
         "adult": false
       },
       "uptime": {
-        "24h": 98.57,
+        "24h": 100.0,
         "30d": 99.55,
         "90d": 99.76,
         "1y": 99.79
       }
     },
     {
-      "ip": "139.162.107.204",
+      "ip": "219.166.58.130",
       "version": 4,
       "country_code": "jp",
       "country": "Japan",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Linode",
-      "domain": "li1591-204.members.linode.com",
+      "organization": "Risc",
+      "domain": "ns.risc.jp",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -191,37 +218,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 94.29,
-        "30d": 93.54,
-        "90d": 94.33,
-        "1y": 92.35
-      }
-    },
-    {
-      "ip": "218.43.118.58",
-      "version": 4,
-      "country_code": "jp",
-      "country": "Japan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Open Computer Network",
-      "domain": "p2026-ipadfx01okayamaima.okayama.ocn.ne.jp",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 34.29,
-        "30d": 21.61,
-        "90d": 15.91,
-        "1y": 14.38
+        "24h": 22.54,
+        "30d": 28.2,
+        "90d": 30.34,
+        "1y": 29.0
       }
     },
     {
@@ -245,10 +245,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 93.9,
-        "90d": 97.27,
-        "1y": 98.52
+        "24h": 88.73,
+        "30d": 93.95,
+        "90d": 97.19,
+        "1y": 98.48
+      }
+    },
+    {
+      "ip": "222.228.150.127",
+      "version": 4,
+      "country_code": "jp",
+      "country": "Japan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "ARTERIA Networks Corporation",
+      "domain": "222-228-150-127.hiroshima.fdn.vectant.ne.jp",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 83.1,
+        "30d": 88.51,
+        "90d": 89.7,
+        "1y": 87.32
       }
     },
     {
@@ -294,58 +321,31 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 94.29,
-        "30d": 94.9,
-        "90d": 96.01,
-        "1y": 95.29
+        "24h": 94.37,
+        "30d": 95.01,
+        "90d": 96.06,
+        "1y": 95.31
       }
     },
     {
-      "ip": "223.29.52.106",
+      "ip": "153.246.37.6",
       "version": 4,
       "country_code": "jp",
       "country": "Japan",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Chubu Telecommunications Co., Inc.",
+      "organization": "Open Computer Network",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.82,
-        "90d": 98.23,
-        "1y": 98.82
-      }
-    },
-    {
-      "ip": "126.249.64.222",
-      "version": 4,
-      "country_code": "jp",
-      "country": "Japan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "SOFTBANK Corp",
-      "domain": "softbank126249064222.biz.bbtec.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -353,10 +353,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 67.52,
-        "90d": 75.02,
-        "1y": 77.76
+        "24h": 78.87,
+        "30d": 83.17,
+        "90d": 83.01,
+        "1y": 84.67
       }
     },
     {
@@ -377,13 +377,40 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 94.29,
-        "30d": 83.53,
-        "90d": 91.27,
-        "1y": 94.05
+        "24h": 76.06,
+        "30d": 82.65,
+        "90d": 90.9,
+        "1y": 93.86
+      }
+    },
+    {
+      "ip": "1.33.204.121",
+      "version": 4,
+      "country_code": "jp",
+      "country": "Japan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "NTT PC Communications, Inc.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 83.1,
+        "30d": 86.39,
+        "90d": 83.91,
+        "1y": 87.41
       }
     },
     {
@@ -404,13 +431,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 94.29,
-        "30d": 92.54,
-        "90d": 93.97,
-        "1y": 92.76
+        "24h": 92.96,
+        "30d": 92.62,
+        "90d": 94.06,
+        "1y": 92.78
       }
     },
     {
@@ -434,10 +461,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 87.14,
-        "30d": 82.26,
-        "90d": 81.03,
-        "1y": 80.95
+        "24h": 83.1,
+        "30d": 82.21,
+        "90d": 80.9,
+        "1y": 80.94
+      }
+    },
+    {
+      "ip": "59.190.126.235",
+      "version": 4,
+      "country_code": "jp",
+      "country": "Japan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "OPTAGE Inc.",
+      "domain": "59-190-126-235f2.kns1.eonet.ne.jp",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 88.73,
+        "30d": 82.99,
+        "90d": 83.22,
+        "1y": 77.62
       }
     },
     {
@@ -461,48 +515,21 @@
         "adult": false
       },
       "uptime": {
-        "24h": 97.14,
-        "30d": 95.0,
-        "90d": 97.78,
-        "1y": 98.65
+        "24h": 97.18,
+        "30d": 95.11,
+        "90d": 97.79,
+        "1y": 98.66
       }
     },
     {
-      "ip": "219.127.86.6",
+      "ip": "125.206.226.66",
       "version": 4,
       "country_code": "jp",
       "country": "Japan",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "IPR",
+      "organization": "NTT Communications Corporation",
       "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 77.14,
-        "30d": 75.89,
-        "90d": 76.94,
-        "1y": 78.37
-      }
-    },
-    {
-      "ip": "218.44.187.8",
-      "version": 4,
-      "country_code": "jp",
-      "country": "Japan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "OCN",
-      "domain": "dataslim.gr.jp",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -515,37 +542,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 98.57,
-        "30d": 98.09,
-        "90d": 96.34,
-        "1y": 95.27
+        "24h": 23.81,
+        "30d": 5.35,
+        "90d": 10.12,
+        "1y": 24.35
       }
     },
     {
-      "ip": "153.120.88.148",
+      "ip": "60.32.149.50",
       "version": 4,
       "country_code": "jp",
       "country": "Japan",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "SAKURA",
+      "organization": "NTT Communications Corporation",
       "domain": null,
-      "trusted": false,
+      "trusted": true,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 98.57,
-        "30d": 99.82,
-        "90d": 99.91,
-        "1y": 98.88
+        "24h": 87.32,
+        "30d": 90.83,
+        "90d": 90.24,
+        "1y": 93.53
       }
     },
     {
@@ -569,37 +596,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.57,
+        "24h": 83.1,
         "30d": 87.72,
-        "90d": 83.87,
-        "1y": 82.71
-      }
-    },
-    {
-      "ip": "8.0.41.16",
-      "version": 4,
-      "country_code": "jp",
-      "country": "Japan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Level 3, LLC",
-      "domain": "cns3.Tokyo4.Level3.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 34.29,
-        "30d": 29.48,
-        "90d": 29.23,
-        "1y": 29.17
+        "90d": 83.97,
+        "1y": 82.72
       }
     },
     {
@@ -630,6 +630,33 @@
       }
     },
     {
+      "ip": "210.141.99.89",
+      "version": 4,
+      "country_code": "jp",
+      "country": "Japan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "KDDI",
+      "domain": "hsc-sv09.h-s-c.or.jp",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 76.06,
+        "30d": 85.32,
+        "90d": 86.27,
+        "1y": 84.27
+      }
+    },
+    {
       "ip": "182.171.233.145",
       "version": 4,
       "country_code": "jp",
@@ -645,15 +672,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 95.71,
-        "30d": 96.91,
-        "90d": 83.65,
-        "1y": 85.55
+        "24h": 92.96,
+        "30d": 96.71,
+        "90d": 83.75,
+        "1y": 85.58
       }
     },
     {
@@ -678,9 +705,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.09,
+        "30d": 99.11,
         "90d": 99.7,
-        "1y": 99.66
+        "1y": 99.67
       }
     },
     {
@@ -704,10 +731,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 85.81,
-        "90d": 82.91,
-        "1y": 83.25
+        "24h": 84.51,
+        "30d": 85.85,
+        "90d": 82.96,
+        "1y": 83.26
+      }
+    },
+    {
+      "ip": "221.186.19.122",
+      "version": 4,
+      "country_code": "jp",
+      "country": "Japan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "OCN",
+      "domain": "domaini.infini.jp",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 42.25,
+        "30d": 56.66,
+        "90d": 56.27,
+        "1y": 63.22
       }
     },
     {
@@ -731,21 +785,21 @@
         "adult": false
       },
       "uptime": {
-        "24h": 98.57,
-        "30d": 97.63,
-        "90d": 95.65,
-        "1y": 94.8
+        "24h": 98.59,
+        "30d": 97.6,
+        "90d": 95.76,
+        "1y": 94.81
       }
     },
     {
-      "ip": "114.160.203.201",
+      "ip": "118.3.227.163",
       "version": 4,
       "country_code": "jp",
       "country": "Japan",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Open Computer Network",
-      "domain": "p8073-ipngnfx01hodogaya.kanagawa.ocn.ne.jp",
+      "domain": "p7001164-ipoefx.ipoe.ocn.ne.jp",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -753,15 +807,69 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 91.43,
-        "30d": 89.54,
-        "90d": 92.17,
-        "1y": 90.74
+        "24h": 81.69,
+        "30d": 85.05,
+        "90d": 84.66,
+        "1y": 71.26
+      }
+    },
+    {
+      "ip": "203.178.136.36",
+      "version": 4,
+      "country_code": "jp",
+      "country": "Japan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "WIDE Project",
+      "domain": "nons.wide.ad.jp",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.14,
+        "30d": 92.53,
+        "90d": 96.72,
+        "1y": 98.08
+      }
+    },
+    {
+      "ip": "60.32.110.27",
+      "version": 4,
+      "country_code": "jp",
+      "country": "Japan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "NTT Communications Corporation",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 67.61,
+        "30d": 77.65,
+        "90d": 84.6,
+        "1y": 89.89
       }
     },
     {
@@ -780,42 +888,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 82.53,
-        "90d": 91.9,
-        "1y": 95.13
-      }
-    },
-    {
-      "ip": "125.206.247.33",
-      "version": 4,
-      "country_code": "jp",
-      "country": "Japan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "NTT Communications Corporation",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 92.86,
-        "30d": 87.07,
-        "90d": 85.2,
-        "1y": 79.27
+        "24h": 98.59,
+        "30d": 82.83,
+        "90d": 91.91,
+        "1y": 95.14
       }
     },
     {
@@ -835,14 +916,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 95.71,
-        "30d": 87.53,
-        "90d": 94.57,
-        "1y": 97.14
+        "24h": 92.96,
+        "30d": 87.72,
+        "90d": 94.54,
+        "1y": 97.12
       }
     },
     {
@@ -862,14 +943,41 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 25.35,
+        "30d": 24.88,
+        "90d": 22.82,
+        "1y": 27.4
+      }
+    },
+    {
+      "ip": "219.106.252.212",
+      "version": 4,
+      "country_code": "jp",
+      "country": "Japan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Sony Biz Networks Corporation",
+      "domain": "rydeen.mrl.co.jp",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 22.86,
-        "30d": 25.37,
-        "90d": 22.99,
-        "1y": 27.47
+        "24h": 77.46,
+        "30d": 82.28,
+        "90d": 80.0,
+        "1y": 79.02
       }
     },
     {
@@ -894,36 +1002,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.82,
-        "90d": 98.71,
-        "1y": 96.99
+        "30d": 98.84,
+        "90d": 98.72,
+        "1y": 97.01
       }
     },
     {
-      "ip": "122.1.33.1",
+      "ip": "192.221.177.0",
       "version": 4,
       "country_code": "jp",
       "country": "Japan",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "SHINSEI",
-      "domain": null,
+      "organization": "Level 3, LLC",
+      "domain": "cns2.Tokyo4.Level3.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 81.98,
-        "90d": 82.49,
-        "1y": 83.59
+        "24h": 35.21,
+        "30d": 28.74,
+        "90d": 28.5,
+        "1y": 29.12
       }
     },
     {
@@ -947,10 +1055,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 97.14,
-        "30d": 92.54,
+        "24h": 95.77,
+        "30d": 92.62,
         "90d": 94.33,
-        "1y": 94.87
+        "1y": 94.89
       }
     },
     {
@@ -971,13 +1079,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 88.73,
+        "30d": 86.74,
+        "90d": 85.67,
+        "1y": 84.15
+      }
+    },
+    {
+      "ip": "211.12.254.10",
+      "version": 4,
+      "country_code": "jp",
+      "country": "Japan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Hiroshima University of Economics",
+      "domain": "ns.hue.ac.jp",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 86.72,
-        "90d": 85.52,
-        "1y": 84.12
+        "24h": 66.2,
+        "30d": 81.76,
+        "90d": 93.67,
+        "1y": 96.74
       }
     },
     {
@@ -996,14 +1131,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 97.14,
-        "30d": 93.9,
-        "90d": 96.49,
+        "24h": 95.77,
+        "30d": 93.94,
+        "90d": 96.48,
         "1y": 97.72
       }
     },
@@ -1028,10 +1163,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.55,
-        "90d": 97.96,
-        "1y": 98.38
+        "24h": 98.59,
+        "30d": 99.47,
+        "90d": 97.94,
+        "1y": 98.37
       }
     },
     {
@@ -1062,14 +1197,14 @@
       }
     },
     {
-      "ip": "20.46.112.146",
+      "ip": "152.165.116.5",
       "version": 4,
       "country_code": "jp",
       "country": "Japan",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Microsoft Azure Cloud (japaneast)",
-      "domain": null,
+      "organization": "Sony Network Communications Inc.",
+      "domain": "fs98a57405.chbd105.ap.nuro.jp",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1077,15 +1212,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 89.17,
-        "90d": 83.24,
-        "1y": 79.78
+        "24h": 35.21,
+        "30d": 35.71,
+        "90d": 47.35,
+        "1y": 47.92
       }
     },
     {
@@ -1104,15 +1239,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.83,
+        "30d": 63.35,
+        "90d": 61.19,
+        "1y": 63.15
+      }
+    },
+    {
+      "ip": "61.213.119.145",
+      "version": 4,
+      "country_code": "jp",
+      "country": "Japan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "ASAHI",
+      "domain": "j119145.ppp.asahi-net.or.jp",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 63.33,
-        "90d": 61.23,
-        "1y": 63.15
+        "24h": 88.73,
+        "30d": 90.47,
+        "90d": 93.46,
+        "1y": 94.26
       }
     },
     {
@@ -1158,15 +1320,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.57,
-        "30d": 85.26,
-        "90d": 84.68,
-        "1y": 86.44
+        "24h": 90.14,
+        "30d": 85.4,
+        "90d": 84.84,
+        "1y": 86.48
       }
     },
     {
@@ -1191,9 +1353,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.63,
-        "90d": 92.23,
-        "1y": 91.97
+        "30d": 92.79,
+        "90d": 92.33,
+        "1y": 92.01
       }
     },
     {
@@ -1213,14 +1375,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 95.71,
-        "30d": 95.09,
-        "90d": 97.69,
-        "1y": 97.87
+        "24h": 95.77,
+        "30d": 95.2,
+        "90d": 97.7,
+        "1y": 97.88
       }
     },
     {
@@ -1245,9 +1407,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 86.69,
-        "90d": 94.39,
-        "1y": 94.23
+        "30d": 87.19,
+        "90d": 94.45,
+        "1y": 94.26
       }
     },
     {
@@ -1271,10 +1433,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 94.29,
-        "30d": 91.81,
-        "90d": 92.72,
-        "1y": 93.68
+        "24h": 91.55,
+        "30d": 91.73,
+        "90d": 92.78,
+        "1y": 93.67
       }
     },
     {
@@ -1293,15 +1455,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 98.57,
-        "30d": 96.54,
-        "90d": 98.14,
-        "1y": 98.65
+        "24h": 92.96,
+        "30d": 96.26,
+        "90d": 98.03,
+        "1y": 98.6
       }
     },
     {
@@ -1325,10 +1487,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 95.71,
-        "30d": 94.09,
-        "90d": 97.15,
-        "1y": 98.12
+        "24h": 91.55,
+        "30d": 93.95,
+        "90d": 97.07,
+        "1y": 98.08
       }
     },
     {
@@ -1348,41 +1510,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 84.97,
-        "90d": 87.05,
-        "1y": 86.35
-      }
-    },
-    {
-      "ip": "211.10.168.1",
-      "version": 4,
-      "country_code": "jp",
-      "country": "Japan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "NIPPON FIELD ENGINEERING Co., Ltd.",
-      "domain": "router.nfe.co.jp",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.57,
-        "30d": 97.91,
-        "90d": 95.74,
-        "1y": 93.13
+        "24h": 88.73,
+        "30d": 85.04,
+        "90d": 87.16,
+        "1y": 86.37
       }
     },
     {
@@ -1402,14 +1537,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 97.14,
-        "30d": 93.54,
-        "90d": 96.4,
-        "1y": 97.57
+        "24h": 94.37,
+        "30d": 93.5,
+        "90d": 96.36,
+        "1y": 97.55
       }
     },
     {
@@ -1433,10 +1568,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 98.57,
-        "30d": 90.81,
-        "90d": 91.63,
-        "1y": 91.14
+        "24h": 97.18,
+        "30d": 91.01,
+        "90d": 91.67,
+        "1y": 91.17
       }
     },
     {
@@ -1452,33 +1587,6 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 98.57,
-        "30d": 99.91,
-        "90d": 99.91,
-        "1y": 99.89
-      }
-    },
-    {
-      "ip": "124.33.8.69",
-      "version": 4,
-      "country_code": "jp",
-      "country": "Japan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "broadgate",
-      "domain": "124x33x8x69.ap124.ftth.ucom.ne.jp",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -1487,10 +1595,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 81.43,
-        "30d": 81.26,
-        "90d": 81.5,
-        "1y": 66.85
+        "24h": 98.59,
+        "30d": 99.91,
+        "90d": 99.91,
+        "1y": 99.89
       }
     },
     {
@@ -1509,42 +1617,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 98.57,
-        "30d": 94.45,
-        "90d": 94.45,
-        "1y": 93.42
-      }
-    },
-    {
-      "ip": "126.249.167.161",
-      "version": 4,
-      "country_code": "jp",
-      "country": "Japan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "SOFTBANK Corp",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 97.14,
-        "30d": 91.9,
-        "90d": 92.63,
-        "1y": 92.06
+        "24h": 98.59,
+        "30d": 94.57,
+        "90d": 94.57,
+        "1y": 93.45
       }
     },
     {
@@ -1569,9 +1650,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.36,
-        "90d": 90.19,
-        "1y": 56.45
+        "30d": 92.62,
+        "90d": 90.72,
+        "1y": 56.68
+      }
+    },
+    {
+      "ip": "61.194.65.90",
+      "version": 4,
+      "country_code": "jp",
+      "country": "Japan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "WEWILL Corporation",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 52.11,
+        "30d": 64.18,
+        "90d": 66.86,
+        "1y": 65.18
       }
     },
     {
@@ -1591,30 +1699,30 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 86.17,
-        "90d": 87.92,
+        "24h": 85.92,
+        "30d": 86.21,
+        "90d": 88.0,
         "1y": 87.64
       }
     },
     {
-      "ip": "210.225.153.177",
+      "ip": "61.193.129.2",
       "version": 4,
       "country_code": "jp",
       "country": "Japan",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "OCN",
-      "domain": null,
+      "organization": "Nihon Network Service Co, .Ltd.",
+      "domain": "rns.nns.ne.jp",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -1622,21 +1730,48 @@
         "adult": false
       },
       "uptime": {
-        "24h": 98.57,
-        "30d": 93.99,
-        "90d": 92.66,
-        "1y": 92.1
+        "24h": 88.73,
+        "30d": 93.5,
+        "90d": 96.54,
+        "1y": 97.99
       }
     },
     {
-      "ip": "101.110.40.25",
+      "ip": "126.249.167.193",
       "version": 4,
       "country_code": "jp",
       "country": "Japan",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "IPR",
-      "domain": "25.CH36744.cyberhome.ne.jp",
+      "organization": "SOFTBANK Corp",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.28,
+        "30d": 67.35,
+        "90d": 75.88,
+        "1y": 78.71
+      }
+    },
+    {
+      "ip": "210.134.0.130",
+      "version": 4,
+      "country_code": "jp",
+      "country": "Japan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "INAKA-NET",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1645,14 +1780,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 87.08,
-        "90d": 87.38,
-        "1y": 83.61
+        "24h": 77.46,
+        "30d": 82.15,
+        "90d": 92.3,
+        "1y": 95.9
       }
     },
     {
@@ -1676,75 +1811,21 @@
         "adult": false
       },
       "uptime": {
-        "24h": 94.29,
-        "30d": 95.45,
-        "90d": 80.34,
-        "1y": 82.1
+        "24h": 90.14,
+        "30d": 95.28,
+        "90d": 80.54,
+        "1y": 82.14
       }
     },
     {
-      "ip": "163.44.49.226",
+      "ip": "210.79.34.137",
       "version": 4,
       "country_code": "jp",
       "country": "Japan",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "InfoSphere",
-      "domain": "st1986.nas811.p-kanagawa.nttpc.ne.jp",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.57,
-        "30d": 97.54,
-        "90d": 96.01,
-        "1y": 95.07
-      }
-    },
-    {
-      "ip": "124.146.185.97",
-      "version": 4,
-      "country_code": "jp",
-      "country": "Japan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TV-Asahi",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 90.72,
-        "90d": 89.9,
-        "1y": 64.23
-      }
-    },
-    {
-      "ip": "58.191.61.42",
-      "version": 4,
-      "country_code": "jp",
-      "country": "Japan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "K-Opticom Corporation",
-      "domain": "58-191-61-42f2.osk1.eonet.ne.jp",
+      "organization": "KATCH",
+      "domain": "d-210-79-34-137.ftth.katch.ne.jp",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1752,15 +1833,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 91.43,
-        "30d": 87.35,
-        "90d": 88.94,
-        "1y": 66.15
+        "24h": 87.32,
+        "30d": 89.85,
+        "90d": 91.58,
+        "1y": 90.15
       }
     },
     {
@@ -1808,13 +1889,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 89.44,
-        "90d": 86.72,
-        "1y": 89.52
+        "24h": 84.51,
+        "30d": 89.23,
+        "90d": 86.66,
+        "1y": 89.48
       }
     },
     {
@@ -1838,10 +1919,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 98.57,
-        "30d": 96.82,
-        "90d": 97.51,
-        "1y": 97.6
+        "24h": 98.59,
+        "30d": 96.8,
+        "90d": 97.49,
+        "1y": 97.59
       }
     },
     {
@@ -1865,37 +1946,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 91.43,
-        "30d": 90.99,
-        "90d": 91.39,
-        "1y": 91.22
-      }
-    },
-    {
-      "ip": "122.18.242.92",
-      "version": 4,
-      "country_code": "jp",
-      "country": "Japan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Open Computer Network",
-      "domain": "x7a12f25c.kngw.kotei.ppp.nifty.ne.jp",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.57,
-        "30d": 81.98,
-        "90d": 83.45,
-        "1y": 82.9
+        "24h": 85.92,
+        "30d": 90.83,
+        "90d": 91.4,
+        "1y": 91.2
       }
     },
     {
@@ -1915,41 +1969,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 92.86,
-        "30d": 93.62,
-        "90d": 94.06,
-        "1y": 93.66
-      }
-    },
-    {
-      "ip": "182.171.70.161",
-      "version": 4,
-      "country_code": "jp",
-      "country": "Japan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "So-net Entertainment Corporation",
-      "domain": "ipb6ab46a1.ap.nuro.jp",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 94.29,
-        "30d": 90.81,
-        "90d": 90.64,
-        "1y": 90.51
+        "24h": 92.96,
+        "30d": 93.68,
+        "90d": 94.09,
+        "1y": 93.68
       }
     },
     {
@@ -1968,42 +1995,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 98.57,
-        "30d": 97.09,
-        "90d": 95.35,
-        "1y": 93.89
-      }
-    },
-    {
-      "ip": "116.82.248.104",
-      "version": 4,
-      "country_code": "jp",
-      "country": "Japan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Sony Network Communications Inc.",
-      "domain": "fs7452f868.aicf110.ap.nuro.jp",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 94.29,
-        "30d": 90.45,
-        "90d": 86.54,
-        "1y": 54.47
+        "24h": 98.59,
+        "30d": 97.06,
+        "90d": 95.37,
+        "1y": 93.91
       }
     },
     {
@@ -2027,37 +2027,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 72.86,
-        "30d": 70.15,
-        "90d": 68.1,
-        "1y": 43.17
-      }
-    },
-    {
-      "ip": "59.158.8.83",
-      "version": 4,
-      "country_code": "jp",
-      "country": "Japan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "ARTERIA Networks Corp.",
-      "domain": "59x158x8x83.ap59.ftth.ucom.ne.jp",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 86.99,
-        "90d": 89.06,
-        "1y": 90.14
+        "24h": 64.79,
+        "30d": 69.81,
+        "90d": 68.27,
+        "1y": 43.28
       }
     },
     {
@@ -2078,13 +2051,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.12,
-        "90d": 94.74,
-        "1y": 97.42
+        "30d": 94.36,
+        "90d": 94.77,
+        "1y": 97.44
       }
     }
   ]
