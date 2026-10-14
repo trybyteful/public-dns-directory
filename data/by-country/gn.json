@@ -4,8 +4,8 @@
     "country_name": "Guinea",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-10-14T06:26:55Z",
-    "total_servers": 1
+    "generated_at": "2026-10-14T18:03:50Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 62.86,
-        "30d": 55.27,
-        "90d": 56.62,
-        "1y": 57.03
+        "24h": 81.16,
+        "30d": 56.03,
+        "90d": 56.77,
+        "1y": 57.19
+      }
+    },
+    {
+      "ip": "41.79.237.84",
+      "version": 4,
+      "country_code": "gn",
+      "country": "Guinea",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "BCI",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 69.57,
+        "30d": 63.25,
+        "90d": 65.79,
+        "1y": 64.31
       }
     }
   ]
