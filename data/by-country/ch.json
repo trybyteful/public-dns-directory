@@ -4,8 +4,8 @@
     "country_name": "Switzerland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-10-15T06:27:20Z",
-    "total_servers": 33
+    "generated_at": "2026-10-15T18:04:21Z",
+    "total_servers": 34
   },
   "resolvers": [
     {
@@ -30,9 +30,9 @@
       },
       "uptime": {
         "24h": 89.71,
-        "30d": 89.6,
-        "90d": 89.48,
-        "1y": 89.38
+        "30d": 89.78,
+        "90d": 89.51,
+        "1y": 89.43
       }
     },
     {
@@ -57,9 +57,9 @@
       },
       "uptime": {
         "24h": 98.53,
-        "30d": 98.87,
-        "90d": 98.53,
-        "1y": 95.12
+        "30d": 98.81,
+        "90d": 98.57,
+        "1y": 95.14
       }
     },
     {
@@ -78,15 +78,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.35,
+        "30d": 99.37,
         "90d": 99.62,
-        "1y": 99.67
+        "1y": 99.68
       }
     },
     {
@@ -102,17 +102,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.6,
-        "90d": 99.79,
+        "90d": 99.8,
         "1y": 99.01
       }
     },
@@ -133,7 +133,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -159,8 +159,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -194,7 +194,7 @@
         "24h": 100.0,
         "30d": 100.0,
         "90d": 99.94,
-        "1y": 97.64
+        "1y": 97.65
       }
     },
     {
@@ -214,14 +214,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 77.94,
-        "30d": 64.84,
-        "90d": 71.37,
-        "1y": 72.2
+        "24h": 45.59,
+        "30d": 63.1,
+        "90d": 70.59,
+        "1y": 71.87
       }
     },
     {
@@ -267,7 +267,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -354,7 +354,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.03,
+        "30d": 99.05,
         "90d": 99.21,
         "1y": 99.57
       }
@@ -375,15 +375,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 73.53,
-        "30d": 87.58,
-        "90d": 92.97,
-        "1y": 94.87
+        "24h": 89.71,
+        "30d": 87.72,
+        "90d": 92.93,
+        "1y": 94.85
       }
     },
     {
@@ -403,7 +403,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -457,14 +457,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.92,
-        "90d": 88.87,
-        "1y": 50.8
+        "90d": 88.96,
+        "1y": 51.09
       }
     },
     {
@@ -484,14 +484,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 88.15,
-        "90d": 91.79,
-        "1y": 94.38
+        "24h": 95.59,
+        "30d": 88.43,
+        "90d": 91.73,
+        "1y": 94.36
       }
     },
     {
@@ -510,15 +510,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 88.63,
-        "90d": 89.1,
-        "1y": 90.85
+        "24h": 94.12,
+        "30d": 88.76,
+        "90d": 89.11,
+        "1y": 90.83
+      }
+    },
+    {
+      "ip": "194.209.225.15",
+      "version": 4,
+      "country_code": "ch",
+      "country": "Switzerland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Kaktus Online GmbH",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.29,
+        "30d": 92.47,
+        "90d": 95.15,
+        "1y": 97.37
       }
     },
     {
@@ -543,7 +570,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.23,
+        "30d": 98.26,
         "90d": 99.21,
         "1y": 99.39
       }
@@ -569,9 +596,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 83.82,
-        "30d": 93.06,
-        "90d": 96.95,
+        "24h": 100.0,
+        "30d": 93.42,
+        "90d": 96.96,
         "1y": 98.46
       }
     },
@@ -591,15 +618,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 94.19,
-        "90d": 95.75,
-        "1y": 95.7
+        "24h": 92.65,
+        "30d": 94.06,
+        "90d": 95.62,
+        "1y": 95.65
       }
     },
     {
@@ -646,7 +673,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -677,10 +704,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 96.69,
-        "90d": 98.24,
-        "1y": 98.83
+        "24h": 98.53,
+        "30d": 96.75,
+        "90d": 98.22,
+        "1y": 98.82
       }
     },
     {
@@ -704,10 +731,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 91.53,
-        "90d": 93.58,
-        "1y": 95.3
+        "24h": 95.59,
+        "30d": 91.68,
+        "90d": 93.54,
+        "1y": 95.28
       }
     },
     {
@@ -776,8 +803,8 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -786,7 +813,7 @@
       },
       "uptime": {
         "24h": 98.53,
-        "30d": 99.35,
+        "30d": 99.37,
         "90d": 99.74,
         "1y": 99.6
       }
@@ -812,10 +839,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 96.45,
-        "90d": 98.12,
-        "1y": 98.77
+        "24h": 98.53,
+        "30d": 96.51,
+        "90d": 98.1,
+        "1y": 98.76
       }
     },
     {
@@ -841,7 +868,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.76,
-        "90d": 99.77,
+        "90d": 99.8,
         "1y": 99.78
       }
     },

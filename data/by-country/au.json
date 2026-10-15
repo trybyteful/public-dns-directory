@@ -4,37 +4,10 @@
     "country_name": "Australia",
     "continent_code": "oc",
     "continent_name": "Oceania",
-    "generated_at": "2026-10-15T06:27:20Z",
+    "generated_at": "2026-10-15T18:04:21Z",
     "total_servers": 44
   },
   "resolvers": [
-    {
-      "ip": "110.143.148.183",
-      "version": 4,
-      "country_code": "au",
-      "country": "Australia",
-      "continent_code": "oc",
-      "continent": "Oceania",
-      "organization": "Telstra Internet",
-      "domain": "abi1708756.lnk.telstra.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 80.88,
-        "30d": 83.31,
-        "90d": 84.14,
-        "1y": 76.14
-      }
-    },
     {
       "ip": "210.193.195.118",
       "version": 4,
@@ -47,19 +20,46 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 72.06,
-        "30d": 65.89,
-        "90d": 66.62,
-        "1y": 68.47
+        "24h": 66.18,
+        "30d": 65.93,
+        "90d": 66.55,
+        "1y": 68.43
+      }
+    },
+    {
+      "ip": "27.33.60.66",
+      "version": 4,
+      "country_code": "au",
+      "country": "Australia",
+      "continent_code": "oc",
+      "continent": "Oceania",
+      "organization": "TPG Internet Pty Ltd.",
+      "domain": "27-33-60-66.tpgi.com.au",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 52.94,
+        "30d": 39.65,
+        "90d": 42.89,
+        "1y": 55.46
       }
     },
     {
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
         "90d": 100.0,
-        "1y": 99.21
+        "1y": 99.22
       }
     },
     {
@@ -133,14 +133,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 97.01,
-        "1y": 95.73
+        "90d": 97.02,
+        "1y": 95.75
       }
     },
     {
@@ -171,6 +171,33 @@
       }
     },
     {
+      "ip": "27.113.241.18",
+      "version": 4,
+      "country_code": "au",
+      "country": "Australia",
+      "continent_code": "oc",
+      "continent": "Oceania",
+      "organization": "XYZ Telecom Pty Ltd",
+      "domain": "eldsure.wires.net.au",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 77.94,
+        "30d": 79.16,
+        "90d": 79.08,
+        "1y": 52.1
+      }
+    },
+    {
       "ip": "60.242.246.234",
       "version": 4,
       "country_code": "au",
@@ -191,10 +218,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 80.88,
-        "30d": 85.97,
-        "90d": 79.27,
-        "1y": 86.52
+        "24h": 89.71,
+        "30d": 86.21,
+        "90d": 79.29,
+        "1y": 86.49
       }
     },
     {
@@ -241,14 +268,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 89.77,
-        "90d": 91.5,
-        "1y": 94.14
+        "24h": 92.65,
+        "30d": 89.86,
+        "90d": 91.44,
+        "1y": 94.1
       }
     },
     {
@@ -268,14 +295,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 86.76,
-        "30d": 71.53,
-        "90d": 76.67,
-        "1y": 73.61
+        "24h": 83.82,
+        "30d": 71.55,
+        "90d": 76.83,
+        "1y": 73.65
       }
     },
     {
@@ -321,30 +348,30 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 92.65,
-        "30d": 96.69,
-        "90d": 98.01,
+        "24h": 95.59,
+        "30d": 96.67,
+        "90d": 97.98,
         "1y": 97.88
       }
     },
     {
-      "ip": "203.213.96.4",
+      "ip": "180.150.106.27",
       "version": 4,
       "country_code": "au",
       "country": "Australia",
       "continent_code": "oc",
       "continent": "Oceania",
-      "organization": "TPG Internet Pty Ltd",
-      "domain": "203-213-96-4.static.tpgi.com.au",
+      "organization": "Aussie Broadband",
+      "domain": "180-150-106-27.b4966a.bne.static.aussiebb.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -353,10 +380,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 80.88,
-        "30d": 88.87,
-        "90d": 89.68,
-        "1y": 86.16
+        "24h": 30.88,
+        "30d": 31.81,
+        "90d": 27.7,
+        "1y": 25.57
       }
     },
     {
@@ -380,10 +407,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 80.88,
-        "30d": 96.13,
-        "90d": 94.29,
-        "1y": 90.49
+        "24h": 92.65,
+        "30d": 96.51,
+        "90d": 94.31,
+        "1y": 90.53
       }
     },
     {
@@ -426,45 +453,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 80.88,
-        "30d": 88.72,
-        "90d": 91.53,
-        "1y": 92.08
-      }
-    },
-    {
-      "ip": "203.144.13.250",
-      "version": 4,
-      "country_code": "au",
-      "country": "Australia",
-      "continent_code": "oc",
-      "continent": "Oceania",
-      "organization": "Network Technology (Aust) Pty Ltd",
-      "domain": "comsectr.com.au",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 80.88,
-        "30d": 89.19,
-        "90d": 91.62,
-        "1y": 91.84
+        "24h": 92.65,
+        "30d": 88.83,
+        "90d": 91.5,
+        "1y": 92.06
       }
     },
     {
@@ -507,18 +507,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 84.68,
-        "90d": 84.55,
-        "1y": 81.95
+        "24h": 92.65,
+        "30d": 84.55,
+        "90d": 84.58,
+        "1y": 81.96
       }
     },
     {
@@ -546,33 +546,6 @@
         "30d": 99.92,
         "90d": 99.97,
         "1y": 99.88
-      }
-    },
-    {
-      "ip": "210.8.28.194",
-      "version": 4,
-      "country_code": "au",
-      "country": "Australia",
-      "continent_code": "oc",
-      "continent": "Oceania",
-      "organization": "AAPT Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 80.88,
-        "30d": 90.32,
-        "90d": 92.73,
-        "1y": 92.87
       }
     },
     {
@@ -620,13 +593,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 97.06,
-        "30d": 95.65,
-        "90d": 97.83,
-        "1y": 98.46
+        "24h": 98.53,
+        "30d": 95.64,
+        "90d": 97.81,
+        "1y": 98.45
       }
     },
     {
@@ -646,7 +619,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -672,7 +645,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
@@ -701,7 +674,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -726,7 +699,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
@@ -759,9 +732,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.48,
-        "90d": 92.84,
-        "1y": 89.01
+        "30d": 87.72,
+        "90d": 92.89,
+        "1y": 89.07
+      }
+    },
+    {
+      "ip": "144.137.210.182",
+      "version": 4,
+      "country_code": "au",
+      "country": "Australia",
+      "continent_code": "oc",
+      "continent": "Oceania",
+      "organization": "Telstra Internet",
+      "domain": "cpe-144-137-210-182.static.nsw.asp.telstra.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 63.24,
+        "30d": 58.4,
+        "90d": 60.13,
+        "1y": 59.35
       }
     },
     {
@@ -785,10 +785,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 83.82,
-        "30d": 90.97,
+        "24h": 94.12,
+        "30d": 91.13,
         "90d": 93.56,
-        "1y": 81.04
+        "1y": 81.11
       }
     },
     {
@@ -808,14 +808,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 83.82,
-        "30d": 90.97,
-        "90d": 94.55,
-        "1y": 96.22
+        "24h": 97.06,
+        "30d": 91.13,
+        "90d": 94.54,
+        "1y": 96.21
       }
     },
     {
@@ -835,41 +835,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 92.65,
-        "30d": 81.21,
-        "90d": 80.42,
-        "1y": 83.17
-      }
-    },
-    {
-      "ip": "110.143.3.83",
-      "version": 4,
-      "country_code": "au",
-      "country": "Australia",
-      "continent_code": "oc",
-      "continent": "Oceania",
-      "organization": "Telstra Internet",
-      "domain": "abi1684415.lnk.telstra.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 57.35,
-        "30d": 35.17,
-        "90d": 32.9,
-        "1y": 29.22
+        "24h": 88.24,
+        "30d": 81.3,
+        "90d": 80.43,
+        "1y": 83.17
       }
     },
     {
@@ -889,14 +862,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 97.01,
-        "1y": 95.8
+        "90d": 97.02,
+        "1y": 95.82
       }
     },
     {
@@ -915,7 +888,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
@@ -924,6 +897,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "210.18.214.38",
+      "version": 4,
+      "country_code": "au",
+      "country": "Australia",
+      "continent_code": "oc",
+      "continent": "Oceania",
+      "organization": "Brennan Voice and Data Pty Ltd",
+      "domain": "mx10.bsrgroup.com.au",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 64.71,
+        "30d": 70.05,
+        "90d": 85.98,
+        "1y": 91.0
       }
     },
     {
@@ -1001,10 +1001,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 95.59,
-        "30d": 97.74,
-        "90d": 98.33,
-        "1y": 98.16
+        "24h": 97.06,
+        "30d": 97.78,
+        "90d": 98.34,
+        "1y": 98.17
       }
     },
     {
@@ -1028,10 +1028,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 82.35,
-        "30d": 84.84,
-        "90d": 92.61,
-        "1y": 95.28
+        "24h": 86.76,
+        "30d": 84.96,
+        "90d": 92.55,
+        "1y": 95.25
       }
     },
     {
@@ -1078,14 +1078,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.31,
+        "30d": 98.34,
         "90d": 99.27,
-        "1y": 97.95
+        "1y": 97.96
       }
     },
     {
@@ -1101,18 +1101,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 94.12,
-        "30d": 95.32,
-        "90d": 97.36,
-        "1y": 98.25
+        "24h": 100.0,
+        "30d": 95.56,
+        "90d": 97.37,
+        "1y": 98.26
       }
     },
     {
@@ -1159,30 +1159,30 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 73.53,
-        "30d": 70.56,
-        "90d": 83.47,
-        "1y": 89.0
+        "24h": 95.59,
+        "30d": 71.26,
+        "90d": 83.52,
+        "1y": 89.05
       }
     },
     {
-      "ip": "203.52.58.161",
+      "ip": "203.147.94.71",
       "version": 4,
       "country_code": "au",
       "country": "Australia",
       "continent_code": "oc",
       "continent": "Oceania",
-      "organization": "Telstra Corporation Limited",
+      "organization": "Mobilizer Pty Ltd",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -1190,10 +1190,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 98.53,
-        "30d": 98.23,
-        "90d": 98.51,
-        "1y": 98.35
+        "24h": 77.94,
+        "30d": 54.24,
+        "90d": 54.05,
+        "1y": 56.85
       }
     }
   ]
