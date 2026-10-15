@@ -4,18 +4,18 @@
     "country_name": "Lebanon",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-10-14T18:03:50Z",
-    "total_servers": 4
+    "generated_at": "2026-10-15T06:27:20Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "77.42.220.110",
+      "ip": "91.151.226.102",
       "version": 4,
       "country_code": "lb",
       "country": "Lebanon",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Ogeronet",
+      "organization": "bcdbbn-bloc1",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 69.57,
-        "30d": 55.78,
-        "90d": 58.33,
-        "1y": 62.7
+        "24h": 76.47,
+        "30d": 80.65,
+        "90d": 82.72,
+        "1y": 76.79
       }
     },
     {
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 63.77,
-        "30d": 64.07,
-        "90d": 60.99,
-        "1y": 61.2
+        "24h": 66.18,
+        "30d": 64.44,
+        "90d": 61.37,
+        "1y": 61.32
       }
     },
     {
@@ -74,7 +74,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -83,37 +83,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 60.87,
-        "30d": 45.78,
-        "90d": 44.05,
-        "1y": 42.6
-      }
-    },
-    {
-      "ip": "212.98.146.97",
-      "version": 4,
-      "country_code": "lb",
-      "country": "Lebanon",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TerraNet sal",
-      "domain": "corp-212-98-146-97.terra.net.lb",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 56.52,
-        "30d": 38.75,
-        "90d": 33.04,
-        "1y": 33.75
+        "24h": 61.76,
+        "30d": 45.97,
+        "90d": 44.37,
+        "1y": 42.73
       }
     }
   ]
