@@ -4,10 +4,37 @@
     "country_name": "Paraguay",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-10-15T18:04:21Z",
-    "total_servers": 10
+    "generated_at": "2026-10-16T06:26:29Z",
+    "total_servers": 13
   },
   "resolvers": [
+    {
+      "ip": "201.222.52.6",
+      "version": 4,
+      "country_code": "py",
+      "country": "Paraguay",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "TECNOLOGIA EN ELECTRONICA E INFORMATICA SOCIEDAD ANONIMA (T.E.I.S.A)",
+      "domain": "mail.britam.com.py",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.53,
+        "30d": 97.35,
+        "90d": 98.69,
+        "1y": 98.99
+      }
+    },
     {
       "ip": "181.94.197.197",
       "version": 4,
@@ -24,25 +51,25 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 86.76,
-        "30d": 81.93,
-        "90d": 82.27,
-        "1y": 80.26
+        "24h": 82.35,
+        "30d": 82.01,
+        "90d": 82.22,
+        "1y": 80.3
       }
     },
     {
-      "ip": "190.104.134.90",
+      "ip": "200.108.131.206",
       "version": 4,
       "country_code": "py",
       "country": "Paraguay",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Núcleo S.A",
+      "organization": "E-life Paraguay S.A",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -51,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 62.68,
-        "90d": 58.88,
-        "1y": 58.82
+        "24h": 66.18,
+        "30d": 65.53,
+        "90d": 62.37,
+        "1y": 63.25
       }
     },
     {
@@ -80,40 +107,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.67,
-        "90d": 96.74,
-        "1y": 94.96
-      }
-    },
-    {
-      "ip": "190.104.168.155",
-      "version": 4,
-      "country_code": "py",
-      "country": "Paraguay",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Núcleo S.A",
-      "domain": "host-155.personal.net.py",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 52.94,
-        "30d": 62.6,
-        "90d": 62.12,
-        "1y": 39.92
+        "30d": 96.73,
+        "90d": 96.75,
+        "1y": 94.99
       }
     },
     {
@@ -134,13 +134,94 @@
       "blocking": {
         "ads": false,
         "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 66.18,
+        "30d": 60.69,
+        "90d": 61.94,
+        "1y": 62.14
+      }
+    },
+    {
+      "ip": "200.85.61.90",
+      "version": 4,
+      "country_code": "py",
+      "country": "Paraguay",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Telecel S.A",
+      "domain": "mail.ss7solutions.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 33.82,
+        "30d": 40.34,
+        "90d": 55.13,
+        "1y": 59.86
+      }
+    },
+    {
+      "ip": "201.222.50.30",
+      "version": 4,
+      "country_code": "py",
+      "country": "Paraguay",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "TECNOLOGIA EN ELECTRONICA E INFORMATICA SOCIEDAD ANONIMA (T.E.I.S.A)",
+      "domain": "mail.seprelad.gov.py",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.29,
+        "30d": 85.68,
+        "90d": 89.06,
+        "1y": 88.09
+      }
+    },
+    {
+      "ip": "181.94.247.163",
+      "version": 4,
+      "country_code": "py",
+      "country": "Paraguay",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Núcleo S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 70.59,
-        "30d": 60.6,
-        "90d": 61.89,
-        "1y": 62.09
+        "24h": 54.41,
+        "30d": 50.74,
+        "90d": 53.81,
+        "1y": 57.04
       }
     },
     {
@@ -159,15 +240,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 69.12,
-        "30d": 64.18,
-        "90d": 64.6,
-        "1y": 67.66
+        "24h": 58.82,
+        "30d": 64.2,
+        "90d": 64.7,
+        "1y": 67.65
       }
     },
     {
@@ -183,18 +264,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 59.75,
-        "90d": 58.92,
-        "1y": 60.11
+        "24h": 55.88,
+        "30d": 59.38,
+        "90d": 59.02,
+        "1y": 60.06
       }
     },
     {
@@ -213,15 +294,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 67.65,
-        "30d": 65.45,
-        "90d": 63.08,
-        "1y": 61.23
+        "24h": 51.47,
+        "30d": 64.9,
+        "90d": 63.13,
+        "1y": 61.17
       }
     },
     {
@@ -240,26 +321,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 38.24,
-        "30d": 78.37,
-        "90d": 80.11,
-        "1y": 78.26
+        "24h": 58.82,
+        "30d": 78.52,
+        "90d": 80.1,
+        "1y": 78.33
       }
     },
     {
-      "ip": "190.104.173.150",
+      "ip": "190.128.214.90",
       "version": 4,
       "country_code": "py",
       "country": "Paraguay",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Núcleo S.A",
-      "domain": "host-150.personal.net.py",
+      "organization": "Telecel S.A",
+      "domain": "pool-90-214-128-190.telecel.com.py",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -267,15 +348,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 72.06,
-        "30d": 62.28,
-        "90d": 61.62,
-        "1y": 63.44
+        "24h": 60.29,
+        "30d": 67.86,
+        "90d": 68.48,
+        "1y": 72.1
       }
     }
   ]

@@ -4,7 +4,7 @@
     "country_name": "San Marino",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-10-15T18:04:21Z",
+    "generated_at": "2026-10-16T06:26:29Z",
     "total_servers": 2
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": true,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 76.41,
-        "90d": 86.58,
-        "1y": 84.76
+        "30d": 76.92,
+        "90d": 86.77,
+        "1y": 84.87
       }
     },
     {
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.94,
-        "90d": 91.75,
-        "1y": 90.99
+        "30d": 93.07,
+        "90d": 91.88,
+        "1y": 91.03
       }
     }
   ]
