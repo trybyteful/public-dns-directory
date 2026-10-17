@@ -4,8 +4,8 @@
     "country_name": "Guatemala",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-10-16T18:04:01Z",
-    "total_servers": 4
+    "generated_at": "2026-10-17T06:24:04Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 92.54,
-        "30d": 84.48,
-        "90d": 87.39,
-        "1y": 90.34
+        "24h": 93.88,
+        "30d": 84.49,
+        "90d": 87.37,
+        "1y": 90.36
       }
     },
     {
@@ -51,15 +51,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 91.04,
-        "30d": 74.16,
-        "90d": 71.86,
-        "1y": 66.93
+        "24h": 89.8,
+        "30d": 74.56,
+        "90d": 72.09,
+        "1y": 66.97
       }
     },
     {
@@ -78,15 +78,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 97.01,
-        "30d": 95.1,
-        "90d": 97.51,
-        "1y": 97.96
+        "24h": 96.0,
+        "30d": 95.11,
+        "90d": 97.5,
+        "1y": 97.97
+      }
+    },
+    {
+      "ip": "190.149.193.229",
+      "version": 4,
+      "country_code": "gt",
+      "country": "Guatemala",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "TELECOMUNICACIONES DE GUATEMALA, SOCIEDAD ANONIMA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 83.67,
+        "30d": 85.49,
+        "90d": 87.57,
+        "1y": 86.76
       }
     },
     {
@@ -105,15 +132,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 88.06,
-        "30d": 69.27,
-        "90d": 68.62,
-        "1y": 71.14
+        "24h": 85.71,
+        "30d": 69.67,
+        "90d": 68.78,
+        "1y": 71.19
       }
     }
   ]
