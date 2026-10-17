@@ -4,8 +4,8 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-10-17T06:24:04Z",
-    "total_servers": 6
+    "generated_at": "2026-10-17T18:03:21Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -25,13 +25,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.92,
-        "90d": 99.83,
+        "90d": 99.82,
         "1y": 99.72
       }
     },
@@ -48,11 +48,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -78,14 +78,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.08,
-        "90d": 99.48,
+        "90d": 99.47,
         "1y": 97.26
       }
     },
@@ -106,41 +106,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 91.75,
-        "90d": 64.08,
-        "1y": 70.71
-      }
-    },
-    {
-      "ip": "217.218.127.127",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "\"Telecommunication Intfrastructure Company\" IP range.",
-      "domain": "recursive1.dci.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.85,
-        "90d": 99.83,
-        "1y": 99.64
+        "30d": 91.8,
+        "90d": 64.26,
+        "1y": 70.76
       }
     },
     {
@@ -156,7 +129,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
