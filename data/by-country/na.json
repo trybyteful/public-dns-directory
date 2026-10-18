@@ -4,10 +4,37 @@
     "country_name": "Namibia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-10-18T06:24:03Z",
-    "total_servers": 1
+    "generated_at": "2026-10-18T18:03:42Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "77.220.1.124",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Witel",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 81.25,
+        "30d": 82.68,
+        "90d": 85.21,
+        "1y": 85.81
+      }
+    },
     {
       "ip": "41.63.240.79",
       "version": 4,
@@ -24,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 87.5,
-        "30d": 75.35,
+        "30d": 75.81,
         "90d": 73.25,
-        "1y": 71.01
+        "1y": 71.03
       }
     }
   ]

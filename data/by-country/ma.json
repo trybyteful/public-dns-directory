@@ -4,8 +4,8 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-10-18T06:24:03Z",
-    "total_servers": 2
+    "generated_at": "2026-10-18T18:03:42Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -25,18 +25,126 @@
       },
       "blocking": {
         "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.75,
+        "30d": 92.42,
+        "90d": 95.43,
+        "1y": 94.9
+      }
+    },
+    {
+      "ip": "41.87.158.170",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Fixed",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 91.99,
-        "90d": 95.48,
-        "1y": 94.91
+        "24h": 81.25,
+        "30d": 92.55,
+        "90d": 84.75,
+        "1y": 74.39
       }
     },
     {
       "ip": "41.87.158.142",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Fixed",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 18.75,
+        "30d": 13.11,
+        "90d": 10.93,
+        "1y": 9.89
+      }
+    },
+    {
+      "ip": "81.192.7.147",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "LLI ccm",
+      "domain": "srv1-ccm.ma",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 31.25,
+        "30d": 58.7,
+        "90d": 56.13,
+        "1y": 53.33
+      }
+    },
+    {
+      "ip": "197.230.15.206",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "OS Meditel",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 81.25,
+        "30d": 89.64,
+        "90d": 87.97,
+        "1y": 82.07
+      }
+    },
+    {
+      "ip": "197.230.174.153",
       "version": 4,
       "country_code": "ma",
       "country": "Morocco",
@@ -56,10 +164,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 23.53,
-        "30d": 12.87,
-        "90d": 10.88,
-        "1y": 9.87
+        "24h": 75.0,
+        "30d": 89.48,
+        "90d": 95.37,
+        "1y": 96.98
       }
     }
   ]
