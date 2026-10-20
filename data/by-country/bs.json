@@ -4,8 +4,8 @@
     "country_name": "Bahamas",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-10-20T06:26:26Z",
-    "total_servers": 3
+    "generated_at": "2026-10-20T18:03:54Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 80.42,
-        "90d": 82.59,
-        "1y": 87.03
+        "24h": 93.33,
+        "30d": 80.9,
+        "90d": 82.66,
+        "1y": 87.04
       }
     },
     {
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 91.61,
-        "90d": 94.47,
-        "1y": 85.15
+        "24h": 93.33,
+        "30d": 91.98,
+        "90d": 94.45,
+        "1y": 85.16
       }
     },
     {
@@ -79,14 +79,41 @@
       },
       "blocking": {
         "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 93.33,
+        "30d": 80.97,
+        "90d": 83.05,
+        "1y": 87.33
+      }
+    },
+    {
+      "ip": "208.87.35.199",
+      "version": 4,
+      "country_code": "bs",
+      "country": "Bahamas",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Secure Hosting Ltd",
+      "domain": "208-87-35-199.securehost.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 80.5,
-        "90d": 82.98,
-        "1y": 87.32
+        "24h": 80.0,
+        "30d": 70.4,
+        "90d": 89.74,
+        "1y": 88.51
       }
     }
   ]

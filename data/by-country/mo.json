@@ -4,7 +4,7 @@
     "country_name": "Macao",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-10-20T06:26:26Z",
+    "generated_at": "2026-10-20T18:03:54Z",
     "total_servers": 8
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 87.31,
-        "90d": 85.07,
-        "1y": 83.76
+        "24h": 100.0,
+        "30d": 87.74,
+        "90d": 85.09,
+        "1y": 83.77
       }
     },
     {
@@ -48,12 +48,12 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -75,18 +75,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 87.86,
-        "90d": 85.22,
-        "1y": 83.55
+        "24h": 93.33,
+        "30d": 88.44,
+        "90d": 85.24,
+        "1y": 83.56
       }
     },
     {
@@ -110,9 +110,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 78.8,
-        "90d": 81.97,
+        "24h": 93.33,
+        "30d": 79.13,
+        "90d": 81.89,
         "1y": 84.0
       }
     },
@@ -138,9 +138,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.2,
-        "90d": 98.33,
-        "1y": 97.78
+        "30d": 98.19,
+        "90d": 98.32,
+        "1y": 97.79
+      }
+    },
+    {
+      "ip": "202.175.66.122",
+      "version": 4,
+      "country_code": "mo",
+      "country": "Macao",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CTM Internet Services",
+      "domain": "z66l122.static.ctm.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 86.67,
+        "30d": 76.73,
+        "90d": 70.76,
+        "1y": 82.23
       }
     },
     {
@@ -156,7 +183,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -164,37 +191,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 84.73,
-        "90d": 82.41,
+        "24h": 93.33,
+        "30d": 85.38,
+        "90d": 82.42,
         "1y": 81.96
-      }
-    },
-    {
-      "ip": "202.86.149.20",
-      "version": 4,
-      "country_code": "mo",
-      "country": "Macao",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "CTM",
-      "domain": "n20286z149l20.static.ctmip.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 86.3,
-        "90d": 83.43,
-        "1y": 82.41
       }
     },
     {
@@ -215,13 +215,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 86.67,
-        "30d": 78.47,
-        "90d": 88.06,
-        "1y": 92.15
+        "30d": 78.77,
+        "90d": 87.97,
+        "1y": 92.14
       }
     }
   ]

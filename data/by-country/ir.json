@@ -4,7 +4,7 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-10-20T06:26:26Z",
+    "generated_at": "2026-10-20T18:03:54Z",
     "total_servers": 6
   },
   "resolvers": [
@@ -24,7 +24,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -48,18 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 93.33,
+        "24h": 100.0,
         "30d": 99.76,
         "90d": 99.88,
-        "1y": 99.01
+        "1y": 99.02
       }
     },
     {
@@ -78,12 +78,12 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 93.33,
+        "24h": 100.0,
         "30d": 98.98,
         "90d": 99.46,
         "1y": 97.26
@@ -111,9 +111,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.12,
-        "90d": 65.11,
-        "1y": 70.97
+        "30d": 95.59,
+        "90d": 65.27,
+        "1y": 71.0
       }
     },
     {
@@ -129,7 +129,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -138,7 +138,7 @@
       },
       "uptime": {
         "24h": 93.33,
-        "30d": 99.77,
+        "30d": 99.76,
         "90d": 99.76,
         "1y": 99.61
       }
@@ -156,11 +156,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
