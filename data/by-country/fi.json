@@ -4,7 +4,7 @@
     "country_name": "Finland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-10-21T06:26:40Z",
+    "generated_at": "2026-10-21T18:04:03Z",
     "total_servers": 8
   },
   "resolvers": [
@@ -21,17 +21,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.27,
-        "90d": 96.41,
+        "30d": 95.34,
+        "90d": 96.46,
         "1y": 97.3
       }
     },
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 46.67,
-        "30d": 55.33,
+        "24h": 50.0,
+        "30d": 55.37,
         "90d": 54.51,
-        "1y": 54.23
+        "1y": 54.22
       }
     },
     {
@@ -83,10 +83,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 86.5,
-        "90d": 87.46,
-        "1y": 88.36
+        "24h": 75.0,
+        "30d": 86.25,
+        "90d": 87.3,
+        "1y": 88.32
       }
     },
     {
@@ -105,7 +105,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
@@ -133,14 +133,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 85.48,
-        "90d": 84.68,
-        "1y": 84.95
+        "24h": 81.25,
+        "30d": 85.7,
+        "90d": 84.62,
+        "1y": 84.93
       }
     },
     {
@@ -164,10 +164,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 94.48,
-        "90d": 97.26,
-        "1y": 98.66
+        "24h": 87.5,
+        "30d": 94.39,
+        "90d": 97.21,
+        "1y": 98.64
       }
     },
     {
@@ -191,10 +191,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 94.24,
-        "90d": 91.53,
-        "1y": 93.09
+        "24h": 93.75,
+        "30d": 94.15,
+        "90d": 91.55,
+        "1y": 93.08
       }
     },
     {
@@ -218,10 +218,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 97.95,
-        "90d": 99.22,
-        "1y": 99.52
+        "24h": 93.75,
+        "30d": 97.87,
+        "90d": 99.18,
+        "1y": 99.51
       }
     }
   ]
