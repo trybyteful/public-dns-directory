@@ -4,10 +4,37 @@
     "country_name": "Estonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-10-22T06:26:41Z",
-    "total_servers": 1
+    "generated_at": "2026-10-22T18:03:55Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "46.226.143.83",
+      "version": 4,
+      "country_code": "ee",
+      "country": "Estonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Cert",
+      "domain": "ns1.rpz.cert.ee",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 87.76,
+        "90d": 95.36,
+        "1y": 95.9
+      }
+    },
     {
       "ip": "46.226.143.86",
       "version": 4,
@@ -31,7 +58,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 91.93,
-        "90d": 96.41,
+        "90d": 96.43,
         "1y": 97.94
       }
     }
