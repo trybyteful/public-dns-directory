@@ -4,8 +4,8 @@
     "country_name": "Albania",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-10-23T06:26:45Z",
-    "total_servers": 13
+    "generated_at": "2026-10-23T18:04:05Z",
+    "total_servers": 14
   },
   "resolvers": [
     {
@@ -21,18 +21,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 94.74,
-        "30d": 92.16,
-        "90d": 87.95,
-        "1y": 83.75
+        "24h": 100.0,
+        "30d": 92.17,
+        "90d": 88.03,
+        "1y": 83.78
+      }
+    },
+    {
+      "ip": "82.114.85.25",
+      "version": 4,
+      "country_code": "al",
+      "country": "Albania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Kujtesa Net",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 27.78,
+        "30d": 66.98,
+        "90d": 62.21,
+        "1y": 59.52
       }
     },
     {
@@ -51,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 78.95,
-        "30d": 74.43,
-        "90d": 70.44,
-        "1y": 67.64
+        "24h": 83.33,
+        "30d": 74.58,
+        "90d": 70.49,
+        "1y": 67.67
       }
     },
     {
@@ -75,7 +102,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -83,10 +110,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 68.42,
-        "30d": 67.06,
-        "90d": 62.22,
-        "1y": 66.91
+        "24h": 66.67,
+        "30d": 67.22,
+        "90d": 62.2,
+        "1y": 66.94
       }
     },
     {
@@ -102,17 +129,17 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 78.95,
+        "24h": 100.0,
         "30d": 95.49,
-        "90d": 98.19,
+        "90d": 98.18,
         "1y": 98.59
       }
     },
@@ -129,7 +156,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -137,10 +164,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 94.74,
-        "30d": 87.17,
-        "90d": 84.44,
-        "1y": 81.95
+        "24h": 94.44,
+        "30d": 87.18,
+        "90d": 84.41,
+        "1y": 81.96
       }
     },
     {
@@ -156,18 +183,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 52.63,
+        "24h": 61.11,
         "30d": 71.34,
-        "90d": 65.93,
-        "1y": 63.78
+        "90d": 65.97,
+        "1y": 63.79
       }
     },
     {
@@ -191,14 +218,14 @@
         "adult": false
       },
       "uptime": {
-        "24h": 94.74,
+        "24h": 100.0,
         "30d": 89.94,
-        "90d": 87.85,
-        "1y": 79.57
+        "90d": 87.92,
+        "1y": 79.6
       }
     },
     {
-      "ip": "84.22.48.196",
+      "ip": "84.22.63.117",
       "version": 4,
       "country_code": "al",
       "country": "Albania",
@@ -213,42 +240,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 26.32,
-        "30d": 87.33,
-        "90d": 87.25,
-        "1y": 87.25
-      }
-    },
-    {
-      "ip": "77.247.95.14",
-      "version": 4,
-      "country_code": "al",
-      "country": "Albania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Teleco Eighth",
-      "domain": "mx2.voip-albania.biz",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 47.37,
-        "30d": 77.2,
-        "90d": 73.27,
-        "1y": 65.21
+        "24h": 44.44,
+        "30d": 88.68,
+        "90d": 90.11,
+        "1y": 88.61
       }
     },
     {
@@ -264,6 +264,33 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 33.33,
+        "30d": 38.14,
+        "90d": 34.19,
+        "1y": 35.01
+      }
+    },
+    {
+      "ip": "217.21.147.72",
+      "version": 4,
+      "country_code": "al",
+      "country": "Albania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Nisatel",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
         "validating": true
       },
       "blocking": {
@@ -272,10 +299,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 38.33,
-        "90d": 34.24,
-        "1y": 35.02
+        "24h": 72.22,
+        "30d": 86.86,
+        "90d": 86.57,
+        "1y": 84.92
       }
     },
     {
@@ -294,15 +321,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 84.21,
-        "30d": 81.71,
-        "90d": 77.01,
-        "1y": 75.24
+        "24h": 61.11,
+        "30d": 81.31,
+        "90d": 76.93,
+        "1y": 75.2
       }
     },
     {
@@ -322,13 +349,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 94.74,
-        "30d": 93.34,
-        "90d": 93.71,
+        "24h": 88.89,
+        "30d": 93.27,
+        "90d": 93.72,
         "1y": 89.33
       }
     },
@@ -345,18 +372,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 57.89,
-        "30d": 74.66,
-        "90d": 69.49,
-        "1y": 68.54
+        "24h": 66.67,
+        "30d": 74.74,
+        "90d": 69.54,
+        "1y": 68.57
       }
     }
   ]

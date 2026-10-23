@@ -4,8 +4,8 @@
     "country_name": "Mali",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-10-23T06:26:45Z",
-    "total_servers": 1
+    "generated_at": "2026-10-23T18:04:05Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -25,14 +25,41 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 81.79,
+        "90d": 87.95,
+        "1y": 85.56
+      }
+    },
+    {
+      "ip": "217.64.99.25",
+      "version": 4,
+      "country_code": "ml",
+      "country": "Mali",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "POP SAN",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 81.71,
-        "90d": 88.0,
-        "1y": 85.54
+        "24h": 55.56,
+        "30d": 82.82,
+        "90d": 83.09,
+        "1y": 75.21
       }
     }
   ]
