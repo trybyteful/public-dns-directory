@@ -4,8 +4,8 @@
     "country_name": "Honduras",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-10-22T18:03:55Z",
-    "total_servers": 1
+    "generated_at": "2026-10-23T06:26:45Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -26,13 +26,40 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 95.0,
-        "30d": 95.73,
-        "90d": 92.85,
-        "1y": 92.16
+        "24h": 94.74,
+        "30d": 95.72,
+        "90d": 92.88,
+        "1y": 92.17
+      }
+    },
+    {
+      "ip": "181.210.92.7",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Hondutel",
+      "domain": "rs02.hondutel.hn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 78.95,
+        "30d": 77.28,
+        "90d": 87.88,
+        "1y": 94.13
       }
     }
   ]
