@@ -4,7 +4,7 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-10-24T06:24:28Z",
+    "generated_at": "2026-10-24T18:03:41Z",
     "total_servers": 8
   },
   "resolvers": [
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 77.55,
-        "90d": 64.97,
-        "1y": 64.97
+        "30d": 77.76,
+        "90d": 65.1,
+        "1y": 65.1
       }
     },
     {
@@ -53,7 +53,7 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -75,18 +75,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.76,
         "90d": 99.88,
-        "1y": 99.02
+        "1y": 99.03
       }
     },
     {
@@ -105,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 76.62,
-        "90d": 81.6,
-        "1y": 81.6
+        "30d": 76.82,
+        "90d": 81.66,
+        "1y": 81.66
       }
     },
     {
@@ -132,15 +132,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.84,
         "90d": 99.41,
-        "1y": 97.27
+        "1y": 97.28
       }
     },
     {
@@ -160,14 +160,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.12,
-        "90d": 67.44,
-        "1y": 71.34
+        "30d": 99.13,
+        "90d": 68.06,
+        "1y": 71.38
       }
     },
     {
@@ -210,11 +210,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
