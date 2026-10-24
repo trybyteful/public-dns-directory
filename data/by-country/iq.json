@@ -4,8 +4,8 @@
     "country_name": "Iraq",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-10-23T18:04:05Z",
-    "total_servers": 3
+    "generated_at": "2026-10-24T06:24:28Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -21,18 +21,45 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 94.12,
+        "30d": 88.42,
+        "90d": 85.77,
+        "1y": 85.65
+      }
+    },
+    {
+      "ip": "185.42.192.114",
+      "version": 4,
+      "country_code": "iq",
+      "country": "Iraq",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Erbil",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 88.44,
-        "90d": 85.8,
-        "1y": 85.63
+        "24h": 64.71,
+        "30d": 76.76,
+        "90d": 78.68,
+        "1y": 78.15
       }
     },
     {
@@ -57,9 +84,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.13,
-        "90d": 90.69,
-        "1y": 90.69
+        "30d": 91.12,
+        "90d": 90.74,
+        "1y": 90.74
       }
     },
     {
@@ -84,7 +111,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.34,
+        "30d": 98.33,
         "90d": 99.35,
         "1y": 99.44
       }
