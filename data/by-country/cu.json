@@ -4,7 +4,7 @@
     "country_name": "Cuba",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-10-25T06:24:41Z",
+    "generated_at": "2026-10-25T18:03:57Z",
     "total_servers": 1
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 82.35,
-        "30d": 78.92,
-        "90d": 70.66,
-        "1y": 58.13
+        "24h": 93.33,
+        "30d": 79.24,
+        "90d": 71.01,
+        "1y": 58.44
       }
     }
   ]
