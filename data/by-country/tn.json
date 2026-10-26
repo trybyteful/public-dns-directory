@@ -4,8 +4,8 @@
     "country_name": "Tunisia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-10-25T18:03:57Z",
-    "total_servers": 9
+    "generated_at": "2026-10-26T06:35:11Z",
+    "total_servers": 8
   },
   "resolvers": [
     {
@@ -24,7 +24,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
@@ -51,14 +51,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.52,
-        "90d": 99.66,
+        "90d": 99.65,
         "1y": 99.76
       }
     },
@@ -78,15 +78,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 98.78,
-        "1y": 98.48
+        "90d": 98.77,
+        "1y": 98.49
       }
     },
     {
@@ -110,10 +110,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 46.67,
-        "30d": 38.68,
-        "90d": 33.92,
-        "1y": 33.85
+        "24h": 64.29,
+        "30d": 38.8,
+        "90d": 34.15,
+        "1y": 33.89
       }
     },
     {
@@ -155,8 +155,8 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -164,10 +164,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 51.67,
-        "90d": 49.62,
-        "1y": 48.73
+        "24h": 50.0,
+        "30d": 51.88,
+        "90d": 49.58,
+        "1y": 48.74
       }
     },
     {
@@ -182,7 +182,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": true
       },
       "blocking": {
@@ -191,10 +191,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 53.33,
-        "30d": 38.44,
-        "90d": 35.46,
-        "1y": 35.62
+        "24h": 42.86,
+        "30d": 38.27,
+        "90d": 35.54,
+        "1y": 35.65
       }
     },
     {
@@ -218,37 +218,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 40.0,
-        "30d": 36.13,
-        "90d": 35.31,
-        "1y": 36.3
-      }
-    },
-    {
-      "ip": "197.15.236.21",
-      "version": 4,
-      "country_code": "tn",
-      "country": "Tunisia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Globalnet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 8.0,
-        "90d": 3.03,
-        "1y": 2.56
+        "24h": 71.43,
+        "30d": 36.33,
+        "90d": 35.44,
+        "1y": 36.33
       }
     }
   ]
