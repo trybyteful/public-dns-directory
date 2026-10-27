@@ -4,8 +4,8 @@
     "country_name": "Costa Rica",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-10-26T18:04:39Z",
-    "total_servers": 3
+    "generated_at": "2026-10-27T06:27:22Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.28,
-        "90d": 98.93,
+        "30d": 99.27,
+        "90d": 98.92,
         "1y": 97.77
+      }
+    },
+    {
+      "ip": "190.171.26.34",
+      "version": 4,
+      "country_code": "cr",
+      "country": "Costa Rica",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "IDEAS GLORIS SOCIEDAD ANÓNIMA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 92.31,
+        "30d": 99.68,
+        "90d": 99.4,
+        "1y": 91.52
       }
     },
     {
@@ -56,21 +83,48 @@
         "adult": true
       },
       "uptime": {
-        "24h": 78.57,
-        "30d": 22.1,
-        "90d": 18.24,
-        "1y": 17.01
+        "24h": 69.23,
+        "30d": 22.44,
+        "90d": 18.35,
+        "1y": 17.05
       }
     },
     {
-      "ip": "138.94.56.4",
+      "ip": "191.102.56.57",
       "version": 4,
       "country_code": "cr",
       "country": "Costa Rica",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "Junta Administrativa del Servicio Eléctrico Municipal de Cartago",
-      "domain": "138-94-56-4.jasec.go.cr",
+      "organization": "Navegalo S.A",
+      "domain": "ns1.boomerang.cr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 85.66,
+        "90d": 91.08,
+        "1y": 88.73
+      }
+    },
+    {
+      "ip": "181.193.94.94",
+      "version": 4,
+      "country_code": "cr",
+      "country": "Costa Rica",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "ALAJUELA",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -78,15 +132,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 37.5,
-        "30d": 21.51,
-        "90d": 20.7,
-        "1y": 21.65
+        "24h": 61.54,
+        "30d": 25.39,
+        "90d": 37.75,
+        "1y": 43.67
       }
     }
   ]
