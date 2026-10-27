@@ -4,10 +4,37 @@
     "country_name": "Dominican Republic",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-10-27T06:27:22Z",
-    "total_servers": 5
+    "generated_at": "2026-10-27T18:03:48Z",
+    "total_servers": 6
   },
   "resolvers": [
+    {
+      "ip": "24.152.48.66",
+      "version": 4,
+      "country_code": "do",
+      "country": "Dominican Republic",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Lightwave S.R.L",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 54.55,
+        "30d": 66.78,
+        "90d": 64.84,
+        "1y": 66.04
+      }
+    },
     {
       "ip": "168.228.232.251",
       "version": 4,
@@ -26,67 +53,40 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 69.23,
-        "30d": 83.32,
-        "90d": 88.35,
-        "1y": 91.33
+        "24h": 81.82,
+        "30d": 83.41,
+        "90d": 88.45,
+        "1y": 91.34
       }
     },
     {
-      "ip": "45.172.152.13",
+      "ip": "190.167.220.185",
       "version": 4,
       "country_code": "do",
       "country": "Dominican Republic",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "Wireless Solutions Dominicana WSD S.R.L",
-      "domain": null,
+      "organization": "Compañía Dominicana de Teléfonos S. A",
+      "domain": "185.220.167.190.l.static.claro.net.do",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 46.15,
-        "30d": 29.96,
-        "90d": 28.7,
-        "1y": 19.59
-      }
-    },
-    {
-      "ip": "181.37.140.71",
-      "version": 4,
-      "country_code": "do",
-      "country": "Dominican Republic",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Altice Dominicana S.A",
-      "domain": "ip-140-71.tricom.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 69.23,
-        "30d": 69.94,
-        "90d": 76.77,
-        "1y": 78.31
+        "24h": 63.64,
+        "30d": 64.97,
+        "90d": 65.7,
+        "1y": 66.27
       }
     },
     {
@@ -105,14 +105,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 61.4,
-        "90d": 95.6,
+        "30d": 60.36,
+        "90d": 95.57,
         "1y": 98.28
       }
     },
@@ -139,8 +139,35 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.92,
-        "90d": 97.14,
-        "1y": 89.26
+        "90d": 97.2,
+        "1y": 89.28
+      }
+    },
+    {
+      "ip": "186.150.201.138",
+      "version": 4,
+      "country_code": "do",
+      "country": "Dominican Republic",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Altice Dominicana S.A",
+      "domain": "ip-201-138.tricom.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 74.84,
+        "90d": 76.59,
+        "1y": 73.67
       }
     }
   ]
