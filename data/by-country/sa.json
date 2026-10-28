@@ -4,8 +4,8 @@
     "country_name": "Saudi Arabia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-10-28T06:20:13Z",
-    "total_servers": 6
+    "generated_at": "2026-10-28T18:03:30Z",
+    "total_servers": 7
   },
   "resolvers": [
     {
@@ -25,7 +25,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -53,11 +53,11 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.11,
+        "30d": 99.1,
         "90d": 99.39,
         "1y": 99.69
       }
@@ -79,13 +79,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.72,
-        "90d": 98.46,
+        "30d": 97.71,
+        "90d": 98.45,
         "1y": 99.25
       }
     },
@@ -105,9 +105,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -133,13 +133,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 98.54,
-        "90d": 92.08,
+        "24h": 77.78,
+        "30d": 98.45,
+        "90d": 92.48,
         "1y": 62.31
       }
     },
@@ -160,14 +160,41 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 88.89,
+        "30d": 96.41,
+        "90d": 97.45,
+        "1y": 98.22
+      }
+    },
+    {
+      "ip": "85.194.70.174",
+      "version": 4,
+      "country_code": "sa",
+      "country": "Saudi Arabia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Mobily Corp.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 96.5,
-        "90d": 97.5,
-        "1y": 98.23
+        "24h": 88.89,
+        "30d": 99.02,
+        "90d": 99.48,
+        "1y": 99.73
       }
     }
   ]

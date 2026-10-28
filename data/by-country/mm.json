@@ -4,35 +4,35 @@
     "country_name": "Myanmar",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-10-27T18:03:48Z",
+    "generated_at": "2026-10-28T18:03:30Z",
     "total_servers": 1
   },
   "resolvers": [
     {
-      "ip": "103.121.228.5",
+      "ip": "65.18.112.106",
       "version": 4,
       "country_code": "mm",
       "country": "Myanmar",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "MyanmarAPN",
+      "organization": "Mytel",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 93.93,
-        "90d": 95.79,
-        "1y": 97.73
+        "24h": 55.56,
+        "30d": 73.82,
+        "90d": 69.65,
+        "1y": 68.22
       }
     }
   ]
