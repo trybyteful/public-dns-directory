@@ -4,8 +4,8 @@
     "country_name": "Bosnia and Herzegovina",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-10-27T18:03:48Z",
-    "total_servers": 9
+    "generated_at": "2026-10-28T06:20:13Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 72.73,
-        "30d": 79.13,
-        "90d": 81.06,
-        "1y": 53.34
+        "24h": 90.0,
+        "30d": 79.04,
+        "90d": 80.99,
+        "1y": 53.37
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 92.23,
-        "90d": 93.59,
-        "1y": 94.23
+        "24h": 90.0,
+        "30d": 92.11,
+        "90d": 93.52,
+        "1y": 94.22
       }
     },
     {
@@ -78,69 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 90.38,
-        "90d": 90.34,
+        "24h": 100.0,
+        "30d": 90.41,
+        "90d": 90.31,
         "1y": 90.38
-      }
-    },
-    {
-      "ip": "212.39.106.154",
-      "version": 4,
-      "country_code": "ba",
-      "country": "Bosnia and Herzegovina",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "HT d.o.o. Mostar",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 72.73,
-        "30d": 67.72,
-        "90d": 64.18,
-        "1y": 63.97
-      }
-    },
-    {
-      "ip": "78.28.158.220",
-      "version": 4,
-      "country_code": "ba",
-      "country": "Bosnia and Herzegovina",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Sarnet - eastern part",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 72.73,
-        "30d": 81.47,
-        "90d": 82.19,
-        "1y": 66.65
       }
     },
     {
@@ -156,18 +102,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 93.93,
+        "24h": 100.0,
+        "30d": 93.91,
         "90d": 93.94,
-        "1y": 94.65
+        "1y": 94.66
       }
     },
     {
@@ -187,12 +133,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 98.95,
+        "24h": 100.0,
+        "30d": 98.94,
         "90d": 99.39,
         "1y": 99.56
       }
@@ -213,42 +159,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 91.59,
-        "90d": 92.86,
-        "1y": 91.18
-      }
-    },
-    {
-      "ip": "5.149.91.199",
-      "version": 4,
-      "country_code": "ba",
-      "country": "Bosnia and Herzegovina",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "WIRAC.NET d.o.o",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 6.12,
-        "90d": 26.57,
-        "1y": 30.01
+        "24h": 80.0,
+        "30d": 91.38,
+        "90d": 92.81,
+        "1y": 91.15
       }
     }
   ]
