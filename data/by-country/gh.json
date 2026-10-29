@@ -4,37 +4,10 @@
     "country_name": "Ghana",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-10-29T06:20:23Z",
-    "total_servers": 5
+    "generated_at": "2026-10-29T18:04:02Z",
+    "total_servers": 4
   },
   "resolvers": [
-    {
-      "ip": "197.251.239.245",
-      "version": 4,
-      "country_code": "gh",
-      "country": "Ghana",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Vodafone Ghana",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 86.69,
-        "90d": 62.25,
-        "1y": 64.89
-      }
-    },
     {
       "ip": "154.65.20.179",
       "version": 4,
@@ -51,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 63.24,
-        "90d": 40.38,
-        "1y": 61.68
+        "24h": 80.0,
+        "30d": 64.29,
+        "90d": 41.47,
+        "1y": 61.75
       }
     },
     {
@@ -79,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 55.32,
-        "90d": 48.75,
-        "1y": 46.12
+        "24h": 63.64,
+        "30d": 55.24,
+        "90d": 48.82,
+        "1y": 46.15
       }
     },
     {
@@ -105,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 6.25,
-        "90d": 2.4,
-        "1y": 75.76
+        "24h": 87.5,
+        "30d": 13.46,
+        "90d": 5.43,
+        "1y": 75.77
       }
     },
     {
@@ -132,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 81.04,
-        "90d": 80.92,
-        "1y": 73.69
+        "24h": 100.0,
+        "30d": 81.46,
+        "90d": 80.99,
+        "1y": 73.71
       }
     }
   ]
