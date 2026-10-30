@@ -4,8 +4,8 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-10-30T06:19:56Z",
-    "total_servers": 2
+    "generated_at": "2026-10-30T18:02:22Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 92.0,
-        "90d": 94.68,
-        "1y": 94.89
+        "24h": 90.91,
+        "30d": 92.3,
+        "90d": 94.63,
+        "1y": 94.88
       }
     },
     {
@@ -52,14 +52,68 @@
       },
       "blocking": {
         "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 92.86,
+        "90d": 86.89,
+        "1y": 75.71
+      }
+    },
+    {
+      "ip": "197.230.15.206",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "OS Meditel",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 92.75,
-        "90d": 86.77,
-        "1y": 75.64
+        "24h": 81.82,
+        "30d": 89.81,
+        "90d": 91.1,
+        "1y": 82.41
+      }
+    },
+    {
+      "ip": "197.230.174.153",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Fixed",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 85.63,
+        "90d": 93.68,
+        "1y": 96.49
       }
     }
   ]

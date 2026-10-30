@@ -4,7 +4,7 @@
     "country_name": "Trinidad and Tobago",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-10-30T06:19:56Z",
+    "generated_at": "2026-10-30T18:02:22Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -36,6 +36,33 @@
       }
     },
     {
+      "ip": "200.1.104.35",
+      "version": 4,
+      "country_code": "tt",
+      "country": "Trinidad and Tobago",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Columbus Communications Trinidad Limited",
+      "domain": "ns1.flowtrinidad.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 94.63,
+        "90d": 97.14,
+        "1y": 98.75
+      }
+    },
+    {
       "ip": "190.58.23.133",
       "version": 4,
       "country_code": "tt",
@@ -52,7 +79,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -87,33 +114,6 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 99.96
-      }
-    },
-    {
-      "ip": "200.1.104.36",
-      "version": 4,
-      "country_code": "tt",
-      "country": "Trinidad and Tobago",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Columbus Communications Trinidad Limited",
-      "domain": "ns2.flowtrinidad.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.91,
-        "30d": 93.88,
-        "90d": 96.98,
-        "1y": 98.66
       }
     }
   ]
