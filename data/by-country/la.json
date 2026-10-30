@@ -4,8 +4,8 @@
     "country_name": "Laos",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-10-29T18:04:02Z",
-    "total_servers": 3
+    "generated_at": "2026-10-30T06:19:56Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 8.33,
-        "90d": 22.8,
-        "1y": 23.97
+        "30d": 18.87,
+        "90d": 25.25,
+        "1y": 24.66
       }
     },
     {
@@ -51,14 +51,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 90.91,
-        "30d": 99.24,
-        "90d": 96.64,
+        "30d": 99.23,
+        "90d": 96.62,
         "1y": 98.0
       }
     },
@@ -78,15 +78,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.16,
+        "30d": 99.15,
         "90d": 98.2,
         "1y": 95.48
+      }
+    },
+    {
+      "ip": "202.123.179.205",
+      "version": 4,
+      "country_code": "la",
+      "country": "Laos",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Sky Telecom State Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 54.55,
+        "30d": 93.96,
+        "90d": 96.52,
+        "1y": 97.8
       }
     }
   ]

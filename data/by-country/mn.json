@@ -4,8 +4,8 @@
     "country_name": "Mongolia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-10-29T18:04:02Z",
-    "total_servers": 8
+    "generated_at": "2026-10-30T06:19:56Z",
+    "total_servers": 11
   },
   "resolvers": [
     {
@@ -24,14 +24,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.5,
-        "90d": 99.58,
+        "30d": 99.49,
+        "90d": 99.61,
         "1y": 97.56
       }
     },
@@ -52,12 +52,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.58,
+        "30d": 99.66,
         "90d": 99.74,
         "1y": 99.39
       }
@@ -78,15 +78,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.03,
+        "90d": 95.54,
+        "1y": 95.34
+      }
+    },
+    {
+      "ip": "103.20.152.11",
+      "version": 4,
+      "country_code": "mn",
+      "country": "Mongolia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "ISATCOM",
+      "domain": "mail.isatcom.mn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 96.98,
-        "90d": 95.56,
-        "1y": 95.34
+        "24h": 63.64,
+        "30d": 61.99,
+        "90d": 77.03,
+        "1y": 89.3
       }
     },
     {
@@ -110,10 +137,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 54.55,
-        "30d": 61.69,
-        "90d": 58.49,
-        "1y": 61.12
+        "24h": 81.82,
+        "30d": 62.33,
+        "90d": 58.35,
+        "1y": 61.15
       }
     },
     {
@@ -129,11 +156,11 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -141,6 +168,33 @@
         "30d": 100.0,
         "90d": 99.87,
         "1y": 96.56
+      }
+    },
+    {
+      "ip": "203.169.48.10",
+      "version": 4,
+      "country_code": "mn",
+      "country": "Mongolia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "DIGICOM",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 63.64,
+        "30d": 29.68,
+        "90d": 55.87,
+        "1y": 83.77
       }
     },
     {
@@ -165,9 +219,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.25,
+        "30d": 99.23,
         "90d": 98.69,
-        "1y": 96.94
+        "1y": 96.95
       }
     },
     {
@@ -186,15 +240,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
+        "ads": true,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 54.55,
-        "30d": 91.87,
-        "90d": 93.86,
-        "1y": 91.65
+        "24h": 81.82,
+        "30d": 91.83,
+        "90d": 93.83,
+        "1y": 91.66
       }
     },
     {
@@ -214,14 +268,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.66,
-        "90d": 99.71,
+        "90d": 99.7,
         "1y": 99.83
+      }
+    },
+    {
+      "ip": "183.177.101.51",
+      "version": 4,
+      "country_code": "mn",
+      "country": "Mongolia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Netcom101",
+      "domain": "conference.icnc.mn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 45.45,
+        "30d": 23.34,
+        "90d": 57.48,
+        "1y": 82.29
       }
     }
   ]

@@ -4,7 +4,7 @@
     "country_name": "Ghana",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-10-29T18:04:02Z",
+    "generated_at": "2026-10-30T06:19:56Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 64.29,
-        "90d": 41.47,
-        "1y": 61.75
+        "24h": 90.91,
+        "30d": 66.21,
+        "90d": 43.24,
+        "1y": 61.91
       }
     },
     {
@@ -56,10 +56,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 63.64,
-        "30d": 55.24,
-        "90d": 48.82,
-        "1y": 46.15
+        "24h": 90.91,
+        "30d": 55.67,
+        "90d": 48.87,
+        "1y": 46.19
       }
     },
     {
@@ -80,13 +80,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 13.46,
-        "90d": 5.43,
-        "1y": 75.77
+        "24h": 90.91,
+        "30d": 21.43,
+        "90d": 9.02,
+        "1y": 75.84
       }
     },
     {
@@ -111,9 +111,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 81.46,
-        "90d": 80.99,
-        "1y": 73.71
+        "30d": 81.53,
+        "90d": 81.0,
+        "1y": 73.73
       }
     }
   ]
