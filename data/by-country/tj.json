@@ -4,8 +4,8 @@
     "country_name": "Tajikistan",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-10-30T18:02:22Z",
-    "total_servers": 4
+    "generated_at": "2026-10-31T06:14:56Z",
+    "total_servers": 7
   },
   "resolvers": [
     {
@@ -29,10 +29,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 72.73,
-        "30d": 61.37,
-        "90d": 47.47,
-        "1y": 45.4
+        "24h": 80.0,
+        "30d": 61.53,
+        "90d": 47.59,
+        "1y": 45.42
       }
     },
     {
@@ -52,12 +52,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.57,
+        "30d": 99.56,
         "90d": 99.57,
         "1y": 99.67
       }
@@ -90,6 +90,33 @@
       }
     },
     {
+      "ip": "95.142.88.177",
+      "version": 4,
+      "country_code": "tj",
+      "country": "Tajikistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CJSC \"Telecomm Technology\"",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 62.32,
+        "90d": 57.92,
+        "1y": 43.88
+      }
+    },
+    {
       "ip": "85.9.131.165",
       "version": 4,
       "country_code": "tj",
@@ -106,14 +133,68 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 84.68,
-        "90d": 83.43,
-        "1y": 83.43
+        "30d": 84.6,
+        "90d": 83.48,
+        "1y": 83.48
+      }
+    },
+    {
+      "ip": "79.170.184.201",
+      "version": 4,
+      "country_code": "tj",
+      "country": "Tajikistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Babilon-T",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 67.36,
+        "90d": 60.47,
+        "1y": 60.37
+      }
+    },
+    {
+      "ip": "85.9.133.77",
+      "version": 4,
+      "country_code": "tj",
+      "country": "Tajikistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Tacom Network",
+      "domain": "85-9-133-77.tacom.tj",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 62.05,
+        "90d": 54.32,
+        "1y": 53.43
       }
     }
   ]

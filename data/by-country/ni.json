@@ -4,35 +4,35 @@
     "country_name": "Nicaragua",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-10-30T18:02:22Z",
+    "generated_at": "2026-10-31T06:14:56Z",
     "total_servers": 1
   },
   "resolvers": [
     {
-      "ip": "190.124.39.34",
+      "ip": "45.170.224.187",
       "version": 4,
       "country_code": "ni",
       "country": "Nicaragua",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "Telefonia Celular de Nicaragua SA",
-      "domain": "static.navega.com.ni",
+      "organization": "EMPRESA NACIONAL DE TRANSMISIÓN ELÉCTRICA",
+      "domain": "dns1.energias-renovables.gob.ni",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 90.41,
-        "90d": 87.27,
-        "1y": 86.7
+        "24h": 80.0,
+        "30d": 34.03,
+        "90d": 48.92,
+        "1y": 77.33
       }
     }
   ]

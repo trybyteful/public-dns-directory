@@ -4,8 +4,8 @@
     "country_name": "Finland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-10-30T18:02:22Z",
-    "total_servers": 5
+    "generated_at": "2026-10-31T06:14:56Z",
+    "total_servers": 7
   },
   "resolvers": [
     {
@@ -26,13 +26,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 95.3,
+        "90d": 96.4,
+        "1y": 97.28
+      }
+    },
+    {
+      "ip": "84.249.85.95",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TeliaSonera Finland Oyj",
+      "domain": "dsl-tkubng12-54f955-95.dhcp.inet.fi",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 95.33,
-        "90d": 96.41,
-        "1y": 97.29
+        "24h": 40.0,
+        "30d": 52.57,
+        "90d": 53.8,
+        "1y": 54.02
       }
     },
     {
@@ -51,14 +78,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 63.64,
-        "30d": 87.02,
-        "90d": 86.5,
+        "24h": 70.0,
+        "30d": 87.03,
+        "90d": 86.46,
         "1y": 88.25
       }
     },
@@ -78,15 +105,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.31,
+        "30d": 99.3,
         "90d": 99.67,
         "1y": 99.56
+      }
+    },
+    {
+      "ip": "89.236.106.156",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TNNet Oy",
+      "domain": "89-236-106-156.net.tnnet.fi",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 86.86,
+        "90d": 84.19,
+        "1y": 84.93
       }
     },
     {
@@ -101,7 +155,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": true
       },
       "blocking": {
@@ -111,7 +165,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.51,
+        "30d": 93.56,
         "90d": 91.61,
         "1y": 93.06
       }
@@ -133,12 +187,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.15,
+        "30d": 97.13,
         "90d": 98.91,
         "1y": 99.43
       }
