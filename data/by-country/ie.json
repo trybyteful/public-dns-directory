@@ -4,35 +4,35 @@
     "country_name": "Ireland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-10-31T18:02:21Z",
+    "generated_at": "2026-11-01T06:16:55Z",
     "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "86.47.80.46",
+      "ip": "88.87.181.244",
       "version": 4,
       "country_code": "ie",
       "country": "Ireland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Eircom Limited",
+      "organization": "BBnet",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 64.63,
-        "90d": 66.4,
-        "1y": 63.45
+        "24h": 60.0,
+        "30d": 57.4,
+        "90d": 54.37,
+        "1y": 55.52
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 90.0,
-        "30d": 89.94,
-        "90d": 95.1,
-        "1y": 97.38
+        "30d": 89.95,
+        "90d": 95.05,
+        "1y": 97.37
       }
     },
     {
