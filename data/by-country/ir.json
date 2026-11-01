@@ -4,7 +4,7 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-01T06:16:55Z",
+    "generated_at": "2026-11-01T18:02:29Z",
     "total_servers": 6
   },
   "resolvers": [
@@ -21,11 +21,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
@@ -48,11 +48,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -79,7 +79,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
@@ -107,13 +107,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.11,
-        "90d": 77.83,
-        "1y": 71.79
+        "30d": 99.09,
+        "90d": 78.41,
+        "1y": 71.81
       }
     },
     {
@@ -133,7 +133,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -156,11 +156,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
