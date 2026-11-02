@@ -4,8 +4,8 @@
     "country_name": "Switzerland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-01T18:02:29Z",
-    "total_servers": 28
+    "generated_at": "2026-11-02T06:24:01Z",
+    "total_servers": 29
   },
   "resolvers": [
     {
@@ -24,14 +24,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.4,
-        "90d": 89.68,
+        "30d": 89.68,
+        "90d": 89.74,
         "1y": 89.44
       }
     },
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.82,
+        "30d": 98.88,
         "90d": 98.6,
-        "1y": 95.42
+        "1y": 95.43
       }
     },
     {
@@ -79,12 +79,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.64,
+        "30d": 98.79,
         "90d": 99.33,
         "1y": 99.52
       }
@@ -102,16 +102,16 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.46,
+        "30d": 99.44,
         "90d": 99.73,
         "1y": 99.04
       }
@@ -129,12 +129,12 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -160,14 +160,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.36,
-        "90d": 99.63,
-        "1y": 99.69
+        "24h": 90.0,
+        "30d": 99.26,
+        "90d": 99.6,
+        "1y": 99.67
       }
     },
     {
@@ -187,7 +187,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -195,6 +195,33 @@
         "30d": 100.0,
         "90d": 99.93,
         "1y": 97.75
+      }
+    },
+    {
+      "ip": "78.155.23.143",
+      "version": 4,
+      "country_code": "ch",
+      "country": "Switzerland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "netplus.ch SA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 30.0,
+        "30d": 62.58,
+        "90d": 67.97,
+        "1y": 71.63
       }
     },
     {
@@ -225,6 +252,33 @@
       }
     },
     {
+      "ip": "85.90.9.166",
+      "version": 4,
+      "country_code": "ch",
+      "country": "Switzerland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "netplusFR SA",
+      "domain": "166.9.90.85.static.netplusfr.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.95,
+        "90d": 99.6,
+        "1y": 98.54
+      }
+    },
+    {
       "ip": "195.186.1.110",
       "version": 4,
       "country_code": "ch",
@@ -241,7 +295,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -294,13 +348,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.23,
+        "30d": 98.19,
         "90d": 98.55,
         "1y": 99.36
       }
@@ -321,7 +375,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -375,15 +429,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.82,
-        "90d": 97.24,
-        "1y": 53.45
+        "30d": 99.81,
+        "90d": 97.25,
+        "1y": 53.49
       }
     },
     {
@@ -398,19 +452,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 80.0,
-        "30d": 89.03,
-        "90d": 90.04,
-        "1y": 94.11
+        "30d": 89.22,
+        "90d": 90.14,
+        "1y": 94.09
       }
     },
     {
@@ -429,57 +483,30 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 90.0,
-        "30d": 90.17,
-        "90d": 88.14,
+        "30d": 90.06,
+        "90d": 88.11,
         "1y": 90.6
       }
     },
     {
-      "ip": "154.44.130.160",
+      "ip": "194.209.225.15",
       "version": 4,
       "country_code": "ch",
       "country": "Switzerland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Cogent Communications",
+      "organization": "Kaktus Online GmbH",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 94.18,
-        "90d": 96.17,
-        "1y": 98.37
-      }
-    },
-    {
-      "ip": "194.29.10.6",
-      "version": 4,
-      "country_code": "ch",
-      "country": "Switzerland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ArcheNova Consulting GmbH",
-      "domain": "ns1.swissdc.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -488,10 +515,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 94.9,
-        "90d": 94.97,
-        "1y": 95.64
+        "24h": 70.0,
+        "30d": 91.7,
+        "90d": 93.48,
+        "1y": 97.01
       }
     },
     {
@@ -511,7 +538,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -538,12 +565,12 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.1,
+        "30d": 98.05,
         "90d": 97.9,
         "1y": 98.77
       }
@@ -564,15 +591,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 92.83,
-        "90d": 92.87,
-        "1y": 95.19
+        "24h": 90.0,
+        "30d": 92.55,
+        "90d": 92.82,
+        "1y": 95.18
       }
     },
     {
@@ -645,13 +672,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.18,
+        "30d": 99.16,
         "90d": 99.67,
         "1y": 99.6
       }
@@ -678,8 +705,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.19,
-        "90d": 97.8,
+        "30d": 98.14,
+        "90d": 97.79,
         "1y": 98.74
       }
     },
@@ -699,13 +726,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.64,
+        "30d": 99.72,
         "90d": 99.77,
         "1y": 99.77
       }
@@ -727,12 +754,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.73,
+        "30d": 99.72,
         "90d": 99.8,
         "1y": 99.92
       }
