@@ -4,35 +4,35 @@
     "country_name": "Andorra",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-02T06:24:01Z",
+    "generated_at": "2026-11-02T18:02:50Z",
     "total_servers": 2
   },
   "resolvers": [
     {
-      "ip": "91.187.75.18",
+      "ip": "109.111.112.58",
       "version": 4,
       "country_code": "ad",
       "country": "Andorra",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "ANDORRA TELECOM, S.A.U",
-      "domain": "static-91-187-75-18.andorpac.ad",
+      "domain": "static-109.111.112.58.andorpac.ad",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 84.06,
-        "90d": 82.12,
-        "1y": 79.57
+        "24h": 30.0,
+        "30d": 42.14,
+        "90d": 39.45,
+        "1y": 44.54
       }
     },
     {
@@ -42,7 +42,7 @@
       "country": "Andorra",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Andorra Telecom",
+      "organization": "Xena",
       "domain": "ns1.xena.ad",
       "trusted": false,
       "anycast": false,
@@ -52,13 +52,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.12,
-        "90d": 93.82,
+        "30d": 95.02,
+        "90d": 93.81,
         "1y": 94.93
       }
     }

@@ -4,8 +4,8 @@
     "country_name": "Taiwan",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-02T06:24:01Z",
-    "total_servers": 66
+    "generated_at": "2026-11-02T18:02:50Z",
+    "total_servers": 61
   },
   "resolvers": [
     {
@@ -21,7 +21,34 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 30.0,
+        "30d": 34.12,
+        "90d": 32.7,
+        "1y": 33.35
+      }
+    },
+    {
+      "ip": "59.125.209.82",
+      "version": 4,
+      "country_code": "tw",
+      "country": "Taiwan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Chunghwa Telecom Co. Ltd.",
+      "domain": "59-125-209-82.hinet-ip.hinet.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -29,75 +56,21 @@
         "adult": true
       },
       "uptime": {
-        "24h": 20.0,
-        "30d": 34.2,
-        "90d": 32.69,
-        "1y": 33.34
+        "24h": 50.0,
+        "30d": 53.15,
+        "90d": 53.45,
+        "1y": 54.03
       }
     },
     {
-      "ip": "203.133.1.8",
+      "ip": "113.196.55.130",
       "version": 4,
       "country_code": "tw",
       "country": "Taiwan",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Hoshin Multimedia Center Inc",
-      "domain": "dns1.giga.net.tw",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 30.0,
-        "30d": 53.96,
-        "90d": 71.07,
-        "1y": 68.09
-      }
-    },
-    {
-      "ip": "118.163.151.102",
-      "version": 4,
-      "country_code": "tw",
-      "country": "Taiwan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Chunghwa Telecom Co. Ltd.",
-      "domain": "118-163-151-102.hinet-ip.hinet.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 60.0,
-        "30d": 80.2,
-        "90d": 79.25,
-        "1y": 81.11
-      }
-    },
-    {
-      "ip": "114.34.176.73",
-      "version": 4,
-      "country_code": "tw",
-      "country": "Taiwan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Chunghwa Telecom Co. Ltd.",
-      "domain": "114-34-176-73.hinet-ip.hinet.net",
+      "organization": "New Century InfoComm Tech. Co., Ltd.",
+      "domain": "113.196.55.130.ll.static.sparqnet.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -107,40 +80,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 79.31,
-        "90d": 70.81,
-        "1y": 46.72
-      }
-    },
-    {
-      "ip": "59.127.80.104",
-      "version": 4,
-      "country_code": "tw",
-      "country": "Taiwan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Chunghwa Telecom Co. Ltd.",
-      "domain": "59-127-80-104.hinet-ip.hinet.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 76.51,
-        "90d": 75.11,
-        "1y": 74.76
+        "24h": 80.0,
+        "30d": 89.44,
+        "90d": 89.05,
+        "1y": 89.41
       }
     },
     {
@@ -159,42 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 60.75,
-        "90d": 78.83,
-        "1y": 81.31
-      }
-    },
-    {
-      "ip": "211.75.139.191",
-      "version": 4,
-      "country_code": "tw",
-      "country": "Taiwan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Chunghwa Telecom Co. Ltd.",
-      "domain": "211-75-139-191.hinet-ip.hinet.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 40.0,
-        "30d": 52.98,
-        "90d": 58.47,
-        "1y": 61.25
+        "30d": 60.42,
+        "90d": 78.78,
+        "1y": 81.32
       }
     },
     {
@@ -214,14 +133,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 45.83,
-        "90d": 22.0,
-        "1y": 53.11
+        "30d": 49.33,
+        "90d": 24.03,
+        "1y": 53.25
       }
     },
     {
@@ -236,19 +155,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 70.0,
-        "30d": 73.65,
-        "90d": 77.61,
-        "1y": 80.18
+        "30d": 73.57,
+        "90d": 77.48,
+        "1y": 80.16
       }
     },
     {
@@ -267,14 +186,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 60.69,
-        "90d": 61.58,
+        "24h": 60.0,
+        "30d": 60.86,
+        "90d": 61.57,
         "1y": 62.71
       }
     },
@@ -294,42 +213,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 65.43,
-        "90d": 55.36,
-        "1y": 59.6
-      }
-    },
-    {
-      "ip": "211.75.15.177",
-      "version": 4,
-      "country_code": "tw",
-      "country": "Taiwan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Chunghwa Telecom Co. Ltd.",
-      "domain": "211-75-15-177.hinet-ip.hinet.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 87.08,
-        "90d": 90.14,
-        "1y": 92.57
+        "24h": 50.0,
+        "30d": 65.3,
+        "90d": 55.43,
+        "1y": 59.6
       }
     },
     {
@@ -345,7 +237,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -353,10 +245,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 61.49,
-        "90d": 53.91,
-        "1y": 53.22
+        "24h": 90.0,
+        "30d": 61.72,
+        "90d": 53.86,
+        "1y": 53.25
       }
     },
     {
@@ -375,15 +267,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 90.0,
-        "30d": 86.34,
-        "90d": 87.7,
-        "1y": 87.51
+        "30d": 86.29,
+        "90d": 87.67,
+        "1y": 87.5
+      }
+    },
+    {
+      "ip": "125.228.169.101",
+      "version": 4,
+      "country_code": "tw",
+      "country": "Taiwan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Chunghwa Telecom Co. Ltd.",
+      "domain": "125-228-169-101.hinet-ip.hinet.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 83.49,
+        "90d": 82.98,
+        "1y": 83.83
       }
     },
     {
@@ -403,13 +322,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 90.0,
-        "30d": 96.47,
-        "90d": 96.86,
+        "30d": 96.48,
+        "90d": 96.85,
         "1y": 96.39
       }
     },
@@ -430,14 +349,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 97.49,
-        "90d": 98.2,
-        "1y": 99.18
+        "24h": 70.0,
+        "30d": 97.42,
+        "90d": 98.16,
+        "1y": 99.17
       }
     },
     {
@@ -458,40 +377,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 94.23,
-        "90d": 93.96,
+        "24h": 90.0,
+        "30d": 94.08,
+        "90d": 93.94,
         "1y": 94.83
-      }
-    },
-    {
-      "ip": "61.221.26.25",
-      "version": 4,
-      "country_code": "tw",
-      "country": "Taiwan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Chunghwa Telecom Co. Ltd.",
-      "domain": "mail.fonetai.com.tw",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 70.0,
-        "30d": 90.24,
-        "90d": 88.77,
-        "1y": 68.47
       }
     },
     {
@@ -512,40 +404,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 94.34,
-        "90d": 94.59,
-        "1y": 96.17
-      }
-    },
-    {
-      "ip": "114.33.53.151",
-      "version": 4,
-      "country_code": "tw",
-      "country": "Taiwan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Chunghwa Telecom Co. Ltd.",
-      "domain": "114-33-53-151.hinet-ip.hinet.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 66.73,
-        "90d": 57.83,
-        "1y": 59.97
+        "24h": 90.0,
+        "30d": 94.1,
+        "90d": 94.54,
+        "1y": 96.15
       }
     },
     {
@@ -565,12 +430,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.91,
+        "30d": 99.9,
         "90d": 99.93,
         "1y": 99.94
       }
@@ -592,14 +457,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 79.37,
-        "90d": 82.4,
-        "1y": 87.37
+        "24h": 100.0,
+        "30d": 78.92,
+        "90d": 82.35,
+        "1y": 87.38
       }
     },
     {
@@ -619,14 +484,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 78.01,
-        "90d": 79.32,
-        "1y": 80.38
+        "24h": 60.0,
+        "30d": 77.36,
+        "90d": 79.26,
+        "1y": 80.35
+      }
+    },
+    {
+      "ip": "211.23.144.240",
+      "version": 4,
+      "country_code": "tw",
+      "country": "Taiwan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Chunghwa Telecom Co. Ltd.",
+      "domain": "211-23-144-240.hinet-ip.hinet.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 79.54,
+        "90d": 81.62,
+        "1y": 76.6
       }
     },
     {
@@ -652,8 +544,35 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.81,
-        "90d": 94.05,
-        "1y": 94.14
+        "90d": 94.1,
+        "1y": 94.15
+      }
+    },
+    {
+      "ip": "223.22.243.241",
+      "version": 4,
+      "country_code": "tw",
+      "country": "Taiwan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Asia Pacific On-Line Service Inc.",
+      "domain": "223-22-243-241.mobile.dynamic.aptg.com.tw",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 89.42,
+        "90d": 88.58,
+        "1y": 86.34
       }
     },
     {
@@ -672,15 +591,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 60.0,
-        "30d": 85.22,
-        "90d": 90.24,
-        "1y": 94.89
+        "30d": 85.03,
+        "90d": 90.11,
+        "1y": 94.85
       }
     },
     {
@@ -699,15 +618,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 78.51,
-        "90d": 74.84,
-        "1y": 75.42
+        "24h": 50.0,
+        "30d": 78.15,
+        "90d": 74.73,
+        "1y": 75.4
       }
     },
     {
@@ -726,14 +645,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.59,
-        "90d": 96.39,
+        "30d": 90.4,
+        "90d": 96.38,
         "1y": 97.54
       }
     },
@@ -759,7 +678,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.07,
+        "30d": 94.94,
         "90d": 97.86,
         "1y": 96.96
       }
@@ -780,9 +699,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -808,12 +727,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 86.39,
+        "24h": 100.0,
+        "30d": 86.12,
         "90d": 84.02,
         "1y": 87.72
       }
@@ -834,14 +753,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 76.3,
-        "90d": 82.09,
+        "24h": 90.0,
+        "30d": 75.62,
+        "90d": 82.0,
         "1y": 91.25
       }
     },
@@ -862,14 +781,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 90.0,
-        "30d": 88.02,
-        "90d": 87.11,
-        "1y": 86.05
+        "30d": 87.63,
+        "90d": 87.04,
+        "1y": 86.04
       }
     },
     {
@@ -893,10 +812,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 82.23,
-        "90d": 82.23,
-        "1y": 83.33
+        "24h": 70.0,
+        "30d": 81.77,
+        "90d": 82.14,
+        "1y": 83.3
       }
     },
     {
@@ -912,45 +831,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 60.0,
-        "30d": 21.21,
-        "90d": 9.72,
-        "1y": 4.28
-      }
-    },
-    {
-      "ip": "59.125.246.99",
-      "version": 4,
-      "country_code": "tw",
-      "country": "Taiwan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Chunghwa Telecom Co. Ltd.",
-      "domain": "59-125-246-99.hinet-ip.hinet.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 74.44,
-        "90d": 83.27,
-        "1y": 88.04
+        "24h": 80.0,
+        "30d": 27.14,
+        "90d": 12.75,
+        "1y": 5.72
       }
     },
     {
@@ -975,8 +867,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.91,
-        "90d": 94.02,
+        "30d": 99.9,
+        "90d": 94.07,
         "1y": 94.13
       }
     },
@@ -996,15 +888,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "ads": true,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 88.74,
-        "90d": 92.08,
-        "1y": 95.29
+        "24h": 80.0,
+        "30d": 88.27,
+        "90d": 91.99,
+        "1y": 95.26
       }
     },
     {
@@ -1023,42 +915,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 91.53,
-        "90d": 94.15,
+        "24h": 100.0,
+        "30d": 91.32,
+        "90d": 94.14,
         "1y": 97.14
-      }
-    },
-    {
-      "ip": "125.228.209.195",
-      "version": 4,
-      "country_code": "tw",
-      "country": "Taiwan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Chunghwa Telecom Co. Ltd.",
-      "domain": "125-228-209-195.hinet-ip.hinet.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 70.0,
-        "30d": 79.78,
-        "90d": 75.43,
-        "1y": 78.48
       }
     },
     {
@@ -1079,13 +944,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.0,
-        "90d": 79.6,
-        "1y": 87.05
+        "30d": 92.86,
+        "90d": 79.54,
+        "1y": 87.06
       }
     },
     {
@@ -1109,37 +974,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 94.89,
-        "90d": 96.39,
-        "1y": 94.09
+        "24h": 90.0,
+        "30d": 94.66,
+        "90d": 96.35,
+        "1y": 94.08
       }
     },
     {
-      "ip": "27.147.48.26",
+      "ip": "60.248.10.164",
       "version": 4,
       "country_code": "tw",
       "country": "Taiwan",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "ELNET",
-      "domain": null,
+      "organization": "Chunghwa Telecom Co. Ltd.",
+      "domain": "dns3.arbor.com.tw",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 30.0,
-        "30d": 76.77,
-        "90d": 71.89,
-        "1y": 67.06
+        "24h": 70.0,
+        "30d": 83.82,
+        "90d": 85.36,
+        "1y": 83.24
       }
     },
     {
@@ -1160,13 +1025,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 80.0,
         "30d": 75.48,
-        "90d": 68.94,
-        "1y": 71.58
+        "90d": 68.87,
+        "1y": 71.57
       }
     },
     {
@@ -1187,40 +1052,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 90.06,
-        "90d": 91.15,
-        "1y": 91.51
-      }
-    },
-    {
-      "ip": "60.251.132.74",
-      "version": 4,
-      "country_code": "tw",
-      "country": "Taiwan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Chunghwa Telecom Co. Ltd.",
-      "domain": "60-251-132-74.hinet-ip.hinet.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 60.0,
-        "30d": 89.19,
-        "90d": 91.14,
-        "1y": 85.42
+        "24h": 90.0,
+        "30d": 89.71,
+        "90d": 91.09,
+        "1y": 91.5
       }
     },
     {
@@ -1240,14 +1078,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 60.0,
-        "30d": 76.47,
-        "90d": 69.83,
-        "1y": 71.89
+        "30d": 76.24,
+        "90d": 69.77,
+        "1y": 71.88
       }
     },
     {
@@ -1266,14 +1104,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 69.93,
-        "90d": 77.58,
+        "24h": 90.0,
+        "30d": 69.37,
+        "90d": 77.51,
         "1y": 81.08
       }
     },
@@ -1298,10 +1136,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 95.16,
-        "90d": 97.96,
-        "1y": 98.1
+        "24h": 90.0,
+        "30d": 95.04,
+        "90d": 97.92,
+        "1y": 98.09
       }
     },
     {
@@ -1326,8 +1164,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.91,
-        "90d": 98.15,
+        "30d": 99.9,
+        "90d": 98.14,
         "1y": 99.18
       }
     },
@@ -1353,9 +1191,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.8,
-        "90d": 83.8,
-        "1y": 83.8
+        "30d": 92.1,
+        "90d": 83.85,
+        "1y": 83.85
       }
     },
     {
@@ -1374,15 +1212,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.2,
-        "90d": 94.79,
-        "1y": 96.36
+        "30d": 93.06,
+        "90d": 94.77,
+        "1y": 96.37
       }
     },
     {
@@ -1401,26 +1239,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 77.02,
-        "90d": 71.5,
-        "1y": 73.16
+        "24h": 80.0,
+        "30d": 77.48,
+        "90d": 71.51,
+        "1y": 73.18
       }
     },
     {
-      "ip": "220.132.88.194",
+      "ip": "1.34.94.130",
       "version": 4,
       "country_code": "tw",
       "country": "Taiwan",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Chunghwa Telecom Co. Ltd.",
-      "domain": "220-132-88-194.hinet-ip.hinet.net",
+      "domain": "1-34-94-130.hinet-ip.hinet.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1429,14 +1267,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 68.31,
-        "90d": 66.12,
-        "1y": 72.02
+        "24h": 40.0,
+        "30d": 75.1,
+        "90d": 79.88,
+        "1y": 87.48
       }
     },
     {
@@ -1457,13 +1295,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 91.45,
-        "90d": 89.73,
-        "1y": 86.55
+        "24h": 80.0,
+        "30d": 91.05,
+        "90d": 89.74,
+        "1y": 86.53
       }
     },
     {
@@ -1482,15 +1320,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 35.0,
-        "90d": 32.24,
-        "1y": 26.0
+        "24h": 70.0,
+        "30d": 34.8,
+        "90d": 32.35,
+        "1y": 26.09
       }
     },
     {
@@ -1509,15 +1347,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
+        "ads": false,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 96.19,
-        "90d": 96.86,
-        "1y": 97.82
+        "24h": 90.0,
+        "30d": 96.0,
+        "90d": 96.82,
+        "1y": 97.81
       }
     },
     {
@@ -1538,13 +1376,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 95.15,
-        "90d": 94.47,
-        "1y": 94.47
+        "24h": 100.0,
+        "30d": 95.03,
+        "90d": 94.49,
+        "1y": 94.49
       }
     },
     {
@@ -1569,9 +1407,9 @@
       },
       "uptime": {
         "24h": 80.0,
-        "30d": 94.23,
-        "90d": 95.99,
-        "1y": 97.41
+        "30d": 93.89,
+        "90d": 95.91,
+        "1y": 97.38
       }
     },
     {
@@ -1590,15 +1428,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 89.58,
-        "90d": 90.64,
-        "1y": 82.51
+        "24h": 100.0,
+        "30d": 89.31,
+        "90d": 90.68,
+        "1y": 82.53
       }
     },
     {
@@ -1618,14 +1456,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 74.98,
-        "90d": 78.13,
-        "1y": 54.73
+        "24h": 60.0,
+        "30d": 75.76,
+        "90d": 78.0,
+        "1y": 54.72
       }
     },
     {
@@ -1644,15 +1482,69 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 60.0,
-        "30d": 61.47,
-        "90d": 55.69,
-        "1y": 61.07
+        "30d": 61.62,
+        "90d": 55.59,
+        "1y": 61.05
+      }
+    },
+    {
+      "ip": "60.249.11.234",
+      "version": 4,
+      "country_code": "tw",
+      "country": "Taiwan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Chunghwa Telecom Co. Ltd.",
+      "domain": "60-249-11-234.hinet-ip.hinet.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 98.48,
+        "90d": 99.43,
+        "1y": 99.69
+      }
+    },
+    {
+      "ip": "118.163.7.54",
+      "version": 4,
+      "country_code": "tw",
+      "country": "Taiwan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Chunghwa Telecom Co. Ltd.",
+      "domain": "dns.sunlights.com.tw",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 90.77,
+        "90d": 94.94,
+        "1y": 94.39
       }
     },
     {
@@ -1672,14 +1564,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 80.0,
-        "30d": 81.04,
-        "90d": 78.12,
-        "1y": 79.37
+        "30d": 80.25,
+        "90d": 78.01,
+        "1y": 79.35
       }
     },
     {
@@ -1703,10 +1595,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 72.26,
-        "90d": 76.51,
-        "1y": 81.62
+        "24h": 70.0,
+        "30d": 71.27,
+        "90d": 76.36,
+        "1y": 81.6
       }
     },
     {
@@ -1725,15 +1617,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 96.74,
+        "24h": 100.0,
+        "30d": 96.66,
         "90d": 97.79,
-        "1y": 98.92
+        "1y": 98.93
       }
     },
     {
@@ -1753,41 +1645,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 78.66,
-        "90d": 44.81,
-        "1y": 60.38
-      }
-    },
-    {
-      "ip": "125.227.35.90",
-      "version": 4,
-      "country_code": "tw",
-      "country": "Taiwan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Chunghwa Telecom Co. Ltd.",
-      "domain": "125-227-35-90.hinet-ip.hinet.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 74.74,
-        "90d": 71.41,
-        "1y": 75.82
+        "30d": 79.76,
+        "90d": 43.52,
+        "1y": 60.49
       }
     }
   ]

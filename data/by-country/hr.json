@@ -4,8 +4,8 @@
     "country_name": "Croatia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-02T06:24:01Z",
-    "total_servers": 22
+    "generated_at": "2026-11-02T18:02:50Z",
+    "total_servers": 21
   },
   "resolvers": [
     {
@@ -24,7 +24,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
@@ -51,13 +51,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.72,
+        "30d": 99.71,
         "90d": 99.77,
         "1y": 99.87
       }
@@ -74,11 +74,11 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -105,42 +105,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.95,
-        "90d": 98.2,
-        "1y": 98.4
-      }
-    },
-    {
-      "ip": "212.92.200.165",
-      "version": 4,
-      "country_code": "hr",
-      "country": "Croatia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "METRONET",
-      "domain": "mail.get-nekretnine.hr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.59,
-        "90d": 91.48,
-        "1y": 94.28
+        "30d": 97.91,
+        "90d": 98.19,
+        "1y": 98.4
       }
     },
     {
@@ -171,33 +144,6 @@
       }
     },
     {
-      "ip": "82.214.100.214",
-      "version": 4,
-      "country_code": "hr",
-      "country": "Croatia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Akton",
-      "domain": "c82-214-100-214.loc.akton.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 73.35,
-        "90d": 64.99,
-        "1y": 66.93
-      }
-    },
-    {
       "ip": "83.131.3.113",
       "version": 4,
       "country_code": "hr",
@@ -213,8 +159,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -241,7 +187,7 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -267,7 +213,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
@@ -294,15 +240,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.17,
-        "90d": 82.42,
-        "1y": 77.75
+        "30d": 92.02,
+        "90d": 82.48,
+        "1y": 77.77
       }
     },
     {
@@ -321,8 +267,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -360,6 +306,33 @@
       }
     },
     {
+      "ip": "89.201.137.2",
+      "version": 4,
+      "country_code": "hr",
+      "country": "Croatia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OT - Optima Telekom d.d",
+      "domain": "89-201-137-2.static.optinet.hr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 30.0,
+        "30d": 53.33,
+        "90d": 49.8,
+        "1y": 50.24
+      }
+    },
+    {
       "ip": "83.131.0.211",
       "version": 4,
       "country_code": "hr",
@@ -375,8 +348,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -408,7 +381,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.91,
+        "30d": 99.9,
         "90d": 99.93,
         "1y": 99.67
       }
@@ -429,13 +402,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.91,
+        "30d": 99.9,
         "90d": 99.93,
         "1y": 99.94
       }
@@ -456,15 +429,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 63.91,
-        "90d": 64.22,
-        "1y": 42.5
+        "24h": 70.0,
+        "30d": 63.55,
+        "90d": 64.21,
+        "1y": 42.51
       }
     },
     {
@@ -483,8 +456,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -510,7 +483,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -537,8 +510,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -564,7 +537,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -591,13 +564,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.91,
+        "30d": 99.9,
         "90d": 98.76,
         "1y": 96.42
       }
