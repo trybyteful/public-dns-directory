@@ -4,8 +4,8 @@
     "country_name": "Honduras",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-11-03T06:17:37Z",
-    "total_servers": 5
+    "generated_at": "2026-11-03T18:02:50Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 82.65,
-        "90d": 78.42,
-        "1y": 77.49
+        "24h": 77.78,
+        "30d": 82.14,
+        "90d": 78.37,
+        "1y": 77.47
       }
     },
     {
@@ -51,14 +51,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 95.98,
-        "90d": 93.58,
+        "24h": 100.0,
+        "30d": 95.91,
+        "90d": 93.63,
         "1y": 92.23
       }
     },
@@ -75,17 +75,17 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 75.56,
-        "90d": 77.14,
+        "24h": 88.89,
+        "30d": 75.05,
+        "90d": 77.08,
         "1y": 72.96
       }
     },
@@ -102,18 +102,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 76.74,
-        "90d": 85.98,
-        "1y": 93.91
+        "24h": 77.78,
+        "30d": 76.45,
+        "90d": 85.88,
+        "1y": 93.89
+      }
+    },
+    {
+      "ip": "190.5.81.230",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "LIBERTY NETWORKS HONDURAS, SOCIEDAD DE RESPONSABILIDAD LIMITADA",
+      "domain": "190.5.81.230.multidatahn.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 59.08,
+        "90d": 60.04,
+        "1y": 58.93
       }
     },
     {
@@ -134,13 +161,13 @@
       "blocking": {
         "ads": true,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 66.62,
-        "90d": 62.66,
-        "1y": 66.78
+        "24h": 55.56,
+        "30d": 65.57,
+        "90d": 62.58,
+        "1y": 66.76
       }
     }
   ]

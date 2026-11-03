@@ -4,10 +4,37 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-03T06:17:37Z",
-    "total_servers": 6
+    "generated_at": "2026-11-03T18:02:50Z",
+    "total_servers": 8
   },
   "resolvers": [
+    {
+      "ip": "81.163.3.1",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Rasana Pishtaz Iranian Service Cooperative Co",
+      "domain": "ns1.rasanapishtaz.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 78.0,
+        "90d": 65.43,
+        "1y": 65.39
+      }
+    },
     {
       "ip": "194.225.62.80",
       "version": 4,
@@ -21,11 +48,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
@@ -48,7 +75,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -60,6 +87,33 @@
         "30d": 99.9,
         "90d": 99.87,
         "1y": 99.04
+      }
+    },
+    {
+      "ip": "81.163.3.2",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Rasana Pishtaz Iranian Service Cooperative Co",
+      "domain": "ns2.rasanapishtaz.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 76.73,
+        "90d": 81.11,
+        "1y": 81.29
       }
     },
     {
@@ -79,7 +133,7 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -107,13 +161,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.12,
-        "90d": 79.52,
-        "1y": 71.88
+        "30d": 99.1,
+        "90d": 80.0,
+        "1y": 71.9
       }
     },
     {
@@ -129,17 +183,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.8,
-        "90d": 99.73,
+        "90d": 99.76,
         "1y": 99.62
       }
     },
@@ -161,7 +215,7 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
