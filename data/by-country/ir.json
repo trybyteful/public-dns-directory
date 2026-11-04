@@ -4,7 +4,7 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-03T18:02:50Z",
+    "generated_at": "2026-11-04T06:17:50Z",
     "total_servers": 8
   },
   "resolvers": [
@@ -21,7 +21,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -30,9 +30,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 78.0,
-        "90d": 65.43,
-        "1y": 65.39
+        "30d": 78.15,
+        "90d": 65.41,
+        "1y": 65.46
       }
     },
     {
@@ -75,17 +75,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.9,
-        "90d": 99.87,
+        "90d": 99.86,
         "1y": 99.04
       }
     },
@@ -105,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 76.73,
-        "90d": 81.11,
-        "1y": 81.29
+        "30d": 76.88,
+        "90d": 81.14,
+        "1y": 81.33
       }
     },
     {
@@ -166,8 +166,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.1,
-        "90d": 80.0,
-        "1y": 71.9
+        "90d": 80.52,
+        "1y": 71.93
       }
     },
     {
@@ -186,7 +186,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -210,12 +210,12 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,

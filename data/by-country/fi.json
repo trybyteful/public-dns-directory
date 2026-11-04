@@ -4,8 +4,8 @@
     "country_name": "Finland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-03T18:02:50Z",
-    "total_servers": 8
+    "generated_at": "2026-11-04T06:17:50Z",
+    "total_servers": 7
   },
   "resolvers": [
     {
@@ -24,14 +24,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.31,
-        "90d": 96.33,
+        "30d": 95.3,
+        "90d": 96.31,
         "1y": 97.23
       }
     },
@@ -47,46 +47,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 70.16,
-        "90d": 71.19,
-        "1y": 72.76
-      }
-    },
-    {
-      "ip": "84.249.85.95",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TeliaSonera Finland Oyj",
-      "domain": "dsl-tkubng12-54f955-95.dhcp.inet.fi",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 33.33,
-        "30d": 52.4,
-        "90d": 53.62,
-        "1y": 53.97
+        "24h": 77.78,
+        "30d": 70.07,
+        "90d": 71.08,
+        "1y": 72.76
       }
     },
     {
@@ -105,14 +78,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 88.89,
-        "30d": 85.83,
-        "90d": 86.01,
+        "30d": 85.89,
+        "90d": 85.97,
         "1y": 88.24
       }
     },
@@ -132,8 +105,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -159,15 +132,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 77.78,
-        "30d": 86.03,
-        "90d": 84.16,
-        "1y": 84.89
+        "30d": 86.19,
+        "90d": 84.11,
+        "1y": 84.9
       }
     },
     {
@@ -183,7 +156,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -191,10 +164,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 93.81,
-        "90d": 92.05,
-        "1y": 93.09
+        "24h": 88.89,
+        "30d": 93.79,
+        "90d": 92.09,
+        "1y": 93.08
       }
     },
     {
@@ -213,13 +186,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 88.89,
-        "30d": 96.71,
+        "30d": 96.7,
         "90d": 98.85,
         "1y": 99.42
       }
