@@ -4,8 +4,8 @@
     "country_name": "Iraq",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-04T06:17:50Z",
-    "total_servers": 5
+    "generated_at": "2026-11-04T18:03:26Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 88.39,
+        "24h": 100.0,
+        "30d": 88.38,
         "90d": 85.46,
-        "1y": 85.69
+        "1y": 85.7
       }
     },
     {
@@ -53,67 +53,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 74.17,
-        "90d": 78.41,
-        "1y": 78.22
-      }
-    },
-    {
-      "ip": "62.201.217.194",
-      "version": 4,
-      "country_code": "iq",
-      "country": "Iraq",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "BAG",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 77.34,
-        "90d": 71.28,
-        "1y": 50.36
-      }
-    },
-    {
-      "ip": "212.237.124.103",
-      "version": 4,
-      "country_code": "iq",
-      "country": "Iraq",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kurdistan Net 4",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 90.09,
-        "90d": 90.73,
-        "1y": 90.73
+        "30d": 74.12,
+        "90d": 78.51,
+        "1y": 78.24
       }
     },
     {
@@ -134,11 +80,11 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.2,
+        "30d": 98.19,
         "90d": 99.29,
         "1y": 99.45
       }
