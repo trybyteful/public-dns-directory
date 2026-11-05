@@ -4,8 +4,8 @@
     "country_name": "North Macedonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-05T06:17:42Z",
-    "total_servers": 3
+    "generated_at": "2026-11-05T18:02:21Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 67.82,
-        "90d": 73.63,
-        "1y": 82.12
+        "24h": 83.33,
+        "30d": 67.61,
+        "90d": 73.57,
+        "1y": 82.13
       }
     },
     {
@@ -48,18 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 85.44,
-        "90d": 76.02,
-        "1y": 61.88
+        "30d": 85.99,
+        "90d": 76.09,
+        "1y": 61.91
       }
     },
     {
@@ -78,15 +78,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 85.1,
-        "90d": 84.77,
+        "24h": 90.91,
+        "30d": 85.19,
+        "90d": 84.8,
         "1y": 84.1
+      }
+    },
+    {
+      "ip": "217.16.79.246",
+      "version": 4,
+      "country_code": "mk",
+      "country": "North Macedonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "On.net ISP",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 76.19,
+        "90d": 69.37,
+        "1y": 69.65
       }
     }
   ]
