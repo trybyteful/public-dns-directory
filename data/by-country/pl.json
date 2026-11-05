@@ -4,10 +4,37 @@
     "country_name": "Poland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-04T18:03:26Z",
-    "total_servers": 125
+    "generated_at": "2026-11-05T06:17:42Z",
+    "total_servers": 142
   },
   "resolvers": [
+    {
+      "ip": "77.45.110.84",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Asta",
+      "domain": "77-45-110-84.sta.asta-net.com.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 83.3,
+        "90d": 83.75,
+        "1y": 83.1
+      }
+    },
     {
       "ip": "83.1.184.198",
       "version": 4,
@@ -21,45 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 53.04,
-        "90d": 50.39,
-        "1y": 48.8
-      }
-    },
-    {
-      "ip": "109.199.77.76",
-      "version": 4,
-      "country_code": "pl",
-      "country": "Poland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ASTA",
-      "domain": "109-199-77-76.sta.asta-net.com.pl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 76.75,
-        "90d": 77.71,
-        "1y": 71.97
+        "24h": 60.0,
+        "30d": 52.68,
+        "90d": 50.34,
+        "1y": 48.79
       }
     },
     {
@@ -79,14 +79,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 78.98,
-        "90d": 52.54,
-        "1y": 94.61
+        "30d": 80.25,
+        "90d": 53.94,
+        "1y": 94.62
+      }
+    },
+    {
+      "ip": "153.19.105.120",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Technical University of Gdansk, Academic Computer Center TASK",
+      "domain": "miryb.mir.gdynia.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 86.63,
+        "90d": 87.67,
+        "1y": 78.53
       }
     },
     {
@@ -105,14 +132,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.29,
-        "90d": 97.79,
+        "30d": 96.24,
+        "90d": 97.78,
         "1y": 99.03
       }
     },
@@ -128,46 +155,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 33.33,
-        "30d": 41.38,
-        "90d": 35.24,
-        "1y": 35.17
-      }
-    },
-    {
-      "ip": "88.199.128.188",
-      "version": 4,
-      "country_code": "pl",
-      "country": "Poland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Hardsoft s.c Adam Szalanda",
-      "domain": "88-199-128-188.tktelekom.pl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 44.44,
-        "30d": 43.59,
-        "90d": 51.64,
-        "1y": 57.94
+        "24h": 50.0,
+        "30d": 41.08,
+        "90d": 35.35,
+        "1y": 35.18
       }
     },
     {
@@ -191,9 +191,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 96.79,
-        "90d": 96.6,
+        "24h": 90.0,
+        "30d": 96.74,
+        "90d": 96.59,
         "1y": 94.44
       }
     },
@@ -218,10 +218,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 93.58,
-        "90d": 94.05,
-        "1y": 89.32
+        "24h": 90.0,
+        "30d": 93.48,
+        "90d": 94.03,
+        "1y": 89.33
       }
     },
     {
@@ -240,42 +240,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 89.28,
-        "90d": 87.87,
-        "1y": 86.2
-      }
-    },
-    {
-      "ip": "91.194.19.109",
-      "version": 4,
-      "country_code": "pl",
-      "country": "Poland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "SkyLan Sp. z o.o",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 68.44,
-        "90d": 66.33,
-        "1y": 61.91
+        "24h": 90.0,
+        "30d": 89.39,
+        "90d": 87.81,
+        "1y": 86.22
       }
     },
     {
@@ -294,42 +267,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 88.28,
-        "90d": 88.7,
-        "1y": 92.16
-      }
-    },
-    {
-      "ip": "77.45.125.84",
-      "version": 4,
-      "country_code": "pl",
-      "country": "Poland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Asta",
-      "domain": "77-45-125-84.sta.asta-net.com.pl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 55.56,
-        "30d": 71.51,
-        "90d": 72.97,
-        "1y": 70.08
+        "24h": 90.0,
+        "30d": 88.09,
+        "90d": 88.64,
+        "1y": 92.15
       }
     },
     {
@@ -348,15 +294,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 44.44,
-        "30d": 23.61,
-        "90d": 21.5,
-        "1y": 17.42
+        "24h": 70.0,
+        "30d": 24.14,
+        "90d": 21.89,
+        "1y": 17.51
       }
     },
     {
@@ -375,15 +321,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.67,
+        "30d": 89.6,
         "90d": 88.52,
-        "1y": 84.99
+        "1y": 85.0
+      }
+    },
+    {
+      "ip": "91.238.56.251",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Galatea FHU Dominik Budzowski",
+      "domain": "91-238-56-251.galatea.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 84.2,
+        "90d": 82.68,
+        "1y": 82.42
       }
     },
     {
@@ -408,8 +381,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 69.84,
-        "90d": 90.36,
+        "30d": 68.75,
+        "90d": 90.3,
         "1y": 96.1
       }
     },
@@ -434,9 +407,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 82.16,
-        "90d": 85.39,
+        "24h": 80.0,
+        "30d": 81.77,
+        "90d": 85.32,
         "1y": 85.26
       }
     },
@@ -457,14 +430,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 78.76,
-        "90d": 78.32,
-        "1y": 76.68
+        "24h": 100.0,
+        "30d": 78.82,
+        "90d": 78.24,
+        "1y": 76.7
       }
     },
     {
@@ -485,24 +458,51 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 85.97,
-        "90d": 85.08,
-        "1y": 66.06
+        "24h": 90.0,
+        "30d": 85.92,
+        "90d": 85.01,
+        "1y": 66.09
       }
     },
     {
-      "ip": "83.0.114.235",
+      "ip": "86.63.124.78",
       "version": 4,
       "country_code": "pl",
       "country": "Poland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Orange Polska Spolka Akcyjna",
-      "domain": "83.0.114.235.internetdsl.tpnet.pl",
+      "organization": "ASTA",
+      "domain": "86-63-124-78.sta.asta-net.com.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 77.22,
+        "90d": 75.92,
+        "1y": 75.86
+      }
+    },
+    {
+      "ip": "77.65.46.150",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "INEA sp. z o.o.",
+      "domain": "d46-150.icpnet.pl",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -511,14 +511,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 86.17,
-        "90d": 87.73,
-        "1y": 85.17
+        "24h": 60.0,
+        "30d": 82.84,
+        "90d": 82.62,
+        "1y": 80.95
       }
     },
     {
@@ -537,14 +537,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.7,
-        "90d": 98.81,
+        "30d": 98.78,
+        "90d": 98.8,
         "1y": 99.32
       }
     },
@@ -560,8 +560,8 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -570,9 +570,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.28,
-        "90d": 90.15,
-        "1y": 93.44
+        "30d": 90.32,
+        "90d": 90.1,
+        "1y": 93.45
       }
     },
     {
@@ -588,18 +588,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.27,
-        "90d": 91.88,
-        "1y": 95.37
+        "30d": 91.32,
+        "90d": 91.84,
+        "1y": 95.38
       }
     },
     {
@@ -623,37 +623,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 83.55,
-        "90d": 84.5,
-        "1y": 84.03
-      }
-    },
-    {
-      "ip": "185.246.205.10",
-      "version": 4,
-      "country_code": "pl",
-      "country": "Poland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "PPHU Matrix",
-      "domain": "10.205host.matrixinternet.pl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 77.78,
-        "30d": 66.2,
-        "90d": 68.0,
-        "1y": 63.64
+        "24h": 90.0,
+        "30d": 83.37,
+        "90d": 84.43,
+        "1y": 84.05
       }
     },
     {
@@ -669,18 +642,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 85.76,
-        "90d": 90.11,
-        "1y": 91.66
+        "24h": 80.0,
+        "30d": 85.34,
+        "90d": 90.0,
+        "1y": 91.64
       }
     },
     {
@@ -699,15 +672,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 71.24,
-        "90d": 71.84,
-        "1y": 71.27
+        "24h": 90.0,
+        "30d": 71.18,
+        "90d": 71.69,
+        "1y": 71.28
       }
     },
     {
@@ -728,13 +701,40 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 81.85,
-        "90d": 81.99,
-        "1y": 81.15
+        "30d": 81.86,
+        "90d": 81.97,
+        "1y": 81.17
+      }
+    },
+    {
+      "ip": "79.187.27.192",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Orange Polska Spolka Akcyjna",
+      "domain": "hbb192.internetdsl.tpnet.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 48.65,
+        "90d": 33.97,
+        "1y": 31.99
       }
     },
     {
@@ -755,13 +755,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 79.44,
-        "90d": 75.25,
-        "1y": 76.14
+        "24h": 100.0,
+        "30d": 79.69,
+        "90d": 75.17,
+        "1y": 76.16
       }
     },
     {
@@ -780,15 +780,42 @@
         "validating": true
       },
       "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 85.85,
+        "90d": 85.93,
+        "1y": 66.07
+      }
+    },
+    {
+      "ip": "80.48.173.212",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Orange Polska SA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 85.67,
-        "90d": 85.94,
-        "1y": 66.06
+        "24h": 60.0,
+        "30d": 78.88,
+        "90d": 77.87,
+        "1y": 75.46
       }
     },
     {
@@ -807,15 +834,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 94.39,
-        "90d": 95.17,
-        "1y": 94.03
+        "24h": 90.0,
+        "30d": 94.29,
+        "90d": 95.15,
+        "1y": 94.04
       }
     },
     {
@@ -830,35 +857,8 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 52.0,
-        "90d": 59.67,
-        "1y": 64.49
-      }
-    },
-    {
-      "ip": "94.127.107.3",
-      "version": 4,
-      "country_code": "pl",
-      "country": "Poland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Business Network",
-      "domain": "d107-3.icpnet.pl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -866,37 +866,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 78.06,
-        "90d": 75.91,
-        "1y": 73.18
+        "24h": 40.0,
+        "30d": 52.65,
+        "90d": 59.94,
+        "1y": 64.44
       }
     },
     {
-      "ip": "95.143.242.138",
+      "ip": "91.236.52.154",
       "version": 4,
       "country_code": "pl",
       "country": "Poland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Ultranet Sp. z o.o",
-      "domain": null,
+      "organization": "Dataspace P.S.A",
+      "domain": "host-91-236-52-154.dataspace.pl",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 44.44,
-        "30d": 43.23,
-        "90d": 39.89,
-        "1y": 35.37
+        "24h": 70.0,
+        "30d": 82.14,
+        "90d": 79.75,
+        "1y": 77.43
       }
     },
     {
@@ -917,13 +917,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 75.85,
-        "90d": 74.41,
-        "1y": 71.39
+        "24h": 80.0,
+        "30d": 75.61,
+        "90d": 74.32,
+        "1y": 71.4
       }
     },
     {
@@ -942,53 +942,26 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.29,
-        "90d": 98.27,
+        "30d": 95.21,
+        "90d": 98.26,
         "1y": 98.29
       }
     },
     {
-      "ip": "185.170.35.229",
+      "ip": "85.221.167.2",
       "version": 4,
       "country_code": "pl",
       "country": "Poland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Stansat Stanislaw Grzesik",
-      "domain": "xt150.35.E5.stansat.pl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 77.78,
-        "30d": 68.94,
-        "90d": 66.02,
-        "1y": 45.73
-      }
-    },
-    {
-      "ip": "91.230.86.124",
-      "version": 4,
-      "country_code": "pl",
-      "country": "Poland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "\"ROBI-KOM\" Robert Mazur",
-      "domain": "ip.124.86.230.91.intencom.com.pl",
+      "organization": "Inea S.A",
+      "domain": "sosw.edu.pl",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -996,15 +969,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 44.44,
-        "30d": 28.86,
-        "90d": 27.48,
-        "1y": 28.76
+        "24h": 50.0,
+        "30d": 79.02,
+        "90d": 81.46,
+        "1y": 81.76
+      }
+    },
+    {
+      "ip": "80.54.26.254",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Tpnet Polaczenia DLA Klient ATM",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 81.41,
+        "90d": 82.79,
+        "1y": 83.2
       }
     },
     {
@@ -1029,8 +1029,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.2,
-        "90d": 99.01,
+        "30d": 99.29,
+        "90d": 99.04,
         "1y": 98.65
       }
     },
@@ -1050,14 +1050,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 84.07,
-        "90d": 80.67,
+        "24h": 80.0,
+        "30d": 83.81,
+        "90d": 80.57,
         "1y": 79.93
       }
     },
@@ -1079,13 +1079,40 @@
       "blocking": {
         "ads": true,
         "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 55.5,
+        "90d": 65.07,
+        "1y": 67.64
+      }
+    },
+    {
+      "ip": "83.1.88.194",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Orange Polska S.A.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 56.01,
-        "90d": 65.12,
-        "1y": 67.64
+        "24h": 70.0,
+        "30d": 86.05,
+        "90d": 86.0,
+        "1y": 84.61
       }
     },
     {
@@ -1104,15 +1131,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 82.06,
-        "90d": 76.45,
-        "1y": 54.78
+        "24h": 90.0,
+        "30d": 81.96,
+        "90d": 76.48,
+        "1y": 54.8
       }
     },
     {
@@ -1131,15 +1158,69 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 60.67,
-        "90d": 32.14,
-        "1y": 94.4
+        "30d": 63.83,
+        "90d": 34.68,
+        "1y": 94.41
+      }
+    },
+    {
+      "ip": "85.221.162.46",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Inea S.A",
+      "domain": "c162-46.icpnet.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 86.93,
+        "90d": 87.22,
+        "1y": 87.6
+      }
+    },
+    {
+      "ip": "88.221.162.23",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Akamai",
+      "domain": "a88-221-162-23.deploy.static.akamaitechnologies.com",
+      "trusted": false,
+      "anycast": true,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
       }
     },
     {
@@ -1163,9 +1244,9 @@
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 77.35,
-        "90d": 75.61,
+        "24h": 70.0,
+        "30d": 77.29,
+        "90d": 75.49,
         "1y": 72.08
       }
     },
@@ -1182,18 +1263,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 84.67,
+        "30d": 84.4,
         "90d": 85.76,
-        "1y": 83.09
+        "1y": 83.1
       }
     },
     {
@@ -1217,10 +1298,64 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 75.03,
-        "90d": 63.23,
-        "1y": 68.26
+        "24h": 90.0,
+        "30d": 74.82,
+        "90d": 63.22,
+        "1y": 68.29
+      }
+    },
+    {
+      "ip": "81.219.64.202",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Ogrodnik",
+      "domain": "81-219-64-202.static.inetia.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 81.16,
+        "90d": 80.27,
+        "1y": 56.34
+      }
+    },
+    {
+      "ip": "95.160.116.6",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Broadband users of Vectra S.A.",
+      "domain": "095160116006.business.static.vectranet.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 83.57,
+        "90d": 80.53,
+        "1y": 79.82
       }
     },
     {
@@ -1239,14 +1374,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 72.12,
-        "90d": 71.64,
+        "24h": 80.0,
+        "30d": 72.2,
+        "90d": 71.53,
         "1y": 68.78
       }
     },
@@ -1266,13 +1401,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.29,
+        "30d": 98.27,
         "90d": 98.91,
         "1y": 98.21
       }
@@ -1290,7 +1425,34 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 81.14,
+        "90d": 75.75,
+        "1y": 76.26
+      }
+    },
+    {
+      "ip": "89.174.71.249",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "T-Mobile Polska S.A",
+      "domain": "ip249-71.alfamultimedia.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -1298,10 +1460,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 80.94,
-        "90d": 75.74,
-        "1y": 76.24
+        "24h": 30.0,
+        "30d": 33.3,
+        "90d": 34.42,
+        "1y": 28.92
+      }
+    },
+    {
+      "ip": "81.15.133.90",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Exatel S.A",
+      "domain": "ip-81-15-133-90.unregistered.net.exatel.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 88.66,
+        "90d": 91.87,
+        "1y": 94.81
       }
     },
     {
@@ -1320,15 +1509,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.18,
-        "90d": 92.84,
-        "1y": 92.68
+        "30d": 93.16,
+        "90d": 92.91,
+        "1y": 92.69
       }
     },
     {
@@ -1343,7 +1532,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": true
       },
       "blocking": {
@@ -1352,10 +1541,64 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 89.47,
-        "90d": 90.92,
-        "1y": 87.17
+        "24h": 90.0,
+        "30d": 89.27,
+        "90d": 90.85,
+        "1y": 87.16
+      }
+    },
+    {
+      "ip": "185.147.71.84",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Prymas",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 20.0,
+        "30d": 26.34,
+        "90d": 23.11,
+        "1y": 23.18
+      }
+    },
+    {
+      "ip": "93.180.179.93",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ISTS Sp. z o.o.",
+      "domain": "93-180-179-93.static.inetia.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 74.06,
+        "90d": 74.11,
+        "1y": 51.87
       }
     },
     {
@@ -1371,7 +1614,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -1380,9 +1623,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 79.06,
-        "90d": 82.57,
-        "1y": 80.49
+        "30d": 79.02,
+        "90d": 82.55,
+        "1y": 80.51
       }
     },
     {
@@ -1401,15 +1644,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 79.36,
-        "90d": 83.19,
-        "1y": 81.44
+        "24h": 90.0,
+        "30d": 79.12,
+        "90d": 83.82,
+        "1y": 81.46
       }
     },
     {
@@ -1428,15 +1671,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 76.29,
-        "90d": 77.95,
-        "1y": 77.81
+        "24h": 90.0,
+        "30d": 75.96,
+        "90d": 77.85,
+        "1y": 77.83
       }
     },
     {
@@ -1455,15 +1698,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 86.46,
-        "90d": 89.36,
-        "1y": 92.72
+        "24h": 90.0,
+        "30d": 86.22,
+        "90d": 89.31,
+        "1y": 92.73
       }
     },
     {
@@ -1479,7 +1722,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -1487,10 +1730,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 83.97,
-        "90d": 79.23,
-        "1y": 69.94
+        "24h": 80.0,
+        "30d": 83.88,
+        "90d": 79.3,
+        "1y": 69.99
       }
     },
     {
@@ -1510,14 +1753,41 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 92.79,
-        "90d": 94.09,
+        "24h": 90.0,
+        "30d": 92.86,
+        "90d": 94.06,
         "1y": 93.12
+      }
+    },
+    {
+      "ip": "88.156.164.210",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Vectra S.A",
+      "domain": "088156164210.unknown.vectranet.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 85.7,
+        "90d": 84.9,
+        "1y": 77.02
       }
     },
     {
@@ -1541,10 +1811,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 86.77,
-        "90d": 79.88,
-        "1y": 80.84
+        "24h": 90.0,
+        "30d": 86.54,
+        "90d": 79.85,
+        "1y": 80.85
+      }
+    },
+    {
+      "ip": "153.19.89.89",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Technical University of Gdansk, Academic Computer Center TASK",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 30.0,
+        "30d": 66.4,
+        "90d": 59.03,
+        "1y": 59.52
       }
     },
     {
@@ -1568,9 +1865,9 @@
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 68.04,
-        "90d": 61.2,
+        "24h": 40.0,
+        "30d": 68.02,
+        "90d": 61.11,
         "1y": 59.99
       }
     },
@@ -1591,41 +1888,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.99,
-        "90d": 97.18,
+        "30d": 95.01,
+        "90d": 97.17,
         "1y": 95.04
-      }
-    },
-    {
-      "ip": "86.63.69.86",
-      "version": 4,
-      "country_code": "pl",
-      "country": "Poland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ASTA",
-      "domain": "86-63-69-86.sta.asta-net.com.pl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 77.78,
-        "30d": 64.83,
-        "90d": 65.93,
-        "1y": 65.14
       }
     },
     {
@@ -1644,15 +1914,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 87.78,
-        "90d": 88.27,
-        "1y": 89.22
+        "24h": 90.0,
+        "30d": 87.96,
+        "90d": 88.22,
+        "1y": 89.23
+      }
+    },
+    {
+      "ip": "95.160.59.153",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Plac Bankowy 1 Plejadas-2 Sp. z o.o.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 81.22,
+        "90d": 78.01,
+        "1y": 74.26
       }
     },
     {
@@ -1671,42 +1968,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 98.3,
-        "90d": 96.42,
-        "1y": 97.31
-      }
-    },
-    {
-      "ip": "89.239.69.44",
-      "version": 4,
-      "country_code": "pl",
-      "country": "Poland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Gawex Media",
-      "domain": "cmpc-089-239-069-044.cnet.gawex.pl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 55.56,
-        "30d": 53.25,
-        "90d": 50.86,
-        "1y": 51.98
+        "24h": 90.0,
+        "30d": 98.27,
+        "90d": 96.43,
+        "1y": 97.32
       }
     },
     {
@@ -1730,10 +2000,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 64.13,
-        "90d": 67.47,
-        "1y": 67.43
+        "24h": 80.0,
+        "30d": 64.49,
+        "90d": 67.35,
+        "1y": 67.44
       }
     },
     {
@@ -1752,15 +2022,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 80.64,
-        "90d": 87.8,
-        "1y": 94.54
+        "24h": 80.0,
+        "30d": 80.1,
+        "90d": 87.67,
+        "1y": 94.52
       }
     },
     {
@@ -1779,15 +2049,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 79.04,
-        "90d": 77.47,
-        "1y": 73.11
+        "30d": 78.9,
+        "90d": 77.42,
+        "1y": 73.14
       }
     },
     {
@@ -1811,10 +2081,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 87.26,
-        "90d": 89.9,
-        "1y": 88.24
+        "24h": 90.0,
+        "30d": 87.17,
+        "90d": 89.86,
+        "1y": 88.25
       }
     },
     {
@@ -1833,69 +2103,96 @@
         "validating": true
       },
       "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 80.22,
+        "90d": 76.81,
+        "1y": 73.77
+      }
+    },
+    {
+      "ip": "91.235.253.248",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "NVVI",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 55.56,
-        "30d": 80.16,
-        "90d": 76.79,
-        "1y": 73.75
+        "24h": 60.0,
+        "30d": 74.46,
+        "90d": 75.65,
+        "1y": 64.5
       }
     },
     {
-      "ip": "91.232.141.91",
+      "ip": "31.182.36.26",
       "version": 4,
       "country_code": "pl",
       "country": "Poland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Rudna-Net Mariola Piatkowska",
-      "domain": "91.232.141.91.ip.rudna-net.pl",
+      "organization": "Toya:net",
+      "domain": "staticline-31-182-36-26.toya.net.pl",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 22.22,
-        "30d": 22.21,
-        "90d": 18.0,
-        "1y": 16.13
+        "24h": 70.0,
+        "30d": 79.88,
+        "90d": 77.36,
+        "1y": 76.41
       }
     },
     {
-      "ip": "5.185.73.91",
+      "ip": "88.221.162.231",
       "version": 4,
       "country_code": "pl",
       "country": "Poland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "PTK-Centertel",
-      "domain": "5.185.73.91.ipv4.public.orange.pl",
+      "organization": "Akamai",
+      "domain": "a88-221-162-231.deploy.static.akamaitechnologies.com",
       "trusted": false,
-      "anycast": false,
+      "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 87.56,
-        "90d": 85.95,
-        "1y": 82.36
+        "24h": 30.0,
+        "30d": 15.41,
+        "90d": 17.73,
+        "1y": 16.15
       }
     },
     {
@@ -1914,15 +2211,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 52.56,
-        "90d": 74.9,
-        "1y": 80.34
+        "24h": 100.0,
+        "30d": 56.63,
+        "90d": 74.92,
+        "1y": 80.38
       }
     },
     {
@@ -1947,9 +2244,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 84.55,
-        "90d": 79.07,
-        "1y": 79.01
+        "30d": 84.51,
+        "90d": 79.03,
+        "1y": 79.03
       }
     },
     {
@@ -1973,10 +2270,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 86.77,
-        "90d": 87.56,
+        "24h": 90.0,
+        "30d": 86.65,
+        "90d": 87.54,
         "1y": 82.58
+      }
+    },
+    {
+      "ip": "80.54.51.106",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Komputersat s.c.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 83.98,
+        "90d": 85.01,
+        "1y": 57.91
       }
     },
     {
@@ -1995,15 +2319,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 55.56,
-        "30d": 73.02,
-        "90d": 62.28,
-        "1y": 52.89
+        "24h": 80.0,
+        "30d": 72.68,
+        "90d": 62.4,
+        "1y": 52.92
       }
     },
     {
@@ -2022,15 +2346,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 78.36,
-        "90d": 70.62,
-        "1y": 71.36
+        "24h": 90.0,
+        "30d": 78.21,
+        "90d": 70.6,
+        "1y": 71.39
       }
     },
     {
@@ -2049,15 +2373,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
+        "ads": false,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 74.75,
-        "90d": 79.91,
-        "1y": 85.79
+        "24h": 50.0,
+        "30d": 73.88,
+        "90d": 79.68,
+        "1y": 85.73
       }
     },
     {
@@ -2073,7 +2397,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -2081,10 +2405,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 55.56,
-        "30d": 72.65,
-        "90d": 71.8,
-        "1y": 70.63
+        "24h": 80.0,
+        "30d": 72.55,
+        "90d": 71.69,
+        "1y": 70.65
+      }
+    },
+    {
+      "ip": "85.221.211.26",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Inea S.A",
+      "domain": "c211-26.icpnet.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 87.78,
+        "90d": 89.83,
+        "1y": 89.19
       }
     },
     {
@@ -2103,15 +2454,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 89.57,
-        "90d": 69.93,
-        "1y": 47.23
+        "24h": 90.0,
+        "30d": 89.39,
+        "90d": 69.98,
+        "1y": 47.26
       }
     },
     {
@@ -2130,15 +2481,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 87.37,
-        "90d": 87.05,
-        "1y": 82.73
+        "24h": 90.0,
+        "30d": 87.35,
+        "90d": 86.99,
+        "1y": 82.75
+      }
+    },
+    {
+      "ip": "185.129.115.86",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UNINET Sp. z o.o",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 86.62,
+        "90d": 85.31,
+        "1y": 85.13
       }
     },
     {
@@ -2162,37 +2540,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 55.56,
-        "30d": 54.51,
-        "90d": 49.98,
+        "24h": 60.0,
+        "30d": 53.82,
+        "90d": 49.9,
         "1y": 52.6
-      }
-    },
-    {
-      "ip": "83.142.126.151",
-      "version": 4,
-      "country_code": "pl",
-      "country": "Poland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Media-Com Sp. z o.o.",
-      "domain": "083142126151.pppoe.media-com.com.pl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 77.78,
-        "30d": 75.53,
-        "90d": 69.02,
-        "1y": 68.6
       }
     },
     {
@@ -2208,45 +2559,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 71.21,
-        "90d": 70.47,
-        "1y": 70.13
-      }
-    },
-    {
-      "ip": "91.238.56.20",
-      "version": 4,
-      "country_code": "pl",
-      "country": "Poland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Galatea FHU Dominik Budzowski",
-      "domain": "91-238-56-020.galatea.pl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 75.85,
-        "90d": 67.22,
-        "1y": 70.46
+        "24h": 100.0,
+        "30d": 71.12,
+        "90d": 70.42,
+        "1y": 70.16
       }
     },
     {
@@ -2265,15 +2589,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 73.82,
-        "90d": 66.0,
-        "1y": 68.18
+        "24h": 60.0,
+        "30d": 73.93,
+        "90d": 65.93,
+        "1y": 68.19
       }
     },
     {
@@ -2293,14 +2617,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.98,
-        "90d": 89.64,
-        "1y": 89.25
+        "30d": 90.12,
+        "90d": 89.58,
+        "1y": 89.26
+      }
+    },
+    {
+      "ip": "109.241.142.194",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Vectra S.A",
+      "domain": "109241142194.dzierzoniow.vectranet.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 40.0,
+        "30d": 50.27,
+        "90d": 48.94,
+        "1y": 39.57
       }
     },
     {
@@ -2324,10 +2675,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 82.26,
-        "90d": 78.59,
-        "1y": 76.37
+        "24h": 90.0,
+        "30d": 81.98,
+        "90d": 78.49,
+        "1y": 76.38
+      }
+    },
+    {
+      "ip": "85.31.250.103",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Energit Sp. z o.o.",
+      "domain": "85-31-250-103.static.ip.netia.com.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 81.74,
+        "90d": 87.37,
+        "1y": 90.54
       }
     },
     {
@@ -2346,42 +2724,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 79.34,
-        "90d": 78.97,
-        "1y": 77.06
-      }
-    },
-    {
-      "ip": "78.31.150.6",
-      "version": 4,
-      "country_code": "pl",
-      "country": "Poland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "\"Domtel Telecom\" Dariusz Dombek",
-      "domain": "PC-150-6.wegrow.domtel.com.pl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 71.69,
-        "90d": 66.3,
-        "1y": 64.62
+        "24h": 100.0,
+        "30d": 79.61,
+        "90d": 78.96,
+        "1y": 77.08
       }
     },
     {
@@ -2400,15 +2751,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 79.84,
-        "90d": 78.9,
-        "1y": 76.78
+        "30d": 80.22,
+        "90d": 78.96,
+        "1y": 76.8
       }
     },
     {
@@ -2433,9 +2784,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.18,
-        "90d": 90.99,
-        "1y": 86.43
+        "30d": 93.16,
+        "90d": 90.95,
+        "1y": 86.44
+      }
+    },
+    {
+      "ip": "176.107.118.206",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Multimedia Polska Sp. z o.o",
+      "domain": "host-176.107.118-206.dynamic.mm.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 78.14,
+        "90d": 78.55,
+        "1y": 79.9
       }
     },
     {
@@ -2460,9 +2838,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.87,
-        "90d": 91.06,
-        "1y": 90.04
+        "30d": 90.72,
+        "90d": 91.05,
+        "1y": 90.05
       }
     },
     {
@@ -2486,10 +2864,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 83.35,
-        "90d": 80.19,
-        "1y": 75.03
+        "24h": 90.0,
+        "30d": 83.18,
+        "90d": 80.12,
+        "1y": 75.05
+      }
+    },
+    {
+      "ip": "80.54.119.66",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Tpnet Polaczenia DLA Klient ATM",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 84.39,
+        "90d": 82.27,
+        "1y": 81.78
       }
     },
     {
@@ -2508,15 +2913,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.3,
-        "90d": 99.56,
-        "1y": 99.63
+        "24h": 90.0,
+        "30d": 99.19,
+        "90d": 99.52,
+        "1y": 99.62
       }
     },
     {
@@ -2536,13 +2941,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 44.44,
-        "30d": 97.19,
-        "90d": 96.2,
+        "24h": 80.0,
+        "30d": 97.15,
+        "90d": 96.18,
         "1y": 97.73
       }
     },
@@ -2567,10 +2972,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 93.48,
-        "90d": 93.82,
-        "1y": 93.95
+        "24h": 90.0,
+        "30d": 93.37,
+        "90d": 93.79,
+        "1y": 93.96
       }
     },
     {
@@ -2590,14 +2995,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 79.36,
-        "90d": 74.63,
-        "1y": 61.39
+        "24h": 90.0,
+        "30d": 79.02,
+        "90d": 74.56,
+        "1y": 61.41
       }
     },
     {
@@ -2617,14 +3022,68 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 97.24,
+        "90d": 97.81,
+        "1y": 98.77
+      }
+    },
+    {
+      "ip": "91.244.221.14",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Telewizja Kablowa Hajnowka, Kiedys, Kiryluk, SJ",
+      "domain": "91.244.221.14.tvkhajnowka.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 97.19,
-        "90d": 97.82,
-        "1y": 98.77
+        "24h": 60.0,
+        "30d": 72.91,
+        "90d": 63.61,
+        "1y": 65.5
+      }
+    },
+    {
+      "ip": "93.159.141.38",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "CONNECTED sp. z o.o.",
+      "domain": "net-93-159-141-38.connected.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 93.06,
+        "90d": 94.3,
+        "1y": 95.1
       }
     },
     {
@@ -2644,14 +3103,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.5,
-        "90d": 97.24,
-        "1y": 88.51
+        "30d": 99.49,
+        "90d": 97.25,
+        "1y": 88.55
       }
     },
     {
@@ -2670,15 +3129,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 85.47,
-        "90d": 87.67,
-        "1y": 89.25
+        "30d": 85.44,
+        "90d": 87.77,
+        "1y": 89.26
+      }
+    },
+    {
+      "ip": "85.14.121.2",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "3S S.A.",
+      "domain": "host-85.14.121.2.static.3s.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 84.62,
+        "90d": 84.26,
+        "1y": 82.93
       }
     },
     {
@@ -2702,10 +3188,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 94.89,
-        "90d": 95.23,
-        "1y": 94.06
+        "24h": 90.0,
+        "30d": 94.91,
+        "90d": 95.24,
+        "1y": 94.07
       }
     },
     {
@@ -2729,8 +3215,8 @@
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 97.59,
+        "24h": 100.0,
+        "30d": 97.55,
         "90d": 99.18,
         "1y": 99.56
       }
@@ -2751,15 +3237,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 85.57,
-        "90d": 85.59,
-        "1y": 83.38
+        "30d": 85.42,
+        "90d": 85.52,
+        "1y": 83.4
       }
     },
     {
@@ -2783,10 +3269,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 55.56,
-        "30d": 65.23,
-        "90d": 57.82,
-        "1y": 57.14
+        "24h": 60.0,
+        "30d": 64.59,
+        "90d": 57.89,
+        "1y": 57.15
       }
     },
     {
@@ -2807,13 +3293,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 77.92,
-        "90d": 77.42,
-        "1y": 51.51
+        "30d": 78.34,
+        "90d": 77.37,
+        "1y": 51.55
       }
     },
     {
@@ -2833,24 +3319,24 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 81.86,
-        "90d": 72.28,
-        "1y": 72.86
+        "30d": 81.77,
+        "90d": 72.31,
+        "1y": 72.88
       }
     },
     {
-      "ip": "185.55.65.48",
+      "ip": "212.244.210.91",
       "version": 4,
       "country_code": "pl",
       "country": "Poland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Spidernet",
+      "organization": "Nowotarska Telewizja Kablowa sp zoo",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -2864,10 +3350,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 57.97,
-        "90d": 64.53,
-        "1y": 69.08
+        "24h": 70.0,
+        "30d": 85.5,
+        "90d": 83.61,
+        "1y": 82.16
       }
     },
     {
@@ -2886,15 +3372,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
+        "ads": false,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 88.58,
-        "90d": 90.25,
-        "1y": 86.99
+        "24h": 90.0,
+        "30d": 88.38,
+        "90d": 90.27,
+        "1y": 87.0
       }
     },
     {
@@ -2909,7 +3395,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": true
       },
       "blocking": {
@@ -2918,10 +3404,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 63.93,
-        "90d": 61.51,
-        "1y": 63.54
+        "24h": 50.0,
+        "30d": 63.03,
+        "90d": 61.56,
+        "1y": 63.51
       }
     },
     {
@@ -2937,7 +3423,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -2945,9 +3431,9 @@
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 75.13,
-        "90d": 78.07,
+        "24h": 80.0,
+        "30d": 75.05,
+        "90d": 77.94,
         "1y": 77.95
       }
     },
@@ -2967,26 +3453,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 93.69,
-        "90d": 96.19,
+        "24h": 90.0,
+        "30d": 93.57,
+        "90d": 96.17,
         "1y": 97.76
       }
     },
     {
-      "ip": "188.117.137.71",
+      "ip": "94.154.57.51",
       "version": 4,
       "country_code": "pl",
       "country": "Poland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "3S Network",
-      "domain": "host-188.117.137.71.static.3s.pl",
+      "organization": "INTB Sp. z o.o",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2994,15 +3480,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
+        "ads": false,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 83.35,
-        "90d": 78.78,
-        "1y": 74.87
+        "24h": 70.0,
+        "30d": 86.02,
+        "90d": 86.61,
+        "1y": 86.73
+      }
+    },
+    {
+      "ip": "46.174.0.245",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Inet Centrum Spolka Z Ograniczona Odpowiedzialnoscia",
+      "domain": "host-46-174-0-245.myslenice.net.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 40.0,
+        "30d": 57.81,
+        "90d": 60.83,
+        "1y": 43.0
       }
     },
     {
@@ -3022,14 +3535,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 80.44,
-        "90d": 80.33,
-        "1y": 79.53
+        "30d": 80.73,
+        "90d": 80.3,
+        "1y": 79.55
       }
     },
     {
@@ -3045,18 +3558,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 75.85,
-        "90d": 78.14,
-        "1y": 76.5
+        "24h": 90.0,
+        "30d": 75.92,
+        "90d": 78.11,
+        "1y": 76.52
       }
     },
     {
@@ -3077,13 +3590,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 72.52,
-        "90d": 64.96,
-        "1y": 64.99
+        "24h": 80.0,
+        "30d": 72.27,
+        "90d": 65.0,
+        "1y": 65.0
       }
     },
     {
@@ -3102,69 +3615,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 77.78,
-        "30d": 84.15,
-        "90d": 88.07,
-        "1y": 90.14
-      }
-    },
-    {
-      "ip": "94.232.217.81",
-      "version": 4,
-      "country_code": "pl",
-      "country": "Poland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Krosnienskie Centrum Informatyczne \"KROSOFT\"",
-      "domain": "host-94.232.217.81.krosoft.pl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 70.44,
-        "90d": 73.0,
-        "1y": 76.68
-      }
-    },
-    {
-      "ip": "85.193.195.73",
-      "version": 4,
-      "country_code": "pl",
-      "country": "Poland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "CABLE-TV Elpos Ltd.",
-      "domain": "sub195-73.elpos.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 77.78,
-        "30d": 70.54,
-        "90d": 63.98,
-        "1y": 66.54
+        "24h": 90.0,
+        "30d": 84.2,
+        "90d": 88.01,
+        "1y": 90.15
       }
     },
     {
@@ -3183,15 +3642,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.06,
-        "90d": 81.63,
-        "1y": 79.37
+        "30d": 87.04,
+        "90d": 81.64,
+        "1y": 79.39
       }
     },
     {
@@ -3207,7 +3666,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -3215,10 +3674,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 77.56,
-        "90d": 75.58,
-        "1y": 74.74
+        "24h": 60.0,
+        "30d": 77.39,
+        "90d": 75.52,
+        "1y": 74.73
       }
     },
     {
@@ -3238,14 +3697,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.06,
-        "90d": 86.58,
-        "1y": 84.88
+        "30d": 86.95,
+        "90d": 86.55,
+        "1y": 84.89
       }
     },
     {
@@ -3264,15 +3723,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 44.44,
-        "30d": 77.03,
-        "90d": 74.74,
-        "1y": 73.16
+        "24h": 80.0,
+        "30d": 76.88,
+        "90d": 74.67,
+        "1y": 73.18
       }
     },
     {
@@ -3291,15 +3750,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 81.06,
-        "90d": 75.09,
-        "1y": 73.59
+        "30d": 80.84,
+        "90d": 75.07,
+        "1y": 73.62
       }
     },
     {
@@ -3323,10 +3782,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 88.98,
-        "90d": 88.65,
-        "1y": 87.66
+        "24h": 90.0,
+        "30d": 88.88,
+        "90d": 88.59,
+        "1y": 87.67
+      }
+    },
+    {
+      "ip": "86.63.79.174",
+      "version": 4,
+      "country_code": "pl",
+      "country": "Poland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ASTA",
+      "domain": "86-63-79-174.sta.asta-net.com.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 76.71,
+        "90d": 74.11,
+        "1y": 69.7
       }
     },
     {
@@ -3351,36 +3837,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.0,
+        "30d": 98.98,
         "90d": 99.49,
         "1y": 99.59
-      }
-    },
-    {
-      "ip": "89.174.39.102",
-      "version": 4,
-      "country_code": "pl",
-      "country": "Poland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "T-Mobile Polska S.A",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 82.36,
-        "90d": 79.14,
-        "1y": 80.38
       }
     }
   ]
