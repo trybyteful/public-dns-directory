@@ -4,8 +4,8 @@
     "country_name": "Macao",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-06T06:18:39Z",
-    "total_servers": 7
+    "generated_at": "2026-11-06T18:02:54Z",
+    "total_servers": 8
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 89.34,
+        "24h": 90.0,
+        "30d": 89.3,
         "90d": 85.2,
-        "1y": 84.0
+        "1y": 83.99
       }
     },
     {
@@ -51,7 +51,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -75,18 +75,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 89.13,
+        "90d": 85.06,
+        "1y": 83.61
+      }
+    },
+    {
+      "ip": "202.175.45.2",
+      "version": 4,
+      "country_code": "mo",
+      "country": "Macao",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Leased line - Business",
+      "domain": "ml310.redcross.org.mo",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 89.26,
-        "90d": 85.12,
-        "1y": 83.63
+        "24h": 90.0,
+        "30d": 84.27,
+        "90d": 80.52,
+        "1y": 84.14
       }
     },
     {
@@ -110,37 +137,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 97.39,
-        "90d": 98.67,
-        "1y": 97.73
-      }
-    },
-    {
-      "ip": "202.175.66.122",
-      "version": 4,
-      "country_code": "mo",
-      "country": "Macao",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "CTM Internet Services",
-      "domain": "z66l122.static.ctm.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 77.58,
-        "90d": 71.21,
-        "1y": 82.14
+        "24h": 90.0,
+        "30d": 97.41,
+        "90d": 98.63,
+        "1y": 97.72
       }
     },
     {
@@ -164,10 +164,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 86.23,
-        "90d": 81.84,
-        "1y": 82.03
+        "24h": 90.0,
+        "30d": 86.21,
+        "90d": 81.85,
+        "1y": 82.02
       }
     },
     {
@@ -183,18 +183,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 87.32,
+        "90d": 82.91,
+        "1y": 82.47
+      }
+    },
+    {
+      "ip": "202.175.113.124",
+      "version": 4,
+      "country_code": "mo",
+      "country": "Macao",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CTM Internet Service",
+      "domain": "z113l124.static.ctm.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 87.51,
-        "90d": 82.93,
-        "1y": 82.49
+        "24h": 70.0,
+        "30d": 77.03,
+        "90d": 85.17,
+        "1y": 91.63
       }
     }
   ]

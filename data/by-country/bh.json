@@ -4,8 +4,8 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-06T06:18:39Z",
-    "total_servers": 4
+    "generated_at": "2026-11-06T18:02:54Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -25,7 +25,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -47,35 +47,8 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 90.03,
-        "90d": 88.44,
-        "1y": 80.14
-      }
-    },
-    {
-      "ip": "77.69.141.243",
-      "version": 4,
-      "country_code": "bh",
-      "country": "Bahrain",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "BEYON B.S.C.",
-      "domain": "static.ip.77.69.141.243.batelco.com.bh",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -83,10 +56,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 49.27,
-        "90d": 67.78,
-        "1y": 73.53
+        "24h": 80.0,
+        "30d": 89.92,
+        "90d": 88.38,
+        "1y": 80.12
       }
     },
     {
@@ -105,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 36.36,
-        "30d": 44.42,
-        "90d": 39.94,
-        "1y": 40.19
+        "24h": 55.56,
+        "30d": 45.49,
+        "90d": 39.92,
+        "1y": 40.21
       }
     }
   ]
