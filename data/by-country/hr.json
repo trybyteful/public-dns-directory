@@ -4,8 +4,8 @@
     "country_name": "Croatia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-05T18:02:21Z",
-    "total_servers": 20
+    "generated_at": "2026-11-06T06:18:39Z",
+    "total_servers": 21
   },
   "resolvers": [
     {
@@ -25,7 +25,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -57,7 +57,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.69,
+        "30d": 99.67,
         "90d": 99.76,
         "1y": 99.87
       }
@@ -79,7 +79,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -107,11 +107,11 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.74,
+        "30d": 99.13,
         "90d": 98.19,
         "1y": 98.41
       }
@@ -138,8 +138,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.96,
-        "90d": 91.1,
+        "30d": 92.83,
+        "90d": 91.11,
         "1y": 94.24
       }
     },
@@ -164,10 +164,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 63.64,
-        "30d": 73.02,
-        "90d": 64.63,
-        "1y": 66.88
+        "24h": 90.91,
+        "30d": 73.01,
+        "90d": 64.69,
+        "1y": 66.89
       }
     },
     {
@@ -182,7 +182,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -209,13 +209,13 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -236,17 +236,17 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 99.58,
+        "24h": 90.91,
+        "30d": 99.57,
         "90d": 99.86,
         "1y": 99.92
       }
@@ -267,8 +267,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -290,11 +290,11 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -306,14 +306,14 @@
       }
     },
     {
-      "ip": "85.114.55.238",
+      "ip": "89.201.137.2",
       "version": 4,
       "country_code": "hr",
       "country": "Croatia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Optima Telekom",
-      "domain": null,
+      "organization": "OT - Optima Telekom d.d",
+      "domain": "89-201-137-2.static.optinet.hr",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -321,15 +321,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 42.86,
-        "30d": 18.38,
-        "90d": 15.83,
-        "1y": 15.68
+        "24h": 72.73,
+        "30d": 51.35,
+        "90d": 49.41,
+        "1y": 50.25
       }
     },
     {
@@ -371,11 +371,11 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -403,14 +403,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.9,
+        "30d": 99.89,
         "90d": 99.93,
         "1y": 99.94
+      }
+    },
+    {
+      "ip": "195.29.76.12",
+      "version": 4,
+      "country_code": "hr",
+      "country": "Croatia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Hrvatski Telekom d.d",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 62.07,
+        "90d": 64.21,
+        "1y": 42.7
       }
     },
     {
@@ -462,7 +489,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.79,
+        "30d": 99.78,
         "90d": 99.86,
         "1y": 99.89
       }
@@ -483,8 +510,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -506,7 +533,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -537,9 +564,9 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,

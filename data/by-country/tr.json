@@ -4,10 +4,37 @@
     "country_name": "Turkey",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-05T18:02:21Z",
-    "total_servers": 22
+    "generated_at": "2026-11-06T06:18:39Z",
+    "total_servers": 25
   },
   "resolvers": [
+    {
+      "ip": "31.210.69.163",
+      "version": 4,
+      "country_code": "tr",
+      "country": "Turkey",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Radore Veri Merkezi Hizmetleri",
+      "domain": "news.superkuladebulten.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 73.54,
+        "90d": 67.0,
+        "1y": 58.93
+      }
+    },
     {
       "ip": "88.250.238.6",
       "version": 4,
@@ -24,13 +51,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 83.76,
+        "30d": 83.04,
         "90d": 93.08,
         "1y": 95.01
       }
@@ -51,13 +78,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.52,
+        "30d": 96.41,
         "90d": 98.56,
         "1y": 98.52
       }
@@ -79,14 +106,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.84,
+        "30d": 98.8,
         "90d": 96.24,
-        "1y": 92.17
+        "1y": 92.18
       }
     },
     {
@@ -111,9 +138,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.11,
+        "30d": 98.05,
         "90d": 97.02,
-        "1y": 93.8
+        "1y": 93.81
       }
     },
     {
@@ -133,14 +160,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.06,
+        "30d": 96.96,
         "90d": 97.98,
         "1y": 98.51
+      }
+    },
+    {
+      "ip": "213.14.11.162",
+      "version": 4,
+      "country_code": "tr",
+      "country": "Turkey",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Guneydogu Telekom Internet Bilisim VE Iletisim HIZ TIC LTD",
+      "domain": "host-213-14-11-162.reverse.superonline.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 74.08,
+        "90d": 65.46,
+        "1y": 65.62
       }
     },
     {
@@ -161,13 +215,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 73.87,
-        "90d": 65.86,
-        "1y": 56.12
+        "24h": 100.0,
+        "30d": 73.78,
+        "90d": 65.88,
+        "1y": 56.15
       }
     },
     {
@@ -186,15 +240,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 85.04,
-        "90d": 86.66,
-        "1y": 89.14
+        "30d": 84.77,
+        "90d": 86.67,
+        "1y": 89.16
       }
     },
     {
@@ -214,12 +268,12 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.22,
+        "30d": 98.16,
         "90d": 98.53,
         "1y": 97.0
       }
@@ -240,15 +294,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 81.82,
+        "30d": 65.62,
+        "90d": 66.26,
+        "1y": 68.8
+      }
+    },
+    {
+      "ip": "195.21.58.113",
+      "version": 4,
+      "country_code": "tr",
+      "country": "Turkey",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Network Public Direct Connect GTT Cloud Management",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 58.33,
-        "30d": 66.45,
-        "90d": 66.28,
-        "1y": 68.8
+        "24h": 81.82,
+        "30d": 84.92,
+        "90d": 81.29,
+        "1y": 83.28
       }
     },
     {
@@ -264,45 +345,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.64,
+        "30d": 91.46,
         "90d": 95.68,
         "1y": 96.88
-      }
-    },
-    {
-      "ip": "95.9.181.102",
-      "version": 4,
-      "country_code": "tr",
-      "country": "Turkey",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TurkTelekom",
-      "domain": "95.9.181.102.static.ttnet.com.tr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 54.55,
-        "30d": 53.41,
-        "90d": 53.75,
-        "1y": 53.75
       }
     },
     {
@@ -323,13 +377,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.42,
-        "90d": 98.91,
-        "1y": 98.94
+        "24h": 90.91,
+        "30d": 98.26,
+        "90d": 98.87,
+        "1y": 98.93
       }
     },
     {
@@ -348,7 +402,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -356,7 +410,7 @@
         "24h": 100.0,
         "30d": 99.89,
         "90d": 98.22,
-        "1y": 95.32
+        "1y": 95.33
       }
     },
     {
@@ -381,9 +435,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.98,
-        "90d": 98.51,
-        "1y": 68.81
+        "30d": 95.84,
+        "90d": 98.52,
+        "1y": 68.83
       }
     },
     {
@@ -403,14 +457,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.31,
+        "30d": 98.26,
         "90d": 94.41,
-        "1y": 96.56
+        "1y": 96.57
       }
     },
     {
@@ -430,7 +484,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -456,13 +510,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.69,
+        "30d": 97.62,
         "90d": 98.77,
         "1y": 99.28
       }
@@ -495,6 +549,33 @@
       }
     },
     {
+      "ip": "94.101.94.4",
+      "version": 4,
+      "country_code": "tr",
+      "country": "Turkey",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Radore Hosting Telekomunikasyon Hizm. Ltd.",
+      "domain": "public1.radore.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 97.72,
+        "90d": 98.6,
+        "1y": 99.32
+      }
+    },
+    {
       "ip": "194.27.101.249",
       "version": 4,
       "country_code": "tr",
@@ -516,9 +597,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.64,
-        "90d": 91.69,
-        "1y": 79.78
+        "30d": 96.53,
+        "90d": 91.73,
+        "1y": 79.85
       }
     },
     {
@@ -537,15 +618,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.26,
-        "90d": 96.3,
-        "1y": 94.23
+        "30d": 99.24,
+        "90d": 96.31,
+        "1y": 94.24
       }
     },
     {
@@ -570,9 +651,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 68.87,
-        "90d": 30.15,
-        "1y": 27.32
+        "30d": 71.56,
+        "90d": 30.51,
+        "1y": 27.39
       }
     },
     {
@@ -591,14 +672,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.23,
-        "90d": 95.48,
+        "30d": 96.1,
+        "90d": 95.49,
         "1y": 96.92
       }
     }

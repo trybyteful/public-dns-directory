@@ -4,8 +4,8 @@
     "country_name": "Austria",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-05T18:02:21Z",
-    "total_servers": 9
+    "generated_at": "2026-11-06T06:18:39Z",
+    "total_servers": 11
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": true
       },
       "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 90.01,
+        "90d": 92.41,
+        "1y": 94.13
+      }
+    },
+    {
+      "ip": "89.26.124.93",
+      "version": 4,
+      "country_code": "at",
+      "country": "Austria",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Architekten Scheicher ZT GmbH",
+      "domain": "89-26-124-93.stat.cablelink.at",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 90.34,
-        "90d": 92.41,
-        "1y": 94.13
+        "24h": 72.73,
+        "30d": 87.85,
+        "90d": 90.05,
+        "1y": 88.7
       }
     },
     {
@@ -52,14 +79,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 72.73,
-        "30d": 85.08,
-        "90d": 87.27,
-        "1y": 87.2
+        "24h": 81.82,
+        "30d": 84.8,
+        "90d": 87.28,
+        "1y": 87.21
       }
     },
     {
@@ -80,13 +107,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 90.91,
-        "30d": 88.97,
-        "90d": 83.54,
-        "1y": 81.9
+        "30d": 88.71,
+        "90d": 83.55,
+        "1y": 81.91
       }
     },
     {
@@ -105,14 +132,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 90.54,
-        "90d": 90.73,
+        "24h": 90.91,
+        "30d": 90.11,
+        "90d": 90.7,
         "1y": 84.24
       }
     },
@@ -132,13 +159,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 90.91,
-        "30d": 94.64,
+        "30d": 94.46,
         "90d": 96.58,
         "1y": 97.96
       }
@@ -159,13 +186,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.07,
+        "30d": 90.77,
         "90d": 96.68,
         "1y": 98.48
       }
@@ -186,9 +213,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -213,7 +240,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -241,14 +268,41 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.37,
+        "30d": 99.35,
         "90d": 99.45,
         "1y": 99.35
+      }
+    },
+    {
+      "ip": "88.116.117.118",
+      "version": 4,
+      "country_code": "at",
+      "country": "Austria",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "A1 Telekom Austria AG",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 96.96,
+        "90d": 98.22,
+        "1y": 99.16
       }
     }
   ]
