@@ -4,8 +4,8 @@
     "country_name": "United Kingdom",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-06T18:02:54Z",
-    "total_servers": 85
+    "generated_at": "2026-11-07T06:15:09Z",
+    "total_servers": 100
   },
   "resolvers": [
     {
@@ -30,7 +30,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.23,
+        "30d": 91.15,
         "90d": 89.58,
         "1y": 89.13
       }
@@ -57,7 +57,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.78,
+        "30d": 99.77,
         "90d": 99.86,
         "1y": 99.37
       }
@@ -75,18 +75,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 95.97,
+        "24h": 88.89,
+        "30d": 95.94,
         "90d": 94.74,
-        "1y": 93.85
+        "1y": 93.86
       }
     },
     {
@@ -106,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 70.29,
-        "90d": 65.09,
-        "1y": 66.2
+        "24h": 77.78,
+        "30d": 69.72,
+        "90d": 65.11,
+        "1y": 66.22
       }
     },
     {
@@ -133,14 +133,68 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 85.25,
+        "24h": 77.78,
+        "30d": 84.7,
         "90d": 87.15,
-        "1y": 92.88
+        "1y": 92.89
+      }
+    },
+    {
+      "ip": "80.229.102.130",
+      "version": 4,
+      "country_code": "gb",
+      "country": "United Kingdom",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "PlusNet Plc",
+      "domain": "80.229.102.130.plusnet.pte-ag2.dyn.plus.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 22.22,
+        "30d": 18.77,
+        "90d": 19.94,
+        "1y": 25.01
+      }
+    },
+    {
+      "ip": "89.20.200.142",
+      "version": 4,
+      "country_code": "gb",
+      "country": "United Kingdom",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Trident Net Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 77.78,
+        "30d": 76.94,
+        "90d": 84.38,
+        "1y": 88.98
       }
     },
     {
@@ -159,13 +213,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 97.98,
+        "24h": 88.89,
+        "30d": 97.91,
         "90d": 98.63,
         "1y": 99.4
       }
@@ -187,14 +241,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 77.58,
-        "90d": 73.47,
-        "1y": 75.07
+        "24h": 100.0,
+        "30d": 77.15,
+        "90d": 73.48,
+        "1y": 75.09
       }
     },
     {
@@ -213,15 +267,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.98,
+        "30d": 97.91,
         "90d": 98.6,
         "1y": 99.31
+      }
+    },
+    {
+      "ip": "185.60.178.253",
+      "version": 4,
+      "country_code": "gb",
+      "country": "United Kingdom",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "IEC TELECOM @ EpsilonTel",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 55.56,
+        "30d": 52.2,
+        "90d": 59.06,
+        "1y": 56.45
       }
     },
     {
@@ -240,13 +321,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.78,
+        "30d": 99.88,
         "90d": 99.62,
         "1y": 94.35
       }
@@ -269,13 +350,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 86.35,
+        "24h": 77.78,
+        "30d": 85.98,
         "90d": 84.07,
-        "1y": 82.67
+        "1y": 82.68
       }
     },
     {
@@ -295,41 +376,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 99.44,
+        "24h": 88.89,
+        "30d": 99.42,
         "90d": 99.76,
         "1y": 95.26
-      }
-    },
-    {
-      "ip": "87.224.37.77",
-      "version": 4,
-      "country_code": "gb",
-      "country": "United Kingdom",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "SPITFIREUK",
-      "domain": "87-224-37-77.spitfireuk.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 99.44,
-        "90d": 98.91,
-        "1y": 99.41
       }
     },
     {
@@ -353,10 +407,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 84.78,
+        "24h": 100.0,
+        "30d": 84.49,
         "90d": 76.62,
-        "1y": 73.83
+        "1y": 73.84
+      }
+    },
+    {
+      "ip": "109.228.0.238",
+      "version": 4,
+      "country_code": "gb",
+      "country": "United Kingdom",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "IONOS SE",
+      "domain": "server109-228-0-238.live-servers.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 77.78,
+        "30d": 92.24,
+        "90d": 93.81,
+        "1y": 94.38
       }
     },
     {
@@ -380,8 +461,8 @@
         "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 97.2,
+        "24h": 88.89,
+        "30d": 97.1,
         "90d": 97.37,
         "1y": 98.78
       }
@@ -403,14 +484,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.21,
+        "30d": 90.1,
         "90d": 88.24,
-        "1y": 81.6
+        "1y": 81.61
       }
     },
     {
@@ -434,10 +515,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 72.07,
-        "90d": 76.42,
-        "1y": 77.54
+        "24h": 88.89,
+        "30d": 71.33,
+        "90d": 76.45,
+        "1y": 77.55
       }
     },
     {
@@ -456,7 +537,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -483,7 +564,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -492,6 +573,60 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "195.11.179.140",
+      "version": 4,
+      "country_code": "gb",
+      "country": "United Kingdom",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Laverstoke Park Produce LLP",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 77.78,
+        "30d": 91.43,
+        "90d": 94.02,
+        "1y": 79.53
+      }
+    },
+    {
+      "ip": "91.192.195.13",
+      "version": 4,
+      "country_code": "gb",
+      "country": "United Kingdom",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "CompuWeb Communications Services Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 54.87,
+        "90d": 47.88,
+        "1y": 50.88
       }
     },
     {
@@ -519,6 +654,33 @@
         "30d": 100.0,
         "90d": 99.97,
         "1y": 99.97
+      }
+    },
+    {
+      "ip": "45.87.235.67",
+      "version": 4,
+      "country_code": "gb",
+      "country": "United Kingdom",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Zest4-Arkessa",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 33.33,
+        "30d": 43.65,
+        "90d": 52.46,
+        "1y": 54.55
       }
     },
     {
@@ -564,15 +726,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 23.91,
-        "90d": 70.83,
-        "1y": 62.69
+        "30d": 43.33,
+        "90d": 70.99,
+        "1y": 62.83
       }
     },
     {
@@ -596,10 +758,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 76.59,
+        "24h": 88.89,
+        "30d": 76.08,
         "90d": 68.36,
-        "1y": 71.12
+        "1y": 71.14
       }
     },
     {
@@ -623,8 +785,8 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 97.86,
+        "24h": 88.89,
+        "30d": 97.8,
         "90d": 98.53,
         "1y": 98.79
       }
@@ -651,9 +813,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.89,
+        "30d": 99.88,
         "90d": 99.76,
-        "1y": 94.19
+        "1y": 94.2
       }
     },
     {
@@ -674,13 +836,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 62.22,
-        "90d": 62.22,
-        "1y": 62.22
+        "24h": 88.89,
+        "30d": 62.56,
+        "90d": 62.56,
+        "1y": 62.56
       }
     },
     {
@@ -700,13 +862,13 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 93.36,
-        "90d": 92.21,
+        "24h": 88.89,
+        "30d": 93.12,
+        "90d": 92.28,
         "1y": 93.59
       }
     },
@@ -731,10 +893,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 58.9,
-        "90d": 62.03,
-        "1y": 61.42
+        "24h": 88.89,
+        "30d": 57.94,
+        "90d": 62.06,
+        "1y": 61.43
       }
     },
     {
@@ -753,15 +915,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 86.26,
+        "30d": 85.98,
         "90d": 90.57,
-        "1y": 72.29
+        "1y": 72.31
       }
     },
     {
@@ -781,14 +943,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.44,
+        "30d": 99.42,
         "90d": 98.5,
-        "1y": 97.14
+        "1y": 97.15
       }
     },
     {
@@ -807,15 +969,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 76.63,
-        "90d": 74.09,
-        "1y": 76.68
+        "24h": 88.89,
+        "30d": 76.14,
+        "90d": 74.12,
+        "1y": 76.7
       }
     },
     {
@@ -834,13 +996,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.89,
+        "30d": 99.88,
         "90d": 99.38,
         "1y": 99.7
       }
@@ -861,15 +1023,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 88.76,
+        "24h": 88.89,
+        "30d": 88.6,
         "90d": 87.05,
-        "1y": 84.95
+        "1y": 84.96
       }
     },
     {
@@ -888,15 +1050,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 74.62,
-        "90d": 71.63,
-        "1y": 61.33
+        "24h": 77.78,
+        "30d": 74.04,
+        "90d": 71.59,
+        "1y": 61.34
       }
     },
     {
@@ -915,7 +1077,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -947,8 +1109,8 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 95.52,
+        "24h": 100.0,
+        "30d": 95.36,
         "90d": 94.02,
         "1y": 94.29
       }
@@ -969,15 +1131,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 92.38,
+        "24h": 100.0,
+        "30d": 92.23,
         "90d": 86.09,
-        "1y": 86.55
+        "1y": 86.56
       }
     },
     {
@@ -1001,10 +1163,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 80.63,
-        "90d": 74.44,
-        "1y": 74.85
+        "24h": 100.0,
+        "30d": 80.19,
+        "90d": 74.47,
+        "1y": 74.87
       }
     },
     {
@@ -1023,15 +1185,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 88.89,
+        "30d": 85.55,
+        "90d": 84.48,
+        "1y": 71.83
+      }
+    },
+    {
+      "ip": "217.14.178.67",
+      "version": 4,
+      "country_code": "gb",
+      "country": "United Kingdom",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Linix",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 85.71,
-        "90d": 84.48,
-        "1y": 71.81
+        "24h": 66.67,
+        "30d": 74.04,
+        "90d": 72.15,
+        "1y": 73.41
       }
     },
     {
@@ -1046,19 +1235,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": false
+        "aware": false,
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 44.44,
-        "30d": 37.63,
-        "90d": 36.77,
-        "1y": 31.57
+        "24h": 66.67,
+        "30d": 38.39,
+        "90d": 36.81,
+        "1y": 31.59
       }
     },
     {
@@ -1077,9 +1266,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -1105,12 +1294,12 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 80.52,
+        "24h": 88.89,
+        "30d": 79.95,
         "90d": 86.06,
         "1y": 85.77
       }
@@ -1131,15 +1320,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 75.45,
-        "90d": 68.69,
-        "1y": 70.0
+        "30d": 75.23,
+        "90d": 68.8,
+        "1y": 70.02
       }
     },
     {
@@ -1160,11 +1349,11 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 79.84,
+        "24h": 88.89,
+        "30d": 79.42,
         "90d": 76.21,
         "1y": 75.71
       }
@@ -1187,13 +1376,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 77.78,
+        "30d": 75.64,
+        "90d": 78.26,
+        "1y": 80.58
+      }
+    },
+    {
+      "ip": "78.129.138.112",
+      "version": 4,
+      "country_code": "gb",
+      "country": "United Kingdom",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "MarsJupiter LTD",
+      "domain": "mail.needfreelance.co.uk",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 76.23,
-        "90d": 78.29,
-        "1y": 80.59
+        "24h": 77.78,
+        "30d": 93.5,
+        "90d": 96.86,
+        "1y": 98.69
       }
     },
     {
@@ -1217,10 +1433,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 88.43,
+        "24h": 88.89,
+        "30d": 88.26,
         "90d": 86.09,
-        "1y": 85.96
+        "1y": 85.97
+      }
+    },
+    {
+      "ip": "88.208.192.73",
+      "version": 4,
+      "country_code": "gb",
+      "country": "United Kingdom",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Fasthosts Internet Limited",
+      "domain": "server88-208-192-73.live-servers.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 55.56,
+        "30d": 78.7,
+        "90d": 80.18,
+        "1y": 81.3
       }
     },
     {
@@ -1239,15 +1482,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 66.48,
-        "90d": 64.99,
-        "1y": 68.68
+        "24h": 77.78,
+        "30d": 65.89,
+        "90d": 65.0,
+        "1y": 68.7
       }
     },
     {
@@ -1266,14 +1509,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 84.26,
-        "90d": 60.47,
+        "30d": 84.93,
+        "90d": 61.59,
         "1y": 93.36
       }
     },
@@ -1294,12 +1537,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 80.2,
+        "30d": 79.51,
         "90d": 85.58,
         "1y": 88.03
       }
@@ -1320,13 +1563,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 97.87,
+        "24h": 88.89,
+        "30d": 97.79,
         "90d": 98.26,
         "1y": 99.2
       }
@@ -1347,13 +1590,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 96.18,
+        "24h": 88.89,
+        "30d": 96.04,
         "90d": 96.72,
         "1y": 98.21
       }
@@ -1374,13 +1617,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.62,
+        "30d": 96.5,
         "90d": 96.65,
         "1y": 97.06
       }
@@ -1401,15 +1644,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.31,
+        "30d": 98.37,
         "90d": 96.99,
         "1y": 98.51
+      }
+    },
+    {
+      "ip": "185.24.122.178",
+      "version": 4,
+      "country_code": "gb",
+      "country": "United Kingdom",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Hyperoptic Ltd",
+      "domain": "185.24.122.178.bcube.co.uk",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 77.78,
+        "30d": 88.64,
+        "90d": 88.48,
+        "1y": 86.93
       }
     },
     {
@@ -1424,34 +1694,34 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 75.29,
-        "90d": 71.0,
-        "1y": 69.52
+        "24h": 77.78,
+        "30d": 75.48,
+        "90d": 71.01,
+        "1y": 69.53
       }
     },
     {
-      "ip": "88.221.163.230",
+      "ip": "185.95.67.151",
       "version": 4,
       "country_code": "gb",
       "country": "United Kingdom",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Akamai",
-      "domain": "a88-221-163-230.deploy.static.akamaitechnologies.com",
+      "organization": "Caudata Ltd",
+      "domain": "host-185-95-67-151.rev.net.wisp-uk.co.uk",
       "trusted": false,
-      "anycast": true,
+      "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": true
       },
       "blocking": {
@@ -1460,10 +1730,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 12.37,
-        "90d": 16.79,
-        "1y": 16.02
+        "24h": 66.67,
+        "30d": 80.65,
+        "90d": 73.99,
+        "1y": 75.17
+      }
+    },
+    {
+      "ip": "83.229.68.13",
+      "version": 4,
+      "country_code": "gb",
+      "country": "United Kingdom",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Cloudwebmanage EU LO",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 93.37,
+        "90d": 95.18,
+        "1y": 95.11
       }
     },
     {
@@ -1487,10 +1784,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 62.33,
-        "90d": 60.48,
-        "1y": 63.15
+        "24h": 77.78,
+        "30d": 61.48,
+        "90d": 60.49,
+        "1y": 63.17
       }
     },
     {
@@ -1521,6 +1818,33 @@
       }
     },
     {
+      "ip": "88.221.163.200",
+      "version": 4,
+      "country_code": "gb",
+      "country": "United Kingdom",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Akamai",
+      "domain": "a88-221-163-200.deploy.static.akamaitechnologies.com",
+      "trusted": false,
+      "anycast": true,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 44.44,
+        "30d": 15.35,
+        "90d": 18.96,
+        "1y": 17.15
+      }
+    },
+    {
       "ip": "194.12.15.222",
       "version": 4,
       "country_code": "gb",
@@ -1537,13 +1861,13 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 95.97,
-        "90d": 95.18,
+        "24h": 100.0,
+        "30d": 95.94,
+        "90d": 95.22,
         "1y": 94.47
       }
     },
@@ -1560,16 +1884,16 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 91.47,
+        "24h": 77.78,
+        "30d": 91.17,
         "90d": 92.07,
         "1y": 93.05
       }
@@ -1596,9 +1920,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 40.08,
-        "90d": 45.04,
-        "1y": 59.9
+        "30d": 40.5,
+        "90d": 45.1,
+        "1y": 59.92
       }
     },
     {
@@ -1614,45 +1938,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 44.84,
-        "90d": 57.47,
+        "24h": 77.78,
+        "30d": 44.55,
+        "90d": 57.45,
         "1y": 62.39
-      }
-    },
-    {
-      "ip": "88.221.162.253",
-      "version": 4,
-      "country_code": "gb",
-      "country": "United Kingdom",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Akamai",
-      "domain": "a88-221-162-253.deploy.static.akamaitechnologies.com",
-      "trusted": false,
-      "anycast": true,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 12.33,
-        "90d": 19.04,
-        "1y": 16.49
       }
     },
     {
@@ -1671,15 +1968,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 91.14,
+        "24h": 100.0,
+        "30d": 90.95,
         "90d": 85.37,
-        "1y": 84.27
+        "1y": 84.28
       }
     },
     {
@@ -1698,15 +1995,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 78.15,
-        "90d": 79.39,
-        "1y": 81.27
+        "24h": 88.89,
+        "30d": 77.74,
+        "90d": 79.43,
+        "1y": 81.28
       }
     },
     {
@@ -1725,15 +2022,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 70.0,
+        "24h": 77.78,
         "30d": 76.74,
         "90d": 83.56,
-        "1y": 88.42
+        "1y": 88.43
+      }
+    },
+    {
+      "ip": "95.141.23.145",
+      "version": 4,
+      "country_code": "gb",
+      "country": "United Kingdom",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Gnetwork",
+      "domain": "95.141.23.145.g.network",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 55.56,
+        "30d": 89.08,
+        "90d": 89.92,
+        "1y": 88.99
       }
     },
     {
@@ -1749,16 +2073,16 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.66,
+        "30d": 99.65,
         "90d": 99.73,
         "1y": 99.62
       }
@@ -1779,13 +2103,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.89,
+        "30d": 99.88,
         "90d": 99.62,
         "1y": 99.72
       }
@@ -1806,15 +2130,42 @@
         "validating": true
       },
       "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 92.11,
+        "90d": 92.0,
+        "1y": 89.48
+      }
+    },
+    {
+      "ip": "82.3.55.75",
+      "version": 4,
+      "country_code": "gb",
+      "country": "United Kingdom",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Heathrow Holdings",
+      "domain": "75-55-3-82.static.virginm.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 92.26,
-        "90d": 92.0,
-        "1y": 89.48
+        "24h": 55.56,
+        "30d": 82.28,
+        "90d": 86.19,
+        "1y": 84.35
       }
     },
     {
@@ -1839,9 +2190,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.54,
+        "30d": 97.45,
         "90d": 93.81,
         "1y": 96.88
+      }
+    },
+    {
+      "ip": "91.135.7.77",
+      "version": 4,
+      "country_code": "gb",
+      "country": "United Kingdom",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "IDNET secondary address",
+      "domain": "lexgreen.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 64.69,
+        "90d": 73.93,
+        "1y": 78.09
       }
     },
     {
@@ -1860,8 +2238,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -1887,15 +2265,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 88.12,
-        "90d": 88.48,
-        "1y": 85.6
+        "24h": 33.33,
+        "30d": 87.35,
+        "90d": 88.38,
+        "1y": 85.56
       }
     },
     {
@@ -1915,14 +2293,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 66.55,
-        "90d": 66.38,
-        "1y": 69.59
+        "24h": 100.0,
+        "30d": 65.94,
+        "90d": 66.39,
+        "1y": 69.61
       }
     },
     {
@@ -1942,14 +2320,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 74.66,
-        "90d": 74.6,
-        "1y": 77.04
+        "24h": 88.89,
+        "30d": 74.59,
+        "90d": 74.64,
+        "1y": 77.06
       }
     },
     {
@@ -1980,6 +2358,33 @@
       }
     },
     {
+      "ip": "109.68.14.61",
+      "version": 4,
+      "country_code": "gb",
+      "country": "United Kingdom",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "VCG",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 88.99,
+        "90d": 90.33,
+        "1y": 91.14
+      }
+    },
+    {
       "ip": "213.251.48.193",
       "version": 4,
       "country_code": "gb",
@@ -2001,9 +2406,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.38,
+        "30d": 91.19,
         "90d": 89.3,
-        "1y": 80.17
+        "1y": 80.18
       }
     },
     {
@@ -2018,19 +2423,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 81.39,
-        "90d": 79.28,
-        "1y": 80.78
+        "24h": 88.89,
+        "30d": 81.21,
+        "90d": 79.29,
+        "1y": 80.8
       }
     },
     {
@@ -2051,13 +2456,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 80.49,
-        "90d": 86.56,
-        "1y": 73.93
+        "24h": 55.56,
+        "30d": 80.39,
+        "90d": 86.53,
+        "1y": 73.94
       }
     },
     {
@@ -2081,8 +2486,8 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 96.51,
+        "24h": 88.89,
+        "30d": 96.39,
         "90d": 97.1,
         "1y": 97.47
       }
@@ -2104,14 +2509,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 80.0,
-        "90d": 83.62,
-        "1y": 76.03
+        "24h": 88.89,
+        "30d": 80.47,
+        "90d": 83.66,
+        "1y": 76.04
       }
     },
     {
@@ -2131,12 +2536,12 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.89,
+        "30d": 99.88,
         "90d": 99.42,
         "1y": 99.73
       }
@@ -2157,13 +2562,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.22,
+        "30d": 99.19,
         "90d": 96.62,
         "1y": 95.43
       }
@@ -2184,13 +2589,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 92.15,
+        "24h": 88.89,
+        "30d": 91.88,
         "90d": 93.95,
         "1y": 92.25
       }
@@ -2211,15 +2616,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 76.8,
-        "90d": 46.15,
-        "1y": 81.94
+        "30d": 78.12,
+        "90d": 47.17,
+        "1y": 81.99
       }
     },
     {
@@ -2244,7 +2649,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.66,
+        "30d": 99.65,
         "90d": 99.28,
         "1y": 99.69
       }
@@ -2265,8 +2670,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -2289,7 +2694,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -2298,8 +2703,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.49,
-        "90d": 87.86,
+        "30d": 89.34,
+        "90d": 87.87,
         "1y": 85.6
       }
     }
