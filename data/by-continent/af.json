@@ -2,10 +2,64 @@
   "metadata": {
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-11-07T06:15:09Z",
-    "total_servers": 133
+    "generated_at": "2026-11-07T18:02:28Z",
+    "total_servers": 135
   },
   "resolvers": [
+    {
+      "ip": "196.43.199.61",
+      "version": 4,
+      "country_code": "zw",
+      "country": "Zimbabwe",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Zimbabwe Open University",
+      "domain": "z0udns1.zou.ac.zw",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 37.5,
+        "30d": 30.83,
+        "90d": 43.03,
+        "1y": 63.72
+      }
+    },
+    {
+      "ip": "196.27.106.21",
+      "version": 4,
+      "country_code": "zw",
+      "country": "Zimbabwe",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ZOL-AFRCOM",
+      "domain": "521243.customer.zol.co.zw",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 57.49,
+        "90d": 73.5,
+        "1y": 81.31
+      }
+    },
     {
       "ip": "196.43.199.60",
       "version": 4,
@@ -22,15 +76,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.33,
-        "90d": 90.16,
-        "1y": 85.76
+        "30d": 87.23,
+        "90d": 90.14,
+        "1y": 85.77
       }
     },
     {
@@ -49,15 +103,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 47.45,
-        "90d": 39.78,
-        "1y": 44.66
+        "24h": 87.5,
+        "30d": 47.42,
+        "90d": 39.8,
+        "1y": 44.67
       }
     },
     {
@@ -76,15 +130,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 70.65,
-        "90d": 64.62,
-        "1y": 67.4
+        "24h": 87.5,
+        "30d": 71.46,
+        "90d": 64.64,
+        "1y": 67.41
       }
     },
     {
@@ -109,8 +163,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.4,
-        "90d": 93.11,
+        "30d": 96.51,
+        "90d": 93.15,
         "1y": 91.37
       }
     },
@@ -131,13 +185,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 80.21,
-        "90d": 77.17,
+        "24h": 87.5,
+        "30d": 80.0,
+        "90d": 77.12,
         "1y": 78.99
       }
     },
@@ -154,17 +208,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 92.24,
-        "90d": 92.65,
+        "24h": 100.0,
+        "30d": 92.61,
+        "90d": 92.66,
         "1y": 94.63
       }
     },
@@ -190,7 +244,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.64,
+        "30d": 96.52,
         "90d": 97.33,
         "1y": 98.75
       }
@@ -213,40 +267,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 82.8,
-        "90d": 83.19,
-        "1y": 80.66
-      }
-    },
-    {
-      "ip": "102.33.47.78",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "MFN TO",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 90.38,
-        "90d": 92.04,
-        "1y": 91.31
+        "24h": 87.5,
+        "30d": 82.24,
+        "90d": 83.25,
+        "1y": 80.67
       }
     },
     {
@@ -266,14 +293,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 83.53,
-        "90d": 83.25,
-        "1y": 78.98
+        "24h": 100.0,
+        "30d": 83.98,
+        "90d": 83.27,
+        "1y": 78.99
       }
     },
     {
@@ -294,12 +321,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.65,
-        "90d": 99.21,
+        "30d": 99.64,
+        "90d": 99.25,
         "1y": 97.46
       }
     },
@@ -324,37 +351,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 66.91,
-        "90d": 63.7,
-        "1y": 57.93
-      }
-    },
-    {
-      "ip": "40.127.12.40",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Microsoft Azure Cloud (southafricanorth)",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 77.78,
-        "30d": 53.97,
-        "90d": 56.73,
-        "1y": 54.81
+        "24h": 100.0,
+        "30d": 66.08,
+        "90d": 63.76,
+        "1y": 57.99
       }
     },
     {
@@ -373,14 +373,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 93.28,
-        "90d": 94.57,
+        "24h": 100.0,
+        "30d": 93.7,
+        "90d": 94.58,
         "1y": 95.19
       }
     },
@@ -400,15 +400,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.3,
+        "30d": 99.27,
         "90d": 98.16,
-        "1y": 73.42
+        "1y": 73.44
       }
     },
     {
@@ -427,15 +427,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 80.65,
-        "90d": 85.5,
-        "1y": 86.64
+        "24h": 100.0,
+        "30d": 80.6,
+        "90d": 85.52,
+        "1y": 86.65
       }
     },
     {
@@ -451,18 +451,45 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 81.45,
+        "90d": 81.02,
+        "1y": 72.48
+      }
+    },
+    {
+      "ip": "41.23.114.62",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom",
+      "domain": "vc-41-23-114-62.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
         "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 81.34,
-        "90d": 80.92,
-        "1y": 72.42
+        "24h": 75.0,
+        "30d": 93.85,
+        "90d": 90.57,
+        "1y": 91.7
       }
     },
     {
@@ -481,15 +508,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 64.59,
-        "90d": 67.93,
-        "1y": 52.97
+        "24h": 100.0,
+        "30d": 64.96,
+        "90d": 67.86,
+        "1y": 52.99
       }
     },
     {
@@ -508,15 +535,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 70.31,
-        "90d": 65.36,
-        "1y": 41.87
+        "24h": 100.0,
+        "30d": 70.32,
+        "90d": 65.39,
+        "1y": 41.89
       }
     },
     {
@@ -540,10 +567,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 92.81,
-        "90d": 92.24,
-        "1y": 94.15
+        "24h": 100.0,
+        "30d": 93.33,
+        "90d": 92.22,
+        "1y": 94.16
       }
     },
     {
@@ -563,14 +590,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 72.36,
-        "90d": 73.88,
-        "1y": 74.55
+        "24h": 100.0,
+        "30d": 71.82,
+        "90d": 73.86,
+        "1y": 74.56
       }
     },
     {
@@ -589,15 +616,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 58.7,
-        "90d": 30.68,
-        "1y": 14.88
+        "24h": 75.0,
+        "30d": 60.64,
+        "90d": 32.02,
+        "1y": 15.57
       }
     },
     {
@@ -617,14 +644,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 69.77,
-        "90d": 74.23,
-        "1y": 72.38
+        "24h": 100.0,
+        "30d": 69.31,
+        "90d": 74.19,
+        "1y": 72.39
       }
     },
     {
@@ -643,14 +670,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 92.35,
-        "90d": 93.95,
+        "24h": 100.0,
+        "30d": 92.61,
+        "90d": 93.93,
         "1y": 91.78
       }
     },
@@ -670,26 +697,26 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "ads": true,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 78.29,
+        "30d": 78.1,
         "90d": 80.17,
-        "1y": 84.54
+        "1y": 84.55
       }
     },
     {
-      "ip": "41.23.114.29",
+      "ip": "105.243.213.211",
       "version": 4,
       "country_code": "za",
       "country": "South Africa",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
-      "domain": "vc-41-23-114-29.umts.vodacom.co.za",
+      "organization": "Vodacom",
+      "domain": "vc-gp-n-105-243-213-211.umts.vodacom.co.za",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -697,15 +724,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 66.67,
-        "90d": 72.4,
-        "1y": 73.46
+        "24h": 50.0,
+        "30d": 81.3,
+        "90d": 89.69,
+        "1y": 92.11
       }
     },
     {
@@ -721,18 +748,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 36.93,
-        "90d": 69.26,
-        "1y": 81.9
+        "30d": 38.1,
+        "90d": 69.21,
+        "1y": 81.91
       }
     },
     {
@@ -757,9 +784,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.0,
-        "90d": 91.56,
-        "1y": 88.2
+        "30d": 91.72,
+        "90d": 91.55,
+        "1y": 88.21
       }
     },
     {
@@ -780,13 +807,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 81.69,
-        "90d": 87.81,
-        "1y": 90.59
+        "24h": 100.0,
+        "30d": 82.47,
+        "90d": 87.79,
+        "1y": 90.6
       }
     },
     {
@@ -802,18 +829,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 71.56,
-        "90d": 71.8,
-        "1y": 72.67
+        "24h": 100.0,
+        "30d": 72.5,
+        "90d": 71.78,
+        "1y": 72.69
       }
     },
     {
@@ -833,14 +860,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 81.58,
-        "90d": 83.39,
-        "1y": 84.41
+        "24h": 100.0,
+        "30d": 81.48,
+        "90d": 83.41,
+        "1y": 84.42
       }
     },
     {
@@ -864,9 +891,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 89.49,
-        "90d": 89.49,
+        "24h": 100.0,
+        "30d": 89.85,
+        "90d": 89.5,
         "1y": 92.26
       }
     },
@@ -888,13 +915,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.3,
+        "30d": 99.28,
         "90d": 99.69,
-        "1y": 92.84
+        "1y": 92.85
       }
     },
     {
@@ -914,13 +941,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.27,
-        "90d": 95.25,
+        "30d": 93.69,
+        "90d": 95.27,
         "1y": 96.45
       }
     },
@@ -941,41 +968,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 98.02,
-        "90d": 98.43,
+        "24h": 100.0,
+        "30d": 98.07,
+        "90d": 98.42,
         "1y": 98.43
-      }
-    },
-    {
-      "ip": "165.73.224.83",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "WAN 4 U cc",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 63.85,
-        "90d": 64.01,
-        "1y": 61.14
       }
     },
     {
@@ -995,14 +995,68 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 92.11,
-        "90d": 78.27,
+        "24h": 100.0,
+        "30d": 92.35,
+        "90d": 78.41,
         "1y": 88.79
+      }
+    },
+    {
+      "ip": "41.23.184.193",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-184-193.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 82.29,
+        "90d": 81.05,
+        "1y": 83.63
+      }
+    },
+    {
+      "ip": "41.23.184.235",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Vodacom UMTS Midrand TP Southern Gauteng INTERNET APN",
+      "domain": "vc-41-23-184-235.umts.vodacom.co.za",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 25.0,
+        "30d": 35.87,
+        "90d": 77.15,
+        "1y": 81.46
       }
     },
     {
@@ -1023,13 +1077,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 80.62,
-        "90d": 86.8,
-        "1y": 90.12
+        "30d": 80.92,
+        "90d": 86.99,
+        "1y": 90.13
       }
     },
     {
@@ -1049,14 +1103,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 54.0,
-        "90d": 46.9,
-        "1y": 50.05
+        "24h": 75.0,
+        "30d": 54.06,
+        "90d": 47.05,
+        "1y": 50.06
       }
     },
     {
@@ -1072,18 +1126,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.33,
-        "90d": 89.95,
-        "1y": 93.49
+        "30d": 92.07,
+        "90d": 89.93,
+        "1y": 93.5
       }
     },
     {
@@ -1104,12 +1158,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 47.54,
-        "90d": 88.48,
+        "30d": 51.61,
+        "90d": 88.45,
         "1y": 89.44
       }
     },
@@ -1131,13 +1185,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 93.57,
-        "90d": 94.22,
-        "1y": 94.95
+        "24h": 87.5,
+        "30d": 93.72,
+        "90d": 94.24,
+        "1y": 94.96
       }
     },
     {
@@ -1153,18 +1207,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 84.94,
-        "90d": 84.38,
-        "1y": 84.2
+        "24h": 87.5,
+        "30d": 85.09,
+        "90d": 84.4,
+        "1y": 84.21
       }
     },
     {
@@ -1184,12 +1238,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.42,
+        "30d": 99.4,
         "90d": 98.52,
         "1y": 92.47
       }
@@ -1216,9 +1270,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 15.79,
-        "90d": 37.87,
-        "1y": 32.15
+        "30d": 25.0,
+        "90d": 39.05,
+        "1y": 32.47
       }
     },
     {
@@ -1234,18 +1288,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 92.33,
-        "90d": 92.96,
+        "24h": 100.0,
+        "30d": 92.3,
+        "90d": 92.95,
         "1y": 94.08
+      }
+    },
+    {
+      "ip": "41.75.107.2",
+      "version": 4,
+      "country_code": "za",
+      "country": "South Africa",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Voffice WAN",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 62.5,
+        "30d": 68.31,
+        "90d": 65.5,
+        "1y": 60.46
       }
     },
     {
@@ -1264,15 +1345,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 61.15,
-        "90d": 60.86,
-        "1y": 59.93
+        "24h": 100.0,
+        "30d": 61.68,
+        "90d": 60.94,
+        "1y": 59.95
       }
     },
     {
@@ -1296,10 +1377,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 82.38,
-        "90d": 60.32,
-        "1y": 37.55
+        "24h": 100.0,
+        "30d": 82.97,
+        "90d": 60.7,
+        "1y": 37.92
       }
     },
     {
@@ -1318,15 +1399,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 55.56,
-        "30d": 60.31,
-        "90d": 54.4,
-        "1y": 51.96
+        "24h": 87.5,
+        "30d": 60.64,
+        "90d": 54.45,
+        "1y": 51.98
       }
     },
     {
@@ -1345,14 +1426,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 90.44,
-        "90d": 93.64,
+        "24h": 100.0,
+        "30d": 90.47,
+        "90d": 93.66,
         "1y": 95.14
       }
     },
@@ -1369,45 +1450,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 86.28,
-        "90d": 89.41,
+        "24h": 100.0,
+        "30d": 86.76,
+        "90d": 89.39,
         "1y": 91.09
-      }
-    },
-    {
-      "ip": "160.0.192.36",
-      "version": 4,
-      "country_code": "za",
-      "country": "South Africa",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Herotel",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 44.44,
-        "30d": 24.27,
-        "90d": 27.87,
-        "1y": 66.83
       }
     },
     {
@@ -1431,10 +1485,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 82.77,
+        "24h": 100.0,
+        "30d": 84.46,
         "90d": 81.27,
-        "1y": 76.95
+        "1y": 76.96
       }
     },
     {
@@ -1459,9 +1513,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.42,
+        "30d": 99.51,
         "90d": 99.62,
         "1y": 99.82
+      }
+    },
+    {
+      "ip": "154.72.202.86",
+      "version": 4,
+      "country_code": "ug",
+      "country": "Uganda",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "National Information Technology Authority Uganda",
+      "domain": "h56.gou.go.ug",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 37.5,
+        "30d": 78.92,
+        "90d": 82.59,
+        "1y": 74.35
       }
     },
     {
@@ -1480,42 +1561,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.42,
-        "90d": 99.01,
-        "1y": 99.51
-      }
-    },
-    {
-      "ip": "41.59.197.135",
-      "version": 4,
-      "country_code": "tz",
-      "country": "Tanzania",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "TTCL",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 19.92,
-        "90d": 14.47,
-        "1y": 14.35
+        "24h": 100.0,
+        "30d": 99.52,
+        "90d": 99.01,
+        "1y": 99.51
       }
     },
     {
@@ -1541,7 +1595,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.88,
-        "90d": 99.56,
+        "90d": 99.55,
         "1y": 99.73
       }
     },
@@ -1567,9 +1621,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 56.7,
-        "90d": 33.07,
-        "1y": 30.25
+        "30d": 59.6,
+        "90d": 33.3,
+        "1y": 30.35
       }
     },
     {
@@ -1593,10 +1647,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 54.74,
-        "90d": 32.13,
-        "1y": 28.88
+        "24h": 87.5,
+        "30d": 57.73,
+        "90d": 32.4,
+        "1y": 28.98
       }
     },
     {
@@ -1615,13 +1669,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.3,
+        "30d": 99.27,
         "90d": 99.62,
         "1y": 99.76
       }
@@ -1642,8 +1696,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -1681,6 +1735,33 @@
       }
     },
     {
+      "ip": "196.179.250.93",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "OOREDOO TUNISIE SA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 53.21,
+        "90d": 48.51,
+        "1y": 48.67
+      }
+    },
+    {
       "ip": "196.179.250.91",
       "version": 4,
       "country_code": "tn",
@@ -1701,10 +1782,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 55.56,
-        "30d": 36.36,
-        "90d": 33.91,
-        "1y": 36.37
+        "24h": 62.5,
+        "30d": 35.96,
+        "90d": 33.94,
+        "1y": 36.38
+      }
+    },
+    {
+      "ip": "41.228.23.165",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ATI - Agence Tunisienne Internet",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 57.29,
+        "90d": 31.33,
+        "1y": 30.88
       }
     },
     {
@@ -1724,14 +1832,68 @@
       },
       "blocking": {
         "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 82.69,
+        "90d": 87.68,
+        "1y": 87.59
+      }
+    },
+    {
+      "ip": "69.63.64.12",
+      "version": 4,
+      "country_code": "sz",
+      "country": "Eswatini",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Eswatini PTC - corporate",
+      "domain": "ns1.swazi.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 82.93,
-        "90d": 87.7,
-        "1y": 87.59
+        "24h": 62.5,
+        "30d": 63.32,
+        "90d": 63.42,
+        "1y": 63.16
+      }
+    },
+    {
+      "ip": "69.63.73.234",
+      "version": 4,
+      "country_code": "sz",
+      "country": "Eswatini",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Eswatini PTC - corporate",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 52.24,
+        "90d": 52.03,
+        "1y": 53.01
       }
     },
     {
@@ -1750,15 +1912,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 89.06,
-        "90d": 88.59,
-        "1y": 84.9
+        "24h": 100.0,
+        "30d": 89.16,
+        "90d": 88.56,
+        "1y": 84.91
       }
     },
     {
@@ -1779,11 +1941,11 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.38,
+        "30d": 98.67,
         "90d": 98.97,
         "1y": 99.34
       }
@@ -1806,13 +1968,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 58.9,
-        "90d": 53.9,
-        "1y": 37.34
+        "24h": 87.5,
+        "30d": 58.99,
+        "90d": 53.88,
+        "1y": 37.37
       }
     },
     {
@@ -1833,11 +1995,11 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 84.28,
+        "24h": 100.0,
+        "30d": 84.1,
         "90d": 85.0,
         "1y": 87.48
       }
@@ -1858,15 +2020,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 76.51,
-        "90d": 73.14,
-        "1y": 63.05
+        "30d": 75.91,
+        "90d": 73.18,
+        "1y": 63.08
       }
     },
     {
@@ -1885,15 +2047,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 33.6,
-        "90d": 27.11,
-        "1y": 27.05
+        "24h": 87.5,
+        "30d": 33.76,
+        "90d": 27.18,
+        "1y": 27.08
       }
     },
     {
@@ -1909,18 +2071,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 97.68,
+        "24h": 100.0,
+        "30d": 97.72,
         "90d": 97.74,
-        "1y": 98.21
+        "1y": 98.22
       }
     },
     {
@@ -1944,10 +2106,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 60.67,
-        "90d": 49.95,
-        "1y": 53.32
+        "24h": 100.0,
+        "30d": 61.67,
+        "90d": 50.02,
+        "1y": 53.35
       }
     },
     {
@@ -1971,10 +2133,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 44.44,
-        "30d": 31.98,
-        "90d": 26.16,
-        "1y": 28.46
+        "24h": 75.0,
+        "30d": 31.99,
+        "90d": 26.23,
+        "1y": 28.49
       }
     },
     {
@@ -1995,7 +2157,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -2022,40 +2184,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 61.59,
-        "90d": 61.06,
-        "1y": 62.79
-      }
-    },
-    {
-      "ip": "102.214.14.13",
-      "version": 4,
-      "country_code": "ng",
-      "country": "Nigeria",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "WOW Networks Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 44.44,
-        "30d": 35.11,
-        "90d": 26.8,
-        "1y": 26.61
+        "24h": 75.0,
+        "30d": 62.45,
+        "90d": 61.0,
+        "1y": 62.81
       }
     },
     {
@@ -2070,19 +2205,46 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.03,
+        "90d": 99.66,
+        "1y": 99.85
+      }
+    },
+    {
+      "ip": "154.113.65.122",
+      "version": 4,
+      "country_code": "ng",
+      "country": "Nigeria",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Ipngn",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
         "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.07,
-        "90d": 99.66,
-        "1y": 99.85
+        "24h": 37.5,
+        "30d": 35.53,
+        "90d": 21.07,
+        "1y": 24.58
       }
     },
     {
@@ -2102,14 +2264,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 76.07,
-        "90d": 73.82,
-        "1y": 68.67
+        "24h": 100.0,
+        "30d": 75.72,
+        "90d": 73.84,
+        "1y": 68.68
+      }
+    },
+    {
+      "ip": "197.255.160.202",
+      "version": 4,
+      "country_code": "ng",
+      "country": "Nigeria",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "SP 255",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 37.5,
+        "30d": 88.0,
+        "90d": 74.21,
+        "1y": 70.36
       }
     },
     {
@@ -2128,42 +2317,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 82.67,
-        "90d": 83.68,
-        "1y": 85.35
+        "24h": 75.0,
+        "30d": 82.27,
+        "90d": 83.64,
+        "1y": 85.36
       }
     },
     {
-      "ip": "196.216.10.151",
+      "ip": "41.63.240.79",
       "version": 4,
-      "country_code": "mw",
-      "country": "Malawi",
+      "country_code": "na",
+      "country": "Namibia",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "TNM Enterprise3c",
+      "organization": "MTC Netman",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 63.57,
-        "90d": 80.49,
-        "1y": 79.14
+        "24h": 87.5,
+        "30d": 76.63,
+        "90d": 73.18,
+        "1y": 71.41
       }
     },
     {
@@ -2183,13 +2372,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 37.81,
-        "90d": 62.08,
+        "24h": 62.5,
+        "30d": 39.9,
+        "90d": 61.98,
         "1y": 65.57
       }
     },
@@ -2209,15 +2398,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 62.72,
-        "90d": 63.43,
-        "1y": 64.45
+        "24h": 100.0,
+        "30d": 63.18,
+        "90d": 63.54,
+        "1y": 64.46
       }
     },
     {
@@ -2233,18 +2422,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 92.46,
-        "90d": 93.88,
-        "1y": 92.86
+        "24h": 100.0,
+        "30d": 92.2,
+        "90d": 93.87,
+        "1y": 92.87
       }
     },
     {
@@ -2263,15 +2452,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 83.77,
-        "90d": 83.83,
-        "1y": 74.45
+        "24h": 75.0,
+        "30d": 83.19,
+        "90d": 83.86,
+        "1y": 74.49
       }
     },
     {
@@ -2296,8 +2485,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 77.84,
-        "90d": 87.35,
+        "30d": 77.43,
+        "90d": 87.34,
         "1y": 85.58
       }
     },
@@ -2317,15 +2506,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 91.55,
-        "90d": 94.26,
-        "1y": 94.85
+        "24h": 100.0,
+        "30d": 92.13,
+        "90d": 94.28,
+        "1y": 94.86
       }
     },
     {
@@ -2341,18 +2530,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 91.05,
-        "90d": 87.23,
-        "1y": 76.04
+        "24h": 100.0,
+        "30d": 90.96,
+        "90d": 87.33,
+        "1y": 76.08
       }
     },
     {
@@ -2372,14 +2561,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 89.79,
+        "24h": 100.0,
+        "30d": 90.05,
         "90d": 90.81,
-        "1y": 82.5
+        "1y": 82.52
       }
     },
     {
@@ -2395,17 +2584,17 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 82.16,
-        "90d": 93.13,
+        "24h": 100.0,
+        "30d": 81.94,
+        "90d": 93.11,
         "1y": 96.37
       }
     },
@@ -2426,41 +2615,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 44.94,
-        "90d": 23.26,
-        "1y": 11.14
-      }
-    },
-    {
-      "ip": "165.16.58.124",
-      "version": 4,
-      "country_code": "ly",
-      "country": "Libya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Aljeel Aljadeed Technology",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 86.69,
-        "90d": 84.42,
-        "1y": 78.07
+        "24h": 100.0,
+        "30d": 47.78,
+        "90d": 24.57,
+        "1y": 11.88
       }
     },
     {
@@ -2481,13 +2643,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 81.23,
-        "90d": 82.57,
-        "1y": 80.32
+        "24h": 100.0,
+        "30d": 81.45,
+        "90d": 82.52,
+        "1y": 80.33
       }
     },
     {
@@ -2506,14 +2668,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 67.11,
-        "90d": 61.03,
+        "24h": 87.5,
+        "30d": 66.67,
+        "90d": 61.04,
         "1y": 62.01
       }
     },
@@ -2524,24 +2686,24 @@
       "country": "Libya",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "ISP pool west",
+      "organization": "Aljeel Aljadeed Technology",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 88.2,
-        "90d": 85.3,
-        "1y": 77.42
+        "24h": 87.5,
+        "30d": 88.77,
+        "90d": 85.27,
+        "1y": 77.43
       }
     },
     {
@@ -2560,15 +2722,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 78.91,
+        "90d": 71.13,
+        "1y": 70.27
+      }
+    },
+    {
+      "ip": "197.232.30.18",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Faiba Enterprise3",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 79.49,
-        "90d": 71.05,
-        "1y": 70.25
+        "24h": 50.0,
+        "30d": 36.77,
+        "90d": 38.38,
+        "1y": 34.51
       }
     },
     {
@@ -2587,42 +2776,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 58.84,
-        "90d": 57.18,
-        "1y": 59.78
-      }
-    },
-    {
-      "ip": "197.232.124.205",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "FAIBA",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 66.55,
-        "90d": 59.78,
-        "1y": 65.3
+        "24h": 87.5,
+        "30d": 58.67,
+        "90d": 57.19,
+        "1y": 59.79
       }
     },
     {
@@ -2641,13 +2803,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.38,
+        "30d": 98.55,
         "90d": 99.04,
         "1y": 99.49
       }
@@ -2673,37 +2835,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 49.59,
-        "90d": 50.72,
-        "1y": 32.78
-      }
-    },
-    {
-      "ip": "196.201.228.22",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Iphone Global (K) Ltd",
-      "domain": "196.201.228.22.liquidtelecom.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 68.84,
-        "90d": 67.36,
-        "1y": 68.27
+        "24h": 100.0,
+        "30d": 49.88,
+        "90d": 50.77,
+        "1y": 32.82
       }
     },
     {
@@ -2722,14 +2857,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 69.91,
-        "90d": 74.61,
+        "24h": 87.5,
+        "30d": 70.58,
+        "90d": 74.67,
         "1y": 75.44
       }
     },
@@ -2751,13 +2886,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 66.67,
+        "24h": 100.0,
         "30d": 81.58,
-        "90d": 83.83,
-        "1y": 82.2
+        "90d": 83.85,
+        "1y": 82.21
       }
     },
     {
@@ -2773,7 +2908,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -2781,10 +2916,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 84.13,
-        "90d": 86.19,
-        "1y": 87.95
+        "24h": 100.0,
+        "30d": 84.85,
+        "90d": 86.22,
+        "1y": 87.96
       }
     },
     {
@@ -2803,15 +2938,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 77.15,
-        "90d": 80.18,
-        "1y": 73.56
+        "24h": 100.0,
+        "30d": 77.06,
+        "90d": 80.19,
+        "1y": 73.58
       }
     },
     {
@@ -2830,42 +2965,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.68,
-        "90d": 96.55,
+        "30d": 97.6,
+        "90d": 96.58,
         "1y": 96.37
-      }
-    },
-    {
-      "ip": "41.206.60.22",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Doshi Ironmongers (Home Link)",
-      "domain": "41.206.60.22.accesskenya.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 70.56,
-        "90d": 45.42,
-        "1y": 43.93
       }
     },
     {
@@ -2881,16 +2989,16 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.61,
+        "30d": 98.67,
         "90d": 99.11,
         "1y": 99.54
       }
@@ -2912,13 +3020,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 87.24,
-        "90d": 90.32,
+        "24h": 100.0,
+        "30d": 87.5,
+        "90d": 90.33,
         "1y": 94.02
       }
     },
@@ -2938,15 +3046,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 64.62,
-        "90d": 66.68,
-        "1y": 68.71
+        "24h": 87.5,
+        "30d": 66.15,
+        "90d": 66.67,
+        "1y": 68.7
       }
     },
     {
@@ -2965,15 +3073,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 55.56,
-        "30d": 57.63,
-        "90d": 51.78,
-        "1y": 52.92
+        "24h": 75.0,
+        "30d": 58.07,
+        "90d": 51.74,
+        "1y": 52.94
       }
     },
     {
@@ -2992,42 +3100,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.38,
-        "90d": 97.1,
+        "30d": 98.79,
+        "90d": 97.09,
         "1y": 98.3
-      }
-    },
-    {
-      "ip": "41.139.202.86",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "For Converged services",
-      "domain": "41-139-202-86.safaricombusiness.co.ke",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 63.07,
-        "90d": 61.83,
-        "1y": 58.6
       }
     },
     {
@@ -3051,10 +3132,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 46.34,
-        "90d": 48.6,
-        "1y": 42.12
+        "24h": 87.5,
+        "30d": 45.01,
+        "90d": 48.68,
+        "1y": 42.14
       }
     },
     {
@@ -3075,13 +3156,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.18,
+        "30d": 99.16,
         "90d": 99.45,
         "1y": 99.31
+      }
+    },
+    {
+      "ip": "41.191.220.77",
+      "version": 4,
+      "country_code": "gn",
+      "country": "Guinea",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ETI SA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 55.47,
+        "90d": 53.3,
+        "1y": 56.68
       }
     },
     {
@@ -3100,15 +3208,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 64.04,
-        "90d": 65.62,
-        "1y": 64.53
+        "24h": 100.0,
+        "30d": 64.08,
+        "90d": 65.72,
+        "1y": 64.55
       }
     },
     {
@@ -3128,14 +3236,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 79.51,
-        "90d": 56.6,
-        "1y": 63.37
+        "24h": 100.0,
+        "30d": 80.68,
+        "90d": 57.39,
+        "1y": 63.47
       }
     },
     {
@@ -3154,14 +3262,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 57.54,
-        "90d": 50.19,
+        "24h": 62.5,
+        "30d": 57.39,
+        "90d": 50.31,
         "1y": 46.46
       }
     },
@@ -3181,15 +3289,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "ads": true,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 74.14,
-        "90d": 43.22,
-        "1y": 76.84
+        "30d": 76.27,
+        "90d": 44.33,
+        "1y": 76.89
       }
     },
     {
@@ -3213,10 +3321,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 79.05,
-        "90d": 80.72,
-        "1y": 73.86
+        "24h": 100.0,
+        "30d": 79.42,
+        "90d": 80.74,
+        "1y": 73.88
       }
     },
     {
@@ -3235,14 +3343,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 80.86,
-        "90d": 88.21,
+        "24h": 100.0,
+        "30d": 80.43,
+        "90d": 88.19,
         "1y": 94.87
       }
     },
@@ -3264,13 +3372,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 60.21,
-        "90d": 69.36,
-        "1y": 73.05
+        "24h": 87.5,
+        "30d": 59.2,
+        "90d": 69.25,
+        "1y": 73.08
       }
     },
     {
@@ -3289,14 +3397,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 79.77,
-        "90d": 83.05,
+        "30d": 79.16,
+        "90d": 83.08,
         "1y": 81.07
       }
     },
@@ -3321,10 +3429,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 90.27,
-        "90d": 88.55,
-        "1y": 84.58
+        "24h": 100.0,
+        "30d": 91.16,
+        "90d": 88.58,
+        "1y": 84.59
       }
     },
     {
@@ -3344,13 +3452,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 96.98,
-        "90d": 97.97,
+        "24h": 87.5,
+        "30d": 96.75,
+        "90d": 98.0,
         "1y": 77.43
       }
     },
@@ -3375,37 +3483,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 77.49,
-        "90d": 75.36,
-        "1y": 74.96
-      }
-    },
-    {
-      "ip": "41.111.204.186",
-      "version": 4,
-      "country_code": "dz",
-      "country": "Algeria",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Algerie Telecom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
         "24h": 100.0,
-        "30d": 81.9,
-        "90d": 87.1,
-        "1y": 85.87
+        "30d": 78.16,
+        "90d": 75.35,
+        "1y": 74.98
       }
     },
     {
@@ -3424,25 +3505,25 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.49,
+        "30d": 98.44,
         "90d": 98.47,
         "1y": 98.17
       }
     },
     {
-      "ip": "154.66.141.193",
+      "ip": "102.215.139.2",
       "version": 4,
       "country_code": "bj",
       "country": "Benin",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Customer DHCP IP POOL GROUP",
+      "organization": "Isocel SA",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -3453,40 +3534,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 22.22,
-        "30d": 20.83,
-        "90d": 24.69,
-        "1y": 41.65
-      }
-    },
-    {
-      "ip": "41.79.47.6",
-      "version": 4,
-      "country_code": "bi",
-      "country": "Burundi",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "UCOM",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 73.02,
-        "90d": 68.18,
-        "1y": 63.26
+        "24h": 100.0,
+        "30d": 9.09,
+        "90d": 43.09,
+        "1y": 43.09
       }
     },
     {
@@ -3505,15 +3559,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 64.43,
-        "90d": 53.62,
-        "1y": 50.05
+        "24h": 100.0,
+        "30d": 65.04,
+        "90d": 53.78,
+        "1y": 50.09
       }
     },
     {
@@ -3533,14 +3587,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 70.77,
-        "90d": 65.27,
-        "1y": 62.52
+        "24h": 100.0,
+        "30d": 70.87,
+        "90d": 65.36,
+        "1y": 62.54
       }
     },
     {
@@ -3560,8 +3614,8 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -3588,12 +3642,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 79.13,
-        "90d": 88.5,
+        "30d": 78.44,
+        "90d": 88.47,
         "1y": 92.52
       }
     }

@@ -4,8 +4,8 @@
     "country_name": "Namibia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-11-07T06:15:09Z",
-    "total_servers": 1
+    "generated_at": "2026-11-07T18:02:28Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 82.27,
+        "90d": 83.64,
+        "1y": 85.36
+      }
+    },
+    {
+      "ip": "41.63.240.79",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "MTC Netman",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 82.67,
-        "90d": 83.68,
-        "1y": 85.35
+        "24h": 87.5,
+        "30d": 76.63,
+        "90d": 73.18,
+        "1y": 71.41
       }
     }
   ]
