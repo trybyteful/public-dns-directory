@@ -4,8 +4,8 @@
     "country_name": "Finland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-08T06:16:28Z",
-    "total_servers": 8
+    "generated_at": "2026-11-08T18:02:13Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -26,12 +26,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.35,
-        "90d": 96.21,
+        "30d": 95.19,
+        "90d": 96.25,
         "1y": 97.21
       }
     },
@@ -51,14 +51,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 65.26,
-        "90d": 70.61,
+        "24h": 85.71,
+        "30d": 63.8,
+        "90d": 70.73,
         "1y": 72.71
       }
     },
@@ -78,15 +78,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 57.14,
-        "30d": 49.56,
-        "90d": 53.4,
-        "1y": 53.91
+        "30d": 48.37,
+        "90d": 53.63,
+        "1y": 53.93
       }
     },
     {
@@ -105,15 +105,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 85.16,
-        "90d": 85.64,
-        "1y": 88.23
+        "24h": 85.71,
+        "30d": 85.12,
+        "90d": 85.89,
+        "1y": 88.22
       }
     },
     {
@@ -138,63 +138,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.99,
+        "30d": 98.96,
         "90d": 99.55,
         "1y": 99.52
-      }
-    },
-    {
-      "ip": "89.236.106.156",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TNNet Oy",
-      "domain": "89-236-106-156.net.tnnet.fi",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 85.71,
-        "30d": 85.36,
-        "90d": 83.7,
-        "1y": 84.86
-      }
-    },
-    {
-      "ip": "195.140.195.21",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TREX Regional Exchanges Oy",
-      "domain": "resolver1.dns.trex.fi",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 92.14,
-        "90d": 92.35,
-        "1y": 93.08
       }
     },
     {
@@ -213,14 +159,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.61,
-        "90d": 98.76,
+        "30d": 96.49,
+        "90d": 98.75,
         "1y": 99.4
       }
     }

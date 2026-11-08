@@ -4,8 +4,8 @@
     "country_name": "Andorra",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-08T06:16:28Z",
-    "total_servers": 4
+    "generated_at": "2026-11-08T18:02:13Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 82.48,
-        "90d": 81.93,
-        "1y": 79.55
+        "30d": 82.03,
+        "90d": 82.12,
+        "1y": 79.56
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 87.8,
-        "90d": 89.5,
-        "1y": 87.25
+        "24h": 57.14,
+        "30d": 86.95,
+        "90d": 89.68,
+        "1y": 87.23
       }
     },
     {
@@ -79,41 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 71.43,
-        "30d": 31.99,
-        "90d": 33.61,
-        "1y": 32.88
-      }
-    },
-    {
-      "ip": "194.158.78.137",
-      "version": 4,
-      "country_code": "ad",
-      "country": "Andorra",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Xena",
-      "domain": "ns1.xena.ad",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 92.54,
-        "90d": 93.38,
-        "1y": 94.87
+        "24h": 57.14,
+        "30d": 33.02,
+        "90d": 33.74,
+        "1y": 32.89
       }
     }
   ]
