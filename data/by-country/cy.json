@@ -4,37 +4,10 @@
     "country_name": "Cyprus",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-07T18:02:28Z",
+    "generated_at": "2026-11-08T06:16:28Z",
     "total_servers": 20
   },
   "resolvers": [
-    {
-      "ip": "93.109.234.70",
-      "version": 4,
-      "country_code": "cy",
-      "country": "Cyprus",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "CYTANET - Cyprus Telecommunications Authority",
-      "domain": "nb41-70.static.cytanet.com.cy",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 37.5,
-        "30d": 69.51,
-        "90d": 66.15,
-        "1y": 62.82
-      }
-    },
     {
       "ip": "82.102.44.137",
       "version": 4,
@@ -47,19 +20,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
+        "ads": false,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 46.45,
-        "90d": 45.26,
-        "1y": 47.13
+        "24h": 85.71,
+        "30d": 46.23,
+        "90d": 45.21,
+        "1y": 47.15
       }
     },
     {
@@ -75,18 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 79.71,
-        "90d": 62.11,
-        "1y": 51.69
+        "24h": 71.43,
+        "30d": 79.72,
+        "90d": 62.15,
+        "1y": 51.7
       }
     },
     {
@@ -107,13 +80,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 80.65,
-        "90d": 73.02,
-        "1y": 71.93
+        "30d": 80.45,
+        "90d": 72.97,
+        "1y": 71.94
       }
     },
     {
@@ -132,14 +105,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.7,
-        "90d": 95.1,
+        "30d": 95.16,
+        "90d": 95.08,
         "1y": 95.25
       }
     },
@@ -160,7 +133,7 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -177,7 +150,7 @@
       "country": "Cyprus",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Cablenet Communication Systems plc",
+      "organization": "WAVESPEED",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -187,13 +160,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 76.9,
-        "90d": 73.13,
+        "24h": 85.71,
+        "30d": 77.14,
+        "90d": 73.1,
         "1y": 75.42
       }
     },
@@ -225,6 +198,33 @@
       }
     },
     {
+      "ip": "213.207.132.189",
+      "version": 4,
+      "country_code": "cy",
+      "country": "Cyprus",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "HTTP Planitis Communications Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 62.5,
+        "30d": 53.42,
+        "90d": 65.34,
+        "1y": 77.71
+      }
+    },
+    {
       "ip": "81.4.149.154",
       "version": 4,
       "country_code": "cy",
@@ -246,9 +246,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 64.86,
-        "90d": 60.01,
-        "1y": 61.5
+        "30d": 64.7,
+        "90d": 60.07,
+        "1y": 61.52
       }
     },
     {
@@ -274,7 +274,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.25,
+        "90d": 99.24,
         "1y": 99.69
       }
     },
@@ -295,7 +295,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -322,13 +322,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.25,
+        "90d": 99.24,
         "1y": 99.69
       }
     },
@@ -372,17 +372,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.59,
-        "90d": 96.44,
+        "30d": 95.1,
+        "90d": 96.41,
         "1y": 98.27
       }
     },
@@ -399,18 +399,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
+        "ads": false,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 72.89,
-        "90d": 57.76,
-        "1y": 45.25
+        "30d": 72.83,
+        "90d": 57.88,
+        "1y": 45.28
       }
     },
     {
@@ -435,9 +435,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.98,
-        "90d": 85.79,
-        "1y": 75.59
+        "30d": 88.69,
+        "90d": 85.75,
+        "1y": 75.6
       }
     },
     {
@@ -457,14 +457,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 77.48,
-        "90d": 72.07,
-        "1y": 71.7
+        "30d": 77.36,
+        "90d": 72.01,
+        "1y": 71.71
       }
     },
     {
@@ -483,15 +483,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 68.61,
-        "90d": 60.2,
-        "1y": 62.01
+        "30d": 69.2,
+        "90d": 60.11,
+        "1y": 62.03
       }
     },
     {
@@ -507,17 +507,17 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 84.22,
-        "90d": 85.57,
+        "30d": 84.12,
+        "90d": 85.53,
         "1y": 86.12
       }
     },
@@ -539,12 +539,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.94,
-        "90d": 95.79,
+        "30d": 95.29,
+        "90d": 95.77,
         "1y": 97.98
       }
     }

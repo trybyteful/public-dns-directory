@@ -4,10 +4,37 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-07T18:02:28Z",
-    "total_servers": 6
+    "generated_at": "2026-11-08T06:16:28Z",
+    "total_servers": 7
   },
   "resolvers": [
+    {
+      "ip": "81.163.3.1",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Rasana Pishtaz Iranian Service Cooperative Co",
+      "domain": "ns1.rasanapishtaz.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 62.5,
+        "30d": 73.62,
+        "90d": 65.46,
+        "1y": 65.82
+      }
+    },
     {
       "ip": "194.225.62.80",
       "version": 4,
@@ -26,7 +53,7 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -48,10 +75,10 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -63,14 +90,14 @@
       }
     },
     {
-      "ip": "2.189.44.44",
+      "ip": "81.163.3.2",
       "version": 4,
       "country_code": "ir",
       "country": "Iran",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Iran Information Technology Company PJSC",
-      "domain": "anycast.ticdns.ir",
+      "organization": "Rasana Pishtaz Iranian Service Cooperative Co",
+      "domain": "ns2.rasanapishtaz.ir",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -80,13 +107,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.51,
-        "90d": 99.28,
-        "1y": 97.3
+        "24h": 57.14,
+        "30d": 71.76,
+        "90d": 80.75,
+        "1y": 81.46
       }
     },
     {
@@ -107,13 +134,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.28,
-        "90d": 82.87,
-        "1y": 72.08
+        "30d": 99.25,
+        "90d": 82.96,
+        "1y": 72.1
       }
     },
     {
@@ -138,7 +165,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.76,
+        "30d": 99.75,
         "90d": 99.76,
         "1y": 99.62
       }
@@ -159,8 +186,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {

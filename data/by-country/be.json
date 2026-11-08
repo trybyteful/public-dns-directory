@@ -4,37 +4,10 @@
     "country_name": "Belgium",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-07T18:02:28Z",
-    "total_servers": 8
+    "generated_at": "2026-11-08T06:16:28Z",
+    "total_servers": 7
   },
   "resolvers": [
-    {
-      "ip": "84.199.93.50",
-      "version": 4,
-      "country_code": "be",
-      "country": "Belgium",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Carestel",
-      "domain": "84-199-93-50.iFiber.telenet-ops.be",
-      "trusted": true,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 98.32,
-        "90d": 97.88,
-        "1y": 98.4
-      }
-    },
     {
       "ip": "194.6.227.180",
       "version": 4,
@@ -51,13 +24,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.27,
+        "30d": 99.25,
         "90d": 98.73,
         "1y": 99.4
       }
@@ -80,11 +53,11 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.52,
+        "30d": 99.5,
         "90d": 99.66,
         "1y": 99.4
       }
@@ -102,17 +75,17 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.0,
-        "90d": 94.52,
+        "30d": 93.42,
+        "90d": 94.49,
         "1y": 97.19
       }
     },
@@ -132,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 75.0,
-        "30d": 89.2,
-        "90d": 88.12,
-        "1y": 93.53
+        "30d": 90.38,
+        "90d": 88.06,
+        "1y": 93.54
       }
     },
     {
@@ -159,14 +132,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.27,
-        "90d": 98.94,
+        "30d": 99.25,
+        "90d": 98.93,
         "1y": 99.48
       }
     },
@@ -186,13 +159,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.91,
+        "30d": 98.88,
         "90d": 98.83,
         "1y": 99.44
       }
@@ -213,14 +186,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.03,
-        "90d": 98.8,
+        "30d": 99.0,
+        "90d": 98.79,
         "1y": 99.42
       }
     }

@@ -4,8 +4,8 @@
     "country_name": "Mongolia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-07T18:02:28Z",
-    "total_servers": 9
+    "generated_at": "2026-11-08T06:16:28Z",
+    "total_servers": 11
   },
   "resolvers": [
     {
@@ -21,7 +21,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -30,7 +30,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.39,
+        "30d": 99.5,
         "90d": 99.62,
         "1y": 97.6
       }
@@ -48,17 +48,17 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.52,
-        "90d": 99.73,
+        "30d": 99.5,
+        "90d": 99.72,
         "1y": 99.4
       }
     },
@@ -78,15 +78,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.24,
-        "90d": 95.28,
-        "1y": 95.36
+        "30d": 97.11,
+        "90d": 95.24,
+        "1y": 95.37
+      }
+    },
+    {
+      "ip": "103.20.152.11",
+      "version": 4,
+      "country_code": "mn",
+      "country": "Mongolia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "ISATCOM",
+      "domain": "mail.isatcom.mn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 60.62,
+        "90d": 74.53,
+        "1y": 88.85
       }
     },
     {
@@ -105,15 +132,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 63.04,
-        "90d": 58.2,
-        "1y": 61.22
+        "24h": 87.5,
+        "30d": 63.48,
+        "90d": 58.21,
+        "1y": 61.24
       }
     },
     {
@@ -138,9 +165,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.62,
-        "90d": 96.61,
-        "1y": 92.23
+        "30d": 92.52,
+        "90d": 96.59,
+        "1y": 92.24
       }
     },
     {
@@ -192,8 +219,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.76,
-        "90d": 98.63,
+        "30d": 99.75,
+        "90d": 98.62,
         "1y": 96.97
       }
     },
@@ -213,14 +240,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.87,
-        "90d": 93.87,
+        "30d": 92.91,
+        "90d": 94.01,
         "1y": 91.74
       }
     },
@@ -240,15 +267,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.51,
+        "30d": 99.5,
         "90d": 99.83,
         "1y": 99.83
+      }
+    },
+    {
+      "ip": "183.177.101.51",
+      "version": 4,
+      "country_code": "mn",
+      "country": "Mongolia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Netcom101",
+      "domain": "conference.icnc.mn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 60.0,
+        "30d": 24.71,
+        "90d": 53.61,
+        "1y": 81.99
       }
     }
   ]

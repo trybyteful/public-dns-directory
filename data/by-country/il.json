@@ -4,8 +4,8 @@
     "country_name": "Israel",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-07T18:02:28Z",
-    "total_servers": 19
+    "generated_at": "2026-11-08T06:16:28Z",
+    "total_servers": 21
   },
   "resolvers": [
     {
@@ -25,13 +25,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 69.23,
-        "90d": 93.18,
+        "30d": 70.97,
+        "90d": 93.13,
         "1y": 95.7
       }
     },
@@ -48,18 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 85.78,
-        "90d": 91.13,
-        "1y": 91.13
+        "30d": 86.85,
+        "90d": 91.16,
+        "1y": 91.14
       }
     },
     {
@@ -84,36 +84,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.47,
-        "90d": 93.33,
+        "30d": 89.53,
+        "90d": 93.3,
         "1y": 95.91
       }
     },
     {
-      "ip": "84.94.193.66",
+      "ip": "82.102.147.34",
       "version": 4,
       "country_code": "il",
       "country": "Israel",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Partner Communications Ltd.",
-      "domain": "84.94.193.66.cable.012.net.il",
+      "organization": "Partner",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 37.5,
-        "30d": 35.75,
-        "90d": 34.76,
-        "1y": 37.6
+        "24h": 80.0,
+        "30d": 69.38,
+        "90d": 61.81,
+        "1y": 64.31
       }
     },
     {
@@ -133,14 +133,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.19,
-        "90d": 92.92,
-        "1y": 95.68
+        "30d": 89.48,
+        "90d": 92.87,
+        "1y": 95.69
       }
     },
     {
@@ -160,7 +160,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -186,13 +186,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.4,
+        "30d": 99.87,
         "90d": 99.45,
         "1y": 99.66
       }
@@ -213,14 +213,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.19,
-        "90d": 92.08,
+        "30d": 90.02,
+        "90d": 92.04,
         "1y": 93.09
       }
     },
@@ -240,13 +240,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.04,
+        "30d": 98.99,
         "90d": 99.38,
         "1y": 99.58
       }
@@ -268,14 +268,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.05,
-        "90d": 81.01,
-        "1y": 90.49
+        "30d": 91.51,
+        "90d": 80.69,
+        "1y": 90.5
       }
     },
     {
@@ -294,15 +294,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 65.84,
+        "90d": 85.35,
+        "1y": 79.34
+      }
+    },
+    {
+      "ip": "2.55.127.105",
+      "version": 4,
+      "country_code": "il",
+      "country": "Israel",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Partner Communications Ltd.",
+      "domain": "2-55-127-105.orange.net.il",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 66.34,
-        "90d": 85.31,
-        "1y": 79.33
+        "24h": 57.14,
+        "30d": 48.92,
+        "90d": 51.21,
+        "1y": 54.18
       }
     },
     {
@@ -321,15 +348,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 75.0,
-        "30d": 41.01,
-        "90d": 44.01,
-        "1y": 37.94
+        "30d": 40.62,
+        "90d": 43.84,
+        "1y": 37.97
       }
     },
     {
@@ -354,8 +381,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.97,
-        "90d": 93.35,
+        "30d": 92.88,
+        "90d": 93.31,
         "1y": 94.56
       }
     },
@@ -403,13 +430,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.76,
-        "90d": 89.1,
+        "30d": 99.75,
+        "90d": 89.05,
         "1y": 93.27
       }
     },
@@ -435,9 +462,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 86.71,
-        "90d": 78.79,
-        "1y": 79.6
+        "30d": 86.96,
+        "90d": 78.73,
+        "1y": 79.61
       }
     },
     {
@@ -456,14 +483,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.88,
-        "90d": 97.67,
+        "90d": 97.66,
         "1y": 98.54
       }
     },
@@ -483,15 +510,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 71.43,
+        "90d": 63.61,
+        "1y": 48.96
+      }
+    },
+    {
+      "ip": "2.55.96.176",
+      "version": 4,
+      "country_code": "il",
+      "country": "Israel",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Partner Communications",
+      "domain": "2-55-96-176.orange.net.il",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 70.55,
-        "90d": 63.6,
-        "1y": 48.92
+        "24h": 62.5,
+        "30d": 22.03,
+        "90d": 23.9,
+        "1y": 28.28
       }
     },
     {
@@ -510,14 +564,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.9,
-        "90d": 93.43,
+        "30d": 90.7,
+        "90d": 93.38,
         "1y": 96.4
       }
     }

@@ -4,7 +4,7 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-07T18:02:28Z",
+    "generated_at": "2026-11-08T06:16:28Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -25,8 +25,8 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -51,14 +51,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.82,
-        "90d": 88.45,
+        "30d": 89.65,
+        "90d": 88.39,
         "1y": 80.15
       }
     },
@@ -78,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 46.73,
-        "90d": 40.1,
-        "1y": 40.27
+        "30d": 47.32,
+        "90d": 40.18,
+        "1y": 40.3
       }
     }
   ]
