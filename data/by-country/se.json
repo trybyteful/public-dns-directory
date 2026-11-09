@@ -4,8 +4,8 @@
     "country_name": "Sweden",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-09T06:23:33Z",
-    "total_servers": 36
+    "generated_at": "2026-11-09T18:03:22Z",
+    "total_servers": 35
   },
   "resolvers": [
     {
@@ -29,10 +29,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 94.98,
-        "90d": 96.57,
-        "1y": 98.43
+        "24h": 75.0,
+        "30d": 95.04,
+        "90d": 96.47,
+        "1y": 98.4
       }
     },
     {
@@ -51,15 +51,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.47,
-        "90d": 94.8,
-        "1y": 97.77
+        "30d": 87.94,
+        "90d": 94.76,
+        "1y": 97.78
       }
     },
     {
@@ -78,15 +78,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 92.41,
-        "90d": 93.56,
-        "1y": 95.72
+        "24h": 87.5,
+        "30d": 92.51,
+        "90d": 93.51,
+        "1y": 95.71
       }
     },
     {
@@ -105,14 +105,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.86,
-        "90d": 99.48,
+        "90d": 99.47,
         "1y": 99.4
       }
     },
@@ -133,14 +133,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 90.5,
-        "90d": 92.19,
-        "1y": 93.95
+        "24h": 87.5,
+        "30d": 90.78,
+        "90d": 92.16,
+        "1y": 93.94
       }
     },
     {
@@ -156,7 +156,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -165,8 +165,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.24,
-        "90d": 95.73,
+        "30d": 95.6,
+        "90d": 95.69,
         "1y": 96.03
       }
     },
@@ -192,7 +192,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.18,
+        "30d": 99.29,
         "90d": 99.12,
         "1y": 99.38
       }
@@ -214,13 +214,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 90.74,
-        "90d": 93.71,
+        "24h": 100.0,
+        "30d": 90.62,
+        "90d": 93.69,
         "1y": 94.92
       }
     },
@@ -242,13 +242,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 88.5,
-        "90d": 87.19,
-        "1y": 86.4
+        "24h": 87.5,
+        "30d": 88.58,
+        "90d": 87.2,
+        "1y": 86.41
       }
     },
     {
@@ -264,18 +264,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 86.68,
-        "90d": 88.83,
-        "1y": 90.77
+        "24h": 87.5,
+        "30d": 86.81,
+        "90d": 88.85,
+        "1y": 90.76
       }
     },
     {
@@ -295,14 +295,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 76.08,
-        "90d": 73.02,
-        "1y": 71.38
+        "24h": 100.0,
+        "30d": 76.3,
+        "90d": 72.98,
+        "1y": 71.39
       }
     },
     {
@@ -318,18 +318,45 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 72.77,
+        "90d": 66.75,
+        "1y": 66.39
+      }
+    },
+    {
+      "ip": "5.254.196.61",
+      "version": 4,
+      "country_code": "se",
+      "country": "Sweden",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Net1 Sverige AB",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 72.01,
-        "90d": 66.83,
-        "1y": 66.39
+        "24h": 50.0,
+        "30d": 39.03,
+        "90d": 41.66,
+        "1y": 40.34
       }
     },
     {
@@ -349,13 +376,13 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.32,
-        "90d": 98.6,
+        "30d": 99.29,
+        "90d": 98.59,
         "1y": 94.97
       }
     },
@@ -377,13 +404,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 48.97,
-        "90d": 45.94,
-        "1y": 41.32
+        "24h": 62.5,
+        "30d": 48.77,
+        "90d": 45.88,
+        "1y": 41.31
       }
     },
     {
@@ -402,14 +429,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 42.86,
-        "30d": 55.7,
-        "90d": 69.41,
+        "24h": 62.5,
+        "30d": 55.28,
+        "90d": 69.45,
         "1y": 72.82
       }
     },
@@ -429,42 +456,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.8,
-        "90d": 92.71,
+        "30d": 90.2,
+        "90d": 92.66,
         "1y": 95.29
-      }
-    },
-    {
-      "ip": "5.254.198.142",
-      "version": 4,
-      "country_code": "se",
-      "country": "Sweden",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Net1 Sverige AB",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 30.55,
-        "90d": 33.44,
-        "1y": 37.06
       }
     },
     {
@@ -484,14 +484,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.79,
-        "90d": 98.95,
-        "1y": 94.58
+        "30d": 98.87,
+        "90d": 98.94,
+        "1y": 94.59
       }
     },
     {
@@ -511,14 +511,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 90.5,
-        "90d": 91.63,
-        "1y": 93.53
+        "24h": 75.0,
+        "30d": 90.64,
+        "90d": 91.56,
+        "1y": 93.51
       }
     },
     {
@@ -537,13 +537,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.59,
+        "30d": 99.58,
         "90d": 99.86,
         "1y": 99.93
       }
@@ -565,14 +565,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 83.45,
-        "90d": 83.75,
-        "1y": 85.76
+        "24h": 75.0,
+        "30d": 83.43,
+        "90d": 83.62,
+        "1y": 85.74
       }
     },
     {
@@ -591,9 +591,9 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -623,10 +623,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 70.77,
-        "90d": 66.93,
-        "1y": 68.96
+        "24h": 87.5,
+        "30d": 71.19,
+        "90d": 66.74,
+        "1y": 68.98
       }
     },
     {
@@ -651,9 +651,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 56.27,
-        "90d": 48.11,
-        "1y": 47.5
+        "30d": 56.18,
+        "90d": 48.15,
+        "1y": 47.52
       }
     },
     {
@@ -669,45 +669,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 85.71,
-        "30d": 86.47,
-        "90d": 86.84,
-        "1y": 85.91
-      }
-    },
-    {
-      "ip": "82.209.188.99",
-      "version": 4,
-      "country_code": "se",
-      "country": "Sweden",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Bredband2",
-      "domain": "82-209-188-99.cust.bredband2.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 50.2,
-        "90d": 56.78,
-        "1y": 63.64
+        "24h": 87.5,
+        "30d": 86.72,
+        "90d": 86.81,
+        "1y": 85.92
       }
     },
     {
@@ -726,14 +699,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.96,
-        "90d": 98.95,
+        "30d": 98.16,
+        "90d": 98.94,
         "1y": 99.55
       }
     },
@@ -758,10 +731,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 94.57,
-        "90d": 96.46,
-        "1y": 98.41
+        "24h": 75.0,
+        "30d": 94.76,
+        "90d": 96.36,
+        "1y": 98.39
       }
     },
     {
@@ -781,13 +754,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.03,
-        "90d": 98.32,
+        "30d": 97.18,
+        "90d": 98.31,
         "1y": 99.02
       }
     },
@@ -807,14 +780,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.92,
-        "90d": 99.16,
+        "30d": 99.01,
+        "90d": 99.15,
         "1y": 99.34
       }
     },
@@ -834,15 +807,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.07,
-        "90d": 87.81,
-        "1y": 87.09
+        "30d": 91.06,
+        "90d": 87.92,
+        "1y": 87.1
       }
     },
     {
@@ -861,15 +834,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "ads": true,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.69,
-        "90d": 85.28,
-        "1y": 84.03
+        "30d": 91.85,
+        "90d": 85.27,
+        "1y": 84.04
       }
     },
     {
@@ -894,8 +867,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.92,
-        "90d": 99.55,
+        "30d": 98.87,
+        "90d": 99.54,
         "1y": 99.21
       }
     },
@@ -933,13 +906,13 @@
       "country": "Sweden",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Tele2 Sverige AB",
+      "organization": "Tele2 Business AB",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -947,10 +920,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 54.82,
-        "90d": 45.82,
-        "1y": 45.98
+        "24h": 75.0,
+        "30d": 55.05,
+        "90d": 45.83,
+        "1y": 46.0
       }
     },
     {
@@ -970,7 +943,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {

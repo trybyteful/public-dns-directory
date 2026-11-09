@@ -4,37 +4,10 @@
     "country_name": "Guatemala",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-11-09T06:23:33Z",
-    "total_servers": 5
+    "generated_at": "2026-11-09T18:03:22Z",
+    "total_servers": 4
   },
   "resolvers": [
-    {
-      "ip": "190.113.88.165",
-      "version": 4,
-      "country_code": "gt",
-      "country": "Guatemala",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Blue Consulting Group, S. A.",
-      "domain": "88.165.blue.net.gt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 82.44,
-        "90d": 84.78,
-        "1y": 89.9
-      }
-    },
     {
       "ip": "190.148.193.146",
       "version": 4,
@@ -48,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 74.15,
-        "90d": 74.0,
-        "1y": 67.14
+        "24h": 87.5,
+        "30d": 74.01,
+        "90d": 73.97,
+        "1y": 67.16
       }
     },
     {
@@ -79,13 +52,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.35,
-        "90d": 96.78,
+        "30d": 96.47,
+        "90d": 96.76,
         "1y": 97.95
       }
     },
@@ -106,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 86.3,
-        "90d": 87.82,
-        "1y": 86.83
+        "24h": 87.5,
+        "30d": 86.14,
+        "90d": 87.72,
+        "1y": 86.82
       }
     },
     {
@@ -129,7 +102,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -137,10 +110,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 75.91,
-        "90d": 69.42,
-        "1y": 71.49
+        "24h": 87.5,
+        "30d": 76.84,
+        "90d": 69.24,
+        "1y": 71.5
       }
     }
   ]
