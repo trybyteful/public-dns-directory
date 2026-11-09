@@ -4,8 +4,8 @@
     "country_name": "Mongolia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-08T18:02:13Z",
-    "total_servers": 10
+    "generated_at": "2026-11-09T06:23:33Z",
+    "total_servers": 11
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.48,
-        "90d": 99.62,
-        "1y": 97.6
+        "30d": 99.46,
+        "90d": 99.65,
+        "1y": 97.61
       }
     },
     {
@@ -52,12 +52,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.48,
+        "30d": 99.46,
         "90d": 99.72,
         "1y": 99.4
       }
@@ -78,15 +78,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.01,
-        "90d": 95.21,
+        "30d": 96.88,
+        "90d": 95.17,
         "1y": 95.37
+      }
+    },
+    {
+      "ip": "103.20.152.11",
+      "version": 4,
+      "country_code": "mn",
+      "country": "Mongolia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "ISATCOM",
+      "domain": "mail.isatcom.mn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 59.4,
+        "90d": 74.04,
+        "1y": 88.83
       }
     },
     {
@@ -107,13 +134,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 63.36,
-        "90d": 58.35,
-        "1y": 61.24
+        "24h": 87.5,
+        "30d": 65.4,
+        "90d": 58.3,
+        "1y": 61.27
       }
     },
     {
@@ -132,14 +159,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 85.71,
-        "30d": 92.03,
-        "90d": 96.53,
+        "30d": 91.76,
+        "90d": 96.5,
         "1y": 92.23
       }
     },
@@ -160,8 +187,8 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -186,14 +213,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.74,
-        "90d": 98.61,
+        "30d": 99.86,
+        "90d": 98.6,
         "1y": 96.97
       }
     },
@@ -214,13 +241,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.57,
-        "90d": 93.96,
+        "30d": 93.05,
+        "90d": 93.9,
         "1y": 91.75
       }
     },
@@ -241,12 +268,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.48,
+        "30d": 99.46,
         "90d": 99.83,
         "1y": 99.83
       }
@@ -273,9 +300,9 @@
       },
       "uptime": {
         "24h": 85.71,
-        "30d": 25.68,
-        "90d": 53.15,
-        "1y": 82.0
+        "30d": 25.6,
+        "90d": 52.77,
+        "1y": 81.99
       }
     }
   ]

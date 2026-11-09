@@ -4,8 +4,8 @@
     "country_name": "Trinidad and Tobago",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-11-08T18:02:13Z",
-    "total_servers": 4
+    "generated_at": "2026-11-09T06:23:33Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -24,9 +24,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 71.43,
-        "30d": 94.37,
-        "90d": 96.8,
-        "1y": 98.69
+        "30d": 94.18,
+        "90d": 96.78,
+        "1y": 98.7
       }
     },
     {
@@ -78,9 +78,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
+        "ads": true,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -106,7 +106,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
@@ -114,6 +114,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 99.96
+      }
+    },
+    {
+      "ip": "200.1.104.36",
+      "version": 4,
+      "country_code": "tt",
+      "country": "Trinidad and Tobago",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Columbus Communications Trinidad Limited",
+      "domain": "ns2.flowtrinidad.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 93.6,
+        "90d": 96.6,
+        "1y": 98.61
       }
     }
   ]

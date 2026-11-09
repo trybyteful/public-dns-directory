@@ -4,8 +4,8 @@
     "country_name": "Lebanon",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-08T18:02:13Z",
-    "total_servers": 5
+    "generated_at": "2026-11-09T06:23:33Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -24,14 +24,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 57.14,
-        "30d": 77.04,
-        "90d": 83.35,
+        "30d": 79.01,
+        "90d": 83.36,
         "1y": 76.91
       }
     },
@@ -53,12 +53,12 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 85.71,
-        "30d": 65.27,
-        "90d": 62.13,
+        "30d": 64.91,
+        "90d": 62.08,
         "1y": 61.57
       }
     },
@@ -74,46 +74,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 57.14,
-        "30d": 56.28,
-        "90d": 47.34,
-        "1y": 43.63
-      }
-    },
-    {
-      "ip": "212.98.146.97",
-      "version": 4,
-      "country_code": "lb",
-      "country": "Lebanon",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TerraNet sal",
-      "domain": "corp-212-98-146-97.terra.net.lb",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 57.14,
-        "30d": 43.29,
-        "90d": 33.98,
-        "1y": 34.19
+        "30d": 56.97,
+        "90d": 47.31,
+        "1y": 43.62
       }
     },
     {
@@ -138,9 +111,9 @@
       },
       "uptime": {
         "24h": 71.43,
-        "30d": 29.94,
-        "90d": 25.58,
-        "1y": 21.87
+        "30d": 30.83,
+        "90d": 25.61,
+        "1y": 21.89
       }
     }
   ]
