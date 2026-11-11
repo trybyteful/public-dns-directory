@@ -4,7 +4,7 @@
     "country_name": "Guam",
     "continent_code": "oc",
     "continent_name": "Oceania",
-    "generated_at": "2026-11-11T06:17:14Z",
+    "generated_at": "2026-11-11T18:02:22Z",
     "total_servers": 1
   },
   "resolvers": [
@@ -20,19 +20,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 96.15,
-        "30d": 72.56,
-        "90d": 78.66,
-        "1y": 80.99
+        "24h": 96.0,
+        "30d": 73.65,
+        "90d": 78.79,
+        "1y": 81.01
       }
     }
   ]
