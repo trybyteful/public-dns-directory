@@ -4,10 +4,37 @@
     "country_name": "Lebanon",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-10T18:02:17Z",
-    "total_servers": 3
+    "generated_at": "2026-11-11T06:17:14Z",
+    "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "78.108.160.207",
+      "version": 4,
+      "country_code": "lb",
+      "country": "Lebanon",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TerraNet sal",
+      "domain": "dsl-78-108-160-207.terra.net.lb",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 57.69,
+        "30d": 34.28,
+        "90d": 26.99,
+        "1y": 25.74
+      }
+    },
     {
       "ip": "91.151.226.102",
       "version": 4,
@@ -25,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 77.99,
-        "90d": 83.36,
-        "1y": 76.97
+        "24h": 92.31,
+        "30d": 78.05,
+        "90d": 83.32,
+        "1y": 77.05
       }
     },
     {
@@ -56,25 +83,25 @@
         "adult": true
       },
       "uptime": {
-        "24h": 80.95,
-        "30d": 66.31,
-        "90d": 62.14,
-        "1y": 61.65
+        "24h": 84.62,
+        "30d": 66.14,
+        "90d": 62.43,
+        "1y": 61.7
       }
     },
     {
-      "ip": "77.42.155.181",
+      "ip": "78.108.164.125",
       "version": 4,
       "country_code": "lb",
       "country": "Lebanon",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "LIBANTELECOM",
-      "domain": null,
+      "organization": "TerraNet sal",
+      "domain": "dsl-78-108-164-125.terra.net.lb",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -83,10 +110,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 33.33,
-        "30d": 33.39,
-        "90d": 25.41,
-        "1y": 21.95
+        "24h": 80.77,
+        "30d": 58.68,
+        "90d": 47.61,
+        "1y": 43.8
       }
     }
   ]

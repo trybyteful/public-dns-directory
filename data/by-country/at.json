@@ -4,8 +4,8 @@
     "country_name": "Austria",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-10T18:02:17Z",
-    "total_servers": 11
+    "generated_at": "2026-11-11T06:17:14Z",
+    "total_servers": 13
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.56,
-        "90d": 92.29,
-        "1y": 94.13
+        "30d": 90.69,
+        "90d": 92.25,
+        "1y": 94.14
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.62,
-        "90d": 90.35,
-        "1y": 88.72
+        "30d": 89.43,
+        "90d": 90.42,
+        "1y": 88.74
       }
     },
     {
@@ -78,15 +78,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 84.32,
-        "90d": 86.86,
-        "1y": 87.22
+        "24h": 96.15,
+        "30d": 84.38,
+        "90d": 86.79,
+        "1y": 87.23
       }
     },
     {
@@ -102,18 +102,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.74,
-        "90d": 83.14,
-        "1y": 81.99
+        "30d": 88.96,
+        "90d": 83.24,
+        "1y": 82.02
       }
     },
     {
@@ -132,15 +132,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 90.56,
-        "90d": 90.68,
-        "1y": 84.3
+        "24h": 96.15,
+        "30d": 90.69,
+        "90d": 90.7,
+        "1y": 84.31
       }
     },
     {
@@ -159,15 +159,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.91,
-        "90d": 96.32,
+        "30d": 94.16,
+        "90d": 96.3,
         "1y": 97.93
+      }
+    },
+    {
+      "ip": "195.192.86.170",
+      "version": 4,
+      "country_code": "at",
+      "country": "Austria",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "SALZBURG AG fur Energie, Verkehr und Telekommunikation",
+      "domain": "195-192-86-170.dyn.cablelink.at",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 15.38,
+        "30d": 17.79,
+        "90d": 18.72,
+        "1y": 21.8
       }
     },
     {
@@ -186,14 +213,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.74,
-        "90d": 96.5,
+        "30d": 88.49,
+        "90d": 96.48,
         "1y": 98.48
       }
     },
@@ -241,12 +268,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.85,
+        "30d": 99.84,
         "90d": 99.96,
         "1y": 99.97
       }
@@ -272,10 +299,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 95.0,
-        "30d": 99.24,
+        "24h": 96.15,
+        "30d": 99.21,
         "90d": 99.46,
         "1y": 99.34
+      }
+    },
+    {
+      "ip": "78.142.85.182",
+      "version": 4,
+      "country_code": "at",
+      "country": "Austria",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ITandTel",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 42.31,
+        "30d": 26.01,
+        "90d": 20.93,
+        "1y": 20.29
       }
     },
     {
@@ -300,8 +354,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.95,
-        "90d": 98.11,
+        "30d": 96.85,
+        "90d": 98.1,
         "1y": 99.15
       }
     }

@@ -4,10 +4,37 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-10T18:02:17Z",
-    "total_servers": 6
+    "generated_at": "2026-11-11T06:17:14Z",
+    "total_servers": 8
   },
   "resolvers": [
+    {
+      "ip": "81.163.3.1",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Rasana Pishtaz Iranian Service Cooperative Co",
+      "domain": "ns1.rasanapishtaz.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 69.23,
+        "30d": 76.29,
+        "90d": 66.02,
+        "1y": 66.12
+      }
+    },
     {
       "ip": "194.225.62.80",
       "version": 4,
@@ -21,17 +48,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
+        "ads": false,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.79,
+        "90d": 99.78,
         "1y": 99.73
       }
     },
@@ -51,15 +78,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.85,
+        "30d": 99.84,
         "90d": 99.86,
         "1y": 99.05
+      }
+    },
+    {
+      "ip": "81.163.3.2",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Rasana Pishtaz Iranian Service Cooperative Co",
+      "domain": "ns2.rasanapishtaz.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 65.38,
+        "30d": 74.27,
+        "90d": 79.52,
+        "1y": 81.43
       }
     },
     {
@@ -78,13 +132,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 80.95,
-        "30d": 97.86,
+        "24h": 100.0,
+        "30d": 97.79,
         "90d": 98.89,
         "1y": 97.18
       }
@@ -107,13 +161,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.08,
-        "90d": 83.55,
-        "1y": 72.27
+        "30d": 99.05,
+        "90d": 83.72,
+        "1y": 72.33
       }
     },
     {
@@ -133,12 +187,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.7,
+        "30d": 99.68,
         "90d": 99.75,
         "1y": 99.62
       }
@@ -159,7 +213,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
