@@ -4,8 +4,8 @@
     "country_name": "Nepal",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-13T06:17:18Z",
-    "total_servers": 2
+    "generated_at": "2026-11-13T18:02:46Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -26,13 +26,40 @@
       "blocking": {
         "ads": true,
         "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.86,
+        "30d": 72.6,
+        "90d": 61.75,
+        "1y": 40.41
+      }
+    },
+    {
+      "ip": "110.44.112.19",
+      "version": 4,
+      "country_code": "np",
+      "country": "Nepal",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vianet Communications Pvt. Ltd",
+      "domain": "jmp.vianet.com.np",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 87.1,
-        "30d": 71.21,
-        "90d": 61.65,
-        "1y": 40.37
+        "24h": 100.0,
+        "30d": 59.22,
+        "90d": 75.22,
+        "1y": 89.34
       }
     },
     {
@@ -53,13 +80,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.82,
+        "30d": 99.81,
         "90d": 98.83,
-        "1y": 96.14
+        "1y": 96.15
       }
     }
   ]
