@@ -4,8 +4,8 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-12T18:02:39Z",
-    "total_servers": 6
+    "generated_at": "2026-11-13T06:17:18Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -25,8 +25,8 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -52,7 +52,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -60,33 +60,6 @@
         "30d": 99.82,
         "90d": 99.85,
         "1y": 99.06
-      }
-    },
-    {
-      "ip": "2.189.44.44",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Iran Information Technology Company PJSC",
-      "domain": "anycast.ticdns.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 73.33,
-        "30d": 95.43,
-        "90d": 98.44,
-        "1y": 97.03
       }
     },
     {
@@ -111,9 +84,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.95,
-        "90d": 84.23,
-        "1y": 72.53
+        "30d": 99.09,
+        "90d": 84.41,
+        "1y": 72.61
       }
     },
     {
@@ -133,13 +106,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.65,
-        "90d": 99.75,
+        "30d": 99.64,
+        "90d": 99.78,
         "1y": 99.63
       }
     },
@@ -156,11 +129,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
