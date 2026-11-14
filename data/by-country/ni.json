@@ -4,8 +4,8 @@
     "country_name": "Nicaragua",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-11-13T18:02:46Z",
-    "total_servers": 1
+    "generated_at": "2026-11-14T06:15:43Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -26,13 +26,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 86.9,
+        "90d": 45.13,
+        "1y": 77.67
+      }
+    },
+    {
+      "ip": "190.124.39.34",
+      "version": 4,
+      "country_code": "ni",
+      "country": "Nicaragua",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Telefonia Celular de Nicaragua SA",
+      "domain": "static.navega.com.ni",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 79.31,
-        "30d": 86.29,
-        "90d": 45.23,
-        "1y": 77.62
+        "24h": 51.85,
+        "30d": 88.96,
+        "90d": 87.6,
+        "1y": 86.62
       }
     }
   ]
