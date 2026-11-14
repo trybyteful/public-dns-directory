@@ -4,7 +4,7 @@
     "country_name": "Kyrgyzstan",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-14T06:15:43Z",
+    "generated_at": "2026-11-14T18:02:26Z",
     "total_servers": 5
   },
   "resolvers": [
@@ -21,29 +21,56 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 82.68,
-        "90d": 81.91,
-        "1y": 75.93
+        "24h": 85.19,
+        "30d": 82.99,
+        "90d": 81.87,
+        "1y": 75.96
       }
     },
     {
-      "ip": "85.113.6.113",
+      "ip": "77.235.8.83",
+      "version": 4,
+      "country_code": "kg",
+      "country": "Kyrgyzstan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Megaline LLC",
+      "domain": "77-235-8-83.mega.kg",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 51.85,
+        "30d": 59.84,
+        "90d": 53.27,
+        "1y": 50.54
+      }
+    },
+    {
+      "ip": "85.113.26.54",
       "version": 4,
       "country_code": "kg",
       "country": "Kyrgyzstan",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "OJSC Kyrgyztelecom",
-      "domain": "85-113-6-113.static.ktnet.kg",
+      "domain": "85-113-26-54.static.ktnet.kg",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -53,40 +80,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 82.28,
-        "90d": 82.35,
-        "1y": 81.61
-      }
-    },
-    {
-      "ip": "85.113.9.73",
-      "version": 4,
-      "country_code": "kg",
-      "country": "Kyrgyzstan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "OJSC Kyrgyztelecom",
-      "domain": "85-113-9-73.static.ktnet.kg",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 18.52,
-        "30d": 24.62,
-        "90d": 17.96,
-        "1y": 18.68
+        "24h": 59.26,
+        "30d": 64.75,
+        "90d": 65.29,
+        "1y": 65.24
       }
     },
     {
@@ -105,8 +105,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
@@ -138,9 +138,9 @@
       },
       "uptime": {
         "24h": 88.89,
-        "30d": 86.81,
+        "30d": 88.11,
         "90d": 81.55,
-        "1y": 79.59
+        "1y": 79.61
       }
     }
   ]
