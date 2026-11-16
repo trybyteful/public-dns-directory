@@ -4,7 +4,7 @@
     "country_name": "Nicaragua",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-11-15T06:16:28Z",
+    "generated_at": "2026-11-16T06:27:04Z",
     "total_servers": 2
   },
   "resolvers": [
@@ -20,19 +20,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 96.3,
-        "30d": 87.58,
-        "90d": 45.29,
-        "1y": 77.74
+        "24h": 76.92,
+        "30d": 86.97,
+        "90d": 45.98,
+        "1y": 77.73
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 89.07,
-        "90d": 87.61,
-        "1y": 86.67
+        "24h": 69.23,
+        "30d": 87.5,
+        "90d": 87.28,
+        "1y": 86.61
       }
     }
   ]
