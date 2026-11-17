@@ -4,10 +4,37 @@
     "country_name": "Belarus",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-17T06:17:42Z",
+    "generated_at": "2026-11-17T18:02:58Z",
     "total_servers": 16
   },
   "resolvers": [
+    {
+      "ip": "93.85.92.171",
+      "version": 4,
+      "country_code": "by",
+      "country": "Belarus",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Biznescentrstolitsa Minsk",
+      "domain": "smtp2.vtroitskaya.by",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 52.63,
+        "30d": 42.58,
+        "90d": 65.42,
+        "1y": 54.55
+      }
+    },
     {
       "ip": "82.209.223.144",
       "version": 4,
@@ -24,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 40.91,
-        "30d": 25.36,
-        "90d": 18.01,
-        "1y": 16.16
+        "24h": 47.37,
+        "30d": 26.45,
+        "90d": 18.18,
+        "1y": 16.22
       }
     },
     {
@@ -51,8 +78,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -60,6 +87,33 @@
         "30d": 99.78,
         "90d": 98.96,
         "1y": 99.48
+      }
+    },
+    {
+      "ip": "194.158.218.229",
+      "version": 4,
+      "country_code": "by",
+      "country": "Belarus",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "BYFLY MinskFilial STATIC",
+      "domain": "mm-229-218-158-194.static.minsktelecom.by",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 52.63,
+        "30d": 43.66,
+        "90d": 44.84,
+        "1y": 43.09
       }
     },
     {
@@ -78,79 +132,25 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 81.82,
-        "30d": 92.67,
-        "90d": 89.35,
-        "1y": 91.31
-      }
-    },
-    {
-      "ip": "86.57.236.90",
-      "version": 4,
-      "country_code": "by",
-      "country": "Belarus",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Teatralnayaproduktsiya Minsk",
-      "domain": "mm-90-236-57-86.static.mgts.by",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 80.95,
-        "30d": 85.56,
-        "90d": 85.98,
-        "1y": 81.26
-      }
-    },
-    {
-      "ip": "93.84.100.31",
-      "version": 4,
-      "country_code": "by",
-      "country": "Belarus",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OAO Brestskoe Morojenoe Brest",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 85.34,
-        "90d": 93.26,
-        "1y": 78.26
+        "30d": 92.89,
+        "90d": 89.29,
+        "1y": 91.32
       }
     },
     {
-      "ip": "80.249.81.151",
+      "ip": "80.94.225.100",
       "version": 4,
       "country_code": "by",
       "country": "Belarus",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Business network LTD",
+      "organization": "IP TELCOM Ltd",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -164,37 +164,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 77.11,
-        "90d": 70.23,
-        "1y": 67.59
+        "24h": 73.68,
+        "30d": 62.67,
+        "90d": 35.5,
+        "1y": 33.22
       }
     },
     {
-      "ip": "93.85.241.30",
+      "ip": "93.125.3.22",
       "version": 4,
       "country_code": "by",
       "country": "Belarus",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Republican Unitary Telecommunication Enterprise Beltelecom",
-      "domain": "grodnoreg.10g.net.belpak.by",
+      "organization": "Unitary enterprise A1",
+      "domain": "leased-line-93-125-3-22.telecom.by",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 93.11,
-        "90d": 93.58,
-        "1y": 91.19
+        "24h": 42.11,
+        "30d": 23.48,
+        "90d": 15.24,
+        "1y": 23.31
       }
     },
     {
@@ -213,15 +213,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 77.27,
-        "30d": 82.76,
-        "90d": 82.76,
-        "1y": 82.76
+        "24h": 100.0,
+        "30d": 86.49,
+        "90d": 86.49,
+        "1y": 86.49
       }
     },
     {
@@ -240,14 +240,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
+        "ads": false,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 93.6,
-        "90d": 97.14,
+        "90d": 97.12,
         "1y": 96.23
       }
     },
@@ -267,15 +267,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 84.52,
-        "90d": 95.56,
-        "1y": 95.12
+        "90d": 95.58,
+        "1y": 95.13
       }
     },
     {
@@ -291,29 +291,29 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 35.87,
-        "90d": 28.08,
-        "1y": 31.77
+        "24h": 89.47,
+        "30d": 36.96,
+        "90d": 28.42,
+        "1y": 31.82
       }
     },
     {
-      "ip": "178.172.225.2",
+      "ip": "37.17.53.108",
       "version": 4,
       "country_code": "by",
       "country": "Belarus",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "LLC \"Vash internet partner\"",
-      "domain": "usr.1net.by.225.172.178.in-addr.arpa",
+      "organization": "A1 BLR",
+      "domain": "reserved.a1.by",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -322,14 +322,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 86.36,
-        "30d": 85.56,
-        "90d": 89.5,
-        "1y": 92.84
+        "24h": 89.47,
+        "30d": 82.7,
+        "90d": 81.1,
+        "1y": 64.1
       }
     },
     {
@@ -350,12 +350,12 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 68.18,
-        "30d": 78.22,
-        "90d": 69.81,
+        "24h": 68.42,
+        "30d": 77.78,
+        "90d": 69.78,
         "1y": 72.38
       }
     },
@@ -372,18 +372,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.56,
-        "90d": 98.83,
-        "1y": 91.86
+        "90d": 98.82,
+        "1y": 91.87
       }
     },
     {
@@ -402,15 +402,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 59.09,
-        "30d": 48.2,
-        "90d": 66.46,
-        "1y": 52.47
+        "24h": 57.89,
+        "30d": 48.8,
+        "90d": 66.55,
+        "1y": 52.5
       }
     },
     {
@@ -429,15 +429,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.44,
-        "90d": 89.42,
-        "1y": 84.38
+        "30d": 94.67,
+        "90d": 89.56,
+        "1y": 84.4
       }
     }
   ]
