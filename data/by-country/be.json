@@ -4,7 +4,7 @@
     "country_name": "Belgium",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-18T06:17:44Z",
+    "generated_at": "2026-11-18T18:02:26Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 94.44,
-        "30d": 75.32,
-        "90d": 94.03,
-        "1y": 97.17
+        "30d": 75.13,
+        "90d": 93.95,
+        "1y": 97.16
       }
     },
     {
@@ -53,13 +53,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.9,
-        "90d": 99.54,
-        "1y": 99.37
+        "24h": 94.44,
+        "30d": 98.68,
+        "90d": 99.5,
+        "1y": 99.36
       }
     },
     {
@@ -78,14 +78,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.72,
-        "90d": 93.74,
+        "30d": 92.94,
+        "90d": 93.75,
         "1y": 97.1
       }
     },
@@ -110,10 +110,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 94.44,
-        "30d": 83.22,
-        "90d": 85.5,
-        "1y": 93.19
+        "24h": 83.33,
+        "30d": 82.78,
+        "90d": 85.34,
+        "1y": 93.17
       }
     }
   ]

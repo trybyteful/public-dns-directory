@@ -4,37 +4,10 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-11-18T06:17:44Z",
-    "total_servers": 4
+    "generated_at": "2026-11-18T18:02:26Z",
+    "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "168.243.48.33",
-      "version": 4,
-      "country_code": "sv",
-      "country": "El Salvador",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "SVNet",
-      "domain": "ns.telecam.com.sv",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 87.42,
-        "90d": 83.37,
-        "1y": 92.8
-      }
-    },
     {
       "ip": "190.86.205.194",
       "version": 4,
@@ -52,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 97.79,
-        "90d": 70.99,
-        "1y": 71.0
+        "24h": 94.44,
+        "30d": 97.57,
+        "90d": 70.8,
+        "1y": 71.02
       }
     },
     {
@@ -105,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.45,
-        "90d": 81.53,
-        "1y": 73.52
+        "30d": 91.62,
+        "90d": 81.65,
+        "1y": 73.62
       }
     }
   ]
