@@ -4,8 +4,8 @@
     "country_name": "Laos",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-17T18:02:58Z",
-    "total_servers": 2
+    "generated_at": "2026-11-18T06:17:44Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -25,13 +25,13 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 94.74,
-        "30d": 94.89,
-        "90d": 98.75,
+        "24h": 94.44,
+        "30d": 94.92,
+        "90d": 98.74,
         "1y": 97.82
       }
     },
@@ -51,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.0,
-        "90d": 98.67,
-        "1y": 95.55
+        "30d": 98.01,
+        "90d": 98.66,
+        "1y": 95.56
+      }
+    },
+    {
+      "ip": "202.123.179.205",
+      "version": 4,
+      "country_code": "la",
+      "country": "Laos",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Sky Telecom State Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 88.89,
+        "30d": 86.97,
+        "90d": 94.63,
+        "1y": 97.32
       }
     }
   ]
