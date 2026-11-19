@@ -4,8 +4,8 @@
     "country_name": "Guatemala",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-11-19T06:18:31Z",
-    "total_servers": 1
+    "generated_at": "2026-11-19T18:02:29Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -25,14 +25,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.12,
-        "90d": 96.49,
-        "1y": 98.01
+        "24h": 96.0,
+        "30d": 99.14,
+        "90d": 96.44,
+        "1y": 98.0
+      }
+    },
+    {
+      "ip": "190.149.193.229",
+      "version": 4,
+      "country_code": "gt",
+      "country": "Guatemala",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "TELECOMUNICACIONES DE GUATEMALA, SOCIEDAD ANONIMA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 36.0,
+        "30d": 88.12,
+        "90d": 87.43,
+        "1y": 86.88
       }
     }
   ]
