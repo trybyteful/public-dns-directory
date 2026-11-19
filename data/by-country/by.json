@@ -4,10 +4,37 @@
     "country_name": "Belarus",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-18T18:02:26Z",
-    "total_servers": 14
+    "generated_at": "2026-11-19T06:18:31Z",
+    "total_servers": 17
   },
   "resolvers": [
+    {
+      "ip": "82.209.223.144",
+      "version": 4,
+      "country_code": "by",
+      "country": "Belarus",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "BYFLY Mogilev STATIC",
+      "domain": "pppoe-static.82.209.223.144.telecom.mogilev.by",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 30.0,
+        "30d": 27.56,
+        "90d": 18.6,
+        "1y": 16.34
+      }
+    },
     {
       "ip": "82.209.206.124",
       "version": 4,
@@ -26,7 +53,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -52,14 +79,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 93.16,
-        "90d": 89.3,
-        "1y": 91.34
+        "24h": 85.0,
+        "30d": 92.78,
+        "90d": 89.17,
+        "1y": 91.32
       }
     },
     {
@@ -78,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 85.43,
-        "90d": 85.8,
-        "1y": 81.26
+        "24h": 55.0,
+        "30d": 84.25,
+        "90d": 85.47,
+        "1y": 81.19
       }
     },
     {
@@ -105,15 +132,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 77.26,
-        "90d": 70.68,
-        "1y": 67.63
+        "24h": 60.0,
+        "30d": 76.59,
+        "90d": 70.48,
+        "1y": 67.61
       }
     },
     {
@@ -132,15 +159,69 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.0,
+        "30d": 92.56,
+        "90d": 93.45,
+        "1y": 91.18
+      }
+    },
+    {
+      "ip": "80.94.225.100",
+      "version": 4,
+      "country_code": "by",
+      "country": "Belarus",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "IP TELCOM Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 55.0,
+        "30d": 62.36,
+        "90d": 36.26,
+        "1y": 33.34
+      }
+    },
+    {
+      "ip": "93.125.3.22",
+      "version": 4,
+      "country_code": "by",
+      "country": "Belarus",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Unitary enterprise A1",
+      "domain": "leased-line-93-125-3-22.telecom.by",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 94.44,
-        "30d": 92.94,
-        "90d": 93.51,
-        "1y": 91.19
+        "24h": 40.0,
+        "30d": 26.77,
+        "90d": 15.7,
+        "1y": 23.41
       }
     },
     {
@@ -160,14 +241,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 94.44,
-        "30d": 88.89,
-        "90d": 88.89,
-        "1y": 88.89
+        "24h": 100.0,
+        "30d": 90.91,
+        "90d": 90.91,
+        "1y": 90.91
       }
     },
     {
@@ -183,18 +264,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.65,
-        "90d": 97.09,
-        "1y": 96.24
+        "30d": 93.69,
+        "90d": 97.12,
+        "1y": 96.25
       }
     },
     {
@@ -219,36 +300,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 84.63,
-        "90d": 95.53,
-        "1y": 95.14
-      }
-    },
-    {
-      "ip": "82.209.223.188",
-      "version": 4,
-      "country_code": "by",
-      "country": "Belarus",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "BYFLY Mogilev STATIC",
-      "domain": "pppoe-static.82.209.223.188.telecom.mogilev.by",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 40.14,
-        "90d": 28.7,
-        "1y": 31.9
+        "30d": 84.75,
+        "90d": 95.51,
+        "1y": 95.15
       }
     },
     {
@@ -268,14 +322,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 85.21,
-        "90d": 89.29,
-        "1y": 92.8
+        "24h": 80.0,
+        "30d": 85.12,
+        "90d": 89.21,
+        "1y": 92.78
       }
     },
     {
@@ -299,10 +353,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 83.53,
-        "90d": 82.31,
-        "1y": 64.15
+        "24h": 50.0,
+        "30d": 82.52,
+        "90d": 82.62,
+        "1y": 64.11
+      }
+    },
+    {
+      "ip": "134.17.4.251",
+      "version": 4,
+      "country_code": "by",
+      "country": "Belarus",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Mobile TeleSystems JLLC",
+      "domain": "251-4-17-134-dynamic-pool.internet.mts.by",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.0,
+        "30d": 77.68,
+        "90d": 69.75,
+        "1y": 72.4
       }
     },
     {
@@ -321,15 +402,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.78,
-        "90d": 98.85,
-        "1y": 91.89
+        "90d": 98.88,
+        "1y": 91.9
       }
     },
     {
@@ -350,13 +431,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 47.48,
-        "90d": 66.4,
-        "1y": 52.49
+        "24h": 60.0,
+        "30d": 47.06,
+        "90d": 66.43,
+        "1y": 52.52
       }
     },
     {
@@ -381,9 +462,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.7,
+        "30d": 94.97,
         "90d": 89.6,
-        "1y": 84.43
+        "1y": 84.46
       }
     }
   ]

@@ -4,8 +4,8 @@
     "country_name": "Brunei",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-18T18:02:26Z",
-    "total_servers": 1
+    "generated_at": "2026-11-19T06:18:31Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.56,
-        "90d": 97.86,
+        "30d": 89.67,
+        "90d": 97.85,
         "1y": 98.98
+      }
+    },
+    {
+      "ip": "202.152.80.38",
+      "version": 4,
+      "country_code": "bn",
+      "country": "Brunei",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "DST Multimedia Sdn Bhd",
+      "domain": "smp-80-38.simpur.net.bn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 95.0,
+        "30d": 95.4,
+        "90d": 94.84,
+        "1y": 97.28
       }
     }
   ]

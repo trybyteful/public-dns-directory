@@ -4,35 +4,35 @@
     "country_name": "Belgium",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-18T18:02:26Z",
+    "generated_at": "2026-11-19T06:18:31Z",
     "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "84.199.93.50",
+      "ip": "81.82.250.182",
       "version": 4,
       "country_code": "be",
       "country": "Belgium",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Carestel",
-      "domain": "d54c75d32.static.telenet.be",
-      "trusted": true,
+      "organization": "Telenet",
+      "domain": "d5152fab6.static.telenet.be",
+      "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 94.44,
-        "30d": 75.13,
-        "90d": 93.95,
-        "1y": 97.16
+        "24h": 25.0,
+        "30d": 18.43,
+        "90d": 14.46,
+        "1y": 14.41
       }
     },
     {
@@ -53,11 +53,11 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 94.44,
-        "30d": 98.68,
+        "24h": 95.0,
+        "30d": 98.69,
         "90d": 99.5,
         "1y": 99.36
       }
@@ -78,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 92.94,
-        "90d": 93.75,
-        "1y": 97.1
+        "24h": 95.0,
+        "30d": 92.78,
+        "90d": 93.68,
+        "1y": 97.09
       }
     },
     {
@@ -105,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 82.78,
-        "90d": 85.34,
-        "1y": 93.17
+        "24h": 80.0,
+        "30d": 82.49,
+        "90d": 85.19,
+        "1y": 93.16
       }
     }
   ]

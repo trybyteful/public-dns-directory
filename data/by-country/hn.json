@@ -4,10 +4,37 @@
     "country_name": "Honduras",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-11-18T18:02:26Z",
-    "total_servers": 3
+    "generated_at": "2026-11-19T06:18:31Z",
+    "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "190.124.166.45",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "REYTEL",
+      "domain": "block166-static45.reytelhn.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 77.9,
+        "90d": 76.99,
+        "1y": 77.48
+      }
+    },
     {
       "ip": "190.11.225.2",
       "version": 4,
@@ -30,9 +57,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.91,
-        "90d": 94.44,
-        "1y": 92.43
+        "30d": 96.94,
+        "90d": 94.45,
+        "1y": 92.44
       }
     },
     {
@@ -47,18 +74,18 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 85.65,
-        "90d": 82.77,
+        "24h": 85.0,
+        "30d": 85.78,
+        "90d": 82.66,
         "1y": 93.68
       }
     },
@@ -78,15 +105,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 94.44,
-        "30d": 58.72,
-        "90d": 60.55,
-        "1y": 59.19
+        "24h": 75.0,
+        "30d": 59.08,
+        "90d": 60.54,
+        "1y": 59.2
       }
     }
   ]

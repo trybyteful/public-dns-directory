@@ -4,8 +4,8 @@
     "country_name": "Luxembourg",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-18T18:02:26Z",
-    "total_servers": 3
+    "generated_at": "2026-11-19T06:18:31Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -36,33 +36,6 @@
       }
     },
     {
-      "ip": "92.223.105.162",
-      "version": 4,
-      "country_code": "lu",
-      "country": "Luxembourg",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "GCL",
-      "domain": "lux.1c1g",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 94.26,
-        "90d": 93.52,
-        "1y": 92.78
-      }
-    },
-    {
       "ip": "95.85.95.85",
       "version": 4,
       "country_code": "lu",
@@ -78,7 +51,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
