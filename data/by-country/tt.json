@@ -4,8 +4,8 @@
     "country_name": "Trinidad and Tobago",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-11-20T06:17:29Z",
-    "total_servers": 3
+    "generated_at": "2026-11-20T18:02:55Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -26,7 +26,7 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -52,13 +52,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 88.46,
-        "30d": 95.3,
-        "90d": 96.0,
+        "24h": 87.5,
+        "30d": 95.33,
+        "90d": 95.99,
         "1y": 98.59
       }
     },
@@ -79,14 +79,68 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 99.57,
+        "24h": 100.0,
+        "30d": 99.58,
         "90d": 99.61,
         "1y": 98.93
+      }
+    },
+    {
+      "ip": "196.3.132.154",
+      "version": 4,
+      "country_code": "tt",
+      "country": "Trinidad and Tobago",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Telecommunications Services of Trinidad and Tobago",
+      "domain": "nssec.tstt.net.tt",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 95.83,
+        "30d": 99.58,
+        "90d": 99.92,
+        "1y": 99.93
+      }
+    },
+    {
+      "ip": "200.1.104.36",
+      "version": 4,
+      "country_code": "tt",
+      "country": "Trinidad and Tobago",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Columbus Communications Trinidad Limited",
+      "domain": "ns2.flowtrinidad.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 91.67,
+        "30d": 95.33,
+        "90d": 95.87,
+        "1y": 98.54
       }
     }
   ]

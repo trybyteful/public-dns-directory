@@ -4,35 +4,89 @@
     "country_name": "Ireland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-20T06:17:29Z",
-    "total_servers": 3
+    "generated_at": "2026-11-20T18:02:55Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
-      "ip": "78.155.252.220",
+      "ip": "86.47.80.46",
       "version": 4,
       "country_code": "ie",
       "country": "Ireland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "NWE Wireless Networks Ltd.",
+      "organization": "Eircom Limited",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 88.46,
-        "30d": 91.88,
-        "90d": 93.33,
-        "1y": 97.16
+        "24h": 25.0,
+        "30d": 51.89,
+        "90d": 61.77,
+        "1y": 62.98
+      }
+    },
+    {
+      "ip": "95.45.222.78",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Eircom Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 29.17,
+        "30d": 51.89,
+        "90d": 64.63,
+        "1y": 63.76
+      }
+    },
+    {
+      "ip": "86.47.80.38",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Eircom Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 29.17,
+        "30d": 51.89,
+        "90d": 64.68,
+        "1y": 63.95
       }
     },
     {
@@ -52,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 70.79,
-        "90d": 51.87,
-        "1y": 48.73
+        "30d": 71.09,
+        "90d": 52.22,
+        "1y": 48.83
       }
     },
     {
@@ -78,7 +132,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
