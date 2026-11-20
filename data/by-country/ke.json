@@ -4,8 +4,8 @@
     "country_name": "Kenya",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-11-19T18:02:29Z",
-    "total_servers": 11
+    "generated_at": "2026-11-20T06:17:29Z",
+    "total_servers": 15
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 28.32,
-        "90d": 37.19,
-        "1y": 34.38
+        "24h": 61.54,
+        "30d": 30.11,
+        "90d": 37.14,
+        "1y": 34.44
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 56.0,
-        "30d": 68.9,
-        "90d": 61.75,
-        "1y": 65.43
+        "24h": 84.62,
+        "30d": 69.66,
+        "90d": 61.68,
+        "1y": 65.46
       }
     },
     {
@@ -78,15 +78,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.49,
-        "90d": 98.92,
+        "30d": 98.5,
+        "90d": 98.91,
         "1y": 99.5
+      }
+    },
+    {
+      "ip": "102.217.123.98",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Click-specifics",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 53.85,
+        "30d": 61.32,
+        "90d": 55.28,
+        "1y": 34.34
       }
     },
     {
@@ -107,13 +134,67 @@
       "blocking": {
         "ads": true,
         "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 69.87,
+        "90d": 67.47,
+        "1y": 68.32
+      }
+    },
+    {
+      "ip": "41.84.143.206",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "SOHO-REGIONAL",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 40.0,
-        "30d": 69.98,
-        "90d": 67.56,
-        "1y": 68.31
+        "24h": 50.0,
+        "30d": 71.79,
+        "90d": 73.6,
+        "1y": 75.39
+      }
+    },
+    {
+      "ip": "62.12.114.10",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Hosted Services",
+      "domain": "static-62-12-114-10.ips.angani.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 84.4,
+        "90d": 84.94,
+        "1y": 87.77
       }
     },
     {
@@ -133,41 +214,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.35,
-        "90d": 96.87,
-        "1y": 96.47
-      }
-    },
-    {
-      "ip": "41.206.60.22",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Doshi Ironmongers (Home Link)",
-      "domain": "41.206.60.22.accesskenya.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 84.0,
-        "30d": 82.51,
-        "90d": 53.38,
-        "1y": 45.72
+        "30d": 99.36,
+        "90d": 96.86,
+        "1y": 96.48
       }
     },
     {
@@ -192,9 +246,63 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.7,
+        "30d": 98.72,
         "90d": 98.99,
         "1y": 99.55
+      }
+    },
+    {
+      "ip": "197.155.71.114",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Maintainer Liquid Telecommunications Operations Limited",
+      "domain": "197.155.71.114.liquidtelecom.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 65.38,
+        "30d": 82.48,
+        "90d": 88.9,
+        "1y": 93.41
+      }
+    },
+    {
+      "ip": "41.84.143.137",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "SOHO-REGIONAL",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 42.31,
+        "30d": 67.31,
+        "90d": 65.74,
+        "1y": 68.68
       }
     },
     {
@@ -210,7 +318,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -218,10 +326,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 80.77,
-        "30d": 77.32,
-        "90d": 55.59,
-        "1y": 53.89
+        "24h": 73.08,
+        "30d": 77.56,
+        "90d": 56.06,
+        "1y": 53.93
       }
     },
     {
@@ -245,9 +353,9 @@
         "adult": true
       },
       "uptime": {
-        "24h": 92.0,
-        "30d": 97.41,
-        "90d": 96.44,
+        "24h": 92.31,
+        "30d": 97.44,
+        "90d": 96.43,
         "1y": 98.24
       }
     },
@@ -267,15 +375,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 40.0,
-        "30d": 65.66,
-        "90d": 62.84,
-        "1y": 59.1
+        "24h": 57.69,
+        "30d": 66.03,
+        "90d": 62.89,
+        "1y": 59.12
       }
     },
     {
@@ -300,7 +408,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.4,
+        "30d": 92.48,
         "90d": 98.59,
         "1y": 98.98
       }
