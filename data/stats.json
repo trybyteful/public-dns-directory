@@ -1,411 +1,383 @@
 {
-  "last_updated": "2026-11-20T18:02:55Z",
+  "last_updated": "2026-11-21T06:16:24Z",
   "update_frequency": "twice daily",
   "data_source": "https://dnsdirectory.com",
   "totals": {
-    "servers": 6922,
-    "servers_ipv4": 6922,
+    "servers": 6134,
+    "servers_ipv4": 6134,
     "servers_ipv6": 0,
-    "countries": 147,
+    "countries": 140,
     "continents": 6,
-    "organizations": 3005
+    "organizations": 2619
   },
   "by_feature": {
-    "online": 6922,
+    "online": 6134,
     "trusted": 18,
-    "dnssec_aware": 3514,
-    "dnssec_validating": 2671,
-    "ad_blocking": 2841,
-    "malware_blocking": 3276,
-    "adult_blocking": 2703,
-    "anycast": 1099,
-    "high_uptime_30d": 2028
+    "dnssec_aware": 3206,
+    "dnssec_validating": 2407,
+    "ad_blocking": 2093,
+    "malware_blocking": 2318,
+    "adult_blocking": 2216,
+    "anycast": 1082,
+    "high_uptime_30d": 1932
   },
   "by_continent": {
     "af": {
       "name": "Africa",
-      "count": 137
+      "count": 95
     },
     "as": {
       "name": "Asia",
-      "count": 1683
+      "count": 1567
     },
     "eu": {
       "name": "Europe",
-      "count": 2797
+      "count": 2425
     },
     "na": {
       "name": "North America",
-      "count": 1915
+      "count": 1703
     },
     "oc": {
       "name": "Oceania",
-      "count": 55
+      "count": 51
     },
     "sa": {
       "name": "South America",
-      "count": 335
+      "count": 293
     }
   },
   "by_country": {
     "ru": {
       "name": "Russia",
-      "count": 1175
+      "count": 1027
     },
     "us": {
       "name": "United States",
-      "count": 991
+      "count": 801
     },
     "ca": {
       "name": "Canada",
-      "count": 807
+      "count": 798
     },
     "kr": {
       "name": "South Korea",
-      "count": 265
-    },
-    "pl": {
-      "name": "Poland",
-      "count": 235
+      "count": 268
     },
     "bd": {
       "name": "Bangladesh",
-      "count": 205
+      "count": 203
+    },
+    "pl": {
+      "name": "Poland",
+      "count": 193
     },
     "ph": {
       "name": "Philippines",
-      "count": 162
+      "count": 161
     },
     "fr": {
       "name": "France",
-      "count": 158
+      "count": 144
     },
     "de": {
       "name": "Germany",
-      "count": 158
-    },
-    "br": {
-      "name": "Brazil",
-      "count": 127
+      "count": 140
     },
     "id": {
       "name": "Indonesia",
-      "count": 120
+      "count": 101
     },
-    "th": {
-      "name": "Thailand",
-      "count": 111
+    "br": {
+      "name": "Brazil",
+      "count": 99
     },
     "jp": {
       "name": "Japan",
-      "count": 103
+      "count": 94
     },
     "cn": {
       "name": "China",
-      "count": 98
-    },
-    "gb": {
-      "name": "United Kingdom",
-      "count": 88
+      "count": 94
     },
     "vn": {
       "name": "Vietnam",
-      "count": 86
-    },
-    "it": {
-      "name": "Italy",
-      "count": 85
-    },
-    "ua": {
-      "name": "Ukraine",
-      "count": 81
-    },
-    "tw": {
-      "name": "Taiwan",
-      "count": 78
+      "count": 87
     },
     "in": {
       "name": "India",
-      "count": 78
+      "count": 87
     },
-    "es": {
-      "name": "Spain",
-      "count": 75
-    },
-    "ro": {
-      "name": "Romania",
-      "count": 69
-    },
-    "mx": {
-      "name": "Mexico",
-      "count": 69
+    "th": {
+      "name": "Thailand",
+      "count": 83
     },
     "co": {
       "name": "Colombia",
-      "count": 67
+      "count": 79
     },
-    "rs": {
-      "name": "Serbia",
-      "count": 66
+    "ua": {
+      "name": "Ukraine",
+      "count": 77
     },
-    "bg": {
-      "name": "Bulgaria",
-      "count": 66
+    "it": {
+      "name": "Italy",
+      "count": 77
+    },
+    "gb": {
+      "name": "United Kingdom",
+      "count": 76
+    },
+    "es": {
+      "name": "Spain",
+      "count": 74
     },
     "hk": {
       "name": "Hong Kong",
-      "count": 63
+      "count": 68
     },
-    "ar": {
-      "name": "Argentina",
+    "ro": {
+      "name": "Romania",
       "count": 60
     },
-    "za": {
-      "name": "South Africa",
-      "count": 54
+    "mx": {
+      "name": "Mexico",
+      "count": 60
+    },
+    "bg": {
+      "name": "Bulgaria",
+      "count": 53
     },
     "cz": {
       "name": "Czechia",
-      "count": 53
+      "count": 51
+    },
+    "ar": {
+      "name": "Argentina",
+      "count": 51
+    },
+    "rs": {
+      "name": "Serbia",
+      "count": 47
     },
     "au": {
       "name": "Australia",
-      "count": 49
+      "count": 47
+    },
+    "tw": {
+      "name": "Taiwan",
+      "count": 45
     },
     "sg": {
       "name": "Singapore",
-      "count": 47
-    },
-    "hu": {
-      "name": "Hungary",
-      "count": 47
+      "count": 44
     },
     "nl": {
       "name": "The Netherlands",
       "count": 44
     },
+    "lt": {
+      "name": "Lithuania",
+      "count": 36
+    },
+    "hu": {
+      "name": "Hungary",
+      "count": 36
+    },
+    "za": {
+      "name": "South Africa",
+      "count": 31
+    },
     "se": {
       "name": "Sweden",
-      "count": 37
+      "count": 31
     },
     "ch": {
       "name": "Switzerland",
-      "count": 32
-    },
-    "lt": {
-      "name": "Lithuania",
-      "count": 30
-    },
-    "no": {
-      "name": "Norway",
-      "count": 27
-    },
-    "my": {
-      "name": "Malaysia",
       "count": 27
     },
     "tr": {
       "name": "Turkey",
       "count": 26
     },
-    "hr": {
-      "name": "Croatia",
+    "my": {
+      "name": "Malaysia",
       "count": 26
     },
     "sk": {
       "name": "Slovakia",
       "count": 23
     },
-    "gr": {
-      "name": "Greece",
-      "count": 23
+    "no": {
+      "name": "Norway",
+      "count": 22
     },
-    "dk": {
-      "name": "Denmark",
-      "count": 23
+    "hr": {
+      "name": "Croatia",
+      "count": 21
     },
     "pk": {
       "name": "Pakistan",
-      "count": 22
-    },
-    "cl": {
-      "name": "Chile",
-      "count": 21
-    },
-    "lv": {
-      "name": "Latvia",
-      "count": 20
+      "count": 19
     },
     "il": {
       "name": "Israel",
       "count": 19
     },
-    "ec": {
-      "name": "Ecuador",
+    "gr": {
+      "name": "Greece",
       "count": 19
     },
-    "om": {
-      "name": "Oman",
+    "cl": {
+      "name": "Chile",
+      "count": 19
+    },
+    "ec": {
+      "name": "Ecuador",
       "count": 18
     },
-    "ge": {
-      "name": "Georgia",
+    "dk": {
+      "name": "Denmark",
       "count": 18
-    },
-    "cy": {
-      "name": "Cyprus",
-      "count": 18
-    },
-    "pe": {
-      "name": "Peru",
-      "count": 17
-    },
-    "by": {
-      "name": "Belarus",
-      "count": 17
-    },
-    "ke": {
-      "name": "Kenya",
-      "count": 16
     },
     "pt": {
       "name": "Portugal",
-      "count": 15
+      "count": 17
     },
-    "al": {
-      "name": "Albania",
-      "count": 15
+    "om": {
+      "name": "Oman",
+      "count": 16
     },
-    "ae": {
-      "name": "United Arab Emirates",
+    "by": {
+      "name": "Belarus",
+      "count": 16
+    },
+    "ge": {
+      "name": "Georgia",
       "count": 14
     },
-    "do": {
-      "name": "Dominican Republic",
-      "count": 13
+    "cy": {
+      "name": "Cyprus",
+      "count": 14
     },
-    "at": {
-      "name": "Austria",
+    "lv": {
+      "name": "Latvia",
       "count": 13
     },
     "kg": {
       "name": "Kyrgyzstan",
-      "count": 12
-    },
-    "am": {
-      "name": "Armenia",
-      "count": 12
-    },
-    "tn": {
-      "name": "Tunisia",
-      "count": 11
-    },
-    "si": {
-      "name": "Slovenia",
-      "count": 11
-    },
-    "kz": {
-      "name": "Kazakhstan",
-      "count": 11
-    },
-    "ba": {
-      "name": "Bosnia and Herzegovina",
-      "count": 11
+      "count": 13
     },
     "mn": {
       "name": "Mongolia",
+      "count": 12
+    },
+    "do": {
+      "name": "Dominican Republic",
+      "count": 12
+    },
+    "ke": {
+      "name": "Kenya",
+      "count": 11
+    },
+    "pe": {
+      "name": "Peru",
       "count": 10
     },
-    "ng": {
-      "name": "Nigeria",
-      "count": 9
+    "kz": {
+      "name": "Kazakhstan",
+      "count": 10
+    },
+    "al": {
+      "name": "Albania",
+      "count": 10
     },
     "mo": {
       "name": "Macao",
       "count": 9
     },
-    "md": {
-      "name": "Moldova",
+    "at": {
+      "name": "Austria",
       "count": 9
-    },
-    "cr": {
-      "name": "Costa Rica",
-      "count": 9
-    },
-    "xk": {
-      "name": "Kosovo",
-      "count": 8
-    },
-    "py": {
-      "name": "Paraguay",
-      "count": 8
-    },
-    "mk": {
-      "name": "North Macedonia",
-      "count": 8
-    },
-    "ir": {
-      "name": "Iran",
-      "count": 8
     },
     "uz": {
       "name": "Uzbekistan",
+      "count": 8
+    },
+    "si": {
+      "name": "Slovenia",
+      "count": 8
+    },
+    "ng": {
+      "name": "Nigeria",
+      "count": 8
+    },
+    "tn": {
+      "name": "Tunisia",
       "count": 7
     },
-    "tj": {
-      "name": "Tajikistan",
+    "py": {
+      "name": "Paraguay",
       "count": 7
+    },
+    "cr": {
+      "name": "Costa Rica",
+      "count": 7
+    },
+    "ba": {
+      "name": "Bosnia and Herzegovina",
+      "count": 7
+    },
+    "am": {
+      "name": "Armenia",
+      "count": 7
+    },
+    "md": {
+      "name": "Moldova",
+      "count": 6
+    },
+    "ir": {
+      "name": "Iran",
+      "count": 6
     },
     "bo": {
       "name": "Bolivia",
-      "count": 7
-    },
-    "sa": {
-      "name": "Saudi Arabia",
       "count": 6
-    },
-    "lb": {
-      "name": "Lebanon",
-      "count": 6
-    },
-    "iq": {
-      "name": "Iraq",
-      "count": 6
-    },
-    "fi": {
-      "name": "Finland",
-      "count": 6
-    },
-    "ve": {
-      "name": "Venezuela",
-      "count": 5
     },
     "tt": {
       "name": "Trinidad and Tobago",
+      "count": 5
+    },
+    "tj": {
+      "name": "Tajikistan",
+      "count": 5
+    },
+    "sa": {
+      "name": "Saudi Arabia",
+      "count": 5
+    },
+    "mk": {
+      "name": "North Macedonia",
       "count": 5
     },
     "ma": {
       "name": "Morocco",
       "count": 5
     },
-    "ie": {
-      "name": "Ireland",
-      "count": 5
-    },
-    "gh": {
-      "name": "Ghana",
-      "count": 5
-    },
-    "ye": {
-      "name": "Yemen",
-      "count": 4
-    },
-    "sv": {
-      "name": "El Salvador",
-      "count": 4
-    },
     "ly": {
       "name": "Libya",
+      "count": 5
+    },
+    "ps": {
+      "name": "Palestine",
+      "count": 4
+    },
+    "lb": {
+      "name": "Lebanon",
+      "count": 4
+    },
+    "iq": {
+      "name": "Iraq",
       "count": 4
     },
     "hn": {
@@ -420,24 +392,24 @@
       "name": "Egypt",
       "count": 4
     },
-    "ee": {
-      "name": "Estonia",
-      "count": 4
-    },
     "be": {
       "name": "Belgium",
       "count": 4
     },
-    "zw": {
-      "name": "Zimbabwe",
+    "ae": {
+      "name": "United Arab Emirates",
+      "count": 4
+    },
+    "xk": {
+      "name": "Kosovo",
       "count": 3
     },
-    "uy": {
-      "name": "Uruguay",
+    "ve": {
+      "name": "Venezuela",
       "count": 3
     },
-    "ps": {
-      "name": "Palestine",
+    "sv": {
+      "name": "El Salvador",
       "count": 3
     },
     "lu": {
@@ -448,20 +420,28 @@
       "name": "Laos",
       "count": 3
     },
-    "kw": {
-      "name": "Kuwait",
+    "kh": {
+      "name": "Cambodia",
       "count": 3
     },
-    "ad": {
-      "name": "Andorra",
+    "ie": {
+      "name": "Ireland",
       "count": 3
+    },
+    "gh": {
+      "name": "Ghana",
+      "count": 3
+    },
+    "fi": {
+      "name": "Finland",
+      "count": 3
+    },
+    "ye": {
+      "name": "Yemen",
+      "count": 2
     },
     "ug": {
       "name": "Uganda",
-      "count": 2
-    },
-    "sz": {
-      "name": "Eswatini",
       "count": 2
     },
     "sy": {
@@ -472,20 +452,8 @@
       "name": "Rwanda",
       "count": 2
     },
-    "nz": {
-      "name": "New Zealand",
-      "count": 2
-    },
-    "np": {
-      "name": "Nepal",
-      "count": 2
-    },
     "ni": {
       "name": "Nicaragua",
-      "count": 2
-    },
-    "na": {
-      "name": "Namibia",
       "count": 2
     },
     "mv": {
@@ -496,20 +464,20 @@
       "name": "Mali",
       "count": 2
     },
-    "me": {
-      "name": "Montenegro",
+    "kw": {
+      "name": "Kuwait",
       "count": 2
     },
     "jo": {
       "name": "Jordan",
       "count": 2
     },
-    "is": {
-      "name": "Iceland",
+    "gn": {
+      "name": "Guinea",
       "count": 2
     },
-    "cv": {
-      "name": "Cabo Verde",
+    "ee": {
+      "name": "Estonia",
       "count": 2
     },
     "bs": {
@@ -520,17 +488,17 @@
       "name": "Brunei",
       "count": 2
     },
-    "bh": {
-      "name": "Bahrain",
+    "bj": {
+      "name": "Benin",
       "count": 2
     },
-    "bf": {
-      "name": "Burkina Faso",
+    "ad": {
+      "name": "Andorra",
       "count": 2
     },
-    "ao": {
-      "name": "Angola",
-      "count": 2
+    "zw": {
+      "name": "Zimbabwe",
+      "count": 1
     },
     "zm": {
       "name": "Zambia",
@@ -544,8 +512,8 @@
       "name": "Tanzania",
       "count": 1
     },
-    "tl": {
-      "name": "Timor-Leste",
+    "sz": {
+      "name": "Eswatini",
       "count": 1
     },
     "sr": {
@@ -564,10 +532,6 @@
       "name": "Réunion",
       "count": 1
     },
-    "qa": {
-      "name": "Qatar",
-      "count": 1
-    },
     "pg": {
       "name": "Papua New Guinea",
       "count": 1
@@ -580,16 +544,12 @@
       "name": "Panama",
       "count": 1
     },
-    "mz": {
-      "name": "Mozambique",
+    "nz": {
+      "name": "New Zealand",
       "count": 1
     },
-    "mw": {
-      "name": "Malawi",
-      "count": 1
-    },
-    "mu": {
-      "name": "Mauritius",
+    "np": {
+      "name": "Nepal",
       "count": 1
     },
     "mr": {
@@ -600,24 +560,24 @@
       "name": "Martinique",
       "count": 1
     },
-    "mm": {
-      "name": "Myanmar",
+    "me": {
+      "name": "Montenegro",
       "count": 1
     },
     "li": {
       "name": "Liechtenstein",
       "count": 1
     },
-    "kh": {
-      "name": "Cambodia",
+    "is": {
+      "name": "Iceland",
       "count": 1
     },
     "gu": {
       "name": "Guam",
       "count": 1
     },
-    "gn": {
-      "name": "Guinea",
+    "cv": {
+      "name": "Cabo Verde",
       "count": 1
     },
     "cu": {
@@ -628,8 +588,20 @@
       "name": "Burundi",
       "count": 1
     },
+    "bh": {
+      "name": "Bahrain",
+      "count": 1
+    },
+    "bf": {
+      "name": "Burkina Faso",
+      "count": 1
+    },
     "aw": {
       "name": "Aruba",
+      "count": 1
+    },
+    "ao": {
+      "name": "Angola",
       "count": 1
     },
     "af": {
@@ -644,55 +616,43 @@
     },
     {
       "name": "Akamai Technologies, Inc.",
-      "count": 156
-    },
-    {
-      "name": "Aliyun Computing Co., LTD",
-      "count": 87
+      "count": 162
     },
     {
       "name": "Philippine Long Distance Telephone Company",
-      "count": 81
+      "count": 84
     },
     {
-      "name": "Level 3, LLC",
-      "count": 70
-    },
-    {
-      "name": "Chunghwa Telecom Co. Ltd.",
-      "count": 65
-    },
-    {
-      "name": "Hotwire Business Solutions",
-      "count": 64
-    },
-    {
-      "name": "Kornet",
-      "count": 64
+      "name": "Aliyun Computing Co., LTD",
+      "count": 82
     },
     {
       "name": "Akamai",
-      "count": 56
+      "count": 69
+    },
+    {
+      "name": "Level 3, LLC",
+      "count": 68
+    },
+    {
+      "name": "Kornet",
+      "count": 66
     },
     {
       "name": "OJSC Rostelecom Macroregional Branch South",
       "count": 55
     },
     {
-      "name": "Hotwire Fision",
-      "count": 49
-    },
-    {
       "name": "Comcast Cable Communications, LLC",
-      "count": 47
+      "count": 38
     },
     {
-      "name": "Vercara, LLC",
-      "count": 45
+      "name": "Chunghwa Telecom Co. Ltd.",
+      "count": 33
     },
     {
       "name": "OJSC Rostelecom",
-      "count": 37
+      "count": 33
     },
     {
       "name": "OJSC Sibirtelecom",
@@ -700,23 +660,35 @@
     },
     {
       "name": "JSC North-West Telecom",
-      "count": 29
-    },
-    {
-      "name": "broadNnet",
-      "count": 29
-    },
-    {
-      "name": "CenturyLink Communications, LLC",
-      "count": 26
+      "count": 30
     },
     {
       "name": "Korea Telecom",
-      "count": 25
+      "count": 30
+    },
+    {
+      "name": "broadNnet",
+      "count": 26
     },
     {
       "name": "Vietnam Posts and Telecommunications Group",
       "count": 24
+    },
+    {
+      "name": "Hotwire Fision",
+      "count": 23
+    },
+    {
+      "name": "Spectrum",
+      "count": 23
+    },
+    {
+      "name": "Telia Lietuva, AB",
+      "count": 23
+    },
+    {
+      "name": "Telmex Colombia S.A.",
+      "count": 23
     }
   ]
 }
