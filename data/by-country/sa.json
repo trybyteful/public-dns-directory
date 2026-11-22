@@ -4,8 +4,8 @@
     "country_name": "Saudi Arabia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-21T18:02:21Z",
-    "total_servers": 5
+    "generated_at": "2026-11-22T06:16:22Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -24,9 +24,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -51,15 +51,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 98.95,
-        "90d": 99.06,
+        "90d": 99.05,
         "1y": 99.64
+      }
+    },
+    {
+      "ip": "87.101.204.72",
+      "version": 4,
+      "country_code": "sa",
+      "country": "Saudi Arabia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Khalid Ali AlTurki and Sons Co",
+      "domain": "hrpms.alturkigroup.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 45.83,
+        "30d": 96.44,
+        "90d": 97.75,
+        "1y": 99.06
       }
     },
     {
@@ -79,8 +106,8 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -111,9 +138,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.42,
+        "30d": 96.44,
         "90d": 98.11,
-        "1y": 64.18
+        "1y": 64.23
       }
     },
     {
@@ -132,13 +159,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.53,
+        "30d": 98.54,
         "90d": 99.21,
         "1y": 99.69
       }

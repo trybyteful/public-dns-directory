@@ -4,7 +4,7 @@
     "country_name": "Trinidad and Tobago",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-11-21T18:02:21Z",
+    "generated_at": "2026-11-22T06:16:22Z",
     "total_servers": 5
   },
   "resolvers": [
@@ -24,8 +24,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 95.37,
-        "90d": 95.95,
-        "1y": 98.6
+        "24h": 95.83,
+        "30d": 95.18,
+        "90d": 95.9,
+        "1y": 98.59
       }
     },
     {
@@ -107,7 +107,7 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -128,19 +128,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.0,
-        "90d": 95.83,
-        "1y": 98.54
+        "30d": 96.03,
+        "90d": 95.82,
+        "1y": 98.55
       }
     }
   ]

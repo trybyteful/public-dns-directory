@@ -4,8 +4,8 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-21T18:02:21Z",
-    "total_servers": 6
+    "generated_at": "2026-11-22T06:16:22Z",
+    "total_servers": 7
   },
   "resolvers": [
     {
@@ -24,7 +24,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
@@ -53,13 +53,40 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 91.3,
+        "24h": 91.67,
         "30d": 99.58,
         "90d": 99.8,
         "1y": 99.06
+      }
+    },
+    {
+      "ip": "2.189.44.44",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Iran Information Technology Company PJSC",
+      "domain": "anycast.ticdns.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 33.33,
+        "30d": 77.41,
+        "90d": 94.99,
+        "1y": 95.99
       }
     },
     {
@@ -75,15 +102,15 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 91.3,
+        "24h": 95.45,
         "30d": 99.58,
         "90d": 99.76,
         "1y": 99.61
@@ -105,9 +132,9 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -129,18 +156,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 60.87,
-        "30d": 86.76,
-        "90d": 86.76,
-        "1y": 86.76
+        "24h": 65.22,
+        "30d": 85.9,
+        "90d": 85.9,
+        "1y": 85.9
       }
     },
     {
@@ -156,12 +183,12 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,

@@ -4,8 +4,8 @@
     "country_name": "Austria",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-21T18:02:21Z",
-    "total_servers": 7
+    "generated_at": "2026-11-22T06:16:22Z",
+    "total_servers": 8
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 86.53,
-        "90d": 87.07,
-        "1y": 87.27
+        "30d": 86.79,
+        "90d": 87.1,
+        "1y": 87.29
       }
     },
     {
@@ -48,18 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 89.68,
-        "90d": 84.12,
-        "1y": 82.3
+        "24h": 95.65,
+        "30d": 89.94,
+        "90d": 84.06,
+        "1y": 82.31
       }
     },
     {
@@ -78,15 +78,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 95.65,
-        "30d": 90.95,
-        "90d": 90.25,
-        "1y": 84.55
+        "24h": 100.0,
+        "30d": 90.97,
+        "90d": 90.21,
+        "1y": 84.57
       }
     },
     {
@@ -105,26 +105,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.16,
-        "90d": 95.56,
+        "30d": 95.18,
+        "90d": 95.54,
         "1y": 97.86
       }
     },
     {
-      "ip": "83.137.41.9",
+      "ip": "195.192.86.170",
       "version": 4,
       "country_code": "at",
       "country": "Austria",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "nemox.net Informationstechnologie OG",
-      "domain": "dns2.nemox.net",
+      "organization": "SALZBURG AG fur Energie, Verkehr und Telekommunikation",
+      "domain": "195-192-86-170.dyn.cablelink.at",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -134,13 +134,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 65.22,
-        "30d": 98.32,
-        "90d": 99.69,
-        "1y": 99.87
+        "24h": 20.83,
+        "30d": 30.29,
+        "90d": 20.9,
+        "1y": 22.23
       }
     },
     {
@@ -156,10 +156,10 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": true
       },
@@ -168,6 +168,33 @@
         "30d": 99.79,
         "90d": 99.96,
         "1y": 99.97
+      }
+    },
+    {
+      "ip": "83.137.41.8",
+      "version": 4,
+      "country_code": "at",
+      "country": "Austria",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "nemox.net Informationstechnologie OG",
+      "domain": "dns1.nemox.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 60.87,
+        "30d": 96.86,
+        "90d": 99.13,
+        "1y": 99.21
       }
     },
     {
@@ -193,8 +220,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 98.53,
-        "90d": 98.0,
-        "1y": 99.16
+        "90d": 97.99,
+        "1y": 99.17
       }
     }
   ]
