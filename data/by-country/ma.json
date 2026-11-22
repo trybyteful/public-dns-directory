@@ -4,37 +4,10 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-11-22T06:16:22Z",
-    "total_servers": 6
+    "generated_at": "2026-11-22T18:02:19Z",
+    "total_servers": 5
   },
   "resolvers": [
-    {
-      "ip": "102.50.253.95",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Maroc telecom static ip adress",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.03,
-        "90d": 93.34,
-        "1y": 94.96
-      }
-    },
     {
       "ip": "41.87.158.170",
       "version": 4,
@@ -52,14 +25,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.6,
-        "90d": 90.28,
-        "1y": 78.62
+        "30d": 91.79,
+        "90d": 90.39,
+        "1y": 78.7
+      }
+    },
+    {
+      "ip": "41.87.158.142",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Fixed",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 57.89,
+        "30d": 36.84,
+        "90d": 15.0,
+        "1y": 10.8
       }
     },
     {
@@ -78,42 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 81.82,
-        "30d": 64.84,
-        "90d": 56.01,
-        "1y": 53.59
-      }
-    },
-    {
-      "ip": "81.192.193.223",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "IAM",
-      "domain": "adsl-223-193-192-81.adsl.iam.net.ma",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
         "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 36.36,
-        "30d": 32.27,
-        "90d": 25.14,
-        "1y": 12.53
+        "24h": 89.47,
+        "30d": 68.01,
+        "90d": 56.11,
+        "1y": 53.64
       }
     },
     {
@@ -132,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.87,
-        "90d": 90.58,
-        "1y": 83.44
+        "30d": 93.26,
+        "90d": 90.59,
+        "1y": 83.47
       }
     },
     {
@@ -156,18 +129,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.12,
-        "90d": 91.05,
-        "1y": 96.16
+        "30d": 89.89,
+        "90d": 90.99,
+        "1y": 96.17
       }
     }
   ]
