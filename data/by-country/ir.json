@@ -4,8 +4,8 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-23T06:24:48Z",
-    "total_servers": 7
+    "generated_at": "2026-11-23T18:03:00Z",
+    "total_servers": 8
   },
   "resolvers": [
     {
@@ -21,16 +21,16 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.37,
+        "30d": 99.38,
         "90d": 99.8,
         "1y": 99.7
       }
@@ -48,18 +48,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 98.74,
+        "24h": 90.48,
+        "30d": 98.75,
         "90d": 99.64,
         "1y": 99.01
+      }
+    },
+    {
+      "ip": "2.189.44.44",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Iran Information Technology Company PJSC",
+      "domain": "anycast.ticdns.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 57.14,
+        "30d": 74.17,
+        "90d": 94.29,
+        "1y": 95.79
       }
     },
     {
@@ -79,14 +106,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 63.16,
-        "30d": 95.61,
-        "90d": 90.94,
-        "1y": 73.32
+        "24h": 85.71,
+        "30d": 95.62,
+        "90d": 90.99,
+        "1y": 73.37
       }
     },
     {
@@ -105,13 +132,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 47.37,
-        "30d": 97.49,
+        "24h": 66.67,
+        "30d": 97.5,
         "90d": 99.36,
         "1y": 99.48
       }
@@ -159,15 +186,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "ads": true,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 89.47,
-        "30d": 86.6,
-        "90d": 86.6,
-        "1y": 86.6
+        "24h": 100.0,
+        "30d": 87.85,
+        "90d": 87.85,
+        "1y": 87.85
       }
     },
     {
@@ -188,7 +215,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
