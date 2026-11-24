@@ -4,8 +4,8 @@
     "country_name": "Finland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-24T06:18:46Z",
-    "total_servers": 4
+    "generated_at": "2026-11-24T18:03:00Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -24,14 +24,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.22,
-        "90d": 95.6,
+        "30d": 95.38,
+        "90d": 95.57,
         "1y": 97.16
       }
     },
@@ -48,7 +48,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -57,9 +57,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 55.9,
-        "90d": 67.61,
-        "1y": 72.02
+        "30d": 55.7,
+        "90d": 67.84,
+        "1y": 72.03
+      }
+    },
+    {
+      "ip": "80.186.145.164",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Elisa Oyj",
+      "domain": "80-186-145-164.elisa-mobile.fi",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 73.95,
+        "90d": 83.48,
+        "1y": 87.42
       }
     },
     {
@@ -79,13 +106,13 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 95.0,
-        "30d": 95.22,
-        "90d": 98.84,
+        "24h": 100.0,
+        "30d": 95.38,
+        "90d": 98.83,
         "1y": 99.32
       }
     },
@@ -111,9 +138,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.64,
-        "90d": 92.64,
-        "1y": 92.88
+        "30d": 90.55,
+        "90d": 92.63,
+        "1y": 92.89
       }
     }
   ]

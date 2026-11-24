@@ -4,7 +4,7 @@
     "country_name": "Guatemala",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-11-24T06:18:46Z",
+    "generated_at": "2026-11-24T18:03:00Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -21,17 +21,17 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 78.79,
-        "90d": 74.63,
+        "24h": 66.67,
+        "30d": 78.36,
+        "90d": 74.54,
         "1y": 67.67
       }
     },
@@ -51,14 +51,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.58,
-        "90d": 96.36,
+        "90d": 96.38,
         "1y": 98.03
       }
     },
@@ -78,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 95.0,
-        "30d": 88.98,
+        "24h": 91.67,
+        "30d": 89.29,
         "90d": 87.27,
-        "1y": 86.96
+        "1y": 86.97
       }
     },
     {
@@ -106,14 +106,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 77.34,
-        "90d": 71.07,
-        "1y": 71.75
+        "24h": 75.0,
+        "30d": 77.1,
+        "90d": 71.19,
+        "1y": 71.77
       }
     }
   ]
