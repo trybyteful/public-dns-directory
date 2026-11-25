@@ -4,7 +4,7 @@
     "country_name": "Ireland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-11-24T18:03:00Z",
+    "generated_at": "2026-11-25T06:19:21Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -21,7 +21,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -29,10 +29,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 58.33,
-        "30d": 51.47,
-        "90d": 54.11,
-        "1y": 55.24
+        "24h": 75.0,
+        "30d": 51.15,
+        "90d": 54.35,
+        "1y": 55.26
       }
     },
     {
@@ -53,12 +53,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 90.34,
-        "90d": 92.63,
+        "24h": 100.0,
+        "30d": 90.57,
+        "90d": 92.59,
         "1y": 97.03
       }
     },
@@ -78,15 +78,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 73.24,
-        "90d": 54.26,
-        "1y": 49.1
+        "24h": 75.0,
+        "30d": 73.67,
+        "90d": 54.38,
+        "1y": 49.13
       }
     },
     {
@@ -111,8 +111,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.85,
-        "90d": 99.4,
+        "30d": 96.86,
+        "90d": 99.39,
         "1y": 99.8
       }
     }

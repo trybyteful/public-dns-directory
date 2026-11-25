@@ -4,10 +4,37 @@
     "country_name": "Tajikistan",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-24T18:03:00Z",
-    "total_servers": 5
+    "generated_at": "2026-11-25T06:19:21Z",
+    "total_servers": 7
   },
   "resolvers": [
+    {
+      "ip": "85.9.128.229",
+      "version": 4,
+      "country_code": "tj",
+      "country": "Tajikistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Tacom Network",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 62.26,
+        "90d": 55.16,
+        "1y": 46.38
+      }
+    },
     {
       "ip": "85.9.129.36",
       "version": 4,
@@ -25,7 +52,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -51,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 53.11,
-        "90d": 39.08,
-        "1y": 36.65
+        "30d": 54.18,
+        "90d": 39.31,
+        "1y": 36.73
       }
     },
     {
@@ -80,7 +107,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -105,15 +132,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 72.42,
-        "90d": 60.42,
-        "1y": 45.83
+        "24h": 100.0,
+        "30d": 72.73,
+        "90d": 60.7,
+        "1y": 45.91
       }
     },
     {
@@ -138,9 +165,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.11,
-        "90d": 86.96,
-        "1y": 86.96
+        "30d": 98.32,
+        "90d": 87.02,
+        "1y": 87.02
+      }
+    },
+    {
+      "ip": "85.9.133.77",
+      "version": 4,
+      "country_code": "tj",
+      "country": "Tajikistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Tacom Network",
+      "domain": "85-9-133-77.tacom.tj",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 71.05,
+        "90d": 58.13,
+        "1y": 54.3
       }
     }
   ]

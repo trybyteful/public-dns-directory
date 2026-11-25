@@ -4,7 +4,7 @@
     "country_name": "Mozambique",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-11-24T06:18:46Z",
+    "generated_at": "2026-11-25T06:19:21Z",
     "total_servers": 1
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 62.27,
-        "90d": 54.84,
-        "1y": 52.1
+        "24h": 33.33,
+        "30d": 61.54,
+        "90d": 54.55,
+        "1y": 52.05
       }
     }
   ]
