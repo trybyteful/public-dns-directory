@@ -4,7 +4,7 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-11-26T06:18:48Z",
+    "generated_at": "2026-11-26T18:02:48Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -16,7 +16,7 @@
       "continent_code": "na",
       "continent": "North America",
       "organization": "SVNet",
-      "domain": "ns.telecam.com.sv",
+      "domain": "distributions.telecam.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -24,9 +24,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -78,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 81.25,
-        "30d": 89.02,
-        "90d": 80.54,
-        "1y": 73.61
+        "24h": 86.67,
+        "30d": 89.05,
+        "90d": 80.41,
+        "1y": 73.68
       }
     }
   ]
