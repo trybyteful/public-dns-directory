@@ -4,8 +4,8 @@
     "country_name": "Honduras",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-11-25T18:02:48Z",
-    "total_servers": 4
+    "generated_at": "2026-11-26T06:18:48Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -29,10 +29,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 73.33,
-        "30d": 75.89,
-        "90d": 77.12,
-        "1y": 77.39
+        "24h": 87.5,
+        "30d": 76.51,
+        "90d": 77.13,
+        "1y": 77.4
       }
     },
     {
@@ -51,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.11,
-        "90d": 95.04,
-        "1y": 92.57
+        "30d": 98.13,
+        "90d": 95.11,
+        "1y": 92.58
+      }
+    },
+    {
+      "ip": "190.92.7.76",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "UNIPOLE",
+      "domain": "maicabe.tecnocolor.hn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 43.75,
+        "30d": 28.3,
+        "90d": 15.93,
+        "1y": 20.74
       }
     },
     {
@@ -78,26 +105,26 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 87.84,
-        "90d": 82.68,
+        "24h": 93.75,
+        "30d": 88.15,
+        "90d": 82.59,
         "1y": 93.65
       }
     },
     {
-      "ip": "201.190.11.254",
+      "ip": "190.5.81.230",
       "version": 4,
       "country_code": "hn",
       "country": "Honduras",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "SERCOM de Honduras",
-      "domain": null,
+      "organization": "LIBERTY NETWORKS HONDURAS, SOCIEDAD DE RESPONSABILIDAD LIMITADA",
+      "domain": "190.5.81.230.multidatahn.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -105,15 +132,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 77.57,
-        "90d": 64.84,
-        "1y": 67.4
+        "24h": 18.75,
+        "30d": 62.16,
+        "90d": 61.39,
+        "1y": 59.15
       }
     }
   ]
