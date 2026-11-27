@@ -4,37 +4,10 @@
     "country_name": "Philippines",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-26T18:02:48Z",
-    "total_servers": 162
+    "generated_at": "2026-11-27T06:18:51Z",
+    "total_servers": 159
   },
   "resolvers": [
-    {
-      "ip": "103.95.148.6",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Telmarc Corporation",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 69.92,
-        "90d": 62.25,
-        "1y": 56.81
-      }
-    },
     {
       "ip": "27.110.245.97",
       "version": 4,
@@ -52,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.53,
-        "90d": 86.07,
-        "1y": 92.7
+        "30d": 93.37,
+        "90d": 86.02,
+        "1y": 92.71
       }
     },
     {
@@ -79,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.76,
-        "90d": 83.24,
-        "1y": 88.53
+        "30d": 88.02,
+        "90d": 83.2,
+        "1y": 88.54
       }
     },
     {
@@ -106,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.85,
-        "90d": 89.96,
-        "1y": 94.66
+        "30d": 96.07,
+        "90d": 89.93,
+        "1y": 94.67
       }
     },
     {
@@ -138,9 +111,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.02,
-        "90d": 88.73,
-        "1y": 94.3
+        "30d": 95.25,
+        "90d": 88.7,
+        "1y": 94.31
+      }
+    },
+    {
+      "ip": "119.92.143.96",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "119.92.143.96.static.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 26.67,
+        "30d": 90.7,
+        "90d": 73.26,
+        "1y": 72.1
       }
     },
     {
@@ -165,9 +165,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.63,
-        "90d": 80.99,
-        "1y": 88.53
+        "30d": 89.86,
+        "90d": 80.91,
+        "1y": 88.54
       }
     },
     {
@@ -188,13 +188,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 38.37,
-        "90d": 35.34,
-        "1y": 37.86
+        "30d": 39.76,
+        "90d": 35.58,
+        "1y": 37.92
       }
     },
     {
@@ -213,14 +213,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.36,
-        "90d": 87.38,
+        "30d": 93.39,
+        "90d": 87.36,
         "1y": 92.01
       }
     },
@@ -242,13 +242,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.95,
-        "90d": 84.78,
-        "1y": 89.6
+        "30d": 92.98,
+        "90d": 84.81,
+        "1y": 89.61
       }
     },
     {
@@ -269,40 +269,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 81.54,
-        "90d": 72.12,
-        "1y": 53.0
-      }
-    },
-    {
-      "ip": "222.127.25.226",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Globe-WIZ GRAND CAPRICE",
-      "domain": "hari-realm.hyundai-asia.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 80.22,
-        "90d": 70.72,
-        "1y": 75.79
+        "30d": 81.78,
+        "90d": 72.34,
+        "1y": 53.28
       }
     },
     {
@@ -321,14 +294,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.85,
-        "90d": 86.35,
+        "30d": 95.87,
+        "90d": 86.31,
         "1y": 93.15
       }
     },
@@ -349,14 +322,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 84.44,
-        "90d": 73.87,
-        "1y": 54.2
+        "30d": 84.47,
+        "90d": 74.08,
+        "1y": 54.47
       }
     },
     {
@@ -375,42 +348,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 69.44,
-        "90d": 64.65,
-        "1y": 59.26
-      }
-    },
-    {
-      "ip": "122.2.76.81",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "122.2.76.81.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 63.83,
-        "90d": 62.19,
-        "1y": 62.94
+        "24h": 100.0,
+        "30d": 69.77,
+        "90d": 64.53,
+        "1y": 59.29
       }
     },
     {
@@ -430,14 +376,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.47,
-        "90d": 87.14,
-        "1y": 93.06
+        "30d": 96.48,
+        "90d": 87.1,
+        "1y": 93.07
       }
     },
     {
@@ -457,14 +403,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 90.04,
-        "90d": 85.63,
-        "1y": 90.98
+        "24h": 76.92,
+        "30d": 90.27,
+        "90d": 85.58,
+        "1y": 90.99
       }
     },
     {
@@ -488,9 +434,9 @@
         "adult": true
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 94.39,
-        "90d": 88.0,
+        "24h": 100.0,
+        "30d": 94.42,
+        "90d": 87.98,
         "1y": 91.97
       }
     },
@@ -511,14 +457,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.57,
-        "90d": 87.14,
-        "1y": 80.34
+        "30d": 93.79,
+        "90d": 87.1,
+        "1y": 80.37
       }
     },
     {
@@ -537,15 +483,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 95.22,
-        "90d": 89.14,
-        "1y": 93.9
+        "24h": 91.67,
+        "30d": 95.45,
+        "90d": 89.1,
+        "1y": 93.91
       }
     },
     {
@@ -566,13 +512,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 93.33,
-        "30d": 91.81,
-        "90d": 81.8,
-        "1y": 91.56
+        "30d": 91.85,
+        "90d": 81.75,
+        "1y": 91.57
       }
     },
     {
@@ -592,13 +538,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 86.51,
-        "90d": 84.6,
+        "24h": 86.67,
+        "30d": 86.98,
+        "90d": 84.52,
         "1y": 82.94
       }
     },
@@ -623,10 +569,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 90.87,
-        "90d": 80.09,
-        "1y": 84.58
+        "24h": 84.62,
+        "30d": 90.89,
+        "90d": 80.26,
+        "1y": 84.56
       }
     },
     {
@@ -647,12 +593,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.68,
-        "90d": 84.96,
+        "30d": 96.9,
+        "90d": 84.92,
         "1y": 92.0
       }
     },
@@ -674,12 +620,12 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.26,
-        "90d": 87.46,
+        "30d": 96.28,
+        "90d": 87.48,
         "1y": 91.56
       }
     },
@@ -701,13 +647,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 40.0,
-        "30d": 35.58,
-        "90d": 20.57,
-        "1y": 25.19
+        "24h": 91.67,
+        "30d": 37.5,
+        "90d": 21.01,
+        "1y": 25.3
       }
     },
     {
@@ -728,12 +674,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.68,
-        "90d": 83.49,
+        "30d": 96.69,
+        "90d": 83.44,
         "1y": 91.13
       }
     },
@@ -759,8 +705,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 68.32,
-        "90d": 88.31,
+        "30d": 68.93,
+        "90d": 88.27,
         "1y": 93.84
       }
     },
@@ -780,15 +726,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.66,
-        "90d": 80.49,
-        "1y": 86.05
+        "30d": 90.91,
+        "90d": 80.44,
+        "1y": 86.06
       }
     },
     {
@@ -807,15 +753,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 91.29,
-        "90d": 87.22,
-        "1y": 92.38
+        "24h": 92.86,
+        "30d": 91.51,
+        "90d": 87.18,
+        "1y": 92.39
       }
     },
     {
@@ -834,14 +780,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 79.57,
-        "90d": 77.03,
+        "24h": 81.25,
+        "30d": 79.72,
+        "90d": 76.94,
         "1y": 80.92
       }
     },
@@ -862,14 +808,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 80.0,
-        "30d": 49.65,
-        "90d": 21.01,
-        "1y": 31.17
+        "30d": 49.83,
+        "90d": 21.14,
+        "1y": 31.19
       }
     },
     {
@@ -889,12 +835,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 91.06,
+        "24h": 93.75,
+        "30d": 90.91,
         "90d": 79.83,
         "1y": 86.46
       }
@@ -917,13 +863,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.81,
-        "90d": 84.31,
-        "1y": 91.13
+        "30d": 94.83,
+        "90d": 84.26,
+        "1y": 91.14
       }
     },
     {
@@ -943,14 +889,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.95,
-        "90d": 81.71,
-        "1y": 86.64
+        "30d": 91.19,
+        "90d": 81.66,
+        "1y": 86.65
       }
     },
     {
@@ -969,15 +915,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.35,
-        "90d": 85.17,
-        "1y": 88.94
+        "30d": 93.37,
+        "90d": 85.1,
+        "1y": 88.95
       }
     },
     {
@@ -998,13 +944,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 73.33,
-        "30d": 75.73,
-        "90d": 66.75,
-        "1y": 61.72
+        "24h": 91.67,
+        "30d": 76.19,
+        "90d": 66.67,
+        "1y": 61.74
+      }
+    },
+    {
+      "ip": "124.105.217.50",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 86.67,
+        "30d": 89.67,
+        "90d": 86.41,
+        "1y": 91.23
       }
     },
     {
@@ -1028,10 +1001,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 89.63,
-        "90d": 82.34,
-        "1y": 74.36
+        "24h": 100.0,
+        "30d": 89.86,
+        "90d": 82.27,
+        "1y": 74.39
       }
     },
     {
@@ -1056,8 +1029,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.47,
-        "90d": 88.44,
+        "30d": 96.48,
+        "90d": 88.41,
         "1y": 94.33
       }
     },
@@ -1082,10 +1055,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 46.67,
-        "30d": 51.75,
-        "90d": 34.43,
-        "1y": 34.71
+        "24h": 40.0,
+        "30d": 51.86,
+        "90d": 34.38,
+        "1y": 34.74
       }
     },
     {
@@ -1106,13 +1079,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 94.19,
-        "90d": 89.88,
-        "1y": 94.62
+        "24h": 92.31,
+        "30d": 94.2,
+        "90d": 89.81,
+        "1y": 94.61
       }
     },
     {
@@ -1132,14 +1105,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 89.21,
-        "90d": 85.13,
-        "1y": 80.61
+        "24h": 92.86,
+        "30d": 89.44,
+        "90d": 85.09,
+        "1y": 80.62
       }
     },
     {
@@ -1159,13 +1132,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.98,
-        "90d": 84.32,
+        "30d": 94.0,
+        "90d": 84.27,
         "1y": 90.74
       }
     },
@@ -1191,9 +1164,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.44,
-        "90d": 85.37,
-        "1y": 91.73
+        "30d": 95.45,
+        "90d": 85.33,
+        "1y": 91.74
       }
     },
     {
@@ -1214,12 +1187,12 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.68,
-        "90d": 89.43,
+        "30d": 96.69,
+        "90d": 89.4,
         "1y": 94.4
       }
     },
@@ -1241,13 +1214,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.44,
-        "90d": 89.59,
-        "1y": 94.5
+        "30d": 95.66,
+        "90d": 89.56,
+        "1y": 94.51
       }
     },
     {
@@ -1268,13 +1241,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.04,
-        "90d": 82.91,
-        "1y": 74.93
+        "30d": 95.1,
+        "90d": 83.11,
+        "1y": 74.94
       }
     },
     {
@@ -1295,13 +1268,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.85,
-        "90d": 89.63,
-        "1y": 94.58
+        "30d": 96.28,
+        "90d": 89.61,
+        "1y": 94.59
       }
     },
     {
@@ -1321,13 +1294,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 89.83,
-        "90d": 80.75,
+        "24h": 100.0,
+        "30d": 89.88,
+        "90d": 80.69,
         "1y": 87.88
       }
     },
@@ -1347,14 +1320,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 96.27,
-        "90d": 87.61,
+        "90d": 87.57,
         "1y": 93.78
       }
     },
@@ -1376,12 +1349,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 95.44,
-        "90d": 88.82,
+        "24h": 91.67,
+        "30d": 95.45,
+        "90d": 88.77,
         "1y": 94.17
       }
     },
@@ -1402,13 +1375,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.88,
-        "90d": 88.94,
+        "30d": 96.89,
+        "90d": 88.89,
         "1y": 94.44
       }
     },
@@ -1429,14 +1402,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.44,
-        "90d": 84.43,
-        "1y": 91.85
+        "30d": 95.65,
+        "90d": 84.38,
+        "1y": 91.86
       }
     },
     {
@@ -1456,14 +1429,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 94.61,
+        "24h": 92.31,
+        "30d": 94.82,
         "90d": 87.66,
-        "1y": 93.74
+        "1y": 93.75
       }
     },
     {
@@ -1483,14 +1456,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 88.59,
-        "90d": 81.36,
-        "1y": 73.18
+        "24h": 83.33,
+        "30d": 88.61,
+        "90d": 81.28,
+        "1y": 73.19
       }
     },
     {
@@ -1509,15 +1482,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 93.15,
-        "90d": 87.51,
-        "1y": 93.57
+        "24h": 91.67,
+        "30d": 93.37,
+        "90d": 87.45,
+        "1y": 93.58
       }
     },
     {
@@ -1537,14 +1510,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.27,
-        "90d": 88.73,
-        "1y": 93.66
+        "30d": 96.28,
+        "90d": 88.7,
+        "1y": 93.67
       }
     },
     {
@@ -1569,9 +1542,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.26,
-        "90d": 89.1,
-        "1y": 91.69
+        "30d": 96.27,
+        "90d": 89.06,
+        "1y": 91.7
       }
     },
     {
@@ -1590,15 +1563,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.55,
-        "90d": 84.08,
-        "1y": 90.78
+        "30d": 90.61,
+        "90d": 84.02,
+        "1y": 90.79
       }
     },
     {
@@ -1618,13 +1591,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.43,
-        "90d": 85.95,
+        "30d": 95.86,
+        "90d": 85.88,
         "1y": 92.16
       }
     },
@@ -1649,10 +1622,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 85.89,
-        "90d": 86.48,
-        "1y": 91.35
+        "24h": 100.0,
+        "30d": 86.13,
+        "90d": 86.43,
+        "1y": 91.36
       }
     },
     {
@@ -1673,13 +1646,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.85,
-        "90d": 86.84,
-        "1y": 93.3
+        "30d": 96.07,
+        "90d": 86.8,
+        "1y": 93.31
       }
     },
     {
@@ -1698,13 +1671,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.75,
+        "30d": 98.76,
         "90d": 89.0,
         "1y": 94.46
       }
@@ -1731,9 +1704,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.69,
-        "90d": 84.73,
-        "1y": 75.87
+        "30d": 95.74,
+        "90d": 84.86,
+        "1y": 75.89
       }
     },
     {
@@ -1753,14 +1726,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 53.33,
-        "30d": 65.35,
-        "90d": 62.8,
-        "1y": 63.72
+        "24h": 76.92,
+        "30d": 65.84,
+        "90d": 62.99,
+        "1y": 63.74
       }
     },
     {
@@ -1780,14 +1753,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.34,
-        "90d": 79.92,
-        "1y": 86.28
+        "30d": 97.4,
+        "90d": 79.8,
+        "1y": 86.29
+      }
+    },
+    {
+      "ip": "121.58.246.247",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Converge ICT Solution Inc",
+      "domain": "247.246.58.121.-rev.convergeict.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 62.5,
+        "30d": 70.04,
+        "90d": 64.66,
+        "1y": 62.25
       }
     },
     {
@@ -1807,14 +1807,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.01,
+        "30d": 98.02,
         "90d": 99.42,
-        "1y": 99.54
+        "1y": 99.55
       }
     },
     {
@@ -1833,69 +1833,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 93.98,
-        "90d": 86.07,
-        "1y": 92.58
-      }
-    },
-    {
-      "ip": "152.32.80.251",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Converge Information and Communications Technology Solutions",
-      "domain": "251.80.32.152.convergeict.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 73.33,
-        "30d": 79.05,
-        "90d": 82.26,
-        "1y": 83.1
-      }
-    },
-    {
-      "ip": "124.83.68.171",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "124.83.68.171.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 73.33,
-        "30d": 88.36,
-        "90d": 84.56,
-        "1y": 85.49
+        "24h": 100.0,
+        "30d": 94.21,
+        "90d": 86.04,
+        "1y": 92.59
       }
     },
     {
@@ -1915,41 +1861,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.06,
-        "90d": 88.49,
+        "30d": 96.07,
+        "90d": 88.46,
         "1y": 94.24
-      }
-    },
-    {
-      "ip": "124.106.235.59",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.1,
-        "90d": 85.62,
-        "1y": 87.49
       }
     },
     {
@@ -1970,13 +1889,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.49,
-        "90d": 84.31,
-        "1y": 81.79
+        "30d": 91.74,
+        "90d": 84.26,
+        "1y": 81.8
       }
     },
     {
@@ -1992,17 +1911,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 94.81,
-        "90d": 90.79,
+        "24h": 92.86,
+        "30d": 94.82,
+        "90d": 90.76,
         "1y": 95.06
       }
     },
@@ -2024,13 +1943,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.85,
-        "90d": 89.59,
+        "30d": 95.87,
+        "90d": 89.57,
         "1y": 93.52
+      }
+    },
+    {
+      "ip": "122.55.142.178",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "122.55.142.178.static.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 93.33,
+        "30d": 90.5,
+        "90d": 83.45,
+        "1y": 87.67
       }
     },
     {
@@ -2049,14 +1995,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.88,
-        "90d": 90.62,
+        "30d": 96.89,
+        "90d": 90.58,
         "1y": 95.05
       }
     },
@@ -2078,12 +2024,12 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 93.33,
-        "30d": 94.81,
-        "90d": 86.36,
+        "30d": 95.04,
+        "90d": 86.32,
         "1y": 93.08
       }
     },
@@ -2108,10 +2054,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 86.1,
+        "24h": 86.67,
+        "30d": 86.16,
         "90d": 81.24,
-        "1y": 75.54
+        "1y": 75.56
       }
     },
     {
@@ -2132,12 +2078,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.23,
-        "90d": 88.53,
+        "30d": 95.25,
+        "90d": 88.5,
         "1y": 94.64
       }
     },
@@ -2159,13 +2105,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 87.11,
-        "90d": 81.03,
-        "1y": 86.09
+        "24h": 93.75,
+        "30d": 86.98,
+        "90d": 80.95,
+        "1y": 86.08
       }
     },
     {
@@ -2189,9 +2135,9 @@
         "adult": true
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 88.47,
-        "90d": 84.53,
+        "24h": 100.0,
+        "30d": 88.52,
+        "90d": 84.46,
         "1y": 91.98
       }
     },
@@ -2213,13 +2159,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 73.33,
-        "30d": 82.37,
-        "90d": 69.6,
-        "1y": 70.77
+        "24h": 80.0,
+        "30d": 82.85,
+        "90d": 69.57,
+        "1y": 70.79
       }
     },
     {
@@ -2235,18 +2181,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 93.33,
+        "24h": 91.67,
         "30d": 96.93,
-        "90d": 88.88,
-        "1y": 92.0
+        "90d": 88.83,
+        "1y": 92.01
       }
     },
     {
@@ -2262,7 +2208,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -2270,9 +2216,9 @@
         "adult": true
       },
       "uptime": {
-        "24h": 46.67,
-        "30d": 62.66,
-        "90d": 69.03,
+        "24h": 53.33,
+        "30d": 62.81,
+        "90d": 68.95,
         "1y": 61.03
       }
     },
@@ -2298,9 +2244,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.78,
-        "90d": 88.2,
-        "1y": 89.08
+        "30d": 93.8,
+        "90d": 88.17,
+        "1y": 89.09
       }
     },
     {
@@ -2320,14 +2266,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 96.26,
-        "90d": 79.47,
-        "1y": 87.69
+        "24h": 91.67,
+        "30d": 96.27,
+        "90d": 79.37,
+        "1y": 87.7
       }
     },
     {
@@ -2347,14 +2293,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 91.49,
-        "90d": 82.51,
-        "1y": 89.97
+        "24h": 91.67,
+        "30d": 91.72,
+        "90d": 82.44,
+        "1y": 89.98
       }
     },
     {
@@ -2374,14 +2320,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 61.59,
-        "90d": 60.94,
-        "1y": 75.45
+        "24h": 91.67,
+        "30d": 61.87,
+        "90d": 60.92,
+        "1y": 75.46
       }
     },
     {
@@ -2400,42 +2346,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 53.33,
-        "30d": 74.48,
-        "90d": 64.8,
-        "1y": 65.29
-      }
-    },
-    {
-      "ip": "122.53.214.65",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Co",
-      "domain": "122.53.214.65.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 93.57,
-        "90d": 87.63,
-        "1y": 93.28
+        "24h": 84.62,
+        "30d": 74.95,
+        "90d": 64.77,
+        "1y": 65.32
       }
     },
     {
@@ -2454,15 +2373,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 80.0,
-        "30d": 92.53,
-        "90d": 82.63,
-        "1y": 89.89
+        "30d": 92.98,
+        "90d": 82.58,
+        "1y": 89.9
       }
     },
     {
@@ -2481,42 +2400,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 89.63,
-        "90d": 83.0,
-        "1y": 88.75
-      }
-    },
-    {
-      "ip": "210.5.89.193",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "host.2.static.gaisanogroup.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 88.38,
-        "90d": 77.75,
-        "1y": 85.25
+        "24h": 100.0,
+        "30d": 89.67,
+        "90d": 82.96,
+        "1y": 88.76
       }
     },
     {
@@ -2536,41 +2428,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.06,
-        "90d": 88.08,
-        "1y": 93.42
-      }
-    },
-    {
-      "ip": "210.5.64.10",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "South Luzon Tollway Corporation",
-      "domain": "host.19.static.sltc.ph",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 60.0,
-        "30d": 70.75,
-        "90d": 64.85,
-        "1y": 75.52
+        "30d": 96.07,
+        "90d": 88.04,
+        "1y": 93.43
       }
     },
     {
@@ -2590,14 +2455,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.71,
-        "90d": 85.78,
-        "1y": 92.99
+        "30d": 97.72,
+        "90d": 85.71,
+        "1y": 93.0
       }
     },
     {
@@ -2617,14 +2482,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.26,
-        "90d": 91.23,
-        "1y": 94.4
+        "30d": 96.27,
+        "90d": 91.24,
+        "1y": 94.41
       }
     },
     {
@@ -2644,14 +2509,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 93.36,
-        "90d": 85.5,
-        "1y": 92.85
+        "24h": 92.31,
+        "30d": 93.58,
+        "90d": 85.49,
+        "1y": 92.86
       }
     },
     {
@@ -2676,9 +2541,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.26,
-        "90d": 86.52,
-        "1y": 87.35
+        "30d": 96.27,
+        "90d": 86.46,
+        "1y": 87.36
       }
     },
     {
@@ -2699,12 +2564,12 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.93,
-        "90d": 88.53,
+        "30d": 98.14,
+        "90d": 88.48,
         "1y": 91.96
       }
     },
@@ -2730,8 +2595,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.64,
-        "90d": 86.97,
+        "30d": 96.07,
+        "90d": 86.94,
         "1y": 92.84
       }
     },
@@ -2753,13 +2618,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.57,
-        "90d": 88.2,
-        "1y": 93.65
+        "30d": 93.8,
+        "90d": 88.17,
+        "1y": 93.66
       }
     },
     {
@@ -2779,14 +2644,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 87.14,
-        "90d": 82.42,
-        "1y": 85.74
+        "24h": 85.71,
+        "30d": 87.16,
+        "90d": 82.29,
+        "1y": 85.73
       }
     },
     {
@@ -2806,14 +2671,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 82.78,
-        "90d": 71.89,
-        "1y": 89.36
+        "30d": 83.48,
+        "90d": 72.08,
+        "1y": 89.37
       }
     },
     {
@@ -2832,15 +2697,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.46,
-        "90d": 91.18,
-        "1y": 95.48
+        "30d": 92.48,
+        "90d": 91.15,
+        "1y": 95.49
       }
     },
     {
@@ -2861,12 +2726,12 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.59,
-        "90d": 96.02,
+        "90d": 96.01,
         "1y": 96.12
       }
     },
@@ -2891,10 +2756,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 73.33,
-        "30d": 71.93,
-        "90d": 77.8,
-        "1y": 86.67
+        "24h": 75.0,
+        "30d": 71.64,
+        "90d": 77.61,
+        "1y": 86.66
       }
     },
     {
@@ -2915,13 +2780,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.46,
-        "90d": 89.84,
-        "1y": 88.72
+        "30d": 90.5,
+        "90d": 89.81,
+        "1y": 88.73
       }
     },
     {
@@ -2940,42 +2805,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.33,
-        "30d": 89.63,
-        "90d": 80.29,
-        "1y": 88.73
-      }
-    },
-    {
-      "ip": "119.93.121.146",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Supersonic Manufacturing Incorporated",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 61.62,
-        "90d": 62.56,
-        "1y": 63.27
+        "24h": 92.86,
+        "30d": 89.67,
+        "90d": 80.32,
+        "1y": 88.72
       }
     },
     {
@@ -3000,9 +2838,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.61,
+        "30d": 94.83,
         "90d": 86.15,
-        "1y": 89.46
+        "1y": 89.47
       }
     },
     {
@@ -3022,13 +2860,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 93.35,
-        "90d": 83.16,
+        "24h": 100.0,
+        "30d": 93.37,
+        "90d": 83.09,
         "1y": 88.42
       }
     },
@@ -3049,13 +2887,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 86.72,
-        "90d": 80.7,
+        "30d": 86.75,
+        "90d": 80.63,
         "1y": 88.56
       }
     },
@@ -3077,13 +2915,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 95.64,
-        "90d": 89.39,
-        "1y": 94.92
+        "24h": 92.86,
+        "30d": 95.45,
+        "90d": 89.31,
+        "1y": 94.91
       }
     },
     {
@@ -3104,13 +2942,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 53.33,
-        "30d": 77.39,
-        "90d": 79.35,
-        "1y": 81.07
+        "24h": 57.14,
+        "30d": 77.07,
+        "90d": 79.21,
+        "1y": 81.04
       }
     },
     {
@@ -3129,15 +2967,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 73.33,
-        "30d": 76.14,
-        "90d": 69.78,
-        "1y": 64.31
+        "24h": 78.57,
+        "30d": 76.45,
+        "90d": 69.77,
+        "1y": 64.34
       }
     },
     {
@@ -3162,8 +3000,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.61,
-        "90d": 85.61,
+        "30d": 94.82,
+        "90d": 85.57,
         "1y": 91.41
       }
     },
@@ -3188,10 +3026,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 40.0,
-        "30d": 49.65,
-        "90d": 45.22,
-        "1y": 53.12
+        "24h": 38.46,
+        "30d": 49.29,
+        "90d": 44.86,
+        "1y": 53.1
       }
     },
     {
@@ -3211,13 +3049,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 92.53,
-        "90d": 87.67,
+        "24h": 85.71,
+        "30d": 92.75,
+        "90d": 87.63,
         "1y": 94.09
       }
     },
@@ -3237,15 +3075,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 79.0,
-        "90d": 71.02,
-        "1y": 63.6
+        "24h": 91.67,
+        "30d": 79.3,
+        "90d": 71.15,
+        "1y": 63.7
       }
     },
     {
@@ -3264,15 +3102,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.23,
-        "90d": 90.95,
-        "1y": 90.88
+        "30d": 95.45,
+        "90d": 90.92,
+        "1y": 90.89
       }
     },
     {
@@ -3297,8 +3135,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.59,
-        "90d": 83.61,
+        "30d": 94.62,
+        "90d": 83.54,
         "1y": 91.76
       }
     },
@@ -3318,15 +3156,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.42,
-        "90d": 85.86,
-        "1y": 73.28
+        "30d": 89.44,
+        "90d": 85.82,
+        "1y": 73.3
       }
     },
     {
@@ -3346,41 +3184,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 96.68,
-        "90d": 89.64,
-        "1y": 94.42
-      }
-    },
-    {
-      "ip": "119.92.117.102",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "1-jhutid_smart Communications Inc.",
-      "domain": "119.92.117.102.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 86.67,
-        "30d": 89.4,
-        "90d": 77.55,
-        "1y": 83.46
+        "24h": 92.86,
+        "30d": 96.89,
+        "90d": 89.61,
+        "1y": 94.43
       }
     },
     {
@@ -3399,14 +3210,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 97.93,
-        "90d": 89.35,
+        "90d": 89.32,
         "1y": 94.28
       }
     },
@@ -3432,8 +3243,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.76,
-        "90d": 89.84,
+        "30d": 93.8,
+        "90d": 89.82,
         "1y": 94.45
       }
     },
@@ -3454,13 +3265,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.23,
-        "90d": 90.5,
+        "30d": 95.45,
+        "90d": 90.47,
         "1y": 95.05
       }
     },
@@ -3486,9 +3297,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.19,
-        "90d": 86.58,
-        "1y": 78.42
+        "30d": 89.26,
+        "90d": 86.61,
+        "1y": 78.46
       }
     },
     {
@@ -3507,15 +3318,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 89.21,
-        "90d": 80.91,
-        "1y": 87.66
+        "24h": 85.71,
+        "30d": 89.44,
+        "90d": 80.85,
+        "1y": 87.67
       }
     },
     {
@@ -3536,13 +3347,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.57,
-        "90d": 87.99,
-        "1y": 92.1
+        "30d": 93.8,
+        "90d": 87.96,
+        "1y": 92.11
       }
     },
     {
@@ -3558,18 +3369,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.02,
-        "90d": 85.95,
-        "1y": 87.54
+        "30d": 95.04,
+        "90d": 85.91,
+        "1y": 87.55
       }
     },
     {
@@ -3588,15 +3399,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 87.44,
+        "90d": 80.98,
+        "1y": 88.04
+      }
+    },
+    {
+      "ip": "121.58.248.195",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Converge ICT Solution Inc",
+      "domain": "philhealth.gov.ph",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.2,
-        "90d": 81.05,
-        "1y": 88.03
+        "30d": 21.05,
+        "90d": 79.35,
+        "1y": 76.08
       }
     },
     {
@@ -3615,14 +3453,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.87,
-        "90d": 93.0,
+        "30d": 96.89,
+        "90d": 92.97,
         "1y": 97.06
       }
     },
@@ -3643,12 +3481,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.19,
+        "30d": 94.41,
         "90d": 87.25,
         "1y": 91.92
       }
@@ -3670,14 +3508,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.76,
-        "90d": 91.23,
-        "1y": 96.58
+        "30d": 93.8,
+        "90d": 91.22,
+        "1y": 96.59
       }
     },
     {
@@ -3697,41 +3535,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.98,
-        "90d": 87.42,
+        "30d": 94.0,
+        "90d": 87.37,
         "1y": 93.6
-      }
-    },
-    {
-      "ip": "203.177.215.1",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "NJF Finance Corporation",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 35.85,
-        "90d": 75.07,
-        "1y": 87.96
       }
     },
     {
@@ -3751,13 +3562,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.32,
-        "90d": 93.04,
+        "30d": 87.4,
+        "90d": 93.02,
         "1y": 95.72
       }
     },
@@ -3777,15 +3588,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 96.88,
-        "90d": 90.09,
+        "24h": 91.67,
+        "30d": 96.89,
+        "90d": 90.05,
         "1y": 94.89
+      }
+    },
+    {
+      "ip": "124.83.72.92",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "124.83.72.92.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 73.33,
+        "30d": 59.69,
+        "90d": 45.22,
+        "1y": 41.3
       }
     },
     {
@@ -3804,15 +3642,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 63.29,
-        "90d": 63.59,
-        "1y": 61.78
+        "24h": 71.43,
+        "30d": 63.72,
+        "90d": 63.52,
+        "1y": 61.81
       }
     },
     {
@@ -3837,36 +3675,9 @@
       },
       "uptime": {
         "24h": 93.33,
-        "30d": 94.81,
-        "90d": 89.59,
+        "30d": 95.04,
+        "90d": 89.56,
         "1y": 94.57
-      }
-    },
-    {
-      "ip": "180.232.81.98",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Eastern Telecommunications Philippines",
-      "domain": "98.81.232.180.dsl.static.inet.as18190",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 46.67,
-        "30d": 65.9,
-        "90d": 64.4,
-        "1y": 64.89
       }
     },
     {
@@ -3891,8 +3702,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.02,
-        "90d": 86.52,
+        "30d": 95.04,
+        "90d": 86.48,
         "1y": 91.84
       }
     },
@@ -3909,17 +3720,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 96.26,
-        "90d": 92.09,
+        "24h": 93.75,
+        "30d": 96.28,
+        "90d": 92.08,
         "1y": 93.56
       }
     },
@@ -3945,9 +3756,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.85,
-        "90d": 89.84,
-        "1y": 94.62
+        "30d": 95.87,
+        "90d": 89.82,
+        "1y": 94.63
       }
     },
     {
@@ -3972,8 +3783,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.23,
-        "90d": 84.1,
+        "30d": 95.25,
+        "90d": 84.06,
         "1y": 91.32
       }
     },
@@ -3999,8 +3810,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.08,
-        "90d": 86.56,
+        "30d": 91.12,
+        "90d": 86.53,
         "1y": 92.32
       }
     },
@@ -4022,13 +3833,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 93.97,
-        "90d": 83.61,
-        "1y": 88.62
+        "24h": 100.0,
+        "30d": 94.0,
+        "90d": 83.58,
+        "1y": 88.63
       }
     },
     {
@@ -4047,15 +3858,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.8,
-        "90d": 83.74,
-        "1y": 90.25
+        "30d": 89.03,
+        "90d": 83.67,
+        "1y": 90.26
       }
     },
     {
@@ -4075,14 +3886,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 97.1,
-        "90d": 87.83,
-        "1y": 93.46
+        "90d": 87.79,
+        "1y": 93.47
       }
     },
     {
@@ -4103,12 +3914,12 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.85,
-        "90d": 89.92,
+        "30d": 96.28,
+        "90d": 89.89,
         "1y": 94.1
       }
     },
@@ -4129,13 +3940,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 93.33,
-        "30d": 93.15,
-        "90d": 89.06,
+        "30d": 93.18,
+        "90d": 89.03,
         "1y": 94.61
       }
     },
@@ -4157,13 +3968,40 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 91.89,
-        "90d": 84.15,
-        "1y": 89.93
+        "24h": 100.0,
+        "30d": 91.93,
+        "90d": 84.12,
+        "1y": 89.94
+      }
+    },
+    {
+      "ip": "122.53.213.74",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "122.53.213.74.static.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 86.67,
+        "30d": 93.8,
+        "90d": 85.88,
+        "1y": 90.34
       }
     },
     {
@@ -4188,9 +4026,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.06,
-        "90d": 87.91,
-        "1y": 92.85
+        "30d": 96.27,
+        "90d": 87.88,
+        "1y": 92.86
       }
     },
     {
@@ -4210,14 +4048,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.22,
-        "90d": 86.4,
-        "1y": 92.5
+        "30d": 95.25,
+        "90d": 86.38,
+        "1y": 92.51
+      }
+    },
+    {
+      "ip": "27.126.155.1",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "RADIUS TELECOMS, INC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 86.96,
+        "90d": 83.5,
+        "1y": 79.71
       }
     },
     {
@@ -4241,10 +4106,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 73.33,
-        "30d": 88.38,
-        "90d": 73.36,
-        "1y": 66.3
+        "24h": 76.92,
+        "30d": 88.61,
+        "90d": 73.3,
+        "1y": 66.33
       }
     },
     {
@@ -4269,9 +4134,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.84,
-        "90d": 84.68,
-        "1y": 91.09
+        "30d": 95.86,
+        "90d": 84.62,
+        "1y": 91.1
       }
     },
     {
@@ -4290,15 +4155,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 92.95,
-        "90d": 96.11,
-        "1y": 93.09
+        "24h": 100.0,
+        "30d": 92.96,
+        "90d": 96.1,
+        "1y": 93.1
       }
     },
     {
@@ -4318,14 +4183,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.23,
-        "90d": 89.92,
-        "1y": 94.82
+        "30d": 95.25,
+        "90d": 89.9,
+        "1y": 94.83
       }
     },
     {
@@ -4346,13 +4211,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.61,
-        "90d": 84.62,
-        "1y": 76.58
+        "30d": 94.82,
+        "90d": 84.65,
+        "1y": 76.63
       }
     },
     {
@@ -4372,14 +4237,68 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 88.52,
+        "90d": 82.37,
+        "1y": 87.77
+      }
+    },
+    {
+      "ip": "124.106.234.45",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 75.83,
+        "90d": 69.03,
+        "1y": 45.89
+      }
+    },
+    {
+      "ip": "115.146.250.193",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Co",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 88.47,
-        "90d": 82.4,
-        "1y": 87.76
+        "24h": 86.67,
+        "30d": 93.8,
+        "90d": 84.54,
+        "1y": 86.13
       }
     }
   ]

@@ -4,7 +4,7 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-11-26T18:02:48Z",
+    "generated_at": "2026-11-27T06:18:51Z",
     "total_servers": 5
   },
   "resolvers": [
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 96.27,
-        "90d": 93.24,
-        "1y": 94.98
+        "24h": 91.67,
+        "30d": 96.07,
+        "90d": 93.17,
+        "1y": 94.97
       }
     },
     {
@@ -51,42 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 92.53,
-        "90d": 90.85,
-        "1y": 79.11
+        "24h": 85.71,
+        "30d": 92.56,
+        "90d": 90.88,
+        "1y": 79.16
       }
     },
     {
-      "ip": "81.192.7.147",
+      "ip": "81.192.193.223",
       "version": 4,
       "country_code": "ma",
       "country": "Morocco",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "LLI ccm",
-      "domain": "srv1-ccm.ma",
+      "organization": "IAM",
+      "domain": "adsl-223-193-192-81.adsl.iam.net.ma",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": false
+        "aware": false,
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 69.79,
-        "90d": 56.82,
-        "1y": 53.82
+        "24h": 40.0,
+        "30d": 34.46,
+        "90d": 28.44,
+        "1y": 13.12
       }
     },
     {
@@ -111,9 +111,9 @@
       },
       "uptime": {
         "24h": 93.33,
-        "30d": 93.36,
-        "90d": 90.58,
-        "1y": 83.58
+        "30d": 93.39,
+        "90d": 90.56,
+        "1y": 83.6
       }
     },
     {
@@ -137,10 +137,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 90.85,
-        "90d": 90.58,
-        "1y": 96.16
+        "24h": 91.67,
+        "30d": 90.68,
+        "90d": 90.49,
+        "1y": 96.15
       }
     }
   ]

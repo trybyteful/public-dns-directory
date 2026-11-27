@@ -4,8 +4,8 @@
     "country_name": "Mongolia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-26T18:02:48Z",
-    "total_servers": 9
+    "generated_at": "2026-11-27T06:18:51Z",
+    "total_servers": 10
   },
   "resolvers": [
     {
@@ -57,9 +57,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.96,
-        "90d": 96.35,
+        "30d": 98.97,
+        "90d": 96.34,
         "1y": 95.56
+      }
+    },
+    {
+      "ip": "103.20.152.11",
+      "version": 4,
+      "country_code": "mn",
+      "country": "Mongolia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "ISATCOM",
+      "domain": "mail.isatcom.mn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 61.54,
+        "30d": 57.97,
+        "90d": 65.56,
+        "1y": 87.38
       }
     },
     {
@@ -79,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 64.11,
-        "90d": 60.25,
-        "1y": 61.36
+        "24h": 84.62,
+        "30d": 64.8,
+        "90d": 60.21,
+        "1y": 61.38
       }
     },
     {
@@ -106,14 +133,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 73.33,
-        "30d": 91.89,
-        "90d": 95.17,
-        "1y": 92.33
+        "24h": 91.67,
+        "30d": 91.93,
+        "90d": 95.14,
+        "1y": 92.34
       }
     },
     {
@@ -165,7 +192,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.43,
+        "30d": 95.45,
         "90d": 98.03,
         "1y": 96.84
       }
@@ -191,9 +218,9 @@
         "adult": true
       },
       "uptime": {
-        "24h": 93.33,
+        "24h": 100.0,
         "30d": 96.27,
-        "90d": 94.1,
+        "90d": 94.08,
         "1y": 92.0
       }
     },
@@ -213,14 +240,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.8,
+        "90d": 99.79,
         "1y": 99.84
       }
     },
@@ -241,14 +268,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 83.19,
-        "90d": 43.86,
-        "1y": 82.49
+        "30d": 83.89,
+        "90d": 43.63,
+        "1y": 82.51
       }
     }
   ]
