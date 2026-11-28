@@ -4,7 +4,7 @@
     "country_name": "Laos",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-11-27T18:02:51Z",
+    "generated_at": "2026-11-28T06:16:47Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -30,8 +30,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.26,
-        "90d": 98.56,
+        "30d": 95.28,
+        "90d": 98.55,
         "1y": 97.83
       }
     },
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.91,
+        "30d": 96.92,
         "90d": 98.76,
-        "1y": 95.56
+        "1y": 95.57
       }
     },
     {
@@ -75,18 +75,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 86.37,
-        "90d": 93.94,
-        "1y": 97.17
+        "24h": 84.62,
+        "30d": 86.21,
+        "90d": 93.88,
+        "1y": 97.15
       }
     }
   ]

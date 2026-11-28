@@ -4,7 +4,7 @@
     "country_name": "Zimbabwe",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-11-27T18:02:51Z",
+    "generated_at": "2026-11-28T06:16:47Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -20,7 +20,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -30,36 +30,9 @@
       },
       "uptime": {
         "24h": 84.62,
-        "30d": 55.27,
-        "90d": 42.24,
-        "1y": 63.38
-      }
-    },
-    {
-      "ip": "196.27.106.21",
-      "version": 4,
-      "country_code": "zw",
-      "country": "Zimbabwe",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "ZOL-AFRCOM",
-      "domain": "521243.customer.zol.co.zw",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 66.59,
-        "90d": 68.69,
-        "1y": 80.52
+        "30d": 55.94,
+        "90d": 42.14,
+        "1y": 63.4
       }
     },
     {
@@ -84,9 +57,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.55,
-        "90d": 89.17,
-        "1y": 86.2
+        "30d": 91.79,
+        "90d": 89.13,
+        "1y": 86.22
       }
     },
     {
@@ -105,15 +78,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 47.8,
-        "90d": 43.48,
+        "24h": 61.54,
+        "30d": 47.92,
+        "90d": 43.46,
         "1y": 44.84
+      }
+    },
+    {
+      "ip": "41.174.182.214",
+      "version": 4,
+      "country_code": "zw",
+      "country": "Zimbabwe",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Liquid Telecommunications Operations Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 69.23,
+        "30d": 68.58,
+        "90d": 66.29,
+        "1y": 67.3
       }
     }
   ]
